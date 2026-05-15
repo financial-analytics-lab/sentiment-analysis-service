@@ -15,7 +15,7 @@ Flow for each article:
 #  TOP-LEVEL CONTROLS  -- edit these before each run
 # =============================================================================
 
-MAX_NEWS = 2
+MAX_NEWS = 1
 # Number of articles to process from all_news_by_date.json.
 # Articles are taken in chronological order (earliest date first).
 # Set to None to process all articles.
@@ -23,14 +23,15 @@ MAX_NEWS = 2
 OUTPUT_DIR = "outputs/predictions"
 
 # --- Model identifiers (must match what your API provider accepts) ------------
-GROQ_MODEL   = "llama-3.3-70b-versatile"
+GROQ_MODEL   = "qwen/qwen3-32b"
 CLAUDE_MODEL = "claude-sonnet-4.6"
 
 # --- Request limits -----------------------------------------------------------
 GROQ_MAX_TOKENS   = 1200
 CLAUDE_MAX_TOKENS = 2000
-MAX_RETRIES       = 3
+MAX_RETRIES       = 5
 RETRY_BACKOFF     = 2.0   # seconds; multiplied by attempt number on each retry
+RATE_LIMIT_BACKOFF = 30.0  # base wait after 429; multiplied by attempt number
 
 # =============================================================================
 
@@ -55,7 +56,9 @@ from arabic_sentiment import ArabicSentimentAnalyzer
 
 # Resolve paths relative to this file's location
 _HERE      = Path(__file__).parent
-NEWS_FILE  = _HERE.parent / "all_news_by_date.json"
+NEWS_FILE  = _HERE / "output" / "all_news_by_date.json"
+if not NEWS_FILE.exists():
+    NEWS_FILE = _HERE.parent / "all_news_by_date.json"
 PRICES_FILE = _HERE / "egyptian_stocks_2020_2025.json"
 
 
@@ -253,9 +256,16 @@ def _call_with_retry(
 
         except requests.HTTPError as exc:
             last_exc = exc
-            print(f"    [{agent_name}] HTTP {exc.response.status_code} (attempt {attempt})")
+            status = exc.response.status_code
+            print(f"    [{agent_name}] HTTP {status} (attempt {attempt})")
             if attempt < MAX_RETRIES:
-                time.sleep(RETRY_BACKOFF * attempt)
+                if status == 429:
+                    retry_after = exc.response.headers.get("Retry-After")
+                    wait = float(retry_after) if retry_after else RATE_LIMIT_BACKOFF * attempt
+                    print(f"    [{agent_name}] Rate limited — waiting {wait:.0f}s before retry...")
+                    time.sleep(wait)
+                else:
+                    time.sleep(RETRY_BACKOFF * attempt)
 
         except Exception as exc:
             last_exc = exc

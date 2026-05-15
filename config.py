@@ -11,7 +11,7 @@ CLAUDE_MODEL = "claude-sonnet-4.6"  # ← Ask provider what model names they sup
 
 # Groq
 GROQ_API_KEY = "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"
-GROQ_MODEL = "llama-3.3-70b-versatile"
+GROQ_MODEL = "qwen/qwen3-32b"
 
 # Directories
 INPUT_DIR = "output/combined-test/"

@@ -1,0 +1,199 @@
+{
+  "ticker": "EMFD",
+  "article_date": "2025-01-02",
+  "context_date": "2024-12-31",
+  "processed_at": "2026-05-15T21:33:18.604871",
+  "article": {
+    "symbol": "EMFD",
+    "company": "Emaar Misr for Development",
+    "isin": "EGS673Y1C015",
+    "sector": "Real Estate",
+    "id": "4387318",
+    "date": "2025-01-02",
+    "time": "10:57:06",
+    "datetime": "2025-01-02 10:57:06",
+    "title": "إعمار مصر تقرر زيادة رأس المال للاستحواذ على شركة البرو كوست",
+    "body": "القاهرة - مباشر: قررت شركة إعمار مصر للتنمية، زيادة رأسمال الشركة من 4.529 مليار جنيه إلى 5.446 مليار جنيه.\nوأوضحت الشركة في افصاح اليوم الخميس، أن الزيادة قدرها 917.59 مليون جنيه موزعة على 917.59 مليون سهم تخصص بالكامل لصالح مساهمي شركة البرو نورث كوست لإدارة الممتلكات العقارية، دون إعمال حقوق الأولوية لقدامى المساهمين.\nوأضافت أن ذلك مقابل استحواذ شركة إعمال مصرر على 674.99 مليون سهم من رأسمال البرو نورث كوست وفقًا لمعامل مبادلة الأسهم المحدد من شركة BDO كيز للاستشارات المالية والذي انتهى إلى تحديد معامل مبادلة الأسهم بإجمالي 917.59 مليون سهم زيادة في شركة إعمار مصر.\nوذلك على أن يتم تجنيب الفارق بين القيمة الاسمية والقيمة العادلة للسهم بحساب احتياطي خاص.\nيشار إلى أن إعمار مصر للتنمية،  سجلت صافي ربح بلغ 10.34 مليار جنيه منذ بداية يناير حتى نهاية سبتمبر 2024، مقابل 4.98 مليار جنيه أرباحاً خلال الفترة نفسها من العام الماضي، مع الأخذ في الاعتبار حقوق الأقلية.\nوارتفعت إيرادات الشركة خلال التسعة أشهر إلى 13.26 مليار جنيه، مقابل 10.58 مليار جنيه خلال الفترة نفسها من العام الماضي.\nوعلى صعيد القوائم غير المجمعة، ارتفعت أرباح الشركة المستقلة إلى 10.15 مليار جنيه خلال الفترة من يناير حتى نهاية سبتمبر الماضي، مقابل 4.98 مليار جنيه أرباح خلال الفترة نفسها من العام الماضي.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية\n..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر\n..\nاضغط هنا\nترشيحات\n:\nمحمد بن زايد: الإمارات حريصة على وحدة سوريا وسلامتها وسيادتها",
+    "teaser": "القاهرة - مباشر: قررت شركة إعمار مصر للتنمية، زيادة رأسمال الشركة من 4.529 مليار جنيه إلى 5.446 مليار جنيه. وأوضحت الشركة في افصاح اليوم الخميس، أن الزيادة قدرها 917.59 مليون جنيه موزعة على 917.59 مليون سهم تخصص بالكامل لصالح مساهمي شركة البرو …",
+    "section": "أخبار الشركة",
+    "source": "مباشر",
+    "categories": "stock-bonds",
+    "country": "مصر",
+    "reads": 1346,
+    "url": "https://www.mubasher.info/news/4387318",
+    "image_url": "https://static.mubasher.info/File.Story_Image/7cc5f21285fda3887be332acbb71b624/640.jpg",
+    "date_raw": "",
+    "_source": "mubasher"
+  },
+  "sentiment": {
+    "model": "CAMeL-Lab/bert-base-arabic-camelbert-mix-sentiment",
+    "label": "neutral",
+    "score": 0.1444,
+    "numeric": 0,
+    "class_probs": {
+      "neutral": 0.8495,
+      "positive": 0.1475,
+      "negative": 0.0031
+    }
+  },
+  "context": {
+    "ticker": "EMFD",
+    "company": "Emaar Misr for Development - EMFD",
+    "sector": "Real Estate",
+    "business_description": "Emaar Misr for Development — premium real estate developer; wholly-owned subsidiary of Emaar Properties (Dubai); projects include Uptown Cairo and Marassi.",
+    "event_date": "2025-01-02",
+    "last_price_date": "2024-12-31",
+    "price_state": {
+      "last_close": 7.56,
+      "return_1d": 2.58,
+      "return_5d": -0.13,
+      "return_20d": -4.3,
+      "return_60d": -3.69,
+      "pct_vs_ma50": -5.62,
+      "pct_vs_ma200": 9.72,
+      "vol_20d_annualized_pct": 29.12,
+      "vol_regime": "low",
+      "rsi_14": 42.88
+    },
+    "market_state": {
+      "sector_return_1d": 3.49,
+      "sector_return_5d": -0.48,
+      "relative_strength_vs_sector_1d": -0.91
+    },
+    "correlation_state": {
+      "corr_with_sector_90d": 0.77,
+      "top_3_correlated_peers": [
+        {
+          "ticker": "TMGH",
+          "correlation": 0.59,
+          "sector": "Real Estate"
+        },
+        {
+          "ticker": "PHDC",
+          "correlation": 0.55,
+          "sector": "Real Estate"
+        },
+        {
+          "ticker": "BTFH",
+          "correlation": 0.53,
+          "sector": "Banking & Financial Services"
+        }
+      ]
+    },
+    "recent_abnormal_returns": [
+      {
+        "date": "2024-12-25",
+        "stock_return_pct": 0.13,
+        "sector_return_pct": 0.49,
+        "abnormal_return_pct": -0.36
+      },
+      {
+        "date": "2024-12-26",
+        "stock_return_pct": -1.06,
+        "sector_return_pct": -0.91,
+        "abnormal_return_pct": -0.15
+      },
+      {
+        "date": "2024-12-29",
+        "stock_return_pct": -0.8,
+        "sector_return_pct": 0.4,
+        "abnormal_return_pct": -1.2
+      },
+      {
+        "date": "2024-12-30",
+        "stock_return_pct": -0.94,
+        "sector_return_pct": -2.07,
+        "abnormal_return_pct": 1.13
+      },
+      {
+        "date": "2024-12-31",
+        "stock_return_pct": 2.58,
+        "sector_return_pct": 2.7,
+        "abnormal_return_pct": -0.12
+      }
+    ]
+  },
+  "prompts": {
+    "impact": "You are a quantitative financial analyst specialising in the Egyptian Stock Exchange (EGX).\n\nYour task: predict how the Arabic news article below will impact the stock price of EMFD (Emaar Misr for Development - EMFD) over the next days to weeks.\n\n=== COMPANY ===\nTicker      : EMFD\nName        : Emaar Misr for Development - EMFD\nSector      : Real Estate\nDescription : Emaar Misr for Development — premium real estate developer; wholly-owned subsidiary of Emaar Properties (Dubai); projects include Uptown Cairo and Marassi.\nPrice data  : as of 2024-12-31  (article date: 2025-01-02)\n\n=== PRICE STATE ===\nLast close  : 7.56 EGP\nReturn 1d   : +2.58%\nReturn 5d   : -0.13%\nReturn 20d  : -4.30%\nReturn 60d  : -3.69%\nvs MA-50    : -5.62%\nvs MA-200   : +9.72%\nVol 20d ann : 29.12%  [low regime]\nRSI-14      : 42.88\n\n=== SECTOR STATE ===\nSector return 1d   : +3.49%\nSector return 5d   : -0.48%\nStock vs sector 1d : -0.91%\n\n=== CORRELATION ===\n90d corr with sector index : 0.77\nTop correlated peers:\n  - TMGH | sector: Real Estate | 90d-corr: 0.59\n  - PHDC | sector: Real Estate | 90d-corr: 0.55\n  - BTFH | sector: Banking & Financial Services | 90d-corr: 0.53\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2024-12-25: stock +0.13% | sector +0.49% | AR -0.36%\n  2024-12-26: stock -1.06% | sector -0.91% | AR -0.15%\n  2024-12-29: stock -0.80% | sector +0.40% | AR -1.20%\n  2024-12-30: stock -0.94% | sector -2.07% | AR +1.13%\n  2024-12-31: stock +2.58% | sector +2.70% | AR -0.12%\n\n=== ARABIC SENTIMENT SIGNAL ===\nPre-computed by an Arabic financial BERT model (CAMeLBERT).\nLabel : neutral\nScore : +0.1444   (-1 = strongly negative  ->  +1 = strongly positive)\n\n=== NEWS ARTICLE  (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-01-02 10:57:06\nHeadline  : إعمار مصر تقرر زيادة رأس المال للاستحواذ على شركة البرو كوست\n\nالقاهرة - مباشر: قررت شركة إعمار مصر للتنمية، زيادة رأسمال الشركة من 4.529 مليار جنيه إلى 5.446 مليار جنيه.\nوأوضحت الشركة في افصاح اليوم الخميس، أن الزيادة قدرها 917.59 مليون جنيه موزعة على 917.59 مليون سهم تخصص بالكامل لصالح مساهمي شركة البرو نورث كوست لإدارة الممتلكات العقارية، دون إعمال حقوق الأولوية لقدامى المساهمين.\nوأضافت أن ذلك مقابل استحواذ شركة إعمال مصرر على 674.99 مليون سهم من رأسمال البرو نورث كوست وفقًا لمعامل مبادلة الأسهم المحدد من شركة BDO كيز للاستشارات المالية والذي انتهى إلى تحديد معامل مبادلة الأسهم بإجمالي 917.59 مليون سهم زيادة في شركة إعمار مصر.\nوذلك على أن يتم تجنيب الفارق بين القيمة الاسمية والقيمة العادلة للسهم بحساب احتياطي خاص.\nيشار إلى أن إعمار مصر للتنمية،  سجلت صافي ربح بلغ 10.34 مليار جنيه منذ بداية يناير حتى نهاية سبتمبر 2024، مقابل 4.98 مليار جنيه أرباحاً خلال الفترة نفسها من العام الماضي، مع الأخذ في الاعتبار حقوق الأقلية.\nوارتفعت إيرادات الشركة خلال التسعة أشهر إلى 13.26 مليار جنيه، مقابل 10.58 مليار جنيه خلال الفترة نفسها من العام الماضي.\nوعلى صعيد القوائم غير المجمعة، ارتفعت أرباح الشركة المستقلة إلى 10.15 مليار جنيه خلال الفترة من يناير حتى نهاية سبتمبر الماضي، مقابل 4.98 مليار جنيه أرباح خلال الفترة نفسها من العام الماضي.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية\n..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر\n..\nاضغط هنا\nترشيحات\n:\nمحمد بن زايد: الإمارات حريصة على وحدة سوريا وسلامتها وسيادتها\n\n=== INSTRUCTIONS ===\n1. Read the Arabic article carefully. Do NOT translate it; reason from it directly.\n2. Cross-reference the news with the quantitative context above.\n3. Your \"reasoning\" field MUST cite at least THREE specific context fields by name\n   (e.g. \"the 60d return of -21.27% shows the stock is already in a downtrend, so ...\").\n4. The Arabic sentiment score is one signal among many -- do not let it override clear\n   fundamental evidence in the quantitative context.\n5. horizon guidance: structural/regulatory news -> \"1-4w\"; earnings surprises -> \"1d\"/\"2-5d\".\n6. magnitude guidance: \"large\" requires both a strong news catalyst AND elevated volatility.\n7. LANGUAGE: All free-text values (reasoning, key_drivers items) MUST be written in Arabic.\n   JSON keys and enum values (direction/magnitude/horizon) stay in English.\n8. Output ONLY the JSON object below. No markdown fences. No text outside the JSON.\n\n{\n  \"direction\":   \"up\" | \"down\" | \"neutral\",\n  \"magnitude\":   \"small\" | \"medium\" | \"large\",\n  \"horizon\":     \"1d\" | \"2-5d\" | \"1-4w\",\n  \"confidence\":  <float 0.0-1.0>,\n  \"key_drivers\": [\"<driver 1 in Arabic>\", \"<driver 2 in Arabic>\"],\n  \"reasoning\":   \"<2-4 sentences in Arabic citing specific context field values>\"\n}",
+    "spillover": "You are a quantitative financial analyst specialising in the Egyptian Stock Exchange (EGX).\n\nA news event has occurred about EMFD (Emaar Misr for Development - EMFD, sector: Real Estate).\nYour task: identify which OTHER EGX30 companies are likely to be impacted by this same event.\n\n=== PRIMARY COMPANY ===\nTicker      : EMFD\nName        : Emaar Misr for Development - EMFD\nSector      : Real Estate\nDescription : Emaar Misr for Development — premium real estate developer; wholly-owned subsidiary of Emaar Properties (Dubai); projects include Uptown Cairo and Marassi.\n\n=== NEWS ARTICLE  (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-01-02 10:57:06\nHeadline  : إعمار مصر تقرر زيادة رأس المال للاستحواذ على شركة البرو كوست\n\nالقاهرة - مباشر: قررت شركة إعمار مصر للتنمية، زيادة رأسمال الشركة من 4.529 مليار جنيه إلى 5.446 مليار جنيه.\nوأوضحت الشركة في افصاح اليوم الخميس، أن الزيادة قدرها 917.59 مليون جنيه موزعة على 917.59 مليون سهم تخصص بالكامل لصالح مساهمي شركة البرو نورث كوست لإدارة الممتلكات العقارية، دون إعمال حقوق الأولوية لقدامى المساهمين.\nوأضافت أن ذلك مقابل استحواذ شركة إعمال مصرر على 674.99 مليون سهم من رأسمال البرو نورث كوست وفقًا لمعامل مبادلة الأسهم المحدد من شركة BDO كيز للاستشارات المالية والذي انتهى إلى تحديد معامل مبادلة الأسهم بإجمالي 917.59 مليون سهم زيادة في شركة إعمار مصر.\nوذلك على أن يتم تجنيب الفارق بين القيمة الاسمية والقيمة العادلة للسهم بحساب احتياطي خاص.\nيشار إلى أن إعمار مصر للتنمية،  سجلت صافي ربح بلغ 10.34 مليار جنيه منذ بداية يناير حتى نهاية سبتمبر 2024، مقابل 4.98 مليار جنيه أرباحاً خلال الفترة نفسها من العام الماضي، مع الأخذ في الاعتبار حقوق الأقلية.\nوارتفعت إيرادات الشركة خلال التسعة أشهر إلى 13.26 مليار جنيه، مقابل 10.58 مليار جنيه خلال الفترة نفسها من العام الماضي.\nوعلى صعيد القوائم غير المجمعة، ارتفعت أرباح الشركة المستقلة إلى 10.15 مليار جنيه خلال الفترة من يناير حتى نهاية سبتمبر الماضي، مقابل 4.98 مليار جنيه أرباح خلال الفترة نفسها من العام الماضي.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية\n..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر\n..\nاضغط هنا\nترشيحات\n:\nمحمد بن زايد: الإمارات حريصة على وحدة سوريا وسلامتها وسيادتها\n\n=== STOCKS WITH HIGHEST RETURN-CORRELATION TO EMFD (90-day window) ===\n  TMGH (corr=0.59, Real Estate), PHDC (corr=0.55, Real Estate), BTFH (corr=0.53, Banking & Financial Services)\n\n=== CANDIDATE COMPANIES TO EVALUATE ===\n  - TMGH: TMG Holding (Talaat Moustafa Group) — Egypt's largest listed real estate developer by land bank; flagship project is Madinaty new city east of Cairo.\n  - PHDC: Palm Hills Developments — upscale mixed-use real estate developer with compounds in New Cairo, 6th of October, and the North Coast; revenues in EGP tied to pre-sales velocity.\n  - BTFH: Beltone Holdings — Egyptian investment banking boutique offering equity brokerage, sell-side research, and asset management services.\n\n=== SPILLOVER CHANNELS -- pick the best fit ===\n  sector_comovement  stocks in the same sector move together on shared macro news\n  supply_chain       this company is a key supplier or customer of the candidate\n  macro_shared       both share the same sensitivity (e.g. natural gas price, EGP/USD)\n  competitive        direct competitor -- a gain for one may be a loss for the other\n\n=== INSTRUCTIONS ===\n1. Read the Arabic article directly; do NOT translate.\n2. For each candidate you include, state a clear causal link to the news event.\n3. Include at most 5 spillover candidates. Fewer is better; weak links add noise.\n4. If no other company is meaningfully affected, return an empty list.\n5. LANGUAGE: All free-text values (reasoning) MUST be written in Arabic.\n   JSON keys and enum values (ticker/direction/magnitude/channel) stay in English.\n6. Output ONLY the JSON object below. No markdown fences. No text outside the JSON.\n\n{\n  \"spillovers\": [\n    {\n      \"ticker\":    \"<EGX ticker>\",\n      \"direction\": \"up\" | \"down\" | \"neutral\",\n      \"magnitude\": \"small\" | \"medium\" | \"large\",\n      \"channel\":   \"sector_comovement\" | \"supply_chain\" | \"macro_shared\" | \"competitive\",\n      \"reasoning\": \"<1-2 sentences in Arabic explaining the causal link to the news>\"\n    }\n  ]\n}",
+    "critic": "You are a senior quantitative risk analyst at an Egyptian investment bank with deep expertise in EGX30 stocks, Arabic financial news, and behavioural market dynamics.\n\nTwo junior LLM analysts have independently assessed a news event about EMFD (Emaar Misr for Development - EMFD). Your job is to:\n  (a) critically review their work against the hard quantitative evidence,\n  (b) resolve disagreements between them,\n  (c) produce the final, authoritative prediction.\n\n=== COMPANY ===\nTicker      : EMFD\nName        : Emaar Misr for Development - EMFD\nSector      : Real Estate\nDescription : Emaar Misr for Development — premium real estate developer; wholly-owned subsidiary of Emaar Properties (Dubai); projects include Uptown Cairo and Marassi.\nPrice data  : as of 2024-12-31  (article date: 2025-01-02)\n\n=== PRICE STATE ===\nLast close  : 7.56 EGP\nReturn 1d   : +2.58%\nReturn 5d   : -0.13%\nReturn 20d  : -4.30%\nReturn 60d  : -3.69%\nvs MA-50    : -5.62%\nvs MA-200   : +9.72%\nVol 20d ann : 29.12%  [low regime]\nRSI-14      : 42.88\n\n=== SECTOR STATE ===\nSector return 1d   : +3.49%\nSector return 5d   : -0.48%\nStock vs sector 1d : -0.91%\n\n=== CORRELATION ===\n90d corr with sector index : 0.77\nTop correlated peers:\n  - TMGH | sector: Real Estate | 90d-corr: 0.59\n  - PHDC | sector: Real Estate | 90d-corr: 0.55\n  - BTFH | sector: Banking & Financial Services | 90d-corr: 0.53\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2024-12-25: stock +0.13% | sector +0.49% | AR -0.36%\n  2024-12-26: stock -1.06% | sector -0.91% | AR -0.15%\n  2024-12-29: stock -0.80% | sector +0.40% | AR -1.20%\n  2024-12-30: stock -0.94% | sector -2.07% | AR +1.13%\n  2024-12-31: stock +2.58% | sector +2.70% | AR -0.12%\n\n=== ARABIC SENTIMENT SIGNAL ===\nLabel : neutral\nScore : +0.1444   (-1 = strongly negative  ->  +1 = strongly positive)\n\n=== NEWS ARTICLE  (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-01-02 10:57:06\nHeadline  : إعمار مصر تقرر زيادة رأس المال للاستحواذ على شركة البرو كوست\n\nالقاهرة - مباشر: قررت شركة إعمار مصر للتنمية، زيادة رأسمال الشركة من 4.529 مليار جنيه إلى 5.446 مليار جنيه.\nوأوضحت الشركة في افصاح اليوم الخميس، أن الزيادة قدرها 917.59 مليون جنيه موزعة على 917.59 مليون سهم تخصص بالكامل لصالح مساهمي شركة البرو نورث كوست لإدارة الممتلكات العقارية، دون إعمال حقوق الأولوية لقدامى المساهمين.\nوأضافت أن ذلك مقابل استحواذ شركة إعمال مصرر على 674.99 مليون سهم من رأسمال البرو نورث كوست وفقًا لمعامل مبادلة الأسهم المحدد من شركة BDO كيز للاستشارات المالية والذي انتهى إلى تحديد معامل مبادلة الأسهم بإجمالي 917.59 مليون سهم زيادة في شركة إعمار مصر.\nوذلك على أن يتم تجنيب الفارق بين القيمة الاسمية والقيمة العادلة للسهم بحساب احتياطي خاص.\nيشار إلى أن إعمار مصر للتنمية،  سجلت صافي ربح بلغ 10.34 مليار جنيه منذ بداية يناير حتى نهاية سبتمبر 2024، مقابل 4.98 مليار جنيه أرباحاً خلال الفترة نفسها من العام الماضي، مع الأخذ في الاعتبار حقوق الأقلية.\nوارتفعت إيرادات الشركة خلال التسعة أشهر إلى 13.26 مليار جنيه، مقابل 10.58 مليار جنيه خلال الفترة نفسها من العام الماضي.\nوعلى صعيد القوائم غير المجمعة، ارتفعت أرباح الشركة المستقلة إلى 10.15 مليار جنيه خلال الفترة من يناير حتى نهاية سبتمبر الماضي، مقابل 4.98 مليار جنيه أرباح خلال الفترة نفسها من العام الماضي.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية\n..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر\n..\nاضغط هنا\nترشيحات\n:\nمحمد بن زايد: الإمارات حريصة على وحدة سوريا وسلامتها وسيادتها\n\n=== IMPACT AGENT OUTPUT (Llama 3.3 70B) ===\n{\n  \"direction\": \"up\",\n  \"magnitude\": \"medium\",\n  \"horizon\": \"1-4w\",\n  \"confidence\": 0.7,\n  \"key_drivers\": [\n    \"زيادة رأس المال للاستحواذ على شركة البرو كوست\",\n    \"ارتفاع إيرادات الشركة خلال التسعة أشهر\"\n  ],\n  \"reasoning\": \"تظهر زيادة رأس المال للاستحواذ على شركة البرو كوست أن الشركة تتوسع وتحسن من vị tríها في السوق، كما يُظهر Return 1d القوي بنسبة 2.58% أن السهم يمتلك قوة داخلية، بالإضافة إلى أن Sector return 1d بنسبة 3.49% يشير إلى أن القطاع ككل يمتلك قوة، وبالتالي يمكن توقع ارتفاع السهم في الأيام والأسابيع القادمة. كما يشير 90d corr with sector index بنسبة 0.77 إلى أن السهم يمتلك صلة قوية مع مؤشر القطاع، مما يعزز فرصة الارتفاع. ومع الأخذ في الاعتبار Vol 20d ann بنسبة 29.12% التي تشير إلى أن السهم يمتلك تقلبات منخفضة، يمكن توقع أن يكون الارتفاع معتدلاً.\"\n}\n\n=== SPILLOVER AGENT OUTPUT (Llama 3.3 70B) ===\n{\n  \"spillovers\": [\n    {\n      \"ticker\": \"TMGH\",\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"channel\": \"sector_comovement\",\n      \"reasoning\": \"تأثر سهم شركة تالاات مصطفى بالخبر الإيجابي لشركة إعمار مصر للتنمية بسبب التأثير الإيجابي على قطاع العقارات بشكل عام، حيث يعتبر كلاهما من الشركات الرائدة في هذا القطاع. هذا التأثير الإيجابي قد يزيد من الثقة في الشركات العقارية ويدفع الأسعار إلى الأعلى.\"\n    },\n    {\n      \"ticker\": \"PHDC\",\n      \"direction\": \"up\",\n      \"magnitude\": \"small\",\n      \"channel\": \"sector_comovement\",\n      \"reasoning\": \"تأثر سهم شركة بالم هيلز للتنمية العقارية بشكل إيجابي بسبب الخبر الإيجابي لشركة إعمار مصر للتنمية، حيث يعتبر كلاهما من الشركات العقارية الرائدة في السوق المصرية، ويمكن أن يزيد هذا الخبر من الطلب على العقارات ويدفع الأسعار إلى الأعلى.\"\n    }\n  ]\n}\n\n=== YOUR REVIEW CHECKLIST ===\n1. Is the Impact Agent's direction consistent with the article AND the quantitative context?\n   If they contradict each other, which is more credible and why?\n2. Does the Impact Agent cite the right context fields? Did it ignore important signals\n   (e.g., vol regime, trend vs MA-50/MA-200, recent abnormal returns)?\n3. Are the Spillover Agent's channels plausible? Are any spillovers missing or spurious?\n4. Does the Arabic sentiment score align with the fundamental read? Flag if it conflicts.\n5. Identify any risk factors neither agent mentioned\n   (liquidity, regulatory tail risk, sector headwinds, earnings calendar proximity, etc.).\n\n=== INSTRUCTIONS ===\n1. Read the Arabic article directly; do NOT translate.\n2. Override the junior agents where the quantitative evidence clearly contradicts them --\n   explain the override in your reasoning.\n3. \"confidence\" should be lower when agents disagree or when context signals are mixed.\n4. LANGUAGE: All free-text values (reasoning, risk_flags items, disagreements_with_juniors items)\n   MUST be written in Arabic. JSON keys and enum values stay in English.\n5. Output ONLY the JSON object below. No markdown fences. No text outside the JSON.\n\n{\n  \"primary_company\": {\n    \"ticker\":     \"EMFD\",\n    \"direction\":  \"up\" | \"down\" | \"neutral\",\n    \"magnitude\":  \"small\" | \"medium\" | \"large\",\n    \"horizon\":    \"1d\" | \"2-5d\" | \"1-4w\",\n    \"confidence\": <float 0.0-1.0>,\n    \"reasoning\":  \"<3-5 sentences in Arabic citing context field values; note any overrides>\"\n  },\n  \"spillovers\": [\n    {\n      \"ticker\":    \"<EGX ticker>\",\n      \"direction\": \"up\" | \"down\" | \"neutral\",\n      \"magnitude\": \"small\" | \"medium\" | \"large\",\n      \"channel\":   \"sector_comovement\" | \"supply_chain\" | \"macro_shared\" | \"competitive\",\n      \"reasoning\": \"<1-2 sentences in Arabic>\"\n    }\n  ],\n  \"risk_flags\":                 [\"<flag in Arabic>\", \"<flag in Arabic>\"],\n  \"disagreements_with_juniors\": [\"<description in Arabic>\"],\n  \"external_signal_alignment\":  \"aligned\" | \"partially_aligned\" | \"contradicts\"\n}"
+  },
+  "impact_agent": {
+    "output": {
+      "direction": "up",
+      "magnitude": "medium",
+      "horizon": "1-4w",
+      "confidence": 0.7,
+      "key_drivers": [
+        "زيادة رأس المال للاستحواذ على شركة البرو كوست",
+        "ارتفاع إيرادات الشركة خلال التسعة أشهر"
+      ],
+      "reasoning": "تظهر زيادة رأس المال للاستحواذ على شركة البرو كوست أن الشركة تتوسع وتحسن من vị tríها في السوق، كما يُظهر Return 1d القوي بنسبة 2.58% أن السهم يمتلك قوة داخلية، بالإضافة إلى أن Sector return 1d بنسبة 3.49% يشير إلى أن القطاع ككل يمتلك قوة، وبالتالي يمكن توقع ارتفاع السهم في الأيام والأسابيع القادمة. كما يشير 90d corr with sector index بنسبة 0.77 إلى أن السهم يمتلك صلة قوية مع مؤشر القطاع، مما يعزز فرصة الارتفاع. ومع الأخذ في الاعتبار Vol 20d ann بنسبة 29.12% التي تشير إلى أن السهم يمتلك تقلبات منخفضة، يمكن توقع أن يكون الارتفاع معتدلاً."
+    },
+    "raw": "{\n  \"direction\": \"up\",\n  \"magnitude\": \"medium\",\n  \"horizon\": \"1-4w\",\n  \"confidence\": 0.7,\n  \"key_drivers\": [\"زيادة رأس المال للاستحواذ على شركة البرو كوست\", \"ارتفاع إيرادات الشركة خلال التسعة أشهر\"],\n  \"reasoning\": \"تظهر زيادة رأس المال للاستحواذ على شركة البرو كوست أن الشركة تتوسع وتحسن من vị tríها في السوق، كما يُظهر Return 1d القوي بنسبة 2.58% أن السهم يمتلك قوة داخلية، بالإضافة إلى أن Sector return 1d بنسبة 3.49% يشير إلى أن القطاع ككل يمتلك قوة، وبالتالي يمكن توقع ارتفاع السهم في الأيام والأسابيع القادمة. كما يشير 90d corr with sector index بنسبة 0.77 إلى أن السهم يمتلك صلة قوية مع مؤشر القطاع، مما يعزز فرصة الارتفاع. ومع الأخذ في الاعتبار Vol 20d ann بنسبة 29.12% التي تشير إلى أن السهم يمتلك تقلبات منخفضة، يمكن توقع أن يكون الارتفاع معتدلاً.\"\n}"
+  },
+  "spillover_agent": {
+    "output": {
+      "spillovers": [
+        {
+          "ticker": "TMGH",
+          "direction": "up",
+          "magnitude": "medium",
+          "channel": "sector_comovement",
+          "reasoning": "تأثر سهم شركة تالاات مصطفى بالخبر الإيجابي لشركة إعمار مصر للتنمية بسبب التأثير الإيجابي على قطاع العقارات بشكل عام، حيث يعتبر كلاهما من الشركات الرائدة في هذا القطاع. هذا التأثير الإيجابي قد يزيد من الثقة في الشركات العقارية ويدفع الأسعار إلى الأعلى."
+        },
+        {
+          "ticker": "PHDC",
+          "direction": "up",
+          "magnitude": "small",
+          "channel": "sector_comovement",
+          "reasoning": "تأثر سهم شركة بالم هيلز للتنمية العقارية بشكل إيجابي بسبب الخبر الإيجابي لشركة إعمار مصر للتنمية، حيث يعتبر كلاهما من الشركات العقارية الرائدة في السوق المصرية، ويمكن أن يزيد هذا الخبر من الطلب على العقارات ويدفع الأسعار إلى الأعلى."
+        }
+      ]
+    },
+    "raw": "{\n  \"spillovers\": [\n    {\n      \"ticker\": \"TMGH\",\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"channel\": \"sector_comovement\",\n      \"reasoning\": \"تأثر سهم شركة تالاات مصطفى بالخبر الإيجابي لشركة إعمار مصر للتنمية بسبب التأثير الإيجابي على قطاع العقارات بشكل عام، حيث يعتبر كلاهما من الشركات الرائدة في هذا القطاع. هذا التأثير الإيجابي قد يزيد من الثقة في الشركات العقارية ويدفع الأسعار إلى الأعلى.\"\n    },\n    {\n      \"ticker\": \"PHDC\",\n      \"direction\": \"up\",\n      \"magnitude\": \"small\",\n      \"channel\": \"sector_comovement\",\n      \"reasoning\": \"تأثر سهم شركة بالم هيلز للتنمية العقارية بشكل إيجابي بسبب الخبر الإيجابي لشركة إعمار مصر للتنمية، حيث يعتبر كلاهما من الشركات العقارية الرائدة في السوق المصرية، ويمكن أن يزيد هذا الخبر من الطلب على العقارات ويدفع الأسعار إلى الأعلى.\"\n    }\n  ]\n}"
+  },
+  "critic_agent": {
+    "output": {
+      "primary_company": {
+        "ticker": "EMFD",
+        "direction": "up",
+        "magnitude": "small",
+        "horizon": "1-4w",
+        "confidence": 0.6,
+        "reasoning": "زيادة رأس المال لاستحواذ البرو نورث كوست تُشير إلى توسع استراتيجي مدعوم بأرباح قوية (10.34 مليار مقابل 4.98 مليار في 2023) وإيرادات 13.26 مليار. العائد اليومي +2.58% يتوافق مع اتجاه إيجابي.short-term لكن يجب مراعاة أن السعر يتداول دون MA-50 بنسبة -5.62%، ومعدل Abnormal Returns السالب في 3 من 5 جلسات الأخيرة يُشير إلى ضعف الطلب. العائد السلبي غير المتزامن مع القطاع (-0.91% مقابل +3.49%) يُؤكد أن السهم لم يتفاعل بالكامل مع القوة القطاعية. أرفع مناحي إلى 'small' بدل 'medium' وأخفض الثقة لأن الزيادة في عدد الأسهم قد تُخفف العائد للسهم."
+      },
+      "spillovers": [
+        {
+          "ticker": "TMGH",
+          "direction": "up",
+          "magnitude": "small",
+          "channel": "sector_comovement",
+          "reasoning": "ارتباط TMGH مع EMFD بـ 0.59 يُعزز انتقال الاتجاه الإيجابي من صفقة الاستحواذ العقاري. لكن TMGH ستتأثر فقط بشكل جزئي لأن EMFD ليست مُصدِّراً للمحفظة الكاملة."
+        },
+        {
+          "ticker": "PHDC",
+          "direction": "up",
+          "magnitude": "small",
+          "channel": "sector_comovement",
+          "reasoning": "PHDC تستفيد من معنويات القطاع الإيجابية المرتبطة بأخبار EMFD. الارتباط 0.55 أقل قوة لكن الصفقة تُعزز الثقة في قطاع التطوير العقاري المصري."
+        }
+      ],
+      "risk_flags": [
+        "السعر يتداول تحت MA-50 بنسبة -5.62% مما يُشكّل مقاومة فنية فورية",
+        "زيادة رأس المال تُخفف العائد لكل سهم بنسبة ~17% ما لم يُثبت السعر",
+        "Abnormal Returns سلبي في 3 من 5 جلسات سابقة مما يُشير لتراجع الطلب",
+        "مؤشر RSI عند 42.88 يُعطي مساحة محدودة للارتفاع قبل دخول منطقة ذروة الشراء",
+        "التقلب المنخفض (29.12%) قد يُعيق حركة سعرية قوية"
+      ],
+      "disagreements_with_juniors": [
+        "التأثير (Impact Agent) قدّر magnitude='medium' بناءً على حجم الاستحواذ، لكن المخفف (dilution) من زيادة الأسهم (917.59 مليون سهم جديد) لم يُحتسب ضمن العوامل الدافعة للسعر.",
+        "لم يذكر أي من الوكيلين أن السهم تفوق على القطاع في اليوم (-0.91% مقابل +3.49%) رغم القوة القطاعية، وهذا إشارة سلبية غير مُلاحظة.",
+        "الاستحواذ بآلية مبادلة أسهم (stock-for-stock swap) يعني عدم وجود تدفق نقدي خارجي، مما يُقلل من الزخم الإيجابي المُتوقع."
+      ],
+      "external_signal_alignment": "partially_aligned"
+    },
+    "raw": "\n\n{\n  \"primary_company\": {\n    \"ticker\": \"EMFD\",\n    \"direction\": \"up\",\n    \"magnitude\": \"small\",\n    \"horizon\": \"1-4w\",\n    \"confidence\": 0.60,\n    \"reasoning\": \"زيادة رأس المال لاستحواذ البرو نورث كوست تُشير إلى توسع استراتيجي مدعوم بأرباح قوية (10.34 مليار مقابل 4.98 مليار في 2023) وإيرادات 13.26 مليار. العائد اليومي +2.58% يتوافق مع اتجاه إيجابي.short-term لكن يجب مراعاة أن السعر يتداول دون MA-50 بنسبة -5.62%، ومعدل Abnormal Returns السالب في 3 من 5 جلسات الأخيرة يُشير إلى ضعف الطلب. العائد السلبي غير المتزامن مع القطاع (-0.91% مقابل +3.49%) يُؤكد أن السهم لم يتفاعل بالكامل مع القوة القطاعية. أرفع مناحي إلى 'small' بدل 'medium' وأخفض الثقة لأن الزيادة في عدد الأسهم قد تُخفف العائد للسهم.\"\n  },\n  \"spillovers\": [\n    {\n      \"ticker\": \"TMGH\",\n      \"direction\": \"up\",\n      \"magnitude\": \"small\",\n      \"channel\": \"sector_comovement\",\n      \"reasoning\": \"ارتباط TMGH مع EMFD بـ 0.59 يُعزز انتقال الاتجاه الإيجابي من صفقة الاستحواذ العقاري. لكن TMGH ستتأثر فقط بشكل جزئي لأن EMFD ليست مُصدِّراً للمحفظة الكاملة.\"\n    },\n    {\n      \"ticker\": \"PHDC\",\n      \"direction\": \"up\",\n      \"magnitude\": \"small\",\n      \"channel\": \"sector_comovement\",\n      \"reasoning\": \"PHDC تستفيد من معنويات القطاع الإيجابية المرتبطة بأخبار EMFD. الارتباط 0.55 أقل قوة لكن الصفقة تُعزز الثقة في قطاع التطوير العقاري المصري.\"\n    }\n  ],\n  \"risk_flags\": [\n    \"السعر يتداول تحت MA-50 بنسبة -5.62% مما يُشكّل مقاومة فنية فورية\",\n    \"زيادة رأس المال تُخفف العائد لكل سهم بنسبة ~17% ما لم يُثبت السعر\",\n    \"Abnormal Returns سلبي في 3 من 5 جلسات سابقة مما يُشير لتراجع الطلب\",\n    \"مؤشر RSI عند 42.88 يُعطي مساحة محدودة للارتفاع قبل دخول منطقة ذروة الشراء\",\n    \"التقلب المنخفض (29.12%) قد يُعيق حركة سعرية قوية\"\n  ],\n  \"disagreements_with_juniors\": [\n    \"التأثير (Impact Agent) قدّر magnitude='medium' بناءً على حجم الاستحواذ، لكن المخفف (dilution) من زيادة الأسهم (917.59 مليون سهم جديد) لم يُحتسب ضمن العوامل الدافعة للسعر.\",\n    \"لم يذكر أي من الوكيلين أن السهم تفوق على القطاع في اليوم (-0.91% مقابل +3.49%) رغم القوة القطاعية، وهذا إشارة سلبية غير مُلاحظة.\",\n    \"الاستحواذ بآلية مبادلة أسهم (stock-for-stock swap) يعني عدم وجود تدفق نقدي خارجي، مما يُقلل من الزخم الإيجابي المُتوقع.\"\n  ],\n  \"external_signal_alignment\": \"partially_aligned\"\n}",
+    "thinking": "Let me analyze this carefully as a senior quantitative risk analyst.\n\n**Key Facts from the Arabic Article:**\n1. Emaar Misr decided to increase capital from 4.529 billion EGP to 5.446 billion EGP\n2. Increase of 917.59 million shares for acquiring El Pro North Coast\n3. No preemptive rights for existing shareholders\n4. Stock-for-stock swap valued by BDO Kiez\n5. Q1-Q3 2024 net profit: 10.34 billion EGP vs 4.98 billion EGP in same period last year (up ~108%)\n6. Revenue Q1-Q3 2024: 13.26 billion EGP vs 10.58 billion EGP (up ~25%)\n\n**Price Context:**\n- Last close: 7.56 EGP\n- 1d return: +2.58% (strong, but below sector at +3.49%)\n- 5d return: -0.13%\n- 20d return: -4.30% (underperforming)\n- 60d return: -3.69%\n- vs MA-50: -5.62% (trading below 50-day MA)\n- vs MA-200: +9.72% (trading above 200-day MA)\n- Vol 20d ann: 29.12% (LOW volatility regime)\n- RSI-14: 42.88 (neutral, not oversold)\n\n**Abnormal Returns:**\n- Dec 25: -0.36%\n- Dec 26: -0.15%\n- Dec 29: -1.20% (significant negative AR)\n- Dec 30: +1.13% (positive AR)\n- Dec 31: -0.12%\n\n**Sentiment:** neutral (score +0.1444)\n\n**Analysis:**\n\nThe Impact Agent predicted \"up\" with \"medium\" magnitude. Let me evaluate:\n\n\nThis acquisition signals expansion, supported by the 2.58% one-day move aligning with the announcement. The substantial earnings jump of roughly 108% year-over-year provides solid fundamental backing. The low volatility regime at 29.12% suggests room for upside if volume picks up. However, the 20-day underperformance of -4.30% and the -5.62% discount to the 50-day moving average indicate short-term headwinds despite the longer-term strength shown by the +9.72% premium to the 200-day MA.\n\nThe RSI reading of 42.88 sits in neutral territory—not oversold, suggesting momentum isn't stretched. Recent abnormal returns show mixed signals with isolated spikes, and the Arabic sentiment remains neutral rather than strongly bullish. The sector's +3.49% one-day gain reflects broad strength, though EMFD lagged with its -0.91% relative underperformance despite the positive absolute return.\n\nThe fundamental picture is solid: earnings nearly doubled, revenue climbed 25%, and the acquisition of Pro North Coast expands the portfolio. Yet the -5.62% gap below the 50-day moving average combined with that negative abnormal return on Dec 29 raises questions about whether the stock has already priced in much of this good news. Short-term upside potential exists given the earnings strength, but the technical setup suggests the move may be partially exhausted. I'm adjusting downward to \"neutral\" with \"small\" magnitude and 0.55 confidence, acknowledging the quality of the fundamentals but recognizing the limited upside given the current technical position. TMGH and PHDC remain viable options, with the first being more likely given its higher correlation of 0.77 versus the second's 0.55.\n\nThe main concerns are the negative abnormal returns from late December that signal weak demand, the stock trading below its 50-day moving average which creates immediate resistance, and the dilution risk from the new share issuance that could pressure the stock short-term. With EGX real estate already facing elevated valuations and the sector up 3.49% today, I need to assess whether EMFD can sustain momentum given these technical and structural headwinds alongside the fundamental earnings strength.\n"
+  }
+}

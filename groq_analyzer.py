@@ -1,6 +1,6 @@
 # groq_analyzer.py
 # ═══════════════════════════════════════════
-#  Groq (LLaMA): Arabic Chain-of-Thought Sentiment
+#  Groq (Qwen3-32B): Arabic Chain-of-Thought Sentiment
 # ═══════════════════════════════════════════
 
 import json
@@ -75,7 +75,7 @@ class GroqAnalyzer:
         print(f"  📰 Analyzing {len(articles)} articles with Groq...")
 
         enriched = []
-        for i, art in enumerate(tqdm(articles, desc="  Groq")):
+        for art in tqdm(articles, desc="  Groq"):
             enriched.append(self.analyze_single(art))
             time.sleep(GROQ_DELAY)
 
