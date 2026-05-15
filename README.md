@@ -9,6 +9,40 @@ Run the API with:
 uvicorn service:app --host 0.0.0.0 --port 8000
 ```
 
+Environment
+-----------
+
+1. Copy `.env.example` to `.env` and fill in your API keys.
+
+```bash
+cp .env.example .env
+# edit .env and add CLAUDE_API_KEY and GROQ_API_KEY
+```
+
+Run locally (install the requirements first):
+
+```bash
+pip install -r requirements.txt
+uvicorn service:app --host 0.0.0.0 --port 8000
+```
+
+Docker
+------
+
+Build and run with Docker (requires Docker installed):
+
+```bash
+docker build -t sentiment-service .
+docker run --env-file .env -p 8000:8000 sentiment-service
+```
+
+Or with docker-compose:
+
+```bash
+docker-compose up --build
+```
+
+
 POST one article to:
 
 ```http
