@@ -15,7 +15,7 @@ Flow for each article:
 #  TOP-LEVEL CONTROLS  -- edit these before each run
 # =============================================================================
 
-MAX_NEWS = 4
+MAX_NEWS = 3
 # Number of articles to process from all_news_by_date.json.
 # Articles are taken in chronological order (earliest date first).
 # Set to None to process all articles.
@@ -56,12 +56,10 @@ from arabic_sentiment import ArabicSentimentAnalyzer
 
 # Resolve paths relative to this file's location
 _HERE      = Path(__file__).parent
-NEWS_FILE  = _HERE / "output" / "EMFD.json"
+NEWS_FILE  = _HERE / "output" / "all_news_by_date.json"
 if not NEWS_FILE.exists():
-    NEWS_FILE = _HERE.parent / "EMFD.json"
+    NEWS_FILE = _HERE.parent / "all_news_by_date.json"
 PRICES_FILE = _HERE / "egyptian_stocks_2020_2025.json"
-
-_sentiment_model: ArabicSentimentAnalyzer | None = None
 
 
 # =============================================================================
@@ -80,38 +78,11 @@ def _load_price_data() -> dict:
 
 
 def _flatten_articles(news_data: dict) -> list:
-    """Return all articles sorted chronologically across supported news schemas."""
-    symbol = (news_data.get("metadata") or {}).get("symbol")
-
-    if isinstance(news_data.get("by_date"), dict):
-        articles = []
-        for date in sorted(news_data["by_date"].keys()):
-            for article in news_data["by_date"][date]:
-                if symbol and "symbol" not in article:
-                    article = {**article, "symbol": symbol}
-                articles.append(article)
-        return articles
-
-    if isinstance(news_data.get("articles"), list):
-        articles = []
-        for article in news_data["articles"]:
-            if symbol and "symbol" not in article:
-                article = {**article, "symbol": symbol}
-            articles.append(article)
-
-        articles.sort(
-            key=lambda a: (
-                a.get("date", ""),
-                a.get("time", ""),
-                a.get("datetime", ""),
-                str(a.get("id", "")),
-            )
-        )
-        return articles
-
-    raise ValueError(
-        "Unsupported news schema: expected either 'by_date' dict or 'articles' list."
-    )
+    """Return all articles sorted chronologically (date order, then by position)."""
+    articles = []
+    for date in sorted(news_data["by_date"].keys()):
+        articles.extend(news_data["by_date"][date])
+    return articles
 
 
 def _prev_trading_day(ticker: str, article_date: str, price_data: dict) -> str:
@@ -369,80 +340,6 @@ def _save_trace(trace: dict) -> str:
     return path
 
 
-def _get_sentiment_model() -> ArabicSentimentAnalyzer:
-    global _sentiment_model
-    if _sentiment_model is None:
-        _sentiment_model = ArabicSentimentAnalyzer()
-    return _sentiment_model
-
-
-def analyze_article(article: dict, *, save_trace: bool = True) -> dict:
-    """Run the full pipeline for a single news article and return the trace."""
-    price_data = _load_price_data()
-
-    ticker = article.get("symbol", "")
-    article_date = article.get("date", "")
-
-    if not ticker:
-        raise ValueError("Article is missing required field: symbol")
-    if not article_date:
-        raise ValueError("Article is missing required field: date")
-    if ticker not in price_data:
-        raise ValueError(f"Ticker '{ticker}' has no price data.")
-
-    context_date = _prev_trading_day(ticker, article_date, price_data)
-    ctx = compute_context(ticker, context_date)
-    ctx["event_date"] = article_date
-
-    sentiment_model = _get_sentiment_model()
-    text = (article.get("body") or article.get("title") or "").strip()
-    sentiment = sentiment_model.analyze(text)
-
-    candidates = build_spillover_candidates(ctx, COMPANY_DESCRIPTIONS)
-
-    p_impact = impact_agent_prompt(ctx, sentiment["score"], sentiment["label"], article)
-    impact_parsed, impact_raw = _call_with_retry(_call_groq, p_impact, "ImpactAgent")
-
-    p_spillover = spillover_agent_prompt(ctx, article, candidates)
-    spillover_parsed, spillover_raw = _call_with_retry(
-        _call_groq, p_spillover, "SpilloverAgent"
-    )
-
-    p_critic = critic_agent_prompt(
-        ctx,
-        sentiment["score"],
-        sentiment["label"],
-        article,
-        impact_parsed,
-        spillover_parsed,
-    )
-    critic_parsed, critic_raw = _call_with_retry(_call_claude, p_critic, "CriticAgent")
-    critic_thinking = _last_claude_thinking
-
-    trace = {
-        "ticker": ticker,
-        "article_date": article_date,
-        "context_date": context_date,
-        "article": article,
-        "context": ctx,
-        "sentiment": sentiment,
-        "impact_agent": {"parsed": impact_parsed, "raw": impact_raw},
-        "spillover_agent": {"parsed": spillover_parsed, "raw": spillover_raw},
-        "critic_agent": {
-            "parsed": critic_parsed,
-            "raw": critic_raw,
-            "thinking": critic_thinking,
-        },
-    }
-
-    trace["final"] = critic_parsed.get("primary_company", {})
-
-    if save_trace:
-        trace["saved_to"] = _save_trace(trace)
-
-    return trace
-
-
 # =============================================================================
 #  Main pipeline
 # =============================================================================
@@ -469,7 +366,7 @@ def run(max_news: int = MAX_NEWS) -> list:
     print(f"\nLoaded {len(articles)} article(s) from {NEWS_FILE.name}.\n")
 
     print("Loading Arabic sentiment model...")
-    sentiment_model = _get_sentiment_model()
+    sentiment_model = ArabicSentimentAnalyzer()
 
     results: list[dict] = []
 

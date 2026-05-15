@@ -15,7 +15,7 @@ Flow for each article:
 #  TOP-LEVEL CONTROLS  -- edit these before each run
 # =============================================================================
 
-MAX_NEWS = 4
+MAX_NEWS = 1
 # Number of articles to process from all_news_by_date.json.
 # Articles are taken in chronological order (earliest date first).
 # Set to None to process all articles.

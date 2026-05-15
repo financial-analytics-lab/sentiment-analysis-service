@@ -1,0 +1,72 @@
+{
+  "n_total": 5,
+  "n_scored": 5,
+  "n_no_data": 0,
+  "overall_directional_hit_rate": 0.6,
+  "overall_magnitude_hit_rate": 0.0,
+  "by_horizon": {
+    "2-4w": {
+      "n": 3,
+      "directional_hit_rate": 0.667,
+      "magnitude_hit_rate": 0.0
+    },
+    "2-5d": {
+      "n": 1,
+      "directional_hit_rate": 1.0,
+      "magnitude_hit_rate": 0.0
+    },
+    "1-2w": {
+      "n": 1,
+      "directional_hit_rate": 0.0,
+      "magnitude_hit_rate": 0.0
+    }
+  },
+  "by_news_type": {
+    "capital_increase": {
+      "n": 3,
+      "directional_hit_rate": 0.667,
+      "magnitude_hit_rate": 0.0
+    },
+    "operational": {
+      "n": 2,
+      "directional_hit_rate": 0.5,
+      "magnitude_hit_rate": 0.0
+    }
+  },
+  "by_direction": {
+    "down": {
+      "n": 3,
+      "directional_hit_rate": 0.667,
+      "magnitude_hit_rate": 0.0
+    },
+    "up": {
+      "n": 2,
+      "directional_hit_rate": 0.5,
+      "magnitude_hit_rate": 0.0
+    }
+  },
+  "by_magnitude": {
+    "medium": {
+      "n": 4,
+      "directional_hit_rate": 0.5,
+      "magnitude_hit_rate": 0.0
+    },
+    "small": {
+      "n": 1,
+      "directional_hit_rate": 1.0,
+      "magnitude_hit_rate": 0.0
+    }
+  },
+  "by_confidence": {
+    "0.6-0.8": {
+      "n": 2,
+      "directional_hit_rate": 0.5,
+      "magnitude_hit_rate": 0.0
+    },
+    "0.4-0.6": {
+      "n": 3,
+      "directional_hit_rate": 0.667,
+      "magnitude_hit_rate": 0.0
+    }
+  }
+}

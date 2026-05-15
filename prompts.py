@@ -6,13 +6,53 @@ Prompt templates for the three-agent EGX30 news-impact pipeline.
     spillover_agent_prompt() -> str   for Groq (Qwen3-32B or similar)
     critic_agent_prompt()    -> str   for Claude (Anthropic)
 
-Rules enforced by every prompt:
-  - Arabic news is kept in Arabic -- never translated.
-  - Instructions are in English.
-  - Models must output ONLY valid JSON (no markdown fences, no surrounding prose).
+Horizon scheme (locked):
+    1d     -> evaluation at t+1   close, neutral band +-1%
+    2-5d   -> evaluation at t+5   close, neutral band +-2%
+    1-2w   -> evaluation at t+10  close, neutral band +-3%
+    2-4w   -> evaluation at t+20  close, neutral band +-4%
+    1-3m   -> evaluation at t+60  close, neutral band +-5%
 """
 
 import json
+from datetime import date, datetime, timedelta
+
+
+# -----------------------------------------------------------------------------
+#  Horizon configuration (single source of truth)
+# -----------------------------------------------------------------------------
+
+HORIZONS = ["1d", "2-5d", "1-2w", "2-4w", "1-3m"]
+
+HORIZON_TRADING_DAYS = {
+    "1d":   1,
+    "2-5d": 5,
+    "1-2w": 10,
+    "2-4w": 20,
+    "1-3m": 60,
+}
+
+HORIZON_NEUTRAL_BAND_PCT = {
+    "1d":   1.0,
+    "2-5d": 2.0,
+    "1-2w": 3.0,
+    "2-4w": 4.0,
+    "1-3m": 5.0,
+}
+
+HORIZON_DEFAULT_BY_NEWS_TYPE = {
+    "earnings":         "1d",
+    "dividend":         "2-5d",
+    "operational":      "2-5d",
+    "regulatory":       "1-2w",
+    "macro":            "1-2w",
+    "capital_increase": "2-4w",
+    "m_and_a":          "2-4w",
+    "other":            "2-5d",
+}
+
+# Adjacency map -- what counts as "shifted by one bucket"
+_HORIZON_ORDER = {h: i for i, h in enumerate(HORIZONS)}
 
 
 # -----------------------------------------------------------------------------
@@ -20,7 +60,6 @@ import json
 # -----------------------------------------------------------------------------
 
 def _v(val, fmt: str = "+.2f", fallback: str = "N/A") -> str:
-    """Format a possibly-None number. Uses fallback when val is None."""
     if val is None:
         return fallback
     try:
@@ -30,7 +69,6 @@ def _v(val, fmt: str = "+.2f", fallback: str = "N/A") -> str:
 
 
 def _trend_label(ps: dict) -> str:
-    """Compact human-readable trend label derived from price_state."""
     vs50  = ps.get("pct_vs_ma50")
     vs200 = ps.get("pct_vs_ma200")
     if vs50 is None or vs200 is None:
@@ -45,7 +83,6 @@ def _trend_label(ps: dict) -> str:
 
 
 def _vol_interpretation(ps: dict) -> str:
-    """Tell the model what vol_regime actually means for impact magnitude."""
     regime = ps.get("vol_regime", "N/A")
     mapping = {
         "elevated":
@@ -60,7 +97,6 @@ def _vol_interpretation(ps: dict) -> str:
 
 
 def _format_context_block(ctx: dict) -> str:
-    """Render the compute_context() dict as a compact, readable prompt section."""
     ps  = ctx["price_state"]
     ms  = ctx["market_state"]
     cs  = ctx["correlation_state"]
@@ -120,7 +156,6 @@ def _format_context_block(ctx: dict) -> str:
 
 
 def _format_article(article: dict) -> str:
-    """Render an article dict as a prompt section (Arabic body kept as-is)."""
     return (
         f"Source    : {article.get('source', 'N/A')}\n"
         f"Published : {article.get('datetime') or article.get('date', 'N/A')}\n"
@@ -131,7 +166,7 @@ def _format_article(article: dict) -> str:
 
 
 # -----------------------------------------------------------------------------
-#  Universe guard -- keep tickers honest in spillover output
+#  Universe guard
 # -----------------------------------------------------------------------------
 
 EGX30_UNIVERSE = {
@@ -151,12 +186,6 @@ EGX30_UNIVERSE = {
 # -----------------------------------------------------------------------------
 
 def build_spillover_candidates(ctx: dict, company_descriptions: dict) -> dict:
-    """
-    Build {ticker: description} for the Spillover Agent using the top
-    correlated peers already stored in the context dict.
-
-    Pass COMPANY_DESCRIPTIONS from features.py as company_descriptions.
-    """
     primary = ctx["ticker"]
     candidates = {}
     for peer in ctx["correlation_state"]["top_3_correlated_peers"]:
@@ -167,7 +196,63 @@ def build_spillover_candidates(ctx: dict, company_descriptions: dict) -> dict:
 
 
 # -----------------------------------------------------------------------------
-#  Shared "guardrails" block reused in Impact and Critic prompts
+#  Horizon-selection guide (rendered into prompts)
+# -----------------------------------------------------------------------------
+
+_HORIZON_GUIDE = """\
+=== HORIZON SELECTION (read before predicting) ===
+There are exactly FIVE allowed horizons. Each maps to a specific future
+evaluation window in trading days:
+
+  1d     -> impact resolves by t+1   trading day  (neutral band: +-1%)
+  2-5d   -> impact resolves by t+5   trading days (neutral band: +-2%)
+  1-2w   -> impact resolves by t+10  trading days (neutral band: +-3%)
+  2-4w   -> impact resolves by t+20  trading days (neutral band: +-4%)
+  1-3m   -> impact resolves by t+60  trading days (neutral band: +-5%)
+
+STEP 1 -- DEFAULT BY NEWS TYPE:
+  earnings              -> 1d
+  dividend              -> 2-5d
+  operational           -> 2-5d
+  regulatory            -> 1-2w
+  macro                 -> 1-2w
+  capital_increase      -> 2-4w
+  m_and_a               -> 2-4w
+  other                 -> 2-5d
+
+STEP 2 -- TECHNICAL SHIFT (apply AT MOST ONE bucket of shift):
+  Shift FASTER (one bucket shorter) IF:
+    - The stock is already strongly trending in the predicted direction
+      (vs MA-50 > +5% for up, < -5% for down)
+    - Volatility regime is "elevated"
+    - The news event happened BEFORE the article date AND the 1d return
+      already moved meaningfully in the predicted direction
+      (already_priced_in = true tightens the residual window)
+
+  Shift SLOWER (one bucket longer) IF:
+    - The catalyst requires regulatory approval that typically takes weeks
+      (FRA approval for capital increases / mergers)
+    - Volatility regime is "low" AND the catalyst is structural
+    - The stock is illiquid or trending against the predicted direction
+
+STEP 3 -- HARD RULES:
+  - You may shift by AT MOST one bucket from the news-type default.
+  - If already_priced_in = true, horizon must be 1d or 2-5d
+    (the residual reaction window only). Do NOT use 2-4w or 1-3m for
+    priced-in events.
+  - The horizon you pick MUST be ONE of: 1d, 2-5d, 1-2w, 2-4w, 1-3m.
+    No other strings are allowed.
+
+STEP 4 -- JUSTIFY IN REASONING:
+  In your "reasoning" field, state the news-type default and any shift
+  you applied with the reason (e.g., "default for capital_increase is
+  2-4w; shifted to 1-2w because already_priced_in=true and the stock
+  already moved on the board-decision date").
+"""
+
+
+# -----------------------------------------------------------------------------
+#  Shared guardrails (R1-R9)
 # -----------------------------------------------------------------------------
 
 _REASONING_GUARDRAILS = """\
@@ -181,30 +266,25 @@ R2. LOW VOLATILITY IS NOT BULLISH. Vol_regime is about how big the move will
     be, not its direction. Low vol + downtrend is bearish, not bullish.
 
 R3. NEWS TYPE CHECKLIST. Before predicting, classify the news:
-    - capital_increase / M&A:  ALWAYS quantify dilution. Use the CONVENTIONAL
-                               definition: dilution = new_shares / pre_existing_shares
-                               (NOT new_shares / total_post_increase). State both
-                               the numerator and denominator explicitly.
-                               If dilution > 5% and existing shareholders have no
-                               preemptive rights, treat as bearish/neutral by default
-                               unless the strategic rationale clearly outweighs it.
-    - earnings:                 compare to consensus if mentioned; otherwise compare
-                               to recent trend.
-    - dividend:                 quantify yield = dividend / last_close. <2% = small,
-                               2-5% = medium, >5% = large.
-    - regulatory:               regulatory approval -> positive; regulatory probe
-                               or fine -> negative.
-    - operational:              new contract / project win -> positive; production
-                               halt / accident -> negative.
-    - macro:                    company-specific impact often muted; rely on sector
-                               sensitivity.
+    - capital_increase / M&A:  ALWAYS quantify dilution = new_shares /
+                               pre_existing_shares (state both inputs).
+                               If dilution > 5% and no preemptive rights,
+                               treat as bearish/neutral by default.
+    - earnings:                 compare to consensus if mentioned; otherwise
+                               compare to recent trend.
+    - dividend:                 quantify yield = dividend / last_close.
+                               <2% small, 2-5% medium, >5% large.
+    - regulatory:               approval -> positive; probe/fine -> negative.
+    - operational:              contract/win -> positive; halt/accident -> negative.
+    - macro:                    company-specific impact often muted; rely on
+                               sector sensitivity.
 
-R4. TIMING CHECK. If the news describes an event that happened BEFORE the article
-    date (e.g., a board decision from yesterday published today), check the recent
-    1d return -- the market may have ALREADY priced it in.
+R4. TIMING CHECK. If the news describes an event that happened BEFORE the
+    article date, check the recent 1d return -- the market may have ALREADY
+    priced it in.
 
-R5. PRICED-IN CHECK. If today's stock_vs_sector_1d is strongly positive AND the
-    news is positive, much of the impact may already be in the price.
+R5. PRICED-IN CHECK. If today's stock_vs_sector_1d is strongly aligned with
+    the news direction, much of the impact may already be in the price.
 
 R6. CONFIDENCE ANCHORING.
     - 0.8-1.0: clear catalyst, context agrees, no contradicting signals.
@@ -212,53 +292,48 @@ R6. CONFIDENCE ANCHORING.
     - 0.3-0.5: ambiguous catalyst or contradicting signals.
     - 0.0-0.3: cannot determine direction confidently.
 
-R7. NO HALLUCINATION. Do not invent numbers. If the article gives a number
-    (e.g., capital increase amount), use it. If you compute a ratio, state the
-    inputs (e.g., "917M new shares / 4,529M pre-existing = 20.3% dilution").
-    
+R7. NO HALLUCINATION. Do not invent numbers. If you compute a ratio, state
+    the inputs (e.g., "917M / 4,529M = 20.3%").
 
 R8. ALREADY-PRICED-IN <-> MAGNITUDE CONSISTENCY. If already_priced_in is true,
-    the FORWARD-LOOKING magnitude should typically be "small", because the
-    priced-in portion is by definition behind us. Setting already_priced_in=true
-    with magnitude="medium" or "large" needs explicit justification (e.g., the
-    move so far covers only part of the catalyst).
-    
-R9. NO LANGUAGE LEAKS. Arabic free-text fields must be 100% Arabic.
-   No German, French, or English words inside Arabic sentences (e.g.,
-   "Richtung", "direction", "trend"). If you need a technical term,
-   use the Arabic equivalent: اتجاه instead of "direction" or "Richtung".
-    """
-    
+    the FORWARD-LOOKING magnitude should typically be "small", and horizon
+    should be "1d" or "2-5d" (residual window only). Setting other values
+    needs explicit justification.
 
-
-# -----------------------------------------------------------------------------
-#  Few-shot anchor for the Impact Agent
-# -----------------------------------------------------------------------------
-
-_IMPACT_FEWSHOT = """\
-=== EXAMPLE (study the reasoning style, do not copy verbatim) ===
-Suppose a company announces a capital increase: 200M new shares on a 1,000M
-pre-existing base, fully allocated to a third party, no preemptive rights.
-The stock is in a downtrend (-8% over 20d, below MA-50) and vol is low.
-
-Good reasoning (Arabic in real output; English here for clarity):
-"Classified as capital_increase. Dilution = 200M / 1,000M (pre-existing) = 20%,
-fully allocated to a third party without preemptive rights -> structurally
-bearish for existing shareholders. The downtrend (vs MA-50 = -X%, 20d return
-= -8%) confirms the market has not priced this favorably. Low vol means the
-move will be muted in the short term but persistent. Predicted: down / small
-/ 1-4w."
-
-Bad reasoning (do NOT produce this style):
-"The news is about a capital increase which is positive for the company.
-Sector correlation is 0.77 so the company will follow the sector. Volatility
-is low so the impact will be clearer."
-(Why bad: ignores dilution, cites correlation without logic, misreads low vol.)
+R9. NO LANGUAGE LEAKS. Arabic free-text fields must be 100% Arabic. No
+    German, French, English, or transliterated words mid-sentence
+    (e.g., "Richtung", "direction", "trend", "spillover"). Use Arabic
+    equivalents (اتجاه، تأثير غير مباشر، etc.).
 """
 
 
 # -----------------------------------------------------------------------------
-#  1.  IMPACT AGENT PROMPT  (Groq -- Qwen3-32B / Llama 3.3 70B)
+#  Few-shot for Impact Agent
+# -----------------------------------------------------------------------------
+
+_IMPACT_FEWSHOT = """\
+=== EXAMPLE (study the reasoning style, do not copy verbatim) ===
+Suppose a company announces a capital increase: 200M new shares on a
+1,000M pre-existing base, fully allocated to a third party, no preemptive
+rights. The stock is in a downtrend (-8% over 20d, below MA-50), vol low.
+
+Good reasoning (English here; output in Arabic):
+"Classified as capital_increase. Dilution = 200M / 1,000M (pre-existing) = 20%,
+fully allocated to a third party without preemptive rights -> structurally
+bearish. Default horizon for capital_increase is 2-4w; kept at 2-4w because
+no priced-in signal and low vol means absorption is slow. Downtrend (vs MA-50
+= -X%, 20d = -8%) confirms market hasn't priced this favourably. Predicted:
+down / small / 2-4w."
+
+Bad reasoning (do NOT produce):
+"Capital increase is positive. Sector correlation 0.77 means it follows the
+sector. Low vol means impact will be clearer."
+(Ignores dilution, cites correlation without logic, misreads low vol.)
+"""
+
+
+# -----------------------------------------------------------------------------
+#  1.  IMPACT AGENT PROMPT
 # -----------------------------------------------------------------------------
 
 def impact_agent_prompt(
@@ -267,70 +342,60 @@ def impact_agent_prompt(
     sentiment_label: str,
     article: dict,
 ) -> str:
-    """
-    Prompt for the Impact Agent.
-    Predicts direction, magnitude, and horizon for the PRIMARY company only.
-    """
     return f"""\
 You are a quantitative financial analyst specialising in the Egyptian Stock Exchange (EGX).
 
 Your task: predict how the Arabic news article below will impact the stock price of \
-{ctx['ticker']} ({ctx['company']}) over the next days to weeks.
+{ctx['ticker']} ({ctx['company']}) over a specific time horizon.
 
 {_format_context_block(ctx)}
 
 === ARABIC SENTIMENT SIGNAL (one input among many, NOT a label to defer to) ===
 Pre-computed by an Arabic financial BERT model (CAMeLBERT).
 Label : {sentiment_label}
-Score : {_v(sentiment_score, '+.4f')}   (-1 = strongly negative  ->  +1 = strongly positive)
-NOTE: This model classifies tone, not financial implication. A news article can
-sound "neutral" in tone but be financially bearish (e.g., dilution), or sound
-"positive" but be financially neutral (e.g., a routine announcement). Use this
-score as a sanity check, not as ground truth.
+Score : {_v(sentiment_score, '+.4f')}   (-1 strongly negative  ->  +1 strongly positive)
+NOTE: This model classifies tone, not financial implication.
 
 === NEWS ARTICLE  (Arabic -- do NOT translate) ===
 {_format_article(article)}
 
 {_REASONING_GUARDRAILS}
 
+{_HORIZON_GUIDE}
+
 {_IMPACT_FEWSHOT}
 
 === OUTPUT INSTRUCTIONS ===
-1. Read the Arabic article carefully. Do NOT translate; reason from the Arabic directly.
-2. Classify the news_type FIRST (per R3), then predict.
-3. Your "reasoning" field MUST cite at least THREE specific context fields by name
-   WITH LOGIC (per R1). Generic citations are rejected.
-4. If applicable, INCLUDE A QUANTIFIED RATIO in reasoning (dilution %, yield %, etc.).
-   Use the CONVENTIONAL dilution formula (new shares / pre-existing shares).
-5. Horizon guidance:
-   - earnings/dividend surprises: "1d" or "2-5d"
-   - operational news (contract, halt): "2-5d"
-   - structural/regulatory/M&A: "1-4w"
-6. Magnitude guidance:
-   - "large" requires BOTH a strong catalyst (>5% structural change) AND elevated vol
-   - "medium" = clear catalyst with normal vol
-   - "small" = minor catalyst, OR low vol regardless of catalyst strength,
-                OR already_priced_in=true
-7. If already_priced_in=true, magnitude should default to "small" (per R8).
-8. LANGUAGE: All free-text values (reasoning, key_drivers items, dilution_or_yield_note)
-   MUST be written in Arabic. JSON keys and enum values stay in English.
-9. Output ONLY the JSON object below. No markdown fences. No text outside the JSON.
+1. Read the Arabic article carefully. Do NOT translate.
+2. Classify news_type FIRST, then predict.
+3. Pick horizon using the HORIZON SELECTION rules (default + at most one shift).
+4. "reasoning" MUST cite >=3 specific context fields WITH LOGIC.
+5. "reasoning" MUST state the news_type default horizon and any shift applied.
+6. If applicable, include a quantified ratio (dilution/yield/etc.) with inputs.
+7. Magnitude rules:
+   - "large": strong catalyst (>5% structural) AND elevated vol.
+   - "medium": clear catalyst with normal vol.
+   - "small": minor catalyst, OR low vol, OR already_priced_in=true.
+8. If already_priced_in=true: magnitude defaults to "small" AND horizon
+   must be "1d" or "2-5d".
+9. LANGUAGE: All free-text in Arabic. JSON keys and enum values in English.
+10. Output ONLY the JSON below. No markdown fences. No text outside.
 
 {{
   "news_type":   "capital_increase" | "m_and_a" | "earnings" | "dividend" | "regulatory" | "operational" | "macro" | "other",
   "direction":   "up" | "down" | "neutral",
   "magnitude":   "small" | "medium" | "large",
-  "horizon":     "1d" | "2-5d" | "1-4w",
+  "horizon":     "1d" | "2-5d" | "1-2w" | "2-4w" | "1-3m",
   "confidence":  <float 0.0-1.0>,
   "already_priced_in": <true | false>,
-  "dilution_or_yield_note": "<Arabic: e.g. 'تخفيف = 917م / 4,529م (قبل الزيادة) = 20.3%'  OR  'لا ينطبق'>",
-  "key_drivers": ["<driver 1 in Arabic>", "<driver 2 in Arabic>"],
-  "reasoning":   "<3-5 sentences in Arabic. MUST cite >=3 context fields with logic. MUST mention news_type. MUST include any computed ratio.>"
+  "dilution_or_yield_note": "<Arabic ratio with inputs OR 'لا ينطبق'>",
+  "key_drivers": ["<driver 1 Arabic>", "<driver 2 Arabic>"],
+  "reasoning":   "<3-5 sentences in Arabic. MUST cite >=3 context fields with logic. MUST state news_type default horizon and any shift applied. MUST include the quantified ratio if applicable.>"
 }}"""
 
 
 # -----------------------------------------------------------------------------
-#  2.  SPILLOVER AGENT PROMPT  (Groq -- Qwen3-32B / Llama 3.3 70B)
+#  2.  SPILLOVER AGENT PROMPT
 # -----------------------------------------------------------------------------
 
 def spillover_agent_prompt(
@@ -338,10 +403,6 @@ def spillover_agent_prompt(
     article: dict,
     candidate_descriptions: dict,
 ) -> str:
-    """
-    Prompt for the Spillover Agent.
-    Identifies which OTHER EGX30 companies are affected by the news event.
-    """
     candidates_block = "\n".join(
         f"  - {ticker}: {desc}"
         for ticker, desc in candidate_descriptions.items()
@@ -358,7 +419,8 @@ def spillover_agent_prompt(
 You are a quantitative financial analyst specialising in the Egyptian Stock Exchange (EGX).
 
 A news event has occurred about {ctx['ticker']} ({ctx['company']}, sector: {ctx['sector']}).
-Your task: identify which OTHER EGX30 companies are likely impacted by THIS SAME event.
+Your task: identify which OTHER EGX30 companies are likely impacted by THIS SAME event,
+each with its own horizon.
 
 === PRIMARY COMPANY ===
 Ticker      : {ctx['ticker']}
@@ -371,52 +433,49 @@ Description : {ctx['business_description']}
 
 === STOCKS WITH HIGHEST RETURN-CORRELATION TO {ctx['ticker']} (90-day window) ===
 {corr_summary}
-WARNING: High correlation is a STATISTICAL co-movement signal, not a causal link.
-Do NOT include a peer in spillovers JUST because it correlates. You must identify
-an ECONOMIC channel below.
+WARNING: Correlation is statistical co-movement, not causal link.
+Include a peer ONLY if you can identify an economic channel.
 
-=== CANDIDATE COMPANIES TO EVALUATE (suggested -- you may add others from the universe) ===
+=== CANDIDATE COMPANIES TO EVALUATE ===
 {candidates_block}
 
 === EGX30 UNIVERSE (allowed tickers) ===
 {universe_list}
 You MUST only output tickers from this list. Do NOT invent tickers.
 
-=== SPILLOVER CHANNELS -- pick the one that fits best ===
-  sector_comovement   stocks in the same sector move together on shared sector news
-                      (use sparingly -- company-specific news rarely moves the whole sector)
-  supply_chain        the candidate is a real supplier or customer of the primary company
-  macro_shared        both share the same macro sensitivity (e.g., natural gas, EGP/USD,
-                      interest rates) AND this news has a macro implication
-  competitive         direct competitor -- a gain for the primary may be a loss for the
-                      candidate (or vice versa). Most relevant for market-share news,
-                      regulatory wins/losses, and M&A signaling.
-  precedent           M&A or capital action that signals likely consolidation/dilution
-                      in peers -- candidate may re-rate on takeout speculation.
+=== SPILLOVER CHANNELS ===
+  sector_comovement   shared sector news (use sparingly for company-specific events)
+  supply_chain        candidate is a real supplier/customer of primary
+  macro_shared        both share macro sensitivity AND news has macro implication
+  competitive         direct competitor; primary's gain may be candidate's loss
+  precedent           M&A/capital action signalling sector consolidation
 
 === SPILLOVER REASONING RULES ===
-S1. EVERY spillover must have a CAUSAL channel beyond raw correlation.
-    State the cause in one sentence, not "they are in the same sector".
-S2. COMPANY-SPECIFIC news (earnings beat, single-firm capital action, single-firm
-    regulatory issue) rarely creates large sector spillover. Default to fewer
-    candidates with small magnitude.
-S3. SECTOR / MACRO news (regulation affecting the whole sector, FX move, commodity
-    price shock) creates larger and broader spillover.
-S4. Magnitude should be SMALLER than the primary impact unless the news is
-    explicitly about the candidate too.
-S5. If the news is purely idiosyncratic, return an empty list with "no_spillover_reason".
-S6. USE CORRECT ARABIC COMPANY NAMES (e.g., "بالم هيلز" for PHDC, "تي إم جي القابضة"
-    or "مجموعة طلعت مصطفى" for TMGH, "بلتون القابضة" for BTFH). Do not invent
-    transliterations.
+S1. EVERY spillover must have a CAUSAL channel beyond correlation.
+S2. Company-specific news rarely creates large sector spillover -> default to
+    fewer candidates with small magnitude.
+S3. Sector / macro news creates broader spillover.
+S4. Magnitude should be SMALLER than the primary impact unless the news
+    is explicitly about the candidate too.
+S5. If the news is idiosyncratic, return empty spillovers with no_spillover_reason.
+S6. USE CORRECT ARABIC COMPANY NAMES (e.g., "بالم هيلز" for PHDC,
+    "مجموعة طلعت مصطفى" for TMGH, "بلتون القابضة" for BTFH).
+    Do not invent transliterations.
+
+=== HORIZON FOR SPILLOVERS ===
+Spillover horizons follow the same five-bucket scheme as the primary:
+  1d, 2-5d, 1-2w, 2-4w, 1-3m
+Spillover horizons are typically EQUAL TO or LONGER THAN the primary's
+horizon (the market takes time to propagate the link). Pick the bucket that
+best matches when the candidate will react. Do NOT use any other strings.
 
 === INSTRUCTIONS ===
-1. Read the Arabic article directly; do NOT translate.
-2. Include at most 5 spillover candidates. Fewer is better; weak links add noise.
-3. For each candidate, the "channel" must be justified by the news content,
-   not just by correlation or sector membership.
-4. LANGUAGE: All free-text values (reasoning, no_spillover_reason) MUST be in Arabic.
-   JSON keys, tickers, and enum values stay in English.
-5. Output ONLY the JSON object below. No markdown fences. No text outside the JSON.
+1. Read Arabic directly; do NOT translate.
+2. At most 5 spillover candidates. Fewer is better.
+3. Channel must be justified by the news content.
+4. LANGUAGE: All free-text in Arabic. JSON keys, tickers, enum values in English.
+5. NO LANGUAGE LEAKS (per R9). 100% Arabic in reasoning fields.
+6. Output ONLY the JSON below. No markdown fences. No text outside.
 
 {{
   "news_scope": "company_specific" | "sector_wide" | "macro",
@@ -425,8 +484,9 @@ S6. USE CORRECT ARABIC COMPANY NAMES (e.g., "بالم هيلز" for PHDC, "تي 
       "ticker":    "<EGX30 ticker from universe>",
       "direction": "up" | "down" | "neutral",
       "magnitude": "small" | "medium" | "large",
+      "horizon":   "1d" | "2-5d" | "1-2w" | "2-4w" | "1-3m",
       "channel":   "sector_comovement" | "supply_chain" | "macro_shared" | "competitive" | "precedent",
-      "reasoning": "<1-2 sentences in Arabic explaining the CAUSAL link (not just correlation)>"
+      "reasoning": "<1-2 sentences in Arabic explaining the CAUSAL link>"
     }}
   ],
   "no_spillover_reason": "<Arabic explanation if spillovers list is empty, else empty string>"
@@ -434,7 +494,7 @@ S6. USE CORRECT ARABIC COMPANY NAMES (e.g., "بالم هيلز" for PHDC, "تي 
 
 
 # -----------------------------------------------------------------------------
-#  3.  CRITIC AGENT PROMPT  (Claude -- Anthropic API)
+#  3.  CRITIC AGENT PROMPT
 # -----------------------------------------------------------------------------
 
 def critic_agent_prompt(
@@ -445,30 +505,25 @@ def critic_agent_prompt(
     impact_output: dict,
     spillover_output: dict,
 ) -> str:
-    """
-    Prompt for the Critic Agent (Claude).
-    Reviews both junior outputs and produces the final authoritative prediction,
-    plus a plain-Arabic explanation for non-expert readers.
-    """
     impact_json    = json.dumps(impact_output,    ensure_ascii=False, indent=2)
     spillover_json = json.dumps(spillover_output, ensure_ascii=False, indent=2)
 
     return f"""\
-You are a senior quantitative risk analyst at an Egyptian investment bank with \
-deep expertise in EGX30 stocks, Arabic financial news, and behavioural market dynamics.
+You are a senior quantitative risk analyst at an Egyptian investment bank with deep \
+expertise in EGX30 stocks, Arabic financial news, and behavioural market dynamics.
 
 Two junior LLM analysts have independently assessed a news event about \
 {ctx['ticker']} ({ctx['company']}). Your job is to:
-  (a) critically review their work against the hard quantitative evidence,
-  (b) catch errors the juniors missed (dilution, mis-cited context, timing, channel misuse),
+  (a) review their work against the quantitative evidence,
+  (b) catch errors (dilution, mis-cited context, timing, channel, horizon misuse),
   (c) produce the final, authoritative prediction,
-  (d) write a plain-Arabic explanation that a non-expert retail investor can understand.
+  (d) write a plain-Arabic explanation for a non-expert retail investor.
 
 {_format_context_block(ctx)}
 
 === ARABIC SENTIMENT SIGNAL ===
 Label : {sentiment_label}
-Score : {_v(sentiment_score, '+.4f')}   (-1 = strongly negative  ->  +1 = strongly positive)
+Score : {_v(sentiment_score, '+.4f')}
 
 === NEWS ARTICLE  (Arabic -- do NOT translate) ===
 {_format_article(article)}
@@ -481,79 +536,62 @@ Score : {_v(sentiment_score, '+.4f')}   (-1 = strongly negative  ->  +1 = strong
 
 {_REASONING_GUARDRAILS}
 
+{_HORIZON_GUIDE}
+
 === YOUR REVIEW CHECKLIST ===
-C1. NEWS TYPE: Did the Impact Agent classify news_type correctly?
-C2. QUANTIFICATION: For M&A / capital increases / dividends, did the Impact Agent
-    compute and cite the relevant ratio using the CONVENTIONAL formula
-    (new shares / pre-existing shares for dilution)? If not, COMPUTE IT YOURSELF
-    and include it in your reasoning. State both inputs explicitly.
-C3. CONTEXT MISUSE: Did the Impact Agent cite context fields WITHOUT logical link
-    (e.g., correlation as a directional signal)? Flag this in disagreements_with_juniors.
-C4. TIMING: Could this news already be priced in? Check the 1d return against the
-    expected direction of the catalyst. If priced in, magnitude should be "small"
-    (per R8) unless explicitly justified otherwise.
-C5. TREND vs NEWS: Does the existing trend (MA-50, MA-200, recent ARs) agree with
-    or contradict the news direction? Disagreement should lower confidence.
-C6. VOL REGIME: Did the Impact Agent confuse "low vol" with "bullish"? Flag it.
-C7. SPILLOVER CHANNELS: Are the spillover channels causally justified? Reject any
-    spillover whose only justification is correlation or sector membership.
-C8. SPILLOVER MAGNITUDE: For company-specific news, spillover magnitudes should be
-    SMALL. Downgrade any "medium"/"large" that the Spillover Agent over-rated.
-C9. MISSING RISKS: Identify event-specific risks neither agent mentioned (regulatory
-    approval timelines, liquidity at this volume regime, earnings calendar
-    proximity, FX exposure relevant to THIS company, etc.).
-    GENERIC risk flags ("volatility could amplify") are REJECTED -- be specific.
-C10. INTERNAL CONSISTENCY: Check that already_priced_in, magnitude, and confidence
-     are logically consistent with each other (per R8).
-C11. ARABIC COMPANY NAMES: Verify the junior used correct Arabic names. Fix any
-     hallucinated transliterations (e.g., "بركات هيلز" should be "بالم هيلز").
+C1.  NEWS TYPE: classification correct?
+C2.  QUANTIFICATION: ratio computed with conventional formula and both inputs stated?
+     If missing, compute it yourself in your reasoning.
+C3.  CONTEXT MISUSE: any field cited without logical link? Flag in disagreements.
+C4.  TIMING / PRICED-IN: 1d return aligned with catalyst direction?
+     If priced in, magnitude should be "small" and horizon "1d" or "2-5d".
+C5.  TREND vs NEWS: trend (MA-50, MA-200, ARs) agree or contradict news? Disagreement lowers confidence.
+C6.  VOL REGIME: any confusion of "low vol" with "bullish"?
+C7.  SPILLOVER CHANNELS: causally justified, not just correlation?
+C8.  SPILLOVER MAGNITUDE: small for company-specific news?
+C9.  HORIZON SELECTION: did the Impact Agent pick the correct bucket?
+     Check news-type default + at most one shift. Reject 2-4w/1-3m if priced in.
+     Spillover horizons should be equal to or longer than the primary.
+C10. INTERNAL CONSISTENCY: already_priced_in, magnitude, horizon, and confidence
+     consistent with each other (R8).
+C11. ARABIC COMPANY NAMES: fix hallucinated transliterations.
+C12. LANGUAGE LEAKS: any non-Arabic words in Arabic fields (R9)? Strip them.
 
 === USER-FACING EXPLANATION (mandatory) ===
-After the technical analysis, produce a plain-Arabic explanation for a non-expert
-reader (educated Egyptian retail investor, NOT a finance professional).
+After the technical analysis, produce a plain-Arabic explanation for a
+non-expert retail investor.
 
-Rules for this section:
-U1. NO JARGON. Replace technical terms with everyday Arabic equivalents:
+U1. NO JARGON. Replace technical terms with everyday Arabic:
     - "تخفيف" -> "تقليل نسبة ملكية المساهمين الحاليين"
-    - "MA-50" / "MA-200" -> "متوسط سعر السهم خلال الشهرين أو السنة الماضية"
-    - "abnormal return" -> "حركة السهم مقارنة بحركة السوق العامة"
+    - "MA-50 / MA-200" -> "متوسط سعر السهم خلال الشهرين / السنة الماضية"
+    - "abnormal return" -> "حركة السهم مقارنة بالسوق العامة"
     - "RSI" -> "مؤشر قوة الشراء والبيع"
     - "vol regime" -> "مستوى تذبذب السعر"
     - "spillover" -> "تأثير غير مباشر على شركات أخرى"
-U2. NO NUMBERS WITHOUT MEANING. If you cite a number, explain what it means.
-    Bad: "السهم تحت MA-50 بـ5.62%"
-    Good: "السهم يتداول تحت متوسط سعره في الشهرين الماضيين، مما يعني أن السوق
-           متشائم تجاهه حاليًا"
-U3. NO HEDGING-AS-NOISE. Don't say "may, might, could, possibly" five times in
-    one paragraph. State the view clearly, then state uncertainty separately
-    in "what_could_change_our_view".
-U4. STORY ARC. The fields should flow as a story:
-    headline -> what_happened -> why_it_matters -> what_we_expect -> what_could_change_our_view.
-U5. BREVITY. Each field 2-3 sentences max. Total length around 120-180 Arabic words.
-U6. SOURCE THE CONFIDENCE. If confidence is below 0.6, the "what_we_expect" field
-    must reflect uncertainty in tone, not state the prediction as certain.
-U7. TONE. Professional but accessible. Imagine explaining to a smart friend who
-    invests his own savings and doesn't have a finance background.
-U8. STATE THE PREDICTION EXPLICITLY in what_we_expect.
-    Start with the call ("نتوقع ضغوط هبوطية محدودة على السهم خلال 2-5 أيام"),
-    THEN add 1-2 sentences of supporting evidence.
-    Do not bury the prediction in evidence.
+U2. NO NUMBERS WITHOUT MEANING. Explain what each cited number means.
+U3. NO HEDGING-AS-NOISE. State the view clearly; put uncertainty in the
+    dedicated field.
+U4. STORY ARC: headline -> what_happened -> why_it_matters -> what_we_expect
+    -> what_could_change_our_view.
+U5. BREVITY. 2-3 sentences per field. ~120-180 Arabic words total.
+U6. SOURCE THE CONFIDENCE. If confidence < 0.6, "what_we_expect" must reflect
+    that uncertainty in tone.
+U7. TONE. Professional but accessible.
+U8. STATE THE PREDICTION EXPLICITLY in what_we_expect. Start with the call
+    (direction + magnitude + horizon in plain Arabic), THEN add 1-2 sentences
+    of supporting evidence. Do NOT bury the prediction in evidence.
+U9. NO LANGUAGE LEAKS (R9). 100% Arabic.
 
 === INSTRUCTIONS ===
-1. Read the Arabic article directly; do NOT translate.
-2. Override the junior agents where the quantitative evidence clearly contradicts them.
-   Each override must be listed in "disagreements_with_juniors" with the reason.
-3. "confidence" calibration (per R6): lower it when agents disagree OR when context
-   contradicts the news direction OR when news may be priced in.
-4. SPELLING: Use "RSI-14" not "RS-14". Use proper Arabic punctuation. No stray
-   ASCII artifacts inside Arabic text.
-5. LANGUAGE: All free-text values MUST be in Arabic. JSON keys, tickers, and enum
-   values stay in English.
-6. Output ONLY the JSON object below. No markdown fences. No text outside the JSON.
-7. NO LANGUAGE LEAKS. Arabic free-text fields must be 100% Arabic.
-   No German, French, or English words inside Arabic sentences (e.g.,
-   "Richtung", "direction", "trend"). If you need a technical term,
-   use the Arabic equivalent: اتجاه instead of "direction" or "Richtung".
+1. Read Arabic directly; do NOT translate.
+2. Override juniors where evidence contradicts them. List each override in
+   "disagreements_with_juniors" with the reason.
+3. Confidence calibration (R6): lower when agents disagree OR when context
+   contradicts direction OR when news may be priced in.
+4. SPELLING: "RSI-14" not "RS-14". Proper Arabic punctuation. No stray
+   ASCII artifacts.
+5. LANGUAGE: All free-text in Arabic. JSON keys, tickers, enum values in English.
+6. Output ONLY the JSON below. No markdown fences. No text outside.
 
 {{
   "primary_company": {{
@@ -561,19 +599,20 @@ U8. STATE THE PREDICTION EXPLICITLY in what_we_expect.
     "news_type":   "capital_increase" | "m_and_a" | "earnings" | "dividend" | "regulatory" | "operational" | "macro" | "other",
     "direction":   "up" | "down" | "neutral",
     "magnitude":   "small" | "medium" | "large",
-    "horizon":     "1d" | "2-5d" | "1-4w",
+    "horizon":     "1d" | "2-5d" | "1-2w" | "2-4w" | "1-3m",
     "confidence":  <float 0.0-1.0>,
     "already_priced_in": <true | false>,
-    "quantified_ratio":  "<Arabic: e.g. 'تخفيف = 917م / 4,529م (قبل الزيادة) ≈ 20.3%' OR 'لا ينطبق'>",
-    "reasoning":   "<4-6 sentences in Arabic. MUST cite >=3 context fields WITH logic. MUST state news_type. MUST include the quantified ratio when applicable. MUST note any override of the juniors.>"
+    "quantified_ratio":  "<Arabic ratio with both inputs OR 'لا ينطبق'>",
+    "reasoning":   "<4-6 sentences in Arabic. Cite >=3 context fields WITH logic. State news_type. State news-type default horizon and any shift applied. Include quantified ratio. Note any override.>"
   }},
   "spillovers": [
     {{
-      "ticker":    "<EGX30 ticker from the allowed universe>",
+      "ticker":    "<EGX30 ticker from universe>",
       "direction": "up" | "down" | "neutral",
       "magnitude": "small" | "medium" | "large",
+      "horizon":   "1d" | "2-5d" | "1-2w" | "2-4w" | "1-3m",
       "channel":   "sector_comovement" | "supply_chain" | "macro_shared" | "competitive" | "precedent",
-      "reasoning": "<1-2 sentences in Arabic with CAUSAL link, not correlation>"
+      "reasoning": "<1-2 sentences in Arabic, causal link>"
     }}
   ],
   "risk_flags": [
@@ -581,20 +620,20 @@ U8. STATE THE PREDICTION EXPLICITLY in what_we_expect.
     "<event-specific risk in Arabic>"
   ],
   "disagreements_with_juniors": [
-    "<specific override in Arabic: which agent, what was wrong, what is correct>"
+    "<which agent, what was wrong, what is correct -- in Arabic>"
   ],
   "external_signal_alignment": "aligned" | "partially_aligned" | "contradicts",
-  "external_signal_explanation": "<1-2 sentences in Arabic on whether sentiment score agrees with your direction and why>",
+  "external_signal_explanation": "<1-2 sentences in Arabic>",
   "tldr": {{
-    "verdict":   "<short Arabic phrase: e.g. 'هابط لمدة 1-4 أسابيع' or 'صاعد قصير الأجل' or 'محايد'>",
-    "one_line":  "<one Arabic sentence summarising the entire analysis>"
+    "verdict":   "<short Arabic phrase incl. direction + horizon>",
+    "one_line":  "<one Arabic sentence summarising the whole analysis>"
   }},
   "explanation_for_user": {{
     "headline":                  "<one sentence in plain Arabic, no jargon>",
-    "what_happened":             "<2-3 sentences in plain Arabic explaining the news without jargon>",
-    "why_it_matters":            "<2-3 sentences in plain Arabic explaining the financial logic in everyday terms>",
-    "what_we_expect":            "<2-3 sentences in plain Arabic on direction + approximate size + timeline>",
-    "what_could_change_our_view":"<1-2 sentences in plain Arabic on key uncertainties that could flip the prediction>"
+    "what_happened":             "<2-3 sentences plain Arabic, no jargon>",
+    "why_it_matters":            "<2-3 sentences plain Arabic, financial logic in everyday terms>",
+    "what_we_expect":            "<state the prediction FIRST (direction + size + timeline in plain Arabic), then 1-2 sentences of supporting evidence>",
+    "what_could_change_our_view":"<1-2 sentences plain Arabic on key uncertainties>"
   }}
 }}"""
 
@@ -608,39 +647,17 @@ if __name__ == "__main__":
     sys.path.insert(0, str(__import__("pathlib").Path(__file__).parent))
     from features import compute_context, COMPANY_DESCRIPTIONS
 
-    ctx = compute_context("ABUK", "2025-01-04")
+    ctx = compute_context("EMFD", "2025-01-02")
 
     dummy_article = {
-        "title": "أبو قير للأسمدة تُقر توزيع كوبون نقدي على المساهمين",
-        "body":  "أعلنت شركة أبو قير للأسمدة عن توزيع كوبون نقدي قدره 2.30 جنيه لكل سهم.",
+        "title": "إعمار مصر تُقر زيادة رأس المال للاستحواذ على البرو نورث كوست",
+        "body":  "آراب فاينانس: وافق مجلس إدارة شركة إعمار مصر...",
         "source": "Arab Finance",
-        "date":   "2025-01-05",
-        "datetime": "2025-01-05 10:54:00",
+        "date":   "2025-01-02",
+        "datetime": "2025-01-02 10:54:00",
     }
-
     candidates = build_spillover_candidates(ctx, COMPANY_DESCRIPTIONS)
 
-    print("=" * 70); print("IMPACT AGENT PROMPT"); print("=" * 70)
-    print(impact_agent_prompt(ctx, 0.72, "positive", dummy_article))
-
-    print("\n" + "=" * 70); print("SPILLOVER AGENT PROMPT"); print("=" * 70)
+    print(impact_agent_prompt(ctx, 0.0579, "neutral", dummy_article))
+    print("\n" + "=" * 70 + "\n")
     print(spillover_agent_prompt(ctx, dummy_article, candidates))
-
-    print("\n" + "=" * 70); print("CRITIC AGENT PROMPT  (with dummy junior outputs)"); print("=" * 70)
-    dummy_impact   = {
-        "news_type": "dividend", "direction": "up", "magnitude": "small", "horizon": "2-5d",
-        "confidence": 0.7, "already_priced_in": False,
-        "dilution_or_yield_note": "العائد = 2.30 / سعر الإغلاق",
-        "key_drivers": ["إعلان كوبون نقدي"],
-        "reasoning": "خبر توزيع كوبون نقدي إيجابي."
-    }
-    dummy_spillover = {
-        "news_scope": "company_specific",
-        "spillovers": [
-            {"ticker": "MFPC", "direction": "neutral", "magnitude": "small",
-             "channel": "sector_comovement",
-             "reasoning": "نفس القطاع، أثر ضعيف."}
-        ],
-        "no_spillover_reason": ""
-    }
-    print(critic_agent_prompt(ctx, 0.72, "positive", dummy_article, dummy_impact, dummy_spillover))
