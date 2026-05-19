@@ -1,0 +1,59 @@
+# config.py
+
+# ═══════════════════════════════════════════
+#  API KEYS & ENDPOINTS
+# ═══════════════════════════════════════════
+
+# Environment-backed configuration
+import os
+from dotenv import load_dotenv
+
+# Load `.env` when present. This is optional but convenient for local development.
+load_dotenv()
+
+# Claude / Anthropic-compatible provider
+ANTHROPIC_API_KEY = os.getenv(
+    "ANTHROPIC_API_KEY",
+    os.getenv("CLAUDE_API_KEY", "sk-claudy-d84413544c9539152484be0de5ac8a43de30879fe7cb33f3"),
+)
+ANTHROPIC_BASE_URL = os.getenv(
+    "ANTHROPIC_BASE_URL",
+    os.getenv("CLAUDE_BASE_URL", "https://api.claudy.cloud"),
+)
+ANTHROPIC_MODEL = os.getenv(
+    "ANTHROPIC_MODEL",
+    os.getenv("CLAUDE_MODEL", "claude-sonnet-4-6"),
+)
+
+# Backward-compatible aliases used by the existing codebase.
+CLAUDE_API_KEY = ANTHROPIC_API_KEY
+CLAUDE_BASE_URL = ANTHROPIC_BASE_URL
+CLAUDE_MODEL = ANTHROPIC_MODEL
+
+# Groq
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "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")
+GROQ_MODEL = os.getenv("GROQ_MODEL", "qwen/qwen3-32b")
+
+# Directories
+INPUT_DIR = "output/combined-test/"
+OUTPUT_DIR_FINBERT = "output/sentiment/finbert/"
+OUTPUT_DIR_CLAUDE = "output/sentiment/claude/"
+OUTPUT_DIR_GROQ = "output/sentiment/groq/"
+ENSEMBLE_DIR = "output/sentiment/ensemble/"
+
+# Rate limiting
+CLAUDE_DELAY = 0.5
+GROQ_DELAY = 0.5
+FINBERT_BATCH_DELAY = 1
+
+# Boilerplate markers
+BOILERPLATE_MARKERS = [
+    "تعد شركة",
+    "تعتبر الشركة من الرواد",
+    "يتمثل نشاط الشركة",
+]
+
+SOURCE_PREFIXES = [
+    "القاهرة - مباشر:",
+    "آراب فاينانس:",
+]

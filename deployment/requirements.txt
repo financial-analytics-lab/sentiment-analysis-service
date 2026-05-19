@@ -1,0 +1,10 @@
+fastapi>=0.95.0
+uvicorn[standard]>=0.22.0
+requests>=2.28
+pandas>=2.1
+numpy>=1.25
+transformers>=4.40
+torch>=2.1
+python-dotenv>=1.0
+sentencepiece>=0.1.99
+json-repair>=0.25
