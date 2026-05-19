@@ -3,7 +3,9 @@
     "allow": [
       "Bash(python -c ' *)",
       "Bash(python -c \"import ast; ast.parse\\(open\\('pipeline3.py', encoding='utf-8'\\).read\\(\\)\\); import importlib, pipeline3; importlib.reload\\(pipeline3\\); print\\('OK'\\)\")",
-      "Bash(python -c \"import ast; ast.parse\\(open\\('pipeline3.py',encoding='utf-8'\\).read\\(\\)\\); import importlib, pipeline3; importlib.reload\\(pipeline3\\); print\\('OK'\\)\")"
+      "Bash(python -c \"import ast; ast.parse\\(open\\('pipeline3.py',encoding='utf-8'\\).read\\(\\)\\); import importlib, pipeline3; importlib.reload\\(pipeline3\\); print\\('OK'\\)\")",
+      "Bash(python -c \"import json; d=json.load\\(open\\(r'e:\\\\CSE\\\\CSED4-2\\\\Graduation project\\\\Newest code\\\\sentiment-analysis-service\\\\outputs\\\\predictions_v3\\\\ABUK_2025-06-29_cc004b14.json', encoding='utf-8'\\)\\); print\\(json.dumps\\(d['final'], ensure_ascii=False, indent=2\\)\\)\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\(r'e:\\\\CSE\\\\CSED4-2\\\\Graduation project\\\\Newest code\\\\sentiment-analysis-service\\\\pipeline3.py', encoding='utf-8'\\).read\\(\\)\\); ast.parse\\(open\\(r'e:\\\\CSE\\\\CSED4-2\\\\Graduation project\\\\Newest code\\\\sentiment-analysis-service\\\\prompts.py', encoding='utf-8'\\).read\\(\\)\\); print\\('OK'\\)\")"
     ]
   }
 }

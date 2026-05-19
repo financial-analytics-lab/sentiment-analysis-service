@@ -1,0 +1,400 @@
+{
+  "ticker": "MASR",
+  "article_date": "2025-06-25",
+  "context_date": "2025-06-24",
+  "processed_at": "2026-05-19T17:00:09.081383",
+  "article": {
+    "symbol": "MASR",
+    "company": "Madinet Masr For Housing and Development",
+    "isin": "EGS65571C019",
+    "sector": "Real Estate",
+    "id": "4463862",
+    "date": "2025-06-25",
+    "time": "10:36:54",
+    "datetime": "2025-06-25 10:36:54",
+    "title": "مدينة مصر للإسكان: 300 مليون جنيه معاملات تطبيق \"SAFE\" منذ إطلاقه",
+    "body": "القاهرة - مباشر: أعلنت شركة مدينة مصر للإسكان والتعمير، عن نجاح تطبيق SAFE الذي يتيح للمستثمرين فرصة لتملك العقارات بشكل جزئي.\nوأوضحت الشركة في افصاح اليوم الأربعاء، أن معاملات \"SAFE\" سجلت نحو 300 مليون جنيه منذ إطلاقه في ديسمبر الماضي، وتم بيع 5 آلاف حصة عقارية عبر التطبيق، جذبت 65 ألف مستخدم خلال 6 أشهر فقط.\nوقالت إن 3.5 ألف مستثمر بدأوا في تحقيق عوائد إيجارية شهرية بمتوسط عائد سنوي 10%، منوهة إلى أن العديد من العوائد ترتبط بسعر صرف الدولار.\nويشار أن SAFE يتيح الاستثمار في الحصص العقارية ابتداءً من 50 ألف جنيه، وهو ما يسمح بتمكين شريحة أوسع من المستثمرين من دخول السوق لعقاري وبناء محافظ استثمارية متنوعة.\nيشار أن مدينة مصر للإسكان والتعمير،  حققت صافي ربح (نصيب الشركة الأم) بلغ 793.85 مليون جنيه خلال الفترة من يناير حتى نهاية مارس 2025، مقابل صافي ربح بلغ 1.17 مليار جنيه خلال الفترة ذاتها من العام الماضي.\nوهبطت إيرادات الشركة خلال الثلاثة أشهر إلى 2.56 مليار جنيه، مقارنةً بنحو 3.07 مليار جنيه خلال الفترة المماثلة من 2024.\nوعلى مستوى الأعمال المستقلة خلال الربع الأول من 2025 حققت الشركة أرباحاً بلغت 761.31 مليون جنيه، مقابل أرباح بقيمة 1.17 مليار جنيه خلال الفترة المقارنة.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nأبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية\n..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر\n..\nاضغط هنا\nترشيحات\n:\nمدينة مصر تستهدف استثمار 13 مليار جنيه خلال 2025",
+    "teaser": "القاهرة - مباشر: أعلنت شركة مدينة مصر للإسكان والتعمير، عن نجاح تطبيق SAFE الذي يتيح للمستثمرين فرصة لتملك العقارات بشكل جزئي. وأوضحت الشركة في افصاح اليوم الأربعاء، أن معاملات \"SAFE\" سجلت نحو 300 مليون جنيه منذ إطلاقه في ديسمبر الماضي، وتم بيع 5 …",
+    "section": "نتائج أعمال الشركات",
+    "source": "مباشر",
+    "categories": "stock-bonds",
+    "country": "مصر",
+    "reads": 439,
+    "url": "https://www.mubasher.info/news/4463862",
+    "image_url": "https://static.mubasher.info/File.Story_Image/afc8ecff7380aecd6e0a5d1e0a5d9cda/640.jpg",
+    "date_raw": ""
+  },
+  "sentiment": {
+    "model": "CAMeL-Lab/bert-base-arabic-camelbert-mix-sentiment",
+    "label": "neutral",
+    "score": 0.456,
+    "numeric": 0,
+    "class_probs": {
+      "neutral": 0.5393,
+      "positive": 0.4583,
+      "negative": 0.0023
+    }
+  },
+  "sentiment_ensemble": {
+    "label": "positive",
+    "score": 0.4284,
+    "weights": {
+      "camelbert": 0.15,
+      "groq": 0.25,
+      "critic": 0.6
+    }
+  },
+  "sentiment_sources": {
+    "camelbert": {
+      "label": "neutral",
+      "score": 0.456
+    },
+    "groq": {
+      "label": "positive",
+      "score": 0.6
+    },
+    "critic": {
+      "label": "neutral",
+      "score": 0.35
+    }
+  },
+  "context": {
+    "ticker": "MASR",
+    "company": "Madinet Masr For Housing and Development - MASR",
+    "sector": "Real Estate",
+    "business_description": "Madinet Masr for Housing and Development — listed real estate developer focused on integrated urban communities in Greater Cairo (Sarai, Taj City).",
+    "event_date": "2025-06-25",
+    "last_price_date": "2025-06-24",
+    "price_state": {
+      "last_close": 4.41,
+      "return_1d": 4.75,
+      "return_5d": 5.76,
+      "return_20d": -3.92,
+      "return_60d": 5.76,
+      "pct_vs_ma50": -2.43,
+      "pct_vs_ma200": 5.0,
+      "vol_20d_annualized_pct": 37.47,
+      "vol_regime": "elevated",
+      "rsi_14": 50.5
+    },
+    "market_state": {
+      "sector_return_1d": 4.95,
+      "sector_return_5d": 5.52,
+      "relative_strength_vs_sector_1d": -0.2
+    },
+    "correlation_state": {
+      "corr_with_sector_90d": 0.75,
+      "top_3_correlated_peers": [
+        {
+          "ticker": "MFPC",
+          "correlation": 0.59,
+          "sector": "Petroleum & Petrochemicals"
+        },
+        {
+          "ticker": "HRHO",
+          "correlation": 0.55,
+          "sector": "Non-Bank Financials"
+        },
+        {
+          "ticker": "PHDC",
+          "correlation": 0.51,
+          "sector": "Real Estate"
+        }
+      ]
+    },
+    "recent_abnormal_returns": [
+      {
+        "date": "2025-06-18",
+        "stock_return_pct": -0.96,
+        "sector_return_pct": 0.81,
+        "abnormal_return_pct": -1.77
+      },
+      {
+        "date": "2025-06-19",
+        "stock_return_pct": -1.94,
+        "sector_return_pct": -2.27,
+        "abnormal_return_pct": 0.33
+      },
+      {
+        "date": "2025-06-22",
+        "stock_return_pct": 1.23,
+        "sector_return_pct": 1.81,
+        "abnormal_return_pct": -0.58
+      },
+      {
+        "date": "2025-06-23",
+        "stock_return_pct": 2.68,
+        "sector_return_pct": 1.56,
+        "abnormal_return_pct": 1.12
+      },
+      {
+        "date": "2025-06-24",
+        "stock_return_pct": 4.75,
+        "sector_return_pct": 5.37,
+        "abnormal_return_pct": -0.62
+      }
+    ],
+    "technical_signals": {
+      "rsi_14": 50.5,
+      "rsi_zone": "neutral",
+      "macd": {
+        "line": -0.0942,
+        "signal": -0.0745,
+        "histogram": -0.0197,
+        "state": "bearish"
+      },
+      "bollinger": {
+        "pct_b": 0.486,
+        "bandwidth_pct": 18.72,
+        "zone": "middle"
+      },
+      "distance_to_extremes": {
+        "20d_high_distance_pct": -5.16,
+        "20d_low_distance_pct": 8.89,
+        "60d_high_distance_pct": -8.32,
+        "60d_low_distance_pct": 8.89,
+        "252d_high_distance_pct": -8.32,
+        "252d_low_distance_pct": 30.09
+      },
+      "rsi_divergence": "none",
+      "atr_pct_14d": 1.89,
+      "consecutive_streak": 3
+    },
+    "dynamic_bands": {
+      "horizon_trading_days": {
+        "short": 1,
+        "medium": 2,
+        "large": 20
+      },
+      "neutral_band_pct": {
+        "short": 0.94,
+        "medium": 1.34,
+        "large": 4.23
+      },
+      "magnitude_bands_pct": {
+        "short": {
+          "small": [
+            0.0,
+            1.32
+          ],
+          "medium": [
+            1.32,
+            3.78
+          ],
+          "large": [
+            3.78,
+            null
+          ]
+        },
+        "medium": {
+          "small": [
+            0.0,
+            1.87
+          ],
+          "medium": [
+            1.87,
+            5.35
+          ],
+          "large": [
+            5.35,
+            null
+          ]
+        },
+        "large": {
+          "small": [
+            0.0,
+            5.92
+          ],
+          "medium": [
+            5.92,
+            16.9
+          ],
+          "large": [
+            16.9,
+            null
+          ]
+        }
+      },
+      "atr_pct_anchor": 1.89
+    },
+    "news_timing": {
+      "in_trading_hours": true,
+      "arrived_at_str": "2025-06-25 10:36:54",
+      "start_day_label": "event_date (article day; news arrived during EGX hours)"
+    }
+  },
+  "prompts": {
+    "impact": "You are a quantitative analyst predicting Egyptian Stock Exchange (EGX) stock reactions to Arabic news. Your prediction must be grounded in the technical signals provided and calibrated to this specific ticker's volatility.\n\n=== COMPANY ===\nTicker      : MASR\nName        : Madinet Masr For Housing and Development - MASR\nSector      : Real Estate\nDescription : Madinet Masr for Housing and Development — listed real estate developer focused on integrated urban communities in Greater Cairo (Sarai, Taj City).\nPrice data  : as of 2025-06-24  (article date: 2025-06-25)\n\n=== PRICE STATE ===\nLast close  : 4.41 EGP\nReturn 1d   : +4.75%   5d : +5.76%   20d : -3.92%   60d : +5.76%\nvs MA-50    : -2.43%  vs MA-200 : +5.00%\nTrend       : weakening (above MA-200 but below MA-50)\nVol 20d ann : 37.47%  [elevated regime]  Elevated -> impact AMPLIFIED.\n\n=== SECTOR ===\nSector 1d   : +4.95%  5d : +5.52%\nStock vs sector 1d : -0.20%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 0.75\nTop peers:\n  - MFPC | Petroleum & Petrochemicals | 90d-corr: 0.59\n  - HRHO | Non-Bank Financials | 90d-corr: 0.55\n  - PHDC | Real Estate | 90d-corr: 0.51\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2025-06-18: stock -0.96%  sector +0.81%  AR -1.77%\n  2025-06-19: stock -1.94%  sector -2.27%  AR +0.33%\n  2025-06-22: stock +1.23%  sector +1.81%  AR -0.58%\n  2025-06-23: stock +2.68%  sector +1.56%  AR +1.12%\n  2025-06-24: stock +4.75%  sector +5.37%  AR -0.62%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 50.50  [neutral]\nMACD      : state=bearish  hist=-0.0197\nBollinger : zone=middle  %B=0.486\nDistance  : 20d_hi -5.16%  20d_lo +8.89%  60d_hi -8.32%  60d_lo +8.89%  52w_hi -8.32%  52w_lo +30.09%\nDivergence : none\nATR 14d   : 1.89%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : +3 (up streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=1.89%) ===\n  short   (N= 1d)  neutral=+-0.94%  small <1.32%  medium 1.32%-3.78%  large >=3.78%\n  medium  (N= 2d)  neutral=+-1.34%  small <1.87%  medium 1.87%-5.35%  large >=5.35%\n  large   (N=20d)  neutral=+-4.23%  small <5.92%  medium 5.92%-16.90%  large >=16.90%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-06-25 10:36:54\nIn trading hours: True  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : event_date (article day; news arrived during EGX hours)\nHorizons (days) : short=1d ; medium=2d ; large=20d\n\n=== ARABIC SENTIMENT (one input among many) ===\nLabel : neutral\nScore : +0.4560   (-1 strongly negative -> +1 strongly positive)\nNOTE: CAMeLBERT classifies tone, not financial implication.\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-06-25 10:36:54\nHeadline  : مدينة مصر للإسكان: 300 مليون جنيه معاملات تطبيق \"SAFE\" منذ إطلاقه\n\nالقاهرة - مباشر: أعلنت شركة مدينة مصر للإسكان والتعمير، عن نجاح تطبيق SAFE الذي يتيح للمستثمرين فرصة لتملك العقارات بشكل جزئي.\nوأوضحت الشركة في افصاح اليوم الأربعاء، أن معاملات \"SAFE\" سجلت نحو 300 مليون جنيه منذ إطلاقه في ديسمبر الماضي، وتم بيع 5 آلاف حصة عقارية عبر التطبيق، جذبت 65 ألف مستخدم خلال 6 أشهر فقط.\nوقالت إن 3.5 ألف مستثمر بدأوا في تحقيق عوائد إيجارية شهرية بمتوسط عائد سنوي 10%، منوهة إلى أن العديد من العوائد ترتبط بسعر صرف الدولار.\nويشار أن SAFE يتيح الاستثمار في الحصص العقارية ابتداءً من 50 ألف جنيه، وهو ما يسمح بتمكين شريحة أوسع من المستثمرين من دخول السوق لعقاري وبناء محافظ استثمارية متنوعة.\nيشار أن مدينة مصر للإسكان والتعمير،  حققت صافي ربح (نصيب الشركة الأم) بلغ 793.85 مليون جنيه خلال الفترة من يناير حتى نهاية مارس 2025، مقابل صافي ربح بلغ 1.17 مليار جنيه خلال الفترة ذاتها من العام الماضي.\nوهبطت إيرادات الشركة خلال الثلاثة أشهر إلى 2.56 مليار جنيه، مقارنةً بنحو 3.07 مليار جنيه خلال الفترة المماثلة من 2024.\nوعلى مستوى الأعمال المستقلة خلال الربع الأول من 2025 حققت الشركة أرباحاً بلغت 761.31 مليون جنيه، مقابل أرباح بقيمة 1.17 مليار جنيه خلال الفترة المقارنة.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nأبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية\n..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر\n..\nاضغط هنا\nترشيحات\n:\nمدينة مصر تستهدف استثمار 13 مليار جنيه خلال 2025\n\n=== HORIZONS (predict ALL OF THEM) ===\n  short   -> t+0 only (just the start day's return)    AR label: اليوم الأول (t+0): رد الفعل الفوري\n  medium  -> t+0 .. t+1  (2 trading days cumulative)   AR label: اليومان الأولان (t+0 إلى t+1): الاستجابة المبكرة\n  large   -> t+0 .. t+19  (20 trading days cumulative)  AR label: العشرون يوم تداول (t+0 إلى t+19): الأثر الممتد\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- 'up'\nmeans OUTPERFORMING the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\nR8. NO PERCENTAGES IN REASONING TEXT. The per-horizon `reasoning` fields\n    and `overall_reasoning` describe direction with WORDS ONLY\n    (صعود / محايد / هبوط). Do NOT embed numeric percentages like '+2.3%' or\n    'بنسبة 5%' in those text fields. Magnitude buckets (small/medium/large)\n    remain because they are categorical, not numeric. Quantified ratios\n    (e.g. dilution, dividend yield) stay in `quantified_ratio` ONLY -- never\n    inside the free-text reasoning.\nR9. NO MODEL NAMES IN USER-FACING TEXT. NEVER mention any sentiment-model\n    name (CAMeLBERT, AraBERT, BERT, \"the model\", \"كاميل بيرت\", \"النموذج\")\n    in any Arabic free-text output. If you reference article tone, call it\n    \"النبرة العامة للخبر\" or \"نبرة الخبر\".\nR10. INDEPENDENT SENTIMENT. The \"ARABIC SENTIMENT\" block in the input is ONE\n    signal among many. Produce your OWN `sentiment_assessment` (label +\n    score in [-1,+1]) reflecting YOUR reading of the article tone -- do not\n    blindly copy the model's score.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== OUTPUT INSTRUCTIONS ===\n1. Classify news_type FIRST.\n2. Walk through T1-T5. Pick TA signals that ACTUALLY apply from the closed vocab.\n3. Anchor magnitudes to the PER-COMPANY bands above (NOT a global rule).\n4. Quantify any dilution/yield ratio with both inputs.\n5. If news_type=dividend, FILL dividend_info; otherwise set it to null.\n6. Produce your OWN `sentiment_assessment` (label + score in [-1,+1]) based on\n   YOUR reading of the article -- not a copy of the model score above.\n7. REASONING TEXT: direction in words only (صعود / محايد / هبوط). NO percentages\n   inside `reasoning` or `overall_reasoning` fields (R8). NO sentiment-model\n   names in any Arabic text (R9).\n8. LANGUAGE: free-text Arabic. JSON keys + enum values in English.\n9. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"news_type\":         \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n  \"already_priced_in\": <true | false>,\n  \"sentiment_assessment\": {\n    \"label\": \"positive\" | \"neutral\" | \"negative\",\n    \"score\": <float in [-1.0, +1.0]>\n  },\n  \"quantified_ratio\":  \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n  \"key_drivers\":       [\"<driver 1 Arabic>\", \"<driver 2 Arabic>\"],\n  \"ta_signals_cited\":  [\"<signal from closed vocab>\", \"...\"],\n  \"dividend_info\": null | {\n    \"yield_pct\":      <float>,\n    \"ex_div_date\":    \"<YYYY-MM-DD or null if unknown>\",\n    \"amount_egp\":     <float or null>\n  },\n  \"per_horizon\": {\n    \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal. NO percentages.>\"},\n    \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal. NO percentages.>\"},\n    \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal. NO percentages.>\"}\n  },\n  \"overall_reasoning\": \"<3-4 Arabic sentences. Walk T1-T5 briefly. Reference the per-company magnitude bands by name (NOT by %). State news_type. NO numeric percentages. NO model names.>\"\n}",
+    "critic": "You are a senior quantitative risk analyst at an Egyptian investment bank. A junior LLM analyst has assessed a news event about MASR (Madinet Masr For Housing and Development - MASR). Your job:\n  (a) audit the junior's TA citations against the live data,\n  (b) check magnitudes against the PER-COMPANY bands (not global rules),\n  (c) produce the final authoritative prediction across short / medium / large,\n  (d) write a plain-Arabic explanation for a non-expert retail investor.\n\n=== COMPANY ===\nTicker      : MASR\nName        : Madinet Masr For Housing and Development - MASR\nSector      : Real Estate\nDescription : Madinet Masr for Housing and Development — listed real estate developer focused on integrated urban communities in Greater Cairo (Sarai, Taj City).\nPrice data  : as of 2025-06-24  (article date: 2025-06-25)\n\n=== PRICE STATE ===\nLast close  : 4.41 EGP\nReturn 1d   : +4.75%   5d : +5.76%   20d : -3.92%   60d : +5.76%\nvs MA-50    : -2.43%  vs MA-200 : +5.00%\nTrend       : weakening (above MA-200 but below MA-50)\nVol 20d ann : 37.47%  [elevated regime]  Elevated -> impact AMPLIFIED.\n\n=== SECTOR ===\nSector 1d   : +4.95%  5d : +5.52%\nStock vs sector 1d : -0.20%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 0.75\nTop peers:\n  - MFPC | Petroleum & Petrochemicals | 90d-corr: 0.59\n  - HRHO | Non-Bank Financials | 90d-corr: 0.55\n  - PHDC | Real Estate | 90d-corr: 0.51\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2025-06-18: stock -0.96%  sector +0.81%  AR -1.77%\n  2025-06-19: stock -1.94%  sector -2.27%  AR +0.33%\n  2025-06-22: stock +1.23%  sector +1.81%  AR -0.58%\n  2025-06-23: stock +2.68%  sector +1.56%  AR +1.12%\n  2025-06-24: stock +4.75%  sector +5.37%  AR -0.62%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 50.50  [neutral]\nMACD      : state=bearish  hist=-0.0197\nBollinger : zone=middle  %B=0.486\nDistance  : 20d_hi -5.16%  20d_lo +8.89%  60d_hi -8.32%  60d_lo +8.89%  52w_hi -8.32%  52w_lo +30.09%\nDivergence : none\nATR 14d   : 1.89%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : +3 (up streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=1.89%) ===\n  short   (N= 1d)  neutral=+-0.94%  small <1.32%  medium 1.32%-3.78%  large >=3.78%\n  medium  (N= 2d)  neutral=+-1.34%  small <1.87%  medium 1.87%-5.35%  large >=5.35%\n  large   (N=20d)  neutral=+-4.23%  small <5.92%  medium 5.92%-16.90%  large >=16.90%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-06-25 10:36:54\nIn trading hours: True  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : event_date (article day; news arrived during EGX hours)\nHorizons (days) : short=1d ; medium=2d ; large=20d\n\n=== ARABIC SENTIMENT ===\nLabel : neutral\nScore : +0.4560\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-06-25 10:36:54\nHeadline  : مدينة مصر للإسكان: 300 مليون جنيه معاملات تطبيق \"SAFE\" منذ إطلاقه\n\nالقاهرة - مباشر: أعلنت شركة مدينة مصر للإسكان والتعمير، عن نجاح تطبيق SAFE الذي يتيح للمستثمرين فرصة لتملك العقارات بشكل جزئي.\nوأوضحت الشركة في افصاح اليوم الأربعاء، أن معاملات \"SAFE\" سجلت نحو 300 مليون جنيه منذ إطلاقه في ديسمبر الماضي، وتم بيع 5 آلاف حصة عقارية عبر التطبيق، جذبت 65 ألف مستخدم خلال 6 أشهر فقط.\nوقالت إن 3.5 ألف مستثمر بدأوا في تحقيق عوائد إيجارية شهرية بمتوسط عائد سنوي 10%، منوهة إلى أن العديد من العوائد ترتبط بسعر صرف الدولار.\nويشار أن SAFE يتيح الاستثمار في الحصص العقارية ابتداءً من 50 ألف جنيه، وهو ما يسمح بتمكين شريحة أوسع من المستثمرين من دخول السوق لعقاري وبناء محافظ استثمارية متنوعة.\nيشار أن مدينة مصر للإسكان والتعمير،  حققت صافي ربح (نصيب الشركة الأم) بلغ 793.85 مليون جنيه خلال الفترة من يناير حتى نهاية مارس 2025، مقابل صافي ربح بلغ 1.17 مليار جنيه خلال الفترة ذاتها من العام الماضي.\nوهبطت إيرادات الشركة خلال الثلاثة أشهر إلى 2.56 مليار جنيه، مقارنةً بنحو 3.07 مليار جنيه خلال الفترة المماثلة من 2024.\nوعلى مستوى الأعمال المستقلة خلال الربع الأول من 2025 حققت الشركة أرباحاً بلغت 761.31 مليون جنيه، مقابل أرباح بقيمة 1.17 مليار جنيه خلال الفترة المقارنة.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nأبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية\n..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر\n..\nاضغط هنا\nترشيحات\n:\nمدينة مصر تستهدف استثمار 13 مليار جنيه خلال 2025\n\n=== IMPACT AGENT OUTPUT (junior, Groq) ===\n{\n  \"news_type\": \"operational\",\n  \"already_priced_in\": false,\n  \"sentiment_assessment\": {\n    \"label\": \"positive\",\n    \"score\": 0.6\n  },\n  \"quantified_ratio\": \"لا ينطبق\",\n  \"key_drivers\": [\n    \"نجاح تطبيق SAFE في جذب مستثمرين جدد وتحقيق عوائد إيجارية\",\n    \"انخفاض الأرباح الفصلية مقارنة بالفترة نفسها من العام الماضي\"\n  ],\n  \"ta_signals_cited\": [\n    \"macd_bearish\",\n    \"up_streak_3plus\",\n    \"high_volatility\"\n  ],\n  \"dividend_info\": null,\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.65,\n      \"reasoning\": \"النبرة الإيجابية للخبر قد تدعم الصعود، لكن مؤشر MACD الباعث يحد من المكاسب.\"\n    },\n    \"medium\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.55,\n      \"reasoning\": \"الاتجاه الصعودي القصير قد يستمر مع تأثير المخاطر المحددة من التذبذب المرتفع.\"\n    },\n    \"large\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.4,\n      \"reasoning\": \"الاتجاه الهابط طويل الأمد قد يمحو تأثير الخبر الإيجابي على المدى الطويل.\"\n    }\n  },\n  \"overall_reasoning\": \"الخبر يحمل نبرة إيجابية مختلطة مع مخاوف من تراجع الأرباح. مؤشر MACD الباعث يحد من الصعود الفوري، بينما التذبذب المرتفع يعزز من تأثير المكاسب. على المدى الطويل، الاتجاه الهابط طويل الأمد قد يقلل من تأثير الخبر. حجم التذبذب اليومي (1.89%) يشير إلى أن التحركات الكبيرة غير محتملة دون إشارات تقنية قوية.\"\n}\n\n=== HORIZONS (predict ALL OF THEM) ===\n  short   -> t+0 only (just the start day's return)    AR label: اليوم الأول (t+0): رد الفعل الفوري\n  medium  -> t+0 .. t+1  (2 trading days cumulative)   AR label: اليومان الأولان (t+0 إلى t+1): الاستجابة المبكرة\n  large   -> t+0 .. t+19  (20 trading days cumulative)  AR label: العشرون يوم تداول (t+0 إلى t+19): الأثر الممتد\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- 'up'\nmeans OUTPERFORMING the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\nR8. NO PERCENTAGES IN REASONING TEXT. The per-horizon `reasoning` fields\n    and `overall_reasoning` describe direction with WORDS ONLY\n    (صعود / محايد / هبوط). Do NOT embed numeric percentages like '+2.3%' or\n    'بنسبة 5%' in those text fields. Magnitude buckets (small/medium/large)\n    remain because they are categorical, not numeric. Quantified ratios\n    (e.g. dilution, dividend yield) stay in `quantified_ratio` ONLY -- never\n    inside the free-text reasoning.\nR9. NO MODEL NAMES IN USER-FACING TEXT. NEVER mention any sentiment-model\n    name (CAMeLBERT, AraBERT, BERT, \"the model\", \"كاميل بيرت\", \"النموذج\")\n    in any Arabic free-text output. If you reference article tone, call it\n    \"النبرة العامة للخبر\" or \"نبرة الخبر\".\nR10. INDEPENDENT SENTIMENT. The \"ARABIC SENTIMENT\" block in the input is ONE\n    signal among many. Produce your OWN `sentiment_assessment` (label +\n    score in [-1,+1]) reflecting YOUR reading of the article tone -- do not\n    blindly copy the model's score.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== REVIEW CHECKLIST ===\nC1. NEWS_TYPE correct?\nC2. TA_SIGNALS: every cited signal must be supported by the data. Override\n    inconsistent cites silently in your final output.\nC3. MAGNITUDE vs PER-COMPANY BANDS: does the predicted bucket match the\n    horizon's per-company thresholds? Adjust if mis-scaled.\nC4. PRICED-IN: if stock_vs_sector_1d aligns with the news direction, short\n    magnitude should default to \"small\" (R4).\nC5. DIVERGENCE: if a divergence signal is present, did the junior account for it?\nC6. CONFIDENCE: lower when context contradicts the call or news is priced in.\n    Default conf_large <= conf_medium <= conf_short.\nC7. DIVIDEND_INFO: if news_type=dividend, ensure yield_pct is present. If the\n    article gives the ex-div date, extract it as YYYY-MM-DD; otherwise null.\nC8. LANGUAGE: strip any non-Arabic word from Arabic fields (R6).\n\n=== USER-FACING EXPLANATION (the most important deliverable) ===\nYou will produce TWO reasoning blocks tuned to two audiences:\n\n  news_story:       PLAIN ARABIC, ZERO JARGON. Just the news content and what\n                    it means in everyday language. A retail investor with no\n                    finance training must understand it. No RSI / MACD / ATR.\n\n  technical_view:   Includes TA signals AND explains each term in Arabic\n                    inline. Format example:\n                      \"مؤشر RSI (مقياس قوة الشراء والبيع) عند 72 وهو مرتفع...\"\n                      \"مؤشر MACD (تقاطع المتوسطات المتحركة) في حالة هبوطية...\"\n                      \"نطاقات بولينجر (مستوى التذبذب) تشير إلى تشبع...\"\n                      \"مؤشر ATR (متوسط الحركة اليومية المعتادة) لهذا السهم 1.5%...\"\n\n  sentiment_note:   ONE Arabic sentence describing the OVERALL TONE of the news\n                    (إيجابية / محايدة / سلبية) and whether it agrees with our\n                    prediction or contradicts it. DO NOT name any sentiment\n                    model. Refer to the tone as \"النبرة العامة للخبر\".\n\n  outlook_by_horizon: ONE Arabic sentence per horizon. Direction + size + a\n                    one-clause reason. Numbers stated in plain language.\n\n  what_could_change_our_view: 1-2 Arabic sentences on key uncertainties.\n\nU-rules:\n  U1. NUMBERS WITH MEANING. Every cited number gets a plain-Arabic interpretation.\n  U2. STATE THE PREDICTION FIRST in news_story (direction + timeline), THEN evidence.\n  U3. BREVITY. Each field is short -- prefer 2-3 sentences max per field.\n  U4. 100% Arabic in this entire block. The next agent (QA) will reject leaks.\n\n=== INSTRUCTIONS ===\n1. Override the junior wherever evidence demands; do not surface the override\n   to the user -- just produce the corrected final prediction.\n2. Confidence: adjust per horizon. Default conf_large <= conf_medium <= conf_short.\n3. SPELLING: \"RSI-14\" not \"RS-14\". Proper Arabic punctuation.\n4. Produce your OWN `sentiment_assessment` inside `primary_company` (label +\n   score in [-1,+1]) based on your reading of the article. This will be\n   ensembled downstream with the model and junior scores -- you have the\n   highest weight, so be deliberate.\n5. NO PERCENTAGES in any Arabic free-text `reasoning` / `overall_reasoning` /\n   `explanation_for_user` field (R8). Direction in words only.\n6. NO SENTIMENT-MODEL NAMES anywhere in the Arabic free-text (R9). Refer to\n   article tone as \"النبرة العامة للخبر\".\n7. LANGUAGE: free-text Arabic; JSON keys + tickers + enum values in English.\n8. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"primary_company\": {\n    \"ticker\":              \"MASR\",\n    \"news_type\":           \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n    \"already_priced_in\":   <true | false>,\n    \"sentiment_assessment\": {\n      \"label\": \"positive\" | \"neutral\" | \"negative\",\n      \"score\": <float in [-1.0, +1.0]>\n    },\n    \"quantified_ratio\":    \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n    \"ta_signals_cited\":    [\"<signal from closed vocab>\", \"...\"],\n    \"dividend_info\": null | {\n      \"yield_pct\":   <float>,\n      \"ex_div_date\": \"<YYYY-MM-DD or null>\",\n      \"amount_egp\":  <float or null>\n    },\n    \"per_horizon\": {\n      \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA. NO percentages.>\"},\n      \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA. NO percentages.>\"},\n      \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA. NO percentages.>\"}\n    },\n    \"overall_reasoning\":   \"<2-3 Arabic sentences. Reference the per-company bands by name. State news_type. NO percentages. NO model names.>\"\n  },\n  \"tldr\": \"<one Arabic sentence summarising the whole view: direction + dominant horizon. NO percentages.>\",\n  \"explanation_for_user\": {\n    \"headline\":                   \"<one sentence in plain Arabic, no jargon, captures the news. NO percentages.>\",\n    \"news_story\":                 \"<2-3 sentences PLAIN Arabic, zero technical jargon, zero percentages. What happened and why it matters to an everyday investor.>\",\n    \"technical_view\":             \"<2-3 sentences with TA signals, EACH technical term explained in Arabic inline (RSI / MACD / Bollinger / ATR / divergence). NO percentages.>\",\n    \"sentiment_note\":             \"<1 Arabic sentence describing the overall news tone (إيجابية / محايدة / سلبية) and whether it agrees with our prediction. DO NOT name any sentiment model.>\",\n    \"outlook_by_horizon\": {\n      \"short\":  \"<one Arabic sentence: direction + size + reason for t+0. NO percentages.>\",\n      \"medium\": \"<one Arabic sentence: direction + size + reason for t+0..t+1. NO percentages.>\",\n      \"large\":  \"<one Arabic sentence: direction + size + reason for t+0..t+19. NO percentages.>\"\n    },\n    \"what_could_change_our_view\": \"<1-2 Arabic sentences on key uncertainties. NO percentages.>\"\n  }\n}"
+  },
+  "impact_agent": {
+    "output": {
+      "news_type": "operational",
+      "already_priced_in": false,
+      "sentiment_assessment": {
+        "label": "positive",
+        "score": 0.6
+      },
+      "quantified_ratio": "لا ينطبق",
+      "key_drivers": [
+        "نجاح تطبيق SAFE في جذب مستثمرين جدد وتحقيق عوائد إيجارية",
+        "انخفاض الأرباح الفصلية مقارنة بالفترة نفسها من العام الماضي"
+      ],
+      "ta_signals_cited": [
+        "macd_bearish",
+        "up_streak_3plus",
+        "high_volatility"
+      ],
+      "dividend_info": null,
+      "per_horizon": {
+        "short": {
+          "direction": "up",
+          "magnitude": "small",
+          "confidence": 0.65,
+          "reasoning": "النبرة الإيجابية للخبر قد تدعم الصعود، لكن مؤشر MACD الباعث يحد من المكاسب."
+        },
+        "medium": {
+          "direction": "up",
+          "magnitude": "medium",
+          "confidence": 0.55,
+          "reasoning": "الاتجاه الصعودي القصير قد يستمر مع تأثير المخاطر المحددة من التذبذب المرتفع."
+        },
+        "large": {
+          "direction": "neutral",
+          "magnitude": "small",
+          "confidence": 0.4,
+          "reasoning": "الاتجاه الهابط طويل الأمد قد يمحو تأثير الخبر الإيجابي على المدى الطويل."
+        }
+      },
+      "overall_reasoning": "الخبر يحمل نبرة إيجابية مختلطة مع مخاوف من تراجع الأرباح. مؤشر MACD الباعث يحد من الصعود الفوري، بينما التذبذب المرتفع يعزز من تأثير المكاسب. على المدى الطويل، الاتجاه الهابط طويل الأمد قد يقلل من تأثير الخبر. حجم التذبذب اليومي (1.89%) يشير إلى أن التحركات الكبيرة غير محتملة دون إشارات تقنية قوية."
+    },
+    "raw": "{  \"news_type\": \"operational\",\n  \"already_priced_in\": false,\n  \"sentiment_assessment\": {\n    \"label\": \"positive\",\n    \"score\": 0.6\n  },\n  \"quantified_ratio\": \"لا ينطبق\",\n  \"key_drivers\": [\n    \"نجاح تطبيق SAFE في جذب مستثمرين جدد وتحقيق عوائد إيجارية\",\n    \"انخفاض الأرباح الفصلية مقارنة بالفترة نفسها من العام الماضي\"\n  ],\n  \"ta_signals_cited\": [\n    \"macd_bearish\",\n    \"up_streak_3plus\",\n    \"high_volatility\"\n  ],\n  \"dividend_info\": null,\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.65,\n      \"reasoning\": \"النبرة الإيجابية للخبر قد تدعم الصعود، لكن مؤشر MACD الباعث يحد من المكاسب.\"\n    },\n    \"medium\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.55,\n      \"reasoning\": \"الاتجاه الصعودي القصير قد يستمر مع تأثير المخاطر المحددة من التذبذب المرتفع.\"\n    },\n    \"large\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.4,\n      \"reasoning\": \"الاتجاه الهابط طويل الأمد قد يمحو تأثير الخبر الإيجابي على المدى الطويل.\"\n    }\n  },\n  \"overall_reasoning\": \"الخبر يحمل نبرة إيجابية مختلطة مع مخاوف من تراجع الأرباح. مؤشر MACD الباعث يحد من الصعود الفوري، بينما التذبذب المرتفع يعزز من تأثير المكاسب. على المدى الطويل، الاتجاه الهابط طويل الأمد قد يقلل من تأثير الخبر. حجم التذبذب اليومي (1.89%) يشير إلى أن التحركات الكبيرة غير محتملة دون إشارات تقنية قوية.\"\n}"
+  },
+  "critic_agent": {
+    "output": {
+      "primary_company": {
+        "ticker": "MASR",
+        "news_type": "operational",
+        "already_priced_in": false,
+        "sentiment_assessment": {
+          "label": "neutral",
+          "score": 0.35
+        },
+        "quantified_ratio": "لا ينطبق",
+        "ta_signals_cited": [
+          "macd_bearish",
+          "up_streak_3plus",
+          "high_volatility",
+          "rsi_neutral",
+          "bollinger_middle",
+          "near_20d_low"
+        ],
+        "dividend_info": null,
+        "per_horizon": {
+          "short": {
+            "direction": "up",
+            "magnitude": "small",
+            "confidence": 0.62,
+            "reasoning": "الخبر يحمل نبرة إيجابية حول نجاح تطبيق SAFE، لكن مؤشر MACD في حالة هبوطية يحد من الصعود الفوري. السهم يتداول بالقرب من أدنى مستوياته في عشرين يوم، مما يوفر دعماً تقنياً للارتفاع البسيط."
+          },
+          "medium": {
+            "direction": "up",
+            "magnitude": "small",
+            "confidence": 0.58,
+            "reasoning": "الزخم الصعودي الحالي (ثلاث جلسات صعود متتالية) قد يستمر على المدى القصير، لكن التذبذب المرتفع والاتجاه الضعيف (السهم تحت المتوسط المتحرك لخمسين يوم) يحد من الارتفاع المتوقع إلى حجم صغير."
+          },
+          "large": {
+            "direction": "neutral",
+            "magnitude": "small",
+            "confidence": 0.45,
+            "reasoning": "على المدى الطويل، الاتجاه العام ضعيف والسهم يتراجع عن المتوسط المتحرك لخمسين يوم. الأرباح الفصلية انخفضت مقارنة بالعام السابق، مما يعوض جزئياً الإيجابيات من تطبيق SAFE. التأثير المتوقع محدود جداً."
+          }
+        },
+        "overall_reasoning": "الخبر من نوع تشغيلي يركز على نجاح تطبيق SAFE وجذب مستثمرين جدد، لكنه يأتي مع تحذير من انخفاض الأرباح والإيرادات. نطاقات الحجم الخاصة بالسهم (ATR = 1.89%) تشير إلى أن الحركة الصغيرة تعني أقل من 1.32% في يوم واحد. مؤشر MACD الهابط ونطاقات بولينجر في المنتصف يحدان من الصعود، بينما موقع السهم بالقرب من أدنى مستوياته يوفر دعماً تقنياً محدوداً."
+      },
+      "tldr": "السهم متوقع أن يرتفع بشكل طفيف على المدى القصير جداً بسبب الخبر الإيجابي عن التطبيق، لكن الاتجاه العام الضعيف والأرباح المنخفضة يحدان من الارتفاع على المدى الأطول.",
+      "explanation_for_user": {
+        "headline": "مدينة مصر تعلن عن نجاح تطبيق SAFE الذي حقق ثلاثمائة مليون جنيه معاملات في ستة أشهر.",
+        "news_story": "أعلنت الشركة عن نجاح تطبيقها الجديد SAFE الذي يسمح للمستثمرين بتملك أجزاء من العقارات برأس مال صغير (من خمسين ألف جنيه). التطبيق جذب خمسة وستين ألف مستخدم وحقق معاملات بقيمة ثلاثمائة مليون جنيه منذ إطلاقه في ديسمبر. هذا خبر إيجابي لأنه يفتح سوقاً جديداً للشركة، لكن الخبر يتضمن أيضاً معلومة سلبية: أرباح الشركة انخفضت بشكل كبير في الربع الأول من هذا العام مقارنة بالعام الماضي.",
+        "technical_view": "من ناحية المؤشرات التقنية، مؤشر RSI-14 (مقياس قوة الشراء والبيع) عند 50.5 وهو محايد تماماً. مؤشر MACD (تقاطع المتوسطات المتحركة) في حالة هبوطية، مما يشير إلى ضعف الزخم الصعودي. نطاقات بولينجر (مستوى التذبذب) تشير إلى أن السهم في المنتصف بين الحدود العليا والدنيا. مؤشر ATR (متوسط الحركة اليومية المعتادة) لهذا السهم حوالي 1.89، وهو ما يعني أن الحركات الكبيرة نادرة.",
+        "sentiment_note": "النبرة العامة للخبر محايدة إلى إيجابية قليلاً بسبب نجاح التطبيق، لكنها تتعارض جزئياً مع توقعنا المحافظ لأن الأرباح المنخفضة تقلل من تأثير الخبر الإيجابي.",
+        "outlook_by_horizon": {
+          "short": "متوقع ارتفاع طفيف جداً في اليوم الأول لأن الخبر إيجابي، لكن مؤشر MACD الهابط يحد من الصعود.",
+          "medium": "على مدى يومي التداول الأولين، قد يستمر الارتفاع الطفيف بسبب الزخم الصعودي الحالي، لكن التذبذب المرتفع قد يسبب تقلبات.",
+          "large": "على مدى عشرين يوم تداول، الاتجاه العام ضعيف والأرباح المنخفضة قد تحد من الارتفاع، لذا متوقع أن يبقى السهم محايداً أو يرتفع بشكل محدود جداً."
+        },
+        "what_could_change_our_view": "إذا أعلنت الشركة عن عقود جديدة كبيرة أو تحسن في الأرباح المتوقعة، قد يرتفع السهم أكثر. أيضاً، إذا استمر التطبيق في جذب مستثمرين بسرعة أكبر من المتوقع، قد يدعم ذلك الأسعار على المدى الطويل."
+      }
+    },
+    "raw": "```json\n{\n  \"primary_company\": {\n    \"ticker\": \"MASR\",\n    \"news_type\": \"operational\",\n    \"already_priced_in\": false,\n    \"sentiment_assessment\": {\n      \"label\": \"neutral\",\n      \"score\": 0.35\n    },\n    \"quantified_ratio\": \"لا ينطبق\",\n    \"ta_signals_cited\": [\n      \"macd_bearish\",\n      \"up_streak_3plus\",\n      \"high_volatility\",\n      \"rsi_neutral\",\n      \"bollinger_middle\",\n      \"near_20d_low\"\n    ],\n    \"dividend_info\": null,\n    \"per_horizon\": {\n      \"short\": {\n        \"direction\": \"up\",\n        \"magnitude\": \"small\",\n        \"confidence\": 0.62,\n        \"reasoning\": \"الخبر يحمل نبرة إيجابية حول نجاح تطبيق SAFE، لكن مؤشر MACD في حالة هبوطية يحد من الصعود الفوري. السهم يتداول بالقرب من أدنى مستوياته في عشرين يوم، مما يوفر دعماً تقنياً للارتفاع البسيط.\"\n      },\n      \"medium\": {\n        \"direction\": \"up\",\n        \"magnitude\": \"small\",\n        \"confidence\": 0.58,\n        \"reasoning\": \"الزخم الصعودي الحالي (ثلاث جلسات صعود متتالية) قد يستمر على المدى القصير، لكن التذبذب المرتفع والاتجاه الضعيف (السهم تحت المتوسط المتحرك لخمسين يوم) يحد من الارتفاع المتوقع إلى حجم صغير.\"\n      },\n      \"large\": {\n        \"direction\": \"neutral\",\n        \"magnitude\": \"small\",\n        \"confidence\": 0.45,\n        \"reasoning\": \"على المدى الطويل، الاتجاه العام ضعيف والسهم يتراجع عن المتوسط المتحرك لخمسين يوم. الأرباح الفصلية انخفضت مقارنة بالعام السابق، مما يعوض جزئياً الإيجابيات من تطبيق SAFE. التأثير المتوقع محدود جداً.\"\n      }\n    },\n    \"overall_reasoning\": \"الخبر من نوع تشغيلي يركز على نجاح تطبيق SAFE وجذب مستثمرين جدد، لكنه يأتي مع تحذير من انخفاض الأرباح والإيرادات. نطاقات الحجم الخاصة بالسهم (ATR = 1.89%) تشير إلى أن الحركة الصغيرة تعني أقل من 1.32% في يوم واحد. مؤشر MACD الهابط ونطاقات بولينجر في المنتصف يحدان من الصعود، بينما موقع السهم بالقرب من أدنى مستوياته يوفر دعماً تقنياً محدوداً.\"\n  },\n  \"tldr\": \"السهم متوقع أن يرتفع بشكل طفيف على المدى القصير جداً بسبب الخبر الإيجابي عن التطبيق، لكن الاتجاه العام الضعيف والأرباح المنخفضة يحدان من الارتفاع على المدى الأطول.\",\n  \"explanation_for_user\": {\n    \"headline\": \"مدينة مصر تعلن عن نجاح تطبيق SAFE الذي حقق 300 مليون جنيه معاملات في ستة أشهر.\",\n    \"news_story\": \"أعلنت الشركة عن نجاح تطبيقها الجديد SAFE الذي يسمح للمستثمرين بتملك أجزاء من العقارات برأس مال صغير (من 50 ألف جنيه). التطبيق جذب 65 ألف مستخدم وحقق معاملات بقيمة 300 مليون جنيه منذ إطلاقه في ديسمبر. هذا خبر إيجابي لأنه يفتح سوقاً جديداً للشركة، لكن الخبر يتضمن أيضاً معلومة سلبية: أرباح الشركة انخفضت بشكل كبير في الربع الأول من هذا العام مقارنة بالعام الماضي.\",\n    \"technical_view\": \"من ناحية المؤشرات التقنية، مؤشر RSI-14 (مقياس قوة الشراء والبيع) عند 50.5 وهو محايد تماماً. مؤشر MACD (تقاطع المتوسطات المتحركة) في حالة هبوطية، مما يشير إلى ضعف الزخم الصعودي. نطاقات بولينجر (مستوى التذبذب) تشير إلى أن السهم في المنتصف بين الحدود العليا والدنيا. مؤشر ATR (متوسط الحركة اليومية المعتادة) لهذا السهم حوالي 1.89%، وهو ما يعني أن الحركات الكبيرة نادرة.\",\n    \"sentiment_note\": \"نبرة الخبر محايدة إلى إيجابية قليلاً بسبب نجاح التطبيق، لكنها تتعارض جزئياً مع توقعنا المحافظ لأن الأرباح المنخفضة تقلل من تأثير الخبر الإيجابي.\",\n    \"outlook_by_horizon\": {\n      \"short\": \"متوقع ارتفاع طفيف جداً في اليوم الأول لأن الخبر إيجابي، لكن مؤشر MACD الهابط يحد من الصعود.\",\n      \"medium\": \"على مدى يومي التداول الأولين، قد يستمر الارتفاع الطفيف بسبب الزخم الصعودي الحالي، لكن التذبذب المرتفع قد يسبب تقلبات.\",\n      \"large\": \"على مدى عشرين يوم تداول، الاتجاه العام ضعيف والأرباح المنخفضة قد تحد من الارتفاع، لذا متوقع أن يبقى السهم محايداً أو يرتفع بشكل محدود جداً.\"\n    },\n    \"what_could_change_our_view\": \"إذا أعلنت الشركة عن عقود جديدة كبيرة أو تحسن في الأرباح المتوقعة، قد يرتفع السهم أكثر. أيضاً، إذا استمر التطبيق في جذب مستثمرين بسرعة أكبر من المتوقع، قد يدعم ذلك الأسعار على المدى الطويل.\"\n  }\n}\n```",
+    "thinking": ""
+  },
+  "arabic_qa": {
+    "enabled": true,
+    "model": "claude-sonnet-4-6",
+    "explanation_pre": {
+      "headline": "مدينة مصر تعلن عن نجاح تطبيق SAFE الذي حقق 300 مليون جنيه معاملات في ستة أشهر.",
+      "news_story": "أعلنت الشركة عن نجاح تطبيقها الجديد SAFE الذي يسمح للمستثمرين بتملك أجزاء من العقارات برأس مال صغير (من 50 ألف جنيه). التطبيق جذب 65 ألف مستخدم وحقق معاملات بقيمة 300 مليون جنيه منذ إطلاقه في ديسمبر. هذا خبر إيجابي لأنه يفتح سوقاً جديداً للشركة، لكن الخبر يتضمن أيضاً معلومة سلبية: أرباح الشركة انخفضت بشكل كبير في الربع الأول من هذا العام مقارنة بالعام الماضي.",
+      "technical_view": "من ناحية المؤشرات التقنية، مؤشر RSI-14 (مقياس قوة الشراء والبيع) عند 50.5 وهو محايد تماماً. مؤشر MACD (تقاطع المتوسطات المتحركة) في حالة هبوطية، مما يشير إلى ضعف الزخم الصعودي. نطاقات بولينجر (مستوى التذبذب) تشير إلى أن السهم في المنتصف بين الحدود العليا والدنيا. مؤشر ATR (متوسط الحركة اليومية المعتادة) لهذا السهم حوالي 1.89%، وهو ما يعني أن الحركات الكبيرة نادرة.",
+      "sentiment_note": "نبرة الخبر محايدة إلى إيجابية قليلاً بسبب نجاح التطبيق، لكنها تتعارض جزئياً مع توقعنا المحافظ لأن الأرباح المنخفضة تقلل من تأثير الخبر الإيجابي.",
+      "outlook_by_horizon": {
+        "short": "متوقع ارتفاع طفيف جداً في اليوم الأول لأن الخبر إيجابي، لكن مؤشر MACD الهابط يحد من الصعود.",
+        "medium": "على مدى يومي التداول الأولين، قد يستمر الارتفاع الطفيف بسبب الزخم الصعودي الحالي، لكن التذبذب المرتفع قد يسبب تقلبات.",
+        "large": "على مدى عشرين يوم تداول، الاتجاه العام ضعيف والأرباح المنخفضة قد تحد من الارتفاع، لذا متوقع أن يبقى السهم محايداً أو يرتفع بشكل محدود جداً."
+      },
+      "what_could_change_our_view": "إذا أعلنت الشركة عن عقود جديدة كبيرة أو تحسن في الأرباح المتوقعة، قد يرتفع السهم أكثر. أيضاً، إذا استمر التطبيق في جذب مستثمرين بسرعة أكبر من المتوقع، قد يدعم ذلك الأسعار على المدى الطويل."
+    },
+    "explanation_post": {
+      "headline": "مدينة مصر تعلن عن نجاح تطبيق SAFE الذي حقق ثلاثمائة مليون جنيه معاملات في ستة أشهر.",
+      "news_story": "أعلنت الشركة عن نجاح تطبيقها الجديد SAFE الذي يسمح للمستثمرين بتملك أجزاء من العقارات برأس مال صغير (من خمسين ألف جنيه). التطبيق جذب خمسة وستين ألف مستخدم وحقق معاملات بقيمة ثلاثمائة مليون جنيه منذ إطلاقه في ديسمبر. هذا خبر إيجابي لأنه يفتح سوقاً جديداً للشركة، لكن الخبر يتضمن أيضاً معلومة سلبية: أرباح الشركة انخفضت بشكل كبير في الربع الأول من هذا العام مقارنة بالعام الماضي.",
+      "technical_view": "من ناحية المؤشرات التقنية، مؤشر RSI-14 (مقياس قوة الشراء والبيع) عند 50.5 وهو محايد تماماً. مؤشر MACD (تقاطع المتوسطات المتحركة) في حالة هبوطية، مما يشير إلى ضعف الزخم الصعودي. نطاقات بولينجر (مستوى التذبذب) تشير إلى أن السهم في المنتصف بين الحدود العليا والدنيا. مؤشر ATR (متوسط الحركة اليومية المعتادة) لهذا السهم حوالي 1.89، وهو ما يعني أن الحركات الكبيرة نادرة.",
+      "sentiment_note": "النبرة العامة للخبر محايدة إلى إيجابية قليلاً بسبب نجاح التطبيق، لكنها تتعارض جزئياً مع توقعنا المحافظ لأن الأرباح المنخفضة تقلل من تأثير الخبر الإيجابي.",
+      "outlook_by_horizon": {
+        "short": "متوقع ارتفاع طفيف جداً في اليوم الأول لأن الخبر إيجابي، لكن مؤشر MACD الهابط يحد من الصعود.",
+        "medium": "على مدى يومي التداول الأولين، قد يستمر الارتفاع الطفيف بسبب الزخم الصعودي الحالي، لكن التذبذب المرتفع قد يسبب تقلبات.",
+        "large": "على مدى عشرين يوم تداول، الاتجاه العام ضعيف والأرباح المنخفضة قد تحد من الارتفاع، لذا متوقع أن يبقى السهم محايداً أو يرتفع بشكل محدود جداً."
+      },
+      "what_could_change_our_view": "إذا أعلنت الشركة عن عقود جديدة كبيرة أو تحسن في الأرباح المتوقعة، قد يرتفع السهم أكثر. أيضاً، إذا استمر التطبيق في جذب مستثمرين بسرعة أكبر من المتوقع، قد يدعم ذلك الأسعار على المدى الطويل."
+    }
+  },
+  "final": {
+    "ticker": "MASR",
+    "news_type": "operational",
+    "already_priced_in": false,
+    "sentiment_assessment": {
+      "label": "neutral",
+      "score": 0.35
+    },
+    "quantified_ratio": "لا ينطبق",
+    "ta_signals_cited": [
+      "macd_bearish",
+      "up_streak_3plus",
+      "high_volatility",
+      "rsi_neutral",
+      "bollinger_middle",
+      "near_20d_low"
+    ],
+    "dividend_info": null,
+    "per_horizon": {
+      "short": {
+        "direction": "up",
+        "magnitude": "small",
+        "confidence": 0.62,
+        "reasoning": "الخبر يحمل نبرة إيجابية حول نجاح تطبيق SAFE، لكن مؤشر MACD في حالة هبوطية يحد من الصعود الفوري. السهم يتداول بالقرب من أدنى مستوياته في عشرين يوم، مما يوفر دعماً تقنياً للارتفاع البسيط."
+      },
+      "medium": {
+        "direction": "up",
+        "magnitude": "small",
+        "confidence": 0.58,
+        "reasoning": "الزخم الصعودي الحالي (ثلاث جلسات صعود متتالية) قد يستمر على المدى القصير، لكن التذبذب المرتفع والاتجاه الضعيف (السهم تحت المتوسط المتحرك لخمسين يوم) يحد من الارتفاع المتوقع إلى حجم صغير."
+      },
+      "large": {
+        "direction": "neutral",
+        "magnitude": "small",
+        "confidence": 0.45,
+        "reasoning": "على المدى الطويل، الاتجاه العام ضعيف والسهم يتراجع عن المتوسط المتحرك لخمسين يوم. الأرباح الفصلية انخفضت مقارنة بالعام السابق، مما يعوض جزئياً الإيجابيات من تطبيق SAFE. التأثير المتوقع محدود جداً."
+      }
+    },
+    "overall_reasoning": "الخبر من نوع تشغيلي يركز على نجاح تطبيق SAFE وجذب مستثمرين جدد، لكنه يأتي مع تحذير من انخفاض الأرباح والإيرادات. نطاقات الحجم الخاصة بالسهم (ATR = 1.89%) تشير إلى أن الحركة الصغيرة تعني أقل من 1.32% في يوم واحد. مؤشر MACD الهابط ونطاقات بولينجر في المنتصف يحدان من الصعود، بينما موقع السهم بالقرب من أدنى مستوياته يوفر دعماً تقنياً محدوداً."
+  }
+}

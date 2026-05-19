@@ -352,7 +352,7 @@ signals provided and calibrated to this specific ticker's volatility.
 === ARABIC SENTIMENT (one input among many) ===
 Label : {sentiment_label}
 Score : {_v(sentiment_score, '+.4f')}   (-1 strongly negative -> +1 strongly positive)
-NOTE: CAMeLBERT classifies tone, not financial implication.
+NOTE: this is a weighted ensemble tone classifier, not a financial-impact verdict.
 
 === NEWS ARTICLE (Arabic -- do NOT translate) ===
 {_format_article(article)}
@@ -471,10 +471,11 @@ You will produce TWO reasoning blocks tuned to two audiences:
                       "نطاقات بولينجر (مستوى التذبذب) تشير إلى تشبع..."
                       "مؤشر ATR (متوسط الحركة اليومية المعتادة) لهذا السهم 1.5%..."
 
-  sentiment_note:   ONE Arabic sentence that surfaces the CAMeLBERT sentiment
-                    result (label + score given above in 'ARABIC SENTIMENT')
-                    AND explicitly says whether it agrees with our prediction
-                    or contradicts it.
+  sentiment_note:   ONE Arabic sentence that surfaces the sentiment result
+                    (label + score given above in 'ARABIC SENTIMENT') AND
+                    explicitly says whether it agrees with our prediction or
+                    contradicts it. Do NOT name any model (CAMeLBERT, Claude,
+                    Groq, Qwen, etc.) -- just refer to it as تحليل المشاعر.
 
   outlook_by_horizon: ONE Arabic sentence per horizon. Direction + size + a
                     one-clause reason. Numbers stated in plain language.
@@ -519,7 +520,7 @@ U-rules:
     "headline":                   "<one sentence in plain Arabic, no jargon, captures the news>",
     "news_story":                 "<2-3 sentences PLAIN Arabic, zero technical jargon. What happened and why it matters to an everyday investor.>",
     "technical_view":             "<2-3 sentences with TA signals, EACH technical term explained in Arabic inline as shown above (RSI / MACD / Bollinger / ATR / divergence).>",
-    "sentiment_note":             "<1 Arabic sentence: state the CAMeLBERT label and score, and whether it agrees with our prediction.>",
+    "sentiment_note":             "<1 Arabic sentence: state the sentiment label and score (refer to it only as تحليل المشاعر, NEVER name any model), and whether it agrees with our prediction.>",
     "outlook_by_horizon": {{
       "short":  "<one Arabic sentence: direction + size + reason for t+0>",
       "medium": "<one Arabic sentence: direction + size + reason for t+0..t+1>",

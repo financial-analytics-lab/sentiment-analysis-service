@@ -1,0 +1,467 @@
+{
+  "ticker": "HRHO",
+  "article_date": "2025-06-24",
+  "context_date": "2025-06-23",
+  "processed_at": "2026-05-19T18:00:12.141428",
+  "article": {
+    "symbol": "HRHO",
+    "company": "EFG Holding",
+    "isin": "EGS69101C011",
+    "sector": "Banking & Financial Services",
+    "id": "4463561",
+    "date": "2025-06-24",
+    "time": "13:30:34",
+    "datetime": "2025-06-24 13:30:34",
+    "title": "\"إي إف چي\" تعلن إتمام خدماتها الاستشارية لقيد \"ڤاليو\" في البورصة المصرية",
+    "body": "القاهرة – مباشر: أعلنت شركة إي اف چي هيرميس، إحدى شركات مجموعة إي اف چي القابضة، إتمام الخدمات الاستشارية لعملية القيد التاريخية لشركة يو للتمويل الاستهلاكي \"ڤاليو\" في البورصة المصرية وبدء تداول أسهم شركة ڤاليو في البورصة المصرية أمس.\nوقالت الشركة في بيان اليوم، إنه تم قيد وتداول أسهم ڤاليو في البورصة المصرية عبر توزيعًا للأسهم على مساهمي مجموعة إي اف چي القابضة، والتي خصصت 20.488% من رأس مال ڤاليو لمساهميها، مع تحديد تاريخ الاستحقاق في 12 يونيو2025.\nوبالتوازي مع بدء التداول، استحوذت شركة أمازون على أسهم تمثل حصة مباشرة بنسبة 3.95% في ڤاليو بسعر 416.0 جنيه مصري للسهم. وشهد سعر السهم أداءً إيجابيًا ملحوظًا، حيث أغلق عند 7.4 جنيه مصري للسهم\nوستستمر إي اف چي فاينانس القابضة (إي اف چي فاينانس)، وهي شركة تابعة لمجموعة إي اف چي القابضة، في امتلاك 67% من شركة ڤاليو بعد التداول وبيع الأسهم لأمازون.\nقامت إي اف چي هيرميس بالعمل كمستشار مالي أوحد لڤاليو ومجموعة إي اف چي القابضة فيما يتعلق بعملية القيد وصفقة أمازون.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nأبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر..\nاضغط هنا\nترشيحات\nجهاز حكومي مصري يستثمر 4 ملايين دولار في صندوق ديسربتيك\nجيزة سيستمز: النظر في الطرح ببورصة مصر لن يكون قبل 2027\nصادرات الغاز الإسرائيلي إلى مصر ترتفع لـ 970 مليون قدم مكعبة يومياً\nمصر تتعاقد على استئجار سفينة تغويز ثالثة لتلبية الاحتياجات المحلية من الغاز\nمسؤول يكشف أسباب رفع أسعار خدمات الإنترنت والاتصالات في مصر\nمصر.. نصائح مهمة من \"حماية المستهلك\" للمواطنين قبل شراء السلع",
+    "teaser": "القاهرة – مباشر: أعلنت شركة إي اف چي هيرميس، إحدى شركات مجموعة إي اف چي القابضة، إتمام الخدمات الاستشارية لعملية القيد التاريخية لشركة يو للتمويل الاستهلاكي \"ڤاليو\" في البورصة المصرية وبدء تداول أسهم شركة ڤاليو في البورصة المصرية أمس. وقالت الشركة …",
+    "section": "أخبار الشركة",
+    "source": "مباشر",
+    "categories": "stock-bonds",
+    "country": "مصر",
+    "reads": 453,
+    "url": "https://www.mubasher.info/news/4463561",
+    "image_url": "https://static.mubasher.info/File.Story_Image/22473874b03152877f862a092e35a588/640.jpg",
+    "date_raw": ""
+  },
+  "sentiment": {
+    "model": "ensemble(claude+groq_qwen+camelbert)",
+    "label": "positive",
+    "score": 0.6087,
+    "numeric": 1,
+    "class_probs": {
+      "positive": 0.659,
+      "neutral": 0.2907,
+      "negative": 0.0503
+    }
+  },
+  "sentiment_ensemble": {
+    "weights": {
+      "claude": 0.5,
+      "groq_qwen": 0.3,
+      "camelbert": 0.2
+    },
+    "models": {
+      "claude": {
+        "model": "claude-sonnet-4-6",
+        "label": "positive",
+        "score": 0.84,
+        "numeric": 1,
+        "class_probs": {
+          "positive": 0.88,
+          "neutral": 0.08,
+          "negative": 0.04
+        }
+      },
+      "groq_qwen": {
+        "model": "qwen/qwen3-32b",
+        "label": "positive",
+        "score": 0.6,
+        "numeric": 1,
+        "class_probs": {
+          "positive": 0.7,
+          "neutral": 0.2,
+          "negative": 0.1
+        }
+      },
+      "camelbert": {
+        "model": "CAMeL-Lab/bert-base-arabic-camelbert-mix-sentiment",
+        "label": "neutral",
+        "score": 0.0438,
+        "numeric": 0,
+        "class_probs": {
+          "neutral": 0.9536,
+          "positive": 0.0451,
+          "negative": 0.0013
+        }
+      }
+    },
+    "weighted": {
+      "model": "ensemble(claude+groq_qwen+camelbert)",
+      "label": "positive",
+      "score": 0.6087,
+      "numeric": 1,
+      "class_probs": {
+        "positive": 0.659,
+        "neutral": 0.2907,
+        "negative": 0.0503
+      }
+    }
+  },
+  "context": {
+    "ticker": "HRHO",
+    "company": "EFG Holding - HRHO",
+    "sector": "Non-Bank Financials",
+    "business_description": "EFG Holding (formerly EFG Hermes) — Egypt and MENA's leading investment bank: brokerage, asset management, investment banking, and consumer finance (Valu BNPL).",
+    "event_date": "2025-06-24",
+    "last_price_date": "2025-06-23",
+    "price_state": {
+      "last_close": 27.5,
+      "return_1d": 7.21,
+      "return_5d": 3.85,
+      "return_20d": -10.74,
+      "return_60d": -1.08,
+      "pct_vs_ma50": -3.54,
+      "pct_vs_ma200": 13.17,
+      "vol_20d_annualized_pct": 66.98,
+      "vol_regime": "elevated",
+      "rsi_14": 46.94
+    },
+    "market_state": {
+      "sector_return_1d": 6.91,
+      "sector_return_5d": 3.85,
+      "relative_strength_vs_sector_1d": 0.3
+    },
+    "correlation_state": {
+      "corr_with_sector_90d": 0.9,
+      "top_3_correlated_peers": [
+        {
+          "ticker": "CCAP",
+          "correlation": 0.59,
+          "sector": "Non-Bank Financials"
+        },
+        {
+          "ticker": "AMOC",
+          "correlation": 0.58,
+          "sector": "Petroleum & Petrochemicals"
+        },
+        {
+          "ticker": "MASR",
+          "correlation": 0.56,
+          "sector": "Real Estate"
+        }
+      ]
+    },
+    "recent_abnormal_returns": [
+      {
+        "date": "2025-06-17",
+        "stock_return_pct": -4.72,
+        "sector_return_pct": -3.9,
+        "abnormal_return_pct": -0.82
+      },
+      {
+        "date": "2025-06-18",
+        "stock_return_pct": -1.98,
+        "sector_return_pct": -0.19,
+        "abnormal_return_pct": -1.79
+      },
+      {
+        "date": "2025-06-19",
+        "stock_return_pct": -2.71,
+        "sector_return_pct": -3.12,
+        "abnormal_return_pct": 0.41
+      },
+      {
+        "date": "2025-06-22",
+        "stock_return_pct": 6.61,
+        "sector_return_pct": 5.95,
+        "abnormal_return_pct": 0.66
+      },
+      {
+        "date": "2025-06-23",
+        "stock_return_pct": 7.21,
+        "sector_return_pct": 5.54,
+        "abnormal_return_pct": 1.67
+      }
+    ],
+    "technical_signals": {
+      "rsi_14": 46.94,
+      "rsi_zone": "neutral",
+      "macd": {
+        "line": -0.9038,
+        "signal": -0.4226,
+        "histogram": -0.4812,
+        "state": "bearish"
+      },
+      "bollinger": {
+        "pct_b": 0.359,
+        "bandwidth_pct": 34.38,
+        "zone": "middle"
+      },
+      "distance_to_extremes": {
+        "20d_high_distance_pct": -13.39,
+        "20d_low_distance_pct": 14.3,
+        "60d_high_distance_pct": -13.39,
+        "60d_low_distance_pct": 14.3,
+        "252d_high_distance_pct": -13.39,
+        "252d_low_distance_pct": 61.86
+      },
+      "rsi_divergence": "none",
+      "atr_pct_14d": 3.28,
+      "consecutive_streak": 2
+    },
+    "dynamic_bands": {
+      "horizon_trading_days": {
+        "short": 1,
+        "medium": 2,
+        "large": 20
+      },
+      "neutral_band_pct": {
+        "short": 1.64,
+        "medium": 2.32,
+        "large": 7.33
+      },
+      "magnitude_bands_pct": {
+        "short": {
+          "small": [
+            0.0,
+            2.3
+          ],
+          "medium": [
+            2.3,
+            6.56
+          ],
+          "large": [
+            6.56,
+            null
+          ]
+        },
+        "medium": {
+          "small": [
+            0.0,
+            3.25
+          ],
+          "medium": [
+            3.25,
+            9.28
+          ],
+          "large": [
+            9.28,
+            null
+          ]
+        },
+        "large": {
+          "small": [
+            0.0,
+            10.27
+          ],
+          "medium": [
+            10.27,
+            29.34
+          ],
+          "large": [
+            29.34,
+            null
+          ]
+        }
+      },
+      "atr_pct_anchor": 3.28
+    },
+    "news_timing": {
+      "in_trading_hours": true,
+      "arrived_at_str": "2025-06-24 13:30:34",
+      "start_day_label": "event_date (article day; news arrived during EGX hours)"
+    }
+  },
+  "prompts": {
+    "impact": "You are a quantitative analyst predicting Egyptian Stock Exchange (EGX) stock reactions to Arabic news. Your prediction must be grounded in the technical signals provided and calibrated to this specific ticker's volatility.\n\n=== COMPANY ===\nTicker      : HRHO\nName        : EFG Holding - HRHO\nSector      : Non-Bank Financials\nDescription : EFG Holding (formerly EFG Hermes) — Egypt and MENA's leading investment bank: brokerage, asset management, investment banking, and consumer finance (Valu BNPL).\nPrice data  : as of 2025-06-23  (article date: 2025-06-24)\n\n=== PRICE STATE ===\nLast close  : 27.50 EGP\nReturn 1d   : +7.21%   5d : +3.85%   20d : -10.74%   60d : -1.08%\nvs MA-50    : -3.54%  vs MA-200 : +13.17%\nTrend       : weakening (above MA-200 but below MA-50)\nVol 20d ann : 66.98%  [elevated regime]  Elevated -> impact AMPLIFIED.\n\n=== SECTOR ===\nSector 1d   : +6.91%  5d : +3.85%\nStock vs sector 1d : +0.30%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 0.90\nTop peers:\n  - CCAP | Non-Bank Financials | 90d-corr: 0.59\n  - AMOC | Petroleum & Petrochemicals | 90d-corr: 0.58\n  - MASR | Real Estate | 90d-corr: 0.56\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2025-06-17: stock -4.72%  sector -3.90%  AR -0.82%\n  2025-06-18: stock -1.98%  sector -0.19%  AR -1.79%\n  2025-06-19: stock -2.71%  sector -3.12%  AR +0.41%\n  2025-06-22: stock +6.61%  sector +5.95%  AR +0.66%\n  2025-06-23: stock +7.21%  sector +5.54%  AR +1.67%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 46.94  [neutral]\nMACD      : state=bearish  hist=-0.4812\nBollinger : zone=middle  %B=0.359\nDistance  : 20d_hi -13.39%  20d_lo +14.30%  60d_hi -13.39%  60d_lo +14.30%  52w_hi -13.39%  52w_lo +61.86%\nDivergence : none\nATR 14d   : 3.28%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : +2 (up streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=3.28%) ===\n  short   (N= 1d)  neutral=+-1.64%  small <2.30%  medium 2.30%-6.56%  large >=6.56%\n  medium  (N= 2d)  neutral=+-2.32%  small <3.25%  medium 3.25%-9.28%  large >=9.28%\n  large   (N=20d)  neutral=+-7.33%  small <10.27%  medium 10.27%-29.34%  large >=29.34%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-06-24 13:30:34\nIn trading hours: True  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : event_date (article day; news arrived during EGX hours)\nHorizons (days) : short=1d ; medium=2d ; large=20d\n\n=== ARABIC SENTIMENT (one input among many) ===\nLabel : positive\nScore : +0.6087   (-1 strongly negative -> +1 strongly positive)\nNOTE: this is a weighted ensemble tone classifier, not a financial-impact verdict.\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-06-24 13:30:34\nHeadline  : \"إي إف چي\" تعلن إتمام خدماتها الاستشارية لقيد \"ڤاليو\" في البورصة المصرية\n\nالقاهرة – مباشر: أعلنت شركة إي اف چي هيرميس، إحدى شركات مجموعة إي اف چي القابضة، إتمام الخدمات الاستشارية لعملية القيد التاريخية لشركة يو للتمويل الاستهلاكي \"ڤاليو\" في البورصة المصرية وبدء تداول أسهم شركة ڤاليو في البورصة المصرية أمس.\nوقالت الشركة في بيان اليوم، إنه تم قيد وتداول أسهم ڤاليو في البورصة المصرية عبر توزيعًا للأسهم على مساهمي مجموعة إي اف چي القابضة، والتي خصصت 20.488% من رأس مال ڤاليو لمساهميها، مع تحديد تاريخ الاستحقاق في 12 يونيو2025.\nوبالتوازي مع بدء التداول، استحوذت شركة أمازون على أسهم تمثل حصة مباشرة بنسبة 3.95% في ڤاليو بسعر 416.0 جنيه مصري للسهم. وشهد سعر السهم أداءً إيجابيًا ملحوظًا، حيث أغلق عند 7.4 جنيه مصري للسهم\nوستستمر إي اف چي فاينانس القابضة (إي اف چي فاينانس)، وهي شركة تابعة لمجموعة إي اف چي القابضة، في امتلاك 67% من شركة ڤاليو بعد التداول وبيع الأسهم لأمازون.\nقامت إي اف چي هيرميس بالعمل كمستشار مالي أوحد لڤاليو ومجموعة إي اف چي القابضة فيما يتعلق بعملية القيد وصفقة أمازون.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nأبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر..\nاضغط هنا\nترشيحات\nجهاز حكومي مصري يستثمر 4 ملايين دولار في صندوق ديسربتيك\nجيزة سيستمز: النظر في الطرح ببورصة مصر لن يكون قبل 2027\nصادرات الغاز الإسرائيلي إلى مصر ترتفع لـ 970 مليون قدم مكعبة يومياً\nمصر تتعاقد على استئجار سفينة تغويز ثالثة لتلبية الاحتياجات المحلية من الغاز\nمسؤول يكشف أسباب رفع أسعار خدمات الإنترنت والاتصالات في مصر\nمصر.. نصائح مهمة من \"حماية المستهلك\" للمواطنين قبل شراء السلع\n\n=== HORIZONS (predict ALL OF THEM) ===\n  short   -> t+0 only (just the start day's return)    AR label: اليوم الأول (t+0): رد الفعل الفوري\n  medium  -> t+0 .. t+1  (2 trading days cumulative)   AR label: اليومان الأولان (t+0 إلى t+1): الاستجابة المبكرة\n  large   -> t+0 .. t+19  (20 trading days cumulative)  AR label: العشرون يوم تداول (t+0 إلى t+19): الأثر الممتد\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- 'up'\nmeans OUTPERFORMING the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== OUTPUT INSTRUCTIONS ===\n1. Classify news_type FIRST.\n2. Walk through T1-T5. Pick TA signals that ACTUALLY apply from the closed vocab.\n3. Anchor magnitudes to the PER-COMPANY bands above (NOT a global rule).\n4. Quantify any dilution/yield ratio with both inputs.\n5. If news_type=dividend, FILL dividend_info; otherwise set it to null.\n6. LANGUAGE: free-text Arabic. JSON keys + enum values in English.\n7. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"news_type\":         \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n  \"already_priced_in\": <true | false>,\n  \"quantified_ratio\":  \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n  \"key_drivers\":       [\"<driver 1 Arabic>\", \"<driver 2 Arabic>\"],\n  \"ta_signals_cited\":  [\"<signal from closed vocab>\", \"...\"],\n  \"dividend_info\": null | {\n    \"yield_pct\":      <float>,\n    \"ex_div_date\":    \"<YYYY-MM-DD or null if unknown>\",\n    \"amount_egp\":     <float or null>\n  },\n  \"per_horizon\": {\n    \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"},\n    \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"},\n    \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"}\n  },\n  \"overall_reasoning\": \"<3-4 Arabic sentences. Walk T1-T5 briefly. Reference the per-company magnitude bands explicitly. State the quantified ratio if applicable.>\"\n}",
+    "critic": "You are a senior quantitative risk analyst at an Egyptian investment bank. A junior LLM analyst has assessed a news event about HRHO (EFG Holding - HRHO). Your job:\n  (a) audit the junior's TA citations against the live data,\n  (b) check magnitudes against the PER-COMPANY bands (not global rules),\n  (c) produce the final authoritative prediction across short / medium / large,\n  (d) write a plain-Arabic explanation for a non-expert retail investor.\n\n=== COMPANY ===\nTicker      : HRHO\nName        : EFG Holding - HRHO\nSector      : Non-Bank Financials\nDescription : EFG Holding (formerly EFG Hermes) — Egypt and MENA's leading investment bank: brokerage, asset management, investment banking, and consumer finance (Valu BNPL).\nPrice data  : as of 2025-06-23  (article date: 2025-06-24)\n\n=== PRICE STATE ===\nLast close  : 27.50 EGP\nReturn 1d   : +7.21%   5d : +3.85%   20d : -10.74%   60d : -1.08%\nvs MA-50    : -3.54%  vs MA-200 : +13.17%\nTrend       : weakening (above MA-200 but below MA-50)\nVol 20d ann : 66.98%  [elevated regime]  Elevated -> impact AMPLIFIED.\n\n=== SECTOR ===\nSector 1d   : +6.91%  5d : +3.85%\nStock vs sector 1d : +0.30%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 0.90\nTop peers:\n  - CCAP | Non-Bank Financials | 90d-corr: 0.59\n  - AMOC | Petroleum & Petrochemicals | 90d-corr: 0.58\n  - MASR | Real Estate | 90d-corr: 0.56\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2025-06-17: stock -4.72%  sector -3.90%  AR -0.82%\n  2025-06-18: stock -1.98%  sector -0.19%  AR -1.79%\n  2025-06-19: stock -2.71%  sector -3.12%  AR +0.41%\n  2025-06-22: stock +6.61%  sector +5.95%  AR +0.66%\n  2025-06-23: stock +7.21%  sector +5.54%  AR +1.67%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 46.94  [neutral]\nMACD      : state=bearish  hist=-0.4812\nBollinger : zone=middle  %B=0.359\nDistance  : 20d_hi -13.39%  20d_lo +14.30%  60d_hi -13.39%  60d_lo +14.30%  52w_hi -13.39%  52w_lo +61.86%\nDivergence : none\nATR 14d   : 3.28%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : +2 (up streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=3.28%) ===\n  short   (N= 1d)  neutral=+-1.64%  small <2.30%  medium 2.30%-6.56%  large >=6.56%\n  medium  (N= 2d)  neutral=+-2.32%  small <3.25%  medium 3.25%-9.28%  large >=9.28%\n  large   (N=20d)  neutral=+-7.33%  small <10.27%  medium 10.27%-29.34%  large >=29.34%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-06-24 13:30:34\nIn trading hours: True  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : event_date (article day; news arrived during EGX hours)\nHorizons (days) : short=1d ; medium=2d ; large=20d\n\n=== ARABIC SENTIMENT ===\nLabel : positive\nScore : +0.6087\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-06-24 13:30:34\nHeadline  : \"إي إف چي\" تعلن إتمام خدماتها الاستشارية لقيد \"ڤاليو\" في البورصة المصرية\n\nالقاهرة – مباشر: أعلنت شركة إي اف چي هيرميس، إحدى شركات مجموعة إي اف چي القابضة، إتمام الخدمات الاستشارية لعملية القيد التاريخية لشركة يو للتمويل الاستهلاكي \"ڤاليو\" في البورصة المصرية وبدء تداول أسهم شركة ڤاليو في البورصة المصرية أمس.\nوقالت الشركة في بيان اليوم، إنه تم قيد وتداول أسهم ڤاليو في البورصة المصرية عبر توزيعًا للأسهم على مساهمي مجموعة إي اف چي القابضة، والتي خصصت 20.488% من رأس مال ڤاليو لمساهميها، مع تحديد تاريخ الاستحقاق في 12 يونيو2025.\nوبالتوازي مع بدء التداول، استحوذت شركة أمازون على أسهم تمثل حصة مباشرة بنسبة 3.95% في ڤاليو بسعر 416.0 جنيه مصري للسهم. وشهد سعر السهم أداءً إيجابيًا ملحوظًا، حيث أغلق عند 7.4 جنيه مصري للسهم\nوستستمر إي اف چي فاينانس القابضة (إي اف چي فاينانس)، وهي شركة تابعة لمجموعة إي اف چي القابضة، في امتلاك 67% من شركة ڤاليو بعد التداول وبيع الأسهم لأمازون.\nقامت إي اف چي هيرميس بالعمل كمستشار مالي أوحد لڤاليو ومجموعة إي اف چي القابضة فيما يتعلق بعملية القيد وصفقة أمازون.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nأبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر..\nاضغط هنا\nترشيحات\nجهاز حكومي مصري يستثمر 4 ملايين دولار في صندوق ديسربتيك\nجيزة سيستمز: النظر في الطرح ببورصة مصر لن يكون قبل 2027\nصادرات الغاز الإسرائيلي إلى مصر ترتفع لـ 970 مليون قدم مكعبة يومياً\nمصر تتعاقد على استئجار سفينة تغويز ثالثة لتلبية الاحتياجات المحلية من الغاز\nمسؤول يكشف أسباب رفع أسعار خدمات الإنترنت والاتصالات في مصر\nمصر.. نصائح مهمة من \"حماية المستهلك\" للمواطنين قبل شراء السلع\n\n=== IMPACT AGENT OUTPUT (junior, Groq) ===\n{\n  \"news_type\": \"capital_increase\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"لا ينطبق\",\n  \"key_drivers\": [\n    \"إتمام خدمات إي إف چي هيرميس لقيد شركة ڤاليو في البورصة المصرية\",\n    \"استحواذ أمازون على 3.95% من أسهم ڤاليو بسعر 416.0 جنيه للسهم\"\n  ],\n  \"ta_signals_cited\": [\n    \"macd_bearish\",\n    \"near_20d_low\",\n    \"high_volatility\",\n    \"up_streak_3plus\"\n  ],\n  \"dividend_info\": null,\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.6,\n      \"reasoning\": \"الرسالة الإيجابية تدعم ارتفاع السهم، لكن MACD Bearish يقلل من الثقة. الحركة الصعودية الحالية (20.488% من رأس المال) تشير إلى احتمال امتصاص قصير.\"\n    },\n    \"medium\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.55,\n      \"reasoning\": \"السهم في اتجاه صعودي قصير (Streak +2) مع تقلبات عالية (66.98%)، مما يعزز الاستجابة المبكرة. لكن MACD Bearish قد يحد من المكاسب.\"\n    },\n    \"large\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.45,\n      \"reasoning\": \"السهم فوق المتوسط المتحرك 200 يوم (-13.39% من أعلى 20 يومًا) مع تقلبات عالية. الرسالة الإيجابية قد تدعم اتجاهًا طويلًا، لكن الاتجاه الضعيف (Weakening) يحد من المكاسب.\"\n    }\n  }\n}\n\n=== HORIZONS (predict ALL OF THEM) ===\n  short   -> t+0 only (just the start day's return)    AR label: اليوم الأول (t+0): رد الفعل الفوري\n  medium  -> t+0 .. t+1  (2 trading days cumulative)   AR label: اليومان الأولان (t+0 إلى t+1): الاستجابة المبكرة\n  large   -> t+0 .. t+19  (20 trading days cumulative)  AR label: العشرون يوم تداول (t+0 إلى t+19): الأثر الممتد\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- 'up'\nmeans OUTPERFORMING the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== REVIEW CHECKLIST ===\nC1. NEWS_TYPE correct?\nC2. TA_SIGNALS: every cited signal must be supported by the data. Override\n    inconsistent cites silently in your final output.\nC3. MAGNITUDE vs PER-COMPANY BANDS: does the predicted bucket match the\n    horizon's per-company thresholds? Adjust if mis-scaled.\nC4. PRICED-IN: if stock_vs_sector_1d aligns with the news direction, short\n    magnitude should default to \"small\" (R4).\nC5. DIVERGENCE: if a divergence signal is present, did the junior account for it?\nC6. CONFIDENCE: lower when context contradicts the call or news is priced in.\n    Default conf_large <= conf_medium <= conf_short.\nC7. DIVIDEND_INFO: if news_type=dividend, ensure yield_pct is present. If the\n    article gives the ex-div date, extract it as YYYY-MM-DD; otherwise null.\nC8. LANGUAGE: strip any non-Arabic word from Arabic fields (R6).\n\n=== USER-FACING EXPLANATION (the most important deliverable) ===\nYou will produce TWO reasoning blocks tuned to two audiences:\n\n  news_story:       PLAIN ARABIC, ZERO JARGON. Just the news content and what\n                    it means in everyday language. A retail investor with no\n                    finance training must understand it. No RSI / MACD / ATR.\n\n  technical_view:   Includes TA signals AND explains each term in Arabic\n                    inline. Format example:\n                      \"مؤشر RSI (مقياس قوة الشراء والبيع) عند 72 وهو مرتفع...\"\n                      \"مؤشر MACD (تقاطع المتوسطات المتحركة) في حالة هبوطية...\"\n                      \"نطاقات بولينجر (مستوى التذبذب) تشير إلى تشبع...\"\n                      \"مؤشر ATR (متوسط الحركة اليومية المعتادة) لهذا السهم 1.5%...\"\n\n  sentiment_note:   ONE Arabic sentence that surfaces the sentiment result\n                    (label + score given above in 'ARABIC SENTIMENT') AND\n                    explicitly says whether it agrees with our prediction or\n                    contradicts it. Do NOT name any model (CAMeLBERT, Claude,\n                    Groq, Qwen, etc.) -- just refer to it as تحليل المشاعر.\n\n  outlook_by_horizon: ONE Arabic sentence per horizon. Direction + size + a\n                    one-clause reason. Numbers stated in plain language.\n\n  what_could_change_our_view: 1-2 Arabic sentences on key uncertainties.\n\nU-rules:\n  U1. NUMBERS WITH MEANING. Every cited number gets a plain-Arabic interpretation.\n  U2. STATE THE PREDICTION FIRST in news_story (direction + timeline), THEN evidence.\n  U3. BREVITY. Each field is short -- prefer 2-3 sentences max per field.\n  U4. 100% Arabic in this entire block. The next agent (QA) will reject leaks.\n\n=== INSTRUCTIONS ===\n1. Override the junior wherever evidence demands; do not surface the override\n   to the user -- just produce the corrected final prediction.\n2. Confidence: adjust per horizon. Default conf_large <= conf_medium <= conf_short.\n3. SPELLING: \"RSI-14\" not \"RS-14\". Proper Arabic punctuation.\n4. LANGUAGE: free-text Arabic; JSON keys + tickers + enum values in English.\n5. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"primary_company\": {\n    \"ticker\":              \"HRHO\",\n    \"news_type\":           \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n    \"already_priced_in\":   <true | false>,\n    \"quantified_ratio\":    \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n    \"ta_signals_cited\":    [\"<signal from closed vocab>\", \"...\"],\n    \"dividend_info\": null | {\n      \"yield_pct\":   <float>,\n      \"ex_div_date\": \"<YYYY-MM-DD or null>\",\n      \"amount_egp\":  <float or null>\n    },\n    \"per_horizon\": {\n      \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"},\n      \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"},\n      \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"}\n    },\n    \"overall_reasoning\":   \"<2-3 Arabic sentences. Reference the per-company bands. State news_type. Concise.>\"\n  },\n  \"tldr\": \"<one Arabic sentence summarising the whole view: direction + dominant horizon>\",\n  \"explanation_for_user\": {\n    \"headline\":                   \"<one sentence in plain Arabic, no jargon, captures the news>\",\n    \"news_story\":                 \"<2-3 sentences PLAIN Arabic, zero technical jargon. What happened and why it matters to an everyday investor.>\",\n    \"technical_view\":             \"<2-3 sentences with TA signals, EACH technical term explained in Arabic inline as shown above (RSI / MACD / Bollinger / ATR / divergence).>\",\n    \"sentiment_note\":             \"<1 Arabic sentence: state the sentiment label and score (refer to it only as تحليل المشاعر, NEVER name any model), and whether it agrees with our prediction.>\",\n    \"outlook_by_horizon\": {\n      \"short\":  \"<one Arabic sentence: direction + size + reason for t+0>\",\n      \"medium\": \"<one Arabic sentence: direction + size + reason for t+0..t+1>\",\n      \"large\":  \"<one Arabic sentence: direction + size + reason for t+0..t+19>\"\n    },\n    \"what_could_change_our_view\": \"<1-2 Arabic sentences on key uncertainties>\"\n  }\n}"
+  },
+  "impact_agent": {
+    "output": {
+      "news_type": "capital_increase",
+      "already_priced_in": false,
+      "quantified_ratio": "لا ينطبق",
+      "key_drivers": [
+        "إتمام خدمات إي إف چي هيرميس لقيد شركة ڤاليو في البورصة المصرية",
+        "استحواذ أمازون على 3.95% من أسهم ڤاليو بسعر 416.0 جنيه للسهم"
+      ],
+      "ta_signals_cited": [
+        "macd_bearish",
+        "near_20d_low",
+        "high_volatility",
+        "up_streak_3plus"
+      ],
+      "dividend_info": null,
+      "per_horizon": {
+        "short": {
+          "direction": "up",
+          "magnitude": "medium",
+          "confidence": 0.6,
+          "reasoning": "الرسالة الإيجابية تدعم ارتفاع السهم، لكن MACD Bearish يقلل من الثقة. الحركة الصعودية الحالية (20.488% من رأس المال) تشير إلى احتمال امتصاص قصير."
+        },
+        "medium": {
+          "direction": "up",
+          "magnitude": "medium",
+          "confidence": 0.55,
+          "reasoning": "السهم في اتجاه صعودي قصير (Streak +2) مع تقلبات عالية (66.98%)، مما يعزز الاستجابة المبكرة. لكن MACD Bearish قد يحد من المكاسب."
+        },
+        "large": {
+          "direction": "up",
+          "magnitude": "medium",
+          "confidence": 0.45,
+          "reasoning": "السهم فوق المتوسط المتحرك 200 يوم (-13.39% من أعلى 20 يومًا) مع تقلبات عالية. الرسالة الإيجابية قد تدعم اتجاهًا طويلًا، لكن الاتجاه الضعيف (Weakening) يحد من المكاسب."
+        }
+      }
+    },
+    "raw": "{  \"news_type\": \"capital_increase\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"لا ينطبق\",\n  \"key_drivers\": [\n    \"إتمام خدمات إي إف چي هيرميس لقيد شركة ڤاليو في البورصة المصرية\",\n    \"استحواذ أمازون على 3.95% من أسهم ڤاليو بسعر 416.0 جنيه للسهم\"\n  ],\n  \"ta_signals_cited\": [\n    \"macd_bearish\",\n    \"near_20d_low\",\n    \"high_volatility\",\n    \"up_streak_3plus\"\n  ],\n  \"dividend_info\": null,\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.6,\n      \"reasoning\": \"الرسالة الإيجابية تدعم ارتفاع السهم، لكن MACD Bearish يقلل من الثقة. الحركة الصعودية الحالية (20.488% من رأس المال) تشير إلى احتمال امتصاص قصير.\"\n    },\n    \"medium\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.55,\n      \"reasoning\": \"السهم في اتجاه صعودي قصير (Streak +2) مع تقلبات عالية (66.98%)، مما يعزز الاستجابة المبكرة. لكن MACD Bearish قد يحد من المكاسب.\"\n    },\n    \"large\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.45,\n      \"reasoning\": \"السهم فوق المتوسط المتحرك 200 يوم (-13.39% من أعلى 20 يومًا) مع تقلبات عالية. الرسالة الإيجابية قد تدعم اتجاهًا طويلًا، لكن الاتجاه الضعيف (Weakening) يحد من المكاسب.\"\n    }\n  }}"
+  },
+  "critic_agent": {
+    "output": {
+      "primary_company": {
+        "ticker": "HRHO",
+        "news_type": "operational",
+        "already_priced_in": true,
+        "quantified_ratio": "لا ينطبق",
+        "ta_signals_cited": [
+          "macd_bearish",
+          "near_20d_low",
+          "high_volatility",
+          "up_streak"
+        ],
+        "dividend_info": null,
+        "per_horizon": {
+          "short": {
+            "direction": "up",
+            "magnitude": "small",
+            "confidence": 0.6,
+            "reasoning": "السهم قريب من أدنى مستوى له في 20 يوم (+14.30% فوق القاع) مما يدعم الصعود، لكن مؤشر MACD (تقاطع المتوسطات المتحركة) في حالة هبوطية (hist=-0.4812) مما يقلل من الزخم. التقلبات المرتفعة (66.98%) تضخم الحركة المتوقعة."
+          },
+          "medium": {
+            "direction": "up",
+            "magnitude": "medium",
+            "confidence": 0.55,
+            "reasoning": "السهم عند +13.17% فوق المتوسط المتحرك لـ200 يوم وهو دعم طويل المدى، لكن الاتجاه يتجه للضعف (Weakening) ومؤشر MACD bearish يحدّ من قوة الارتفاع المتوقع. الحد الأدنى لـmedium في هذا النطاق هو 3.25%."
+          },
+          "large": {
+            "direction": "up",
+            "magnitude": "medium",
+            "confidence": 0.45,
+            "reasoning": "هناك مجال كافٍ للصعود (السهم عند -13.39% من أعلى مستوى في 52 أسبوع)، لكن الاتجاه الضعيف وم MACD الهابطية يحدّان من حجم الحركة في إطار 20 يوم. الحد الأدنى لـmedium عند 20 يوم هو 10.27%."
+          }
+        },
+        "overall_reasoning": "الأخبار إيجابية وتخص إتمام الخدمات الاستشارية لقيد شركة ڤاليو في البورصة المصرية واستحواذ أمازون على حصة 3.95%. العائد غير الطبيعي التراكمي خلال اليومين الماضيين (+0.66% و+1.67%) يشير إلى أن جزءاً من الخبر已经开始 يظهر في السعر خلال جلسات 22-23 يونيو. مؤشر MACD bearish والتقلبات المرتفعة (66.98%) يخلقان إشارات مختلطة تُخفض الثقة في جميع الأفق الزمنية."
+      },
+      "tldr": "السهم قد يتفوق على القطاع بدرجة small إلى medium خلال اليوم الأول مع صعود محدود في الأفق المتوسط والبعيد بسبب إشارات فنية هابطة.",
+      "explanation_for_user": {
+        "headline": "شركة إي أف چي هيرميس أنهت دورها الاستشاري في قيد شركة ڤاليو في البورصة المصرية، بينما اشترت أمازون حصة مباشرة فيها.",
+        "news_story": "أعلنت شركة إي أف چي هيرميس أنها أتمت خدمات المستشار المالي لعملية قيد وتداول أسهم شركة يو للتمويل الاستهلاكي \"ڤاليو\" في البورصة المصرية. وتم توزيع 20.488% من أسهم ڤاليو على مساهمي مجموعة إي أف چي القابضة كحصة من العملية. وفي الوقت نفسه، استحوذت شركة أمازون على 3.95% من أسهم ڤاليو بسعر 416 جنيهًا للسهم، وهو ما يعكس ثقة جهة عالمية كبرى في شركة ڤاليو. هذا يعني أن إي أف چي هيرميس حققت إيرادًا استشاريًا من العملية، كما أن حصتها المتبقية في ڤاليو (67%) أصبحت أكثر قيمة بعد الطرح الناجح.",
+        "technical_view": "مؤشر RSI (مقياس قوة الشراء والبيع) عند 46.94 وهو مستوى محايد، مما يعني أن السهم ليس في منطقة تشبع شراء أو بيع قوية. مؤشر MACD (تقاطع المتوسطات المتحركة) في حالة هبوطية (hist=-0.4812)، مما يشير إلى ضعف الزخم الصعودي على المدى القصير. نطاقات بولينجر (مستوى التذبذب) تقع في المنطقة الوسطى (%B=0.359)، مما يعني أن السعر ليس عند حدود التذبذب القصوى. مؤشر ATR (متوسط الحركة اليومية المعتادة) لهذا السهم 3.28%، أي أن الحركة اليومية المعتادة نحو 3.3%، لذا أي حركة أكبر من ذلك تُعتبر خروجًا عن النمط الطبيعي. التقلبات المرتفعة (66.98%) تعني أن الحركة المتوقعة ستكون أكبر من المعتاد في كلا الاتجاهين.",
+        "sentiment_note": "تحليل المشاعر خلص إلى تصنيف إيجابي بنسبة +0.6087، وهذا يتفق مع توقعاتنا للاتجاه الصعودي لكنه لا يثبت حجم الحركة، حيث إن الارتباط العالي مع القطاع (0.90) يعني أن جزءًا كبيرًا من حركة السهم تتبع أداء السوق المالي المصري.",
+        "outlook_by_horizon": {
+          "short": "نتوقع ارتفاعًا صغيرًا (أقل من 2.30%) مع نسبة ثقة 60%، لأن جزءًا من الخبر سبق أن ظهر في جلستي 22-23 يونيو على شكل عوائد غير طبيعية تراكمية +2.33%.",
+          "medium": "نتوقع ارتفاعًا متوسطًا (بين 3.25% و9.28%) مع نسبة ثقة 55%، لأن إتمام القيد الناجح ودعم أمازون قد يوفران دافعًا إضافيًا للسهم في الجلستين القادمتين.",
+          "large": "نتوقع ارتفاعًا متوسطًا (بين 10.27% و29.34%) مع نسبة ثقة 45%، لأن الاتجاه العام للسهم يتجه للضعف ومؤشر MACD الهبوطي يحدّان من امتداد الحركة الصعودية."
+        },
+        "what_could_change_our_view": "أي تراجع في أسعار الأسواق الناشئة أو القطاع المالي المصري قد يُبطل الاتجاه الصعودي المتوقع. كما أن أي أنباء سلبية لاحقة عن أداء ڤاليو بعد الطرح ستؤثر سلبًا على تقييم إي أف چي هيرميس لحصتها المتبقية."
+      }
+    },
+    "raw": "```json\n{\n  \"primary_company\": {\n    \"ticker\": \"HRHO\",\n    \"news_type\": \"operational\",\n    \"already_priced_in\": true,\n    \"quantified_ratio\": \"لا ينطبق\",\n    \"ta_signals_cited\": [\n      \"macd_bearish\",\n      \"near_20d_low\",\n      \"high_volatility\",\n      \"up_streak\"\n    ],\n    \"dividend_info\": null,\n    \"per_horizon\": {\n      \"short\": {\n        \"direction\": \"up\",\n        \"magnitude\": \"small\",\n        \"confidence\": 0.60,\n        \"reasoning\": \"السهم قريب من أدنى مستوى له في 20 يوم (+14.30% فوق القاع) مما يدعم الصعود، لكن مؤشر MACD (تقاطع المتوسطات المتحركة) في حالة هبوطية (hist=-0.4812) مما يقلل من الزخم. التقلبات المرتفعة (66.98%) تضخم الحركة المتوقعة.\"\n      },\n      \"medium\": {\n        \"direction\": \"up\",\n        \"magnitude\": \"medium\",\n        \"confidence\": 0.55,\n        \"reasoning\": \"السهم عند +13.17% فوق المتوسط المتحرك لـ200 يوم وهو دعم طويل المدى، لكن الاتجاه يتجه للضعف (Weakening) ومؤشر MACD bearish يحدّ من قوة الارتفاع المتوقع. الحد الأدنى لـmedium في هذا النطاق هو 3.25%.\"\n      },\n      \"large\": {\n        \"direction\": \"up\",\n        \"magnitude\": \"medium\",\n        \"confidence\": 0.45,\n        \"reasoning\": \"هناك مجال كافٍ للصعود (السهم عند -13.39% من أعلى مستوى في 52 أسبوع)، لكن الاتجاه الضعيف وم MACD الهابطية يحدّان من حجم الحركة في إطار 20 يوم. الحد الأدنى لـmedium عند 20 يوم هو 10.27%.\"\n      }\n    },\n    \"overall_reasoning\": \"الأخبار إيجابية وتخص إتمام الخدمات الاستشارية لقيد شركة ڤاليو في البورصة المصرية واستحواذ أمازون على حصة 3.95%. العائد غير الطبيعي التراكمي خلال اليومين الماضيين (+0.66% و+1.67%) يشير إلى أن جزءاً من الخبر已经开始 يظهر في السعر خلال جلسات 22-23 يونيو. مؤشر MACD bearish والتقلبات المرتفعة (66.98%) يخلقان إشارات مختلطة تُخفض الثقة في جميع الأفق الزمنية.\"\n  },\n  \"tldr\": \"السهم قد يتفوق على القطاع بدرجة small إلى medium خلال اليوم الأول مع صعود محدود في الأفق المتوسط والبعيد بسبب إشارات فنية هابطة.\",\n  \"explanation_for_user\": {\n    \"headline\": \"شركة إي أف چي هيرميس أنهت دورها الاستشاري في قيد شركة ڤاليو في البورصة المصرية، بينما اشترت أمازون حصة مباشرة فيها.\",\n    \"news_story\": \"أعلنت شركة إي أف چي هيرميس أنها أتمت خدمات المستشار المالي لعملية قيد وتداول أسهم شركة يو للتمويل الاستهلاكي \\\"ڤاليو\\\" في البورصة المصرية. وتم توزيع 20.488% من أسهم ڤاليو على مساهمي مجموعة إي أف چي القابضة كحصة من العملية. وفي الوقت نفسه، استحوذت شركة أمازون على 3.95% من أسهم ڤاليو بسعر 416 جنيه للسهم، وهو ما يعكس ثقة جهة عالمية كبرى في شركة ڤاليو. هذا يعني أن إي أف چي هيرميس حققت إيراداً استشارياً من العملية، كما أن حصتها المتبقية في ڤاليو (67%) أصبحت أكثر قيمة بعد الطرح الناجح.\",\n    \"technical_view\": \"مؤشر RSI (مقياس قوة الشراء والبيع) عند 46.94 وهو مستوى محايد، مما يعني أن السهم ليس في منطقة تشبع شراء أو بيع قوية. مؤشر MACD (تقاطع المتوسطات المتحركة) في حالة هبوطية (hist=-0.4812)، مما يشير إلى ضعف الزخم الصعودي على المدى القصير. نطاقات بولينجر (مستوى التذبذب) تقع في المنطقة الوسطى (%B=0.359)، مما يعني أن السعر ليس عند حدود التذبذب القصوى. مؤشر ATR (متوسط الحركة اليومية المعتادة) لهذا السهم 3.28%، أي أن الحركة اليومية المعتادة نحو 3.3%، لذا أي حركة أكبر من ذلك تُعتبر خروجاً عن النمط الطبيعي. التقلبات المرتفعة (66.98%) تعني أن الحركة المتوقعة ستكون أكبر من المعتاد في كلا الاتجاهين.\",\n    \"sentiment_note\": \"تحليل المشاعر خلص إلى تصنيف إيجابي بنسبة +0.6087، وهذا يتفق مع توقعاتنا للاتجاه الصعودي لكنه لا يثبت حجم الحركة، حيث إن الارتباط العالي مع القطاع (0.90) يعني أن جزءاً كبيراً من حركة السهم تتبع أداء السوق المالي المصري.\",\n    \"outlook_by_horizon\": {\n      \"short\": \"نتوقع ارتفاعاً small (أقل من 2.30%) مع نسبة ثقة 60%، لأن جزءاً من الخبر سبق أن ظهر في جلستي 22-23 يونيو على شكل عوائد غير طبيعية تراكمية +2.33%.\",\n      \"medium\": \"نتوقع ارتفاعاً medium (بين 3.25% و9.28%) مع نسبة ثقة 55%، لأن إتمام القيد الناجح ودعم أمازون قد يوفران دافعاً إضافياً للسهم في الجلستين القادمتين.\",\n      \"large\": \"نتوقع ارتفاعاً medium (بين 10.27% و29.34%) مع نسبة ثقة 45%، لأن الاتجاه العام للسهم يتجه للضعف ومؤشر MACD bearish يحدّان من امتداد الحركة الصعودية.\"\n    },\n    \"what_could_change_our_view\": \"أي تراجع في أسعار الأسواق الناشئة أو القطاع المالي المصري قد يُبطل الاتجاه الصعودي المتوقع. كما أن أي أنباء سلبية لاحقة عن أداء ڤاليو بعد الطرح ستؤثر سلباً على تقييم إي أف چي هيرميس لحصتها المتبقية.\"\n  }\n}\n```",
+    "thinking": ""
+  },
+  "arabic_qa": {
+    "enabled": true,
+    "model": "claude-sonnet-4-6",
+    "explanation_pre": {
+      "headline": "شركة إي أف چي هيرميس أنهت دورها الاستشاري في قيد شركة ڤاليو في البورصة المصرية، بينما اشترت أمازون حصة مباشرة فيها.",
+      "news_story": "أعلنت شركة إي أف چي هيرميس أنها أتمت خدمات المستشار المالي لعملية قيد وتداول أسهم شركة يو للتمويل الاستهلاكي \"ڤاليو\" في البورصة المصرية. وتم توزيع 20.488% من أسهم ڤاليو على مساهمي مجموعة إي أف چي القابضة كحصة من العملية. وفي الوقت نفسه، استحوذت شركة أمازون على 3.95% من أسهم ڤاليو بسعر 416 جنيه للسهم، وهو ما يعكس ثقة جهة عالمية كبرى في شركة ڤاليو. هذا يعني أن إي أف چي هيرميس حققت إيراداً استشارياً من العملية، كما أن حصتها المتبقية في ڤاليو (67%) أصبحت أكثر قيمة بعد الطرح الناجح.",
+      "technical_view": "مؤشر RSI (مقياس قوة الشراء والبيع) عند 46.94 وهو مستوى محايد، مما يعني أن السهم ليس في منطقة تشبع شراء أو بيع قوية. مؤشر MACD (تقاطع المتوسطات المتحركة) في حالة هبوطية (hist=-0.4812)، مما يشير إلى ضعف الزخم الصعودي على المدى القصير. نطاقات بولينجر (مستوى التذبذب) تقع في المنطقة الوسطى (%B=0.359)، مما يعني أن السعر ليس عند حدود التذبذب القصوى. مؤشر ATR (متوسط الحركة اليومية المعتادة) لهذا السهم 3.28%، أي أن الحركة اليومية المعتادة نحو 3.3%، لذا أي حركة أكبر من ذلك تُعتبر خروجاً عن النمط الطبيعي. التقلبات المرتفعة (66.98%) تعني أن الحركة المتوقعة ستكون أكبر من المعتاد في كلا الاتجاهين.",
+      "sentiment_note": "تحليل المشاعر خلص إلى تصنيف إيجابي بنسبة +0.6087، وهذا يتفق مع توقعاتنا للاتجاه الصعودي لكنه لا يثبت حجم الحركة، حيث إن الارتباط العالي مع القطاع (0.90) يعني أن جزءاً كبيراً من حركة السهم تتبع أداء السوق المالي المصري.",
+      "outlook_by_horizon": {
+        "short": "نتوقع ارتفاعاً small (أقل من 2.30%) مع نسبة ثقة 60%، لأن جزءاً من الخبر سبق أن ظهر في جلستي 22-23 يونيو على شكل عوائد غير طبيعية تراكمية +2.33%.",
+        "medium": "نتوقع ارتفاعاً medium (بين 3.25% و9.28%) مع نسبة ثقة 55%، لأن إتمام القيد الناجح ودعم أمازون قد يوفران دافعاً إضافياً للسهم في الجلستين القادمتين.",
+        "large": "نتوقع ارتفاعاً medium (بين 10.27% و29.34%) مع نسبة ثقة 45%، لأن الاتجاه العام للسهم يتجه للضعف ومؤشر MACD bearish يحدّان من امتداد الحركة الصعودية."
+      },
+      "what_could_change_our_view": "أي تراجع في أسعار الأسواق الناشئة أو القطاع المالي المصري قد يُبطل الاتجاه الصعودي المتوقع. كما أن أي أنباء سلبية لاحقة عن أداء ڤاليو بعد الطرح ستؤثر سلباً على تقييم إي أف چي هيرميس لحصتها المتبقية."
+    },
+    "explanation_post": {
+      "headline": "شركة إي أف چي هيرميس أنهت دورها الاستشاري في قيد شركة ڤاليو في البورصة المصرية، بينما اشترت أمازون حصة مباشرة فيها.",
+      "news_story": "أعلنت شركة إي أف چي هيرميس أنها أتمت خدمات المستشار المالي لعملية قيد وتداول أسهم شركة يو للتمويل الاستهلاكي \"ڤاليو\" في البورصة المصرية. وتم توزيع 20.488% من أسهم ڤاليو على مساهمي مجموعة إي أف چي القابضة كحصة من العملية. وفي الوقت نفسه، استحوذت شركة أمازون على 3.95% من أسهم ڤاليو بسعر 416 جنيهًا للسهم، وهو ما يعكس ثقة جهة عالمية كبرى في شركة ڤاليو. هذا يعني أن إي أف چي هيرميس حققت إيرادًا استشاريًا من العملية، كما أن حصتها المتبقية في ڤاليو (67%) أصبحت أكثر قيمة بعد الطرح الناجح.",
+      "technical_view": "مؤشر RSI (مقياس قوة الشراء والبيع) عند 46.94 وهو مستوى محايد، مما يعني أن السهم ليس في منطقة تشبع شراء أو بيع قوية. مؤشر MACD (تقاطع المتوسطات المتحركة) في حالة هبوطية (hist=-0.4812)، مما يشير إلى ضعف الزخم الصعودي على المدى القصير. نطاقات بولينجر (مستوى التذبذب) تقع في المنطقة الوسطى (%B=0.359)، مما يعني أن السعر ليس عند حدود التذبذب القصوى. مؤشر ATR (متوسط الحركة اليومية المعتادة) لهذا السهم 3.28%، أي أن الحركة اليومية المعتادة نحو 3.3%، لذا أي حركة أكبر من ذلك تُعتبر خروجًا عن النمط الطبيعي. التقلبات المرتفعة (66.98%) تعني أن الحركة المتوقعة ستكون أكبر من المعتاد في كلا الاتجاهين.",
+      "sentiment_note": "تحليل المشاعر خلص إلى تصنيف إيجابي بنسبة +0.6087، وهذا يتفق مع توقعاتنا للاتجاه الصعودي لكنه لا يثبت حجم الحركة، حيث إن الارتباط العالي مع القطاع (0.90) يعني أن جزءًا كبيرًا من حركة السهم تتبع أداء السوق المالي المصري.",
+      "outlook_by_horizon": {
+        "short": "نتوقع ارتفاعًا صغيرًا (أقل من 2.30%) مع نسبة ثقة 60%، لأن جزءًا من الخبر سبق أن ظهر في جلستي 22-23 يونيو على شكل عوائد غير طبيعية تراكمية +2.33%.",
+        "medium": "نتوقع ارتفاعًا متوسطًا (بين 3.25% و9.28%) مع نسبة ثقة 55%، لأن إتمام القيد الناجح ودعم أمازون قد يوفران دافعًا إضافيًا للسهم في الجلستين القادمتين.",
+        "large": "نتوقع ارتفاعًا متوسطًا (بين 10.27% و29.34%) مع نسبة ثقة 45%، لأن الاتجاه العام للسهم يتجه للضعف ومؤشر MACD الهبوطي يحدّان من امتداد الحركة الصعودية."
+      },
+      "what_could_change_our_view": "أي تراجع في أسعار الأسواق الناشئة أو القطاع المالي المصري قد يُبطل الاتجاه الصعودي المتوقع. كما أن أي أنباء سلبية لاحقة عن أداء ڤاليو بعد الطرح ستؤثر سلبًا على تقييم إي أف چي هيرميس لحصتها المتبقية."
+    }
+  },
+  "final": {
+    "ticker": "HRHO",
+    "news_type": "operational",
+    "already_priced_in": true,
+    "quantified_ratio": "لا ينطبق",
+    "ta_signals_cited": [
+      "macd_bearish",
+      "near_20d_low",
+      "high_volatility",
+      "up_streak"
+    ],
+    "dividend_info": null,
+    "per_horizon": {
+      "short": {
+        "direction": "up",
+        "magnitude": "small",
+        "confidence": 0.6,
+        "reasoning": "السهم قريب من أدنى مستوى له في 20 يوم (+14.30% فوق القاع) مما يدعم الصعود، لكن مؤشر MACD (تقاطع المتوسطات المتحركة) في حالة هبوطية (hist=-0.4812) مما يقلل من الزخم. التقلبات المرتفعة (66.98%) تضخم الحركة المتوقعة."
+      },
+      "medium": {
+        "direction": "up",
+        "magnitude": "medium",
+        "confidence": 0.55,
+        "reasoning": "السهم عند +13.17% فوق المتوسط المتحرك لـ200 يوم وهو دعم طويل المدى، لكن الاتجاه يتجه للضعف (Weakening) ومؤشر MACD bearish يحدّ من قوة الارتفاع المتوقع. الحد الأدنى لـmedium في هذا النطاق هو 3.25%."
+      },
+      "large": {
+        "direction": "up",
+        "magnitude": "medium",
+        "confidence": 0.45,
+        "reasoning": "هناك مجال كافٍ للصعود (السهم عند -13.39% من أعلى مستوى في 52 أسبوع)، لكن الاتجاه الضعيف وم MACD الهابطية يحدّان من حجم الحركة في إطار 20 يوم. الحد الأدنى لـmedium عند 20 يوم هو 10.27%."
+      }
+    },
+    "overall_reasoning": "الأخبار إيجابية وتخص إتمام الخدمات الاستشارية لقيد شركة ڤاليو في البورصة المصرية واستحواذ أمازون على حصة 3.95%. العائد غير الطبيعي التراكمي خلال اليومين الماضيين (+0.66% و+1.67%) يشير إلى أن جزءاً من الخبر已经开始 يظهر في السعر خلال جلسات 22-23 يونيو. مؤشر MACD bearish والتقلبات المرتفعة (66.98%) يخلقان إشارات مختلطة تُخفض الثقة في جميع الأفق الزمنية.",
+    "sentiment_ensemble": {
+      "weights": {
+        "claude": 0.5,
+        "groq_qwen": 0.3,
+        "camelbert": 0.2
+      },
+      "models": {
+        "claude": {
+          "model": "claude-sonnet-4-6",
+          "label": "positive",
+          "score": 0.84,
+          "numeric": 1,
+          "class_probs": {
+            "positive": 0.88,
+            "neutral": 0.08,
+            "negative": 0.04
+          }
+        },
+        "groq_qwen": {
+          "model": "qwen/qwen3-32b",
+          "label": "positive",
+          "score": 0.6,
+          "numeric": 1,
+          "class_probs": {
+            "positive": 0.7,
+            "neutral": 0.2,
+            "negative": 0.1
+          }
+        },
+        "camelbert": {
+          "model": "CAMeL-Lab/bert-base-arabic-camelbert-mix-sentiment",
+          "label": "neutral",
+          "score": 0.0438,
+          "numeric": 0,
+          "class_probs": {
+            "neutral": 0.9536,
+            "positive": 0.0451,
+            "negative": 0.0013
+          }
+        }
+      },
+      "weighted": {
+        "model": "ensemble(claude+groq_qwen+camelbert)",
+        "label": "positive",
+        "score": 0.6087,
+        "numeric": 1,
+        "class_probs": {
+          "positive": 0.659,
+          "neutral": 0.2907,
+          "negative": 0.0503
+        }
+      }
+    }
+  }
+}

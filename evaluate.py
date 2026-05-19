@@ -491,10 +491,10 @@ def aggregate(records: list[dict]) -> dict:
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument("--predictions-dir", type=Path, default=Path("outputs/predictions_v3"))
+    p.add_argument("--predictions-dir", type=Path, default=Path("outputs/predictions_v5"))
     p.add_argument("--returns",         type=Path, default=Path("returns_daily.parquet"))
     p.add_argument("--sector-returns",  type=Path, default=Path("sector_returns_daily.parquet"))
-    p.add_argument("--out",             type=Path, default=Path("outputs/evaluation_v3"))
+    p.add_argument("--out",             type=Path, default=Path("outputs/evaluation_v5"))
     args = p.parse_args()
 
     args.out.mkdir(parents=True, exist_ok=True)

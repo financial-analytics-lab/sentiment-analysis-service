@@ -1,0 +1,470 @@
+{
+  "ticker": "RAYA",
+  "article_date": "2025-06-24",
+  "context_date": "2025-06-23",
+  "processed_at": "2026-05-19T17:52:42.815435",
+  "article": {
+    "symbol": "RAYA",
+    "company": "Raya Holding For Financial Investments",
+    "isin": "EGS690C1C010",
+    "sector": "Technology & Fintech",
+    "id": "4463501",
+    "date": "2025-06-24",
+    "time": "11:30:22",
+    "datetime": "2025-06-24 11:30:22",
+    "title": "راية القابضة تقر عرض الشراء المقدم من أسيك للتعدين على \"أسطول\"",
+    "body": "القاهرة - مباشر: وافق مجلس إدارة شركة راية القابضة للأستثمارات المالية، من حيث المبدأ على عرض الشراء المقدم من المقدم من إحدى الشركات التابعة لمجموعة أسيك للتعدين للاستحواذ على حصة 90% من أسهم شركة أسطول للنقل البري التابعة لشركة راية القابضة للأستثمارات المالية التي تمتلك منها 90%.\nوقالت الشركة في بيان لبورصة مصر اليوم، إن المجلس وافق على السير في دراسة تلك الصفقة في بيع إجمالي حصة شركة راية القابضة والبالغة 90% بشركة أسطول بإجمالي عدد 77.94 مليون سهم وذلك نظير قيمة شرائية تبلغ 8.24 جنيه، واجمالي قيمة اجمالية للصفقة تبلغ 641 مليون جنيه والذي يمثل المبلغ النقدي لشراء الأسهم.\nووافق المجلس، على تعيين شركة فاكت (مستشار مالي مستقل) لغرض تحديد القيمة العادلة لأسهم رأس مال شركة اسطول للنقل البري، واعتمادها من مراقب حسابات الشركة وعرضها على مجلس الإدارة لاتخاذ القرار النهائي.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nأبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر..\nاضغط هنا\nترشيحات\nجهاز حكومي مصري يستثمر 4 ملايين دولار في صندوق ديسربتيك\nجيزة سيستمز: النظر في الطرح ببورصة مصر لن يكون قبل 2027\nصادرات الغاز الإسرائيلي إلى مصر ترتفع لـ 970 مليون قدم مكعبة يومياً\nمصر تتعاقد على استئجار سفينة تغويز ثالثة لتلبية الاحتياجات المحلية من الغاز\nمسؤول يكشف أسباب رفع أسعار خدمات الإنترنت والاتصالات في مصر\nمصر.. نصائح مهمة من \"حماية المستهلك\" للمواطنين قبل شراء السلع",
+    "teaser": "القاهرة - مباشر: وافق مجلس إدارة شركة راية القابضة للأستثمارات المالية، من حيث المبدأ على عرض الشراء المقدم من المقدم من إحدى الشركات التابعة لمجموعة أسيك للتعدين للاستحواذ على حصة 90% من أسهم شركة أسطول للنقل البري التابعة لشركة راية القابضة …",
+    "section": "اندماجات واستحواذات",
+    "source": "مباشر",
+    "categories": "stock-bonds",
+    "country": "مصر",
+    "reads": 2611,
+    "url": "https://www.mubasher.info/news/4463501",
+    "image_url": "https://static.mubasher.info/File.Story_Image/2e1eec540e5fb0aa5adcb9604d6a2db4/640.jpg",
+    "date_raw": ""
+  },
+  "sentiment": {
+    "model": "ensemble(claude+groq_qwen+camelbert)",
+    "label": "positive",
+    "score": 0.4243,
+    "numeric": 1,
+    "class_probs": {
+      "positive": 0.5045,
+      "neutral": 0.4153,
+      "negative": 0.0802
+    }
+  },
+  "sentiment_ensemble": {
+    "weights": {
+      "claude": 0.5,
+      "groq_qwen": 0.3,
+      "camelbert": 0.2
+    },
+    "models": {
+      "claude": {
+        "model": "claude-sonnet-4-6",
+        "label": "positive",
+        "score": 0.6,
+        "numeric": 1,
+        "class_probs": {
+          "positive": 0.7,
+          "neutral": 0.2,
+          "negative": 0.1
+        }
+      },
+      "groq_qwen": {
+        "model": "qwen/qwen3-32b",
+        "label": "positive",
+        "score": 0.4,
+        "numeric": 1,
+        "class_probs": {
+          "positive": 0.5,
+          "neutral": 0.4,
+          "negative": 0.1
+        }
+      },
+      "camelbert": {
+        "model": "CAMeL-Lab/bert-base-arabic-camelbert-mix-sentiment",
+        "label": "neutral",
+        "score": 0.0212,
+        "numeric": 0,
+        "class_probs": {
+          "neutral": 0.9764,
+          "positive": 0.0224,
+          "negative": 0.0012
+        }
+      }
+    },
+    "weighted": {
+      "model": "ensemble(claude+groq_qwen+camelbert)",
+      "label": "positive",
+      "score": 0.4243,
+      "numeric": 1,
+      "class_probs": {
+        "positive": 0.5045,
+        "neutral": 0.4153,
+        "negative": 0.0802
+      }
+    }
+  },
+  "context": {
+    "ticker": "RAYA",
+    "company": "Raya Holding - RAYA",
+    "sector": "Technology & Fintech",
+    "business_description": "Raya Holding for Financial Investments — diversified group: Raya Contact Center (BPO), consumer electronics distribution, and manufacturing subsidiaries across Africa and the Middle East.",
+    "event_date": "2025-06-24",
+    "last_price_date": "2025-06-23",
+    "price_state": {
+      "last_close": 2.79,
+      "return_1d": 0.72,
+      "return_5d": 1.82,
+      "return_20d": 1.09,
+      "return_60d": 18.22,
+      "pct_vs_ma50": 2.2,
+      "pct_vs_ma200": -1.06,
+      "vol_20d_annualized_pct": 56.7,
+      "vol_regime": "normal",
+      "rsi_14": 51.96
+    },
+    "market_state": {
+      "sector_return_1d": 2.17,
+      "sector_return_5d": 5.15,
+      "relative_strength_vs_sector_1d": -1.45
+    },
+    "correlation_state": {
+      "corr_with_sector_90d": 0.68,
+      "top_3_correlated_peers": [
+        {
+          "ticker": "ORWE",
+          "correlation": 0.48,
+          "sector": "Textiles"
+        },
+        {
+          "ticker": "HRHO",
+          "correlation": 0.47,
+          "sector": "Non-Bank Financials"
+        },
+        {
+          "ticker": "CCAP",
+          "correlation": 0.45,
+          "sector": "Non-Bank Financials"
+        }
+      ]
+    },
+    "recent_abnormal_returns": [
+      {
+        "date": "2025-06-17",
+        "stock_return_pct": -4.01,
+        "sector_return_pct": -3.19,
+        "abnormal_return_pct": -0.82
+      },
+      {
+        "date": "2025-06-18",
+        "stock_return_pct": 3.42,
+        "sector_return_pct": 2.94,
+        "abnormal_return_pct": 0.48
+      },
+      {
+        "date": "2025-06-19",
+        "stock_return_pct": -2.57,
+        "sector_return_pct": -0.89,
+        "abnormal_return_pct": -1.68
+      },
+      {
+        "date": "2025-06-22",
+        "stock_return_pct": 4.53,
+        "sector_return_pct": 3.77,
+        "abnormal_return_pct": 0.76
+      },
+      {
+        "date": "2025-06-23",
+        "stock_return_pct": 0.72,
+        "sector_return_pct": 1.8,
+        "abnormal_return_pct": -1.08
+      }
+    ],
+    "technical_signals": {
+      "rsi_14": 51.96,
+      "rsi_zone": "neutral",
+      "macd": {
+        "line": 0.002,
+        "signal": 0.0123,
+        "histogram": -0.0103,
+        "state": "bearish"
+      },
+      "bollinger": {
+        "pct_b": 0.569,
+        "bandwidth_pct": 14.43,
+        "zone": "middle"
+      },
+      "distance_to_extremes": {
+        "20d_high_distance_pct": -7.92,
+        "20d_low_distance_pct": 6.08,
+        "60d_high_distance_pct": -7.92,
+        "60d_low_distance_pct": 23.45,
+        "252d_high_distance_pct": -26.77,
+        "252d_low_distance_pct": 42.71
+      },
+      "rsi_divergence": "none",
+      "atr_pct_14d": 2.93,
+      "consecutive_streak": 2
+    },
+    "dynamic_bands": {
+      "horizon_trading_days": {
+        "short": 1,
+        "medium": 2,
+        "large": 20
+      },
+      "neutral_band_pct": {
+        "short": 1.47,
+        "medium": 2.07,
+        "large": 6.55
+      },
+      "magnitude_bands_pct": {
+        "short": {
+          "small": [
+            0.0,
+            2.05
+          ],
+          "medium": [
+            2.05,
+            5.86
+          ],
+          "large": [
+            5.86,
+            null
+          ]
+        },
+        "medium": {
+          "small": [
+            0.0,
+            2.9
+          ],
+          "medium": [
+            2.9,
+            8.29
+          ],
+          "large": [
+            8.29,
+            null
+          ]
+        },
+        "large": {
+          "small": [
+            0.0,
+            9.17
+          ],
+          "medium": [
+            9.17,
+            26.21
+          ],
+          "large": [
+            26.21,
+            null
+          ]
+        }
+      },
+      "atr_pct_anchor": 2.93
+    },
+    "news_timing": {
+      "in_trading_hours": true,
+      "arrived_at_str": "2025-06-24 11:30:22",
+      "start_day_label": "event_date (article day; news arrived during EGX hours)"
+    }
+  },
+  "prompts": {
+    "impact": "You are a quantitative analyst predicting Egyptian Stock Exchange (EGX) stock reactions to Arabic news. Your prediction must be grounded in the technical signals provided and calibrated to this specific ticker's volatility.\n\n=== COMPANY ===\nTicker      : RAYA\nName        : Raya Holding - RAYA\nSector      : Technology & Fintech\nDescription : Raya Holding for Financial Investments — diversified group: Raya Contact Center (BPO), consumer electronics distribution, and manufacturing subsidiaries across Africa and the Middle East.\nPrice data  : as of 2025-06-23  (article date: 2025-06-24)\n\n=== PRICE STATE ===\nLast close  : 2.79 EGP\nReturn 1d   : +0.72%   5d : +1.82%   20d : +1.09%   60d : +18.22%\nvs MA-50    : +2.20%  vs MA-200 : -1.06%\nTrend       : recovering (above MA-50 but below MA-200)\nVol 20d ann : 56.70%  [normal regime]  Normal -> impact PROPORTIONAL to catalyst.\n\n=== SECTOR ===\nSector 1d   : +2.17%  5d : +5.15%\nStock vs sector 1d : -1.45%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 0.68\nTop peers:\n  - ORWE | Textiles | 90d-corr: 0.48\n  - HRHO | Non-Bank Financials | 90d-corr: 0.47\n  - CCAP | Non-Bank Financials | 90d-corr: 0.45\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2025-06-17: stock -4.01%  sector -3.19%  AR -0.82%\n  2025-06-18: stock +3.42%  sector +2.94%  AR +0.48%\n  2025-06-19: stock -2.57%  sector -0.89%  AR -1.68%\n  2025-06-22: stock +4.53%  sector +3.77%  AR +0.76%\n  2025-06-23: stock +0.72%  sector +1.80%  AR -1.08%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 51.96  [neutral]\nMACD      : state=bearish  hist=-0.0103\nBollinger : zone=middle  %B=0.569\nDistance  : 20d_hi -7.92%  20d_lo +6.08%  60d_hi -7.92%  60d_lo +23.45%  52w_hi -26.77%  52w_lo +42.71%\nDivergence : none\nATR 14d   : 2.93%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : +2 (up streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=2.93%) ===\n  short   (N= 1d)  neutral=+-1.47%  small <2.05%  medium 2.05%-5.86%  large >=5.86%\n  medium  (N= 2d)  neutral=+-2.07%  small <2.90%  medium 2.90%-8.29%  large >=8.29%\n  large   (N=20d)  neutral=+-6.55%  small <9.17%  medium 9.17%-26.21%  large >=26.21%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-06-24 11:30:22\nIn trading hours: True  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : event_date (article day; news arrived during EGX hours)\nHorizons (days) : short=1d ; medium=2d ; large=20d\n\n=== ARABIC SENTIMENT (one input among many) ===\nLabel : positive\nScore : +0.4243   (-1 strongly negative -> +1 strongly positive)\nNOTE: this is a weighted ensemble tone classifier, not a financial-impact verdict.\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-06-24 11:30:22\nHeadline  : راية القابضة تقر عرض الشراء المقدم من أسيك للتعدين على \"أسطول\"\n\nالقاهرة - مباشر: وافق مجلس إدارة شركة راية القابضة للأستثمارات المالية، من حيث المبدأ على عرض الشراء المقدم من المقدم من إحدى الشركات التابعة لمجموعة أسيك للتعدين للاستحواذ على حصة 90% من أسهم شركة أسطول للنقل البري التابعة لشركة راية القابضة للأستثمارات المالية التي تمتلك منها 90%.\nوقالت الشركة في بيان لبورصة مصر اليوم، إن المجلس وافق على السير في دراسة تلك الصفقة في بيع إجمالي حصة شركة راية القابضة والبالغة 90% بشركة أسطول بإجمالي عدد 77.94 مليون سهم وذلك نظير قيمة شرائية تبلغ 8.24 جنيه، واجمالي قيمة اجمالية للصفقة تبلغ 641 مليون جنيه والذي يمثل المبلغ النقدي لشراء الأسهم.\nووافق المجلس، على تعيين شركة فاكت (مستشار مالي مستقل) لغرض تحديد القيمة العادلة لأسهم رأس مال شركة اسطول للنقل البري، واعتمادها من مراقب حسابات الشركة وعرضها على مجلس الإدارة لاتخاذ القرار النهائي.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nأبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر..\nاضغط هنا\nترشيحات\nجهاز حكومي مصري يستثمر 4 ملايين دولار في صندوق ديسربتيك\nجيزة سيستمز: النظر في الطرح ببورصة مصر لن يكون قبل 2027\nصادرات الغاز الإسرائيلي إلى مصر ترتفع لـ 970 مليون قدم مكعبة يومياً\nمصر تتعاقد على استئجار سفينة تغويز ثالثة لتلبية الاحتياجات المحلية من الغاز\nمسؤول يكشف أسباب رفع أسعار خدمات الإنترنت والاتصالات في مصر\nمصر.. نصائح مهمة من \"حماية المستهلك\" للمواطنين قبل شراء السلع\n\n=== HORIZONS (predict ALL OF THEM) ===\n  short   -> t+0 only (just the start day's return)    AR label: اليوم الأول (t+0): رد الفعل الفوري\n  medium  -> t+0 .. t+1  (2 trading days cumulative)   AR label: اليومان الأولان (t+0 إلى t+1): الاستجابة المبكرة\n  large   -> t+0 .. t+19  (20 trading days cumulative)  AR label: العشرون يوم تداول (t+0 إلى t+19): الأثر الممتد\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- 'up'\nmeans OUTPERFORMING the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== OUTPUT INSTRUCTIONS ===\n1. Classify news_type FIRST.\n2. Walk through T1-T5. Pick TA signals that ACTUALLY apply from the closed vocab.\n3. Anchor magnitudes to the PER-COMPANY bands above (NOT a global rule).\n4. Quantify any dilution/yield ratio with both inputs.\n5. If news_type=dividend, FILL dividend_info; otherwise set it to null.\n6. LANGUAGE: free-text Arabic. JSON keys + enum values in English.\n7. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"news_type\":         \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n  \"already_priced_in\": <true | false>,\n  \"quantified_ratio\":  \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n  \"key_drivers\":       [\"<driver 1 Arabic>\", \"<driver 2 Arabic>\"],\n  \"ta_signals_cited\":  [\"<signal from closed vocab>\", \"...\"],\n  \"dividend_info\": null | {\n    \"yield_pct\":      <float>,\n    \"ex_div_date\":    \"<YYYY-MM-DD or null if unknown>\",\n    \"amount_egp\":     <float or null>\n  },\n  \"per_horizon\": {\n    \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"},\n    \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"},\n    \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"}\n  },\n  \"overall_reasoning\": \"<3-4 Arabic sentences. Walk T1-T5 briefly. Reference the per-company magnitude bands explicitly. State the quantified ratio if applicable.>\"\n}",
+    "critic": "You are a senior quantitative risk analyst at an Egyptian investment bank. A junior LLM analyst has assessed a news event about RAYA (Raya Holding - RAYA). Your job:\n  (a) audit the junior's TA citations against the live data,\n  (b) check magnitudes against the PER-COMPANY bands (not global rules),\n  (c) produce the final authoritative prediction across short / medium / large,\n  (d) write a plain-Arabic explanation for a non-expert retail investor.\n\n=== COMPANY ===\nTicker      : RAYA\nName        : Raya Holding - RAYA\nSector      : Technology & Fintech\nDescription : Raya Holding for Financial Investments — diversified group: Raya Contact Center (BPO), consumer electronics distribution, and manufacturing subsidiaries across Africa and the Middle East.\nPrice data  : as of 2025-06-23  (article date: 2025-06-24)\n\n=== PRICE STATE ===\nLast close  : 2.79 EGP\nReturn 1d   : +0.72%   5d : +1.82%   20d : +1.09%   60d : +18.22%\nvs MA-50    : +2.20%  vs MA-200 : -1.06%\nTrend       : recovering (above MA-50 but below MA-200)\nVol 20d ann : 56.70%  [normal regime]  Normal -> impact PROPORTIONAL to catalyst.\n\n=== SECTOR ===\nSector 1d   : +2.17%  5d : +5.15%\nStock vs sector 1d : -1.45%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 0.68\nTop peers:\n  - ORWE | Textiles | 90d-corr: 0.48\n  - HRHO | Non-Bank Financials | 90d-corr: 0.47\n  - CCAP | Non-Bank Financials | 90d-corr: 0.45\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2025-06-17: stock -4.01%  sector -3.19%  AR -0.82%\n  2025-06-18: stock +3.42%  sector +2.94%  AR +0.48%\n  2025-06-19: stock -2.57%  sector -0.89%  AR -1.68%\n  2025-06-22: stock +4.53%  sector +3.77%  AR +0.76%\n  2025-06-23: stock +0.72%  sector +1.80%  AR -1.08%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 51.96  [neutral]\nMACD      : state=bearish  hist=-0.0103\nBollinger : zone=middle  %B=0.569\nDistance  : 20d_hi -7.92%  20d_lo +6.08%  60d_hi -7.92%  60d_lo +23.45%  52w_hi -26.77%  52w_lo +42.71%\nDivergence : none\nATR 14d   : 2.93%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : +2 (up streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=2.93%) ===\n  short   (N= 1d)  neutral=+-1.47%  small <2.05%  medium 2.05%-5.86%  large >=5.86%\n  medium  (N= 2d)  neutral=+-2.07%  small <2.90%  medium 2.90%-8.29%  large >=8.29%\n  large   (N=20d)  neutral=+-6.55%  small <9.17%  medium 9.17%-26.21%  large >=26.21%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-06-24 11:30:22\nIn trading hours: True  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : event_date (article day; news arrived during EGX hours)\nHorizons (days) : short=1d ; medium=2d ; large=20d\n\n=== ARABIC SENTIMENT ===\nLabel : positive\nScore : +0.4243\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-06-24 11:30:22\nHeadline  : راية القابضة تقر عرض الشراء المقدم من أسيك للتعدين على \"أسطول\"\n\nالقاهرة - مباشر: وافق مجلس إدارة شركة راية القابضة للأستثمارات المالية، من حيث المبدأ على عرض الشراء المقدم من المقدم من إحدى الشركات التابعة لمجموعة أسيك للتعدين للاستحواذ على حصة 90% من أسهم شركة أسطول للنقل البري التابعة لشركة راية القابضة للأستثمارات المالية التي تمتلك منها 90%.\nوقالت الشركة في بيان لبورصة مصر اليوم، إن المجلس وافق على السير في دراسة تلك الصفقة في بيع إجمالي حصة شركة راية القابضة والبالغة 90% بشركة أسطول بإجمالي عدد 77.94 مليون سهم وذلك نظير قيمة شرائية تبلغ 8.24 جنيه، واجمالي قيمة اجمالية للصفقة تبلغ 641 مليون جنيه والذي يمثل المبلغ النقدي لشراء الأسهم.\nووافق المجلس، على تعيين شركة فاكت (مستشار مالي مستقل) لغرض تحديد القيمة العادلة لأسهم رأس مال شركة اسطول للنقل البري، واعتمادها من مراقب حسابات الشركة وعرضها على مجلس الإدارة لاتخاذ القرار النهائي.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nأبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر..\nاضغط هنا\nترشيحات\nجهاز حكومي مصري يستثمر 4 ملايين دولار في صندوق ديسربتيك\nجيزة سيستمز: النظر في الطرح ببورصة مصر لن يكون قبل 2027\nصادرات الغاز الإسرائيلي إلى مصر ترتفع لـ 970 مليون قدم مكعبة يومياً\nمصر تتعاقد على استئجار سفينة تغويز ثالثة لتلبية الاحتياجات المحلية من الغاز\nمسؤول يكشف أسباب رفع أسعار خدمات الإنترنت والاتصالات في مصر\nمصر.. نصائح مهمة من \"حماية المستهلك\" للمواطنين قبل شراء السلع\n\n=== IMPACT AGENT OUTPUT (junior, Groq) ===\n{\n  \"news_type\": \"m_and_a\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"لا ينطبق\",\n  \"key_drivers\": [\n    \"موافقة مجلس إدارة راية القابضة على عرض الشراء\",\n    \"تعيين شركة فاكت لتحديد القيمة العادلة للأسهم\"\n  ],\n  \"ta_signals_cited\": [\n    \"macd_bearish_crossover\",\n    \"bollinger_middle\",\n    \"rsi_neutral\",\n    \"normal_volatility\"\n  ],\n  \"dividend_info\": null,\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.65,\n      \"reasoning\": \"الرسالة الإيجابية للصفقة تدعم ارتفاعًا أوليًا، لكن MACD السلبي يقلل من الثقة. نطاق الحركة اليومي (2.93%) يشير إلى أن 3% يُعتبر متوسطًا.\"\n    },\n    \"medium\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.55,\n      \"reasoning\": \"الاستجابة المبكرة قد تستمر مع تقييم المستثمرين للصفقة، لكن المتوسط المتحرك السلبي (MACD) يُشير إلى ضعف الزخم على المدى المتوسط.\"\n    },\n    \"large\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.4,\n      \"reasoning\": \"التأثير طويل المدى غير واضح بسبب تقلب القطاع (56.70% تقلب سنوي) وعدم وجود تباين واضح. الاتجاه العام للسهم (تحت المتوسط المتحرك 200 يوم) يُضعف الثقة.\"\n    }\n  },\n  \"overall_reasoning\": \"الصفقة الإيجابية تدعم ارتفاعًا أوليًا (T1: RSI محايد، T3: MACD سلبي يقلل من التأثير). السهم ليس قريباً من مستويات 20 يوم (T4) مما يسمح بالتحرك. نطاق الحركة اليومي (2.93%) يُشير إلى أن 3% يُعتبر متوسطًا (T5). على المدى الطويل، تقلب القطاع العالي يُضعف التأثير.\"\n}\n\n=== HORIZONS (predict ALL OF THEM) ===\n  short   -> t+0 only (just the start day's return)    AR label: اليوم الأول (t+0): رد الفعل الفوري\n  medium  -> t+0 .. t+1  (2 trading days cumulative)   AR label: اليومان الأولان (t+0 إلى t+1): الاستجابة المبكرة\n  large   -> t+0 .. t+19  (20 trading days cumulative)  AR label: العشرون يوم تداول (t+0 إلى t+19): الأثر الممتد\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- 'up'\nmeans OUTPERFORMING the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== REVIEW CHECKLIST ===\nC1. NEWS_TYPE correct?\nC2. TA_SIGNALS: every cited signal must be supported by the data. Override\n    inconsistent cites silently in your final output.\nC3. MAGNITUDE vs PER-COMPANY BANDS: does the predicted bucket match the\n    horizon's per-company thresholds? Adjust if mis-scaled.\nC4. PRICED-IN: if stock_vs_sector_1d aligns with the news direction, short\n    magnitude should default to \"small\" (R4).\nC5. DIVERGENCE: if a divergence signal is present, did the junior account for it?\nC6. CONFIDENCE: lower when context contradicts the call or news is priced in.\n    Default conf_large <= conf_medium <= conf_short.\nC7. DIVIDEND_INFO: if news_type=dividend, ensure yield_pct is present. If the\n    article gives the ex-div date, extract it as YYYY-MM-DD; otherwise null.\nC8. LANGUAGE: strip any non-Arabic word from Arabic fields (R6).\n\n=== USER-FACING EXPLANATION (the most important deliverable) ===\nYou will produce TWO reasoning blocks tuned to two audiences:\n\n  news_story:       PLAIN ARABIC, ZERO JARGON. Just the news content and what\n                    it means in everyday language. A retail investor with no\n                    finance training must understand it. No RSI / MACD / ATR.\n\n  technical_view:   Includes TA signals AND explains each term in Arabic\n                    inline. Format example:\n                      \"مؤشر RSI (مقياس قوة الشراء والبيع) عند 72 وهو مرتفع...\"\n                      \"مؤشر MACD (تقاطع المتوسطات المتحركة) في حالة هبوطية...\"\n                      \"نطاقات بولينجر (مستوى التذبذب) تشير إلى تشبع...\"\n                      \"مؤشر ATR (متوسط الحركة اليومية المعتادة) لهذا السهم 1.5%...\"\n\n  sentiment_note:   ONE Arabic sentence that surfaces the sentiment result\n                    (label + score given above in 'ARABIC SENTIMENT') AND\n                    explicitly says whether it agrees with our prediction or\n                    contradicts it. Do NOT name any model (CAMeLBERT, Claude,\n                    Groq, Qwen, etc.) -- just refer to it as تحليل المشاعر.\n\n  outlook_by_horizon: ONE Arabic sentence per horizon. Direction + size + a\n                    one-clause reason. Numbers stated in plain language.\n\n  what_could_change_our_view: 1-2 Arabic sentences on key uncertainties.\n\nU-rules:\n  U1. NUMBERS WITH MEANING. Every cited number gets a plain-Arabic interpretation.\n  U2. STATE THE PREDICTION FIRST in news_story (direction + timeline), THEN evidence.\n  U3. BREVITY. Each field is short -- prefer 2-3 sentences max per field.\n  U4. 100% Arabic in this entire block. The next agent (QA) will reject leaks.\n\n=== INSTRUCTIONS ===\n1. Override the junior wherever evidence demands; do not surface the override\n   to the user -- just produce the corrected final prediction.\n2. Confidence: adjust per horizon. Default conf_large <= conf_medium <= conf_short.\n3. SPELLING: \"RSI-14\" not \"RS-14\". Proper Arabic punctuation.\n4. LANGUAGE: free-text Arabic; JSON keys + tickers + enum values in English.\n5. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"primary_company\": {\n    \"ticker\":              \"RAYA\",\n    \"news_type\":           \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n    \"already_priced_in\":   <true | false>,\n    \"quantified_ratio\":    \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n    \"ta_signals_cited\":    [\"<signal from closed vocab>\", \"...\"],\n    \"dividend_info\": null | {\n      \"yield_pct\":   <float>,\n      \"ex_div_date\": \"<YYYY-MM-DD or null>\",\n      \"amount_egp\":  <float or null>\n    },\n    \"per_horizon\": {\n      \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"},\n      \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"},\n      \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"}\n    },\n    \"overall_reasoning\":   \"<2-3 Arabic sentences. Reference the per-company bands. State news_type. Concise.>\"\n  },\n  \"tldr\": \"<one Arabic sentence summarising the whole view: direction + dominant horizon>\",\n  \"explanation_for_user\": {\n    \"headline\":                   \"<one sentence in plain Arabic, no jargon, captures the news>\",\n    \"news_story\":                 \"<2-3 sentences PLAIN Arabic, zero technical jargon. What happened and why it matters to an everyday investor.>\",\n    \"technical_view\":             \"<2-3 sentences with TA signals, EACH technical term explained in Arabic inline as shown above (RSI / MACD / Bollinger / ATR / divergence).>\",\n    \"sentiment_note\":             \"<1 Arabic sentence: state the sentiment label and score (refer to it only as تحليل المشاعر, NEVER name any model), and whether it agrees with our prediction.>\",\n    \"outlook_by_horizon\": {\n      \"short\":  \"<one Arabic sentence: direction + size + reason for t+0>\",\n      \"medium\": \"<one Arabic sentence: direction + size + reason for t+0..t+1>\",\n      \"large\":  \"<one Arabic sentence: direction + size + reason for t+0..t+19>\"\n    },\n    \"what_could_change_our_view\": \"<1-2 Arabic sentences on key uncertainties>\"\n  }\n}"
+  },
+  "impact_agent": {
+    "output": {
+      "news_type": "m_and_a",
+      "already_priced_in": false,
+      "quantified_ratio": "لا ينطبق",
+      "key_drivers": [
+        "موافقة مجلس إدارة راية القابضة على عرض الشراء",
+        "تعيين شركة فاكت لتحديد القيمة العادلة للأسهم"
+      ],
+      "ta_signals_cited": [
+        "macd_bearish_crossover",
+        "bollinger_middle",
+        "rsi_neutral",
+        "normal_volatility"
+      ],
+      "dividend_info": null,
+      "per_horizon": {
+        "short": {
+          "direction": "up",
+          "magnitude": "medium",
+          "confidence": 0.65,
+          "reasoning": "الرسالة الإيجابية للصفقة تدعم ارتفاعًا أوليًا، لكن MACD السلبي يقلل من الثقة. نطاق الحركة اليومي (2.93%) يشير إلى أن 3% يُعتبر متوسطًا."
+        },
+        "medium": {
+          "direction": "up",
+          "magnitude": "medium",
+          "confidence": 0.55,
+          "reasoning": "الاستجابة المبكرة قد تستمر مع تقييم المستثمرين للصفقة، لكن المتوسط المتحرك السلبي (MACD) يُشير إلى ضعف الزخم على المدى المتوسط."
+        },
+        "large": {
+          "direction": "neutral",
+          "magnitude": "small",
+          "confidence": 0.4,
+          "reasoning": "التأثير طويل المدى غير واضح بسبب تقلب القطاع (56.70% تقلب سنوي) وعدم وجود تباين واضح. الاتجاه العام للسهم (تحت المتوسط المتحرك 200 يوم) يُضعف الثقة."
+        }
+      },
+      "overall_reasoning": "الصفقة الإيجابية تدعم ارتفاعًا أوليًا (T1: RSI محايد، T3: MACD سلبي يقلل من التأثير). السهم ليس قريباً من مستويات 20 يوم (T4) مما يسمح بالتحرك. نطاق الحركة اليومي (2.93%) يُشير إلى أن 3% يُعتبر متوسطًا (T5). على المدى الطويل، تقلب القطاع العالي يُضعف التأثير."
+    },
+    "raw": "{  \"news_type\": \"m_and_a\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"لا ينطبق\",\n  \"key_drivers\": [\"موافقة مجلس إدارة راية القابضة على عرض الشراء\", \"تعيين شركة فاكت لتحديد القيمة العادلة للأسهم\"],\n  \"ta_signals_cited\": [\"macd_bearish_crossover\", \"bollinger_middle\", \"rsi_neutral\", \"normal_volatility\"],\n  \"dividend_info\": null,\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.65,\n      \"reasoning\": \"الرسالة الإيجابية للصفقة تدعم ارتفاعًا أوليًا، لكن MACD السلبي يقلل من الثقة. نطاق الحركة اليومي (2.93%) يشير إلى أن 3% يُعتبر متوسطًا.\"\n    },\n    \"medium\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.55,\n      \"reasoning\": \"الاستجابة المبكرة قد تستمر مع تقييم المستثمرين للصفقة، لكن المتوسط المتحرك السلبي (MACD) يُشير إلى ضعف الزخم على المدى المتوسط.\"\n    },\n    \"large\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.4,\n      \"reasoning\": \"التأثير طويل المدى غير واضح بسبب تقلب القطاع (56.70% تقلب سنوي) وعدم وجود تباين واضح. الاتجاه العام للسهم (تحت المتوسط المتحرك 200 يوم) يُضعف الثقة.\"\n    }\n  },\n  \"overall_reasoning\": \"الصفقة الإيجابية تدعم ارتفاعًا أوليًا (T1: RSI محايد، T3: MACD سلبي يقلل من التأثير). السهم ليس قريباً من مستويات 20 يوم (T4) مما يسمح بالتحرك. نطاق الحركة اليومي (2.93%) يُشير إلى أن 3% يُعتبر متوسطًا (T5). على المدى الطويل، تقلب القطاع العالي يُضعف التأثير.\"\n}"
+  },
+  "critic_agent": {
+    "output": {
+      "primary_company": {
+        "ticker": "RAYA",
+        "news_type": "m_and_a",
+        "already_priced_in": false,
+        "quantified_ratio": "لا ينطبق (لا يوجد عدد الأسهم القائمة قبل الصفقة في البيان)",
+        "ta_signals_cited": [
+          "rsi_neutral",
+          "macd_bearish_crossover",
+          "bollinger_middle",
+          "normal_volatility",
+          "near_20d_high"
+        ],
+        "dividend_info": null,
+        "per_horizon": {
+          "short": {
+            "direction": "up",
+            "magnitude": "small",
+            "confidence": 0.55,
+            "reasoning": "السهم تحت أعلى مستوى له في 20 يوم (-7.92%) ما يترك مجالاً للصعود. لكن MACD سلبي يتناقض مع الخبر الإيجابي، ومقارنة أداء السهم أمس (-1.45% مقابل القطاع) تشير لعدم تسعير كامل. النطاق القصير الصغير (< 2.05%) هو الأنسب عند وجود تناقض."
+          },
+          "medium": {
+            "direction": "up",
+            "magnitude": "small",
+            "confidence": 0.5,
+            "reasoning": "التقييم الأولي لشركة فاكت قد يستغرق أياماً. الزخم السلبي في MACD يقلل من قوة الصعود المتوقع. عند غياب أي إشارة تباعد، التأثير يبقى محدوداً ضمن نطاق ضيق."
+          },
+          "large": {
+            "direction": "neutral",
+            "magnitude": "small",
+            "confidence": 0.4,
+            "reasoning": "السهم تحت المتوسط المتحرك 200 يوم (-1.06%) مما يضعف الثقة في الاتجاه الصعودي. تقلب القطاع المرتفع (56.70%) يشتت الأثر على المدى الطويل. الصفقة لا تزال قيد الدراسة مما يضيف حالة انتظار."
+          }
+        },
+        "overall_reasoning": "خبر إيجابي بإتمام صفقة استحواذ على 90% من أسطول مقابل 641 مليون جنيه (8.24 جنيه/سهم). لا يوجد نصيب للمبيعات المعتادة (لا ينطبق). MACD السلبي يتناقض مع الخبر الإيجابي مما يقلل الزخم. السهم تحت MA200 مما يضعف الثقة في الاتجاه الصعودي. النطاقات الخاصة بالشركة: قصير <2.05% صغير؛ وسيط <2.90% صغير؛ وعريض <9.17% صغير. الأداء المتأخر أمس (-1.45% مقابل القطاع) يشير لعدم التسعير الكامل."
+      },
+      "tldr": "صفقة استحواذ إيجابية لكنها تواجه ضعفاً في الزخم الفني، لذا نتوقع ارتداداً محدوداً يتفوق على القطاع دون أن يصل لحجم كبير.",
+      "explanation_for_user": {
+        "headline": "مجلس إدارة راية وافق على عرض شراء أسيك للتعدين لأسطول مقابل 641 مليون جنيه.",
+        "news_story": "شركة راية القابضة وافقت من حيثِ المبدأ على بيع 90% من أسهم شركة أسطول للنقل البري لإحدى شركات مجموعة أسيك للتعدين مقابل 8.24 جنيه للسهم بإجمالي 641 مليون جنيه. هذه صفقة إيجابية لأنها تحقق عائدًا نقديًّا جيدًا على أصل غير أساسي في المحفظة. مجلس الإدارة عيّن شركة فاكت كمستشار مالي مستقل لتحديد القيمة العادلة قبل إتمام الصفقة نِهائيًّا.",
+        "technical_view": "مؤشر القوة النسبية RSI (مقياس قوة الشراء والبيع) عند 51.96 أي في المنطقة المحايدة بلا تشبع. مؤشر تقاطع المتوسطات المتحركة MACD في حالة هبوطية مما يُقلل من قوة أي صعود. نطاقات بولينجر (مستوى التذبذب) في منتصفِها مما يسمح بحركة. متوسط المدى الحقيقي ATR لهذا السهم 2.93% وهو نطاقُه المعتاد.",
+        "sentiment_note": "تحليل المشاعر أعطى تقييماً إيجابيًّا (+0.4243) وهو ما يتفق مع توقعاتنا بارتداد صعودي محدود.",
+        "outlook_by_horizon": {
+          "short": "نتوقع ارتفاعًا بسيطًا اليوم يتفوق على أداء القطاع بفارق لا يتجاوز 2% (حركة صغيرة)، مدعومًا بمساحة للصعود لكن مقيدة بالزخم السلبي.",
+          "medium": "خلالَ اليومين الأولين، قد يستمر الارتفاع البسيط مع تقييم المستثمرين للصفقة، لكن الزخم السلبي في MACD يحدّ من حجم الحركة.",
+          "large": "على المدى العشرين يومًا، التأثير غير واضح بسبب قرب السهم من المتوسط المتحرك 200 يوم والتذبذب القطاعي المرتفع؛ نُبقي على حيادنا بشكلٍ عام."
+        },
+        "what_could_change_our_view": "إذا أعلن المجلس لاحقًا رفض الصفقة أو تخفيض السعر، سينعكس الاتجاه هبوطيًّا. كما أن تذبذبات قطاع التقنية والتكنولوجيا المصري قد تطغى على تأثير الصفقة."
+      }
+    },
+    "raw": "{\"primary_company\":{\"ticker\":\"RAYA\",\"news_type\":\"m_and_a\",\"already_priced_in\":false,\"quantified_ratio\":\"لا ينطبق (لا يوجد عدد الأسهم القائمة قبل الصفقة في البيان)\",\"ta_signals_cited\":[\"rsi_neutral\",\"macd_bearish_crossover\",\"bollinger_middle\",\"normal_volatility\",\"near_20d_high\"],\"dividend_info\":null,\"per_horizon\":{\"short\":{\"direction\":\"up\",\"magnitude\":\"small\",\"confidence\":0.55,\"reasoning\":\"السهم تحت أعلى مستوى له في 20 يوم (-7.92%) ما يترك مجالاً للصعود. لكن MACD سلبي يتناقض مع الخبر الإيجابي، ومقارنة أداء السهم أمس (-1.45% مقابل القطاع) تشير لعدم تسعير كامل. النطاق القصير الصغير (< 2.05%) هو الأنسب عند وجود تناقض.\"},\"medium\":{\"direction\":\"up\",\"magnitude\":\"small\",\"confidence\":0.5,\"reasoning\":\"التقييم الأولي لشركة فاكت قد يستغرق أياماً. الزخم السلبي في MACD يقلل من قوة الصعود المتوقع. عند غياب أي إشارة تباعد، التأثير يبقى محدوداً ضمن نطاق ضيق.\"},\"large\":{\"direction\":\"neutral\",\"magnitude\":\"small\",\"confidence\":0.4,\"reasoning\":\"السهم تحت المتوسط المتحرك 200 يوم (-1.06%) مما يضعف الثقة في الاتجاه الصعودي. تقلب القطاع المرتفع (56.70%) يشتت الأثر على المدى الطويل. الصفقة لا تزال قيد الدراسة مما يضيف حالة انتظار.\"}},\"overall_reasoning\":\"خبر إيجابي بإتمام صفقة استحواذ على 90% من أسطول مقابل 641 مليون جنيه (8.24 جنيه/سهم). لا يوجد نصيب للمبيعات المعتادة (لا ينطبق). MACD السلبي يتناقض مع الخبر الإيجابي مما يقلل الزخم. السهم تحت MA200 مما يضعف الثقة في الاتجاه الصعودي. النطاقات الخاصة بالشركة: قصير <2.05% صغير؛ وسيط <2.90% صغير؛ وعريض <9.17% صغير. الأداء المتأخر أمس (-1.45% مقابل القطاع) يشير لعدم التسعير الكامل.\"},\"tldr\":\"صفقة استحواذ إيجابية لكنها تواجه ضعفاً في الزخم الفني، لذا نتوقع ارتداداً محدوداً يتفوق على القطاع دون أن يصل لحجم كبير.\",\"explanation_for_user\":{\"headline\":\"مجلس إدارة راية وافق على عرض شراء أسيك للتعدين لأسطول مقابل 641 مليون جنيه.\",\"news_story\":\"شركة راية القابضة وافقت من حيث المبدأ على بيع 90% من أسهم شركة أسطول للنقل البري لأحد شركات مجموعة أسيك للتعدين مقابل 8.24 جنيه للسهم بإجمالي 641 مليون جنيه. هذه صفقة إيجابية لأنها تحقق عائداً نقدياً جيداً على أصل غير أساسي في المحفظة. مجلس الإدارة عين شركة فاكت كمستشار مالي مستقل لتحديد القيمة العادلة قبل إتمام الصفقة نهائيا.\",\"technical_view\":\"مؤشر RSI (مقياس قوة الشراء والبيع) عند 51.96 أي في المنطقة المحايدة بلا تشبع. مؤشر MACD (تقاطع المتوسطات المتحركة) في حالة هبوطية مما يقلل من قوة أي صعود. نطاقات بولينجر (مستوى التذبذب) في المنتصف مما يسمح بحركة. متوسط الحركة اليومية ATR لهذا السهم 2.93% وهو نطاقه المعتاد.\",\"sentiment_note\":\"تحليل المشاعر أعطى تقييماً إيجابياً (+0.4243) وهو ما يتفق مع توقعاتنا بارتداد صعودي محدود.\",\"outlook_by_horizon\":{\"short\":\"نتوقع ارتفاعاً بسيطاً اليوم يتفوق على أداء القطاع بفارق لا يتجاوز 2% (حركة صغيرة)، مدعوماً بمساحة للصعود لكن مقيدة بالزخم السلبي.\",\"medium\":\"على اليومين الأولين، قد يستمر الارتفاع البسيط مع تقييم المستثمرين للصفقة، لكن الزخم السلبي في MACD يحد من حجم الحركة.\",\"large\":\"على المدى العشرين يوماً، التأثير غير واضح بسبب قرب السهم من المتوسط المتحرك 200 يوم والتقلب القطاعي المرتفع؛ نبقى متأثرين محايداً بشكل عام.\"},\"what_could_change_our_view\":\"إذا أعلن المجلس لاحقاً رفض الصفقة أو تخفيض السعر، سينعكس الاتجاه هبوطياً. كما أن تقلبات قطاع التقنية والتكنولوجيا المصري قد تطغى على تأثير الصفقة.\"}}",
+    "thinking": ""
+  },
+  "arabic_qa": {
+    "enabled": true,
+    "model": "claude-sonnet-4-6",
+    "explanation_pre": {
+      "headline": "مجلس إدارة راية وافق على عرض شراء أسيك للتعدين لأسطول مقابل 641 مليون جنيه.",
+      "news_story": "شركة راية القابضة وافقت من حيث المبدأ على بيع 90% من أسهم شركة أسطول للنقل البري لأحد شركات مجموعة أسيك للتعدين مقابل 8.24 جنيه للسهم بإجمالي 641 مليون جنيه. هذه صفقة إيجابية لأنها تحقق عائداً نقدياً جيداً على أصل غير أساسي في المحفظة. مجلس الإدارة عين شركة فاكت كمستشار مالي مستقل لتحديد القيمة العادلة قبل إتمام الصفقة نهائيا.",
+      "technical_view": "مؤشر RSI (مقياس قوة الشراء والبيع) عند 51.96 أي في المنطقة المحايدة بلا تشبع. مؤشر MACD (تقاطع المتوسطات المتحركة) في حالة هبوطية مما يقلل من قوة أي صعود. نطاقات بولينجر (مستوى التذبذب) في المنتصف مما يسمح بحركة. متوسط الحركة اليومية ATR لهذا السهم 2.93% وهو نطاقه المعتاد.",
+      "sentiment_note": "تحليل المشاعر أعطى تقييماً إيجابياً (+0.4243) وهو ما يتفق مع توقعاتنا بارتداد صعودي محدود.",
+      "outlook_by_horizon": {
+        "short": "نتوقع ارتفاعاً بسيطاً اليوم يتفوق على أداء القطاع بفارق لا يتجاوز 2% (حركة صغيرة)، مدعوماً بمساحة للصعود لكن مقيدة بالزخم السلبي.",
+        "medium": "على اليومين الأولين، قد يستمر الارتفاع البسيط مع تقييم المستثمرين للصفقة، لكن الزخم السلبي في MACD يحد من حجم الحركة.",
+        "large": "على المدى العشرين يوماً، التأثير غير واضح بسبب قرب السهم من المتوسط المتحرك 200 يوم والتقلب القطاعي المرتفع؛ نبقى متأثرين محايداً بشكل عام."
+      },
+      "what_could_change_our_view": "إذا أعلن المجلس لاحقاً رفض الصفقة أو تخفيض السعر، سينعكس الاتجاه هبوطياً. كما أن تقلبات قطاع التقنية والتكنولوجيا المصري قد تطغى على تأثير الصفقة."
+    },
+    "explanation_post": {
+      "headline": "مجلس إدارة راية وافق على عرض شراء أسيك للتعدين لأسطول مقابل 641 مليون جنيه.",
+      "news_story": "شركة راية القابضة وافقت من حيثِ المبدأ على بيع 90% من أسهم شركة أسطول للنقل البري لإحدى شركات مجموعة أسيك للتعدين مقابل 8.24 جنيه للسهم بإجمالي 641 مليون جنيه. هذه صفقة إيجابية لأنها تحقق عائدًا نقديًّا جيدًا على أصل غير أساسي في المحفظة. مجلس الإدارة عيّن شركة فاكت كمستشار مالي مستقل لتحديد القيمة العادلة قبل إتمام الصفقة نِهائيًّا.",
+      "technical_view": "مؤشر القوة النسبية RSI (مقياس قوة الشراء والبيع) عند 51.96 أي في المنطقة المحايدة بلا تشبع. مؤشر تقاطع المتوسطات المتحركة MACD في حالة هبوطية مما يُقلل من قوة أي صعود. نطاقات بولينجر (مستوى التذبذب) في منتصفِها مما يسمح بحركة. متوسط المدى الحقيقي ATR لهذا السهم 2.93% وهو نطاقُه المعتاد.",
+      "sentiment_note": "تحليل المشاعر أعطى تقييماً إيجابيًّا (+0.4243) وهو ما يتفق مع توقعاتنا بارتداد صعودي محدود.",
+      "outlook_by_horizon": {
+        "short": "نتوقع ارتفاعًا بسيطًا اليوم يتفوق على أداء القطاع بفارق لا يتجاوز 2% (حركة صغيرة)، مدعومًا بمساحة للصعود لكن مقيدة بالزخم السلبي.",
+        "medium": "خلالَ اليومين الأولين، قد يستمر الارتفاع البسيط مع تقييم المستثمرين للصفقة، لكن الزخم السلبي في MACD يحدّ من حجم الحركة.",
+        "large": "على المدى العشرين يومًا، التأثير غير واضح بسبب قرب السهم من المتوسط المتحرك 200 يوم والتذبذب القطاعي المرتفع؛ نُبقي على حيادنا بشكلٍ عام."
+      },
+      "what_could_change_our_view": "إذا أعلن المجلس لاحقًا رفض الصفقة أو تخفيض السعر، سينعكس الاتجاه هبوطيًّا. كما أن تذبذبات قطاع التقنية والتكنولوجيا المصري قد تطغى على تأثير الصفقة."
+    }
+  },
+  "final": {
+    "ticker": "RAYA",
+    "news_type": "m_and_a",
+    "already_priced_in": false,
+    "quantified_ratio": "لا ينطبق (لا يوجد عدد الأسهم القائمة قبل الصفقة في البيان)",
+    "ta_signals_cited": [
+      "rsi_neutral",
+      "macd_bearish_crossover",
+      "bollinger_middle",
+      "normal_volatility",
+      "near_20d_high"
+    ],
+    "dividend_info": null,
+    "per_horizon": {
+      "short": {
+        "direction": "up",
+        "magnitude": "small",
+        "confidence": 0.55,
+        "reasoning": "السهم تحت أعلى مستوى له في 20 يوم (-7.92%) ما يترك مجالاً للصعود. لكن MACD سلبي يتناقض مع الخبر الإيجابي، ومقارنة أداء السهم أمس (-1.45% مقابل القطاع) تشير لعدم تسعير كامل. النطاق القصير الصغير (< 2.05%) هو الأنسب عند وجود تناقض."
+      },
+      "medium": {
+        "direction": "up",
+        "magnitude": "small",
+        "confidence": 0.5,
+        "reasoning": "التقييم الأولي لشركة فاكت قد يستغرق أياماً. الزخم السلبي في MACD يقلل من قوة الصعود المتوقع. عند غياب أي إشارة تباعد، التأثير يبقى محدوداً ضمن نطاق ضيق."
+      },
+      "large": {
+        "direction": "neutral",
+        "magnitude": "small",
+        "confidence": 0.4,
+        "reasoning": "السهم تحت المتوسط المتحرك 200 يوم (-1.06%) مما يضعف الثقة في الاتجاه الصعودي. تقلب القطاع المرتفع (56.70%) يشتت الأثر على المدى الطويل. الصفقة لا تزال قيد الدراسة مما يضيف حالة انتظار."
+      }
+    },
+    "overall_reasoning": "خبر إيجابي بإتمام صفقة استحواذ على 90% من أسطول مقابل 641 مليون جنيه (8.24 جنيه/سهم). لا يوجد نصيب للمبيعات المعتادة (لا ينطبق). MACD السلبي يتناقض مع الخبر الإيجابي مما يقلل الزخم. السهم تحت MA200 مما يضعف الثقة في الاتجاه الصعودي. النطاقات الخاصة بالشركة: قصير <2.05% صغير؛ وسيط <2.90% صغير؛ وعريض <9.17% صغير. الأداء المتأخر أمس (-1.45% مقابل القطاع) يشير لعدم التسعير الكامل.",
+    "sentiment_ensemble": {
+      "weights": {
+        "claude": 0.5,
+        "groq_qwen": 0.3,
+        "camelbert": 0.2
+      },
+      "models": {
+        "claude": {
+          "model": "claude-sonnet-4-6",
+          "label": "positive",
+          "score": 0.6,
+          "numeric": 1,
+          "class_probs": {
+            "positive": 0.7,
+            "neutral": 0.2,
+            "negative": 0.1
+          }
+        },
+        "groq_qwen": {
+          "model": "qwen/qwen3-32b",
+          "label": "positive",
+          "score": 0.4,
+          "numeric": 1,
+          "class_probs": {
+            "positive": 0.5,
+            "neutral": 0.4,
+            "negative": 0.1
+          }
+        },
+        "camelbert": {
+          "model": "CAMeL-Lab/bert-base-arabic-camelbert-mix-sentiment",
+          "label": "neutral",
+          "score": 0.0212,
+          "numeric": 0,
+          "class_probs": {
+            "neutral": 0.9764,
+            "positive": 0.0224,
+            "negative": 0.0012
+          }
+        }
+      },
+      "weighted": {
+        "model": "ensemble(claude+groq_qwen+camelbert)",
+        "label": "positive",
+        "score": 0.4243,
+        "numeric": 1,
+        "class_probs": {
+          "positive": 0.5045,
+          "neutral": 0.4153,
+          "negative": 0.0802
+        }
+      }
+    }
+  }
+}

@@ -6,6 +6,7 @@ from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 
 from pipeline3 import analyze_article
+from prompts import HORIZONS
 
 app = FastAPI(
     title="EGX30 News Impact Service",
@@ -30,24 +31,37 @@ def _extract_article(payload: Any) -> dict:
     raise HTTPException(status_code=400, detail="Request body must be a JSON object containing one article.")
 
 
-def _extract_final_summary(trace: dict) -> dict:
-    critic = trace.get("critic_agent", {})
-    payload = {}
-    if isinstance(critic, dict):
-        if isinstance(critic.get("parsed"), dict):
-            payload = critic["parsed"]
-        elif isinstance(critic.get("output"), dict):
-            payload = critic["output"]
-        else:
-            payload = critic
+def _build_user_response(trace: dict) -> dict:
+    critic = (trace.get("critic_agent") or {}).get("output") or {}
+    final = trace.get("final") or {}
 
-    arabic_qa = trace.get("arabic_qa", {})
-    explanation_post = arabic_qa.get("explanation_post") or payload.get("explanation_post", {})
+    explanation = (
+        (trace.get("arabic_qa") or {}).get("explanation_post")
+        or critic.get("explanation_for_user")
+        or {}
+    )
+
+    per_horizon_pred = final.get("per_horizon") or {}
+    outlook_text = explanation.get("outlook_by_horizon") or {}
+
+    outlook: dict = {}
+    for h in HORIZONS:
+        pred = per_horizon_pred.get(h) or {}
+        outlook[h] = {
+            "direction":   pred.get("direction"),
+            "magnitude":   pred.get("magnitude"),
+            "confidence":  pred.get("confidence"),
+            "explanation": outlook_text.get(h) or pred.get("reasoning"),
+        }
 
     return {
-        "tldr": payload.get("tldr", {}),
-        "explanation_for_user": payload.get("explanation_for_user", {}),
-        "explanation_post": explanation_post,
+        "status":         "ok",
+        "ticker":         trace.get("ticker"),
+        "summary":        explanation.get("news_story"),
+        "technical_view": explanation.get("technical_view"),
+        "sentiment_note": explanation.get("sentiment_note"),
+        "outlook":        outlook,
+        "risks":          explanation.get("what_could_change_our_view"),
     }
 
 
@@ -68,18 +82,7 @@ async def analyze(request: Request) -> dict:
     except Exception as exc:
         raise HTTPException(status_code=500, detail=str(exc)) from exc
 
-    summary = _extract_final_summary(trace)
-
-    return {
-        "status": "ok",
-        "ticker": trace["ticker"],
-        "article_date": trace["article_date"],
-        "context_date": trace["context_date"],
-        "tldr": summary["tldr"],
-        "explanation_for_user": summary["explanation_for_user"],
-        "explanation_post": summary.get("explanation_post", {}),
-        "final": trace.get("final", {}),
-    }
+    return _build_user_response(trace)
 
 
 if __name__ == "__main__":

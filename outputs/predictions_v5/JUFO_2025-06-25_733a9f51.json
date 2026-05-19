@@ -1,0 +1,467 @@
+{
+  "ticker": "JUFO",
+  "article_date": "2025-06-25",
+  "context_date": "2025-06-24",
+  "processed_at": "2026-05-19T18:05:08.316805",
+  "article": {
+    "symbol": "JUFO",
+    "company": "Juhayna Food Industries",
+    "isin": "EGS30901C010",
+    "sector": "Food & Beverages",
+    "id": "4464045",
+    "date": "2025-06-25",
+    "time": "16:23:20",
+    "datetime": "2025-06-25 16:23:20",
+    "title": "جهينة: مزاد مصنع 6 أكتوبر المتوقف عن العمل لم يُسفر عن بيع",
+    "body": "القاهرة - مباشر: قالت شركة جهينة للصناعات الغذائية، إن جلسة المزاد التي عقدت لبيع مصنع الشركة المتوقف عن العمل في مدينة السادس من أكتوبر، لم تسفر عن بيع المصنع.\nوأوضحت الشركة في افصاح اليوم الأربعاء، أنها لم تتلقى أي عروض مناسبة لببيع لمصنع.\nوكانت جهينة للصناعات الغذائية، عقدت يوم الأحد الموافق 25 مايو الماضي، جلسة مزاد علني لبيع مصنعها في المنطقة الصناعية الأولى بمدينة السادس من أكتوبر قطعة رقم(40/39/38\n) و\nالبالغ مساحته 15140.33 متر مربع\n.\nيشار أن جهينة للصناعات الغذائية،  سجلت صافي ربح بلغ 299.67 مليون جنيه خلال الفترة من يناير حتى نهاية مارس 2025، مقابل أرباح بقيمة 478.74 مليون جنيه خلال نفس الفترة من 2024.\nوارتفعت مبيعات الشركة خلال الثلاثة أشهر الأولى من العام الجاري إلى 6.8 مليار جنيه، مقابل 5.43 مليار جنيه خلال نفس الفترة من العام الماضي.\nوعلى صعيد القوائم غير المجمعة، تحولت الشركة المستقلة إلى الأرباح خلال الربع الأول من العام الجاري لتحقق 204.98 مليون جنيه، مقابل خسائر بقيمة  1.21 مليون جنيه خلال نفس الفترة من 2024.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nأبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية\n..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر\n..\nاضغط هنا\nترشيحات\nعمومية \"جهينة\" تقرر دمج 4 شركات صناعية وإضافة أنشطة جديدة وانتخاب مجلس الإدارة",
+    "teaser": "القاهرة - مباشر: قالت شركة جهينة للصناعات الغذائية، إن جلسة المزاد التي عقدت لبيع مصنع الشركة المتوقف عن العمل في مدينة السادس من أكتوبر، لم تسفر عن بيع المصنع. وأوضحت الشركة في افصاح اليوم الأربعاء، أنها لم تتلقى أي عروض مناسبة لببيع لمصنع. وكانت …",
+    "section": "أخبار الشركة",
+    "source": "مباشر",
+    "categories": "stock-bonds",
+    "country": "مصر",
+    "reads": 904,
+    "url": "https://www.mubasher.info/news/4464045",
+    "image_url": "https://static.mubasher.info/File.Story_Image/d69b4ce28e1b291d6d09f19d58a23672/640.jpg",
+    "date_raw": ""
+  },
+  "sentiment": {
+    "model": "ensemble(claude+groq_qwen+camelbert)",
+    "label": "neutral",
+    "score": 0.0292,
+    "numeric": 0,
+    "class_probs": {
+      "positive": 0.2446,
+      "neutral": 0.54,
+      "negative": 0.2154
+    }
+  },
+  "sentiment_ensemble": {
+    "weights": {
+      "claude": 0.5,
+      "groq_qwen": 0.3,
+      "camelbert": 0.2
+    },
+    "models": {
+      "claude": {
+        "model": "claude-sonnet-4-6",
+        "label": "neutral",
+        "score": 0.05,
+        "numeric": 0,
+        "class_probs": {
+          "positive": 0.3,
+          "neutral": 0.45,
+          "negative": 0.25
+        }
+      },
+      "groq_qwen": {
+        "model": "qwen/qwen3-32b",
+        "label": "neutral",
+        "score": 0.0,
+        "numeric": 0,
+        "class_probs": {
+          "positive": 0.3,
+          "neutral": 0.4,
+          "negative": 0.3
+        }
+      },
+      "camelbert": {
+        "model": "CAMeL-Lab/bert-base-arabic-camelbert-mix-sentiment",
+        "label": "neutral",
+        "score": 0.0209,
+        "numeric": 0,
+        "class_probs": {
+          "neutral": 0.9749,
+          "positive": 0.023,
+          "negative": 0.0021
+        }
+      }
+    },
+    "weighted": {
+      "model": "ensemble(claude+groq_qwen+camelbert)",
+      "label": "neutral",
+      "score": 0.0292,
+      "numeric": 0,
+      "class_probs": {
+        "positive": 0.2446,
+        "neutral": 0.54,
+        "negative": 0.2154
+      }
+    }
+  },
+  "context": {
+    "ticker": "JUFO",
+    "company": "Juhayna Food Industries - JUFO",
+    "sector": "Food & Beverages",
+    "business_description": "Juhayna Food Industries — Egypt's leading dairy, juice, and cooking oil producer; wide nationwide retail distribution; defensive consumer staples.",
+    "event_date": "2025-06-25",
+    "last_price_date": "2025-06-24",
+    "price_state": {
+      "last_close": 27.27,
+      "return_1d": 3.1,
+      "return_5d": 6.52,
+      "return_20d": 0.55,
+      "return_60d": -19.84,
+      "pct_vs_ma50": -4.82,
+      "pct_vs_ma200": -12.09,
+      "vol_20d_annualized_pct": 35.42,
+      "vol_regime": "normal",
+      "rsi_14": 50.48
+    },
+    "market_state": {
+      "sector_return_1d": 3.1,
+      "sector_return_5d": 6.52,
+      "relative_strength_vs_sector_1d": 0.0
+    },
+    "correlation_state": {
+      "corr_with_sector_90d": 1.0,
+      "top_3_correlated_peers": [
+        {
+          "ticker": "MFPC",
+          "correlation": 0.41,
+          "sector": "Petroleum & Petrochemicals"
+        },
+        {
+          "ticker": "AMOC",
+          "correlation": 0.41,
+          "sector": "Petroleum & Petrochemicals"
+        },
+        {
+          "ticker": "SKPC",
+          "correlation": 0.39,
+          "sector": "Petroleum & Petrochemicals"
+        }
+      ]
+    },
+    "recent_abnormal_returns": [
+      {
+        "date": "2025-06-18",
+        "stock_return_pct": -0.31,
+        "sector_return_pct": -0.31,
+        "abnormal_return_pct": 0.0
+      },
+      {
+        "date": "2025-06-19",
+        "stock_return_pct": -1.65,
+        "sector_return_pct": -1.65,
+        "abnormal_return_pct": 0.0
+      },
+      {
+        "date": "2025-06-22",
+        "stock_return_pct": 0.6,
+        "sector_return_pct": 0.6,
+        "abnormal_return_pct": 0.0
+      },
+      {
+        "date": "2025-06-23",
+        "stock_return_pct": 4.75,
+        "sector_return_pct": 4.75,
+        "abnormal_return_pct": 0.0
+      },
+      {
+        "date": "2025-06-24",
+        "stock_return_pct": 3.1,
+        "sector_return_pct": 3.1,
+        "abnormal_return_pct": 0.0
+      }
+    ],
+    "technical_signals": {
+      "rsi_14": 50.48,
+      "rsi_zone": "neutral",
+      "macd": {
+        "line": -0.7289,
+        "signal": -0.8466,
+        "histogram": 0.1177,
+        "state": "bullish"
+      },
+      "bollinger": {
+        "pct_b": 0.629,
+        "bandwidth_pct": 13.64,
+        "zone": "middle"
+      },
+      "distance_to_extremes": {
+        "20d_high_distance_pct": -2.29,
+        "20d_low_distance_pct": 8.65,
+        "60d_high_distance_pct": -18.35,
+        "60d_low_distance_pct": 8.65,
+        "252d_high_distance_pct": -29.17,
+        "252d_low_distance_pct": 68.33
+      },
+      "rsi_divergence": "none",
+      "atr_pct_14d": 1.9,
+      "consecutive_streak": 3
+    },
+    "dynamic_bands": {
+      "horizon_trading_days": {
+        "short": 1,
+        "medium": 2,
+        "large": 20
+      },
+      "neutral_band_pct": {
+        "short": 0.95,
+        "medium": 1.34,
+        "large": 4.25
+      },
+      "magnitude_bands_pct": {
+        "short": {
+          "small": [
+            0.0,
+            1.33
+          ],
+          "medium": [
+            1.33,
+            3.8
+          ],
+          "large": [
+            3.8,
+            null
+          ]
+        },
+        "medium": {
+          "small": [
+            0.0,
+            1.88
+          ],
+          "medium": [
+            1.88,
+            5.37
+          ],
+          "large": [
+            5.37,
+            null
+          ]
+        },
+        "large": {
+          "small": [
+            0.0,
+            5.95
+          ],
+          "medium": [
+            5.95,
+            16.99
+          ],
+          "large": [
+            16.99,
+            null
+          ]
+        }
+      },
+      "atr_pct_anchor": 1.9
+    },
+    "news_timing": {
+      "in_trading_hours": false,
+      "arrived_at_str": "2025-06-25 16:23:20",
+      "start_day_label": "next trading day after event_date (news arrived outside EGX hours)"
+    }
+  },
+  "prompts": {
+    "impact": "You are a quantitative analyst predicting Egyptian Stock Exchange (EGX) stock reactions to Arabic news. Your prediction must be grounded in the technical signals provided and calibrated to this specific ticker's volatility.\n\n=== COMPANY ===\nTicker      : JUFO\nName        : Juhayna Food Industries - JUFO\nSector      : Food & Beverages\nDescription : Juhayna Food Industries — Egypt's leading dairy, juice, and cooking oil producer; wide nationwide retail distribution; defensive consumer staples.\nPrice data  : as of 2025-06-24  (article date: 2025-06-25)\n\n=== PRICE STATE ===\nLast close  : 27.27 EGP\nReturn 1d   : +3.10%   5d : +6.52%   20d : +0.55%   60d : -19.84%\nvs MA-50    : -4.82%  vs MA-200 : -12.09%\nTrend       : downtrend (below MA-50 and MA-200)\nVol 20d ann : 35.42%  [normal regime]  Normal -> impact PROPORTIONAL to catalyst.\n\n=== SECTOR ===\nSector 1d   : +3.10%  5d : +6.52%\nStock vs sector 1d : +0.00%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 1.00\nTop peers:\n  - MFPC | Petroleum & Petrochemicals | 90d-corr: 0.41\n  - AMOC | Petroleum & Petrochemicals | 90d-corr: 0.41\n  - SKPC | Petroleum & Petrochemicals | 90d-corr: 0.39\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2025-06-18: stock -0.31%  sector -0.31%  AR +0.00%\n  2025-06-19: stock -1.65%  sector -1.65%  AR +0.00%\n  2025-06-22: stock +0.60%  sector +0.60%  AR +0.00%\n  2025-06-23: stock +4.75%  sector +4.75%  AR +0.00%\n  2025-06-24: stock +3.10%  sector +3.10%  AR +0.00%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 50.48  [neutral]\nMACD      : state=bullish  hist=+0.1177\nBollinger : zone=middle  %B=0.629\nDistance  : 20d_hi -2.29%  20d_lo +8.65%  60d_hi -18.35%  60d_lo +8.65%  52w_hi -29.17%  52w_lo +68.33%\nDivergence : none\nATR 14d   : 1.90%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : +3 (up streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=1.90%) ===\n  short   (N= 1d)  neutral=+-0.95%  small <1.33%  medium 1.33%-3.80%  large >=3.80%\n  medium  (N= 2d)  neutral=+-1.34%  small <1.88%  medium 1.88%-5.37%  large >=5.37%\n  large   (N=20d)  neutral=+-4.25%  small <5.95%  medium 5.95%-16.99%  large >=16.99%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-06-25 16:23:20\nIn trading hours: False  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : next trading day after event_date (news arrived outside EGX hours)\nHorizons (days) : short=1d ; medium=2d ; large=20d\n\n=== ARABIC SENTIMENT (one input among many) ===\nLabel : neutral\nScore : +0.0292   (-1 strongly negative -> +1 strongly positive)\nNOTE: this is a weighted ensemble tone classifier, not a financial-impact verdict.\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-06-25 16:23:20\nHeadline  : جهينة: مزاد مصنع 6 أكتوبر المتوقف عن العمل لم يُسفر عن بيع\n\nالقاهرة - مباشر: قالت شركة جهينة للصناعات الغذائية، إن جلسة المزاد التي عقدت لبيع مصنع الشركة المتوقف عن العمل في مدينة السادس من أكتوبر، لم تسفر عن بيع المصنع.\nوأوضحت الشركة في افصاح اليوم الأربعاء، أنها لم تتلقى أي عروض مناسبة لببيع لمصنع.\nوكانت جهينة للصناعات الغذائية، عقدت يوم الأحد الموافق 25 مايو الماضي، جلسة مزاد علني لبيع مصنعها في المنطقة الصناعية الأولى بمدينة السادس من أكتوبر قطعة رقم(40/39/38\n) و\nالبالغ مساحته 15140.33 متر مربع\n.\nيشار أن جهينة للصناعات الغذائية،  سجلت صافي ربح بلغ 299.67 مليون جنيه خلال الفترة من يناير حتى نهاية مارس 2025، مقابل أرباح بقيمة 478.74 مليون جنيه خلال نفس الفترة من 2024.\nوارتفعت مبيعات الشركة خلال الثلاثة أشهر الأولى من العام الجاري إلى 6.8 مليار جنيه، مقابل 5.43 مليار جنيه خلال نفس الفترة من العام الماضي.\nوعلى صعيد القوائم غير المجمعة، تحولت الشركة المستقلة إلى الأرباح خلال الربع الأول من العام الجاري لتحقق 204.98 مليون جنيه، مقابل خسائر بقيمة  1.21 مليون جنيه خلال نفس الفترة من 2024.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nأبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية\n..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر\n..\nاضغط هنا\nترشيحات\nعمومية \"جهينة\" تقرر دمج 4 شركات صناعية وإضافة أنشطة جديدة وانتخاب مجلس الإدارة\n\n=== HORIZONS (predict ALL OF THEM) ===\n  short   -> t+0 only (just the start day's return)    AR label: اليوم الأول (t+0): رد الفعل الفوري\n  medium  -> t+0 .. t+1  (2 trading days cumulative)   AR label: اليومان الأولان (t+0 إلى t+1): الاستجابة المبكرة\n  large   -> t+0 .. t+19  (20 trading days cumulative)  AR label: العشرون يوم تداول (t+0 إلى t+19): الأثر الممتد\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- 'up'\nmeans OUTPERFORMING the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== OUTPUT INSTRUCTIONS ===\n1. Classify news_type FIRST.\n2. Walk through T1-T5. Pick TA signals that ACTUALLY apply from the closed vocab.\n3. Anchor magnitudes to the PER-COMPANY bands above (NOT a global rule).\n4. Quantify any dilution/yield ratio with both inputs.\n5. If news_type=dividend, FILL dividend_info; otherwise set it to null.\n6. LANGUAGE: free-text Arabic. JSON keys + enum values in English.\n7. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"news_type\":         \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n  \"already_priced_in\": <true | false>,\n  \"quantified_ratio\":  \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n  \"key_drivers\":       [\"<driver 1 Arabic>\", \"<driver 2 Arabic>\"],\n  \"ta_signals_cited\":  [\"<signal from closed vocab>\", \"...\"],\n  \"dividend_info\": null | {\n    \"yield_pct\":      <float>,\n    \"ex_div_date\":    \"<YYYY-MM-DD or null if unknown>\",\n    \"amount_egp\":     <float or null>\n  },\n  \"per_horizon\": {\n    \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"},\n    \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"},\n    \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"}\n  },\n  \"overall_reasoning\": \"<3-4 Arabic sentences. Walk T1-T5 briefly. Reference the per-company magnitude bands explicitly. State the quantified ratio if applicable.>\"\n}",
+    "critic": "You are a senior quantitative risk analyst at an Egyptian investment bank. A junior LLM analyst has assessed a news event about JUFO (Juhayna Food Industries - JUFO). Your job:\n  (a) audit the junior's TA citations against the live data,\n  (b) check magnitudes against the PER-COMPANY bands (not global rules),\n  (c) produce the final authoritative prediction across short / medium / large,\n  (d) write a plain-Arabic explanation for a non-expert retail investor.\n\n=== COMPANY ===\nTicker      : JUFO\nName        : Juhayna Food Industries - JUFO\nSector      : Food & Beverages\nDescription : Juhayna Food Industries — Egypt's leading dairy, juice, and cooking oil producer; wide nationwide retail distribution; defensive consumer staples.\nPrice data  : as of 2025-06-24  (article date: 2025-06-25)\n\n=== PRICE STATE ===\nLast close  : 27.27 EGP\nReturn 1d   : +3.10%   5d : +6.52%   20d : +0.55%   60d : -19.84%\nvs MA-50    : -4.82%  vs MA-200 : -12.09%\nTrend       : downtrend (below MA-50 and MA-200)\nVol 20d ann : 35.42%  [normal regime]  Normal -> impact PROPORTIONAL to catalyst.\n\n=== SECTOR ===\nSector 1d   : +3.10%  5d : +6.52%\nStock vs sector 1d : +0.00%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 1.00\nTop peers:\n  - MFPC | Petroleum & Petrochemicals | 90d-corr: 0.41\n  - AMOC | Petroleum & Petrochemicals | 90d-corr: 0.41\n  - SKPC | Petroleum & Petrochemicals | 90d-corr: 0.39\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2025-06-18: stock -0.31%  sector -0.31%  AR +0.00%\n  2025-06-19: stock -1.65%  sector -1.65%  AR +0.00%\n  2025-06-22: stock +0.60%  sector +0.60%  AR +0.00%\n  2025-06-23: stock +4.75%  sector +4.75%  AR +0.00%\n  2025-06-24: stock +3.10%  sector +3.10%  AR +0.00%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 50.48  [neutral]\nMACD      : state=bullish  hist=+0.1177\nBollinger : zone=middle  %B=0.629\nDistance  : 20d_hi -2.29%  20d_lo +8.65%  60d_hi -18.35%  60d_lo +8.65%  52w_hi -29.17%  52w_lo +68.33%\nDivergence : none\nATR 14d   : 1.90%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : +3 (up streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=1.90%) ===\n  short   (N= 1d)  neutral=+-0.95%  small <1.33%  medium 1.33%-3.80%  large >=3.80%\n  medium  (N= 2d)  neutral=+-1.34%  small <1.88%  medium 1.88%-5.37%  large >=5.37%\n  large   (N=20d)  neutral=+-4.25%  small <5.95%  medium 5.95%-16.99%  large >=16.99%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-06-25 16:23:20\nIn trading hours: False  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : next trading day after event_date (news arrived outside EGX hours)\nHorizons (days) : short=1d ; medium=2d ; large=20d\n\n=== ARABIC SENTIMENT ===\nLabel : neutral\nScore : +0.0292\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-06-25 16:23:20\nHeadline  : جهينة: مزاد مصنع 6 أكتوبر المتوقف عن العمل لم يُسفر عن بيع\n\nالقاهرة - مباشر: قالت شركة جهينة للصناعات الغذائية، إن جلسة المزاد التي عقدت لبيع مصنع الشركة المتوقف عن العمل في مدينة السادس من أكتوبر، لم تسفر عن بيع المصنع.\nوأوضحت الشركة في افصاح اليوم الأربعاء، أنها لم تتلقى أي عروض مناسبة لببيع لمصنع.\nوكانت جهينة للصناعات الغذائية، عقدت يوم الأحد الموافق 25 مايو الماضي، جلسة مزاد علني لبيع مصنعها في المنطقة الصناعية الأولى بمدينة السادس من أكتوبر قطعة رقم(40/39/38\n) و\nالبالغ مساحته 15140.33 متر مربع\n.\nيشار أن جهينة للصناعات الغذائية،  سجلت صافي ربح بلغ 299.67 مليون جنيه خلال الفترة من يناير حتى نهاية مارس 2025، مقابل أرباح بقيمة 478.74 مليون جنيه خلال نفس الفترة من 2024.\nوارتفعت مبيعات الشركة خلال الثلاثة أشهر الأولى من العام الجاري إلى 6.8 مليار جنيه، مقابل 5.43 مليار جنيه خلال نفس الفترة من العام الماضي.\nوعلى صعيد القوائم غير المجمعة، تحولت الشركة المستقلة إلى الأرباح خلال الربع الأول من العام الجاري لتحقق 204.98 مليون جنيه، مقابل خسائر بقيمة  1.21 مليون جنيه خلال نفس الفترة من 2024.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nأبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية\n..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر\n..\nاضغط هنا\nترشيحات\nعمومية \"جهينة\" تقرر دمج 4 شركات صناعية وإضافة أنشطة جديدة وانتخاب مجلس الإدارة\n\n=== IMPACT AGENT OUTPUT (junior, Groq) ===\n{\n  \"news_type\": \"operational\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"لا ينطبق\",\n  \"key_drivers\": [\n    \"فشل جلسة المزاد في بيع مصنع 6 أكتوبر\",\n    \"عدم تلقي العروض المناسبة للبيع\"\n  ],\n  \"ta_signals_cited\": [\n    \"macd_bullish\",\n    \"strong_downtrend\",\n    \"normal_volatility\"\n  ],\n  \"dividend_info\": null,\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"down\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.6,\n      \"reasoning\": \"الرسوم البيانية تشير إلى ترند هابط قوي مع MACD بحالة بيعية، لكن التقلبات الطبيعية (ATR=1.90%) تشير إلى أن التأثير سيكون محدودًا ضمن نطاق الصغير.\"\n    },\n    \"medium\": {\n      \"direction\": \"down\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.55,\n      \"reasoning\": \"الانحراف عن المتوسطات الطويلة (MA-200) بنسبة -12.09% يشير إلى استمرار الضغوط الهابطة، مع احتمال تجاوز الحد الأدنى المتوسط (5.37%) خلال 2 يوم تداول.\"\n    },\n    \"large\": {\n      \"direction\": \"down\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.45,\n      \"reasoning\": \"السعر ما زال بعيدًا عن الدعم القوي (60d_lo +8.65%)، لكن الترند الهابط المستمر مع تقلبات طبيعية يشير إلى استمرار التأثير السلبي على مدى 20 يوم تداول.\"\n    }\n  },\n  \"overall_reasoning\": \"الأخبار السلبية المتعلقة بفشل بيع المصنع تتعارض مع حالة MACD البيعية، مما يقلل من ثقة التنبؤ. الترند الهابط القوي (تحت MA-50 وMA-200) يعزز التوقع الهابط، لكن التقلبات الطبيعية (ATR=1.90%) تحد من المدى. الحدود المبنية على ATR تشير إلى أن التأثير سيكون ضمن النطاق المتوسط على المدى الطويل.\"\n}\n\n=== HORIZONS (predict ALL OF THEM) ===\n  short   -> t+0 only (just the start day's return)    AR label: اليوم الأول (t+0): رد الفعل الفوري\n  medium  -> t+0 .. t+1  (2 trading days cumulative)   AR label: اليومان الأولان (t+0 إلى t+1): الاستجابة المبكرة\n  large   -> t+0 .. t+19  (20 trading days cumulative)  AR label: العشرون يوم تداول (t+0 إلى t+19): الأثر الممتد\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- 'up'\nmeans OUTPERFORMING the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== REVIEW CHECKLIST ===\nC1. NEWS_TYPE correct?\nC2. TA_SIGNALS: every cited signal must be supported by the data. Override\n    inconsistent cites silently in your final output.\nC3. MAGNITUDE vs PER-COMPANY BANDS: does the predicted bucket match the\n    horizon's per-company thresholds? Adjust if mis-scaled.\nC4. PRICED-IN: if stock_vs_sector_1d aligns with the news direction, short\n    magnitude should default to \"small\" (R4).\nC5. DIVERGENCE: if a divergence signal is present, did the junior account for it?\nC6. CONFIDENCE: lower when context contradicts the call or news is priced in.\n    Default conf_large <= conf_medium <= conf_short.\nC7. DIVIDEND_INFO: if news_type=dividend, ensure yield_pct is present. If the\n    article gives the ex-div date, extract it as YYYY-MM-DD; otherwise null.\nC8. LANGUAGE: strip any non-Arabic word from Arabic fields (R6).\n\n=== USER-FACING EXPLANATION (the most important deliverable) ===\nYou will produce TWO reasoning blocks tuned to two audiences:\n\n  news_story:       PLAIN ARABIC, ZERO JARGON. Just the news content and what\n                    it means in everyday language. A retail investor with no\n                    finance training must understand it. No RSI / MACD / ATR.\n\n  technical_view:   Includes TA signals AND explains each term in Arabic\n                    inline. Format example:\n                      \"مؤشر RSI (مقياس قوة الشراء والبيع) عند 72 وهو مرتفع...\"\n                      \"مؤشر MACD (تقاطع المتوسطات المتحركة) في حالة هبوطية...\"\n                      \"نطاقات بولينجر (مستوى التذبذب) تشير إلى تشبع...\"\n                      \"مؤشر ATR (متوسط الحركة اليومية المعتادة) لهذا السهم 1.5%...\"\n\n  sentiment_note:   ONE Arabic sentence that surfaces the sentiment result\n                    (label + score given above in 'ARABIC SENTIMENT') AND\n                    explicitly says whether it agrees with our prediction or\n                    contradicts it. Do NOT name any model (CAMeLBERT, Claude,\n                    Groq, Qwen, etc.) -- just refer to it as تحليل المشاعر.\n\n  outlook_by_horizon: ONE Arabic sentence per horizon. Direction + size + a\n                    one-clause reason. Numbers stated in plain language.\n\n  what_could_change_our_view: 1-2 Arabic sentences on key uncertainties.\n\nU-rules:\n  U1. NUMBERS WITH MEANING. Every cited number gets a plain-Arabic interpretation.\n  U2. STATE THE PREDICTION FIRST in news_story (direction + timeline), THEN evidence.\n  U3. BREVITY. Each field is short -- prefer 2-3 sentences max per field.\n  U4. 100% Arabic in this entire block. The next agent (QA) will reject leaks.\n\n=== INSTRUCTIONS ===\n1. Override the junior wherever evidence demands; do not surface the override\n   to the user -- just produce the corrected final prediction.\n2. Confidence: adjust per horizon. Default conf_large <= conf_medium <= conf_short.\n3. SPELLING: \"RSI-14\" not \"RS-14\". Proper Arabic punctuation.\n4. LANGUAGE: free-text Arabic; JSON keys + tickers + enum values in English.\n5. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"primary_company\": {\n    \"ticker\":              \"JUFO\",\n    \"news_type\":           \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n    \"already_priced_in\":   <true | false>,\n    \"quantified_ratio\":    \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n    \"ta_signals_cited\":    [\"<signal from closed vocab>\", \"...\"],\n    \"dividend_info\": null | {\n      \"yield_pct\":   <float>,\n      \"ex_div_date\": \"<YYYY-MM-DD or null>\",\n      \"amount_egp\":  <float or null>\n    },\n    \"per_horizon\": {\n      \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"},\n      \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"},\n      \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"}\n    },\n    \"overall_reasoning\":   \"<2-3 Arabic sentences. Reference the per-company bands. State news_type. Concise.>\"\n  },\n  \"tldr\": \"<one Arabic sentence summarising the whole view: direction + dominant horizon>\",\n  \"explanation_for_user\": {\n    \"headline\":                   \"<one sentence in plain Arabic, no jargon, captures the news>\",\n    \"news_story\":                 \"<2-3 sentences PLAIN Arabic, zero technical jargon. What happened and why it matters to an everyday investor.>\",\n    \"technical_view\":             \"<2-3 sentences with TA signals, EACH technical term explained in Arabic inline as shown above (RSI / MACD / Bollinger / ATR / divergence).>\",\n    \"sentiment_note\":             \"<1 Arabic sentence: state the sentiment label and score (refer to it only as تحليل المشاعر, NEVER name any model), and whether it agrees with our prediction.>\",\n    \"outlook_by_horizon\": {\n      \"short\":  \"<one Arabic sentence: direction + size + reason for t+0>\",\n      \"medium\": \"<one Arabic sentence: direction + size + reason for t+0..t+1>\",\n      \"large\":  \"<one Arabic sentence: direction + size + reason for t+0..t+19>\"\n    },\n    \"what_could_change_our_view\": \"<1-2 Arabic sentences on key uncertainties>\"\n  }\n}"
+  },
+  "impact_agent": {
+    "output": {
+      "news_type": "operational",
+      "already_priced_in": false,
+      "quantified_ratio": "لا ينطبق",
+      "key_drivers": [
+        "فشل جلسة المزاد في بيع مصنع 6 أكتوبر",
+        "عدم تلقي العروض المناسبة للبيع"
+      ],
+      "ta_signals_cited": [
+        "macd_bullish",
+        "strong_downtrend",
+        "normal_volatility"
+      ],
+      "dividend_info": null,
+      "per_horizon": {
+        "short": {
+          "direction": "down",
+          "magnitude": "small",
+          "confidence": 0.6,
+          "reasoning": "الرسوم البيانية تشير إلى ترند هابط قوي مع MACD بحالة بيعية، لكن التقلبات الطبيعية (ATR=1.90%) تشير إلى أن التأثير سيكون محدودًا ضمن نطاق الصغير."
+        },
+        "medium": {
+          "direction": "down",
+          "magnitude": "medium",
+          "confidence": 0.55,
+          "reasoning": "الانحراف عن المتوسطات الطويلة (MA-200) بنسبة -12.09% يشير إلى استمرار الضغوط الهابطة، مع احتمال تجاوز الحد الأدنى المتوسط (5.37%) خلال 2 يوم تداول."
+        },
+        "large": {
+          "direction": "down",
+          "magnitude": "medium",
+          "confidence": 0.45,
+          "reasoning": "السعر ما زال بعيدًا عن الدعم القوي (60d_lo +8.65%)، لكن الترند الهابط المستمر مع تقلبات طبيعية يشير إلى استمرار التأثير السلبي على مدى 20 يوم تداول."
+        }
+      },
+      "overall_reasoning": "الأخبار السلبية المتعلقة بفشل بيع المصنع تتعارض مع حالة MACD البيعية، مما يقلل من ثقة التنبؤ. الترند الهابط القوي (تحت MA-50 وMA-200) يعزز التوقع الهابط، لكن التقلبات الطبيعية (ATR=1.90%) تحد من المدى. الحدود المبنية على ATR تشير إلى أن التأثير سيكون ضمن النطاق المتوسط على المدى الطويل."
+    },
+    "raw": "{  \"news_type\": \"operational\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"لا ينطبق\",\n  \"key_drivers\": [\n    \"فشل جلسة المزاد في بيع مصنع 6 أكتوبر\",\n    \"عدم تلقي العروض المناسبة للبيع\"\n  ],\n  \"ta_signals_cited\": [\n    \"macd_bullish\",\n    \"strong_downtrend\",\n    \"normal_volatility\"\n  ],\n  \"dividend_info\": null,\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"down\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.6,\n      \"reasoning\": \"الرسوم البيانية تشير إلى ترند هابط قوي مع MACD بحالة بيعية، لكن التقلبات الطبيعية (ATR=1.90%) تشير إلى أن التأثير سيكون محدودًا ضمن نطاق الصغير.\"\n    },\n    \"medium\": {\n      \"direction\": \"down\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.55,\n      \"reasoning\": \"الانحراف عن المتوسطات الطويلة (MA-200) بنسبة -12.09% يشير إلى استمرار الضغوط الهابطة، مع احتمال تجاوز الحد الأدنى المتوسط (5.37%) خلال 2 يوم تداول.\"\n    },\n    \"large\": {\n      \"direction\": \"down\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.45,\n      \"reasoning\": \"السعر ما زال بعيدًا عن الدعم القوي (60d_lo +8.65%)، لكن الترند الهابط المستمر مع تقلبات طبيعية يشير إلى استمرار التأثير السلبي على مدى 20 يوم تداول.\"\n    }\n  },\n  \"overall_reasoning\": \"الأخبار السلبية المتعلقة بفشل بيع المصنع تتعارض مع حالة MACD البيعية، مما يقلل من ثقة التنبؤ. الترند الهابط القوي (تحت MA-50 وMA-200) يعزز التوقع الهابط، لكن التقلبات الطبيعية (ATR=1.90%) تحد من المدى. الحدود المبنية على ATR تشير إلى أن التأثير سيكون ضمن النطاق المتوسط على المدى الطويل.\"\n}"
+  },
+  "critic_agent": {
+    "output": {
+      "primary_company": {
+        "ticker": "JUFO",
+        "news_type": "operational",
+        "already_priced_in": false,
+        "quantified_ratio": "لا ينطبق",
+        "ta_signals_cited": [
+          "macd_bullish",
+          "strong_downtrend",
+          "normal_volatility",
+          "bollinger_middle"
+        ],
+        "dividend_info": null,
+        "per_horizon": {
+          "short": {
+            "direction": "down",
+            "magnitude": "small",
+            "confidence": 0.55,
+            "reasoning": "السعر بعيد عن القاع بنسبة +8.65%، مما يوفر مجالًا للهبوط، لكن التقلبات الطبيعية (ATR=1.90%) تحد من التأثير اليومي. فشل بيع المصنع يشير إلى تأثير سلبي محدود في اليوم الأول."
+          },
+          "medium": {
+            "direction": "down",
+            "magnitude": "small",
+            "confidence": 0.5,
+            "reasoning": "الترند الهابط القوي تحت MA-50 وMA-200 يعزز الضغوط البيعية، لكن MACD في حالة إيجابية يحد من التوسع الهبوطي. خلال يومين تداول، التأثير يبقى ضمن النطاق الصغير (أقل من 1.88%)."
+          },
+          "large": {
+            "direction": "down",
+            "magnitude": "medium",
+            "confidence": 0.45,
+            "reasoning": "البعد عن القاع (60d_lo +8.65%) يتيح مزيدًا من الهبوط، والخبر التشغيلي يعكس عدم قدرة الشركة على التخلص من الأصول المتعثرة. على مدى 20 يومًا، التأثير المتوسط (حتى 16.99%) يعكس استمرار الضغوط السلبية."
+          }
+        },
+        "overall_reasoning": "خبر التشغيل السلبي (فشل مزاد بيع مصنع 6 أكتوبر) يشير إلى عدم قدرة الشركة على تحويل الأصول المتعطلة إلى سيولة. الترند الهابط المستمر (السعر تحت MA-50 وMA-200) يعزز التوقع الهبوطي، لكن MACD الإيجابي والتقلبات الطبيعية تحد من حجم التأثير. حجم التأثير المقترح: صغير في الأفق القصير والمتوسط، ومتوسط في الأفق الطويل وفقًا للنطاقات المحددة للشركة."
+      },
+      "tldr": "نتوقع هبوطًا محدودًا في الأيام القريبة (حجم صغير)، يتصاعد إلى تأثير متوسط خلال 20 يومًا مع استمرار الضغوط من فشل بيع المصنع.",
+      "explanation_for_user": {
+        "headline": "فشل مزاد بيع مصنع جهينة في السادس من أكتوبر دون تلقي عروض مناسبة",
+        "news_story": "شركة جهينة لم تنجح في بيع مصنعها المتوقف في مدينة السادس من أكتوبر عبر المزاد العلني، لعدم تلقيها عروضًا مناسبة. هذا يعني أن الشركة لم تتمكن من تحويل أصل متعطل إلى نقود، مما قد يضغط على خططها المالية مستقبلًا.",
+        "technical_view": "مؤشر MACD (تقاطع المتوسطات المتحركة) في حالة إيجابية (hist=+0.1177)، مما يحد من التوسع الهبوطي. السعر تحت المتوسط المتحرك لـ50 يومًا (MA-50) بنسبة -4.82% وتحت متوسط 200 يوم بنسبة -12.09%، مما يؤكد الترند الهابط. مؤشر ATR (متوسط الحركة اليومية المعتادة) عند 1.90% يشير إلى أن التقلبات طبيعية بالنسبة لهذا السهم، وعادة التحرك اليومي المتوقع 1.90 جنيه. مؤشر RSI عند 50.48 في المنطقة المحايدة يشير إلى أن السهم ليس في حالة تشبع شراء أو بيع.",
+        "sentiment_note": "تحليل المشاعر أعطى تصنيفًا محايدًا مع درجة +0.0292، وهذا يتفق مع توقعاتنا بأن التأثير سيكون محدودًا في المدى القصير ومتوسطًا في المدى البعيد.",
+        "outlook_by_horizon": {
+          "short": "اليوم الأول: نتوقع هبوطًا صغيرًا أقل من 1.33% مع بدء استيعاب الخبر السلبي.",
+          "medium": "اليومان الأولان: الضغوط مستمرة مع هبوط ضمن النطاق الصغير (أقل من 1.88%) حيث MACD الإيجابي يحد من التوسع.",
+          "large": "العشرون يومًا: التأثير يتصاعد إلى حجم متوسط (حتى 16.99%) مع استمرار عدم اليقين حول مستقبل أصول الشركة المتعطلة."
+        },
+        "what_could_change_our_view": "إذا نجحت الشركة في بيع المصنع بسعر مناسب لاحقًا، فقد يتحول التأثير إلى إيجابي. أو إذا أظهرت النتائج المالية القادمة أداءً قويًا يقلل من مخاوف المستثمرين."
+      }
+    },
+    "raw": "{\n  \"primary_company\": {\n    \"ticker\": \"JUFO\",\n    \"news_type\": \"operational\",\n    \"already_priced_in\": false,\n    \"quantified_ratio\": \"لا ينطبق\",\n    \"ta_signals_cited\": [\n      \"macd_bullish\",\n      \"strong_downtrend\",\n      \"normal_volatility\",\n      \"bollinger_middle\"\n    ],\n    \"dividend_info\": null,\n    \"per_horizon\": {\n      \"short\": {\n        \"direction\": \"down\",\n        \"magnitude\": \"small\",\n        \"confidence\": 0.55,\n        \"reasoning\": \"السعر بعيد عن القاع بنسبة +8.65%، مما يوفر مجالًا للهبوط، لكن التقلبات الطبيعية (ATR=1.90%) تحد من التأثير اليومي. فشل بيع المصنع يشير إلى تأثير سلبي محدود في اليوم الأول.\"\n      },\n      \"medium\": {\n        \"direction\": \"down\",\n        \"magnitude\": \"small\",\n        \"confidence\": 0.50,\n        \"reasoning\": \"الترند الهابط القوي تحت MA-50 وMA-200 يعزز الضغوط البيعية، لكن MACD في حالة إيجابية يحد من التوسع الهبوطي. خلال يومين تداول، التأثير يبقى ضمن النطاق الصغير (أقل من 1.88%).\"\n      },\n      \"large\": {\n        \"direction\": \"down\",\n        \"magnitude\": \"medium\",\n        \"confidence\": 0.45,\n        \"reasoning\": \"البعد عن القاع (60d_lo +8.65%) يتيح مزيدًا من الهبوط، والخبر التشغيلي يعكس عدم قدرة الشركة على التخلص من الأصول المتعثرة. على مدى 20 يومًا، التأثير المتوسط (حتى 16.99%) يعكس استمرار الضغوط السلبية.\"\n      }\n    },\n    \"overall_reasoning\": \"خبر التشغيل السلبي (فشل مزاد بيع مصنع 6 أكتوبر) يشير إلى عدم قدرة الشركة على تحويل الأصول المتعطلة إلى سيولة. الترند الهابط المستمر (السعر تحت MA-50 وMA-200) يعزز التوقع الهبوطي، لكن MACD الإيجابي والتقلبات الطبيعية تحد من حجم التأثير. حجم التأثير المقترح: صغير في الأفق القصير والمتوسط، ومتوسط في الأفق الطويل وفقًا للنطاقات المحددة للشركة.\"\n  },\n  \"tldr\": \"نتوقع هبوطًا محدودًا في الأيام القريبة (حجم صغير)، يتصاعد إلى تأثير متوسط خلال 20 يومًا مع استمرار الضغوط من فشل بيع المصنع.\",\n  \"explanation_for_user\": {\n    \"headline\": \"فشل مزاد بيع مصنع جهينة في السادس من أكتوبر دون تلقي عروض مناسبة\",\n    \"news_story\": \"شركة جهينة لم تنجح في بيع مصنعها المتوقف في مدينة السادس من أكتوبر عبر المزاد العلني، لعدم تلقيها عروضًا مناسبة. هذا يعني أن الشركة لم تتمكن من تحويل أصل متعطل إلى نقود، مما قد يضغط على خططها المالية مستقبلًا.\",\n    \"technical_view\": \"مؤشر MACD (تقاطع المتوسطات المتحركة) في حالة إيجابية (hist=+0.1177)، مما يحد من التوسع الهبوطي. السعر تحت المتوسط المتحرك لـ50 يومًا (MA-50) بنسبة -4.82% وتحت متوسط 200 يوم بنسبة -12.09%، مما يؤكد الترند الهابط. مؤشر ATR (متوسط الحركة اليومية المعتادة) عند 1.90% يشير إلى أن التقلبات طبيعية بالنسبة لهذا السهم، وعادة التحرك اليومي المتوقع 1.90 جنيه. مؤشر RSI عند 50.48 في المنطقة المحايدة يشير إلى أن السهم ليس في حالة تشبع شراء أو بيع.\",\n    \"sentiment_note\": \"تحليل المشاعر أعطى تصنيفًا محايدًا مع درجة +0.0292، وهذا يتفق مع توقعاتنا بأن التأثير سيكون محدودًا في المدى القصير ومتوسطًا في المدى البعيد.\",\n    \"outlook_by_horizon\": {\n      \"short\": \"اليوم الأول: نتوقع هبوطًا صغيرًا أقل من 1.33% مع بدء استيعاب الخبر السلبي.\",\n      \"medium\": \"اليومان الأولان: الضغوط مستمرة مع هبوط ضمن النطاق الصغير (أقل من 1.88%) حيث MACD الإيجابي يحد من التوسع.\",\n      \"large\": \"العشرون يومًا: التأثير يتصاعد إلى حجم متوسط (حتى 16.99%) مع استمرار عدم اليقين حول مستقبل أصول الشركة المتعطلة.\"\n    },\n    \"what_could_change_our_view\": \"إذا نجحت الشركة في بيع المصنع بسعر مناسب لاحقًا، فقد يتحول التأثير إلى إيجابي. أو إذا أظهرت النتائج المالية القادمة أداءً قويًا يقلل من مخاوف المستثمرين.\"\n  }\n}",
+    "thinking": ""
+  },
+  "arabic_qa": {
+    "enabled": true,
+    "model": "claude-sonnet-4-6",
+    "explanation_pre": {
+      "headline": "فشل مزاد بيع مصنع جهينة في السادس من أكتوبر دون تلقي عروض مناسبة",
+      "news_story": "شركة جهينة لم تنجح في بيع مصنعها المتوقف في مدينة السادس من أكتوبر عبر المزاد العلني، لعدم تلقيها عروضًا مناسبة. هذا يعني أن الشركة لم تتمكن من تحويل أصل متعطل إلى نقود، مما قد يضغط على خططها المالية مستقبلًا.",
+      "technical_view": "مؤشر MACD (تقاطع المتوسطات المتحركة) في حالة إيجابية (hist=+0.1177)، مما يحد من التوسع الهبوطي. السعر تحت المتوسط المتحرك لـ50 يومًا (MA-50) بنسبة -4.82% وتحت متوسط 200 يوم بنسبة -12.09%، مما يؤكد الترند الهابط. مؤشر ATR (متوسط الحركة اليومية المعتادة) عند 1.90% يشير إلى أن التقلبات طبيعية بالنسبة لهذا السهم، وعادة التحرك اليومي المتوقع 1.90 جنيه. مؤشر RSI عند 50.48 في المنطقة المحايدة يشير إلى أن السهم ليس في حالة تشبع شراء أو بيع.",
+      "sentiment_note": "تحليل المشاعر أعطى تصنيفًا محايدًا مع درجة +0.0292، وهذا يتفق مع توقعاتنا بأن التأثير سيكون محدودًا في المدى القصير ومتوسطًا في المدى البعيد.",
+      "outlook_by_horizon": {
+        "short": "اليوم الأول: نتوقع هبوطًا صغيرًا أقل من 1.33% مع بدء استيعاب الخبر السلبي.",
+        "medium": "اليومان الأولان: الضغوط مستمرة مع هبوط ضمن النطاق الصغير (أقل من 1.88%) حيث MACD الإيجابي يحد من التوسع.",
+        "large": "العشرون يومًا: التأثير يتصاعد إلى حجم متوسط (حتى 16.99%) مع استمرار عدم اليقين حول مستقبل أصول الشركة المتعطلة."
+      },
+      "what_could_change_our_view": "إذا نجحت الشركة في بيع المصنع بسعر مناسب لاحقًا، فقد يتحول التأثير إلى إيجابي. أو إذا أظهرت النتائج المالية القادمة أداءً قويًا يقلل من مخاوف المستثمرين."
+    },
+    "explanation_post": {
+      "headline": "فشل مزاد بيع مصنع جهينة في السادس من أكتوبر دون تلقي عروض مناسبة",
+      "news_story": "شركة جهينة لم تنجح في بيع مصنعها المتوقف في مدينة السادس من أكتوبر عبر المزاد العلني، لعدم تلقيها عروضًا مناسبة. هذا يعني أن الشركة لم تتمكن من تحويل أصل متعطل إلى نقود، مما قد يضغط على خططها المالية مستقبلًا.",
+      "technical_view": "مؤشر MACD (تقاطع المتوسطات المتحركة) في حالة إيجابية (hist=+0.1177)، مما يحد من التوسع الهبوطي. السعر تحت المتوسط المتحرك لـ50 يومًا (MA-50) بنسبة -4.82% وتحت متوسط 200 يوم بنسبة -12.09%، مما يؤكد الترند الهابط. مؤشر ATR (متوسط الحركة اليومية المعتادة) عند 1.90% يشير إلى أن التقلبات طبيعية بالنسبة لهذا السهم، وعادة التحرك اليومي المتوقع 1.90 جنيه. مؤشر RSI عند 50.48 في المنطقة المحايدة يشير إلى أن السهم ليس في حالة تشبع شراء أو بيع.",
+      "sentiment_note": "تحليل المشاعر أعطى تصنيفًا محايدًا مع درجة +0.0292، وهذا يتفق مع توقعاتنا بأن التأثير سيكون محدودًا في المدى القصير ومتوسطًا في المدى البعيد.",
+      "outlook_by_horizon": {
+        "short": "اليوم الأول: نتوقع هبوطًا صغيرًا أقل من 1.33% مع بدء استيعاب الخبر السلبي.",
+        "medium": "اليومان الأولان: الضغوط مستمرة مع هبوط ضمن النطاق الصغير (أقل من 1.88%) حيث MACD الإيجابي يحد من التوسع.",
+        "large": "العشرون يومًا: التأثير يتصاعد إلى حجم متوسط (حتى 16.99%) مع استمرار عدم اليقين حول مستقبل أصول الشركة المتعطلة."
+      },
+      "what_could_change_our_view": "إذا نجحت الشركة في بيع المصنع بسعر مناسب لاحقًا، فقد يتحول التأثير إلى إيجابي. أو إذا أظهرت النتائج المالية القادمة أداءً قويًا يقلل من مخاوف المستثمرين."
+    }
+  },
+  "final": {
+    "ticker": "JUFO",
+    "news_type": "operational",
+    "already_priced_in": false,
+    "quantified_ratio": "لا ينطبق",
+    "ta_signals_cited": [
+      "macd_bullish",
+      "strong_downtrend",
+      "normal_volatility",
+      "bollinger_middle"
+    ],
+    "dividend_info": null,
+    "per_horizon": {
+      "short": {
+        "direction": "down",
+        "magnitude": "small",
+        "confidence": 0.55,
+        "reasoning": "السعر بعيد عن القاع بنسبة +8.65%، مما يوفر مجالًا للهبوط، لكن التقلبات الطبيعية (ATR=1.90%) تحد من التأثير اليومي. فشل بيع المصنع يشير إلى تأثير سلبي محدود في اليوم الأول."
+      },
+      "medium": {
+        "direction": "down",
+        "magnitude": "small",
+        "confidence": 0.5,
+        "reasoning": "الترند الهابط القوي تحت MA-50 وMA-200 يعزز الضغوط البيعية، لكن MACD في حالة إيجابية يحد من التوسع الهبوطي. خلال يومين تداول، التأثير يبقى ضمن النطاق الصغير (أقل من 1.88%)."
+      },
+      "large": {
+        "direction": "down",
+        "magnitude": "medium",
+        "confidence": 0.45,
+        "reasoning": "البعد عن القاع (60d_lo +8.65%) يتيح مزيدًا من الهبوط، والخبر التشغيلي يعكس عدم قدرة الشركة على التخلص من الأصول المتعثرة. على مدى 20 يومًا، التأثير المتوسط (حتى 16.99%) يعكس استمرار الضغوط السلبية."
+      }
+    },
+    "overall_reasoning": "خبر التشغيل السلبي (فشل مزاد بيع مصنع 6 أكتوبر) يشير إلى عدم قدرة الشركة على تحويل الأصول المتعطلة إلى سيولة. الترند الهابط المستمر (السعر تحت MA-50 وMA-200) يعزز التوقع الهبوطي، لكن MACD الإيجابي والتقلبات الطبيعية تحد من حجم التأثير. حجم التأثير المقترح: صغير في الأفق القصير والمتوسط، ومتوسط في الأفق الطويل وفقًا للنطاقات المحددة للشركة.",
+    "sentiment_ensemble": {
+      "weights": {
+        "claude": 0.5,
+        "groq_qwen": 0.3,
+        "camelbert": 0.2
+      },
+      "models": {
+        "claude": {
+          "model": "claude-sonnet-4-6",
+          "label": "neutral",
+          "score": 0.05,
+          "numeric": 0,
+          "class_probs": {
+            "positive": 0.3,
+            "neutral": 0.45,
+            "negative": 0.25
+          }
+        },
+        "groq_qwen": {
+          "model": "qwen/qwen3-32b",
+          "label": "neutral",
+          "score": 0.0,
+          "numeric": 0,
+          "class_probs": {
+            "positive": 0.3,
+            "neutral": 0.4,
+            "negative": 0.3
+          }
+        },
+        "camelbert": {
+          "model": "CAMeL-Lab/bert-base-arabic-camelbert-mix-sentiment",
+          "label": "neutral",
+          "score": 0.0209,
+          "numeric": 0,
+          "class_probs": {
+            "neutral": 0.9749,
+            "positive": 0.023,
+            "negative": 0.0021
+          }
+        }
+      },
+      "weighted": {
+        "model": "ensemble(claude+groq_qwen+camelbert)",
+        "label": "neutral",
+        "score": 0.0292,
+        "numeric": 0,
+        "class_probs": {
+          "positive": 0.2446,
+          "neutral": 0.54,
+          "negative": 0.2154
+        }
+      }
+    }
+  }
+}

@@ -19,7 +19,7 @@ Flow per article:
 MAX_NEWS = 15
 # Number of articles to process. Set to None for all.
 
-OUTPUT_DIR = "outputs/predictions_v3"
+OUTPUT_DIR = "outputs/predictions_v5"
 
 # --- Models  (one knob per stage) ---------------------------------------------
 GROQ_MODEL          = "qwen/qwen3-32b"      # ImpactAgent  (Groq)
@@ -29,10 +29,26 @@ ARABIC_QA_MODEL     = "claude-sonnet-4-6"   # Arabic-QA    (Claude via proxy)
 # --- Toggles ------------------------------------------------------------------
 ARABIC_QA_ENABLED   = True   # 4th-stage Arabic editor (Claude). +5-15s, better Arabic.
 
+# --- Sentiment ensemble weights (must sum to 1.0) -----------------------------
+SENTIMENT_WEIGHTS = {
+    "claude":    0.5,
+    "groq_qwen": 0.3,
+    "camelbert": 0.2,
+}
+
 # --- Token budgets ------------------------------------------------------------
 GROQ_MAX_TOKENS     = 1500
 CLAUDE_MAX_TOKENS   = 6000   # lowered from 8000 -- explanation_for_user is leaner now
 QA_MAX_TOKENS       = 1500   # QA output is small (just the cleaned explanation dict)
+# Sentiment LLMs need very different budgets:
+#   Claude  -> 200 is plenty (no hidden reasoning, JSON output only).
+#   Qwen3   -> reasoning model. Even with reasoning_format=hidden the chain-of-
+#              thought is STILL counted against max_tokens by Groq -- it is just
+#              stripped from the response. 300 was being consumed entirely by
+#              reasoning, leaving zero room for the JSON payload (=> empty/zero
+#              probs => silent fallback to neutral). Give it real headroom.
+SENTIMENT_MAX_TOKENS_CLAUDE = 200
+SENTIMENT_MAX_TOKENS_QWEN   = 1500
 
 # --- Retry / rate-limit -------------------------------------------------------
 MAX_RETRIES         = 5
@@ -478,6 +494,149 @@ def _get_sentiment_model() -> ArabicSentimentAnalyzer:
     return _sentiment_model
 
 
+# =============================================================================
+#  Sentiment ensemble  (Claude + Groq Qwen + CAMeLBERT, parallel -> weighted)
+# =============================================================================
+
+_NUMERIC_BY_LABEL = {"positive": 1, "neutral": 0, "negative": -1}
+
+
+def _llm_sentiment_prompt(text: str) -> str:
+    return (
+        "You are an Arabic financial sentiment classifier for Egyptian Stock "
+        "Exchange (EGX) news. Read the Arabic news text below and estimate the "
+        "probability that an investor would interpret it as positive, neutral, "
+        "or negative for the company mentioned.\n\n"
+        "Rules:\n"
+        "- Probabilities are floats in [0,1] and must sum to 1.0.\n"
+        "- Focus on financial impact, not pure linguistic tone.\n"
+        "- Output ONLY the JSON object below. No markdown, no commentary.\n\n"
+        f"TEXT:\n{text}\n\n"
+        "{\n"
+        '  "positive": <float>,\n'
+        '  "neutral":  <float>,\n'
+        '  "negative": <float>\n'
+        "}"
+    )
+
+
+def _empty_sentiment(model: str) -> dict:
+    return {
+        "model": model,
+        "label": "neutral",
+        "score": 0.0,
+        "numeric": 0,
+        "class_probs": {"positive": 0.0, "neutral": 1.0, "negative": 0.0},
+    }
+
+
+def _sentiment_from_probs(probs: dict, model: str, raw: str = "") -> dict:
+    p = {
+        "positive": float(probs.get("positive", 0.0) or 0.0),
+        "neutral":  float(probs.get("neutral",  0.0) or 0.0),
+        "negative": float(probs.get("negative", 0.0) or 0.0),
+    }
+    total = p["positive"] + p["neutral"] + p["negative"]
+    if total <= 0:
+        # Surface the actual model output so degenerate runs are diagnosable.
+        snippet = (raw or "").strip().replace("\n", " ")
+        if len(snippet) > 300:
+            snippet = snippet[:300] + "...(truncated)"
+        print(f"    [Sentiment/{model}] WARNING: probs sum to 0; parsed={probs!r}  "
+              f"raw={snippet!r}  -> falling back to neutral.")
+        return _empty_sentiment(model)
+    p = {k: round(v / total, 4) for k, v in p.items()}
+    score = round(p["positive"] - p["negative"], 4)
+    label = max(p, key=p.get)
+    return {
+        "model":       model,
+        "label":       label,
+        "score":       score,
+        "numeric":     _NUMERIC_BY_LABEL[label],
+        "class_probs": p,
+    }
+
+
+def _sentiment_via_claude(text: str) -> dict:
+    if not text or not text.strip():
+        return _empty_sentiment(CLAUDE_MODEL)
+    raw = _call_claude_with_model(
+        _llm_sentiment_prompt(text),
+        model=CLAUDE_MODEL,
+        max_tokens=SENTIMENT_MAX_TOKENS_CLAUDE,
+    )
+    return _sentiment_from_probs(_parse_json(raw), model=CLAUDE_MODEL, raw=raw)
+
+
+def _sentiment_via_groq_qwen(text: str) -> dict:
+    if not text or not text.strip():
+        return _empty_sentiment(GROQ_MODEL)
+    raw = _call_groq_with_model(
+        _llm_sentiment_prompt(text),
+        model=GROQ_MODEL,
+        max_tokens=SENTIMENT_MAX_TOKENS_QWEN,
+    )
+    return _sentiment_from_probs(_parse_json(raw), model=GROQ_MODEL, raw=raw)
+
+
+def _run_sentiment_ensemble(text: str) -> dict:
+    """
+    Run Claude + Groq Qwen + CAMeLBERT sentiment analyses in parallel, then
+    combine via a weighted average of class probabilities (see SENTIMENT_WEIGHTS).
+
+    Best-effort per source: if a model fails we substitute a neutral result so
+    the ensemble still produces a usable weighted score.
+    """
+    from concurrent.futures import ThreadPoolExecutor
+
+    camel_model = _get_sentiment_model()  # cached singleton -- safe pre-init
+
+    def _safe(fn, fallback_model):
+        try:
+            return fn()
+        except Exception as exc:
+            print(f"    [Sentiment/{fallback_model}] failed "
+                  f"({type(exc).__name__}: {exc}); using neutral.")
+            return _empty_sentiment(fallback_model)
+
+    with ThreadPoolExecutor(max_workers=3) as ex:
+        f_claude = ex.submit(_safe, lambda: _sentiment_via_claude(text),    CLAUDE_MODEL)
+        f_qwen   = ex.submit(_safe, lambda: _sentiment_via_groq_qwen(text), GROQ_MODEL)
+        f_camel  = ex.submit(_safe, lambda: camel_model.analyze(text),       camel_model.MODEL_ID)
+        claude_res = f_claude.result()
+        qwen_res   = f_qwen.result()
+        camel_res  = f_camel.result()
+
+    w = SENTIMENT_WEIGHTS
+    weighted_probs = {
+        k: round(
+            w["claude"]    * claude_res["class_probs"].get(k, 0.0)
+            + w["groq_qwen"] * qwen_res["class_probs"].get(k, 0.0)
+            + w["camelbert"] * camel_res["class_probs"].get(k, 0.0),
+            4,
+        )
+        for k in ("positive", "neutral", "negative")
+    }
+    weighted_label = max(weighted_probs, key=weighted_probs.get)
+    weighted_score = round(weighted_probs["positive"] - weighted_probs["negative"], 4)
+
+    return {
+        "weights": w,
+        "models": {
+            "claude":    claude_res,
+            "groq_qwen": qwen_res,
+            "camelbert": camel_res,
+        },
+        "weighted": {
+            "model":       "ensemble(claude+groq_qwen+camelbert)",
+            "label":       weighted_label,
+            "score":       weighted_score,
+            "numeric":     _NUMERIC_BY_LABEL[weighted_label],
+            "class_probs": weighted_probs,
+        },
+    }
+
+
 def _run_arabic_qa(explanation: dict) -> dict:
     """
     4th-stage Arabic editor pass over the critic's `explanation_for_user`.
@@ -553,9 +712,10 @@ def analyze_article(article: dict, *, save_trace: bool = True) -> dict:
     ctx["event_date"]  = article_date
     ctx["news_timing"] = _build_news_timing(article)
 
-    sentiment_model = _get_sentiment_model()
+    _get_sentiment_model()   # pre-load CAMeLBERT (cached) before parallel run
     text = (article.get("body") or article.get("title") or "").strip()
-    sentiment = sentiment_model.analyze(text)
+    sentiment_ensemble = _run_sentiment_ensemble(text)
+    sentiment = sentiment_ensemble["weighted"]
 
     p_impact = impact_agent_prompt(ctx, sentiment["score"], sentiment["label"], article)
     impact_parsed, impact_raw = _call_with_retry(_call_groq, p_impact, "ImpactAgent")
@@ -577,13 +737,14 @@ def analyze_article(article: dict, *, save_trace: bool = True) -> dict:
         critic_parsed["explanation_for_user"] = explanation_clean
 
     trace = {
-        "ticker":       ticker,
-        "article_date": article_date,
-        "context_date": context_date,
-        "article":      article,
-        "context":      ctx,
-        "sentiment":    sentiment,
-        "impact_agent": {"output": impact_parsed, "raw": impact_raw},
+        "ticker":             ticker,
+        "article_date":       article_date,
+        "context_date":       context_date,
+        "article":            article,
+        "context":            ctx,
+        "sentiment":          sentiment,
+        "sentiment_ensemble": sentiment_ensemble,
+        "impact_agent":       {"output": impact_parsed, "raw": impact_raw},
         "critic_agent": {
             "output":   critic_parsed,
             "raw":      critic_raw,
@@ -597,7 +758,10 @@ def analyze_article(article: dict, *, save_trace: bool = True) -> dict:
         },
     }
 
-    trace["final"] = critic_parsed.get("primary_company", {})
+    trace["final"] = {
+        **(critic_parsed.get("primary_company", {}) or {}),
+        "sentiment_ensemble": sentiment_ensemble,
+    }
 
     if save_trace:
         trace["saved_to"] = _save_trace(trace)
@@ -634,7 +798,8 @@ def run(max_news: int = MAX_NEWS) -> list:
     print(f"\nLoaded {len(articles)} article(s) from {NEWS_FILE.name}.\n")
 
     print("Loading Arabic sentiment model...")
-    sentiment_model = _get_sentiment_model()
+    _get_sentiment_model()
+    print(f"  Sentiment ensemble weights: {SENTIMENT_WEIGHTS}")
 
     results: list[dict] = []
 
@@ -676,11 +841,17 @@ def run(max_news: int = MAX_NEWS) -> list:
               f"in_hours={ctx['news_timing']['in_trading_hours']}  "
               f"-> {ctx['news_timing']['start_day_label']}")
 
-        # ── Arabic sentiment ──────────────────────────────────────────────────
-        text      = (article.get("body") or article.get("title") or "").strip()
-        sentiment = sentiment_model.analyze(text)
-        print(f"  Sentiment : {sentiment['label']}  score={sentiment['score']:+.4f}  "
-              f"probs={sentiment['class_probs']}")
+        # ── Arabic sentiment (parallel ensemble) ──────────────────────────────
+        text = (article.get("body") or article.get("title") or "").strip()
+        print("  Calling sentiment ensemble (Claude + Groq Qwen + CAMeLBERT) in parallel...")
+        sentiment_ensemble = _run_sentiment_ensemble(text)
+        sentiment = sentiment_ensemble["weighted"]
+        print(f"  Sentiment (weighted) : {sentiment['label']}  "
+              f"score={sentiment['score']:+.4f}  probs={sentiment['class_probs']}")
+        for src, w in SENTIMENT_WEIGHTS.items():
+            m = sentiment_ensemble["models"][src]
+            print(f"      {src:<10} (w={w}) -> "
+                  f"{m['label']:<9} score={m['score']:+.4f}  probs={m['class_probs']}")
 
         # ── Impact Agent (Groq) ───────────────────────────────────────────────
         print("  Calling Impact Agent (Groq)...")
@@ -725,13 +896,14 @@ def run(max_news: int = MAX_NEWS) -> list:
 
         # ── save full trace ───────────────────────────────────────────────────
         trace = {
-            "ticker":       ticker,
-            "article_date": article_date,
-            "context_date": context_date,
-            "processed_at": datetime.now().isoformat(),
-            "article":      article,
-            "sentiment":    sentiment,
-            "context":      ctx,
+            "ticker":             ticker,
+            "article_date":       article_date,
+            "context_date":       context_date,
+            "processed_at":       datetime.now().isoformat(),
+            "article":            article,
+            "sentiment":          sentiment,
+            "sentiment_ensemble": sentiment_ensemble,
+            "context":            ctx,
             "prompts": {
                 "impact": p_impact,
                 "critic": p_critic,
@@ -748,7 +920,7 @@ def run(max_news: int = MAX_NEWS) -> list:
                 "explanation_pre":  explanation_raw,
                 "explanation_post": explanation_clean,
             },
-            "final": primary,
+            "final": {**primary, "sentiment_ensemble": sentiment_ensemble},
         }
         path = _save_trace(trace)
         print(f"  Saved -> {path}")

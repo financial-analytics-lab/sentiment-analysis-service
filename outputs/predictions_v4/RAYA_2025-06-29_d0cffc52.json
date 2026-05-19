@@ -1,0 +1,396 @@
+{
+  "ticker": "RAYA",
+  "article_date": "2025-06-29",
+  "context_date": "2025-06-25",
+  "processed_at": "2026-05-19T17:06:18.028086",
+  "article": {
+    "symbol": "RAYA",
+    "company": "Raya Holding For Financial Investments",
+    "isin": "EGS690C1C010",
+    "sector": "Technology & Fintech",
+    "id": "4464650",
+    "date": "2025-06-29",
+    "time": "09:21:40",
+    "datetime": "2025-06-29 09:21:40",
+    "title": "تابعة لـ\"راية القابضة\" تبرم شراكة حصرية مع Nothing البريطانية",
+    "body": "القاهرة - مباشر: قالت شركة راية القابضة للاستثمارات المالية، إن شركة \"راية للتوزيع\"، قامت بتوقيع شراكة استراتيجية حصرية مع شركة\nNothing\nالبريطانية المتخصصة في تكنولوجيا الاستهلاكية\n.\nوأوضحت الشركة، في بيان اليوم الأحد، أنه بموجب الاتفاقية سوف تصبح راية للتوزيع الوكيل الرسمي الحصري ومقدم خدمات ما بعيد البيع لعلامتها التجارية في مصر\n.\nوأضافت أنه من خلال التعاون تتولى راية للتوزيع مهمة توزيع منتجات\nNothing\nو\nCMF by\nوالتي تشمل الهواتف الذكية والسماعات اللاسكية والإكسسوارات الذكية\n.\nيشار أن راية للتوزيع شركة تابعة لراية للتجارة والتوزيع التابعة لراية القابضة بنسبة كاملة\n.\nوحققت راية القابضة للاستثمارات المالية، صافي ربح بلغ 387.89 مليون جنيه خلال الفترة من يناير حتى نهاية مارس 2025، مقابل أرباح بقيمة 377.88 مليون جنيه خلال الفترة نفسها من العام الماضي، مع الأخذ في الاعتبار حقوق الأقلية\n.\nوارتفعت إيرادات الشركة خلال الربع الأول من العام الجاري إلى 12.88 مليار جنيه، مقابل 10.41 مليار جنيه خلال الفترة نفسها من العام الماضي\n.\nوعلى صعيد القوائم غير المجمعة، تحولت الشركة المستقلة خلال الربع الأول من العام الجاري إلى الربحية لتحقق 1.05 مليار جنيه، مقابل خسائر بلغت 173.38 مليون جنيه خلال الربع نفسه من 2024\n.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nأبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية\n..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر\n..\nاضغط هنا\nترشيحات\nوزير المالية المصري: الإيرادات الضريبية ترتفع 500 مليار جنيه في 11 شهراً",
+    "teaser": "القاهرة - مباشر: قالت شركة راية القابضة للاستثمارات المالية، إن شركة \"راية للتوزيع\"، قامت بتوقيع شراكة استراتيجية حصرية مع شركة Nothing البريطانية المتخصصة في تكنولوجيا الاستهلاكية. وأوضحت الشركة، في بيان اليوم الأحد، أنه بموجب الاتفاقية سوف تصبح …",
+    "section": "أخبار الشركة",
+    "source": "مباشر",
+    "categories": "stock-bonds",
+    "country": "مصر",
+    "reads": 880,
+    "url": "https://www.mubasher.info/news/4464650",
+    "image_url": "https://static.mubasher.info/File.Story_Image/3d37ba2974d4897077216c56334916ed/640.jpg",
+    "date_raw": ""
+  },
+  "sentiment": {
+    "model": "CAMeL-Lab/bert-base-arabic-camelbert-mix-sentiment",
+    "label": "neutral",
+    "score": 0.2445,
+    "numeric": 0,
+    "class_probs": {
+      "neutral": 0.7517,
+      "positive": 0.2464,
+      "negative": 0.0019
+    }
+  },
+  "sentiment_ensemble": {
+    "label": "positive",
+    "score": 0.3217,
+    "weights": {
+      "camelbert": 0.15,
+      "groq": 0.25,
+      "critic": 0.6
+    }
+  },
+  "sentiment_sources": {
+    "camelbert": {
+      "label": "neutral",
+      "score": 0.2445
+    },
+    "groq": {
+      "label": "positive",
+      "score": 0.3
+    },
+    "critic": {
+      "label": "positive",
+      "score": 0.35
+    }
+  },
+  "context": {
+    "ticker": "RAYA",
+    "company": "Raya Holding - RAYA",
+    "sector": "Technology & Fintech",
+    "business_description": "Raya Holding for Financial Investments — diversified group: Raya Contact Center (BPO), consumer electronics distribution, and manufacturing subsidiaries across Africa and the Middle East.",
+    "event_date": "2025-06-29",
+    "last_price_date": "2025-06-25",
+    "price_state": {
+      "last_close": 2.85,
+      "return_1d": 1.79,
+      "return_5d": 4.78,
+      "return_20d": 5.95,
+      "return_60d": 19.25,
+      "pct_vs_ma50": 3.64,
+      "pct_vs_ma200": 0.71,
+      "vol_20d_annualized_pct": 56.31,
+      "vol_regime": "normal",
+      "rsi_14": 55.01
+    },
+    "market_state": {
+      "sector_return_1d": 2.03,
+      "sector_return_5d": 12.77,
+      "relative_strength_vs_sector_1d": -0.24
+    },
+    "correlation_state": {
+      "corr_with_sector_90d": 0.67,
+      "top_3_correlated_peers": [
+        {
+          "ticker": "ORWE",
+          "correlation": 0.47,
+          "sector": "Textiles"
+        },
+        {
+          "ticker": "HRHO",
+          "correlation": 0.46,
+          "sector": "Non-Bank Financials"
+        },
+        {
+          "ticker": "CCAP",
+          "correlation": 0.45,
+          "sector": "Non-Bank Financials"
+        }
+      ]
+    },
+    "recent_abnormal_returns": [
+      {
+        "date": "2025-06-19",
+        "stock_return_pct": -2.57,
+        "sector_return_pct": -0.89,
+        "abnormal_return_pct": -1.68
+      },
+      {
+        "date": "2025-06-22",
+        "stock_return_pct": 4.53,
+        "sector_return_pct": 3.77,
+        "abnormal_return_pct": 0.76
+      },
+      {
+        "date": "2025-06-23",
+        "stock_return_pct": 0.72,
+        "sector_return_pct": 1.8,
+        "abnormal_return_pct": -1.08
+      },
+      {
+        "date": "2025-06-24",
+        "stock_return_pct": 0.36,
+        "sector_return_pct": 3.75,
+        "abnormal_return_pct": -3.39
+      },
+      {
+        "date": "2025-06-25",
+        "stock_return_pct": 1.79,
+        "sector_return_pct": 1.97,
+        "abnormal_return_pct": -0.18
+      }
+    ],
+    "technical_signals": {
+      "rsi_14": 55.01,
+      "rsi_zone": "neutral",
+      "macd": {
+        "line": 0.0119,
+        "signal": 0.0111,
+        "histogram": 0.0008,
+        "state": "bullish_crossover_today"
+      },
+      "bollinger": {
+        "pct_b": 0.689,
+        "bandwidth_pct": 14.23,
+        "zone": "middle"
+      },
+      "distance_to_extremes": {
+        "20d_high_distance_pct": -5.94,
+        "20d_low_distance_pct": 8.37,
+        "60d_high_distance_pct": -5.94,
+        "60d_low_distance_pct": 26.11,
+        "252d_high_distance_pct": -25.2,
+        "252d_low_distance_pct": 45.78
+      },
+      "rsi_divergence": "none",
+      "atr_pct_14d": 3.03,
+      "consecutive_streak": 4
+    },
+    "dynamic_bands": {
+      "horizon_trading_days": {
+        "short": 1,
+        "medium": 2,
+        "large": 20
+      },
+      "neutral_band_pct": {
+        "short": 1.51,
+        "medium": 2.14,
+        "large": 6.78
+      },
+      "magnitude_bands_pct": {
+        "short": {
+          "small": [
+            0.0,
+            2.12
+          ],
+          "medium": [
+            2.12,
+            6.06
+          ],
+          "large": [
+            6.06,
+            null
+          ]
+        },
+        "medium": {
+          "small": [
+            0.0,
+            3.0
+          ],
+          "medium": [
+            3.0,
+            8.57
+          ],
+          "large": [
+            8.57,
+            null
+          ]
+        },
+        "large": {
+          "small": [
+            0.0,
+            9.49
+          ],
+          "medium": [
+            9.49,
+            27.1
+          ],
+          "large": [
+            27.1,
+            null
+          ]
+        }
+      },
+      "atr_pct_anchor": 3.03
+    },
+    "news_timing": {
+      "in_trading_hours": false,
+      "arrived_at_str": "2025-06-29 09:21:40",
+      "start_day_label": "next trading day after event_date (news arrived outside EGX hours)"
+    }
+  },
+  "prompts": {
+    "impact": "You are a quantitative analyst predicting Egyptian Stock Exchange (EGX) stock reactions to Arabic news. Your prediction must be grounded in the technical signals provided and calibrated to this specific ticker's volatility.\n\n=== COMPANY ===\nTicker      : RAYA\nName        : Raya Holding - RAYA\nSector      : Technology & Fintech\nDescription : Raya Holding for Financial Investments — diversified group: Raya Contact Center (BPO), consumer electronics distribution, and manufacturing subsidiaries across Africa and the Middle East.\nPrice data  : as of 2025-06-25  (article date: 2025-06-29)\n\n=== PRICE STATE ===\nLast close  : 2.85 EGP\nReturn 1d   : +1.79%   5d : +4.78%   20d : +5.95%   60d : +19.25%\nvs MA-50    : +3.64%  vs MA-200 : +0.71%\nTrend       : uptrend (above MA-50 and MA-200)\nVol 20d ann : 56.31%  [normal regime]  Normal -> impact PROPORTIONAL to catalyst.\n\n=== SECTOR ===\nSector 1d   : +2.03%  5d : +12.77%\nStock vs sector 1d : -0.24%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 0.67\nTop peers:\n  - ORWE | Textiles | 90d-corr: 0.47\n  - HRHO | Non-Bank Financials | 90d-corr: 0.46\n  - CCAP | Non-Bank Financials | 90d-corr: 0.45\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2025-06-19: stock -2.57%  sector -0.89%  AR -1.68%\n  2025-06-22: stock +4.53%  sector +3.77%  AR +0.76%\n  2025-06-23: stock +0.72%  sector +1.80%  AR -1.08%\n  2025-06-24: stock +0.36%  sector +3.75%  AR -3.39%\n  2025-06-25: stock +1.79%  sector +1.97%  AR -0.18%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 55.01  [neutral]\nMACD      : state=bullish_crossover_today  hist=+0.0008\nBollinger : zone=middle  %B=0.689\nDistance  : 20d_hi -5.94%  20d_lo +8.37%  60d_hi -5.94%  60d_lo +26.11%  52w_hi -25.20%  52w_lo +45.78%\nDivergence : none\nATR 14d   : 3.03%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : +4 (up streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=3.03%) ===\n  short   (N= 1d)  neutral=+-1.51%  small <2.12%  medium 2.12%-6.06%  large >=6.06%\n  medium  (N= 2d)  neutral=+-2.14%  small <3.00%  medium 3.00%-8.57%  large >=8.57%\n  large   (N=20d)  neutral=+-6.78%  small <9.49%  medium 9.49%-27.10%  large >=27.10%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-06-29 09:21:40\nIn trading hours: False  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : next trading day after event_date (news arrived outside EGX hours)\nHorizons (days) : short=1d ; medium=2d ; large=20d\n\n=== ARABIC SENTIMENT (one input among many) ===\nLabel : neutral\nScore : +0.2445   (-1 strongly negative -> +1 strongly positive)\nNOTE: CAMeLBERT classifies tone, not financial implication.\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-06-29 09:21:40\nHeadline  : تابعة لـ\"راية القابضة\" تبرم شراكة حصرية مع Nothing البريطانية\n\nالقاهرة - مباشر: قالت شركة راية القابضة للاستثمارات المالية، إن شركة \"راية للتوزيع\"، قامت بتوقيع شراكة استراتيجية حصرية مع شركة\nNothing\nالبريطانية المتخصصة في تكنولوجيا الاستهلاكية\n.\nوأوضحت الشركة، في بيان اليوم الأحد، أنه بموجب الاتفاقية سوف تصبح راية للتوزيع الوكيل الرسمي الحصري ومقدم خدمات ما بعيد البيع لعلامتها التجارية في مصر\n.\nوأضافت أنه من خلال التعاون تتولى راية للتوزيع مهمة توزيع منتجات\nNothing\nو\nCMF by\nوالتي تشمل الهواتف الذكية والسماعات اللاسكية والإكسسوارات الذكية\n.\nيشار أن راية للتوزيع شركة تابعة لراية للتجارة والتوزيع التابعة لراية القابضة بنسبة كاملة\n.\nوحققت راية القابضة للاستثمارات المالية، صافي ربح بلغ 387.89 مليون جنيه خلال الفترة من يناير حتى نهاية مارس 2025، مقابل أرباح بقيمة 377.88 مليون جنيه خلال الفترة نفسها من العام الماضي، مع الأخذ في الاعتبار حقوق الأقلية\n.\nوارتفعت إيرادات الشركة خلال الربع الأول من العام الجاري إلى 12.88 مليار جنيه، مقابل 10.41 مليار جنيه خلال الفترة نفسها من العام الماضي\n.\nوعلى صعيد القوائم غير المجمعة، تحولت الشركة المستقلة خلال الربع الأول من العام الجاري إلى الربحية لتحقق 1.05 مليار جنيه، مقابل خسائر بلغت 173.38 مليون جنيه خلال الربع نفسه من 2024\n.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nأبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية\n..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر\n..\nاضغط هنا\nترشيحات\nوزير المالية المصري: الإيرادات الضريبية ترتفع 500 مليار جنيه في 11 شهراً\n\n=== HORIZONS (predict ALL OF THEM) ===\n  short   -> t+0 only (just the start day's return)    AR label: اليوم الأول (t+0): رد الفعل الفوري\n  medium  -> t+0 .. t+1  (2 trading days cumulative)   AR label: اليومان الأولان (t+0 إلى t+1): الاستجابة المبكرة\n  large   -> t+0 .. t+19  (20 trading days cumulative)  AR label: العشرون يوم تداول (t+0 إلى t+19): الأثر الممتد\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- 'up'\nmeans OUTPERFORMING the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\nR8. NO PERCENTAGES IN REASONING TEXT. The per-horizon `reasoning` fields\n    and `overall_reasoning` describe direction with WORDS ONLY\n    (صعود / محايد / هبوط). Do NOT embed numeric percentages like '+2.3%' or\n    'بنسبة 5%' in those text fields. Magnitude buckets (small/medium/large)\n    remain because they are categorical, not numeric. Quantified ratios\n    (e.g. dilution, dividend yield) stay in `quantified_ratio` ONLY -- never\n    inside the free-text reasoning.\nR9. NO MODEL NAMES IN USER-FACING TEXT. NEVER mention any sentiment-model\n    name (CAMeLBERT, AraBERT, BERT, \"the model\", \"كاميل بيرت\", \"النموذج\")\n    in any Arabic free-text output. If you reference article tone, call it\n    \"النبرة العامة للخبر\" or \"نبرة الخبر\".\nR10. INDEPENDENT SENTIMENT. The \"ARABIC SENTIMENT\" block in the input is ONE\n    signal among many. Produce your OWN `sentiment_assessment` (label +\n    score in [-1,+1]) reflecting YOUR reading of the article tone -- do not\n    blindly copy the model's score.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== OUTPUT INSTRUCTIONS ===\n1. Classify news_type FIRST.\n2. Walk through T1-T5. Pick TA signals that ACTUALLY apply from the closed vocab.\n3. Anchor magnitudes to the PER-COMPANY bands above (NOT a global rule).\n4. Quantify any dilution/yield ratio with both inputs.\n5. If news_type=dividend, FILL dividend_info; otherwise set it to null.\n6. Produce your OWN `sentiment_assessment` (label + score in [-1,+1]) based on\n   YOUR reading of the article -- not a copy of the model score above.\n7. REASONING TEXT: direction in words only (صعود / محايد / هبوط). NO percentages\n   inside `reasoning` or `overall_reasoning` fields (R8). NO sentiment-model\n   names in any Arabic text (R9).\n8. LANGUAGE: free-text Arabic. JSON keys + enum values in English.\n9. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"news_type\":         \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n  \"already_priced_in\": <true | false>,\n  \"sentiment_assessment\": {\n    \"label\": \"positive\" | \"neutral\" | \"negative\",\n    \"score\": <float in [-1.0, +1.0]>\n  },\n  \"quantified_ratio\":  \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n  \"key_drivers\":       [\"<driver 1 Arabic>\", \"<driver 2 Arabic>\"],\n  \"ta_signals_cited\":  [\"<signal from closed vocab>\", \"...\"],\n  \"dividend_info\": null | {\n    \"yield_pct\":      <float>,\n    \"ex_div_date\":    \"<YYYY-MM-DD or null if unknown>\",\n    \"amount_egp\":     <float or null>\n  },\n  \"per_horizon\": {\n    \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal. NO percentages.>\"},\n    \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal. NO percentages.>\"},\n    \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal. NO percentages.>\"}\n  },\n  \"overall_reasoning\": \"<3-4 Arabic sentences. Walk T1-T5 briefly. Reference the per-company magnitude bands by name (NOT by %). State news_type. NO numeric percentages. NO model names.>\"\n}",
+    "critic": "You are a senior quantitative risk analyst at an Egyptian investment bank. A junior LLM analyst has assessed a news event about RAYA (Raya Holding - RAYA). Your job:\n  (a) audit the junior's TA citations against the live data,\n  (b) check magnitudes against the PER-COMPANY bands (not global rules),\n  (c) produce the final authoritative prediction across short / medium / large,\n  (d) write a plain-Arabic explanation for a non-expert retail investor.\n\n=== COMPANY ===\nTicker      : RAYA\nName        : Raya Holding - RAYA\nSector      : Technology & Fintech\nDescription : Raya Holding for Financial Investments — diversified group: Raya Contact Center (BPO), consumer electronics distribution, and manufacturing subsidiaries across Africa and the Middle East.\nPrice data  : as of 2025-06-25  (article date: 2025-06-29)\n\n=== PRICE STATE ===\nLast close  : 2.85 EGP\nReturn 1d   : +1.79%   5d : +4.78%   20d : +5.95%   60d : +19.25%\nvs MA-50    : +3.64%  vs MA-200 : +0.71%\nTrend       : uptrend (above MA-50 and MA-200)\nVol 20d ann : 56.31%  [normal regime]  Normal -> impact PROPORTIONAL to catalyst.\n\n=== SECTOR ===\nSector 1d   : +2.03%  5d : +12.77%\nStock vs sector 1d : -0.24%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 0.67\nTop peers:\n  - ORWE | Textiles | 90d-corr: 0.47\n  - HRHO | Non-Bank Financials | 90d-corr: 0.46\n  - CCAP | Non-Bank Financials | 90d-corr: 0.45\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2025-06-19: stock -2.57%  sector -0.89%  AR -1.68%\n  2025-06-22: stock +4.53%  sector +3.77%  AR +0.76%\n  2025-06-23: stock +0.72%  sector +1.80%  AR -1.08%\n  2025-06-24: stock +0.36%  sector +3.75%  AR -3.39%\n  2025-06-25: stock +1.79%  sector +1.97%  AR -0.18%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 55.01  [neutral]\nMACD      : state=bullish_crossover_today  hist=+0.0008\nBollinger : zone=middle  %B=0.689\nDistance  : 20d_hi -5.94%  20d_lo +8.37%  60d_hi -5.94%  60d_lo +26.11%  52w_hi -25.20%  52w_lo +45.78%\nDivergence : none\nATR 14d   : 3.03%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : +4 (up streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=3.03%) ===\n  short   (N= 1d)  neutral=+-1.51%  small <2.12%  medium 2.12%-6.06%  large >=6.06%\n  medium  (N= 2d)  neutral=+-2.14%  small <3.00%  medium 3.00%-8.57%  large >=8.57%\n  large   (N=20d)  neutral=+-6.78%  small <9.49%  medium 9.49%-27.10%  large >=27.10%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-06-29 09:21:40\nIn trading hours: False  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : next trading day after event_date (news arrived outside EGX hours)\nHorizons (days) : short=1d ; medium=2d ; large=20d\n\n=== ARABIC SENTIMENT ===\nLabel : neutral\nScore : +0.2445\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-06-29 09:21:40\nHeadline  : تابعة لـ\"راية القابضة\" تبرم شراكة حصرية مع Nothing البريطانية\n\nالقاهرة - مباشر: قالت شركة راية القابضة للاستثمارات المالية، إن شركة \"راية للتوزيع\"، قامت بتوقيع شراكة استراتيجية حصرية مع شركة\nNothing\nالبريطانية المتخصصة في تكنولوجيا الاستهلاكية\n.\nوأوضحت الشركة، في بيان اليوم الأحد، أنه بموجب الاتفاقية سوف تصبح راية للتوزيع الوكيل الرسمي الحصري ومقدم خدمات ما بعيد البيع لعلامتها التجارية في مصر\n.\nوأضافت أنه من خلال التعاون تتولى راية للتوزيع مهمة توزيع منتجات\nNothing\nو\nCMF by\nوالتي تشمل الهواتف الذكية والسماعات اللاسكية والإكسسوارات الذكية\n.\nيشار أن راية للتوزيع شركة تابعة لراية للتجارة والتوزيع التابعة لراية القابضة بنسبة كاملة\n.\nوحققت راية القابضة للاستثمارات المالية، صافي ربح بلغ 387.89 مليون جنيه خلال الفترة من يناير حتى نهاية مارس 2025، مقابل أرباح بقيمة 377.88 مليون جنيه خلال الفترة نفسها من العام الماضي، مع الأخذ في الاعتبار حقوق الأقلية\n.\nوارتفعت إيرادات الشركة خلال الربع الأول من العام الجاري إلى 12.88 مليار جنيه، مقابل 10.41 مليار جنيه خلال الفترة نفسها من العام الماضي\n.\nوعلى صعيد القوائم غير المجمعة، تحولت الشركة المستقلة خلال الربع الأول من العام الجاري إلى الربحية لتحقق 1.05 مليار جنيه، مقابل خسائر بلغت 173.38 مليون جنيه خلال الربع نفسه من 2024\n.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nأبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية\n..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر\n..\nاضغط هنا\nترشيحات\nوزير المالية المصري: الإيرادات الضريبية ترتفع 500 مليار جنيه في 11 شهراً\n\n=== IMPACT AGENT OUTPUT (junior, Groq) ===\n{\n  \"news_type\": \"operational\",\n  \"already_priced_in\": false,\n  \"sentiment_assessment\": {\n    \"label\": \"positive\",\n    \"score\": 0.3\n  },\n  \"quantified_ratio\": \"لا ينطبق\",\n  \"key_drivers\": [\n    \"شراكة استراتيجية حصرية مع شركة Nothing البريطانية\",\n    \"تولي راية للتوزيع مهمة توزيع منتجات Nothing وCMF\"\n  ],\n  \"ta_signals_cited\": [\n    \"macd_bullish_crossover\",\n    \"strong_uptrend\",\n    \"normal_volatility\"\n  ],\n  \"dividend_info\": null,\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.7,\n      \"reasoning\": \"الانعكاس الإيجابي المتوقع من الشراكة الاستراتيجية مع دعم مؤشر MACD على الصعود، مع حجم تقلب طبيعي يسمح برد فعل معتدل.\"\n    },\n    \"medium\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.65,\n      \"reasoning\": \"الاتجاه الصعودي القوي والانحراف الإيجابي المتوقع من الشراكة يعززان الاستجابة على مدى يومين، مع حفاظ التقلب الطبيعي على نطاق الموجات المتوسطة.\"\n    },\n    \"large\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.5,\n      \"reasoning\": \"التأثير الممتد للشراكة قد يستغرق وقتًا للتحقيق، مع وجود مساحة كافية للتحرك داخل نطاق 20 يومًا دون اقتراب من الحدود العليا أو السفلية.\"\n    }\n  },\n  \"overall_reasoning\": \"الشراكة الاستراتيجية تُعد محفزًا إيجابيًا يدعم الاتجاه الصعودي القائم. مؤشر MACD في تحوُّل بيعي يعزز من احتمالات الصعود القصير والوسيط. التقلب الطبيعي (56.31%) يسمح برد فعل متناسب مع نطاق الموجات المحددة حسب ATR. لا توجد إشارات فائقة التشبع أو الانحراف، مما يشير إلى أن الحركة قد تستمر دون مقاومة حادة.\"\n}\n\n=== HORIZONS (predict ALL OF THEM) ===\n  short   -> t+0 only (just the start day's return)    AR label: اليوم الأول (t+0): رد الفعل الفوري\n  medium  -> t+0 .. t+1  (2 trading days cumulative)   AR label: اليومان الأولان (t+0 إلى t+1): الاستجابة المبكرة\n  large   -> t+0 .. t+19  (20 trading days cumulative)  AR label: العشرون يوم تداول (t+0 إلى t+19): الأثر الممتد\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- 'up'\nmeans OUTPERFORMING the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\nR8. NO PERCENTAGES IN REASONING TEXT. The per-horizon `reasoning` fields\n    and `overall_reasoning` describe direction with WORDS ONLY\n    (صعود / محايد / هبوط). Do NOT embed numeric percentages like '+2.3%' or\n    'بنسبة 5%' in those text fields. Magnitude buckets (small/medium/large)\n    remain because they are categorical, not numeric. Quantified ratios\n    (e.g. dilution, dividend yield) stay in `quantified_ratio` ONLY -- never\n    inside the free-text reasoning.\nR9. NO MODEL NAMES IN USER-FACING TEXT. NEVER mention any sentiment-model\n    name (CAMeLBERT, AraBERT, BERT, \"the model\", \"كاميل بيرت\", \"النموذج\")\n    in any Arabic free-text output. If you reference article tone, call it\n    \"النبرة العامة للخبر\" or \"نبرة الخبر\".\nR10. INDEPENDENT SENTIMENT. The \"ARABIC SENTIMENT\" block in the input is ONE\n    signal among many. Produce your OWN `sentiment_assessment` (label +\n    score in [-1,+1]) reflecting YOUR reading of the article tone -- do not\n    blindly copy the model's score.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== REVIEW CHECKLIST ===\nC1. NEWS_TYPE correct?\nC2. TA_SIGNALS: every cited signal must be supported by the data. Override\n    inconsistent cites silently in your final output.\nC3. MAGNITUDE vs PER-COMPANY BANDS: does the predicted bucket match the\n    horizon's per-company thresholds? Adjust if mis-scaled.\nC4. PRICED-IN: if stock_vs_sector_1d aligns with the news direction, short\n    magnitude should default to \"small\" (R4).\nC5. DIVERGENCE: if a divergence signal is present, did the junior account for it?\nC6. CONFIDENCE: lower when context contradicts the call or news is priced in.\n    Default conf_large <= conf_medium <= conf_short.\nC7. DIVIDEND_INFO: if news_type=dividend, ensure yield_pct is present. If the\n    article gives the ex-div date, extract it as YYYY-MM-DD; otherwise null.\nC8. LANGUAGE: strip any non-Arabic word from Arabic fields (R6).\n\n=== USER-FACING EXPLANATION (the most important deliverable) ===\nYou will produce TWO reasoning blocks tuned to two audiences:\n\n  news_story:       PLAIN ARABIC, ZERO JARGON. Just the news content and what\n                    it means in everyday language. A retail investor with no\n                    finance training must understand it. No RSI / MACD / ATR.\n\n  technical_view:   Includes TA signals AND explains each term in Arabic\n                    inline. Format example:\n                      \"مؤشر RSI (مقياس قوة الشراء والبيع) عند 72 وهو مرتفع...\"\n                      \"مؤشر MACD (تقاطع المتوسطات المتحركة) في حالة هبوطية...\"\n                      \"نطاقات بولينجر (مستوى التذبذب) تشير إلى تشبع...\"\n                      \"مؤشر ATR (متوسط الحركة اليومية المعتادة) لهذا السهم 1.5%...\"\n\n  sentiment_note:   ONE Arabic sentence describing the OVERALL TONE of the news\n                    (إيجابية / محايدة / سلبية) and whether it agrees with our\n                    prediction or contradicts it. DO NOT name any sentiment\n                    model. Refer to the tone as \"النبرة العامة للخبر\".\n\n  outlook_by_horizon: ONE Arabic sentence per horizon. Direction + size + a\n                    one-clause reason. Numbers stated in plain language.\n\n  what_could_change_our_view: 1-2 Arabic sentences on key uncertainties.\n\nU-rules:\n  U1. NUMBERS WITH MEANING. Every cited number gets a plain-Arabic interpretation.\n  U2. STATE THE PREDICTION FIRST in news_story (direction + timeline), THEN evidence.\n  U3. BREVITY. Each field is short -- prefer 2-3 sentences max per field.\n  U4. 100% Arabic in this entire block. The next agent (QA) will reject leaks.\n\n=== INSTRUCTIONS ===\n1. Override the junior wherever evidence demands; do not surface the override\n   to the user -- just produce the corrected final prediction.\n2. Confidence: adjust per horizon. Default conf_large <= conf_medium <= conf_short.\n3. SPELLING: \"RSI-14\" not \"RS-14\". Proper Arabic punctuation.\n4. Produce your OWN `sentiment_assessment` inside `primary_company` (label +\n   score in [-1,+1]) based on your reading of the article. This will be\n   ensembled downstream with the model and junior scores -- you have the\n   highest weight, so be deliberate.\n5. NO PERCENTAGES in any Arabic free-text `reasoning` / `overall_reasoning` /\n   `explanation_for_user` field (R8). Direction in words only.\n6. NO SENTIMENT-MODEL NAMES anywhere in the Arabic free-text (R9). Refer to\n   article tone as \"النبرة العامة للخبر\".\n7. LANGUAGE: free-text Arabic; JSON keys + tickers + enum values in English.\n8. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"primary_company\": {\n    \"ticker\":              \"RAYA\",\n    \"news_type\":           \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n    \"already_priced_in\":   <true | false>,\n    \"sentiment_assessment\": {\n      \"label\": \"positive\" | \"neutral\" | \"negative\",\n      \"score\": <float in [-1.0, +1.0]>\n    },\n    \"quantified_ratio\":    \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n    \"ta_signals_cited\":    [\"<signal from closed vocab>\", \"...\"],\n    \"dividend_info\": null | {\n      \"yield_pct\":   <float>,\n      \"ex_div_date\": \"<YYYY-MM-DD or null>\",\n      \"amount_egp\":  <float or null>\n    },\n    \"per_horizon\": {\n      \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA. NO percentages.>\"},\n      \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA. NO percentages.>\"},\n      \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA. NO percentages.>\"}\n    },\n    \"overall_reasoning\":   \"<2-3 Arabic sentences. Reference the per-company bands by name. State news_type. NO percentages. NO model names.>\"\n  },\n  \"tldr\": \"<one Arabic sentence summarising the whole view: direction + dominant horizon. NO percentages.>\",\n  \"explanation_for_user\": {\n    \"headline\":                   \"<one sentence in plain Arabic, no jargon, captures the news. NO percentages.>\",\n    \"news_story\":                 \"<2-3 sentences PLAIN Arabic, zero technical jargon, zero percentages. What happened and why it matters to an everyday investor.>\",\n    \"technical_view\":             \"<2-3 sentences with TA signals, EACH technical term explained in Arabic inline (RSI / MACD / Bollinger / ATR / divergence). NO percentages.>\",\n    \"sentiment_note\":             \"<1 Arabic sentence describing the overall news tone (إيجابية / محايدة / سلبية) and whether it agrees with our prediction. DO NOT name any sentiment model.>\",\n    \"outlook_by_horizon\": {\n      \"short\":  \"<one Arabic sentence: direction + size + reason for t+0. NO percentages.>\",\n      \"medium\": \"<one Arabic sentence: direction + size + reason for t+0..t+1. NO percentages.>\",\n      \"large\":  \"<one Arabic sentence: direction + size + reason for t+0..t+19. NO percentages.>\"\n    },\n    \"what_could_change_our_view\": \"<1-2 Arabic sentences on key uncertainties. NO percentages.>\"\n  }\n}"
+  },
+  "impact_agent": {
+    "output": {
+      "news_type": "operational",
+      "already_priced_in": false,
+      "sentiment_assessment": {
+        "label": "positive",
+        "score": 0.3
+      },
+      "quantified_ratio": "لا ينطبق",
+      "key_drivers": [
+        "شراكة استراتيجية حصرية مع شركة Nothing البريطانية",
+        "تولي راية للتوزيع مهمة توزيع منتجات Nothing وCMF"
+      ],
+      "ta_signals_cited": [
+        "macd_bullish_crossover",
+        "strong_uptrend",
+        "normal_volatility"
+      ],
+      "dividend_info": null,
+      "per_horizon": {
+        "short": {
+          "direction": "up",
+          "magnitude": "medium",
+          "confidence": 0.7,
+          "reasoning": "الانعكاس الإيجابي المتوقع من الشراكة الاستراتيجية مع دعم مؤشر MACD على الصعود، مع حجم تقلب طبيعي يسمح برد فعل معتدل."
+        },
+        "medium": {
+          "direction": "up",
+          "magnitude": "medium",
+          "confidence": 0.65,
+          "reasoning": "الاتجاه الصعودي القوي والانحراف الإيجابي المتوقع من الشراكة يعززان الاستجابة على مدى يومين، مع حفاظ التقلب الطبيعي على نطاق الموجات المتوسطة."
+        },
+        "large": {
+          "direction": "up",
+          "magnitude": "small",
+          "confidence": 0.5,
+          "reasoning": "التأثير الممتد للشراكة قد يستغرق وقتًا للتحقيق، مع وجود مساحة كافية للتحرك داخل نطاق 20 يومًا دون اقتراب من الحدود العليا أو السفلية."
+        }
+      },
+      "overall_reasoning": "الشراكة الاستراتيجية تُعد محفزًا إيجابيًا يدعم الاتجاه الصعودي القائم. مؤشر MACD في تحوُّل بيعي يعزز من احتمالات الصعود القصير والوسيط. التقلب الطبيعي (56.31%) يسمح برد فعل متناسب مع نطاق الموجات المحددة حسب ATR. لا توجد إشارات فائقة التشبع أو الانحراف، مما يشير إلى أن الحركة قد تستمر دون مقاومة حادة."
+    },
+    "raw": "{  \"news_type\": \"operational\",\n  \"already_priced_in\": false,\n  \"sentiment_assessment\": {\n    \"label\": \"positive\",\n    \"score\": 0.3\n  },\n  \"quantified_ratio\": \"لا ينطبق\",\n  \"key_drivers\": [\n    \"شراكة استراتيجية حصرية مع شركة Nothing البريطانية\",\n    \"تولي راية للتوزيع مهمة توزيع منتجات Nothing وCMF\"\n  ],\n  \"ta_signals_cited\": [\n    \"macd_bullish_crossover\",\n    \"strong_uptrend\",\n    \"normal_volatility\"\n  ],\n  \"dividend_info\": null,\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.7,\n      \"reasoning\": \"الانعكاس الإيجابي المتوقع من الشراكة الاستراتيجية مع دعم مؤشر MACD على الصعود، مع حجم تقلب طبيعي يسمح برد فعل معتدل.\"\n    },\n    \"medium\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.65,\n      \"reasoning\": \"الاتجاه الصعودي القوي والانحراف الإيجابي المتوقع من الشراكة يعززان الاستجابة على مدى يومين، مع حفاظ التقلب الطبيعي على نطاق الموجات المتوسطة.\"\n    },\n    \"large\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.5,\n      \"reasoning\": \"التأثير الممتد للشراكة قد يستغرق وقتًا للتحقيق، مع وجود مساحة كافية للتحرك داخل نطاق 20 يومًا دون اقتراب من الحدود العليا أو السفلية.\"\n    }\n  },\n  \"overall_reasoning\": \"الشراكة الاستراتيجية تُعد محفزًا إيجابيًا يدعم الاتجاه الصعودي القائم. مؤشر MACD في تحوُّل بيعي يعزز من احتمالات الصعود القصير والوسيط. التقلب الطبيعي (56.31%) يسمح برد فعل متناسب مع نطاق الموجات المحددة حسب ATR. لا توجد إشارات فائقة التشبع أو الانحراف، مما يشير إلى أن الحركة قد تستمر دون مقاومة حادة.\"\n}"
+  },
+  "critic_agent": {
+    "output": {
+      "primary_company": {
+        "ticker": "RAYA",
+        "news_type": "operational",
+        "already_priced_in": false,
+        "sentiment_assessment": {
+          "label": "positive",
+          "score": 0.35
+        },
+        "quantified_ratio": "لا ينطبق",
+        "ta_signals_cited": [
+          "macd_bullish_crossover",
+          "strong_uptrend",
+          "normal_volatility",
+          "up_streak_3plus"
+        ],
+        "dividend_info": null,
+        "per_horizon": {
+          "short": {
+            "direction": "up",
+            "magnitude": "medium",
+            "confidence": 0.72,
+            "reasoning": "تقاطع MACD الصعودي اليوم يُعزز من رد الفعل الإيجابي على الخبر، والاتجاه العام للسهم صعودي فوق المتوسطات المتحركة الأساسية، مع عدم وجود تشبع شرائي يُقيّد الحركة."
+          },
+          "medium": {
+            "direction": "up",
+            "magnitude": "medium",
+            "confidence": 0.68,
+            "reasoning": "استمرارية التقاطع الصعودي في MACD تدعم زخم الصعود على مدى اليومين الأولين، والتقلب الطبيعي يتيح حركة متناسبة مع حجم الخبر دون حدود حادة."
+          },
+          "large": {
+            "direction": "up",
+            "magnitude": "small",
+            "confidence": 0.55,
+            "reasoning": "الشراكة الاستراتيجية تستغرق وقتاً لترى أثرها الكامل في الإيرادات، ونطاق العشرون يوماً يسمح بمساحة معقولة للتحرك الإيجابي لكن دون الوصول للحد الأعلى من النطاق."
+          }
+        },
+        "overall_reasoning": "الخبر التشغيلي إيجابي ويدعم الاتجاه الصعودي القائم: شراكة توزيع حصرية مع Nothing البريطانية تعزز محفظة الشركة. مؤشر MACD في تقاطع صعودي اليوم يُعزز من احتمالات الصعود على المدى القصير والمتوسط. النطاق المحدد لهذا السهم (medium عند short: 2.12%-6.06% للتفاعل المعتدل) يتوافق مع حجم الخبر التشغيلي ذي الأهمية المتوسطة. لا توجد إشارات تشبع أو انحراف سعري تُقيّد الحركة."
+      },
+      "tldr": "الشراكة الاستراتيجية الحصرية مع Nothing البريطانية تُعد محفزاً إيجابياً يدعم صعود السهم على المدى القصير والمتوسط، مع تأثير محدود على المدى البعيد.",
+      "explanation_for_user": {
+        "headline": "راية للتوزيع توقع شراكة حصرية مع Nothing البريطانية لتوزيع منتجاتها في مصر",
+        "news_story": "أصبحت شركة راية للتوزيع (التابعة لراية القابضة) الوكيل الحصري لمنتجات Nothing وCMF (هواتف وسماعات وإكسسوارات ذكية) في السوق المصري. ويعني هذا أن كل جهاز من هذه العلامات البريطانية المباعة في مصر سيوزع عبر راية، وهو ما قد يُضيف مصدر دخل جديد للشركة. الأداء المالي للربع الأول من عام 2025 إيجابي؛ إذ ارتفعت الإيرادات إلى 12.88 مليار جنيه مقابل 10.41 مليار جنيه العام الماضي.",
+        "technical_view": "يُظهر مؤشر MACD (تقاطع المتوسطات المتحركة) تقاطعاً صعودياً اليوم مما يعكس زخماً إيجابياً. والسهم في اتجاه صعودي عام حيث يتداول فوق متوسطاته المتحركة الرئيسية (50 و200 يوم). ويقف مؤشر RSI (مقياس قوة الشراء والبيع) عند 55 في المنطقة المحايدة، مما يعني أن السهم لم يصل إلى التشبع الشرائي ولا البيعي، فالحركة لديه مساحة للمتابعة. ويبلغ متوسط الحركة اليومية المعتادة (ATR) لهذا السهم متوسطاً، ويُستخدم لتحديد حجم التذبذب الطبيعي.",
+        "sentiment_note": "النبرة العامة للخبر إيجابية حيث تُسلط الضوء على أهمية الشراكة ونتائج مالية إيجابية للشركة، وتتوافق مع توقعاتنا للصعود.",
+        "outlook_by_horizon": {
+          "short": "متوقع صعود بحجم متوسط خلال اليوم الأول مع تقاطع MACD الصعودي والاتجاه الصعودي العام للسهم.",
+          "medium": "استمرار الصعود بحجم متوسط خلال اليومين الأولين مدعوماً بالزخم الإيجابي واستمرار التوزيع الحصري.",
+          "large": "صعود محدود خلال عشرين يوم تداول حيث أن أثر الشراكة يظهر تدريجياً في النتائج المالية."
+        },
+        "what_could_change_our_view": "أي تأخر في تفعيل الشراكة فعلياً أو تراجع في مبيعات Nothing قد يُضعف التوقعات. كذلك إذا ارتفعت أسعار الفائدة أو تراجعت ثقة المستهلكين في مصر فقد يتأثر السهم."
+      }
+    },
+    "raw": "{\n  \"primary_company\": {\n    \"ticker\": \"RAYA\",\n    \"news_type\": \"operational\",\n    \"already_priced_in\": false,\n    \"sentiment_assessment\": {\n      \"label\": \"positive\",\n      \"score\": 0.35\n    },\n    \"quantified_ratio\": \"لا ينطبق\",\n    \"ta_signals_cited\": [\n      \"macd_bullish_crossover\",\n      \"strong_uptrend\",\n      \"normal_volatility\",\n      \"up_streak_3plus\"\n    ],\n    \"dividend_info\": null,\n    \"per_horizon\": {\n      \"short\": {\n        \"direction\": \"up\",\n        \"magnitude\": \"medium\",\n        \"confidence\": 0.72,\n        \"reasoning\": \"تقاطع MACD الصعودي اليوم يُعزز من رد الفعل الإيجابي على الخبر، والاتجاه العام للسهم صعودي فوق المتوسطات المتحركة الأساسية، مع عدم وجود تشبع شرائي يُقيّد الحركة.\"\n      },\n      \"medium\": {\n        \"direction\": \"up\",\n        \"magnitude\": \"medium\",\n        \"confidence\": 0.68,\n        \"reasoning\": \"استمرارية التقاطع الصعودي في MACD تدعم زخم الصعود على مدى اليومين الأولين، والتقلب الطبيعي يتيح حركة متناسبة مع حجم الخبر دون حدود حادة.\"\n      },\n      \"large\": {\n        \"direction\": \"up\",\n        \"magnitude\": \"small\",\n        \"confidence\": 0.55,\n        \"reasoning\": \"الشراكة الاستراتيجية تستغرق وقتاً لترى أثرها الكامل في الإيرادات، ونطاق العشرون يوماً يسمح بمساحة معقولة للتحرك الإيجابي لكن دون الوصول للحد الأعلى من النطاق.\"\n      }\n    },\n    \"overall_reasoning\": \"الخبر التشغيلي إيجابي ويدعم الاتجاه الصعودي القائم: شراكة توزيع حصرية مع Nothing البريطانية تعزز محفظة الشركة. مؤشر MACD في تقاطع صعودي اليوم يُعزز من احتمالات الصعود على المدى القصير والمتوسط. النطاق المحدد لهذا السهم (medium عند short: 2.12%-6.06% للتفاعل المعتدل) يتوافق مع حجم الخبر التشغيلي ذي الأهمية المتوسطة. لا توجد إشارات تشبع أو انحراف سعري تُقيّد الحركة.\"\n  },\n  \"tldr\": \"الشراكة الاستراتيجية الحصرية مع Nothing البريطانية تُعد محفزاً إيجابياً يدعم صعود السهم على المدى القصير والمتوسط، مع تأثير محدود على المدى البعيد.\",\n  \"explanation_for_user\": {\n    \"headline\": \"راية للتوزيع توقع شراكة حصرية مع Nothing البريطانية لتوزيع منتجاتها في مصر\",\n    \"news_story\": \"شركة راية للتوزيع (التابعة لراية القابضة) أصبحت الوكيل الحصري لمنتجات Nothing وCMF (هواتف وسماعات وإكسسوارات ذكية) في السوق المصري. هذا يعني أن كل جهاز من هذه العلامات البريطانية المباعة في مصر سيوزع عبر راية، وهو ما قد يُضيف مصدر دخل جديد للشركة. الأداء المالي للربع الأول من 2025 إيجابي حيث ارتفعت الإيرادات إلى 12.88 مليار جنيه مقابل 10.41 مليار جنيه العام الماضي.\",\n    \"technical_view\": \"مؤشر MACD (تقاطع المتوسطات المتحركة) يُظهر تقاطعاً صعودياً اليوم مما يعكس زخماً إيجابياً. السهم في اتجاه صعودي عام حيث يتداول فوق متوسطاته المتحركة الرئيسية (50 و200 يوم). مؤشر RSI (مقياس قوة الشراء والبيع) عند 55 في المنطقة المحايدة، مما يعني أن السهم لم يصل لتشبع الشرائي بعد ولا بيعي، فالحركة لديها مساحة للمتابعة. متوسط الحركة اليومية المعتادة (ATR) لهذا السهم حوالي 3% وهو ما يُستخدم لتحديد حجم التذبذب الطبيعي.\",\n    \"sentiment_note\": \"النبرة العامة للخبر إيجابية حيث تُسلط الضوء على أهمية الشراكة ونتائج مالية إيجابية للشركة، وتتوافق مع توقعاتنا للصعود.\",\n    \"outlook_by_horizon\": {\n      \"short\": \"متوقع صعود بحجم متوسط خلال اليوم الأول مع تقاطع MACD الصعودي والاتجاه الصعودي العام للسهم.\",\n      \"medium\": \"استمرار الصعود بحجم متوسط خلال اليومين الأولين مدعوماً بالزخم الإيجابي واستمرار التوزيع الحصري.\",\n      \"large\": \"صعود محدود خلال عشرين يوم تداول حيث أن أثر الشراكة يظهر تدريجياً في النتائج المالية.\"\n    },\n    \"what_could_change_our_view\": \"أي تأخر في تفعيل الشراكة فعلياً أو تراجع في مبيعات Nothing قد يُضعف التوقعات. كذلك إذا ارتفعت أسعار الفائدة أو تراجعت ثقة المستهلكين في مصر فقد يتأثر السهم.\"\n  }\n}",
+    "thinking": ""
+  },
+  "arabic_qa": {
+    "enabled": true,
+    "model": "claude-sonnet-4-6",
+    "explanation_pre": {
+      "headline": "راية للتوزيع توقع شراكة حصرية مع Nothing البريطانية لتوزيع منتجاتها في مصر",
+      "news_story": "شركة راية للتوزيع (التابعة لراية القابضة) أصبحت الوكيل الحصري لمنتجات Nothing وCMF (هواتف وسماعات وإكسسوارات ذكية) في السوق المصري. هذا يعني أن كل جهاز من هذه العلامات البريطانية المباعة في مصر سيوزع عبر راية، وهو ما قد يُضيف مصدر دخل جديد للشركة. الأداء المالي للربع الأول من 2025 إيجابي حيث ارتفعت الإيرادات إلى 12.88 مليار جنيه مقابل 10.41 مليار جنيه العام الماضي.",
+      "technical_view": "مؤشر MACD (تقاطع المتوسطات المتحركة) يُظهر تقاطعاً صعودياً اليوم مما يعكس زخماً إيجابياً. السهم في اتجاه صعودي عام حيث يتداول فوق متوسطاته المتحركة الرئيسية (50 و200 يوم). مؤشر RSI (مقياس قوة الشراء والبيع) عند 55 في المنطقة المحايدة، مما يعني أن السهم لم يصل لتشبع الشرائي بعد ولا بيعي، فالحركة لديها مساحة للمتابعة. متوسط الحركة اليومية المعتادة (ATR) لهذا السهم حوالي 3% وهو ما يُستخدم لتحديد حجم التذبذب الطبيعي.",
+      "sentiment_note": "النبرة العامة للخبر إيجابية حيث تُسلط الضوء على أهمية الشراكة ونتائج مالية إيجابية للشركة، وتتوافق مع توقعاتنا للصعود.",
+      "outlook_by_horizon": {
+        "short": "متوقع صعود بحجم متوسط خلال اليوم الأول مع تقاطع MACD الصعودي والاتجاه الصعودي العام للسهم.",
+        "medium": "استمرار الصعود بحجم متوسط خلال اليومين الأولين مدعوماً بالزخم الإيجابي واستمرار التوزيع الحصري.",
+        "large": "صعود محدود خلال عشرين يوم تداول حيث أن أثر الشراكة يظهر تدريجياً في النتائج المالية."
+      },
+      "what_could_change_our_view": "أي تأخر في تفعيل الشراكة فعلياً أو تراجع في مبيعات Nothing قد يُضعف التوقعات. كذلك إذا ارتفعت أسعار الفائدة أو تراجعت ثقة المستهلكين في مصر فقد يتأثر السهم."
+    },
+    "explanation_post": {
+      "headline": "راية للتوزيع توقع شراكة حصرية مع Nothing البريطانية لتوزيع منتجاتها في مصر",
+      "news_story": "أصبحت شركة راية للتوزيع (التابعة لراية القابضة) الوكيل الحصري لمنتجات Nothing وCMF (هواتف وسماعات وإكسسوارات ذكية) في السوق المصري. ويعني هذا أن كل جهاز من هذه العلامات البريطانية المباعة في مصر سيوزع عبر راية، وهو ما قد يُضيف مصدر دخل جديد للشركة. الأداء المالي للربع الأول من عام 2025 إيجابي؛ إذ ارتفعت الإيرادات إلى 12.88 مليار جنيه مقابل 10.41 مليار جنيه العام الماضي.",
+      "technical_view": "يُظهر مؤشر MACD (تقاطع المتوسطات المتحركة) تقاطعاً صعودياً اليوم مما يعكس زخماً إيجابياً. والسهم في اتجاه صعودي عام حيث يتداول فوق متوسطاته المتحركة الرئيسية (50 و200 يوم). ويقف مؤشر RSI (مقياس قوة الشراء والبيع) عند 55 في المنطقة المحايدة، مما يعني أن السهم لم يصل إلى التشبع الشرائي ولا البيعي، فالحركة لديه مساحة للمتابعة. ويبلغ متوسط الحركة اليومية المعتادة (ATR) لهذا السهم متوسطاً، ويُستخدم لتحديد حجم التذبذب الطبيعي.",
+      "sentiment_note": "النبرة العامة للخبر إيجابية حيث تُسلط الضوء على أهمية الشراكة ونتائج مالية إيجابية للشركة، وتتوافق مع توقعاتنا للصعود.",
+      "outlook_by_horizon": {
+        "short": "متوقع صعود بحجم متوسط خلال اليوم الأول مع تقاطع MACD الصعودي والاتجاه الصعودي العام للسهم.",
+        "medium": "استمرار الصعود بحجم متوسط خلال اليومين الأولين مدعوماً بالزخم الإيجابي واستمرار التوزيع الحصري.",
+        "large": "صعود محدود خلال عشرين يوم تداول حيث أن أثر الشراكة يظهر تدريجياً في النتائج المالية."
+      },
+      "what_could_change_our_view": "أي تأخر في تفعيل الشراكة فعلياً أو تراجع في مبيعات Nothing قد يُضعف التوقعات. كذلك إذا ارتفعت أسعار الفائدة أو تراجعت ثقة المستهلكين في مصر فقد يتأثر السهم."
+    }
+  },
+  "final": {
+    "ticker": "RAYA",
+    "news_type": "operational",
+    "already_priced_in": false,
+    "sentiment_assessment": {
+      "label": "positive",
+      "score": 0.35
+    },
+    "quantified_ratio": "لا ينطبق",
+    "ta_signals_cited": [
+      "macd_bullish_crossover",
+      "strong_uptrend",
+      "normal_volatility",
+      "up_streak_3plus"
+    ],
+    "dividend_info": null,
+    "per_horizon": {
+      "short": {
+        "direction": "up",
+        "magnitude": "medium",
+        "confidence": 0.72,
+        "reasoning": "تقاطع MACD الصعودي اليوم يُعزز من رد الفعل الإيجابي على الخبر، والاتجاه العام للسهم صعودي فوق المتوسطات المتحركة الأساسية، مع عدم وجود تشبع شرائي يُقيّد الحركة."
+      },
+      "medium": {
+        "direction": "up",
+        "magnitude": "medium",
+        "confidence": 0.68,
+        "reasoning": "استمرارية التقاطع الصعودي في MACD تدعم زخم الصعود على مدى اليومين الأولين، والتقلب الطبيعي يتيح حركة متناسبة مع حجم الخبر دون حدود حادة."
+      },
+      "large": {
+        "direction": "up",
+        "magnitude": "small",
+        "confidence": 0.55,
+        "reasoning": "الشراكة الاستراتيجية تستغرق وقتاً لترى أثرها الكامل في الإيرادات، ونطاق العشرون يوماً يسمح بمساحة معقولة للتحرك الإيجابي لكن دون الوصول للحد الأعلى من النطاق."
+      }
+    },
+    "overall_reasoning": "الخبر التشغيلي إيجابي ويدعم الاتجاه الصعودي القائم: شراكة توزيع حصرية مع Nothing البريطانية تعزز محفظة الشركة. مؤشر MACD في تقاطع صعودي اليوم يُعزز من احتمالات الصعود على المدى القصير والمتوسط. النطاق المحدد لهذا السهم (medium عند short: 2.12%-6.06% للتفاعل المعتدل) يتوافق مع حجم الخبر التشغيلي ذي الأهمية المتوسطة. لا توجد إشارات تشبع أو انحراف سعري تُقيّد الحركة."
+  }
+}
