@@ -14,6 +14,100 @@ import pandas as pd
 
 PRICES_FILE = Path(__file__).parent / "egyptian_stocks_2020_2025.json"
 
+
+# -----------------------------------------------------------------------------
+#  EGX trading-hours rule (governs the evaluation window's START day)
+# -----------------------------------------------------------------------------
+
+EGX_OPEN_HM  = (10, 0)    # 10:00 AM Cairo
+EGX_CLOSE_HM = (14, 30)   # 2:30 PM Cairo
+
+# -----------------------------------------------------------------------------
+#  HORIZON CONFIG -- SINGLE SOURCE OF TRUTH.
+#  Editing this dict + HORIZON_LABEL_AR propagates to prompts.py, pipeline3.py,
+#  evaluate.py (they all `from features import HORIZON_TRADING_DAYS`).
+#
+#  Each value is the WINDOW LENGTH in trading days, measured from the start
+#  day (inclusive). Magnitude bands rescale automatically by sqrt(N).
+# -----------------------------------------------------------------------------
+
+#Edit those two dicts → prompts, pipeline, and evaluator all auto-update. Bands rescale automatically.
+HORIZON_TRADING_DAYS = {
+    "short":  1,    # t+0  -- just the start day
+    "medium": 2,    # t+0 .. t+1 -- start day + next trading day
+    "large":  20,   # t+0 .. t+19 -- one trading month cumulative
+}
+
+HORIZON_LABEL_AR = {
+    "short":  "اليوم الأول (t+0): رد الفعل الفوري",
+    "medium": "اليومان الأولان (t+0 إلى t+1): الاستجابة المبكرة",
+    "large":  "العشرون يوم تداول (t+0 إلى t+19): الأثر الممتد",
+}
+
+
+def news_in_trading_hours(article: dict) -> bool:
+    """True iff the article's time-of-day falls within EGX hours (10:00-14:30)."""
+    time_str = (article.get("time") or "").strip()
+    if not time_str:
+        dt = (article.get("datetime") or "").strip()
+        if " " in dt:
+            time_str = dt.split(" ", 1)[1]
+    if not time_str:
+        return False  # unknown -> safe default = window starts NEXT trading day
+    try:
+        parts = time_str.split(":")
+        hh = int(parts[0])
+        mm = int(parts[1]) if len(parts) > 1 else 0
+    except (ValueError, IndexError):
+        return False
+    minutes   = hh * 60 + mm
+    open_min  = EGX_OPEN_HM[0]  * 60 + EGX_OPEN_HM[1]
+    close_min = EGX_CLOSE_HM[0] * 60 + EGX_CLOSE_HM[1]
+    return open_min <= minutes <= close_min
+
+
+def magnitude_bands_for_atr(atr_pct: Optional[float]) -> dict:
+    """
+    Per-horizon ATR-scaled magnitude bands (|AR| in %).
+      small/medium boundary = 0.7 * ATR * sqrt(N_days)
+      medium/large boundary = 2.0 * ATR * sqrt(N_days)
+    Falls back to fixed bands when ATR is unavailable.
+
+    These are anchored to the company's own typical move: a high-vol stock
+    needs a wider band to count as "large" than a low-vol staple.
+    """
+    if atr_pct is None or atr_pct <= 0:
+        return {
+            "short":  {"small": [0.0, 1.0],  "medium": [1.0,  3.0],  "large": [3.0,  None]},
+            "medium": {"small": [0.0, 2.5],  "medium": [2.5,  6.0],  "large": [6.0,  None]},
+            "large":  {"small": [0.0, 5.0],  "medium": [5.0, 12.0],  "large": [12.0, None]},
+        }
+    out: dict = {}
+    for h, n in HORIZON_TRADING_DAYS.items():
+        scale = math.sqrt(n)
+        sm_md = round(0.7 * atr_pct * scale, 2)
+        md_lg = round(2.0 * atr_pct * scale, 2)
+        out[h] = {
+            "small":  [0.0,   sm_md],
+            "medium": [sm_md, md_lg],
+            "large":  [md_lg, None],
+        }
+    return out
+
+
+def neutral_band_for_atr(atr_pct: Optional[float]) -> dict:
+    """
+    Per-horizon neutral band (|AR| within this counts as "neutral" direction).
+      0.5 * ATR * sqrt(N_days) -- roughly half the typical move.
+    Falls back to fixed bands when ATR is unavailable.
+    """
+    if atr_pct is None or atr_pct <= 0:
+        return {"short": 1.0, "medium": 2.5, "large": 5.0}
+    return {
+        h: round(0.5 * atr_pct * math.sqrt(n), 2)
+        for h, n in HORIZON_TRADING_DAYS.items()
+    }
+
 # One-line descriptions grounding the LLM in what each company actually does.
 COMPANY_DESCRIPTIONS: dict[str, str] = {
     "ABUK":  "Abou Kir Fertilizers — Egypt's largest nitrogen fertilizer (urea/ammonium nitrate) producer near Alexandria; exports to Europe; earnings sensitive to natural gas feedstock price and EUR/USD.",
@@ -79,18 +173,154 @@ def _pct_return(series: pd.Series, lookback: int) -> Optional[float]:
     return round((float(series.iloc[-1]) / float(series.iloc[-1 - lookback]) - 1) * 100, 2)
 
 
+def _rsi_series(closes: pd.Series, period: int = 14) -> pd.Series:
+    """Full RSI series (Wilder's smoothing). Returns empty Series if too short."""
+    if len(closes) < period + 1:
+        return pd.Series(dtype=float)
+    delta = closes.diff().dropna()
+    gain  = delta.clip(lower=0)
+    loss  = (-delta).clip(lower=0)
+    avg_gain = gain.ewm(alpha=1 / period, adjust=False).mean()
+    avg_loss = loss.ewm(alpha=1 / period, adjust=False).mean()
+    rs  = avg_gain / avg_loss.replace(0, np.nan)
+    rsi = 100 - 100 / (1 + rs)
+    return rsi.fillna(100.0)  # avg_loss==0 (all gains) -> RSI = 100
+
+
 def _rsi(closes: pd.Series, period: int = 14) -> Optional[float]:
-    """RSI using Wilder's exponential smoothing (alpha = 1/period)."""
+    """Last RSI value (backwards-compatible scalar wrapper)."""
+    s = _rsi_series(closes, period)
+    if s.empty:
+        return None
+    return round(float(s.iloc[-1]), 2)
+
+
+# -----------------------------------------------------------------------------
+#  Technical indicators (close-only; no volume data required)
+# -----------------------------------------------------------------------------
+
+def _macd(closes: pd.Series, fast: int = 12, slow: int = 26, signal: int = 9) -> Optional[dict]:
+    if len(closes) < slow + signal:
+        return None
+    ema_fast  = closes.ewm(span=fast, adjust=False).mean()
+    ema_slow  = closes.ewm(span=slow, adjust=False).mean()
+    macd_line = ema_fast - ema_slow
+    sig_line  = macd_line.ewm(span=signal, adjust=False).mean()
+    hist      = macd_line - sig_line
+
+    above_now  = float(macd_line.iloc[-1]) > float(sig_line.iloc[-1])
+    above_prev = float(macd_line.iloc[-2]) > float(sig_line.iloc[-2])
+    if   above_now and not above_prev: state = "bullish_crossover_today"
+    elif not above_now and above_prev: state = "bearish_crossover_today"
+    elif above_now:                    state = "bullish"
+    else:                              state = "bearish"
+
+    return {
+        "line":      round(float(macd_line.iloc[-1]), 4),
+        "signal":    round(float(sig_line.iloc[-1]),  4),
+        "histogram": round(float(hist.iloc[-1]),      4),
+        "state":     state,
+    }
+
+
+def _bollinger(closes: pd.Series, period: int = 20, k: float = 2.0) -> Optional[dict]:
+    if len(closes) < period:
+        return None
+    window = closes.iloc[-period:]
+    sma    = float(window.mean())
+    std    = float(window.std())
+    if std == 0 or sma == 0:
+        return None
+    last  = float(closes.iloc[-1])
+    upper = sma + k * std
+    lower = sma - k * std
+    pct_b = (last - lower) / (upper - lower)
+    bandwidth_pct = (upper - lower) / sma * 100
+
+    if   pct_b >= 1.0: zone = "above_upper"
+    elif pct_b >= 0.8: zone = "near_upper"
+    elif pct_b <= 0.0: zone = "below_lower"
+    elif pct_b <= 0.2: zone = "near_lower"
+    else:              zone = "middle"
+
+    return {
+        "pct_b":         round(pct_b, 3),
+        "bandwidth_pct": round(bandwidth_pct, 2),
+        "zone":          zone,
+    }
+
+
+def _distance_to_extremes(closes: pd.Series, lookbacks=(20, 60, 252)) -> dict:
+    """Negative %high = below high (room to run up); positive %low = above low (room to drop)."""
+    last = float(closes.iloc[-1])
+    out: dict = {}
+    for n in lookbacks:
+        if len(closes) < n:
+            continue
+        window = closes.iloc[-n:]
+        hi = float(window.max())
+        lo = float(window.min())
+        if hi > 0:
+            out[f"{n}d_high_distance_pct"] = round((last / hi - 1) * 100, 2)
+        if lo > 0:
+            out[f"{n}d_low_distance_pct"]  = round((last / lo - 1) * 100, 2)
+    return out
+
+
+def _rsi_divergence(closes: pd.Series, rsi_series: pd.Series, lookback: int = 10) -> str:
+    """
+    Lightweight divergence flag over the last `lookback` bars (plus today).
+      bearish_divergence -> price retests recent high but RSI fails to confirm.
+      bullish_divergence -> price retests recent low but RSI fails to confirm.
+    Uses small tolerances so it triggers near-equal highs/lows, not just exact ones.
+    """
+    if len(closes) < lookback + 1 or len(rsi_series) < lookback + 1:
+        return "insufficient_data"
+    p = closes.iloc[-(lookback + 1):]
+    r = rsi_series.iloc[-(lookback + 1):]
+
+    last_price = float(p.iloc[-1]);  last_rsi = float(r.iloc[-1])
+    prev_max_p = float(p.iloc[:-1].max());  prev_max_r = float(r.iloc[:-1].max())
+    prev_min_p = float(p.iloc[:-1].min());  prev_min_r = float(r.iloc[:-1].min())
+
+    # Bearish: price retests prior high (within 0.2%) but RSI is at least 2 points lower
+    if last_price >= prev_max_p * 0.998 and last_rsi <= prev_max_r - 2.0:
+        return "bearish"
+    # Bullish: price retests prior low (within 0.2%) but RSI is at least 2 points higher
+    if last_price <= prev_min_p * 1.002 and last_rsi >= prev_min_r + 2.0:
+        return "bullish"
+    return "none"
+
+
+def _atr_pct(closes: pd.Series, period: int = 14) -> Optional[float]:
+    """Mean absolute daily return % over `period` days (close-only ATR proxy)."""
     if len(closes) < period + 1:
         return None
-    delta = closes.diff().dropna()
-    gain = delta.clip(lower=0)
-    loss = (-delta).clip(lower=0)
-    avg_gain = gain.ewm(alpha=1 / period, adjust=False).mean().iloc[-1]
-    avg_loss = loss.ewm(alpha=1 / period, adjust=False).mean().iloc[-1]
-    if avg_loss == 0:
-        return 100.0
-    return round(float(100 - 100 / (1 + avg_gain / avg_loss)), 2)
+    abs_pct = (closes.pct_change().abs() * 100).dropna()
+    if len(abs_pct) < period:
+        return None
+    return round(float(abs_pct.iloc[-period:].mean()), 2)
+
+
+def _streak(closes: pd.Series) -> int:
+    """Signed count of consecutive same-direction days. +3 = 3 up days, -2 = 2 down days."""
+    if len(closes) < 2:
+        return 0
+    diffs = closes.diff().dropna()
+    if diffs.empty:
+        return 0
+    last = float(diffs.iloc[-1])
+    if last == 0:
+        return 0
+    last_sign = 1 if last > 0 else -1
+    streak = 0
+    for d in reversed(diffs.tolist()):
+        s = 1 if d > 0 else -1 if d < 0 else 0
+        if s == last_sign:
+            streak += 1
+        else:
+            break
+    return streak * last_sign
 
 
 def compute_context(ticker: str, event_date: str) -> dict:
@@ -152,7 +382,21 @@ def compute_context(ticker: str, event_date: str) -> dict:
         else:
             vol_regime = "normal"
 
-    rsi_14 = _rsi(t_close, 14)
+    rsi_series = _rsi_series(t_close, 14)
+    rsi_14     = round(float(rsi_series.iloc[-1]), 2) if not rsi_series.empty else None
+
+    # ── Technical signals (added for the TA-grounded prompts) ─────────────────
+    macd            = _macd(t_close)
+    bollinger       = _bollinger(t_close)
+    distance_to     = _distance_to_extremes(t_close)
+    divergence_flag = _rsi_divergence(t_close, rsi_series) if not rsi_series.empty else "insufficient_data"
+    atr_pct_14d     = _atr_pct(t_close, 14)
+    streak          = _streak(t_close)
+
+    if   rsi_14 is None:    rsi_zone = "unknown"
+    elif rsi_14 > 70:       rsi_zone = "overbought"
+    elif rsi_14 < 30:       rsi_zone = "oversold"
+    else:                   rsi_zone = "neutral"
 
     # ── Market state ──────────────────────────────────────────────────────────
     # Sector: equal-weighted average of all sector peers present in the price file.
@@ -259,6 +503,22 @@ def compute_context(ticker: str, event_date: str) -> dict:
             "top_3_correlated_peers": top_3_peers,
         },
         "recent_abnormal_returns": recent_ars,
+        "technical_signals": {
+            "rsi_14":               rsi_14,
+            "rsi_zone":             rsi_zone,
+            "macd":                 macd,
+            "bollinger":            bollinger,
+            "distance_to_extremes": distance_to,
+            "rsi_divergence":       divergence_flag,
+            "atr_pct_14d":          atr_pct_14d,
+            "consecutive_streak":   streak,
+        },
+        "dynamic_bands": {
+            "horizon_trading_days":  HORIZON_TRADING_DAYS,
+            "neutral_band_pct":      neutral_band_for_atr(atr_pct_14d),
+            "magnitude_bands_pct":   magnitude_bands_for_atr(atr_pct_14d),
+            "atr_pct_anchor":        atr_pct_14d,
+        },
     }
 
 

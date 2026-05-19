@@ -1,0 +1,293 @@
+{
+  "ticker": "ARCC",
+  "article_date": "2025-01-06",
+  "context_date": "2025-01-05",
+  "processed_at": "2026-05-17T23:04:08.534126",
+  "article": {
+    "symbol": "ARCC",
+    "company": "Arabian Cement Company",
+    "isin": "EGS3C0O1C016",
+    "sector": "Construction & Building Materials",
+    "id": "4388236",
+    "date": "2025-01-06",
+    "time": "10:14:32",
+    "datetime": "2025-01-06 10:14:32",
+    "title": "اليوم.. نهاية الحق في توزيع كوبون شركة العربية للأسمنت",
+    "body": "القاهرة - مباشر: ينتهي خلال جلسة اليوم الأثنين، الحق في توزيع كوبون شركة العربية للأسمنت لمشتري السهم.\nومن المقرر توزيع كوبون العربية للأسمنت رقم (16) بواقع 1.585 جنيه للسهم الواحد وذلك اعتباراً من 12 يناير 2025.\nيشار إلى أن العربية للأسمنت، حققت صافي ربح بلغ 664.72 مليون جنيه خلال الفترة من يناير حتى سبتمبر 2024، مقابل أرباح بلغت 500.25 مليون جنيه بالفترة المقارنة من 2023، مع الأخذ في الاعتبار حقوق الأقلية.\nوارتفعت إيرادات الشركة خلال التسعة أشهر إلى 6.38 مليار جنيه، مقابل 4.6 مليار جنيه في الفترة المقارنة من 2023.\nوعلى صعيد القوائم غير المجمعة، ارتفعت أرباح الشركة المستقلة خلال المدة من يناير حتى نهاية سبتمبر الماضي إلى 650.6 مليون جنيه، مقابل 502.69 مليون جنيه في الفترة المقابلة من العام الماضي.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر..\nاضغط هنا\nترشيحات\nمسؤول يكشف أسباب رفع أسعار خدمات الإنترنت والاتصالات في مصر\nمصر.. نصائح مهمة من \"حماية المستهلك\" للمواطنين قبل شراء السلع",
+    "teaser": "القاهرة - مباشر: ينتهي خلال جلسة اليوم الأثنين، الحق في توزيع كوبون شركة العربية للأسمنت لمشتري السهم. ومن المقرر توزيع كوبون العربية للأسمنت رقم (16) بواقع 1.585 جنيه للسهم الواحد وذلك اعتباراً من 12 يناير 2025. يشار إلى أن العربية للأسمنت، حققت …",
+    "section": "التعاملات الداخلية وأسهم الخزينة",
+    "source": "مباشر",
+    "categories": "stock-bonds",
+    "country": "مصر",
+    "reads": 1490,
+    "url": "https://www.mubasher.info/news/4388236",
+    "image_url": "https://static.mubasher.info/File.Story_Image/ecbcfa72810e6f655059b8729e034846/640.jpg",
+    "date_raw": ""
+  },
+  "sentiment": {
+    "model": "CAMeL-Lab/bert-base-arabic-camelbert-mix-sentiment",
+    "label": "neutral",
+    "score": 0.0551,
+    "numeric": 0,
+    "class_probs": {
+      "neutral": 0.9423,
+      "positive": 0.0564,
+      "negative": 0.0013
+    }
+  },
+  "context": {
+    "ticker": "ARCC",
+    "company": "Arabian Cement Company - ARCC",
+    "sector": "Construction & Building Materials",
+    "business_description": "Arabian Cement Company — major cement producer in the Suez corridor; exposed to construction activity, energy costs, and domestic cement prices.",
+    "event_date": "2025-01-06",
+    "last_price_date": "2025-01-05",
+    "price_state": {
+      "last_close": 17.2,
+      "return_1d": 1.78,
+      "return_5d": 1.96,
+      "return_20d": 9.28,
+      "return_60d": 47.64,
+      "pct_vs_ma50": 10.12,
+      "pct_vs_ma200": 39.5,
+      "vol_20d_annualized_pct": 48.73,
+      "vol_regime": "normal",
+      "rsi_14": 59.85
+    },
+    "market_state": {
+      "sector_return_1d": 0.58,
+      "sector_return_5d": 1.1,
+      "relative_strength_vs_sector_1d": 1.2
+    },
+    "correlation_state": {
+      "corr_with_sector_90d": 0.87,
+      "top_3_correlated_peers": [
+        {
+          "ticker": "MCQE",
+          "correlation": 0.6,
+          "sector": "Construction & Building Materials"
+        },
+        {
+          "ticker": "RMDA",
+          "correlation": 0.24,
+          "sector": "Healthcare & Pharmaceuticals"
+        },
+        {
+          "ticker": "ORHD",
+          "correlation": 0.24,
+          "sector": "Real Estate"
+        }
+      ]
+    },
+    "recent_abnormal_returns": [
+      {
+        "date": "2024-12-29",
+        "stock_return_pct": -0.41,
+        "sector_return_pct": -0.86,
+        "abnormal_return_pct": 0.45
+      },
+      {
+        "date": "2024-12-30",
+        "stock_return_pct": -3.04,
+        "sector_return_pct": -1.23,
+        "abnormal_return_pct": -1.81
+      },
+      {
+        "date": "2024-12-31",
+        "stock_return_pct": 4.36,
+        "sector_return_pct": 1.9,
+        "abnormal_return_pct": 2.46
+      },
+      {
+        "date": "2025-01-02",
+        "stock_return_pct": -0.59,
+        "sector_return_pct": 1.11,
+        "abnormal_return_pct": -1.7
+      },
+      {
+        "date": "2025-01-05",
+        "stock_return_pct": 1.78,
+        "sector_return_pct": 1.09,
+        "abnormal_return_pct": 0.69
+      }
+    ],
+    "technical_signals": {
+      "rsi_14": 59.85,
+      "rsi_zone": "neutral",
+      "macd": {
+        "line": 0.4428,
+        "signal": 0.4888,
+        "histogram": -0.046,
+        "state": "bearish"
+      },
+      "bollinger": {
+        "pct_b": 0.717,
+        "bandwidth_pct": 16.46,
+        "zone": "middle"
+      },
+      "distance_to_extremes": {
+        "20d_high_distance_pct": -3.21,
+        "20d_low_distance_pct": 12.64,
+        "60d_high_distance_pct": -3.21,
+        "60d_low_distance_pct": 44.66,
+        "252d_high_distance_pct": -3.21,
+        "252d_low_distance_pct": 93.69
+      },
+      "rsi_divergence": "none",
+      "atr_pct_14d": 2.45,
+      "consecutive_streak": 1
+    }
+  },
+  "prompts": {
+    "impact": "You are a quantitative analyst predicting Egyptian Stock Exchange (EGX) stock reactions to Arabic news. Your prediction must be grounded in the technical signals provided -- not vibes.\n\n=== COMPANY ===\nTicker      : ARCC\nName        : Arabian Cement Company - ARCC\nSector      : Construction & Building Materials\nDescription : Arabian Cement Company — major cement producer in the Suez corridor; exposed to construction activity, energy costs, and domestic cement prices.\nPrice data  : as of 2025-01-05  (article date: 2025-01-06)\n\n=== PRICE STATE ===\nLast close  : 17.20 EGP\nReturn 1d   : +1.78%\nReturn 5d   : +1.96%\nReturn 20d  : +9.28%\nReturn 60d  : +47.64%\nvs MA-50    : +10.12%\nvs MA-200   : +39.50%\nTrend       : uptrend (above MA-50 and MA-200)\nVol 20d ann : 48.73%  [normal regime]  Normal -> impact PROPORTIONAL to catalyst.\n\n=== SECTOR / MARKET ===\nSector ret 1d   : +0.58%\nSector ret 5d   : +1.10%\nStock vs sector 1d : +1.20%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 0.87\nTop peers:\n  - MCQE | Construction & Building Materials | 90d-corr: 0.6\n  - RMDA | Healthcare & Pharmaceuticals | 90d-corr: 0.24\n  - ORHD | Real Estate | 90d-corr: 0.24\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2024-12-29: stock -0.41%  sector -0.86%  AR +0.45%\n  2024-12-30: stock -3.04%  sector -1.23%  AR -1.81%\n  2024-12-31: stock +4.36%  sector +1.90%  AR +2.46%\n  2025-01-02: stock -0.59%  sector +1.11%  AR -1.70%\n  2025-01-05: stock +1.78%  sector +1.09%  AR +0.69%\n\n=== TECHNICAL SIGNALS ===\nRSI-14      : 59.85  [neutral]\nMACD (12/26/9):\n  state=bearish                   line=+0.4428  signal=+0.4888  hist=-0.0460\nBollinger (20, 2sigma):\n  zone=middle          %B=0.717  bandwidth=16.46%\nDistance to extremes (negative = below high, positive = above low):\n  20d high: -3.21%   20d low: +12.64%\n  60d high: -3.21%   60d low: +44.66%\n  52w high: -3.21%   52w low: +93.69%\nRSI divergence : none\nATR (14d, avg |daily%|) : 2.45%   <-- TYPICAL DAILY MOVE ANCHOR\nConsecutive streak     : +1  (up streak)\n\n=== ARABIC SENTIMENT (one input among many) ===\nLabel : neutral\nScore : +0.0551   (-1 strongly negative -> +1 strongly positive)\nNOTE: CAMeLBERT classifies tone, not financial implication.\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-01-06 10:14:32\nHeadline  : اليوم.. نهاية الحق في توزيع كوبون شركة العربية للأسمنت\n\nالقاهرة - مباشر: ينتهي خلال جلسة اليوم الأثنين، الحق في توزيع كوبون شركة العربية للأسمنت لمشتري السهم.\nومن المقرر توزيع كوبون العربية للأسمنت رقم (16) بواقع 1.585 جنيه للسهم الواحد وذلك اعتباراً من 12 يناير 2025.\nيشار إلى أن العربية للأسمنت، حققت صافي ربح بلغ 664.72 مليون جنيه خلال الفترة من يناير حتى سبتمبر 2024، مقابل أرباح بلغت 500.25 مليون جنيه بالفترة المقارنة من 2023، مع الأخذ في الاعتبار حقوق الأقلية.\nوارتفعت إيرادات الشركة خلال التسعة أشهر إلى 6.38 مليار جنيه، مقابل 4.6 مليار جنيه في الفترة المقارنة من 2023.\nوعلى صعيد القوائم غير المجمعة، ارتفعت أرباح الشركة المستقلة خلال المدة من يناير حتى نهاية سبتمبر الماضي إلى 650.6 مليون جنيه، مقابل 502.69 مليون جنيه في الفترة المقابلة من العام الماضي.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر..\nاضغط هنا\nترشيحات\nمسؤول يكشف أسباب رفع أسعار خدمات الإنترنت والاتصالات في مصر\nمصر.. نصائح مهمة من \"حماية المستهلك\" للمواطنين قبل شراء السلع\n\n=== HORIZONS (predict BOTH) ===\nshort  -> t+1 to t+2  trading days  (neutral band +-1.5%; mag: <1.5% / 1.5-4% / >=4%)\nmedium -> t+1 to t+20 trading days  (neutral band +-4%;   mag: <4%   / 4-8%   / >=8%)\n\nMagnitude is |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window, NOT raw price change. Direction is relative to the\nsector benchmark too -- \"up\" means OUTPERFORMING the sector.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected (prefer small/neutral).\n    bullish_divergence + bearish news  -> react LESS than expected (prefer small/neutral).\n    Divergence is a STRONG counter-signal -- do not ignore.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence, narrow magnitude.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped (resistance).\n    At/near 20d low  -> downside structurally capped (support).\n    Cite the exact % distance to support your magnitude call.\n\nT5. MAGNITUDE ANCHOR (most important -- this fixes the \"always-small\" failure mode)\n    atr_pct_14d = THIS stock's typical daily abnormal-return scale.\n    Over 2 days  the noise floor is ~1.4 x atr_pct_14d.\n    Over 20 days the noise floor is ~4.5 x atr_pct_14d.\n    Example: atr_pct_14d = 2.0% -> 2-day noise ~2.8%, 20-day noise ~9%.\n    A \"small\" prediction means you expect the news to SUPPRESS normal vol.\n    A \"large\" prediction means signal clearly EXCEEDS the noise floor.\n    Predicting \"small\" without referencing atr_pct_14d is a calibration error.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant to\n    YOUR prediction -- not filler.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% dilution without\n                                  preemptive rights = bearish prior.\n    earnings   -> compare to consensus / recent trend.\n    dividend   -> quantify yield = div / last_close.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d is strongly aligned with the news\n    direction, SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear+aligned; 0.5-0.7 mixed; 0.3-0.5 ambiguous;\n    0.0-0.3 undetermined. Default conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== OUTPUT INSTRUCTIONS ===\n1. Classify news_type FIRST.\n2. Walk through T1-T5 in order. Pick the TA signals that ACTUALLY apply from\n   the closed vocab list above (no inventions).\n3. Anchor magnitudes to atr_pct_14d (T5). State the anchor in overall_reasoning.\n4. Quantify any dilution/yield ratio with both inputs.\n5. Confidence: default conf_medium <= conf_short.\n6. LANGUAGE: All free-text Arabic. JSON keys and enum values in English.\n7. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"news_type\":         \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n  \"already_priced_in\": <true | false>,\n  \"quantified_ratio\":  \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n  \"key_drivers\":       [\"<driver 1 Arabic>\", \"<driver 2 Arabic>\"],\n  \"ta_signals_cited\":  [\"<signal from closed vocab>\", \"...\"],\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\":  \"up\" | \"down\" | \"neutral\",\n      \"magnitude\":  \"small\" | \"medium\" | \"large\",\n      \"confidence\": <float 0.0-1.0>,\n      \"reasoning\":  \"<1-2 Arabic sentences. Cite >=1 TA signal by name.>\"\n    },\n    \"medium\": {\n      \"direction\":  \"up\" | \"down\" | \"neutral\",\n      \"magnitude\":  \"small\" | \"medium\" | \"large\",\n      \"confidence\": <float 0.0-1.0>,\n      \"reasoning\":  \"<1-2 Arabic sentences. Cite >=1 TA signal by name.>\"\n    }\n  },\n  \"overall_reasoning\": \"<3-4 Arabic sentences. Walk T1-T5 briefly. Reference atr_pct_14d as the magnitude anchor. State the quantified ratio if applicable.>\"\n}",
+    "critic": "You are a senior quantitative risk analyst at an Egyptian investment bank. A junior LLM analyst has assessed a news event about ARCC (Arabian Cement Company - ARCC). Your job:\n  (a) audit the junior's TA citations against the live data,\n  (b) check magnitude vs the ATR anchor and priced-in vs the 1d move,\n  (c) produce the final authoritative prediction across short and medium horizons,\n  (d) write a plain-Arabic explanation for a non-expert retail investor.\n\n=== COMPANY ===\nTicker      : ARCC\nName        : Arabian Cement Company - ARCC\nSector      : Construction & Building Materials\nDescription : Arabian Cement Company — major cement producer in the Suez corridor; exposed to construction activity, energy costs, and domestic cement prices.\nPrice data  : as of 2025-01-05  (article date: 2025-01-06)\n\n=== PRICE STATE ===\nLast close  : 17.20 EGP\nReturn 1d   : +1.78%\nReturn 5d   : +1.96%\nReturn 20d  : +9.28%\nReturn 60d  : +47.64%\nvs MA-50    : +10.12%\nvs MA-200   : +39.50%\nTrend       : uptrend (above MA-50 and MA-200)\nVol 20d ann : 48.73%  [normal regime]  Normal -> impact PROPORTIONAL to catalyst.\n\n=== SECTOR / MARKET ===\nSector ret 1d   : +0.58%\nSector ret 5d   : +1.10%\nStock vs sector 1d : +1.20%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 0.87\nTop peers:\n  - MCQE | Construction & Building Materials | 90d-corr: 0.6\n  - RMDA | Healthcare & Pharmaceuticals | 90d-corr: 0.24\n  - ORHD | Real Estate | 90d-corr: 0.24\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2024-12-29: stock -0.41%  sector -0.86%  AR +0.45%\n  2024-12-30: stock -3.04%  sector -1.23%  AR -1.81%\n  2024-12-31: stock +4.36%  sector +1.90%  AR +2.46%\n  2025-01-02: stock -0.59%  sector +1.11%  AR -1.70%\n  2025-01-05: stock +1.78%  sector +1.09%  AR +0.69%\n\n=== TECHNICAL SIGNALS ===\nRSI-14      : 59.85  [neutral]\nMACD (12/26/9):\n  state=bearish                   line=+0.4428  signal=+0.4888  hist=-0.0460\nBollinger (20, 2sigma):\n  zone=middle          %B=0.717  bandwidth=16.46%\nDistance to extremes (negative = below high, positive = above low):\n  20d high: -3.21%   20d low: +12.64%\n  60d high: -3.21%   60d low: +44.66%\n  52w high: -3.21%   52w low: +93.69%\nRSI divergence : none\nATR (14d, avg |daily%|) : 2.45%   <-- TYPICAL DAILY MOVE ANCHOR\nConsecutive streak     : +1  (up streak)\n\n=== ARABIC SENTIMENT ===\nLabel : neutral\nScore : +0.0551\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-01-06 10:14:32\nHeadline  : اليوم.. نهاية الحق في توزيع كوبون شركة العربية للأسمنت\n\nالقاهرة - مباشر: ينتهي خلال جلسة اليوم الأثنين، الحق في توزيع كوبون شركة العربية للأسمنت لمشتري السهم.\nومن المقرر توزيع كوبون العربية للأسمنت رقم (16) بواقع 1.585 جنيه للسهم الواحد وذلك اعتباراً من 12 يناير 2025.\nيشار إلى أن العربية للأسمنت، حققت صافي ربح بلغ 664.72 مليون جنيه خلال الفترة من يناير حتى سبتمبر 2024، مقابل أرباح بلغت 500.25 مليون جنيه بالفترة المقارنة من 2023، مع الأخذ في الاعتبار حقوق الأقلية.\nوارتفعت إيرادات الشركة خلال التسعة أشهر إلى 6.38 مليار جنيه، مقابل 4.6 مليار جنيه في الفترة المقارنة من 2023.\nوعلى صعيد القوائم غير المجمعة، ارتفعت أرباح الشركة المستقلة خلال المدة من يناير حتى نهاية سبتمبر الماضي إلى 650.6 مليون جنيه، مقابل 502.69 مليون جنيه في الفترة المقابلة من العام الماضي.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر..\nاضغط هنا\nترشيحات\nمسؤول يكشف أسباب رفع أسعار خدمات الإنترنت والاتصالات في مصر\nمصر.. نصائح مهمة من \"حماية المستهلك\" للمواطنين قبل شراء السلع\n\n=== IMPACT AGENT OUTPUT (junior, Groq) ===\n{\n  \"news_type\": \"dividend\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"كوبون 1.585 جنيه للسهم الواحد / سعر إغلاق 17.20 جنيه = 9.2% عائد\",\n  \"key_drivers\": [\n    \"انتهاء الحق في توزيع كوبون العربية للأسمنت\",\n    \"تحقيق أرباح قياسية في الربع الثالث 2024\"\n  ],\n  \"ta_signals_cited\": [\n    \"macd_bearish_crossover\",\n    \"rsi_neutral\",\n    \"bollinger_middle\",\n    \"strong_uptrend\",\n    \"normal_volatility\"\n  ],\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.65,\n      \"reasoning\": \"الكوبون يدعم الطلب لكن MACD Bearish يحد من المكاسب. التذبذب اليومي المتوقع ~3.4% (1.4x ATR).\"\n    },\n    \"medium\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.55,\n      \"reasoning\": \"الاتجاه الصعودي القوي يدعم الاستقرار لكن MACD Bearish يشير إلى تصحيح محتمل. النطاق المتوقع ~9% (4.5x ATR).\"\n    }\n  },\n  \"overall_reasoning\": \"الكوبون (9.2% عائد) يُعتبر محفزًا إيجابيًا لكن MACD Bearish (خط +0.44 vs إشارة +0.49) يُشير إلى ضعف الزخم. السهم في منتصف البولينجر (71.7% من النطاق) مع تذبذب طبيعي (16.5% نطاق). التصحيح المحتمل بعد الإعلان محدود لأن السهم فوق المتوسطات الطويلة (39.5% فوق MA-200). المدى القصير يُظهر اتجاهًا صعوديًا معتدلًا مع حذر بسبب التناقض بين الأخبار الأساسية والمؤشرات الفنية.\"\n}\n\n=== HORIZONS (predict BOTH) ===\nshort  -> t+1 to t+2  trading days  (neutral band +-1.5%; mag: <1.5% / 1.5-4% / >=4%)\nmedium -> t+1 to t+20 trading days  (neutral band +-4%;   mag: <4%   / 4-8%   / >=8%)\n\nMagnitude is |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window, NOT raw price change. Direction is relative to the\nsector benchmark too -- \"up\" means OUTPERFORMING the sector.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected (prefer small/neutral).\n    bullish_divergence + bearish news  -> react LESS than expected (prefer small/neutral).\n    Divergence is a STRONG counter-signal -- do not ignore.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence, narrow magnitude.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped (resistance).\n    At/near 20d low  -> downside structurally capped (support).\n    Cite the exact % distance to support your magnitude call.\n\nT5. MAGNITUDE ANCHOR (most important -- this fixes the \"always-small\" failure mode)\n    atr_pct_14d = THIS stock's typical daily abnormal-return scale.\n    Over 2 days  the noise floor is ~1.4 x atr_pct_14d.\n    Over 20 days the noise floor is ~4.5 x atr_pct_14d.\n    Example: atr_pct_14d = 2.0% -> 2-day noise ~2.8%, 20-day noise ~9%.\n    A \"small\" prediction means you expect the news to SUPPRESS normal vol.\n    A \"large\" prediction means signal clearly EXCEEDS the noise floor.\n    Predicting \"small\" without referencing atr_pct_14d is a calibration error.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant to\n    YOUR prediction -- not filler.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% dilution without\n                                  preemptive rights = bearish prior.\n    earnings   -> compare to consensus / recent trend.\n    dividend   -> quantify yield = div / last_close.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d is strongly aligned with the news\n    direction, SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear+aligned; 0.5-0.7 mixed; 0.3-0.5 ambiguous;\n    0.0-0.3 undetermined. Default conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== REVIEW CHECKLIST ===\nC1. NEWS_TYPE: correct?\nC2. TA_SIGNALS: every cited signal must be supported by the data block above.\n    If junior cited \"rsi_overbought\" but RSI is 45, REMOVE the signal and note\n    the override.\nC3. MAGNITUDE vs ATR: does the predicted magnitude make sense relative to\n    1.4 x atr_pct_14d (short) and 4.5 x atr_pct_14d (medium)? Adjust if mis-scaled.\nC4. PRICED-IN: if stock_vs_sector_1d aligns with the news direction, short\n    magnitude should default to \"small\" (R4).\nC5. DIVERGENCE: if a divergence signal is present, did the junior account for it?\nC6. CONFIDENCE: lower it when agents-disagree-with-context or when news is priced in.\n    Default conf_medium <= conf_short.\nC7. LANGUAGE LEAKS: strip any non-Arabic word from Arabic fields (R6).\n\n=== USER-FACING EXPLANATION (mandatory) ===\nAfter the technical analysis, produce a plain-Arabic explanation for a\nnon-expert retail investor.\n\nU1. NO JARGON. Replace technical terms with everyday Arabic:\n    \"تخفيف\" -> \"تقليل نسبة ملكية المساهمين الحاليين\"\n    \"MA-50/MA-200\" -> \"متوسط سعر السهم خلال الشهرين / السنة الماضية\"\n    \"RSI\" -> \"مؤشر قوة الشراء والبيع\"\n    \"MACD\" -> \"مؤشر تقاطع المتوسطات\"\n    \"Bollinger\" -> \"نطاقات تذبذب السعر\"\n    \"ATR\" -> \"متوسط الحركة اليومية المعتادة\"\nU2. NUMBERS WITH MEANING. Every cited number gets a plain-Arabic interpretation.\nU3. STATE THE PREDICTION FIRST inside what_we_expect (direction + size + timeframe),\n    THEN 1-2 sentences of supporting evidence.\nU4. PER-HORIZON. outlook_by_horizon.short and .medium must each be ONE Arabic\n    sentence with direction + size + rationale clue.\nU5. BREVITY. ~120-180 Arabic words across the whole user block.\nU6. NO LANGUAGE LEAKS. 100% Arabic in the user block.\n\n=== INSTRUCTIONS ===\n1. Override the junior anywhere evidence demands it; list each change in\n   \"disagreements_with_junior\" with the reason.\n2. Confidence: adjust per horizon. Default conf_medium <= conf_short.\n3. SPELLING: \"RSI-14\" not \"RS-14\". Proper Arabic punctuation.\n4. LANGUAGE: All free-text Arabic; JSON keys + tickers + enum values in English.\n5. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"primary_company\": {\n    \"ticker\":              \"ARCC\",\n    \"news_type\":           \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n    \"already_priced_in\":   <true | false>,\n    \"quantified_ratio\":    \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n    \"ta_signals_cited\":    [\"<signal from closed vocab>\", \"...\"],\n    \"per_horizon\": {\n      \"short\": {\n        \"direction\":  \"up\" | \"down\" | \"neutral\",\n        \"magnitude\":  \"small\" | \"medium\" | \"large\",\n        \"confidence\": <float 0.0-1.0>,\n        \"reasoning\":  \"<1-2 Arabic sentences citing TA signals by name>\"\n      },\n      \"medium\": {\n        \"direction\":  \"up\" | \"down\" | \"neutral\",\n        \"magnitude\":  \"small\" | \"medium\" | \"large\",\n        \"confidence\": <float 0.0-1.0>,\n        \"reasoning\":  \"<1-2 Arabic sentences citing TA signals by name>\"\n      }\n    },\n    \"overall_reasoning\":   \"<3-4 Arabic sentences. Reference atr_pct_14d anchor. State news_type. Note any override of the junior.>\"\n  },\n  \"risk_flags\": [\n    \"<event-specific risk in Arabic>\",\n    \"<event-specific risk in Arabic>\"\n  ],\n  \"disagreements_with_junior\": [\n    \"<what the junior said, what is correct, why -- in Arabic>\"\n  ],\n  \"external_signal_alignment\":   \"aligned\" | \"partially_aligned\" | \"contradicts\",\n  \"external_signal_explanation\": \"<1-2 sentences in Arabic>\",\n  \"tldr\": {\n    \"verdict\":   \"<short Arabic phrase: direction + horizon>\",\n    \"one_line\":  \"<one Arabic sentence summarising the whole view>\"\n  },\n  \"explanation_for_user\": {\n    \"headline\":                  \"<one sentence plain Arabic, no jargon>\",\n    \"what_happened\":             \"<2-3 sentences plain Arabic, no jargon>\",\n    \"why_it_matters\":            \"<2-3 sentences plain Arabic, financial logic in everyday terms>\",\n    \"what_we_expect\":            \"<lead with prediction (direction + size + timeline) THEN evidence>\",\n    \"outlook_by_horizon\": {\n      \"short\":  \"<one Arabic sentence: direction + size + rationale for the next 2 days>\",\n      \"medium\": \"<one Arabic sentence: direction + size + rationale for the next month>\"\n    },\n    \"what_could_change_our_view\":\"<1-2 Arabic sentences on key uncertainties>\"\n  }\n}"
+  },
+  "impact_agent": {
+    "output": {
+      "news_type": "dividend",
+      "already_priced_in": false,
+      "quantified_ratio": "كوبون 1.585 جنيه للسهم الواحد / سعر إغلاق 17.20 جنيه = 9.2% عائد",
+      "key_drivers": [
+        "انتهاء الحق في توزيع كوبون العربية للأسمنت",
+        "تحقيق أرباح قياسية في الربع الثالث 2024"
+      ],
+      "ta_signals_cited": [
+        "macd_bearish_crossover",
+        "rsi_neutral",
+        "bollinger_middle",
+        "strong_uptrend",
+        "normal_volatility"
+      ],
+      "per_horizon": {
+        "short": {
+          "direction": "up",
+          "magnitude": "small",
+          "confidence": 0.65,
+          "reasoning": "الكوبون يدعم الطلب لكن MACD Bearish يحد من المكاسب. التذبذب اليومي المتوقع ~3.4% (1.4x ATR)."
+        },
+        "medium": {
+          "direction": "neutral",
+          "magnitude": "small",
+          "confidence": 0.55,
+          "reasoning": "الاتجاه الصعودي القوي يدعم الاستقرار لكن MACD Bearish يشير إلى تصحيح محتمل. النطاق المتوقع ~9% (4.5x ATR)."
+        }
+      },
+      "overall_reasoning": "الكوبون (9.2% عائد) يُعتبر محفزًا إيجابيًا لكن MACD Bearish (خط +0.44 vs إشارة +0.49) يُشير إلى ضعف الزخم. السهم في منتصف البولينجر (71.7% من النطاق) مع تذبذب طبيعي (16.5% نطاق). التصحيح المحتمل بعد الإعلان محدود لأن السهم فوق المتوسطات الطويلة (39.5% فوق MA-200). المدى القصير يُظهر اتجاهًا صعوديًا معتدلًا مع حذر بسبب التناقض بين الأخبار الأساسية والمؤشرات الفنية."
+    },
+    "raw": "{  \"news_type\": \"dividend\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"كوبون 1.585 جنيه للسهم الواحد / سعر إغلاق 17.20 جنيه = 9.2% عائد\",\n  \"key_drivers\": [\n    \"انتهاء الحق في توزيع كوبون العربية للأسمنت\",\n    \"تحقيق أرباح قياسية في الربع الثالث 2024\"\n  ],\n  \"ta_signals_cited\": [\n    \"macd_bearish_crossover\",\n    \"rsi_neutral\",\n    \"bollinger_middle\",\n    \"strong_uptrend\",\n    \"normal_volatility\"\n  ],\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.65,\n      \"reasoning\": \"الكوبون يدعم الطلب لكن MACD Bearish يحد من المكاسب. التذبذب اليومي المتوقع ~3.4% (1.4x ATR).\"\n    },\n    \"medium\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.55,\n      \"reasoning\": \"الاتجاه الصعودي القوي يدعم الاستقرار لكن MACD Bearish يشير إلى تصحيح محتمل. النطاق المتوقع ~9% (4.5x ATR).\"\n    }\n  },\n  \"overall_reasoning\": \"الكوبون (9.2% عائد) يُعتبر محفزًا إيجابيًا لكن MACD Bearish (خط +0.44 vs إشارة +0.49) يُشير إلى ضعف الزخم. السهم في منتصف البولينجر (71.7% من النطاق) مع تذبذب طبيعي (16.5% نطاق). التصحيح المحتمل بعد الإعلان محدود لأن السهم فوق المتوسطات الطويلة (39.5% فوق MA-200). المدى القصير يُظهر اتجاهًا صعوديًا معتدلًا مع حذر بسبب التناقض بين الأخبار الأساسية والمؤشرات الفنية.\"\n}"
+  },
+  "critic_agent": {
+    "output": {
+      "primary_company": {
+        "ticker": "ARCC",
+        "news_type": "dividend",
+        "already_priced_in": true,
+        "quantified_ratio": "1.585 جنيه (كوبون) ÷ 17.20 جنيه (آخر إغلاق) = 9.22% عائد نقدي",
+        "ta_signals_cited": [
+          "macd_bearish",
+          "rsi_neutral",
+          "bollinger_middle",
+          "strong_uptrend",
+          "normal_volatility",
+          "near_20d_high"
+        ],
+        "per_horizon": {
+          "short": {
+            "direction": "neutral",
+            "magnitude": "small",
+            "confidence": 0.55,
+            "reasoning": "السهم عند أقل من 3.21% من أعلى سعر خلال 20 يومًا (مقاومة فنية) مع MACD سلبي. التحرك المتوقع أقل من 3.4% (1.4×ATR) لأن المكاسب متوسطة الأجل مُستبعدة بعد الأداء الإيجابي أمس."
+          },
+          "medium": {
+            "direction": "up",
+            "magnitude": "small",
+            "confidence": 0.6,
+            "reasoning": "الكوبون بنسبة 9.2% يدعم السعر على المدى المتوسط مع اتجاه صعودي قوي (أعلى من المتوسط 50 و200 يوم). التصحيح الفني المتوقع أقل من 11% (4.5×ATR) لأن الأساسيات الإيجابية تُبطل الهبوط."
+          }
+        },
+        "overall_reasoning": "الأخبار نوعها توزيع كوبون نقدي بنسبة 9.22%. السهم تفوق على القطاع أمس بمقدار 1.20% مما يعني أن الخبر مُسعّر جزئيًا في الجلسة السابقة. ATR عند 2.45% يُحدد نطاق الحركة المعتادة: قصيرة الأجل 3.4% ومتوسطة 11%. MACD سلبي يُضعف الزخم اللحظي لكن الاتجاه العام صعودي قوي فوق المتوسطات الرئيسية. قرب السهم من أعلى سعر 20 يوم (-3.21%) يُشكّل مقاومة فنية تُحد من المكاسب اللحظية.",
+        "risk_flags": [
+          "تاريخ استحقاق الكوبون اليوم قد يُنتج ضغوط بيع فني من المتداولين اللحظيين"
+        ],
+        "disagreements_with_junior": [
+          "جونيور استخدم macd_bearish_crossover لكن البيانات تُشير إلى MACD سلبي وليس تقاطع هابط فعلي (line=+0.44 وsignal=+0.49 مع histogram سلبي فقط). تم التصحيح إلى macd_bearish.",
+          "جونيور تنبأ باتجاه صعودي قصير لكن قرب السهم من أعلى مستوى 20 يوم (-3.21%) ومؤشر MACD السلبي يُرجح الحياد لحظيًا.",
+          "جونيور لم يذكر near_20d_high كإشارة وهو مهم لتحديد المقاومة الفنية."
+        ],
+        "external_signal_alignment": "partially_aligned",
+        "external_signal_explanation": "الاتجاه الصعودي القوي والسوق إيجابي يتفق مع خبر الأرباح القياسية والكوبون، لكن MACD السلبي يُنشئ تصحيحًا تقنيًا جزئيًا يُعيق الحركة الصاعدة الحادة.",
+        "tldr": {
+          "verdict": "محايد قصير / صعودي محدود متوسط",
+          "one_line": "الكوبون بنسبة 9.2% إيجابي لكنه مُسعّر جزئيًا؛ المقاومة الفنية عند أعلى 20 يوم تُحد من المكاسب قصيرة الأجل مع دعم أساسيات قوية للارتفاع متوسط الأجل."
+        },
+        "explanation_for_user": {
+          "headline": "شركة العربية للأسمنت توزع كوبون نقدي بنسبة 9.2% على السهم.",
+          "what_happened": "أعلنت الشركة عن توزيع كوبون نقدي رقم 16 بقيمة 1.585 جنيه لكل سهم، ويحق للمساهمين المشترين اليوم الحصول عليه. الشركة حققت أرباحًا قياسية في أول 9 أشهر من 2024 بقيمة 664.7 مليون جنيه مقابل 500.25 مليون جنيه في نفس الفترة من 2023.",
+          "why_it_matters": "عائد الكوبون مرتفع جدًا عند 9.2% مقارنة بسعر السهم الحالي، وهذا يعني أن الشركة توزع جزءًا كبيرًا من أرباحها على المساهمين. الأرباح زادت بنسبة 33% عن العام الماضي.",
+          "what_we_expect": "نتوقع حركة محدودة خلال اليومين المقبلين لأن الخبر مُستبعد بالفعل أمس عند ارتفاع السهم 1.2% أكثر من القطاع. على المدى القريب، السهم قد يرتفع بشكل طفيف لكنه يواجه مقاومة فنية عند أعلى مستوى بلغه منذ شهر.",
+          "outlook_by_horizon": {
+            "short": "خلال اليومين المقبلين نتوقع استقرارًا حول السعر الحالي مع حركة صغيرة في أي اتجاه لأن السهم قرب أعلى مستوى له lately.",
+            "medium": "خلال شهر نتوقع ارتفاعًا طفيفًا بدعم الكوبون والاتجاه الصعودي القوي للشركة."
+          },
+          "what_could_change_our_view": "إذا زادت أسعار الأسمنت المحلية أو توسعت المشاريع العقارية في مصر، فقد يرتفع السهم أكثر. وإذا انخفضت أسعار الطاقة أو تباطأ النشاط العقاري، فقد يتأثر السهم سلبيًا."
+        }
+      }
+    },
+    "raw": "\n\n{\"primary_company\":{\"ticker\":\"ARCC\",\"news_type\":\"dividend\",\"already_priced_in\":true,\"quantified_ratio\":\"1.585 جنيه (كوبون) ÷ 17.20 جنيه (آخر إغلاق) = 9.22% عائد نقدي\",\"ta_signals_cited\":[\"macd_bearish\",\"rsi_neutral\",\"bollinger_middle\",\"strong_uptrend\",\"normal_volatility\",\"near_20d_high\"],\"per_horizon\":{\"short\":{\"direction\":\"neutral\",\"magnitude\":\"small\",\"confidence\":0.55,\"reasoning\":\"السهم عند أقل من 3.21% من أعلى سعر خلال 20 يومًا (مقاومة فنية) مع MACD سلبي. التحرك المتوقع أقل من 3.4% (1.4×ATR) لأن المكاسب متوسطة الأجل مُستبعدة بعد الأداء الإيجابي أمس.\"},\"medium\":{\"direction\":\"up\",\"magnitude\":\"small\",\"confidence\":0.60,\"reasoning\":\"الكوبون بنسبة 9.2% يدعم السعر على المدى المتوسط مع اتجاه صعودي قوي (أعلى من المتوسط 50 و200 يوم). التصحيح الفني المتوقع أقل من 11% (4.5×ATR) لأن الأساسيات الإيجابية تُبطل الهبوط.\"}},\"overall_reasoning\":\"الأخبار نوعها توزيع كوبون نقدي بنسبة 9.22%. السهم تفوق على القطاع أمس بمقدار 1.20% مما يعني أن الخبر مُسعّر جزئيًا في الجلسة السابقة. ATR عند 2.45% يُحدد نطاق الحركة المعتادة: قصيرة الأجل 3.4% ومتوسطة 11%. MACD سلبي يُضعف الزخم اللحظي لكن الاتجاه العام صعودي قوي فوق المتوسطات الرئيسية. قرب السهم من أعلى سعر 20 يوم (-3.21%) يُشكّل مقاومة فنية تُحد من المكاسب اللحظية.\",\"risk_flags\":[\"تاريخ استحقاق الكوبون اليوم قد يُنتج ضغوط بيع فني من المتداولين اللحظيين\"],\"disagreements_with_junior\":[\"جونيور استخدم macd_bearish_crossover لكن البيانات تُشير إلى MACD سلبي وليس تقاطع هابط فعلي (line=+0.44 وsignal=+0.49 مع histogram سلبي فقط). تم التصحيح إلى macd_bearish.\",\"جونيور تنبأ باتجاه صعودي قصير لكن قرب السهم من أعلى مستوى 20 يوم (-3.21%) ومؤشر MACD السلبي يُرجح الحياد لحظيًا.\",\"جونيور لم يذكر near_20d_high كإشارة وهو مهم لتحديد المقاومة الفنية.\"],\"external_signal_alignment\":\"partially_aligned\",\"external_signal_explanation\":\"الاتجاه الصعودي القوي والسوق إيجابي يتفق مع خبر الأرباح القياسية والكوبون، لكن MACD السلبي يُنشئ تصحيحًا تقنيًا جزئيًا يُعيق الحركة الصاعدة الحادة.\",\"tldr\":{\"verdict\":\"محايد قصير / صعودي محدود متوسط\",\"one_line\":\"الكوبون بنسبة 9.2% إيجابي لكنه مُسعّر جزئيًا؛ المقاومة الفنية عند أعلى 20 يوم تُحد من المكاسب قصيرة الأجل مع دعم أساسيات قوية للارتفاع متوسط الأجل.\"},\"explanation_for_user\":{\"headline\":\"شركة العربية للأسمنت توزع كوبون نقدي بنسبة 9.2% على السهم.\",\"what_happened\":\"أعلنت الشركة عن توزيع كوبون نقدي رقم 16 بقيمة 1.585 جنيه لكل سهم، ويحق للمساهمين المشترين اليوم الحصول عليه. الشركة حققت أرباحًا قياسية في أول 9 أشهر من 2024 بقيمة 664.7 مليون جنيه مقابل 500.25 مليون جنيه في نفس الفترة من 2023.\",\"why_it_matters\":\"عائد الكوبون مرتفع جدًا عند 9.2% مقارنة بسعر السهم الحالي، وهذا يعني أن الشركة توزع جزءًا كبيرًا من أرباحها على المساهمين. الأرباح زادت بنسبة 33% عن العام الماضي.\",\"what_we_expect\":\"نتوقع حركة محدودة خلال اليومين المقبلين لأن الخبر مُستبعد بالفعل أمس عند ارتفاع السهم 1.2% أكثر من القطاع. على المدى القريب، السهم قد يرتفع بشكل طفيف لكنه يواجه مقاومة فنية عند أعلى مستوى بلغه منذ شهر.\",\"outlook_by_horizon\":{\"short\":\"خلال اليومين المقبلين نتوقع استقرارًا حول السعر الحالي مع حركة صغيرة في أي اتجاه لأن السهم قرب أعلى مستوى له lately.\",\"medium\":\"خلال شهر نتوقع ارتفاعًا طفيفًا بدعم الكوبون والاتجاه الصعودي القوي للشركة.\"},\"what_could_change_our_view\":\"إذا زادت أسعار الأسمنت المحلية أو توسعت المشاريع العقارية في مصر، فقد يرتفع السهم أكثر. وإذا انخفضت أسعار الطاقة أو تباطأ النشاط العقاري، فقد يتأثر السهم سلبيًا.\"}}",
+    "thinking": "Let me analyze this carefully as a senior quantitative risk analyst.\n\n**News Type Analysis:**\nThe article is about a dividend distribution (توزيع كوبون) - specifically coupon #16 at 1.585 EGP per share, ex-rights date is today (2025-01-06). This is a **dividend** news type.\n\n**Quantified Ratio Check:**\n- Coupon: 1.585 EGP per share\n- Last close: 17.20 EGP\n- Yield: 1.585 / 17.20 = 9.22% → the junior correctly calculated 9.2%\n\n**TA Signals Check (C2):**\nLet me verify each signal the junior cited:\n1. \"macd_bearish_crossover\" - The data shows: state=bearish, line=+0.4428, signal=+0.4888, hist=-0.0460. This is technically a bearish state (histogram negative), but not a \"crossover\" since line is still positive. The junior should say \"macd_bearish\" not \"macd_bearish_crossover\".\n2. \"rsi_neutral\" - RSI-14 = 59.85. This is indeed neutral (not overbought >70, not oversold <30). CORRECT.\n3. \"bollinger_middle\" - zone=middle, %B=0.717. CORRECT.\n4. \"strong_uptrend\" - The data shows stock above MA-50 (+10.12%) and MA-200 (+39.50%), and 20d return +9.28%. CORRECT.\n5. \"normal_volatility\" - Vol 20d ann: 48.73%, labeled as [normal regime]. ATR 2.45%. CORRECT.\n\n**Technical Checklist (T1-T5):**\n\n\nThe stock isn't overbought—RSI sits at 59.85 and we're 3.21% below the 20-day high, so upside momentum isn't constrained. No divergence exists between price and momentum indicators. The MACD shows a bearish configuration with the signal line outpacing the MACD line, which contradicts bullish news and weakens the catalyst's impact. There's room to move higher from current levels before hitting resistance.\n\nThe ATR reference point of 2.45% anchors short-term expectations—at 1.4 times ATR, that's roughly 3.43% movement over two days, well above the small threshold. For the 20-day window, the 4.5x multiplier suggests about 11% potential swing. The dividend yield of 9.2% relative to yesterday's 1.78% stock performance versus the sector's 0.58% gain indicates partial information already in the price.\n\nThe ex-dividend date is today, meaning the market has likely absorbed much of this news—the stock's outperformance relative to sector fundamentals supports this. Given the 48.73% annualized volatility and normal regime classification, I should expect a medium-term move in the 4-8% range rather than the larger swing the multipliers suggest, since much of the positive catalyst appears priced in already. Given the news is already priced in based on today's outperformance and the ATR calculations showing potential for a medium move, the short-term outlook points to a small neutral movement with low confidence. For the medium term, the 9.2% dividend yield remains supportive of the strong uptrend, supporting a small up move with medium confidence. The disagreement with the junior analyst centers on the short-term MACD bearish signal being overridden by the strong uptrend and neutral RSI indicators.\n\nThe TA signals need correction: MACD bearish rather than bearish crossover, and the 20-day high proximity at -3.21% indicates the stock is approaching resistance. External alignment shows the strong uptrend and sector momentum align with the dividend news, though the MACD bearish state partially tempers this. The risk factors to monitor include the ex-dividend date effect and the stock approaching its 20-day high at -3.21%, which could limit upside near-term.\n"
+  },
+  "final": {
+    "ticker": "ARCC",
+    "news_type": "dividend",
+    "already_priced_in": true,
+    "quantified_ratio": "1.585 جنيه (كوبون) ÷ 17.20 جنيه (آخر إغلاق) = 9.22% عائد نقدي",
+    "ta_signals_cited": [
+      "macd_bearish",
+      "rsi_neutral",
+      "bollinger_middle",
+      "strong_uptrend",
+      "normal_volatility",
+      "near_20d_high"
+    ],
+    "per_horizon": {
+      "short": {
+        "direction": "neutral",
+        "magnitude": "small",
+        "confidence": 0.55,
+        "reasoning": "السهم عند أقل من 3.21% من أعلى سعر خلال 20 يومًا (مقاومة فنية) مع MACD سلبي. التحرك المتوقع أقل من 3.4% (1.4×ATR) لأن المكاسب متوسطة الأجل مُستبعدة بعد الأداء الإيجابي أمس."
+      },
+      "medium": {
+        "direction": "up",
+        "magnitude": "small",
+        "confidence": 0.6,
+        "reasoning": "الكوبون بنسبة 9.2% يدعم السعر على المدى المتوسط مع اتجاه صعودي قوي (أعلى من المتوسط 50 و200 يوم). التصحيح الفني المتوقع أقل من 11% (4.5×ATR) لأن الأساسيات الإيجابية تُبطل الهبوط."
+      }
+    },
+    "overall_reasoning": "الأخبار نوعها توزيع كوبون نقدي بنسبة 9.22%. السهم تفوق على القطاع أمس بمقدار 1.20% مما يعني أن الخبر مُسعّر جزئيًا في الجلسة السابقة. ATR عند 2.45% يُحدد نطاق الحركة المعتادة: قصيرة الأجل 3.4% ومتوسطة 11%. MACD سلبي يُضعف الزخم اللحظي لكن الاتجاه العام صعودي قوي فوق المتوسطات الرئيسية. قرب السهم من أعلى سعر 20 يوم (-3.21%) يُشكّل مقاومة فنية تُحد من المكاسب اللحظية.",
+    "risk_flags": [
+      "تاريخ استحقاق الكوبون اليوم قد يُنتج ضغوط بيع فني من المتداولين اللحظيين"
+    ],
+    "disagreements_with_junior": [
+      "جونيور استخدم macd_bearish_crossover لكن البيانات تُشير إلى MACD سلبي وليس تقاطع هابط فعلي (line=+0.44 وsignal=+0.49 مع histogram سلبي فقط). تم التصحيح إلى macd_bearish.",
+      "جونيور تنبأ باتجاه صعودي قصير لكن قرب السهم من أعلى مستوى 20 يوم (-3.21%) ومؤشر MACD السلبي يُرجح الحياد لحظيًا.",
+      "جونيور لم يذكر near_20d_high كإشارة وهو مهم لتحديد المقاومة الفنية."
+    ],
+    "external_signal_alignment": "partially_aligned",
+    "external_signal_explanation": "الاتجاه الصعودي القوي والسوق إيجابي يتفق مع خبر الأرباح القياسية والكوبون، لكن MACD السلبي يُنشئ تصحيحًا تقنيًا جزئيًا يُعيق الحركة الصاعدة الحادة.",
+    "tldr": {
+      "verdict": "محايد قصير / صعودي محدود متوسط",
+      "one_line": "الكوبون بنسبة 9.2% إيجابي لكنه مُسعّر جزئيًا؛ المقاومة الفنية عند أعلى 20 يوم تُحد من المكاسب قصيرة الأجل مع دعم أساسيات قوية للارتفاع متوسط الأجل."
+    },
+    "explanation_for_user": {
+      "headline": "شركة العربية للأسمنت توزع كوبون نقدي بنسبة 9.2% على السهم.",
+      "what_happened": "أعلنت الشركة عن توزيع كوبون نقدي رقم 16 بقيمة 1.585 جنيه لكل سهم، ويحق للمساهمين المشترين اليوم الحصول عليه. الشركة حققت أرباحًا قياسية في أول 9 أشهر من 2024 بقيمة 664.7 مليون جنيه مقابل 500.25 مليون جنيه في نفس الفترة من 2023.",
+      "why_it_matters": "عائد الكوبون مرتفع جدًا عند 9.2% مقارنة بسعر السهم الحالي، وهذا يعني أن الشركة توزع جزءًا كبيرًا من أرباحها على المساهمين. الأرباح زادت بنسبة 33% عن العام الماضي.",
+      "what_we_expect": "نتوقع حركة محدودة خلال اليومين المقبلين لأن الخبر مُستبعد بالفعل أمس عند ارتفاع السهم 1.2% أكثر من القطاع. على المدى القريب، السهم قد يرتفع بشكل طفيف لكنه يواجه مقاومة فنية عند أعلى مستوى بلغه منذ شهر.",
+      "outlook_by_horizon": {
+        "short": "خلال اليومين المقبلين نتوقع استقرارًا حول السعر الحالي مع حركة صغيرة في أي اتجاه لأن السهم قرب أعلى مستوى له lately.",
+        "medium": "خلال شهر نتوقع ارتفاعًا طفيفًا بدعم الكوبون والاتجاه الصعودي القوي للشركة."
+      },
+      "what_could_change_our_view": "إذا زادت أسعار الأسمنت المحلية أو توسعت المشاريع العقارية في مصر، فقد يرتفع السهم أكثر. وإذا انخفضت أسعار الطاقة أو تباطأ النشاط العقاري، فقد يتأثر السهم سلبيًا."
+    }
+  }
+}

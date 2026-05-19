@@ -1,0 +1,348 @@
+{
+  "ticker": "TMGH",
+  "article_date": "2025-01-15",
+  "context_date": "2025-01-14",
+  "processed_at": "2026-05-17T23:55:13.117033",
+  "article": {
+    "symbol": "TMGH",
+    "company": "T M G Holding",
+    "isin": "EGS691S1C011",
+    "sector": "Real Estate",
+    "id": "4392371",
+    "date": "2025-01-15",
+    "time": "16:54:46",
+    "datetime": "2025-01-15 16:54:46",
+    "title": "بقيادة \"طلعت مصطفى\".. 5 أسهم كبرى تستقطب سيولة تتجاوز مليار جنيه",
+    "body": "القاهرة - مباشر: مع استمرار ارتفاع السيولة في بورصة مصر استقطبت 5 أسهم كبرى تداولات تتجاوز قيمتها مليار جنيه بقيادة \"طلعت مصطفى\".\nواستقطب سهم \"طلعت مصطفى\" نحو 449.69 مليون جنيه، يليه \"مصر الجديدة\" بنحو 188.25 مليون جنيه، ثم \"التجاري الدولي\" بنحو 161.3 مليون جنيه.\nكما تم التداول على كل من \"حديد عز\" و \"فوري\" بنحو 160.14 مليون جنيه و 103.9 مليون جنيه على التوالي.\nوتم التداول خلال التعاملات اليوم على 936 مليون سهم، بقيمة تداول بلغت 3.8 مليار جنيه عبر 100.27 ألف عملية، من خلال التعامل على 207 سهم خلال الجلسة، ارتفع منها 137 سهمًا، وتراجعت أسعار 41 سهمًا، في حين استقرت أسعار 29 سهمًا دون تغيير.\nوواصلت مؤشرات البورصة المصرية ارتفاعها في ختام جلسة اليوم الأربعاء للجلسة الثانية، وسط مكاسب سوقية تصل إلى 32.6 مليار جنيه.\nوارتفع المؤشر الرئيسى للبورصة “EGX30” بنسبة 1.46% ليغلق عند مستوى 29389 نقطة، وسجل سهم \"التجاري الدولي\" صاحب الوزن النسبي الأكبر بالمؤشر الرئيسي ارتفعاً بنسبة 0.67% .\nوحقق رأس المال السوقي بنهاية التعاملات مكاسب سوقية بقيمة 32.6 مليار جنيه، ليغلق عند مستوى 2.177 تريليون جنيه.\nوارتفع مؤشر الشركات المتوسطة والصغيرة “EGX70” متساوى الأوزان بنسبة 1.37% ليغلق عند مستوى 8121.67 نقطة، كما صعد المؤشر الأوسع نطاقاً “EGX100” متساوى الأوزان بنسبة 1.47% ليغلق عند مستوى 11199.23 نقطة.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر..\nاضغط هنا\nترشيحات\nمسؤول يكشف أسباب رفع أسعار خدمات الإنترنت والاتصالات في مصر\nمصر.. نصائح مهمة من \"حماية المستهلك\" للمواطنين قبل شراء السلع",
+    "teaser": "القاهرة - مباشر: مع استمرار ارتفاع السيولة في بورصة مصر استقطبت 5 أسهم كبرى تداولات تتجاوز قيمتها مليار جنيه بقيادة \"طلعت مصطفى\". واستقطب سهم \"طلعت مصطفى\" نحو 449.69 مليون جنيه، يليه \"مصر الجديدة\" بنحو 188.25 مليون جنيه، ثم \"التجاري الدولي\" بنحو …",
+    "section": "حركة التداولات",
+    "source": "خاص مباشر",
+    "categories": "market-reports,stock-bonds,exclusive",
+    "country": "مصر",
+    "reads": 1175,
+    "url": "https://www.mubasher.info/news/4392371",
+    "image_url": "https://static.mubasher.info/File.Story_Image/e444b6a4ebc0823217487eb75eae2653/640.jpg",
+    "date_raw": ""
+  },
+  "sentiment": {
+    "model": "CAMeL-Lab/bert-base-arabic-camelbert-mix-sentiment",
+    "label": "neutral",
+    "score": 0.1368,
+    "numeric": 0,
+    "class_probs": {
+      "neutral": 0.8556,
+      "positive": 0.1406,
+      "negative": 0.0038
+    }
+  },
+  "context": {
+    "ticker": "TMGH",
+    "company": "TMG Holding - TMGH",
+    "sector": "Real Estate",
+    "business_description": "TMG Holding (Talaat Moustafa Group) — Egypt's largest listed real estate developer by land bank; flagship project is Madinaty new city east of Cairo.",
+    "event_date": "2025-01-15",
+    "last_price_date": "2025-01-14",
+    "price_state": {
+      "last_close": 52.72,
+      "return_1d": 8.25,
+      "return_5d": -2.73,
+      "return_20d": -5.03,
+      "return_60d": -5.86,
+      "pct_vs_ma50": -7.74,
+      "pct_vs_ma200": -10.43,
+      "vol_20d_annualized_pct": 45.87,
+      "vol_regime": "normal",
+      "rsi_14": 42.67
+    },
+    "market_state": {
+      "sector_return_1d": 4.81,
+      "sector_return_5d": -5.13,
+      "relative_strength_vs_sector_1d": 3.44
+    },
+    "correlation_state": {
+      "corr_with_sector_90d": 0.71,
+      "top_3_correlated_peers": [
+        {
+          "ticker": "EMFD",
+          "correlation": 0.49,
+          "sector": "Real Estate"
+        },
+        {
+          "ticker": "PHDC",
+          "correlation": 0.45,
+          "sector": "Real Estate"
+        },
+        {
+          "ticker": "MASR",
+          "correlation": 0.45,
+          "sector": "Real Estate"
+        }
+      ]
+    },
+    "recent_abnormal_returns": [
+      {
+        "date": "2025-01-08",
+        "stock_return_pct": -1.29,
+        "sector_return_pct": -1.2,
+        "abnormal_return_pct": -0.09
+      },
+      {
+        "date": "2025-01-09",
+        "stock_return_pct": -1.87,
+        "sector_return_pct": -1.38,
+        "abnormal_return_pct": -0.49
+      },
+      {
+        "date": "2025-01-12",
+        "stock_return_pct": -1.33,
+        "sector_return_pct": -1.66,
+        "abnormal_return_pct": 0.33
+      },
+      {
+        "date": "2025-01-13",
+        "stock_return_pct": -5.98,
+        "sector_return_pct": -4.15,
+        "abnormal_return_pct": -1.83
+      },
+      {
+        "date": "2025-01-14",
+        "stock_return_pct": 8.25,
+        "sector_return_pct": 1.5,
+        "abnormal_return_pct": 6.75
+      }
+    ],
+    "technical_signals": {
+      "rsi_14": 42.67,
+      "rsi_zone": "neutral",
+      "macd": {
+        "line": -1.528,
+        "signal": -1.1511,
+        "histogram": -0.377,
+        "state": "bearish"
+      },
+      "bollinger": {
+        "pct_b": 0.255,
+        "bandwidth_pct": 15.67,
+        "zone": "middle"
+      },
+      "distance_to_extremes": {
+        "20d_high_distance_pct": -8.3,
+        "20d_low_distance_pct": 8.25,
+        "60d_high_distance_pct": -15.51,
+        "60d_low_distance_pct": 8.25,
+        "252d_high_distance_pct": -37.26,
+        "252d_low_distance_pct": 123.39
+      },
+      "rsi_divergence": "none",
+      "atr_pct_14d": 2.32,
+      "consecutive_streak": 1
+    },
+    "dynamic_bands": {
+      "horizon_trading_days": {
+        "short": 1,
+        "medium": 5,
+        "large": 20
+      },
+      "neutral_band_pct": {
+        "short": 1.16,
+        "medium": 2.59,
+        "large": 5.19
+      },
+      "magnitude_bands_pct": {
+        "short": {
+          "small": [
+            0.0,
+            1.62
+          ],
+          "medium": [
+            1.62,
+            4.64
+          ],
+          "large": [
+            4.64,
+            null
+          ]
+        },
+        "medium": {
+          "small": [
+            0.0,
+            3.63
+          ],
+          "medium": [
+            3.63,
+            10.38
+          ],
+          "large": [
+            10.38,
+            null
+          ]
+        },
+        "large": {
+          "small": [
+            0.0,
+            7.26
+          ],
+          "medium": [
+            7.26,
+            20.75
+          ],
+          "large": [
+            20.75,
+            null
+          ]
+        }
+      },
+      "atr_pct_anchor": 2.32
+    },
+    "news_timing": {
+      "in_trading_hours": false,
+      "arrived_at_str": "2025-01-15 16:54:46",
+      "start_day_label": "next trading day after event_date (news arrived outside EGX hours)"
+    }
+  },
+  "prompts": {
+    "impact": "You are a quantitative analyst predicting Egyptian Stock Exchange (EGX) stock reactions to Arabic news. Your prediction must be grounded in the technical signals provided and calibrated to this specific ticker's volatility.\n\n=== COMPANY ===\nTicker      : TMGH\nName        : TMG Holding - TMGH\nSector      : Real Estate\nDescription : TMG Holding (Talaat Moustafa Group) — Egypt's largest listed real estate developer by land bank; flagship project is Madinaty new city east of Cairo.\nPrice data  : as of 2025-01-14  (article date: 2025-01-15)\n\n=== PRICE STATE ===\nLast close  : 52.72 EGP\nReturn 1d   : +8.25%   5d : -2.73%   20d : -5.03%   60d : -5.86%\nvs MA-50    : -7.74%  vs MA-200 : -10.43%\nTrend       : downtrend (below MA-50 and MA-200)\nVol 20d ann : 45.87%  [normal regime]  Normal -> impact PROPORTIONAL to catalyst.\n\n=== SECTOR ===\nSector 1d   : +4.81%  5d : -5.13%\nStock vs sector 1d : +3.44%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 0.71\nTop peers:\n  - EMFD | Real Estate | 90d-corr: 0.49\n  - PHDC | Real Estate | 90d-corr: 0.45\n  - MASR | Real Estate | 90d-corr: 0.45\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2025-01-08: stock -1.29%  sector -1.20%  AR -0.09%\n  2025-01-09: stock -1.87%  sector -1.38%  AR -0.49%\n  2025-01-12: stock -1.33%  sector -1.66%  AR +0.33%\n  2025-01-13: stock -5.98%  sector -4.15%  AR -1.83%\n  2025-01-14: stock +8.25%  sector +1.50%  AR +6.75%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 42.67  [neutral]\nMACD      : state=bearish  hist=-0.3770\nBollinger : zone=middle  %B=0.255\nDistance  : 20d_hi -8.30%  20d_lo +8.25%  60d_hi -15.51%  60d_lo +8.25%  52w_hi -37.26%  52w_lo +123.39%\nDivergence : none\nATR 14d   : 2.32%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : +1 (up streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=2.32%) ===\n  short   (N= 1d)  neutral=+-1.16%  small <1.62%  medium 1.62%-4.64%  large >=4.64%\n  medium  (N= 5d)  neutral=+-2.59%  small <3.63%  medium 3.63%-10.38%  large >=10.38%\n  large   (N=20d)  neutral=+-5.19%  small <7.26%  medium 7.26%-20.75%  large >=20.75%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-01-15 16:54:46\nIn trading hours: False  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : next trading day after event_date (news arrived outside EGX hours)\n-> short = the start day itself; medium = +5 trading days; large = +20 trading days.\n\n=== ARABIC SENTIMENT (one input among many) ===\nLabel : neutral\nScore : +0.1368   (-1 strongly negative -> +1 strongly positive)\nNOTE: CAMeLBERT classifies tone, not financial implication.\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : خاص مباشر\nPublished : 2025-01-15 16:54:46\nHeadline  : بقيادة \"طلعت مصطفى\".. 5 أسهم كبرى تستقطب سيولة تتجاوز مليار جنيه\n\nالقاهرة - مباشر: مع استمرار ارتفاع السيولة في بورصة مصر استقطبت 5 أسهم كبرى تداولات تتجاوز قيمتها مليار جنيه بقيادة \"طلعت مصطفى\".\nواستقطب سهم \"طلعت مصطفى\" نحو 449.69 مليون جنيه، يليه \"مصر الجديدة\" بنحو 188.25 مليون جنيه، ثم \"التجاري الدولي\" بنحو 161.3 مليون جنيه.\nكما تم التداول على كل من \"حديد عز\" و \"فوري\" بنحو 160.14 مليون جنيه و 103.9 مليون جنيه على التوالي.\nوتم التداول خلال التعاملات اليوم على 936 مليون سهم، بقيمة تداول بلغت 3.8 مليار جنيه عبر 100.27 ألف عملية، من خلال التعامل على 207 سهم خلال الجلسة، ارتفع منها 137 سهمًا، وتراجعت أسعار 41 سهمًا، في حين استقرت أسعار 29 سهمًا دون تغيير.\nوواصلت مؤشرات البورصة المصرية ارتفاعها في ختام جلسة اليوم الأربعاء للجلسة الثانية، وسط مكاسب سوقية تصل إلى 32.6 مليار جنيه.\nوارتفع المؤشر الرئيسى للبورصة “EGX30” بنسبة 1.46% ليغلق عند مستوى 29389 نقطة، وسجل سهم \"التجاري الدولي\" صاحب الوزن النسبي الأكبر بالمؤشر الرئيسي ارتفعاً بنسبة 0.67% .\nوحقق رأس المال السوقي بنهاية التعاملات مكاسب سوقية بقيمة 32.6 مليار جنيه، ليغلق عند مستوى 2.177 تريليون جنيه.\nوارتفع مؤشر الشركات المتوسطة والصغيرة “EGX70” متساوى الأوزان بنسبة 1.37% ليغلق عند مستوى 8121.67 نقطة، كما صعد المؤشر الأوسع نطاقاً “EGX100” متساوى الأوزان بنسبة 1.47% ليغلق عند مستوى 11199.23 نقطة.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر..\nاضغط هنا\nترشيحات\nمسؤول يكشف أسباب رفع أسعار خدمات الإنترنت والاتصالات في مصر\nمصر.. نصائح مهمة من \"حماية المستهلك\" للمواطنين قبل شراء السلع\n\n=== HORIZONS (predict ALL THREE) ===\nshort  -> 1  trading day  from start  (the start day's reaction)\nmedium -> 5  trading days from start  (one trading week cumulative)\nlarge  -> 20 trading days from start  (one trading month cumulative)\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- \"up\" means\noutperforming the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== OUTPUT INSTRUCTIONS ===\n1. Classify news_type FIRST.\n2. Walk through T1-T5. Pick TA signals that ACTUALLY apply from the closed vocab.\n3. Anchor magnitudes to the PER-COMPANY bands above (NOT a global rule).\n4. Quantify any dilution/yield ratio with both inputs.\n5. If news_type=dividend, FILL dividend_info; otherwise set it to null.\n6. LANGUAGE: free-text Arabic. JSON keys + enum values in English.\n7. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"news_type\":         \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n  \"already_priced_in\": <true | false>,\n  \"quantified_ratio\":  \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n  \"key_drivers\":       [\"<driver 1 Arabic>\", \"<driver 2 Arabic>\"],\n  \"ta_signals_cited\":  [\"<signal from closed vocab>\", \"...\"],\n  \"dividend_info\": null | {\n    \"yield_pct\":      <float>,\n    \"ex_div_date\":    \"<YYYY-MM-DD or null if unknown>\",\n    \"amount_egp\":     <float or null>\n  },\n  \"per_horizon\": {\n    \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"},\n    \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"},\n    \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"}\n  },\n  \"overall_reasoning\": \"<3-4 Arabic sentences. Walk T1-T5 briefly. Reference the per-company magnitude bands explicitly. State the quantified ratio if applicable.>\"\n}",
+    "critic": "You are a senior quantitative risk analyst at an Egyptian investment bank. A junior LLM analyst has assessed a news event about TMGH (TMG Holding - TMGH). Your job:\n  (a) audit the junior's TA citations against the live data,\n  (b) check magnitudes against the PER-COMPANY bands (not global rules),\n  (c) produce the final authoritative prediction across short / medium / large,\n  (d) write a plain-Arabic explanation for a non-expert retail investor.\n\n=== COMPANY ===\nTicker      : TMGH\nName        : TMG Holding - TMGH\nSector      : Real Estate\nDescription : TMG Holding (Talaat Moustafa Group) — Egypt's largest listed real estate developer by land bank; flagship project is Madinaty new city east of Cairo.\nPrice data  : as of 2025-01-14  (article date: 2025-01-15)\n\n=== PRICE STATE ===\nLast close  : 52.72 EGP\nReturn 1d   : +8.25%   5d : -2.73%   20d : -5.03%   60d : -5.86%\nvs MA-50    : -7.74%  vs MA-200 : -10.43%\nTrend       : downtrend (below MA-50 and MA-200)\nVol 20d ann : 45.87%  [normal regime]  Normal -> impact PROPORTIONAL to catalyst.\n\n=== SECTOR ===\nSector 1d   : +4.81%  5d : -5.13%\nStock vs sector 1d : +3.44%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 0.71\nTop peers:\n  - EMFD | Real Estate | 90d-corr: 0.49\n  - PHDC | Real Estate | 90d-corr: 0.45\n  - MASR | Real Estate | 90d-corr: 0.45\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2025-01-08: stock -1.29%  sector -1.20%  AR -0.09%\n  2025-01-09: stock -1.87%  sector -1.38%  AR -0.49%\n  2025-01-12: stock -1.33%  sector -1.66%  AR +0.33%\n  2025-01-13: stock -5.98%  sector -4.15%  AR -1.83%\n  2025-01-14: stock +8.25%  sector +1.50%  AR +6.75%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 42.67  [neutral]\nMACD      : state=bearish  hist=-0.3770\nBollinger : zone=middle  %B=0.255\nDistance  : 20d_hi -8.30%  20d_lo +8.25%  60d_hi -15.51%  60d_lo +8.25%  52w_hi -37.26%  52w_lo +123.39%\nDivergence : none\nATR 14d   : 2.32%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : +1 (up streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=2.32%) ===\n  short   (N= 1d)  neutral=+-1.16%  small <1.62%  medium 1.62%-4.64%  large >=4.64%\n  medium  (N= 5d)  neutral=+-2.59%  small <3.63%  medium 3.63%-10.38%  large >=10.38%\n  large   (N=20d)  neutral=+-5.19%  small <7.26%  medium 7.26%-20.75%  large >=20.75%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-01-15 16:54:46\nIn trading hours: False  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : next trading day after event_date (news arrived outside EGX hours)\n-> short = the start day itself; medium = +5 trading days; large = +20 trading days.\n\n=== ARABIC SENTIMENT ===\nLabel : neutral\nScore : +0.1368\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : خاص مباشر\nPublished : 2025-01-15 16:54:46\nHeadline  : بقيادة \"طلعت مصطفى\".. 5 أسهم كبرى تستقطب سيولة تتجاوز مليار جنيه\n\nالقاهرة - مباشر: مع استمرار ارتفاع السيولة في بورصة مصر استقطبت 5 أسهم كبرى تداولات تتجاوز قيمتها مليار جنيه بقيادة \"طلعت مصطفى\".\nواستقطب سهم \"طلعت مصطفى\" نحو 449.69 مليون جنيه، يليه \"مصر الجديدة\" بنحو 188.25 مليون جنيه، ثم \"التجاري الدولي\" بنحو 161.3 مليون جنيه.\nكما تم التداول على كل من \"حديد عز\" و \"فوري\" بنحو 160.14 مليون جنيه و 103.9 مليون جنيه على التوالي.\nوتم التداول خلال التعاملات اليوم على 936 مليون سهم، بقيمة تداول بلغت 3.8 مليار جنيه عبر 100.27 ألف عملية، من خلال التعامل على 207 سهم خلال الجلسة، ارتفع منها 137 سهمًا، وتراجعت أسعار 41 سهمًا، في حين استقرت أسعار 29 سهمًا دون تغيير.\nوواصلت مؤشرات البورصة المصرية ارتفاعها في ختام جلسة اليوم الأربعاء للجلسة الثانية، وسط مكاسب سوقية تصل إلى 32.6 مليار جنيه.\nوارتفع المؤشر الرئيسى للبورصة “EGX30” بنسبة 1.46% ليغلق عند مستوى 29389 نقطة، وسجل سهم \"التجاري الدولي\" صاحب الوزن النسبي الأكبر بالمؤشر الرئيسي ارتفعاً بنسبة 0.67% .\nوحقق رأس المال السوقي بنهاية التعاملات مكاسب سوقية بقيمة 32.6 مليار جنيه، ليغلق عند مستوى 2.177 تريليون جنيه.\nوارتفع مؤشر الشركات المتوسطة والصغيرة “EGX70” متساوى الأوزان بنسبة 1.37% ليغلق عند مستوى 8121.67 نقطة، كما صعد المؤشر الأوسع نطاقاً “EGX100” متساوى الأوزان بنسبة 1.47% ليغلق عند مستوى 11199.23 نقطة.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر..\nاضغط هنا\nترشيحات\nمسؤول يكشف أسباب رفع أسعار خدمات الإنترنت والاتصالات في مصر\nمصر.. نصائح مهمة من \"حماية المستهلك\" للمواطنين قبل شراء السلع\n\n=== IMPACT AGENT OUTPUT (junior, Groq) ===\n{\n  \"news_type\": \"other\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"لا ينطبق\",\n  \"key_drivers\": [\n    \"سيولة تداولات تتجاوز مليار جنيه\",\n    \"ارتفاع مؤشرات البورصة المصرية\"\n  ],\n  \"ta_signals_cited\": [\n    \"macd_bearish\",\n    \"strong_downtrend\",\n    \"normal_volatility\",\n    \"near_20d_low\"\n  ],\n  \"dividend_info\": null,\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.65,\n      \"reasoning\": \"السهم في اتجاه هابط لكن التدفق النقدي المذكور في الخبر قد يدعمه فوق القطاع. مؤشر MACD السلبي يقلل من قوة الصعود.\"\n    },\n    \"medium\": {\n      \"direction\": \"down\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.55,\n      \"reasoning\": \"الاتجاه الهابط القوي وال乖离 من المتوسطات الطويلة سيطغى على التأثير القصير. التقلبات الطبيعية لن تكفي لعكس الاتجاه.\"\n    },\n    \"large\": {\n      \"direction\": \"down\",\n      \"magnitude\": \"large\",\n      \"confidence\": 0.45,\n      \"reasoning\": \"السهم يبتعد عن أعلى 60 يوم بـ15.5% وتحت المتوسطات الرئيسية. التذبذب الطبيعي (4.5×ATR) يشير إلى احتمال هبوط أكبر.\"\n    }\n  },\n  \"overall_reasoning\": \"الخبر يعكس سيولة إيجابية لكن دون إشارة إلى أحداث أساسية. مؤشر MACD السلبي والاتجاه الهابط القوي يضغطان على المدى المتوسط. مع أن التدفق النقدي قد يدعم الصعود القصير، فإن الهيكل الفني يشير إلى استمرار التصحيح. حجم التذبذب الطبيعي (4.5×ATR=10.4%) يعزز احتمال هبوط كبير على المدى الطويل.\"\n}\n\n=== HORIZONS (predict ALL THREE) ===\nshort  -> 1  trading day  from start  (the start day's reaction)\nmedium -> 5  trading days from start  (one trading week cumulative)\nlarge  -> 20 trading days from start  (one trading month cumulative)\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- \"up\" means\noutperforming the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== REVIEW CHECKLIST ===\nC1. NEWS_TYPE correct?\nC2. TA_SIGNALS: every cited signal must be supported by the data. Override\n    inconsistent cites and note in disagreements_with_junior.\nC3. MAGNITUDE vs PER-COMPANY BANDS: does the predicted bucket match the\n    horizon's per-company thresholds? Adjust if mis-scaled.\nC4. PRICED-IN: if stock_vs_sector_1d aligns with the news direction, short\n    magnitude should default to \"small\" (R4).\nC5. DIVERGENCE: if a divergence signal is present, did the junior account for it?\nC6. CONFIDENCE: lower when agents-disagree-with-context or news is priced in.\n    Default conf_large <= conf_medium <= conf_short.\nC7. DIVIDEND_INFO: if news_type=dividend, ensure yield_pct is present. If the\n    article gives the ex-div date, extract it as YYYY-MM-DD; otherwise null.\nC8. LANGUAGE LEAKS: strip any non-Arabic word from Arabic fields (R6).\n\n=== USER-FACING EXPLANATION ===\nU1. NO JARGON. Use everyday Arabic equivalents for RSI / MACD / Bollinger /\n    ATR / abnormal return / dilution.\nU2. NUMBERS WITH MEANING. Every cited number gets a plain-Arabic interpretation.\nU3. STATE THE PREDICTION FIRST in what_we_expect (direction + size + timeline),\n    THEN 1-2 sentences of evidence.\nU4. PER-HORIZON. outlook_by_horizon.short / .medium / .large -- one Arabic\n    sentence each with direction + size + rationale clue.\nU5. BREVITY. ~150-200 Arabic words across the whole user block.\nU6. 100% Arabic in the user block.\n\n=== INSTRUCTIONS ===\n1. Override the junior anywhere evidence demands it; list each change in\n   \"disagreements_with_junior\" with the reason.\n2. Confidence: adjust per horizon. Default conf_large <= conf_medium <= conf_short.\n3. SPELLING: \"RSI-14\" not \"RS-14\". Proper Arabic punctuation.\n4. LANGUAGE: free-text Arabic; JSON keys + tickers + enum values in English.\n5. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"primary_company\": {\n    \"ticker\":              \"TMGH\",\n    \"news_type\":           \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n    \"already_priced_in\":   <true | false>,\n    \"quantified_ratio\":    \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n    \"ta_signals_cited\":    [\"<signal from closed vocab>\", \"...\"],\n    \"dividend_info\": null | {\n      \"yield_pct\":   <float>,\n      \"ex_div_date\": \"<YYYY-MM-DD or null>\",\n      \"amount_egp\":  <float or null>\n    },\n    \"per_horizon\": {\n      \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"},\n      \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"},\n      \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"}\n    },\n    \"overall_reasoning\":   \"<3-4 Arabic sentences. Reference the per-company bands. State news_type. Note any override of the junior.>\"\n  },\n  \"risk_flags\": [\n    \"<event-specific risk in Arabic>\",\n    \"<event-specific risk in Arabic>\"\n  ],\n  \"disagreements_with_junior\": [\n    \"<what the junior said, what is correct, why -- in Arabic>\"\n  ],\n  \"external_signal_alignment\":   \"aligned\" | \"partially_aligned\" | \"contradicts\",\n  \"external_signal_explanation\": \"<1-2 sentences in Arabic>\",\n  \"tldr\": {\n    \"verdict\":   \"<short Arabic phrase: direction + horizon>\",\n    \"one_line\":  \"<one Arabic sentence summarising the whole view>\"\n  },\n  \"explanation_for_user\": {\n    \"headline\":                  \"<one sentence plain Arabic, no jargon>\",\n    \"what_happened\":             \"<2-3 sentences plain Arabic, no jargon>\",\n    \"why_it_matters\":            \"<2-3 sentences plain Arabic, financial logic in everyday terms>\",\n    \"what_we_expect\":            \"<lead with prediction (direction + size + timeline) THEN evidence>\",\n    \"outlook_by_horizon\": {\n      \"short\":  \"<one Arabic sentence: direction + size + rationale for the first trading day>\",\n      \"medium\": \"<one Arabic sentence: direction + size + rationale for the first week (5 days)>\",\n      \"large\":  \"<one Arabic sentence: direction + size + rationale for the first month (20 days)>\"\n    },\n    \"what_could_change_our_view\":\"<1-2 Arabic sentences on key uncertainties>\"\n  }\n}"
+  },
+  "impact_agent": {
+    "output": {
+      "news_type": "other",
+      "already_priced_in": false,
+      "quantified_ratio": "لا ينطبق",
+      "key_drivers": [
+        "سيولة تداولات تتجاوز مليار جنيه",
+        "ارتفاع مؤشرات البورصة المصرية"
+      ],
+      "ta_signals_cited": [
+        "macd_bearish",
+        "strong_downtrend",
+        "normal_volatility",
+        "near_20d_low"
+      ],
+      "dividend_info": null,
+      "per_horizon": {
+        "short": {
+          "direction": "up",
+          "magnitude": "medium",
+          "confidence": 0.65,
+          "reasoning": "السهم في اتجاه هابط لكن التدفق النقدي المذكور في الخبر قد يدعمه فوق القطاع. مؤشر MACD السلبي يقلل من قوة الصعود."
+        },
+        "medium": {
+          "direction": "down",
+          "magnitude": "medium",
+          "confidence": 0.55,
+          "reasoning": "الاتجاه الهابط القوي وال乖离 من المتوسطات الطويلة سيطغى على التأثير القصير. التقلبات الطبيعية لن تكفي لعكس الاتجاه."
+        },
+        "large": {
+          "direction": "down",
+          "magnitude": "large",
+          "confidence": 0.45,
+          "reasoning": "السهم يبتعد عن أعلى 60 يوم بـ15.5% وتحت المتوسطات الرئيسية. التذبذب الطبيعي (4.5×ATR) يشير إلى احتمال هبوط أكبر."
+        }
+      },
+      "overall_reasoning": "الخبر يعكس سيولة إيجابية لكن دون إشارة إلى أحداث أساسية. مؤشر MACD السلبي والاتجاه الهابط القوي يضغطان على المدى المتوسط. مع أن التدفق النقدي قد يدعم الصعود القصير، فإن الهيكل الفني يشير إلى استمرار التصحيح. حجم التذبذب الطبيعي (4.5×ATR=10.4%) يعزز احتمال هبوط كبير على المدى الطويل."
+    },
+    "raw": "{  \"news_type\": \"other\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"لا ينطبق\",\n  \"key_drivers\": [\"سيولة تداولات تتجاوز مليار جنيه\", \"ارتفاع مؤشرات البورصة المصرية\"],\n  \"ta_signals_cited\": [\"macd_bearish\", \"strong_downtrend\", \"normal_volatility\", \"near_20d_low\"],\n  \"dividend_info\": null,\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.65,\n      \"reasoning\": \"السهم في اتجاه هابط لكن التدفق النقدي المذكور في الخبر قد يدعمه فوق القطاع. مؤشر MACD السلبي يقلل من قوة الصعود.\"\n    },\n    \"medium\": {\n      \"direction\": \"down\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.55,\n      \"reasoning\": \"الاتجاه الهابط القوي وال乖离 من المتوسطات الطويلة سيطغى على التأثير القصير. التقلبات الطبيعية لن تكفي لعكس الاتجاه.\"\n    },\n    \"large\": {\n      \"direction\": \"down\",\n      \"magnitude\": \"large\",\n      \"confidence\": 0.45,\n      \"reasoning\": \"السهم يبتعد عن أعلى 60 يوم بـ15.5% وتحت المتوسطات الرئيسية. التذبذب الطبيعي (4.5×ATR) يشير إلى احتمال هبوط أكبر.\"\n    }\n  },\n  \"overall_reasoning\": \"الخبر يعكس سيولة إيجابية لكن دون إشارة إلى أحداث أساسية. مؤشر MACD السلبي والاتجاه الهابط القوي يضغطان على المدى المتوسط. مع أن التدفق النقدي قد يدعم الصعود القصير، فإن الهيكل الفني يشير إلى استمرار التصحيح. حجم التذبذب الطبيعي (4.5×ATR=10.4%) يعزز احتمال هبوط كبير على المدى الطويل.\"\n}"
+  },
+  "critic_agent": {
+    "output": {
+      "primary_company": {
+        "ticker": "TMGH",
+        "news_type": "other",
+        "already_priced_in": true,
+        "quantified_ratio": "لا ينطبق",
+        "ta_signals_cited": [
+          "macd_bearish",
+          "strong_downtrend",
+          "normal_volatility",
+          "near_20d_low"
+        ],
+        "dividend_info": null,
+        "per_horizon": {
+          "short": {
+            "direction": "neutral",
+            "magnitude": "small",
+            "confidence": 0.65,
+            "reasoning": "السهم سجل ارتفاعاً بالفعل بنسبة 8.25% متفوقاً على القطاع بـ 3.44% مما يعني أن الخبر سبق تسعيره. مع تأكيد ذلك بمؤشر MACD السلبي يظل الصعود محدوداً."
+          },
+          "medium": {
+            "direction": "down",
+            "magnitude": "small",
+            "confidence": 0.55,
+            "reasoning": "الاتجاه الهابط القوي (أسفل المتوسطين 50 و200 يوم) ومعدل العائد السلبي على 60 يوم (-5.86%) يطغيان على أي صعود قصير. حجم التذبذب الطبيعي (2.2×ATR = 5.1%) ضمن النطاق المتوسط وليس كبيراً."
+          },
+          "large": {
+            "direction": "down",
+            "magnitude": "medium",
+            "confidence": 0.5,
+            "reasoning": "البعد عن أعلى 52 أسبوع (-37.26%) وأعلى 60 يوم (-15.51%) يدعم تصحيحاً أعمق. العائد غير الطبيعي التراكمي في الجلسات الأخيرة سلبي ما يؤكد الضعف الهيكلي."
+          }
+        },
+        "overall_reasoning": "الخبر يتحدث عن سيولة يومية وهمية (البورصة ارتفعت للجلسة الثانية) وهو ليس حدثاً أساسياً. التصحيح الرئيسي هو أن السهم تفوق على القطاع بالفعل بنسبة 3.44% في نفس يوم الخبر مما يعني تسعير الخبر مسبقاً على المدى القصير. على المدى المتوسط والطويل، الاتجاه الهابط الحاد والمؤشرات الفنية السلبية (MACD سلبي وأسفل المتوسطات) تؤكد استمرار الضغط الهبوطي. حجم التذبذب الطبيعي للسهم (ATR=2.32%) يُستخدم كمقياس لتحديد حجم الحركة المتوقعة."
+      },
+      "risk_flags": [
+        "الخبر يتعلق بسيولة يومية وليست بأحداث أساسية جوهرية قد تغير تقييم الشركة",
+        "مؤشر MACD السلبي يشير إلى زخم هبوطي مستمر قد يحد من أي صعود"
+      ],
+      "disagreements_with_junior": [
+        "التوقع القصير: المحلل المبتدئ قدّر صعوداً متوسطة على المدى القصير لكن الصحيح هو محايد لأن السهم تفوق على القطاع بالفعل بنسبة 3.44% اليوم أي تم تسعير الخبر مسبقاً",
+        "التوقع المتوسط: ذكر هبوطاً متوسطة لكن مع العائد غير الطبيعي التراكمي (-2.08% في الجلسات السابقة) والاتجاه الهابط الحاد يظل الحجم ضمن النطاق الصغير وفقاً لنطاق الشركة (3.63%-10.38%) وليس متوسطة",
+        "التوقع البعيد: ذكر هبوطاً كبيرة بحجم >=20.75% لكن المسافة من أعلى 52 أسبوع (-37.26%) لا تبرر هذا الحجم الهائل خاصة أننا قريبون من أدنى 20 يوم (+8.25%) مما يحد من الهبوط الإضافي"
+      ],
+      "external_signal_alignment": "partially_aligned",
+      "external_signal_explanation": "الخبر ايجابي بشأن السيولة لكنه يعكس ارتفاع السوق العام وليس أداءً خاصاً بـ TMGH. العائد غير الطبيعي الإيجابي (+6.75%) أمس يشير إلى أن السوق يتفاعل مع تحسن عام أكثر من أخبار TMGH محددة.",
+      "tldr": {
+        "verdict": "محايد على المدى القصير مع استمرار الاتجاه الهابط على المدى المتوسط والبعيد",
+        "one_line": "السيولة المرتفعة المذكورة في الخبر تم تسعيرها بالفعل في ارتفاع اليوم بنسبة 8.25% مما يحد من مكاسب إضافية قصيرة المدى بينما يظل الاتجاه الهابط الحاد والمؤشرات السلبية ضغطاً مستمراً على المدى المتوسط والبعيد."
+      },
+      "explanation_for_user": {
+        "headline": "ارتفاع سيولة التداول اليوم لا يكفي وحده لتغيير الاتجاه الهابط للسهم",
+        "what_happened": "سهم طلعت مصطفى استقطب سيولة بقيمة 449.69 مليون جنيه مع ارتفاع البورصة المصرية للجلسة الثانية على التوالي. مؤشر EGX30 صعد بنسبة 1.46% ومكاسب سوقية بلغت 32.6 مليار جنيه.",
+        "why_it_matters": "رغم أن سيولة التداول المرتفعة تبدو إيجابية إلا أن السهم سجل ارتفاعاً بنسبة 8.25% اليوم متفوقاً على القطاع بنسبة 3.44% مما يعني أن الخبر تم تسعيره مسبقاً. كما أن السهم لا يزال أسفل متوسطه المتحرك لـ 50 يوم (-7.74%) وأسفل متوسط 200 يوم (-10.43%).",
+        "what_we_expect": "نتوقع حركة محدودة (محايدة صغيرة) خلال اليوم الأول لأن المكسب الأساسي تحقق بالفعل. على مدار الأسبوع القادم نتوقع استمرار الأداء الضعيف تحتSector بسبب الاتجاه الهابط القوي. على مدار الشهر القادم قد يصل التصحيح إلى نسبة متوسطة (حتى 20% من حجم التذبذب الطبيعي للسهم).",
+        "outlook_by_horizon": {
+          "short": "نتوقع استقراراً دون تغير كبير لأن السهم تفوق على القطاع بالفعل اليوم.",
+          "medium": "نتوقع استمرار الأداء الضعيف نسبياً مع احتمال هبوط بنسبة صغيرة إلى متوسطة.",
+          "large": "نتوقع تصحيحاً أعمق قد يصل إلى نسبة متوسطة مع ابتعاد السهم عن أعلى مستويات 52 أسبوع."
+        },
+        "what_could_change_our_view": "إذا جاء إعلان نتائج أعمال إيجابي أو مشروع جديد قد يعكس الاتجاه. كما أن اختراق السهم فوق المتوسط المتحرك لـ 50 يوم سيغير نظرتنا إلى محايد إلى إيجابي."
+      }
+    },
+    "raw": "\n\n```json\n{\n  \"primary_company\": {\n    \"ticker\": \"TMGH\",\n    \"news_type\": \"other\",\n    \"already_priced_in\": true,\n    \"quantified_ratio\": \"لا ينطبق\",\n    \"ta_signals_cited\": [\n      \"macd_bearish\",\n      \"strong_downtrend\",\n      \"normal_volatility\",\n      \"near_20d_low\"\n    ],\n    \"dividend_info\": null,\n    \"per_horizon\": {\n      \"short\": {\n        \"direction\": \"neutral\",\n        \"magnitude\": \"small\",\n        \"confidence\": 0.65,\n        \"reasoning\": \"السهم سجل ارتفاعاً بالفعل بنسبة 8.25% متفوقاً على القطاع بـ 3.44% مما يعني أن الخبر سبق تسعيره. مع تأكيد ذلك بمؤشر MACD السلبي يظل الصعود محدوداً.\"\n      },\n      \"medium\": {\n        \"direction\": \"down\",\n        \"magnitude\": \"small\",\n        \"confidence\": 0.55,\n        \"reasoning\": \"الاتجاه الهابط القوي (أسفل المتوسطين 50 و200 يوم) ومعدل العائد السلبي على 60 يوم (-5.86%) يطغيان على أي صعود قصير. حجم التذبذب الطبيعي (2.2×ATR = 5.1%) ضمن النطاق المتوسط وليس كبيراً.\"\n      },\n      \"large\": {\n        \"direction\": \"down\",\n        \"magnitude\": \"medium\",\n        \"confidence\": 0.50,\n        \"reasoning\": \"البعد عن أعلى 52 أسبوع (-37.26%) وأعلى 60 يوم (-15.51%) يدعم تصحيحاً أعمق. العائد غير الطبيعي التراكمي في الجلسات الأخيرة سلبي ما يؤكد الضعف الهيكلي.\"\n      }\n    },\n    \"overall_reasoning\": \"الخبر يتحدث عن سيولة يومية وهمية (البورصة ارتفعت للجلسة الثانية) وهو ليس حدثاً أساسياً. التصحيح الرئيسي هو أن السهم تفوق على القطاع بالفعل بنسبة 3.44% في نفس يوم الخبر مما يعني تسعير الخبر مسبقاً على المدى القصير. على المدى المتوسط والطويل، الاتجاه الهابط الحاد والمؤشرات الفنية السلبية (MACD سلبي وأسفل المتوسطات) تؤكد استمرار الضغط الهبوطي. حجم التذبذب الطبيعي للسهم (ATR=2.32%) يُستخدم كمقياس لتحديد حجم الحركة المتوقعة.\"\n  },\n  \"risk_flags\": [\n    \"الخبر يتعلق بسيولة يومية وليست بأحداث أساسية جوهرية قد تغير تقييم الشركة\",\n    \"مؤشر MACD السلبي يشير إلى زخم هبوطي مستمر قد يحد من أي صعود\"\n  ],\n  \"disagreements_with_junior\": [\n    \"التوقع القصير: المحلل المبتدئ قدّر صعوداً متوسطة على المدى القصير لكن الصحيح هو محايد لأن السهم تفوق على القطاع بالفعل بنسبة 3.44% اليوم أي تم تسعير الخبر مسبقاً\",\n    \"التوقع المتوسط: ذكر هبوطاً متوسطة لكن مع العائد غير الطبيعي التراكمي (-2.08% في الجلسات السابقة) والاتجاه الهابط الحاد يظل الحجم ضمن النطاق الصغير وفقاً لنطاق الشركة (3.63%-10.38%) وليس متوسطة\",\n    \"التوقع البعيد: ذكر هبوطاً كبيرة بحجم >=20.75% لكن المسافة من أعلى 52 أسبوع (-37.26%) لا تبرر هذا الحجم الهائل خاصة أننا قريبون من أدنى 20 يوم (+8.25%) مما يحد من الهبوط الإضافي\"\n  ],\n  \"external_signal_alignment\": \"partially_aligned\",\n  \"external_signal_explanation\": \"الخبر ايجابي بشأن السيولة لكنه يعكس ارتفاع السوق العام وليس أداءً خاصاً بـ TMGH. العائد غير الطبيعي الإيجابي (+6.75%) أمس يشير إلى أن السوق يتفاعل مع تحسن عام أكثر من أخبار TMGH محددة.\",\n  \"tldr\": {\n    \"verdict\": \"محايد على المدى القصير مع استمرار الاتجاه الهابط على المدى المتوسط والبعيد\",\n    \"one_line\": \"السيولة المرتفعة المذكورة في الخبر تم تسعيرها بالفعل في ارتفاع اليوم بنسبة 8.25% مما يحد من مكاسب إضافية قصيرة المدى بينما يظل الاتجاه الهابط الحاد والمؤشرات السلبية ضغطاً مستمراً على المدى المتوسط والبعيد.\"\n  },\n  \"explanation_for_user\": {\n    \"headline\": \"ارتفاع سيولة التداول اليوم لا يكفي وحده لتغيير الاتجاه الهابط للسهم\",\n    \"what_happened\": \"سهم طلعت مصطفى استقطب سيولة بقيمة 449.69 مليون جنيه مع ارتفاع البورصة المصرية للجلسة الثانية على التوالي. مؤشر EGX30 صعد بنسبة 1.46% ومكاسب سوقية بلغت 32.6 مليار جنيه.\",\n    \"why_it_matters\": \"رغم أن سيولة التداول المرتفعة تبدو إيجابية إلا أن السهم سجل ارتفاعاً بنسبة 8.25% اليوم متفوقاً على القطاع بنسبة 3.44% مما يعني أن الخبر تم تسعيره مسبقاً. كما أن السهم لا يزال أسفل متوسطه المتحرك لـ 50 يوم (-7.74%) وأسفل متوسط 200 يوم (-10.43%).\",\n    \"what_we_expect\": \"نتوقع حركة محدودة (محايدة صغيرة) خلال اليوم الأول لأن المكسب الأساسي تحقق بالفعل. على مدار الأسبوع القادم نتوقع استمرار الأداء الضعيف تحتSector بسبب الاتجاه الهابط القوي. على مدار الشهر القادم قد يصل التصحيح إلى نسبة متوسطة (حتى 20% من حجم التذبذب الطبيعي للسهم).\",\n    \"outlook_by_horizon\": {\n      \"short\": \"نتوقع استقراراً دون تغير كبير لأن السهم تفوق على القطاع بالفعل اليوم.\",\n      \"medium\": \"نتوقع استمرار الأداء الضعيف نسبياً مع احتمال هبوط بنسبة صغيرة إلى متوسطة.\",\n      \"large\": \"نتوقع تصحيحاً أعمق قد يصل إلى نسبة متوسطة مع ابتعاد السهم عن أعلى مستويات 52 أسبوع.\"\n    },\n    \"what_could_change_our_view\": \"إذا جاء إعلان نتائج أعمال إيجابي أو مشروع جديد قد يعكس الاتجاه. كما أن اختراق السهم فوق المتوسط المتحرك لـ 50 يوم سيغير نظرتنا إلى محايد إلى إيجابي.\"\n  }\n}\n```",
+    "thinking": "Let me analyze this carefully as a senior quantitative risk analyst.\n\n## 1. NEWS TYPE ANALYSIS\n\nThe article is about:\n- TMGH leading in liquidity with 449.69 million EGP trading volume\n- Egyptian stock market rising for the second session\n- Market gains of 32.6 billion EGP\n- EGX30 up 1.46%\n\nThis is **\"other\"** - it's a market-wide liquidity/capital flow story, not a fundamental event (no earnings, dividend, M&A, regulatory, etc.).\n\n## 2. TA SIGNALS CITED AUDIT\n\nJunior cited: macd_bearish, strong_downtrend, normal_volatility, near_20d_low\n\nLet me check each:\n\n- **macd_bearish**: TRUE - MACD state=bearish, hist=-0.3770\n- **strong_downtrend**: TRUE - below MA-50 and MA-200, 60d return -5.86%\n- **normal_volatility**: TRUE - Vol 20d ann: 45.87% [normal regime]\n- **near_20d_low**: TRUE - Distance: 20d_lo +8.25% (meaning 8.25% above the 20d low)\n\nAll four cited signals are supported by the data. ✓\n\n## 3. PRICE-IN CHECK (R4)\n\nStock 1d return: +8.25%\nSector 1d return: +4.81%\nStock vs sector 1d: +3.44%\n\nThe stock already outperformed the sector by 3.44% today. The news is about today's trading session. This is significant - the stock already rallied strongly, suggesting the liquidity/news is **already priced in**.\n\n\nThe news covers today's session and the stock is already up 8.25% versus sector's 4.81% — the excess 3.44% aligns with the liquidity narrative, so short-term impact is likely already reflected in current prices.\n\n## 4. MAGNITUDE vs PER-COMPANY BANDS\n\nTMGH ATR = 2.32%\n\nBands:\n- Short (1d): neutral=±1.16%, small<1.62%, medium 1.62%-4.64%, large≥4.64%\n- Medium (5d): neutral=±2.59%, small<3\n\n.63%, medium 3.63%-10.38%, large≥10.38%\n- Large (20d): neutral=±5.19%, small<7.26%, medium 7.26%-20.75%, large≥20.75%\n\n## 5. TECHNICAL CHECKLIST\n\n**T1. OVERBOUGHT/OVERSOLD:**\n- RSI-14: 42.67 → neutral (not overbought/oversold)\n- Bollinger: zone=middle, %B=0.255 → not near extremes\n- Near 20d low: YES - distance to 20d_lo = +8.25% (we ARE near the 20d low)\n- Near 20d high: NO - distance to 20d_hi = -8.30% (8.3% below high)\n\n**T2. DIVERGENCE:**\nNo divergence detected.\n\n**T3. MOMENTUM CONFIRMATION:**\n- MACD: bearish (hist=-0.3770)\n- News sentiment: neutral to slightly positive\n- MACD contradicts bullish interpretation → lower confidence\n\n**T4. ROOM TO RUN:**\n- 20d low: +8.25% above (we're near the low → downside structurally capped, upside available)\n- 20d high: -8.30% below (upside room of 8.3% to the high)\n- 52w high: -37.26% below\n- 52w low: +123.39% above (far from low)\n\n**T5. PER-COMPANY MAGNITUDE BANDS:**\nAlready covered above.\n\n## 6. JUNIOR ANALYSIS REVIEW\n\nJunior's predictions:\n- Short: up, medium, confidence 0.65\n- Medium: down, medium, confidence 0.55\n- Large: down, large, confidence 0.45\n\nIssues I see:\n\n1. **Short**: The stock already rallied +8.25% today (outperforming sector by 3.44%). News is about today's trading session. This suggests short-term gains may already be priced in. The magnitude should potentially be \"small\" if we're expecting continued outperformance, since a significant portion of the upside has already materialized.\n\n2. **MACD bearish** correctly cited, which means upward momentum is constrained.\n\n3. **Strong downtrend** correctly cited, confirming the underlying weakness despite today's move.\n\n4. **Near 20d low** correctly cited, which actually supports a potential bounce scenario.\n\n5. **Normal volatility** correctly cited, setting the baseline for expected price swings.\n\nLooking at the actual price action, the stock is up 8.25% and the sector gained 4.81%, creating a 3.44% outperformance that's already priced in. The RSI at 42.67 sits in neutral territory, while MACD remains bearish with hist=-0.3770. The stock is near the 20-day low (+8.25% above it) and 20-day high (-8.30% below), with both 60-day and 52-week highs well below current levels. Given these conditions, the neutral sentiment and bearish MACD against a bullish setup, the short-term outlook should be **neutral** with **small** magnitude and moderate confidence around 0.60-0.65, acknowledging that some upside has already been captured but further gains remain possible from this level.\n\nFor the medium term, the strong downtrend and negative 60-day returns of -5.86% along with being below key moving averages suggest **down** momentum persists, though the **small** to **medium** magnitude (3.63%-10.38%) and lower confidence of 0.55-0.60 reflect the uncertainty. The large timeframe (20 days) should be **down** as well, but with **small** to **medium** magnitude (7.26%-20.75%) and 0.50-0.55 confidence, since the significant distance from the 52-week high (-37.26%) indicates continued downside risk despite today's bounce.\n\nNow I need to recalibrate these views against the per-company bands to ensure alignment with the actual price structure and volatility characteristics. already priced in for short-term. For medium and large, downtrend dominates with MACD bearish. I need to check if the predicted magnitudes align with the per-company thresholds and whether the short-term pricing is already reflected in the current market movement.\n\nLet me structure the JSON response now.\n"
+  },
+  "final": {
+    "ticker": "TMGH",
+    "news_type": "other",
+    "already_priced_in": true,
+    "quantified_ratio": "لا ينطبق",
+    "ta_signals_cited": [
+      "macd_bearish",
+      "strong_downtrend",
+      "normal_volatility",
+      "near_20d_low"
+    ],
+    "dividend_info": null,
+    "per_horizon": {
+      "short": {
+        "direction": "neutral",
+        "magnitude": "small",
+        "confidence": 0.65,
+        "reasoning": "السهم سجل ارتفاعاً بالفعل بنسبة 8.25% متفوقاً على القطاع بـ 3.44% مما يعني أن الخبر سبق تسعيره. مع تأكيد ذلك بمؤشر MACD السلبي يظل الصعود محدوداً."
+      },
+      "medium": {
+        "direction": "down",
+        "magnitude": "small",
+        "confidence": 0.55,
+        "reasoning": "الاتجاه الهابط القوي (أسفل المتوسطين 50 و200 يوم) ومعدل العائد السلبي على 60 يوم (-5.86%) يطغيان على أي صعود قصير. حجم التذبذب الطبيعي (2.2×ATR = 5.1%) ضمن النطاق المتوسط وليس كبيراً."
+      },
+      "large": {
+        "direction": "down",
+        "magnitude": "medium",
+        "confidence": 0.5,
+        "reasoning": "البعد عن أعلى 52 أسبوع (-37.26%) وأعلى 60 يوم (-15.51%) يدعم تصحيحاً أعمق. العائد غير الطبيعي التراكمي في الجلسات الأخيرة سلبي ما يؤكد الضعف الهيكلي."
+      }
+    },
+    "overall_reasoning": "الخبر يتحدث عن سيولة يومية وهمية (البورصة ارتفعت للجلسة الثانية) وهو ليس حدثاً أساسياً. التصحيح الرئيسي هو أن السهم تفوق على القطاع بالفعل بنسبة 3.44% في نفس يوم الخبر مما يعني تسعير الخبر مسبقاً على المدى القصير. على المدى المتوسط والطويل، الاتجاه الهابط الحاد والمؤشرات الفنية السلبية (MACD سلبي وأسفل المتوسطات) تؤكد استمرار الضغط الهبوطي. حجم التذبذب الطبيعي للسهم (ATR=2.32%) يُستخدم كمقياس لتحديد حجم الحركة المتوقعة."
+  }
+}

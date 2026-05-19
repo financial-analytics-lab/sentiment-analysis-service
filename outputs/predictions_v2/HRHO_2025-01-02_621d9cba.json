@@ -1,0 +1,265 @@
+{
+  "ticker": "HRHO",
+  "article_date": "2025-01-02",
+  "context_date": "2024-12-31",
+  "processed_at": "2026-05-17T22:57:47.817806",
+  "article": {
+    "symbol": "HRHO",
+    "company": "EFG Holding",
+    "isin": "EGS69101C011",
+    "sector": "Banking & Financial Services",
+    "id": "4387449",
+    "date": "2025-01-02",
+    "time": "15:20:32",
+    "datetime": "2025-01-02 15:20:32",
+    "title": "إي اف چي هيرميس تعلن إصدار سندات توريق بـ400 مليون جنيه لصالح جامعة بدر بأسيوط",
+    "body": "القاهرة - مباشر: أعلنت شركة إي اف چي هيرميس، التابعة لمجموعة إي اف چي القابضة، إتمام الخدمات الاستشارية لإصدار أول سندات توريق تدفقات نقدية مستقبلية بقيمة 500 مليون جنيه لصالح جامعة بدر في أسيوط التابعة لشركة القاهرة للاستثمار والتنمية العقارية - سيرا للتعليم.\nوقالت الشركة في بيان اليوم إنه تم إصدار سندات التوريق بضمان الإيرادات المستقبلية لجامعة بدر، وتم طرح الإصدار على 3 شرائح بمعدل فائدة متغير كما يلي: تبلغ قيمة الشريحة الأولى 62,5 مليون جنيه ومدتها 34 شهرا، والشريحة الثانيية 155 مليون جنيه ومدتها 58 شهرل، والثالثة 282,5 مليون جنيه ومدتها 82 شهرا.\nوفي هذا السياق، صرحت مي حمدي، مدير تنفيذي لقسم أسواق الدين بقطاع الترويج وتغطية الاكتتاب بشركة إي اف چي هيرميس، بأن تلك الصفقة ستمكن الجامعة من تعزيز قدراتها التشغيلية والتنموية لتلبية الطلب المتزايد على الخدمات التعليمية في مصر.\nوقامت إي اف چي هيرميس قامت بدور المستشار المالي الأوحد ومدير الإصدار والمرتب العام ومروج الإصدار وضامن التغطية للإصدار.\nوقام بنك قناة السويس بدور ضامن التغطية ومتلقي الاكتتاب، بينما قام بنك البركة بدور ضامن التغطية، وشارك بنك أبو ظبي التجاري في عملية الاكتتاب، بينما قام البنك الأهلي المتحد بدور أمين الحفظ.\nوقامت شركة برايس ووترهاوس كوبرز بدور مراجع الحسابات، في حين قام مكتب ذو الفقار وشركاه للمحاماة بدور المستشار القانوني للصفقة.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر..\nاضغط هنا\nترشيحات\nصادرات الغاز الإسرائيلي إلى مصر ترتفع لـ 970 مليون قدم مكعبة يومياً\nمصر تتعاقد على استئجار سفينة تغويز ثالثة لتلبية الاحتياجات المحلية من الغاز\nمسؤول يكشف أسباب رفع أسعار خدمات الإنترنت والاتصالات في مصر\nمصر.. نصائح مهمة من \"حماية المستهلك\" للمواطنين قبل شراء السلع",
+    "teaser": "القاهرة - مباشر: أعلنت شركة إي اف چي هيرميس، التابعة لمجموعة إي اف چي القابضة، إتمام الخدمات الاستشارية لإصدار أول سندات توريق تدفقات نقدية مستقبلية بقيمة 500 مليون جنيه لصالح جامعة بدر في أسيوط التابعة لشركة القاهرة للاستثمار والتنمية العقارية - …",
+    "section": "اقتصاد كلي",
+    "source": "مباشر",
+    "categories": "local,stock-bonds",
+    "country": "مصر",
+    "reads": 180,
+    "url": "https://www.mubasher.info/news/4387449",
+    "image_url": "https://static.mubasher.info/File.Story_Image/7bd113c9ada9176ceb0f23112f484a0f/640.jpg",
+    "date_raw": ""
+  },
+  "sentiment": {
+    "model": "CAMeL-Lab/bert-base-arabic-camelbert-mix-sentiment",
+    "label": "neutral",
+    "score": 0.1163,
+    "numeric": 0,
+    "class_probs": {
+      "neutral": 0.8807,
+      "positive": 0.1178,
+      "negative": 0.0015
+    }
+  },
+  "context": {
+    "ticker": "HRHO",
+    "company": "EFG Holding - HRHO",
+    "sector": "Non-Bank Financials",
+    "business_description": "EFG Holding (formerly EFG Hermes) — Egypt and MENA's leading investment bank: brokerage, asset management, investment banking, and consumer finance (Valu BNPL).",
+    "event_date": "2025-01-02",
+    "last_price_date": "2024-12-31",
+    "price_state": {
+      "last_close": 20.7,
+      "return_1d": 2.48,
+      "return_5d": 0.83,
+      "return_20d": 0.58,
+      "return_60d": -11.73,
+      "pct_vs_ma50": -3.5,
+      "pct_vs_ma200": 2.58,
+      "vol_20d_annualized_pct": 27.3,
+      "vol_regime": "low",
+      "rsi_14": 47.17
+    },
+    "market_state": {
+      "sector_return_1d": 2.41,
+      "sector_return_5d": 0.83,
+      "relative_strength_vs_sector_1d": 0.07
+    },
+    "correlation_state": {
+      "corr_with_sector_90d": 0.85,
+      "top_3_correlated_peers": [
+        {
+          "ticker": "FWRY",
+          "correlation": 0.51,
+          "sector": "Technology & Fintech"
+        },
+        {
+          "ticker": "CCAP",
+          "correlation": 0.5,
+          "sector": "Non-Bank Financials"
+        },
+        {
+          "ticker": "BTFH",
+          "correlation": 0.46,
+          "sector": "Banking & Financial Services"
+        }
+      ]
+    },
+    "recent_abnormal_returns": [
+      {
+        "date": "2024-12-25",
+        "stock_return_pct": -0.63,
+        "sector_return_pct": -0.54,
+        "abnormal_return_pct": -0.09
+      },
+      {
+        "date": "2024-12-26",
+        "stock_return_pct": 1.03,
+        "sector_return_pct": 0.29,
+        "abnormal_return_pct": 0.74
+      },
+      {
+        "date": "2024-12-29",
+        "stock_return_pct": -2.33,
+        "sector_return_pct": -1.39,
+        "abnormal_return_pct": -0.94
+      },
+      {
+        "date": "2024-12-30",
+        "stock_return_pct": 0.35,
+        "sector_return_pct": 0.4,
+        "abnormal_return_pct": -0.05
+      },
+      {
+        "date": "2024-12-31",
+        "stock_return_pct": 2.48,
+        "sector_return_pct": 2.14,
+        "abnormal_return_pct": 0.34
+      }
+    ],
+    "technical_signals": {
+      "rsi_14": 47.17,
+      "rsi_zone": "neutral",
+      "macd": {
+        "line": -0.2985,
+        "signal": -0.295,
+        "histogram": -0.0035,
+        "state": "bearish"
+      },
+      "bollinger": {
+        "pct_b": 0.418,
+        "bandwidth_pct": 8.53,
+        "zone": "middle"
+      },
+      "distance_to_extremes": {
+        "20d_high_distance_pct": -4.61,
+        "20d_low_distance_pct": 2.93,
+        "60d_high_distance_pct": -12.84,
+        "60d_low_distance_pct": 2.93,
+        "252d_high_distance_pct": -16.97,
+        "252d_low_distance_pct": 46.6
+      },
+      "rsi_divergence": "none",
+      "atr_pct_14d": 1.34,
+      "consecutive_streak": 2
+    }
+  },
+  "prompts": {
+    "impact": "You are a quantitative analyst predicting Egyptian Stock Exchange (EGX) stock reactions to Arabic news. Your prediction must be grounded in the technical signals provided -- not vibes.\n\n=== COMPANY ===\nTicker      : HRHO\nName        : EFG Holding - HRHO\nSector      : Non-Bank Financials\nDescription : EFG Holding (formerly EFG Hermes) — Egypt and MENA's leading investment bank: brokerage, asset management, investment banking, and consumer finance (Valu BNPL).\nPrice data  : as of 2024-12-31  (article date: 2025-01-02)\n\n=== PRICE STATE ===\nLast close  : 20.70 EGP\nReturn 1d   : +2.48%\nReturn 5d   : +0.83%\nReturn 20d  : +0.58%\nReturn 60d  : -11.73%\nvs MA-50    : -3.50%\nvs MA-200   : +2.58%\nTrend       : weakening (above MA-200 but below MA-50)\nVol 20d ann : 27.30%  [low regime]  Low -> impact MUTED unless structurally significant.\n\n=== SECTOR / MARKET ===\nSector ret 1d   : +2.41%\nSector ret 5d   : +0.83%\nStock vs sector 1d : +0.07%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 0.85\nTop peers:\n  - FWRY | Technology & Fintech | 90d-corr: 0.51\n  - CCAP | Non-Bank Financials | 90d-corr: 0.5\n  - BTFH | Banking & Financial Services | 90d-corr: 0.46\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2024-12-25: stock -0.63%  sector -0.54%  AR -0.09%\n  2024-12-26: stock +1.03%  sector +0.29%  AR +0.74%\n  2024-12-29: stock -2.33%  sector -1.39%  AR -0.94%\n  2024-12-30: stock +0.35%  sector +0.40%  AR -0.05%\n  2024-12-31: stock +2.48%  sector +2.14%  AR +0.34%\n\n=== TECHNICAL SIGNALS ===\nRSI-14      : 47.17  [neutral]\nMACD (12/26/9):\n  state=bearish                   line=-0.2985  signal=-0.2950  hist=-0.0035\nBollinger (20, 2sigma):\n  zone=middle          %B=0.418  bandwidth=8.53%\nDistance to extremes (negative = below high, positive = above low):\n  20d high: -4.61%   20d low: +2.93%\n  60d high: -12.84%   60d low: +2.93%\n  52w high: -16.97%   52w low: +46.60%\nRSI divergence : none\nATR (14d, avg |daily%|) : 1.34%   <-- TYPICAL DAILY MOVE ANCHOR\nConsecutive streak     : +2  (up streak)\n\n=== ARABIC SENTIMENT (one input among many) ===\nLabel : neutral\nScore : +0.1163   (-1 strongly negative -> +1 strongly positive)\nNOTE: CAMeLBERT classifies tone, not financial implication.\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-01-02 15:20:32\nHeadline  : إي اف چي هيرميس تعلن إصدار سندات توريق بـ400 مليون جنيه لصالح جامعة بدر بأسيوط\n\nالقاهرة - مباشر: أعلنت شركة إي اف چي هيرميس، التابعة لمجموعة إي اف چي القابضة، إتمام الخدمات الاستشارية لإصدار أول سندات توريق تدفقات نقدية مستقبلية بقيمة 500 مليون جنيه لصالح جامعة بدر في أسيوط التابعة لشركة القاهرة للاستثمار والتنمية العقارية - سيرا للتعليم.\nوقالت الشركة في بيان اليوم إنه تم إصدار سندات التوريق بضمان الإيرادات المستقبلية لجامعة بدر، وتم طرح الإصدار على 3 شرائح بمعدل فائدة متغير كما يلي: تبلغ قيمة الشريحة الأولى 62,5 مليون جنيه ومدتها 34 شهرا، والشريحة الثانيية 155 مليون جنيه ومدتها 58 شهرل، والثالثة 282,5 مليون جنيه ومدتها 82 شهرا.\nوفي هذا السياق، صرحت مي حمدي، مدير تنفيذي لقسم أسواق الدين بقطاع الترويج وتغطية الاكتتاب بشركة إي اف چي هيرميس، بأن تلك الصفقة ستمكن الجامعة من تعزيز قدراتها التشغيلية والتنموية لتلبية الطلب المتزايد على الخدمات التعليمية في مصر.\nوقامت إي اف چي هيرميس قامت بدور المستشار المالي الأوحد ومدير الإصدار والمرتب العام ومروج الإصدار وضامن التغطية للإصدار.\nوقام بنك قناة السويس بدور ضامن التغطية ومتلقي الاكتتاب، بينما قام بنك البركة بدور ضامن التغطية، وشارك بنك أبو ظبي التجاري في عملية الاكتتاب، بينما قام البنك الأهلي المتحد بدور أمين الحفظ.\nوقامت شركة برايس ووترهاوس كوبرز بدور مراجع الحسابات، في حين قام مكتب ذو الفقار وشركاه للمحاماة بدور المستشار القانوني للصفقة.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر..\nاضغط هنا\nترشيحات\nصادرات الغاز الإسرائيلي إلى مصر ترتفع لـ 970 مليون قدم مكعبة يومياً\nمصر تتعاقد على استئجار سفينة تغويز ثالثة لتلبية الاحتياجات المحلية من الغاز\nمسؤول يكشف أسباب رفع أسعار خدمات الإنترنت والاتصالات في مصر\nمصر.. نصائح مهمة من \"حماية المستهلك\" للمواطنين قبل شراء السلع\n\n=== HORIZONS (predict BOTH) ===\nshort  -> t+1 to t+2  trading days  (neutral band +-1.5%; mag: <1.5% / 1.5-4% / >=4%)\nmedium -> t+1 to t+20 trading days  (neutral band +-4%;   mag: <4%   / 4-8%   / >=8%)\n\nMagnitude is |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window, NOT raw price change. Direction is relative to the\nsector benchmark too -- \"up\" means OUTPERFORMING the sector.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected (prefer small/neutral).\n    bullish_divergence + bearish news  -> react LESS than expected (prefer small/neutral).\n    Divergence is a STRONG counter-signal -- do not ignore.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence, narrow magnitude.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped (resistance).\n    At/near 20d low  -> downside structurally capped (support).\n    Cite the exact % distance to support your magnitude call.\n\nT5. MAGNITUDE ANCHOR (most important -- this fixes the \"always-small\" failure mode)\n    atr_pct_14d = THIS stock's typical daily abnormal-return scale.\n    Over 2 days  the noise floor is ~1.4 x atr_pct_14d.\n    Over 20 days the noise floor is ~4.5 x atr_pct_14d.\n    Example: atr_pct_14d = 2.0% -> 2-day noise ~2.8%, 20-day noise ~9%.\n    A \"small\" prediction means you expect the news to SUPPRESS normal vol.\n    A \"large\" prediction means signal clearly EXCEEDS the noise floor.\n    Predicting \"small\" without referencing atr_pct_14d is a calibration error.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant to\n    YOUR prediction -- not filler.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% dilution without\n                                  preemptive rights = bearish prior.\n    earnings   -> compare to consensus / recent trend.\n    dividend   -> quantify yield = div / last_close.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d is strongly aligned with the news\n    direction, SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear+aligned; 0.5-0.7 mixed; 0.3-0.5 ambiguous;\n    0.0-0.3 undetermined. Default conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== OUTPUT INSTRUCTIONS ===\n1. Classify news_type FIRST.\n2. Walk through T1-T5 in order. Pick the TA signals that ACTUALLY apply from\n   the closed vocab list above (no inventions).\n3. Anchor magnitudes to atr_pct_14d (T5). State the anchor in overall_reasoning.\n4. Quantify any dilution/yield ratio with both inputs.\n5. Confidence: default conf_medium <= conf_short.\n6. LANGUAGE: All free-text Arabic. JSON keys and enum values in English.\n7. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"news_type\":         \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n  \"already_priced_in\": <true | false>,\n  \"quantified_ratio\":  \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n  \"key_drivers\":       [\"<driver 1 Arabic>\", \"<driver 2 Arabic>\"],\n  \"ta_signals_cited\":  [\"<signal from closed vocab>\", \"...\"],\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\":  \"up\" | \"down\" | \"neutral\",\n      \"magnitude\":  \"small\" | \"medium\" | \"large\",\n      \"confidence\": <float 0.0-1.0>,\n      \"reasoning\":  \"<1-2 Arabic sentences. Cite >=1 TA signal by name.>\"\n    },\n    \"medium\": {\n      \"direction\":  \"up\" | \"down\" | \"neutral\",\n      \"magnitude\":  \"small\" | \"medium\" | \"large\",\n      \"confidence\": <float 0.0-1.0>,\n      \"reasoning\":  \"<1-2 Arabic sentences. Cite >=1 TA signal by name.>\"\n    }\n  },\n  \"overall_reasoning\": \"<3-4 Arabic sentences. Walk T1-T5 briefly. Reference atr_pct_14d as the magnitude anchor. State the quantified ratio if applicable.>\"\n}",
+    "critic": "You are a senior quantitative risk analyst at an Egyptian investment bank. A junior LLM analyst has assessed a news event about HRHO (EFG Holding - HRHO). Your job:\n  (a) audit the junior's TA citations against the live data,\n  (b) check magnitude vs the ATR anchor and priced-in vs the 1d move,\n  (c) produce the final authoritative prediction across short and medium horizons,\n  (d) write a plain-Arabic explanation for a non-expert retail investor.\n\n=== COMPANY ===\nTicker      : HRHO\nName        : EFG Holding - HRHO\nSector      : Non-Bank Financials\nDescription : EFG Holding (formerly EFG Hermes) — Egypt and MENA's leading investment bank: brokerage, asset management, investment banking, and consumer finance (Valu BNPL).\nPrice data  : as of 2024-12-31  (article date: 2025-01-02)\n\n=== PRICE STATE ===\nLast close  : 20.70 EGP\nReturn 1d   : +2.48%\nReturn 5d   : +0.83%\nReturn 20d  : +0.58%\nReturn 60d  : -11.73%\nvs MA-50    : -3.50%\nvs MA-200   : +2.58%\nTrend       : weakening (above MA-200 but below MA-50)\nVol 20d ann : 27.30%  [low regime]  Low -> impact MUTED unless structurally significant.\n\n=== SECTOR / MARKET ===\nSector ret 1d   : +2.41%\nSector ret 5d   : +0.83%\nStock vs sector 1d : +0.07%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 0.85\nTop peers:\n  - FWRY | Technology & Fintech | 90d-corr: 0.51\n  - CCAP | Non-Bank Financials | 90d-corr: 0.5\n  - BTFH | Banking & Financial Services | 90d-corr: 0.46\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2024-12-25: stock -0.63%  sector -0.54%  AR -0.09%\n  2024-12-26: stock +1.03%  sector +0.29%  AR +0.74%\n  2024-12-29: stock -2.33%  sector -1.39%  AR -0.94%\n  2024-12-30: stock +0.35%  sector +0.40%  AR -0.05%\n  2024-12-31: stock +2.48%  sector +2.14%  AR +0.34%\n\n=== TECHNICAL SIGNALS ===\nRSI-14      : 47.17  [neutral]\nMACD (12/26/9):\n  state=bearish                   line=-0.2985  signal=-0.2950  hist=-0.0035\nBollinger (20, 2sigma):\n  zone=middle          %B=0.418  bandwidth=8.53%\nDistance to extremes (negative = below high, positive = above low):\n  20d high: -4.61%   20d low: +2.93%\n  60d high: -12.84%   60d low: +2.93%\n  52w high: -16.97%   52w low: +46.60%\nRSI divergence : none\nATR (14d, avg |daily%|) : 1.34%   <-- TYPICAL DAILY MOVE ANCHOR\nConsecutive streak     : +2  (up streak)\n\n=== ARABIC SENTIMENT ===\nLabel : neutral\nScore : +0.1163\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-01-02 15:20:32\nHeadline  : إي اف چي هيرميس تعلن إصدار سندات توريق بـ400 مليون جنيه لصالح جامعة بدر بأسيوط\n\nالقاهرة - مباشر: أعلنت شركة إي اف چي هيرميس، التابعة لمجموعة إي اف چي القابضة، إتمام الخدمات الاستشارية لإصدار أول سندات توريق تدفقات نقدية مستقبلية بقيمة 500 مليون جنيه لصالح جامعة بدر في أسيوط التابعة لشركة القاهرة للاستثمار والتنمية العقارية - سيرا للتعليم.\nوقالت الشركة في بيان اليوم إنه تم إصدار سندات التوريق بضمان الإيرادات المستقبلية لجامعة بدر، وتم طرح الإصدار على 3 شرائح بمعدل فائدة متغير كما يلي: تبلغ قيمة الشريحة الأولى 62,5 مليون جنيه ومدتها 34 شهرا، والشريحة الثانيية 155 مليون جنيه ومدتها 58 شهرل، والثالثة 282,5 مليون جنيه ومدتها 82 شهرا.\nوفي هذا السياق، صرحت مي حمدي، مدير تنفيذي لقسم أسواق الدين بقطاع الترويج وتغطية الاكتتاب بشركة إي اف چي هيرميس، بأن تلك الصفقة ستمكن الجامعة من تعزيز قدراتها التشغيلية والتنموية لتلبية الطلب المتزايد على الخدمات التعليمية في مصر.\nوقامت إي اف چي هيرميس قامت بدور المستشار المالي الأوحد ومدير الإصدار والمرتب العام ومروج الإصدار وضامن التغطية للإصدار.\nوقام بنك قناة السويس بدور ضامن التغطية ومتلقي الاكتتاب، بينما قام بنك البركة بدور ضامن التغطية، وشارك بنك أبو ظبي التجاري في عملية الاكتتاب، بينما قام البنك الأهلي المتحد بدور أمين الحفظ.\nوقامت شركة برايس ووترهاوس كوبرز بدور مراجع الحسابات، في حين قام مكتب ذو الفقار وشركاه للمحاماة بدور المستشار القانوني للصفقة.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر..\nاضغط هنا\nترشيحات\nصادرات الغاز الإسرائيلي إلى مصر ترتفع لـ 970 مليون قدم مكعبة يومياً\nمصر تتعاقد على استئجار سفينة تغويز ثالثة لتلبية الاحتياجات المحلية من الغاز\nمسؤول يكشف أسباب رفع أسعار خدمات الإنترنت والاتصالات في مصر\nمصر.. نصائح مهمة من \"حماية المستهلك\" للمواطنين قبل شراء السلع\n\n=== IMPACT AGENT OUTPUT (junior, Groq) ===\n{\n  \"news_type\": \"capital_increase\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"لا ينطبق\",\n  \"key_drivers\": [\n    \"إصدار سندات توريق بقيمة 500 مليون جنيه لدعم جامعة بدر\",\n    \"الوضع الفني الضعيف مع MACD bearish\"\n  ],\n  \"ta_signals_cited\": [\n    \"macd_bearish_crossover\",\n    \"rsi_neutral\",\n    \"bollinger_middle\",\n    \"low_volatility\"\n  ],\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.6,\n      \"reasoning\": \"الأخبار إيجابية لكن MACD bearish يقلل من التأثير. التقلبات منخفضة (27.30%) مما يُحد من الحركة.\"\n    },\n    \"medium\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.5,\n      \"reasoning\": \"الاتجاه الضعيف (أعلى MA-200 لكن أقل من MA-50) مع MACD bearish يُشير إلى استقرار محدود. النطاق المعتاد (ATR 1.34%) يُحد من التأثير.\"\n    }\n  }\n}\n\n=== HORIZONS (predict BOTH) ===\nshort  -> t+1 to t+2  trading days  (neutral band +-1.5%; mag: <1.5% / 1.5-4% / >=4%)\nmedium -> t+1 to t+20 trading days  (neutral band +-4%;   mag: <4%   / 4-8%   / >=8%)\n\nMagnitude is |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window, NOT raw price change. Direction is relative to the\nsector benchmark too -- \"up\" means OUTPERFORMING the sector.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected (prefer small/neutral).\n    bullish_divergence + bearish news  -> react LESS than expected (prefer small/neutral).\n    Divergence is a STRONG counter-signal -- do not ignore.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence, narrow magnitude.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped (resistance).\n    At/near 20d low  -> downside structurally capped (support).\n    Cite the exact % distance to support your magnitude call.\n\nT5. MAGNITUDE ANCHOR (most important -- this fixes the \"always-small\" failure mode)\n    atr_pct_14d = THIS stock's typical daily abnormal-return scale.\n    Over 2 days  the noise floor is ~1.4 x atr_pct_14d.\n    Over 20 days the noise floor is ~4.5 x atr_pct_14d.\n    Example: atr_pct_14d = 2.0% -> 2-day noise ~2.8%, 20-day noise ~9%.\n    A \"small\" prediction means you expect the news to SUPPRESS normal vol.\n    A \"large\" prediction means signal clearly EXCEEDS the noise floor.\n    Predicting \"small\" without referencing atr_pct_14d is a calibration error.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant to\n    YOUR prediction -- not filler.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% dilution without\n                                  preemptive rights = bearish prior.\n    earnings   -> compare to consensus / recent trend.\n    dividend   -> quantify yield = div / last_close.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d is strongly aligned with the news\n    direction, SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear+aligned; 0.5-0.7 mixed; 0.3-0.5 ambiguous;\n    0.0-0.3 undetermined. Default conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== REVIEW CHECKLIST ===\nC1. NEWS_TYPE: correct?\nC2. TA_SIGNALS: every cited signal must be supported by the data block above.\n    If junior cited \"rsi_overbought\" but RSI is 45, REMOVE the signal and note\n    the override.\nC3. MAGNITUDE vs ATR: does the predicted magnitude make sense relative to\n    1.4 x atr_pct_14d (short) and 4.5 x atr_pct_14d (medium)? Adjust if mis-scaled.\nC4. PRICED-IN: if stock_vs_sector_1d aligns with the news direction, short\n    magnitude should default to \"small\" (R4).\nC5. DIVERGENCE: if a divergence signal is present, did the junior account for it?\nC6. CONFIDENCE: lower it when agents-disagree-with-context or when news is priced in.\n    Default conf_medium <= conf_short.\nC7. LANGUAGE LEAKS: strip any non-Arabic word from Arabic fields (R6).\n\n=== USER-FACING EXPLANATION (mandatory) ===\nAfter the technical analysis, produce a plain-Arabic explanation for a\nnon-expert retail investor.\n\nU1. NO JARGON. Replace technical terms with everyday Arabic:\n    \"تخفيف\" -> \"تقليل نسبة ملكية المساهمين الحاليين\"\n    \"MA-50/MA-200\" -> \"متوسط سعر السهم خلال الشهرين / السنة الماضية\"\n    \"RSI\" -> \"مؤشر قوة الشراء والبيع\"\n    \"MACD\" -> \"مؤشر تقاطع المتوسطات\"\n    \"Bollinger\" -> \"نطاقات تذبذب السعر\"\n    \"ATR\" -> \"متوسط الحركة اليومية المعتادة\"\nU2. NUMBERS WITH MEANING. Every cited number gets a plain-Arabic interpretation.\nU3. STATE THE PREDICTION FIRST inside what_we_expect (direction + size + timeframe),\n    THEN 1-2 sentences of supporting evidence.\nU4. PER-HORIZON. outlook_by_horizon.short and .medium must each be ONE Arabic\n    sentence with direction + size + rationale clue.\nU5. BREVITY. ~120-180 Arabic words across the whole user block.\nU6. NO LANGUAGE LEAKS. 100% Arabic in the user block.\n\n=== INSTRUCTIONS ===\n1. Override the junior anywhere evidence demands it; list each change in\n   \"disagreements_with_junior\" with the reason.\n2. Confidence: adjust per horizon. Default conf_medium <= conf_short.\n3. SPELLING: \"RSI-14\" not \"RS-14\". Proper Arabic punctuation.\n4. LANGUAGE: All free-text Arabic; JSON keys + tickers + enum values in English.\n5. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"primary_company\": {\n    \"ticker\":              \"HRHO\",\n    \"news_type\":           \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n    \"already_priced_in\":   <true | false>,\n    \"quantified_ratio\":    \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n    \"ta_signals_cited\":    [\"<signal from closed vocab>\", \"...\"],\n    \"per_horizon\": {\n      \"short\": {\n        \"direction\":  \"up\" | \"down\" | \"neutral\",\n        \"magnitude\":  \"small\" | \"medium\" | \"large\",\n        \"confidence\": <float 0.0-1.0>,\n        \"reasoning\":  \"<1-2 Arabic sentences citing TA signals by name>\"\n      },\n      \"medium\": {\n        \"direction\":  \"up\" | \"down\" | \"neutral\",\n        \"magnitude\":  \"small\" | \"medium\" | \"large\",\n        \"confidence\": <float 0.0-1.0>,\n        \"reasoning\":  \"<1-2 Arabic sentences citing TA signals by name>\"\n      }\n    },\n    \"overall_reasoning\":   \"<3-4 Arabic sentences. Reference atr_pct_14d anchor. State news_type. Note any override of the junior.>\"\n  },\n  \"risk_flags\": [\n    \"<event-specific risk in Arabic>\",\n    \"<event-specific risk in Arabic>\"\n  ],\n  \"disagreements_with_junior\": [\n    \"<what the junior said, what is correct, why -- in Arabic>\"\n  ],\n  \"external_signal_alignment\":   \"aligned\" | \"partially_aligned\" | \"contradicts\",\n  \"external_signal_explanation\": \"<1-2 sentences in Arabic>\",\n  \"tldr\": {\n    \"verdict\":   \"<short Arabic phrase: direction + horizon>\",\n    \"one_line\":  \"<one Arabic sentence summarising the whole view>\"\n  },\n  \"explanation_for_user\": {\n    \"headline\":                  \"<one sentence plain Arabic, no jargon>\",\n    \"what_happened\":             \"<2-3 sentences plain Arabic, no jargon>\",\n    \"why_it_matters\":            \"<2-3 sentences plain Arabic, financial logic in everyday terms>\",\n    \"what_we_expect\":            \"<lead with prediction (direction + size + timeline) THEN evidence>\",\n    \"outlook_by_horizon\": {\n      \"short\":  \"<one Arabic sentence: direction + size + rationale for the next 2 days>\",\n      \"medium\": \"<one Arabic sentence: direction + size + rationale for the next month>\"\n    },\n    \"what_could_change_our_view\":\"<1-2 Arabic sentences on key uncertainties>\"\n  }\n}"
+  },
+  "impact_agent": {
+    "output": {
+      "news_type": "capital_increase",
+      "already_priced_in": false,
+      "quantified_ratio": "لا ينطبق",
+      "key_drivers": [
+        "إصدار سندات توريق بقيمة 500 مليون جنيه لدعم جامعة بدر",
+        "الوضع الفني الضعيف مع MACD bearish"
+      ],
+      "ta_signals_cited": [
+        "macd_bearish_crossover",
+        "rsi_neutral",
+        "bollinger_middle",
+        "low_volatility"
+      ],
+      "per_horizon": {
+        "short": {
+          "direction": "up",
+          "magnitude": "small",
+          "confidence": 0.6,
+          "reasoning": "الأخبار إيجابية لكن MACD bearish يقلل من التأثير. التقلبات منخفضة (27.30%) مما يُحد من الحركة."
+        },
+        "medium": {
+          "direction": "neutral",
+          "magnitude": "small",
+          "confidence": 0.5,
+          "reasoning": "الاتجاه الضعيف (أعلى MA-200 لكن أقل من MA-50) مع MACD bearish يُشير إلى استقرار محدود. النطاق المعتاد (ATR 1.34%) يُحد من التأثير."
+        }
+      }
+    },
+    "raw": "{  \"news_type\": \"capital_increase\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"لا ينطبق\",\n  \"key_drivers\": [\n    \"إصدار سندات توريق بقيمة 500 مليون جنيه لدعم جامعة بدر\",\n    \"الوضع الفني الضعيف مع MACD bearish\"\n  ],\n  \"ta_signals_cited\": [\n    \"macd_bearish_crossover\",\n    \"rsi_neutral\",\n    \"bollinger_middle\",\n    \"low_volatility\"\n  ],\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.6,\n      \"reasoning\": \"الأخبار إيجابية لكن MACD bearish يقلل من التأثير. التقلبات منخفضة (27.30%) مما يُحد من الحركة.\"\n    },\n    \"medium\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.5,\n      \"reasoning\": \"الاتجاه الضعيف (أعلى MA-200 لكن أقل من MA-50) مع MACD bearish يُشير إلى استقرار محدود. النطاق المعتاد (ATR 1.34%) يُحد من التأثير.\"\n    }\n  }}"
+  },
+  "critic_agent": {
+    "output": {
+      "primary_company": {
+        "ticker": "HRHO",
+        "news_type": "operational",
+        "already_priced_in": true,
+        "quantified_ratio": "لا ينطبق - إصدار سندات توريق وليس زيادة رأس مال",
+        "ta_signals_cited": [
+          "macd_bearish",
+          "rsi_neutral",
+          "bollinger_middle",
+          "low_volatility",
+          "near_20d_high"
+        ],
+        "per_horizon": {
+          "short": {
+            "direction": "neutral",
+            "magnitude": "small",
+            "confidence": 0.55,
+            "reasoning": "السهم قريب من أعلى سعره في ٢٠ يوماً (٪-٤٫٦١) مما يحد من الصعود، مع اتجاه MACD bearish يضغط سلبياً. التحرك اليوم (+٢٫٤٨٪) جاء متوافقاً مع القطاع (+٢٫٤١٪) مما يعني أن الخبر مُسعَّر مسبقاً."
+          },
+          "medium": {
+            "direction": "neutral",
+            "magnitude": "small",
+            "confidence": 0.5,
+            "reasoning": "السهم يتداول أعلى MA-200 لكنه أقل من MA-50 (اتجاه ضعيف). متوسط الحركة اليومية المعتادة ATR ١٫٣٤٪ يشير إلى أن الضوضاء على ٢٠ يوماً تصل لـ ٦٫٠٣٪ مما يجعل أي حركة غير طبيعية محدودة."
+          }
+        },
+        "overall_reasoning": "الخبر هو إنجاز تعاقدي (إصدار سندات توريق بـ ٥٠٠ مليون جنيه) وليس زيادة رأس مال -- تصنيف junior كان خاطئاً وتحتاج تصحيحه. EFG هيرميس حصلت على رسوم استشارية لكنها لا تغير هيكل الملكية. التحرك اليوم (+٢٫٤٨٪) جاء متوازياً مع القطاع (+٢٫٤١٪) مع فارق ضئيل +٠٫٠٧٪ مما يعني السعر استوعب الخبر مسبقاً. الإشارة الوحيدة الداعمة هي ATR ١٫٣٤٪ كمقياس للتقلب الطبيعي -- أي حركة غير طبيعية تحتاج لتتجاوز هذا المستوى مراراً."
+      },
+      "risk_flags": [
+        "السوق المصري يشهد ضعفاً في الزخم مع انخفاض حجم التداول في نهاية العام",
+        "القطاع المالي يواجه ضغوطاً من ارتفاع تكلفة التمويل"
+      ],
+      "disagreements_with_junior": [
+        "صنف Junior الخبر كـ capital_increase والصواب operational - إصدار سندات التوريق هو خدمة استشارية وليس زيادة في أسهم الشركة",
+        "تنبأ Junior بحركة صاعدة صغيرة بينما السعر تحرك بالفعل مع القطاع اليوم -- السعر مُسعَّر مسبقاً وليس هناك أرضية لمزيد من الصعود القريب",
+        "لم يذكر Junior أن ATR ١٫٣٤٪ هو مرساة -- magnitude small تحتاج أن تتجاوز ١٫٤ × ATR (≈١٫٨٨٪) على يومين لتكون ذا دلالة"
+      ],
+      "external_signal_alignment": "aligned",
+      "external_signal_explanation": "الاتجاه العام للقطاع المالي المصري إيجابي مع ارتفاع +٢٫٤١٪. لكن HRHO تفوقت على القطاع بـ +٠٫٠٧٪ فقط -- مكاسب محدودة جداً.",
+      "tldr": {
+        "verdict": "محايد على المدى القصير والمتوسط",
+        "one_line": "صفقة إصدار سندات التوريق إيجابية لكن مُسعَّرة مسبقاً -- لا نتوقع حركة سعرية غير طبيعية مع اتجاه فني ضعيف."
+      },
+      "explanation_for_user": {
+        "headline": "شركة EFG هيرميس نجحت في تنفيذ صفقة إصدار سندات توريق كبيرة لصالح جامعة بدر.",
+        "what_happened": "أعلنت EFG هيرميس أنها قدمت خدمات استشارية لإصدار سندات توريق بقيمة ٥٠٠ مليون جنيه لصالح جامعة بدر في أسيوط. الشركة تولت دور المستشار المالي ومدير الاكتتاب والضامن. هذه الصفقة تمنح الجامعة تمويلا لتطوير خدماتها التعليمية.",
+        "why_it_matters": "هذه الصفقة تؤكد مكانة EFG هيرميس الرائدة في أسواق الدين المصرية وتدر عليها رسوماً استشارية. لكن القيمة (٥٠٠ مليون جنيه) تمثل نحو ٢٫٤٪ فقط من القيمة السوقية للشركة -- تأثير محدود على الأرباح الفعلية.",
+        "what_we_expect": "نتوقع استقرار السعر حول مستوياته الحالية مع حركة صغيرة جداً (أقل من ١٫٥٪ في يومين) -- السعر تحرك بالفعل مع الخبر اليوم ولم يتبقَّ شيء جديد يُحركه. السعر الآن أقرب لأعلى مستوى له في ٢٠ يوماً مما يحد من الصعود.",
+        "outlook_by_horizon": {
+          "short": "محتمل استقرار في حدود +-١٫٥٪ خلال اليومين المقبلين لأن السعر تحرك بالفعل مع الخبر.",
+          "medium": "محتمل حركة محدودة جداً (أقل من ٤٪) خلال الشهر مع استمرار ضعف الزخم الفني."
+        },
+        "what_could_change_our_view": "إذا公布了 الشركة نتائج أعمال إيجابية أو أعلنت صفقات أكبر من المتوقع فقد يتغير الاتجاه. أيضاً أي تغيير في أسعار الفائدة会影响 تكلفة التمويل."
+      }
+    },
+    "raw": "\n\n```json\n{\n  \"primary_company\": {\n    \"ticker\": \"HRHO\",\n    \"news_type\": \"operational\",\n    \"already_priced_in\": true,\n    \"quantified_ratio\": \"لا ينطبق - إصدار سندات توريق وليس زيادة رأس مال\",\n    \"ta_signals_cited\": [\n      \"macd_bearish\",\n      \"rsi_neutral\",\n      \"bollinger_middle\",\n      \"low_volatility\",\n      \"near_20d_high\"\n    ],\n    \"per_horizon\": {\n      \"short\": {\n        \"direction\": \"neutral\",\n        \"magnitude\": \"small\",\n        \"confidence\": 0.55,\n        \"reasoning\": \"السهم قريب من أعلى سعره في ٢٠ يوماً (٪-٤٫٦١) مما يحد من الصعود، مع اتجاه MACD bearish يضغط سلبياً. التحرك اليوم (+٢٫٤٨٪) جاء متوافقاً مع القطاع (+٢٫٤١٪) مما يعني أن الخبر مُسعَّر مسبقاً.\"\n      },\n      \"medium\": {\n        \"direction\": \"neutral\",\n        \"magnitude\": \"small\",\n        \"confidence\": 0.5,\n        \"reasoning\": \"السهم يتداول أعلى MA-200 لكنه أقل من MA-50 (اتجاه ضعيف). متوسط الحركة اليومية المعتادة ATR ١٫٣٤٪ يشير إلى أن الضوضاء على ٢٠ يوماً تصل لـ ٦٫٠٣٪ مما يجعل أي حركة غير طبيعية محدودة.\"\n      }\n    },\n    \"overall_reasoning\": \"الخبر هو إنجاز تعاقدي (إصدار سندات توريق بـ ٥٠٠ مليون جنيه) وليس زيادة رأس مال -- تصنيف junior كان خاطئاً وتحتاج تصحيحه. EFG هيرميس حصلت على رسوم استشارية لكنها لا تغير هيكل الملكية. التحرك اليوم (+٢٫٤٨٪) جاء متوازياً مع القطاع (+٢٫٤١٪) مع فارق ضئيل +٠٫٠٧٪ مما يعني السعر استوعب الخبر مسبقاً. الإشارة الوحيدة الداعمة هي ATR ١٫٣٤٪ كمقياس للتقلب الطبيعي -- أي حركة غير طبيعية تحتاج لتتجاوز هذا المستوى مراراً.\"\n  },\n  \"risk_flags\": [\n    \"السوق المصري يشهد ضعفاً في الزخم مع انخفاض حجم التداول في نهاية العام\",\n    \"القطاع المالي يواجه ضغوطاً من ارتفاع تكلفة التمويل\"\n  ],\n  \"disagreements_with_junior\": [\n    \"صنف Junior الخبر كـ capital_increase والصواب operational - إصدار سندات التوريق هو خدمة استشارية وليس زيادة في أسهم الشركة\",\n    \"تنبأ Junior بحركة صاعدة صغيرة بينما السعر تحرك بالفعل مع القطاع اليوم -- السعر مُسعَّر مسبقاً وليس هناك أرضية لمزيد من الصعود القريب\",\n    \"لم يذكر Junior أن ATR ١٫٣٤٪ هو مرساة -- magnitude small تحتاج أن تتجاوز ١٫٤ × ATR (≈١٫٨٨٪) على يومين لتكون ذا دلالة\"\n  ],\n  \"external_signal_alignment\": \"aligned\",\n  \"external_signal_explanation\": \"الاتجاه العام للقطاع المالي المصري إيجابي مع ارتفاع +٢٫٤١٪. لكن HRHO تفوقت على القطاع بـ +٠٫٠٧٪ فقط -- مكاسب محدودة جداً.\",\n  \"tldr\": {\n    \"verdict\": \"محايد على المدى القصير والمتوسط\",\n    \"one_line\": \"صفقة إصدار سندات التوريق إيجابية لكن مُسعَّرة مسبقاً -- لا نتوقع حركة سعرية غير طبيعية مع اتجاه فني ضعيف.\"\n  },\n  \"explanation_for_user\": {\n    \"headline\": \"شركة EFG هيرميس نجحت في تنفيذ صفقة إصدار سندات توريق كبيرة لصالح جامعة بدر.\",\n    \"what_happened\": \"أعلنت EFG هيرميس أنها قدمت خدمات استشارية لإصدار سندات توريق بقيمة ٥٠٠ مليون جنيه لصالح جامعة بدر في أسيوط. الشركة تولت دور المستشار المالي ومدير الاكتتاب والضامن. هذه الصفقة تمنح الجامعة تمويلا لتطوير خدماتها التعليمية.\",\n    \"why_it_matters\": \"هذه الصفقة تؤكد مكانة EFG هيرميس الرائدة في أسواق الدين المصرية وتدر عليها رسوماً استشارية. لكن القيمة (٥٠٠ مليون جنيه) تمثل نحو ٢٫٤٪ فقط من القيمة السوقية للشركة -- تأثير محدود على الأرباح الفعلية.\",\n    \"what_we_expect\": \"نتوقع استقرار السعر حول مستوياته الحالية مع حركة صغيرة جداً (أقل من ١٫٥٪ في يومين) -- السعر تحرك بالفعل مع الخبر اليوم ولم يتبقَّ شيء جديد يُحركه. السعر الآن أقرب لأعلى مستوى له في ٢٠ يوماً مما يحد من الصعود.\",\n    \"outlook_by_horizon\": {\n      \"short\": \"محتمل استقرار في حدود +-١٫٥٪ خلال اليومين المقبلين لأن السعر تحرك بالفعل مع الخبر.\",\n      \"medium\": \"محتمل حركة محدودة جداً (أقل من ٤٪) خلال الشهر مع استمرار ضعف الزخم الفني.\"\n    },\n    \"what_could_change_our_view\": \"إذا公布了 الشركة نتائج أعمال إيجابية أو أعلنت صفقات أكبر من المتوقع فقد يتغير الاتجاه. أيضاً أي تغيير في أسعار الفائدة会影响 تكلفة التمويل.\"\n  }\n}\n```",
+    "thinking": "Let me analyze this carefully as a senior quantitative risk analyst.\n\n## Step 1: Audit Junior's TA Citations\n\nJunior cited:\n- \"macd_bearish_crossover\" - MACD line=-0.2985, signal=-0.2950, hist=-0.0035. This is indeed bearish (hist barely negative). CORRECT.\n- \"rsi_neutral\" - RSI-14 = 47.17. Neutral (not overbought >70, not oversold <30). CORRECT.\n- \"bollinger_middle\" - %B=0.418, zone=middle. CORRECT.\n- \"low_volatility\" - Vol 20d ann = 27.30%, labeled \"low regime\". CORRECT.\n\nAll cited signals are supported by the data. Good.\n\n## Step 2: News Type Check\n\nThe news is about issuing securitization bonds of 500 million EGP for Badour University. This is:\n- An advisory/deal-making activity\n- NOT a capital increase (no new shares being issued)\n- Operational/business development win\n\nThe junior incorrectly classified this as \"capital_increase\". This is an OPERATIONAL deal win - EFG Hermes is providing advisory services for a securitization issuance. The company earns fees, but this doesn't change HRHO's capital structure.\n\nShould be: \"operational\" not \"capital_increase\"\n\n## Step 3: Magnitude vs ATR Check\n\nATR-14d = 1.34% daily abnormal return scale\n- Short (2 days) noise floor: 1.4 × 1.34% = ~1.88%\n- Medium (20 days) noise floor: 4.5 × 1.34% = ~6.03%\n\nJunior said \"small\" for both horizons.\n\n\nThe 1-day return of +2.48% aligns with sector movement (+2.41%), indicating the stock moved in line with broader market dynamics rather than reacting uniquely to this news. This alignment suggests the deal announcement was already incorporated into current pricing. The 500M EGP securitization represents approximately 2.4% of the company's market cap, which is material but not transformative.\n\nValuable advisory mandates signal future deal flow and strengthen client relationships, making this incrementally positive. However, MACD remains bearish while RSI sits neutral around 47, suggesting limited upside momentum. The stock trades above its 200-day moving average but below the 50-day MA, indicating a mixed technical picture with 20-day highs capping potential gains at roughly -4.6% and 20-day lows providing support near +2.9%. Combined with the stock already tracking sector performance, the positive news appears largely discounted into current prices.\n\nFor the short-term outlook, I'm looking at a small positive signal of 1.5-4% outperformance potential, though confidence sits at 0.55 given the technical headwinds and limited room for upside relative to recent highs. The medium-term view suggests minimal abnormal return as the market digests this development and price action remains constrained. I need to flag a couple of key issues: the junior analysis incorrectly labeled this as a capital increase when it's really an operational deal, and by classifying the magnitude as small without anchoring it to the ATR volatility of 1.34%, they're not properly contextualizing the price movement relative to normal market fluctuations. I should also note the stock's recent outperformance aligns with the sector direction, which typically means the news was already priced in.\n"
+  },
+  "final": {
+    "ticker": "HRHO",
+    "news_type": "operational",
+    "already_priced_in": true,
+    "quantified_ratio": "لا ينطبق - إصدار سندات توريق وليس زيادة رأس مال",
+    "ta_signals_cited": [
+      "macd_bearish",
+      "rsi_neutral",
+      "bollinger_middle",
+      "low_volatility",
+      "near_20d_high"
+    ],
+    "per_horizon": {
+      "short": {
+        "direction": "neutral",
+        "magnitude": "small",
+        "confidence": 0.55,
+        "reasoning": "السهم قريب من أعلى سعره في ٢٠ يوماً (٪-٤٫٦١) مما يحد من الصعود، مع اتجاه MACD bearish يضغط سلبياً. التحرك اليوم (+٢٫٤٨٪) جاء متوافقاً مع القطاع (+٢٫٤١٪) مما يعني أن الخبر مُسعَّر مسبقاً."
+      },
+      "medium": {
+        "direction": "neutral",
+        "magnitude": "small",
+        "confidence": 0.5,
+        "reasoning": "السهم يتداول أعلى MA-200 لكنه أقل من MA-50 (اتجاه ضعيف). متوسط الحركة اليومية المعتادة ATR ١٫٣٤٪ يشير إلى أن الضوضاء على ٢٠ يوماً تصل لـ ٦٫٠٣٪ مما يجعل أي حركة غير طبيعية محدودة."
+      }
+    },
+    "overall_reasoning": "الخبر هو إنجاز تعاقدي (إصدار سندات توريق بـ ٥٠٠ مليون جنيه) وليس زيادة رأس مال -- تصنيف junior كان خاطئاً وتحتاج تصحيحه. EFG هيرميس حصلت على رسوم استشارية لكنها لا تغير هيكل الملكية. التحرك اليوم (+٢٫٤٨٪) جاء متوازياً مع القطاع (+٢٫٤١٪) مع فارق ضئيل +٠٫٠٧٪ مما يعني السعر استوعب الخبر مسبقاً. الإشارة الوحيدة الداعمة هي ATR ١٫٣٤٪ كمقياس للتقلب الطبيعي -- أي حركة غير طبيعية تحتاج لتتجاوز هذا المستوى مراراً."
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "ticker": "MASR",
+  "article_date": "2025-01-15",
+  "context_date": "2025-01-14",
+  "processed_at": "2026-05-17T23:53:00.497398",
+  "article": {
+    "symbol": "MASR",
+    "company": "Madinet Masr For Housing and Development",
+    "isin": "EGS65571C019",
+    "sector": "Real Estate",
+    "id": "4392078",
+    "date": "2025-01-15",
+    "time": "10:48:49",
+    "datetime": "2025-01-15 10:48:49",
+    "title": "مدينة مصر للإسكان توقع اتفاقاً لتعزيز البنية التحتية في تاج سيتي بـ263مليون جنيه",
+    "body": "القاهرة - مباشر: أعلنت شركة مدينة مصر للإسكان والتعمير، توقيع شراكة استراتيجية مع شركة جي تي سي أي لإنشاءات مشروعات الطاقة والبنية التحتية بقيمة 263 مليون جنيه.\nوأوضحت الشركة في افصاح اليوم الأربعاء، أنه بموجب الاتفاقية تقوم جي تي سي أي بتنفيذ أعمال توسعات خزانات المياه والري في مشروع تاج سيتي، ومن المتوقع الانتهاء من أعمال التشييد خلال عام 2025.\nوأكدت أن الاتفاقية بهدف تعزيز البنية التحتية في مشروع تاج سيتي، وتدعم خطط التوسع المستقبلية للشركة.\nوحققت الشركة أرباحاً بعد الضريبة (للشركة الأم) بلغت 2.52 مليار جنيه خلال الفترة من يناير إلى سبتمبر 2024، مقابل أرباح بلغت 1.34 مليار جنيه في الفترة المقارنة من 2023، مع الأخذ في الاعتبار حقوق الأقلية.\nوارتفعت مبيعات الشركة خلال التسعة أشهر الأولى من العام الجاري إلى 7.45 مليار جنيه، مقابل مبيعات بلغت 4.69 مليار جنيه في الفترة المقارنة من العام الماضي.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية\n..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر\n..\nاضغط هنا\nترشيحات\n:\nمدينة مصر للإسكان توقع تمويلاً مشتركاً بـ9مليارات جنيه لدعم تطوير تاج سيتي وسراي",
+    "teaser": "القاهرة - مباشر: أعلنت شركة مدينة مصر للإسكان والتعمير، توقيع شراكة استراتيجية مع شركة جي تي سي أي لإنشاءات مشروعات الطاقة والبنية التحتية بقيمة 263 مليون جنيه. وأوضحت الشركة في افصاح اليوم الأربعاء، أنه بموجب الاتفاقية تقوم جي تي سي أي بتنفيذ …",
+    "section": "عقارات",
+    "source": "مباشر",
+    "categories": "real-estate,stock-bonds",
+    "country": "مصر",
+    "reads": 225,
+    "url": "https://www.mubasher.info/news/4392078",
+    "image_url": "https://static.mubasher.info/File.Story_Image/1080b8fb97bf607dc992a2e9b71c357f/640.jpg",
+    "date_raw": ""
+  },
+  "sentiment": {
+    "model": "CAMeL-Lab/bert-base-arabic-camelbert-mix-sentiment",
+    "label": "neutral",
+    "score": 0.2441,
+    "numeric": 0,
+    "class_probs": {
+      "neutral": 0.7527,
+      "positive": 0.2457,
+      "negative": 0.0016
+    }
+  },
+  "context": {
+    "ticker": "MASR",
+    "company": "Madinet Masr For Housing and Development - MASR",
+    "sector": "Real Estate",
+    "business_description": "Madinet Masr for Housing and Development — listed real estate developer focused on integrated urban communities in Greater Cairo (Sarai, Taj City).",
+    "event_date": "2025-01-15",
+    "last_price_date": "2025-01-14",
+    "price_state": {
+      "last_close": 3.77,
+      "return_1d": 0.27,
+      "return_5d": -3.58,
+      "return_20d": -6.22,
+      "return_60d": -3.08,
+      "pct_vs_ma50": -5.99,
+      "pct_vs_ma200": -4.07,
+      "vol_20d_annualized_pct": 23.16,
+      "vol_regime": "low",
+      "rsi_14": 37.47
+    },
+    "market_state": {
+      "sector_return_1d": 4.81,
+      "sector_return_5d": -5.13,
+      "relative_strength_vs_sector_1d": -4.54
+    },
+    "correlation_state": {
+      "corr_with_sector_90d": 0.75,
+      "top_3_correlated_peers": [
+        {
+          "ticker": "BTFH",
+          "correlation": 0.64,
+          "sector": "Banking & Financial Services"
+        },
+        {
+          "ticker": "PHDC",
+          "correlation": 0.6,
+          "sector": "Real Estate"
+        },
+        {
+          "ticker": "HRHO",
+          "correlation": 0.58,
+          "sector": "Non-Bank Financials"
+        }
+      ]
+    },
+    "recent_abnormal_returns": [
+      {
+        "date": "2025-01-08",
+        "stock_return_pct": -0.77,
+        "sector_return_pct": -1.2,
+        "abnormal_return_pct": 0.43
+      },
+      {
+        "date": "2025-01-09",
+        "stock_return_pct": -0.26,
+        "sector_return_pct": -1.38,
+        "abnormal_return_pct": 1.12
+      },
+      {
+        "date": "2025-01-12",
+        "stock_return_pct": -1.03,
+        "sector_return_pct": -1.66,
+        "abnormal_return_pct": 0.63
+      },
+      {
+        "date": "2025-01-13",
+        "stock_return_pct": -1.83,
+        "sector_return_pct": -4.15,
+        "abnormal_return_pct": 2.32
+      },
+      {
+        "date": "2025-01-14",
+        "stock_return_pct": 0.27,
+        "sector_return_pct": 1.5,
+        "abnormal_return_pct": -1.23
+      }
+    ],
+    "technical_signals": {
+      "rsi_14": 37.47,
+      "rsi_zone": "neutral",
+      "macd": {
+        "line": -0.0549,
+        "signal": -0.0525,
+        "histogram": -0.0024,
+        "state": "bearish_crossover_today"
+      },
+      "bollinger": {
+        "pct_b": 0.203,
+        "bandwidth_pct": 8.65,
+        "zone": "middle"
+      },
+      "distance_to_extremes": {
+        "20d_high_distance_pct": -6.22,
+        "20d_low_distance_pct": 1.34,
+        "60d_high_distance_pct": -12.93,
+        "60d_low_distance_pct": 1.34,
+        "252d_high_distance_pct": -29.4,
+        "252d_low_distance_pct": 17.81
+      },
+      "rsi_divergence": "none",
+      "atr_pct_14d": 1.23,
+      "consecutive_streak": 1
+    },
+    "dynamic_bands": {
+      "horizon_trading_days": {
+        "short": 1,
+        "medium": 5,
+        "large": 20
+      },
+      "neutral_band_pct": {
+        "short": 0.61,
+        "medium": 1.38,
+        "large": 2.75
+      },
+      "magnitude_bands_pct": {
+        "short": {
+          "small": [
+            0.0,
+            0.86
+          ],
+          "medium": [
+            0.86,
+            2.46
+          ],
+          "large": [
+            2.46,
+            null
+          ]
+        },
+        "medium": {
+          "small": [
+            0.0,
+            1.93
+          ],
+          "medium": [
+            1.93,
+            5.5
+          ],
+          "large": [
+            5.5,
+            null
+          ]
+        },
+        "large": {
+          "small": [
+            0.0,
+            3.85
+          ],
+          "medium": [
+            3.85,
+            11.0
+          ],
+          "large": [
+            11.0,
+            null
+          ]
+        }
+      },
+      "atr_pct_anchor": 1.23
+    },
+    "news_timing": {
+      "in_trading_hours": true,
+      "arrived_at_str": "2025-01-15 10:48:49",
+      "start_day_label": "event_date (article day; news arrived during EGX hours)"
+    }
+  },
+  "prompts": {
+    "impact": "You are a quantitative analyst predicting Egyptian Stock Exchange (EGX) stock reactions to Arabic news. Your prediction must be grounded in the technical signals provided and calibrated to this specific ticker's volatility.\n\n=== COMPANY ===\nTicker      : MASR\nName        : Madinet Masr For Housing and Development - MASR\nSector      : Real Estate\nDescription : Madinet Masr for Housing and Development — listed real estate developer focused on integrated urban communities in Greater Cairo (Sarai, Taj City).\nPrice data  : as of 2025-01-14  (article date: 2025-01-15)\n\n=== PRICE STATE ===\nLast close  : 3.77 EGP\nReturn 1d   : +0.27%   5d : -3.58%   20d : -6.22%   60d : -3.08%\nvs MA-50    : -5.99%  vs MA-200 : -4.07%\nTrend       : downtrend (below MA-50 and MA-200)\nVol 20d ann : 23.16%  [low regime]  Low -> impact MUTED unless structurally significant.\n\n=== SECTOR ===\nSector 1d   : +4.81%  5d : -5.13%\nStock vs sector 1d : -4.54%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 0.75\nTop peers:\n  - BTFH | Banking & Financial Services | 90d-corr: 0.64\n  - PHDC | Real Estate | 90d-corr: 0.6\n  - HRHO | Non-Bank Financials | 90d-corr: 0.58\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2025-01-08: stock -0.77%  sector -1.20%  AR +0.43%\n  2025-01-09: stock -0.26%  sector -1.38%  AR +1.12%\n  2025-01-12: stock -1.03%  sector -1.66%  AR +0.63%\n  2025-01-13: stock -1.83%  sector -4.15%  AR +2.32%\n  2025-01-14: stock +0.27%  sector +1.50%  AR -1.23%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 37.47  [neutral]\nMACD      : state=bearish_crossover_today  hist=-0.0024\nBollinger : zone=middle  %B=0.203\nDistance  : 20d_hi -6.22%  20d_lo +1.34%  60d_hi -12.93%  60d_lo +1.34%  52w_hi -29.40%  52w_lo +17.81%\nDivergence : none\nATR 14d   : 1.23%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : +1 (up streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=1.23%) ===\n  short   (N= 1d)  neutral=+-0.61%  small <0.86%  medium 0.86%-2.46%  large >=2.46%\n  medium  (N= 5d)  neutral=+-1.38%  small <1.93%  medium 1.93%-5.50%  large >=5.50%\n  large   (N=20d)  neutral=+-2.75%  small <3.85%  medium 3.85%-11.00%  large >=11.00%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-01-15 10:48:49\nIn trading hours: True  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : event_date (article day; news arrived during EGX hours)\n-> short = the start day itself; medium = +5 trading days; large = +20 trading days.\n\n=== ARABIC SENTIMENT (one input among many) ===\nLabel : neutral\nScore : +0.2441   (-1 strongly negative -> +1 strongly positive)\nNOTE: CAMeLBERT classifies tone, not financial implication.\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-01-15 10:48:49\nHeadline  : مدينة مصر للإسكان توقع اتفاقاً لتعزيز البنية التحتية في تاج سيتي بـ263مليون جنيه\n\nالقاهرة - مباشر: أعلنت شركة مدينة مصر للإسكان والتعمير، توقيع شراكة استراتيجية مع شركة جي تي سي أي لإنشاءات مشروعات الطاقة والبنية التحتية بقيمة 263 مليون جنيه.\nوأوضحت الشركة في افصاح اليوم الأربعاء، أنه بموجب الاتفاقية تقوم جي تي سي أي بتنفيذ أعمال توسعات خزانات المياه والري في مشروع تاج سيتي، ومن المتوقع الانتهاء من أعمال التشييد خلال عام 2025.\nوأكدت أن الاتفاقية بهدف تعزيز البنية التحتية في مشروع تاج سيتي، وتدعم خطط التوسع المستقبلية للشركة.\nوحققت الشركة أرباحاً بعد الضريبة (للشركة الأم) بلغت 2.52 مليار جنيه خلال الفترة من يناير إلى سبتمبر 2024، مقابل أرباح بلغت 1.34 مليار جنيه في الفترة المقارنة من 2023، مع الأخذ في الاعتبار حقوق الأقلية.\nوارتفعت مبيعات الشركة خلال التسعة أشهر الأولى من العام الجاري إلى 7.45 مليار جنيه، مقابل مبيعات بلغت 4.69 مليار جنيه في الفترة المقارنة من العام الماضي.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية\n..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر\n..\nاضغط هنا\nترشيحات\n:\nمدينة مصر للإسكان توقع تمويلاً مشتركاً بـ9مليارات جنيه لدعم تطوير تاج سيتي وسراي\n\n=== HORIZONS (predict ALL THREE) ===\nshort  -> 1  trading day  from start  (the start day's reaction)\nmedium -> 5  trading days from start  (one trading week cumulative)\nlarge  -> 20 trading days from start  (one trading month cumulative)\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- \"up\" means\noutperforming the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== OUTPUT INSTRUCTIONS ===\n1. Classify news_type FIRST.\n2. Walk through T1-T5. Pick TA signals that ACTUALLY apply from the closed vocab.\n3. Anchor magnitudes to the PER-COMPANY bands above (NOT a global rule).\n4. Quantify any dilution/yield ratio with both inputs.\n5. If news_type=dividend, FILL dividend_info; otherwise set it to null.\n6. LANGUAGE: free-text Arabic. JSON keys + enum values in English.\n7. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"news_type\":         \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n  \"already_priced_in\": <true | false>,\n  \"quantified_ratio\":  \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n  \"key_drivers\":       [\"<driver 1 Arabic>\", \"<driver 2 Arabic>\"],\n  \"ta_signals_cited\":  [\"<signal from closed vocab>\", \"...\"],\n  \"dividend_info\": null | {\n    \"yield_pct\":      <float>,\n    \"ex_div_date\":    \"<YYYY-MM-DD or null if unknown>\",\n    \"amount_egp\":     <float or null>\n  },\n  \"per_horizon\": {\n    \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"},\n    \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"},\n    \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"}\n  },\n  \"overall_reasoning\": \"<3-4 Arabic sentences. Walk T1-T5 briefly. Reference the per-company magnitude bands explicitly. State the quantified ratio if applicable.>\"\n}",
+    "critic": "You are a senior quantitative risk analyst at an Egyptian investment bank. A junior LLM analyst has assessed a news event about MASR (Madinet Masr For Housing and Development - MASR). Your job:\n  (a) audit the junior's TA citations against the live data,\n  (b) check magnitudes against the PER-COMPANY bands (not global rules),\n  (c) produce the final authoritative prediction across short / medium / large,\n  (d) write a plain-Arabic explanation for a non-expert retail investor.\n\n=== COMPANY ===\nTicker      : MASR\nName        : Madinet Masr For Housing and Development - MASR\nSector      : Real Estate\nDescription : Madinet Masr for Housing and Development — listed real estate developer focused on integrated urban communities in Greater Cairo (Sarai, Taj City).\nPrice data  : as of 2025-01-14  (article date: 2025-01-15)\n\n=== PRICE STATE ===\nLast close  : 3.77 EGP\nReturn 1d   : +0.27%   5d : -3.58%   20d : -6.22%   60d : -3.08%\nvs MA-50    : -5.99%  vs MA-200 : -4.07%\nTrend       : downtrend (below MA-50 and MA-200)\nVol 20d ann : 23.16%  [low regime]  Low -> impact MUTED unless structurally significant.\n\n=== SECTOR ===\nSector 1d   : +4.81%  5d : -5.13%\nStock vs sector 1d : -4.54%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 0.75\nTop peers:\n  - BTFH | Banking & Financial Services | 90d-corr: 0.64\n  - PHDC | Real Estate | 90d-corr: 0.6\n  - HRHO | Non-Bank Financials | 90d-corr: 0.58\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2025-01-08: stock -0.77%  sector -1.20%  AR +0.43%\n  2025-01-09: stock -0.26%  sector -1.38%  AR +1.12%\n  2025-01-12: stock -1.03%  sector -1.66%  AR +0.63%\n  2025-01-13: stock -1.83%  sector -4.15%  AR +2.32%\n  2025-01-14: stock +0.27%  sector +1.50%  AR -1.23%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 37.47  [neutral]\nMACD      : state=bearish_crossover_today  hist=-0.0024\nBollinger : zone=middle  %B=0.203\nDistance  : 20d_hi -6.22%  20d_lo +1.34%  60d_hi -12.93%  60d_lo +1.34%  52w_hi -29.40%  52w_lo +17.81%\nDivergence : none\nATR 14d   : 1.23%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : +1 (up streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=1.23%) ===\n  short   (N= 1d)  neutral=+-0.61%  small <0.86%  medium 0.86%-2.46%  large >=2.46%\n  medium  (N= 5d)  neutral=+-1.38%  small <1.93%  medium 1.93%-5.50%  large >=5.50%\n  large   (N=20d)  neutral=+-2.75%  small <3.85%  medium 3.85%-11.00%  large >=11.00%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-01-15 10:48:49\nIn trading hours: True  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : event_date (article day; news arrived during EGX hours)\n-> short = the start day itself; medium = +5 trading days; large = +20 trading days.\n\n=== ARABIC SENTIMENT ===\nLabel : neutral\nScore : +0.2441\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-01-15 10:48:49\nHeadline  : مدينة مصر للإسكان توقع اتفاقاً لتعزيز البنية التحتية في تاج سيتي بـ263مليون جنيه\n\nالقاهرة - مباشر: أعلنت شركة مدينة مصر للإسكان والتعمير، توقيع شراكة استراتيجية مع شركة جي تي سي أي لإنشاءات مشروعات الطاقة والبنية التحتية بقيمة 263 مليون جنيه.\nوأوضحت الشركة في افصاح اليوم الأربعاء، أنه بموجب الاتفاقية تقوم جي تي سي أي بتنفيذ أعمال توسعات خزانات المياه والري في مشروع تاج سيتي، ومن المتوقع الانتهاء من أعمال التشييد خلال عام 2025.\nوأكدت أن الاتفاقية بهدف تعزيز البنية التحتية في مشروع تاج سيتي، وتدعم خطط التوسع المستقبلية للشركة.\nوحققت الشركة أرباحاً بعد الضريبة (للشركة الأم) بلغت 2.52 مليار جنيه خلال الفترة من يناير إلى سبتمبر 2024، مقابل أرباح بلغت 1.34 مليار جنيه في الفترة المقارنة من 2023، مع الأخذ في الاعتبار حقوق الأقلية.\nوارتفعت مبيعات الشركة خلال التسعة أشهر الأولى من العام الجاري إلى 7.45 مليار جنيه، مقابل مبيعات بلغت 4.69 مليار جنيه في الفترة المقارنة من العام الماضي.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية\n..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر\n..\nاضغط هنا\nترشيحات\n:\nمدينة مصر للإسكان توقع تمويلاً مشتركاً بـ9مليارات جنيه لدعم تطوير تاج سيتي وسراي\n\n=== IMPACT AGENT OUTPUT (junior, Groq) ===\n{\n  \"news_type\": \"operational\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"لا ينطبق\",\n  \"key_drivers\": [\n    \"توقيع شراكة استراتيجية مع شركة جي تي سي أي لتعزيز البنية التحتية في تاج سيتي\",\n    \"الانتهاء من الأعمال خلال عام 2025 لدعم خطط التوسع المستقبلية\"\n  ],\n  \"ta_signals_cited\": [\n    \"macd_bearish_crossover\",\n    \"strong_downtrend\",\n    \"low_volatility\"\n  ],\n  \"dividend_info\": null,\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.6,\n      \"reasoning\": \"الانعكاس المحتمل للاتجاه الهابط مع تأثير محدود بسبب التذبذب السلبي في MACD والتحفظ في ظل التذبذب المنخفض.\"\n    },\n    \"medium\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.5,\n      \"reasoning\": \"الاتجاه الهابط المستمر والتحفظ في MACD يحدان من التأثير الإيجابي للأخبار على مدى 5 أيام.\"\n    },\n    \"large\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.4,\n      \"reasoning\": \"الاتجاه الهابط على المدى الطويل والتحفظ في MACD يقللان من احتمالات التحسن الهيكلي.\"\n    }\n  }\n}\n\n=== HORIZONS (predict ALL THREE) ===\nshort  -> 1  trading day  from start  (the start day's reaction)\nmedium -> 5  trading days from start  (one trading week cumulative)\nlarge  -> 20 trading days from start  (one trading month cumulative)\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- \"up\" means\noutperforming the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== REVIEW CHECKLIST ===\nC1. NEWS_TYPE correct?\nC2. TA_SIGNALS: every cited signal must be supported by the data. Override\n    inconsistent cites and note in disagreements_with_junior.\nC3. MAGNITUDE vs PER-COMPANY BANDS: does the predicted bucket match the\n    horizon's per-company thresholds? Adjust if mis-scaled.\nC4. PRICED-IN: if stock_vs_sector_1d aligns with the news direction, short\n    magnitude should default to \"small\" (R4).\nC5. DIVERGENCE: if a divergence signal is present, did the junior account for it?\nC6. CONFIDENCE: lower when agents-disagree-with-context or news is priced in.\n    Default conf_large <= conf_medium <= conf_short.\nC7. DIVIDEND_INFO: if news_type=dividend, ensure yield_pct is present. If the\n    article gives the ex-div date, extract it as YYYY-MM-DD; otherwise null.\nC8. LANGUAGE LEAKS: strip any non-Arabic word from Arabic fields (R6).\n\n=== USER-FACING EXPLANATION ===\nU1. NO JARGON. Use everyday Arabic equivalents for RSI / MACD / Bollinger /\n    ATR / abnormal return / dilution.\nU2. NUMBERS WITH MEANING. Every cited number gets a plain-Arabic interpretation.\nU3. STATE THE PREDICTION FIRST in what_we_expect (direction + size + timeline),\n    THEN 1-2 sentences of evidence.\nU4. PER-HORIZON. outlook_by_horizon.short / .medium / .large -- one Arabic\n    sentence each with direction + size + rationale clue.\nU5. BREVITY. ~150-200 Arabic words across the whole user block.\nU6. 100% Arabic in the user block.\n\n=== INSTRUCTIONS ===\n1. Override the junior anywhere evidence demands it; list each change in\n   \"disagreements_with_junior\" with the reason.\n2. Confidence: adjust per horizon. Default conf_large <= conf_medium <= conf_short.\n3. SPELLING: \"RSI-14\" not \"RS-14\". Proper Arabic punctuation.\n4. LANGUAGE: free-text Arabic; JSON keys + tickers + enum values in English.\n5. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"primary_company\": {\n    \"ticker\":              \"MASR\",\n    \"news_type\":           \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n    \"already_priced_in\":   <true | false>,\n    \"quantified_ratio\":    \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n    \"ta_signals_cited\":    [\"<signal from closed vocab>\", \"...\"],\n    \"dividend_info\": null | {\n      \"yield_pct\":   <float>,\n      \"ex_div_date\": \"<YYYY-MM-DD or null>\",\n      \"amount_egp\":  <float or null>\n    },\n    \"per_horizon\": {\n      \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"},\n      \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"},\n      \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"}\n    },\n    \"overall_reasoning\":   \"<3-4 Arabic sentences. Reference the per-company bands. State news_type. Note any override of the junior.>\"\n  },\n  \"risk_flags\": [\n    \"<event-specific risk in Arabic>\",\n    \"<event-specific risk in Arabic>\"\n  ],\n  \"disagreements_with_junior\": [\n    \"<what the junior said, what is correct, why -- in Arabic>\"\n  ],\n  \"external_signal_alignment\":   \"aligned\" | \"partially_aligned\" | \"contradicts\",\n  \"external_signal_explanation\": \"<1-2 sentences in Arabic>\",\n  \"tldr\": {\n    \"verdict\":   \"<short Arabic phrase: direction + horizon>\",\n    \"one_line\":  \"<one Arabic sentence summarising the whole view>\"\n  },\n  \"explanation_for_user\": {\n    \"headline\":                  \"<one sentence plain Arabic, no jargon>\",\n    \"what_happened\":             \"<2-3 sentences plain Arabic, no jargon>\",\n    \"why_it_matters\":            \"<2-3 sentences plain Arabic, financial logic in everyday terms>\",\n    \"what_we_expect\":            \"<lead with prediction (direction + size + timeline) THEN evidence>\",\n    \"outlook_by_horizon\": {\n      \"short\":  \"<one Arabic sentence: direction + size + rationale for the first trading day>\",\n      \"medium\": \"<one Arabic sentence: direction + size + rationale for the first week (5 days)>\",\n      \"large\":  \"<one Arabic sentence: direction + size + rationale for the first month (20 days)>\"\n    },\n    \"what_could_change_our_view\":\"<1-2 Arabic sentences on key uncertainties>\"\n  }\n}"
+  },
+  "impact_agent": {
+    "output": {
+      "news_type": "operational",
+      "already_priced_in": false,
+      "quantified_ratio": "لا ينطبق",
+      "key_drivers": [
+        "توقيع شراكة استراتيجية مع شركة جي تي سي أي لتعزيز البنية التحتية في تاج سيتي",
+        "الانتهاء من الأعمال خلال عام 2025 لدعم خطط التوسع المستقبلية"
+      ],
+      "ta_signals_cited": [
+        "macd_bearish_crossover",
+        "strong_downtrend",
+        "low_volatility"
+      ],
+      "dividend_info": null,
+      "per_horizon": {
+        "short": {
+          "direction": "up",
+          "magnitude": "small",
+          "confidence": 0.6,
+          "reasoning": "الانعكاس المحتمل للاتجاه الهابط مع تأثير محدود بسبب التذبذب السلبي في MACD والتحفظ في ظل التذبذب المنخفض."
+        },
+        "medium": {
+          "direction": "neutral",
+          "magnitude": "small",
+          "confidence": 0.5,
+          "reasoning": "الاتجاه الهابط المستمر والتحفظ في MACD يحدان من التأثير الإيجابي للأخبار على مدى 5 أيام."
+        },
+        "large": {
+          "direction": "neutral",
+          "magnitude": "small",
+          "confidence": 0.4,
+          "reasoning": "الاتجاه الهابط على المدى الطويل والتحفظ في MACD يقللان من احتمالات التحسن الهيكلي."
+        }
+      }
+    },
+    "raw": "{  \"news_type\": \"operational\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"لا ينطبق\",\n  \"key_drivers\": [\n    \"توقيع شراكة استراتيجية مع شركة جي تي سي أي لتعزيز البنية التحتية في تاج سيتي\",\n    \"الانتهاء من الأعمال خلال عام 2025 لدعم خطط التوسع المستقبلية\"\n  ],\n  \"ta_signals_cited\": [\n    \"macd_bearish_crossover\",\n    \"strong_downtrend\",\n    \"low_volatility\"\n  ],\n  \"dividend_info\": null,\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.6,\n      \"reasoning\": \"الانعكاس المحتمل للاتجاه الهابط مع تأثير محدود بسبب التذبذب السلبي في MACD والتحفظ في ظل التذبذب المنخفض.\"\n    },\n    \"medium\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.5,\n      \"reasoning\": \"الاتجاه الهابط المستمر والتحفظ في MACD يحدان من التأثير الإيجابي للأخبار على مدى 5 أيام.\"\n    },\n    \"large\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.4,\n      \"reasoning\": \"الاتجاه الهابط على المدى الطويل والتحفظ في MACD يقللان من احتمالات التحسن الهيكلي.\"\n    }\n  }}"
+  },
+  "critic_agent": {
+    "output": {
+      "primary_company": {
+        "ticker": "MASR",
+        "news_type": "operational",
+        "already_priced_in": false,
+        "quantified_ratio": "لا ينطبق",
+        "ta_signals_cited": [
+          "macd_bearish_crossover",
+          "strong_downtrend",
+          "low_volatility"
+        ],
+        "dividend_info": null,
+        "per_horizon": {
+          "short": {
+            "direction": "neutral",
+            "magnitude": "small",
+            "confidence": 0.55,
+            "reasoning": "مؤشر MACD أظهر تقاطعاً هابطاً اليوم مما يُضعف أي رد فعل إيجابي على الخبر رغم أنه إيجابي fundamentalmente؛ التحذير من MACD يحد من قوة الاتجاه الصاعد."
+          },
+          "medium": {
+            "direction": "neutral",
+            "magnitude": "small",
+            "confidence": 0.5,
+            "reasoning": "الاتجاه الهابط المستمر تحت MA-50 وMA-200 يحد من أي مكاسب هيكلية؛ الحد الأقصى المتوقع ضمن النطاق الصغير (أقل من 1.93% خلال 5 أيام)."
+          },
+          "large": {
+            "direction": "up",
+            "magnitude": "small",
+            "confidence": 0.45,
+            "reasoning": "مقابل 263 مليون جنيه يدعم خطة التوسع في تاج سيتي إيجابياً لكن الاتجاه الهابط طويل المدى والتقاطع الهابط في MACD يقللان من احتمالية تحسن هيكلي كبير."
+          }
+        },
+        "overall_reasoning": "الخبر نوعه operational (شراكة البنية التحتية بـ263 مليون جنيه لمشروع تاج سيتي) وهو إيجابي fundamentalmente لكنه لا يتضمن زيادة رأس مال أو اندماج أو توزيعات أرباح. الإشارة الفنية MACD أظهر تقاطعاً هابطاً اليوم hist=-0.0024 وهذا يتعارض مع الخبر الإيجابي ويحد من قوة رد الفعل. تم تعديل التوقع قصير المدى من up إلى neutral لأن التقاطع الهابط في MACD يُضعف أي رد فعل إيجابي (R3: MACD state contradicts the news). حجم العقد ضمن النطاق الصغير لكل الآفاق (short<0.86%، medium<1.93%، large<3.85%)."
+      },
+      "risk_flags": [
+        "التقاطع الهابط في MACD اليوم يشير لزخم سلبي قد يُعيق رد الفعل الإيجابي على الخبر"
+      ],
+      "disagreements_with_junior": [
+        "Junior تنبأ باتجاه up قصير المدى لكن مع التقاطع الهابط في MACD اليوم (hist=-0.0024) يجب أن نخفض الثقة في الاتجاه الصعودي إلى neutral وفقاً لقاعدة R3.",
+        "Junior لم تذكر أن MACD state يتصادم مع الخبر الإيجابي مما يستدعي تقليل الثقة في magnitude الصعودي."
+      ],
+      "external_signal_alignment": "partially_aligned",
+      "external_signal_explanation": "العائد الشاذ للسهم خلال الأيام الأخيرة سلبي غالباً (AR+0.43%, +1.12%, +0.63%, +2.32%, -1.23%) مما يعني أن السهم يتخلف عن القطاع؛ خبر البنية التحتية قد يصحح هذا التخلف جزئياً لكن الزخم السلبي للـ MACD يحد من حجم التصحيح.",
+      "tldr": {
+        "verdict": "تأثير محايد-صغير على مدى اليوم والأسبوع",
+        "one_line": "الشراكة الاستراتيجية لـ263 مليون جنيه إيجابية fundamentalmente لكنها ستواجه مقاومة فنية من MACD الهابط والاتجاه النزولي."
+      },
+      "explanation_for_user": {
+        "headline": "شركة مدينة مصر وقعت شراكة بـ263 مليون جنيه لإنشاء مرافق مياه وري في مشروع تاج سيتي",
+        "what_happened": "أعلنت شركة مدينة مصر للإسكان والتعمير عن توقيع شراكة مع شركة جي تي سي أي لتنفيذ أعمال توسعات خزانات المياه والري في مشروع تاج سيتي بقيمة 263 مليون جنيه، على أن يتم الانتهاء خلال عام 2025.",
+        "why_it_matters": "هذا العقد يدعم البنية التحتية لمشروع تاج سيتي الذي يُعد من أبرز مشاريع الشركة في القاهرة الكبرى. الشركة أظهرت نمواً قوياً في المبيعات (من 4.69 إلى 7.45 مليار جنيه) والأرباح (من 1.34 إلى 2.52 مليار جنيه) خلال تسعة أشهر.",
+        "what_we_expect": "نتوقع تأثيراً محايداً إلى محدود على سعر السهم خلال اليوم: الارتداد المحدود المتوقع يأتي لأن السعر حالياً في اتجاه هابط وأسفل متوسطاته المتحركة، بينما يظهر مؤشر الـ MACD تقاطعاً هابطاً اليوم.",
+        "outlook_by_horizon": {
+          "short": "اتجاه محايد مع ارتفاع صغير (ضمن ±0.61%) خلال اليوم الأول بسبب تحفظ MACD على الاتجاه الصعودي.",
+          "medium": "اتجاه محايد مع ارتفاع صغير (ضمن ±1.38%) خلال الأسبوع الأول؛ الاتجاه الهابط المستمر يحد من المكاسب.",
+          "large": "اتجاه صعودي طفيف (ضمن ±2.75%) خلال الشهر الأول؛ العقد الإيجابي للعمليات قد يصحح التخلف عن القطاع."
+        },
+        "what_could_change_our_view": "إذا تجاوز السهم مقاومة MA-50 (أعلى بـ5.99% من السعر الحالي) أو تحول MACD إلى تقاطع صاعد، قد نراجع التوقع إلى إيجابي. أي أخبار سلبية على القطاع العقاري المصري قد تُبطل هذا التوقع."
+      }
+    },
+    "raw": "\n\n{\"primary_company\":{\"ticker\":\"MASR\",\"news_type\":\"operational\",\"already_priced_in\":false,\"quantified_ratio\":\"لا ينطبق\",\"ta_signals_cited\":[\"macd_bearish_crossover\",\"strong_downtrend\",\"low_volatility\"],\"dividend_info\":null,\"per_horizon\":{\"short\":{\"direction\":\"neutral\",\"magnitude\":\"small\",\"confidence\":0.55,\"reasoning\":\"مؤشر MACD أظهر تقاطعاً هابطاً اليوم مما يُضعف أي رد فعل إيجابي على الخبر رغم أنه إيجابي fundamentalmente؛ التحذير من MACD يحد من قوة الاتجاه الصاعد.\"},\"medium\":{\"direction\":\"neutral\",\"magnitude\":\"small\",\"confidence\":0.50,\"reasoning\":\"الاتجاه الهابط المستمر تحت MA-50 وMA-200 يحد من أي مكاسب هيكلية؛ الحد الأقصى المتوقع ضمن النطاق الصغير (أقل من 1.93% خلال 5 أيام).\"},\"large\":{\"direction\":\"up\",\"magnitude\":\"small\",\"confidence\":0.45,\"reasoning\":\"مقابل 263 مليون جنيه يدعم خطة التوسع في تاج سيتي إيجابياً لكن الاتجاه الهابط طويل المدى والتقاطع الهابط في MACD يقللان من احتمالية تحسن هيكلي كبير.\"}},\"overall_reasoning\":\"الخبر نوعه operational (شراكة البنية التحتية بـ263 مليون جنيه لمشروع تاج سيتي) وهو إيجابي fundamentalmente لكنه لا يتضمن زيادة رأس مال أو اندماج أو توزيعات أرباح. الإشارة الفنية MACD أظهر تقاطعاً هابطاً اليوم hist=-0.0024 وهذا يتعارض مع الخبر الإيجابي ويحد من قوة رد الفعل. تم تعديل التوقع قصير المدى من up إلى neutral لأن التقاطع الهابط في MACD يُضعف أي رد فعل إيجابي (R3: MACD state contradicts the news). حجم العقد ضمن النطاق الصغير لكل الآفاق (short<0.86%، medium<1.93%، large<3.85%).\"},\"risk_flags\":[\"التقاطع الهابط في MACD اليوم يشير لزخم سلبي قد يُعيق رد الفعل الإيجابي على الخبر\"],\"disagreements_with_junior\":[\"Junior تنبأ باتجاه up قصير المدى لكن مع التقاطع الهابط في MACD اليوم (hist=-0.0024) يجب أن نخفض الثقة في الاتجاه الصعودي إلى neutral وفقاً لقاعدة R3.\",\"Junior لم تذكر أن MACD state يتصادم مع الخبر الإيجابي مما يستدعي تقليل الثقة في magnitude الصعودي.\"],\"external_signal_alignment\":\"partially_aligned\",\"external_signal_explanation\":\"العائد الشاذ للسهم خلال الأيام الأخيرة سلبي غالباً (AR+0.43%, +1.12%, +0.63%, +2.32%, -1.23%) مما يعني أن السهم يتخلف عن القطاع؛ خبر البنية التحتية قد يصحح هذا التخلف جزئياً لكن الزخم السلبي للـ MACD يحد من حجم التصحيح.\",\"tldr\":{\"verdict\":\"تأثير محايد-صغير على مدى اليوم والأسبوع\",\"one_line\":\"الشراكة الاستراتيجية لـ263 مليون جنيه إيجابية fundamentalmente لكنها ستواجه مقاومة فنية من MACD الهابط والاتجاه النزولي.\"},\"explanation_for_user\":{\"headline\":\"شركة مدينة مصر وقعت شراكة بـ263 مليون جنيه لإنشاء مرافق مياه وري في مشروع تاج سيتي\",\"what_happened\":\"أعلنت شركة مدينة مصر للإسكان والتعمير عن توقيع شراكة مع شركة جي تي سي أي لتنفيذ أعمال توسعات خزانات المياه والري في مشروع تاج سيتي بقيمة 263 مليون جنيه، على أن يتم الانتهاء خلال عام 2025.\",\"why_it_matters\":\"هذا العقد يدعم البنية التحتية لمشروع تاج سيتي الذي يُعد من أبرز مشاريع الشركة في القاهرة الكبرى. الشركة أظهرت نمواً قوياً في المبيعات (من 4.69 إلى 7.45 مليار جنيه) والأرباح (من 1.34 إلى 2.52 مليار جنيه) خلال تسعة أشهر.\",\"what_we_expect\":\"نتوقع تأثيراً محايداً إلى محدود على سعر السهم خلال اليوم: الارتداد المحدود المتوقع يأتي لأن السعر حالياً في اتجاه هابط وأسفل متوسطاته المتحركة، بينما يظهر مؤشر الـ MACD تقاطعاً هابطاً اليوم.\",\"outlook_by_horizon\":{\"short\":\"اتجاه محايد مع ارتفاع صغير (ضمن ±0.61%) خلال اليوم الأول بسبب تحفظ MACD على الاتجاه الصعودي.\",\"medium\":\"اتجاه محايد مع ارتفاع صغير (ضمن ±1.38%) خلال الأسبوع الأول؛ الاتجاه الهابط المستمر يحد من المكاسب.\",\"large\":\"اتجاه صعودي طفيف (ضمن ±2.75%) خلال الشهر الأول؛ العقد الإيجابي للعمليات قد يصحح التخلف عن القطاع.\"},\"what_could_change_our_view\":\"إذا تجاوز السهم مقاومة MA-50 (أعلى بـ5.99% من السعر الحالي) أو تحول MACD إلى تقاطع صاعد، قد نراجع التوقع إلى إيجابي. أي أخبار سلبية على القطاع العقاري المصري قد تُبطل هذا التوقع.\"}}",
+    "thinking": "Let me analyze this carefully as a senior quantitative risk analyst.\n\n## Step 1: Audit the junior's TA citations\n\nJunior cited:\n- macd_bearish_crossover\n- strong_downtrend\n- low_volatility\n\nLet me check each against the live data:\n\n**MACD**: state=bearish_crossover_today, hist=-0.0024 → CORRECT citation\n\n**strong_downtrend**: \"Trend: downtrend (below MA-50 and MA-200)\" → -5.99% vs MA-50, -4.07% vs MA-200 → CORRECT\n\n**low_volatility**: Vol 20d ann: 23.16% [low regime] → CORRECT\n\nAll three TA signals cited by the junior are accurate.\n\n## Step 2: Check magnitude against PER-COMPANY bands\n\nPer-company bands for MASR:\n- Short (1d): neutral=±0.61%, small <0.86%, medium 0.86%-2.46%, large ≥2.46%\n- Medium (5d): neutral=±1.38%, small <1.93%, medium 1.93%-5.50%, large ≥5.50%\n- Large (20d): neutral=±2.75%, small <3.85%, medium 3.85%-11.00%, large ≥11.00%\n\nJunior predicted:\n- Short: small\n- Medium: small\n- Large: small\n\nThe news is about a 263 million EGP infrastructure contract for Taj City project. This is operational news - a strategic partnership.\n\n**News Type**: operational\n**Already Priced In?**: The stock was -4.54% vs sector on 1d. The sector rose +4.81% on 1d while MASR was only +0.27%. This suggests the stock is actually UNDERPERFORMING the sector today, which means news hasn't been priced in yet.\n\n\nThe MACD bearish crossover is happening today, but this infrastructure contract is fundamentally positive news. Given the downtrend and bearish MACD state, I should expect a muted reaction initially, though the positive nature of the contract could eventually drive outperformance. The neutral to small magnitude seems appropriate given the bearish technical backdrop.\n\nLooking at MASR's volatility bands, the expected ranges are quite tight: short-term neutral zone is ±0.61%, expanding to ±1.38% over five days and ±2.75% over twenty days. The 263 million EGP contract represents a meaningful commitment to Taj City's infrastructure development, but the technical headwinds—particularly the MACD crossover and downtrend—likely constrain the market's response to this positive announcement.\n\nThe MACD's bearish crossover today represents a critical technical signal that conflicts with the fundamental news. This contradiction means I need to downgrade the confidence in expecting an immediate strong positive reaction. The stock is trading below both moving averages, RSI is neutral at 37.47, Bollinger Bands sit in the middle zone at 0.203, and it's positioned near the low end of its 20-day range with limited downside room at +1.34% to the 20-day low. These technical conditions suggest any upside momentum will be constrained, reinforcing a muted response to the positive news.\n\nThe 263 million EGP infrastructure contract represents a material commitment for MASR's Taj City project, but the bearish technical setup is likely to dampen the market's initial reaction. Given the downtrend, bearish MACD crossover, and low volatility regime, I'm adjusting the short-term outlook to neutral with a small magnitude rather than a bullish reading, assigning 0.55 confidence. The medium-term view remains neutral with small magnitude at 0.50 confidence, while the longer-term projection is also neutral with small magnitude at 0.45 confidence, reflecting the downtrend pressure throughout the holding period.\n\nThe key technical observations supporting this stance are the bearish MACD crossover occurring today, the stock trading below both the 50-day and 200-day moving averages, and the muted volatility regime. The 263 million EGP contract itself is positive for infrastructure development at Taj City, but the current bearish technical conditions will limit the price reaction near-term.\n\nI disagree with the junior's short-term bullish prediction given the MACD bearish crossover, which signals negative momentum that likely constrains any positive reaction from the news.\n"
+  },
+  "final": {
+    "ticker": "MASR",
+    "news_type": "operational",
+    "already_priced_in": false,
+    "quantified_ratio": "لا ينطبق",
+    "ta_signals_cited": [
+      "macd_bearish_crossover",
+      "strong_downtrend",
+      "low_volatility"
+    ],
+    "dividend_info": null,
+    "per_horizon": {
+      "short": {
+        "direction": "neutral",
+        "magnitude": "small",
+        "confidence": 0.55,
+        "reasoning": "مؤشر MACD أظهر تقاطعاً هابطاً اليوم مما يُضعف أي رد فعل إيجابي على الخبر رغم أنه إيجابي fundamentalmente؛ التحذير من MACD يحد من قوة الاتجاه الصاعد."
+      },
+      "medium": {
+        "direction": "neutral",
+        "magnitude": "small",
+        "confidence": 0.5,
+        "reasoning": "الاتجاه الهابط المستمر تحت MA-50 وMA-200 يحد من أي مكاسب هيكلية؛ الحد الأقصى المتوقع ضمن النطاق الصغير (أقل من 1.93% خلال 5 أيام)."
+      },
+      "large": {
+        "direction": "up",
+        "magnitude": "small",
+        "confidence": 0.45,
+        "reasoning": "مقابل 263 مليون جنيه يدعم خطة التوسع في تاج سيتي إيجابياً لكن الاتجاه الهابط طويل المدى والتقاطع الهابط في MACD يقللان من احتمالية تحسن هيكلي كبير."
+      }
+    },
+    "overall_reasoning": "الخبر نوعه operational (شراكة البنية التحتية بـ263 مليون جنيه لمشروع تاج سيتي) وهو إيجابي fundamentalmente لكنه لا يتضمن زيادة رأس مال أو اندماج أو توزيعات أرباح. الإشارة الفنية MACD أظهر تقاطعاً هابطاً اليوم hist=-0.0024 وهذا يتعارض مع الخبر الإيجابي ويحد من قوة رد الفعل. تم تعديل التوقع قصير المدى من up إلى neutral لأن التقاطع الهابط في MACD يُضعف أي رد فعل إيجابي (R3: MACD state contradicts the news). حجم العقد ضمن النطاق الصغير لكل الآفاق (short<0.86%، medium<1.93%، large<3.85%)."
+  }
+}

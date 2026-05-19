@@ -1,0 +1,337 @@
+{
+  "ticker": "ORAS",
+  "article_date": "2025-01-08",
+  "context_date": "2025-01-06",
+  "processed_at": "2026-05-17T23:46:16.123817",
+  "article": {
+    "symbol": "ORAS",
+    "company": "Orascom Construction PLC",
+    "isin": "EGS95001C011",
+    "sector": "Construction & Building Materials",
+    "id": "4389121",
+    "date": "2025-01-08",
+    "time": "11:08:36",
+    "datetime": "2025-01-08 11:08:36",
+    "title": "اليوم.. نهاية الحق في توزيع كوبون أوراسكوم كونستراكشون",
+    "body": "القاهرة - مباشر: ينتهي خلال جلسة اليوم الأربعاء، الحق في التوزيع النقدي لشركة أوراسكوم كونستراكشون بي ال سي.\nومن المقرر توزيع كوبون أوراسكوم كونستراكشون رقم (12) بواقع 11.200068 جنيه للسهم الواحد، اعتباراً من 15 يناير 2025.\nوجاء ذلك ضمن قرار مجلس الإدارة بتوزيع أرباح مرحلية بقيمة 0.22 دولار للسهم، وتقرر إجراء توزيعها بالدولار على المساهمين المالكين لأسهم في بورصة ناسدك دبي، وتوزيعها بالجنيه للمساهمين في بورصة مصر.\nوتم احتساب سعر تحويل العملة وفقا لسعر بيع الدولار مقابل الجنيه المعلن من المركزي المصري في تاريخ قرار مجلس الإدارة في 30 ديسمبر 2024.\nيشار إلى أن أوراسكوم كونستراكشون بي إل سي،  حققت أرباحاً بلغت 96 مليون دولار خلال الفترة من يناير حتى نهاية سبتمبر 2024، مقابل أرباح بلغت 150.8 مليون دولار في الفترة المقارنة من 2023، مع الأخذ في الاعتبار حقوق الأقلية.\nوتراجعت إيرادات الشركة خلال التسعة أشهر إلى 2.31 مليار دولار، مقابل إيرادات بلغت 2.36 مليار دولار في الفترة المقارنة من العام الماضي.\nوعلى مستوى الأعمال غير المجمعة، تحولت الشركة المستقلة إلى الخسائر خلال الفترة من يناير حتى نهاية سبتمبر الماضي لتتكبد 22.89 مليون دولار، مقابل أرباح بقيمة 67.58 مليون دولار في الفترة المقارنة من 2023.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر..\nاضغط هنا\nترشيحات\nلميس الحديدي: أي زيادة في الدولار سترفع الأسعار.. ووزير المالية يجب أن \"يفزع\"",
+    "teaser": "القاهرة - مباشر: ينتهي خلال جلسة اليوم الأربعاء، الحق في التوزيع النقدي لشركة أوراسكوم كونستراكشون بي ال سي. ومن المقرر توزيع كوبون أوراسكوم كونستراكشون رقم (12) بواقع 11.200068 جنيه للسهم الواحد، اعتباراً من 15 يناير 2025. وجاء ذلك ضمن قرار مجلس …",
+    "section": "أخبار الشركة",
+    "source": "مباشر",
+    "categories": "stock-bonds",
+    "country": "الإمارات",
+    "reads": 1263,
+    "url": "https://www.mubasher.info/news/4389121",
+    "image_url": "https://static.mubasher.info/File.Story_Image/8634da7d9e1ebba332fa6e74883e748a/640.jpg",
+    "date_raw": ""
+  },
+  "sentiment": {
+    "model": "CAMeL-Lab/bert-base-arabic-camelbert-mix-sentiment",
+    "label": "neutral",
+    "score": 0.0261,
+    "numeric": 0,
+    "class_probs": {
+      "neutral": 0.9699,
+      "positive": 0.0281,
+      "negative": 0.002
+    }
+  },
+  "context": {
+    "ticker": "ORAS",
+    "company": "Orascom Construction PLC - ORAS",
+    "sector": "Construction & Building Materials",
+    "business_description": "Orascom Construction PLC — major EPC contractor with operations in Egypt and the USA (Ceres Environmental); revenues largely USD-denominated from infrastructure and industrial projects.",
+    "event_date": "2025-01-08",
+    "last_price_date": "2025-01-06",
+    "price_state": {
+      "last_close": 71.05,
+      "return_1d": 0.0,
+      "return_5d": 0.0,
+      "return_20d": 0.0,
+      "return_60d": 0.0,
+      "pct_vs_ma50": 0.0,
+      "pct_vs_ma200": 0.0,
+      "vol_20d_annualized_pct": 0.0,
+      "vol_regime": "normal",
+      "rsi_14": 39.66
+    },
+    "market_state": {
+      "sector_return_1d": -0.26,
+      "sector_return_5d": 1.36,
+      "relative_strength_vs_sector_1d": 0.26
+    },
+    "correlation_state": {
+      "corr_with_sector_90d": NaN,
+      "top_3_correlated_peers": []
+    },
+    "recent_abnormal_returns": [
+      {
+        "date": "2024-12-30",
+        "stock_return_pct": 0.0,
+        "sector_return_pct": -1.23,
+        "abnormal_return_pct": 1.23
+      },
+      {
+        "date": "2024-12-31",
+        "stock_return_pct": 0.0,
+        "sector_return_pct": 1.9,
+        "abnormal_return_pct": -1.9
+      },
+      {
+        "date": "2025-01-02",
+        "stock_return_pct": 0.0,
+        "sector_return_pct": 1.11,
+        "abnormal_return_pct": -1.11
+      },
+      {
+        "date": "2025-01-05",
+        "stock_return_pct": 0.0,
+        "sector_return_pct": 1.09,
+        "abnormal_return_pct": -1.09
+      },
+      {
+        "date": "2025-01-06",
+        "stock_return_pct": 0.0,
+        "sector_return_pct": -0.36,
+        "abnormal_return_pct": 0.36
+      }
+    ],
+    "technical_signals": {
+      "rsi_14": 39.66,
+      "rsi_zone": "neutral",
+      "macd": {
+        "line": -0.0,
+        "signal": -0.0,
+        "histogram": 0.0,
+        "state": "bullish"
+      },
+      "bollinger": null,
+      "distance_to_extremes": {
+        "20d_high_distance_pct": 0.0,
+        "20d_low_distance_pct": 0.0,
+        "60d_high_distance_pct": 0.0,
+        "60d_low_distance_pct": 0.0,
+        "252d_high_distance_pct": 0.0,
+        "252d_low_distance_pct": 0.0
+      },
+      "rsi_divergence": "none",
+      "atr_pct_14d": 0.0,
+      "consecutive_streak": 0
+    },
+    "dynamic_bands": {
+      "horizon_trading_days": {
+        "short": 1,
+        "medium": 5,
+        "large": 20
+      },
+      "neutral_band_pct": {
+        "short": 1.0,
+        "medium": 2.5,
+        "large": 5.0
+      },
+      "magnitude_bands_pct": {
+        "short": {
+          "small": [
+            0.0,
+            1.0
+          ],
+          "medium": [
+            1.0,
+            3.0
+          ],
+          "large": [
+            3.0,
+            null
+          ]
+        },
+        "medium": {
+          "small": [
+            0.0,
+            2.5
+          ],
+          "medium": [
+            2.5,
+            6.0
+          ],
+          "large": [
+            6.0,
+            null
+          ]
+        },
+        "large": {
+          "small": [
+            0.0,
+            5.0
+          ],
+          "medium": [
+            5.0,
+            12.0
+          ],
+          "large": [
+            12.0,
+            null
+          ]
+        }
+      },
+      "atr_pct_anchor": 0.0
+    },
+    "news_timing": {
+      "in_trading_hours": true,
+      "arrived_at_str": "2025-01-08 11:08:36",
+      "start_day_label": "event_date (article day; news arrived during EGX hours)"
+    }
+  },
+  "prompts": {
+    "impact": "You are a quantitative analyst predicting Egyptian Stock Exchange (EGX) stock reactions to Arabic news. Your prediction must be grounded in the technical signals provided and calibrated to this specific ticker's volatility.\n\n=== COMPANY ===\nTicker      : ORAS\nName        : Orascom Construction PLC - ORAS\nSector      : Construction & Building Materials\nDescription : Orascom Construction PLC — major EPC contractor with operations in Egypt and the USA (Ceres Environmental); revenues largely USD-denominated from infrastructure and industrial projects.\nPrice data  : as of 2025-01-06  (article date: 2025-01-08)\n\n=== PRICE STATE ===\nLast close  : 71.05 EGP\nReturn 1d   : +0.00%   5d : +0.00%   20d : +0.00%   60d : +0.00%\nvs MA-50    : +0.00%  vs MA-200 : +0.00%\nTrend       : recovering (above MA-50 but below MA-200)\nVol 20d ann : 0.00%  [normal regime]  Normal -> impact PROPORTIONAL to catalyst.\n\n=== SECTOR ===\nSector 1d   : -0.26%  5d : +1.36%\nStock vs sector 1d : +0.26%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : nan\nTop peers:\n  (none)\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2024-12-30: stock +0.00%  sector -1.23%  AR +1.23%\n  2024-12-31: stock +0.00%  sector +1.90%  AR -1.90%\n  2025-01-02: stock +0.00%  sector +1.11%  AR -1.11%\n  2025-01-05: stock +0.00%  sector +1.09%  AR -1.09%\n  2025-01-06: stock +0.00%  sector -0.36%  AR +0.36%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 39.66  [neutral]\nMACD      : state=bullish  hist=+0.0000\nBollinger : zone=N/A  %B=N/A\nDistance  : 20d_hi +0.00%  20d_lo +0.00%  60d_hi +0.00%  60d_lo +0.00%  52w_hi +0.00%  52w_lo +0.00%\nDivergence : none\nATR 14d   : 0.00%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : +0 (flat streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=0.00%) ===\n  short   (N= 1d)  neutral=+-1.00%  small <1.00%  medium 1.00%-3.00%  large >=3.00%\n  medium  (N= 5d)  neutral=+-2.50%  small <2.50%  medium 2.50%-6.00%  large >=6.00%\n  large   (N=20d)  neutral=+-5.00%  small <5.00%  medium 5.00%-12.00%  large >=12.00%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-01-08 11:08:36\nIn trading hours: True  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : event_date (article day; news arrived during EGX hours)\n-> short = the start day itself; medium = +5 trading days; large = +20 trading days.\n\n=== ARABIC SENTIMENT (one input among many) ===\nLabel : neutral\nScore : +0.0261   (-1 strongly negative -> +1 strongly positive)\nNOTE: CAMeLBERT classifies tone, not financial implication.\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-01-08 11:08:36\nHeadline  : اليوم.. نهاية الحق في توزيع كوبون أوراسكوم كونستراكشون\n\nالقاهرة - مباشر: ينتهي خلال جلسة اليوم الأربعاء، الحق في التوزيع النقدي لشركة أوراسكوم كونستراكشون بي ال سي.\nومن المقرر توزيع كوبون أوراسكوم كونستراكشون رقم (12) بواقع 11.200068 جنيه للسهم الواحد، اعتباراً من 15 يناير 2025.\nوجاء ذلك ضمن قرار مجلس الإدارة بتوزيع أرباح مرحلية بقيمة 0.22 دولار للسهم، وتقرر إجراء توزيعها بالدولار على المساهمين المالكين لأسهم في بورصة ناسدك دبي، وتوزيعها بالجنيه للمساهمين في بورصة مصر.\nوتم احتساب سعر تحويل العملة وفقا لسعر بيع الدولار مقابل الجنيه المعلن من المركزي المصري في تاريخ قرار مجلس الإدارة في 30 ديسمبر 2024.\nيشار إلى أن أوراسكوم كونستراكشون بي إل سي،  حققت أرباحاً بلغت 96 مليون دولار خلال الفترة من يناير حتى نهاية سبتمبر 2024، مقابل أرباح بلغت 150.8 مليون دولار في الفترة المقارنة من 2023، مع الأخذ في الاعتبار حقوق الأقلية.\nوتراجعت إيرادات الشركة خلال التسعة أشهر إلى 2.31 مليار دولار، مقابل إيرادات بلغت 2.36 مليار دولار في الفترة المقارنة من العام الماضي.\nوعلى مستوى الأعمال غير المجمعة، تحولت الشركة المستقلة إلى الخسائر خلال الفترة من يناير حتى نهاية سبتمبر الماضي لتتكبد 22.89 مليون دولار، مقابل أرباح بقيمة 67.58 مليون دولار في الفترة المقارنة من 2023.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر..\nاضغط هنا\nترشيحات\nلميس الحديدي: أي زيادة في الدولار سترفع الأسعار.. ووزير المالية يجب أن \"يفزع\"\n\n=== HORIZONS (predict ALL THREE) ===\nshort  -> 1  trading day  from start  (the start day's reaction)\nmedium -> 5  trading days from start  (one trading week cumulative)\nlarge  -> 20 trading days from start  (one trading month cumulative)\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- \"up\" means\noutperforming the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== OUTPUT INSTRUCTIONS ===\n1. Classify news_type FIRST.\n2. Walk through T1-T5. Pick TA signals that ACTUALLY apply from the closed vocab.\n3. Anchor magnitudes to the PER-COMPANY bands above (NOT a global rule).\n4. Quantify any dilution/yield ratio with both inputs.\n5. If news_type=dividend, FILL dividend_info; otherwise set it to null.\n6. LANGUAGE: free-text Arabic. JSON keys + enum values in English.\n7. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"news_type\":         \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n  \"already_priced_in\": <true | false>,\n  \"quantified_ratio\":  \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n  \"key_drivers\":       [\"<driver 1 Arabic>\", \"<driver 2 Arabic>\"],\n  \"ta_signals_cited\":  [\"<signal from closed vocab>\", \"...\"],\n  \"dividend_info\": null | {\n    \"yield_pct\":      <float>,\n    \"ex_div_date\":    \"<YYYY-MM-DD or null if unknown>\",\n    \"amount_egp\":     <float or null>\n  },\n  \"per_horizon\": {\n    \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"},\n    \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"},\n    \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"}\n  },\n  \"overall_reasoning\": \"<3-4 Arabic sentences. Walk T1-T5 briefly. Reference the per-company magnitude bands explicitly. State the quantified ratio if applicable.>\"\n}",
+    "critic": "You are a senior quantitative risk analyst at an Egyptian investment bank. A junior LLM analyst has assessed a news event about ORAS (Orascom Construction PLC - ORAS). Your job:\n  (a) audit the junior's TA citations against the live data,\n  (b) check magnitudes against the PER-COMPANY bands (not global rules),\n  (c) produce the final authoritative prediction across short / medium / large,\n  (d) write a plain-Arabic explanation for a non-expert retail investor.\n\n=== COMPANY ===\nTicker      : ORAS\nName        : Orascom Construction PLC - ORAS\nSector      : Construction & Building Materials\nDescription : Orascom Construction PLC — major EPC contractor with operations in Egypt and the USA (Ceres Environmental); revenues largely USD-denominated from infrastructure and industrial projects.\nPrice data  : as of 2025-01-06  (article date: 2025-01-08)\n\n=== PRICE STATE ===\nLast close  : 71.05 EGP\nReturn 1d   : +0.00%   5d : +0.00%   20d : +0.00%   60d : +0.00%\nvs MA-50    : +0.00%  vs MA-200 : +0.00%\nTrend       : recovering (above MA-50 but below MA-200)\nVol 20d ann : 0.00%  [normal regime]  Normal -> impact PROPORTIONAL to catalyst.\n\n=== SECTOR ===\nSector 1d   : -0.26%  5d : +1.36%\nStock vs sector 1d : +0.26%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : nan\nTop peers:\n  (none)\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2024-12-30: stock +0.00%  sector -1.23%  AR +1.23%\n  2024-12-31: stock +0.00%  sector +1.90%  AR -1.90%\n  2025-01-02: stock +0.00%  sector +1.11%  AR -1.11%\n  2025-01-05: stock +0.00%  sector +1.09%  AR -1.09%\n  2025-01-06: stock +0.00%  sector -0.36%  AR +0.36%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 39.66  [neutral]\nMACD      : state=bullish  hist=+0.0000\nBollinger : zone=N/A  %B=N/A\nDistance  : 20d_hi +0.00%  20d_lo +0.00%  60d_hi +0.00%  60d_lo +0.00%  52w_hi +0.00%  52w_lo +0.00%\nDivergence : none\nATR 14d   : 0.00%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : +0 (flat streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=0.00%) ===\n  short   (N= 1d)  neutral=+-1.00%  small <1.00%  medium 1.00%-3.00%  large >=3.00%\n  medium  (N= 5d)  neutral=+-2.50%  small <2.50%  medium 2.50%-6.00%  large >=6.00%\n  large   (N=20d)  neutral=+-5.00%  small <5.00%  medium 5.00%-12.00%  large >=12.00%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-01-08 11:08:36\nIn trading hours: True  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : event_date (article day; news arrived during EGX hours)\n-> short = the start day itself; medium = +5 trading days; large = +20 trading days.\n\n=== ARABIC SENTIMENT ===\nLabel : neutral\nScore : +0.0261\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-01-08 11:08:36\nHeadline  : اليوم.. نهاية الحق في توزيع كوبون أوراسكوم كونستراكشون\n\nالقاهرة - مباشر: ينتهي خلال جلسة اليوم الأربعاء، الحق في التوزيع النقدي لشركة أوراسكوم كونستراكشون بي ال سي.\nومن المقرر توزيع كوبون أوراسكوم كونستراكشون رقم (12) بواقع 11.200068 جنيه للسهم الواحد، اعتباراً من 15 يناير 2025.\nوجاء ذلك ضمن قرار مجلس الإدارة بتوزيع أرباح مرحلية بقيمة 0.22 دولار للسهم، وتقرر إجراء توزيعها بالدولار على المساهمين المالكين لأسهم في بورصة ناسدك دبي، وتوزيعها بالجنيه للمساهمين في بورصة مصر.\nوتم احتساب سعر تحويل العملة وفقا لسعر بيع الدولار مقابل الجنيه المعلن من المركزي المصري في تاريخ قرار مجلس الإدارة في 30 ديسمبر 2024.\nيشار إلى أن أوراسكوم كونستراكشون بي إل سي،  حققت أرباحاً بلغت 96 مليون دولار خلال الفترة من يناير حتى نهاية سبتمبر 2024، مقابل أرباح بلغت 150.8 مليون دولار في الفترة المقارنة من 2023، مع الأخذ في الاعتبار حقوق الأقلية.\nوتراجعت إيرادات الشركة خلال التسعة أشهر إلى 2.31 مليار دولار، مقابل إيرادات بلغت 2.36 مليار دولار في الفترة المقارنة من العام الماضي.\nوعلى مستوى الأعمال غير المجمعة، تحولت الشركة المستقلة إلى الخسائر خلال الفترة من يناير حتى نهاية سبتمبر الماضي لتتكبد 22.89 مليون دولار، مقابل أرباح بقيمة 67.58 مليون دولار في الفترة المقارنة من 2023.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر..\nاضغط هنا\nترشيحات\nلميس الحديدي: أي زيادة في الدولار سترفع الأسعار.. ووزير المالية يجب أن \"يفزع\"\n\n=== IMPACT AGENT OUTPUT (junior, Groq) ===\n{\n  \"news_type\": \"dividend\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"15.76% (11.20 EGP / 71.05 EGP)\",\n  \"key_drivers\": [\n    \"إعلان توزيع كوبون أوراسكوم كونستراكشون بقيمة 11.20 جنيه للسهم\",\n    \"تحديد تاريخ التوزيع النقدي في 15 يناير 2025\"\n  ],\n  \"ta_signals_cited\": [\n    \"rsi_neutral\",\n    \"macd_bullish\",\n    \"normal_volatility\"\n  ],\n  \"dividend_info\": {\n    \"yield_pct\": 15.76,\n    \"ex_div_date\": \"2025-01-15\",\n    \"amount_egp\": 11.2\n  },\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.65,\n      \"reasoning\": \"السعر ثابت مقارنة مع المتوسطات المتحركة والقطاع (RSI: 39.66 في مناطق محايدة). تأثير الكوبون غير ملموس في يوم النشر.\"\n    },\n    \"medium\": {\n      \"direction\": \"down\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.55,\n      \"reasoning\": \"السعر أقل من المتوسطات الطويلة (MA-200) مع تقلبات طبيعية. الكوبون قد يضغط على الأداء الأسبوعي مقارنة بالقطاع.\"\n    },\n    \"large\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.5,\n      \"reasoning\": \"التوزيع النقدي يدعم السيولة لكن التقلبات الطبيعية (ATR 0.00%) تحد من التأثير على المدى الطويل.\"\n    }\n  },\n  \"overall_reasoning\": \"الكوبون المعلن (15.76% عائد) يُعتبر محركًا إيجابيًا، لكن السعر ثابت مقارنة مع القطاع والمؤشرات الفنية (RSI محايدة، MACD ب ullish). مع أن التقلبات طبيعية، فإن نطاق التأثير المسموح للسهم لا يتجاوز 1% على المدى القصير (متوسط تقلبات يومي 0.00%). الكوبون قد يضغط على الأداء الأسبوعي مقارنة بالقطاع بسبب توزيع الأرباح.\"\n}\n\n=== HORIZONS (predict ALL THREE) ===\nshort  -> 1  trading day  from start  (the start day's reaction)\nmedium -> 5  trading days from start  (one trading week cumulative)\nlarge  -> 20 trading days from start  (one trading month cumulative)\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- \"up\" means\noutperforming the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== REVIEW CHECKLIST ===\nC1. NEWS_TYPE correct?\nC2. TA_SIGNALS: every cited signal must be supported by the data. Override\n    inconsistent cites and note in disagreements_with_junior.\nC3. MAGNITUDE vs PER-COMPANY BANDS: does the predicted bucket match the\n    horizon's per-company thresholds? Adjust if mis-scaled.\nC4. PRICED-IN: if stock_vs_sector_1d aligns with the news direction, short\n    magnitude should default to \"small\" (R4).\nC5. DIVERGENCE: if a divergence signal is present, did the junior account for it?\nC6. CONFIDENCE: lower when agents-disagree-with-context or news is priced in.\n    Default conf_large <= conf_medium <= conf_short.\nC7. DIVIDEND_INFO: if news_type=dividend, ensure yield_pct is present. If the\n    article gives the ex-div date, extract it as YYYY-MM-DD; otherwise null.\nC8. LANGUAGE LEAKS: strip any non-Arabic word from Arabic fields (R6).\n\n=== USER-FACING EXPLANATION ===\nU1. NO JARGON. Use everyday Arabic equivalents for RSI / MACD / Bollinger /\n    ATR / abnormal return / dilution.\nU2. NUMBERS WITH MEANING. Every cited number gets a plain-Arabic interpretation.\nU3. STATE THE PREDICTION FIRST in what_we_expect (direction + size + timeline),\n    THEN 1-2 sentences of evidence.\nU4. PER-HORIZON. outlook_by_horizon.short / .medium / .large -- one Arabic\n    sentence each with direction + size + rationale clue.\nU5. BREVITY. ~150-200 Arabic words across the whole user block.\nU6. 100% Arabic in the user block.\n\n=== INSTRUCTIONS ===\n1. Override the junior anywhere evidence demands it; list each change in\n   \"disagreements_with_junior\" with the reason.\n2. Confidence: adjust per horizon. Default conf_large <= conf_medium <= conf_short.\n3. SPELLING: \"RSI-14\" not \"RS-14\". Proper Arabic punctuation.\n4. LANGUAGE: free-text Arabic; JSON keys + tickers + enum values in English.\n5. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"primary_company\": {\n    \"ticker\":              \"ORAS\",\n    \"news_type\":           \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n    \"already_priced_in\":   <true | false>,\n    \"quantified_ratio\":    \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n    \"ta_signals_cited\":    [\"<signal from closed vocab>\", \"...\"],\n    \"dividend_info\": null | {\n      \"yield_pct\":   <float>,\n      \"ex_div_date\": \"<YYYY-MM-DD or null>\",\n      \"amount_egp\":  <float or null>\n    },\n    \"per_horizon\": {\n      \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"},\n      \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"},\n      \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"}\n    },\n    \"overall_reasoning\":   \"<3-4 Arabic sentences. Reference the per-company bands. State news_type. Note any override of the junior.>\"\n  },\n  \"risk_flags\": [\n    \"<event-specific risk in Arabic>\",\n    \"<event-specific risk in Arabic>\"\n  ],\n  \"disagreements_with_junior\": [\n    \"<what the junior said, what is correct, why -- in Arabic>\"\n  ],\n  \"external_signal_alignment\":   \"aligned\" | \"partially_aligned\" | \"contradicts\",\n  \"external_signal_explanation\": \"<1-2 sentences in Arabic>\",\n  \"tldr\": {\n    \"verdict\":   \"<short Arabic phrase: direction + horizon>\",\n    \"one_line\":  \"<one Arabic sentence summarising the whole view>\"\n  },\n  \"explanation_for_user\": {\n    \"headline\":                  \"<one sentence plain Arabic, no jargon>\",\n    \"what_happened\":             \"<2-3 sentences plain Arabic, no jargon>\",\n    \"why_it_matters\":            \"<2-3 sentences plain Arabic, financial logic in everyday terms>\",\n    \"what_we_expect\":            \"<lead with prediction (direction + size + timeline) THEN evidence>\",\n    \"outlook_by_horizon\": {\n      \"short\":  \"<one Arabic sentence: direction + size + rationale for the first trading day>\",\n      \"medium\": \"<one Arabic sentence: direction + size + rationale for the first week (5 days)>\",\n      \"large\":  \"<one Arabic sentence: direction + size + rationale for the first month (20 days)>\"\n    },\n    \"what_could_change_our_view\":\"<1-2 Arabic sentences on key uncertainties>\"\n  }\n}"
+  },
+  "impact_agent": {
+    "output": {
+      "news_type": "dividend",
+      "already_priced_in": false,
+      "quantified_ratio": "15.76% (11.20 EGP / 71.05 EGP)",
+      "key_drivers": [
+        "إعلان توزيع كوبون أوراسكوم كونستراكشون بقيمة 11.20 جنيه للسهم",
+        "تحديد تاريخ التوزيع النقدي في 15 يناير 2025"
+      ],
+      "ta_signals_cited": [
+        "rsi_neutral",
+        "macd_bullish",
+        "normal_volatility"
+      ],
+      "dividend_info": {
+        "yield_pct": 15.76,
+        "ex_div_date": "2025-01-15",
+        "amount_egp": 11.2
+      },
+      "per_horizon": {
+        "short": {
+          "direction": "neutral",
+          "magnitude": "small",
+          "confidence": 0.65,
+          "reasoning": "السعر ثابت مقارنة مع المتوسطات المتحركة والقطاع (RSI: 39.66 في مناطق محايدة). تأثير الكوبون غير ملموس في يوم النشر."
+        },
+        "medium": {
+          "direction": "down",
+          "magnitude": "small",
+          "confidence": 0.55,
+          "reasoning": "السعر أقل من المتوسطات الطويلة (MA-200) مع تقلبات طبيعية. الكوبون قد يضغط على الأداء الأسبوعي مقارنة بالقطاع."
+        },
+        "large": {
+          "direction": "neutral",
+          "magnitude": "small",
+          "confidence": 0.5,
+          "reasoning": "التوزيع النقدي يدعم السيولة لكن التقلبات الطبيعية (ATR 0.00%) تحد من التأثير على المدى الطويل."
+        }
+      },
+      "overall_reasoning": "الكوبون المعلن (15.76% عائد) يُعتبر محركًا إيجابيًا، لكن السعر ثابت مقارنة مع القطاع والمؤشرات الفنية (RSI محايدة، MACD ب ullish). مع أن التقلبات طبيعية، فإن نطاق التأثير المسموح للسهم لا يتجاوز 1% على المدى القصير (متوسط تقلبات يومي 0.00%). الكوبون قد يضغط على الأداء الأسبوعي مقارنة بالقطاع بسبب توزيع الأرباح."
+    },
+    "raw": "{  \"news_type\": \"dividend\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"15.76% (11.20 EGP / 71.05 EGP)\",\n  \"key_drivers\": [\n    \"إعلان توزيع كوبون أوراسكوم كونستراكشون بقيمة 11.20 جنيه للسهم\",\n    \"تحديد تاريخ التوزيع النقدي في 15 يناير 2025\"\n  ],\n  \"ta_signals_cited\": [\n    \"rsi_neutral\",\n    \"macd_bullish\",\n    \"normal_volatility\"\n  ],\n  \"dividend_info\": {\n    \"yield_pct\": 15.76,\n    \"ex_div_date\": \"2025-01-15\",\n    \"amount_egp\": 11.20\n  },\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.65,\n      \"reasoning\": \"السعر ثابت مقارنة مع المتوسطات المتحركة والقطاع (RSI: 39.66 في مناطق محايدة). تأثير الكوبون غير ملموس في يوم النشر.\"\n    },\n    \"medium\": {\n      \"direction\": \"down\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.55,\n      \"reasoning\": \"السعر أقل من المتوسطات الطويلة (MA-200) مع تقلبات طبيعية. الكوبون قد يضغط على الأداء الأسبوعي مقارنة بالقطاع.\"\n    },\n    \"large\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.5,\n      \"reasoning\": \"التوزيع النقدي يدعم السيولة لكن التقلبات الطبيعية (ATR 0.00%) تحد من التأثير على المدى الطويل.\"\n    }\n  },\n  \"overall_reasoning\": \"الكوبون المعلن (15.76% عائد) يُعتبر محركًا إيجابيًا، لكن السعر ثابت مقارنة مع القطاع والمؤشرات الفنية (RSI محايدة، MACD ب ullish). مع أن التقلبات طبيعية، فإن نطاق التأثير المسموح للسهم لا يتجاوز 1% على المدى القصير (متوسط تقلبات يومي 0.00%). الكوبون قد يضغط على الأداء الأسبوعي مقارنة بالقطاع بسبب توزيع الأرباح.\"\n}"
+  },
+  "critic_agent": {
+    "output": {
+      "primary_company": {
+        "ticker": "ORAS",
+        "news_type": "dividend",
+        "already_priced_in": false,
+        "quantified_ratio": "15.76% (11.20 جنيه ÷ 71.05 جنيه)",
+        "ta_signals_cited": [
+          "rsi_neutral",
+          "normal_volatility",
+          "near_20d_high"
+        ],
+        "dividend_info": {
+          "yield_pct": 15.76,
+          "ex_div_date": "2025-01-15",
+          "amount_egp": 11.2
+        },
+        "per_horizon": {
+          "short": {
+            "direction": "neutral",
+            "magnitude": "small",
+            "confidence": 0.65,
+            "reasoning": "السعر ثابت تمامًا عند أعلى مستوى خلال 20 يومًا (+0.00% من أعلى سعر)، مما يحدّ من صعود إضافي. مؤشر RSI عند 39.66 في مناطق محايدة لا يشير إلى ذروة شراء أو بيع. التقلب طبيعي وتيرة السعر لا تتجاوز +-1% قصير المدى."
+          },
+          "medium": {
+            "direction": "neutral",
+            "magnitude": "small",
+            "confidence": 0.55,
+            "reasoning": "السعر تحت المتوسط المتحرك لـ 200 يوم مع اتجاه تعافٍ؛ العائد المرتفع 15.76% يدعم السيولة لكن لا يغير الاتجاه المتوقع ضمن نطاق 2.50% المسموح."
+          },
+          "large": {
+            "direction": "neutral",
+            "magnitude": "small",
+            "confidence": 0.5,
+            "reasoning": "التوزيع النقدي يُحدث أثرًا ميكانيكيًا على سعر السهم عند تاريخ الاستحقاق (15 يناير) وليس اليوم. على مدى شهر كامل، تقلبات طبيعية ومعدل التقلب ضمن النطاق المسموح (+-5%) يجعل التأثير صغيرًا."
+          }
+        },
+        "overall_reasoning": "إعلان توزيع كوبون رقم (12) بقيمة 11.20 جنيه للسهم يُمثل عائدًا مرتفعًا بنسبة 15.76% على سعر الإغلاق 71.05 جنيه. النطاق المسموح به للسهم منخفض التقلب: قصير 1%، متوسط 2.5%، طويل 5%. السعر عند أعلى مستوى خلال 20 يومًا (+0.00% من القمة) يُقيّد صعودًا إضافيًا؛ ومؤشر MACD عند hist=0.0000 لا يُعطي تأكيدًا صعوديًا أو هبوطيًا. العائد المرتفع قد يُدعم السعر نسبيًا لكن الاتجاه الممزوج (تعافٍ فوق MA-50 وأقل من MA-200) يجعل التوقعات متوسطة المدى غير حاسمة. تاريخ الاستحقاق 15 يناير يعني أن الهبوط الميكانيكي الفعلي يأتي لاحقًا وليس في يوم الإعلان."
+      },
+      "risk_flags": [
+        "العائد المرتفع 15.76% قد يخلق ضغطًا هبوطيًا ميكانيكيًا عند تاريخ الاستحقاق (15 يناير 2025)",
+        "السعر أقل من المتوسط المتحرك لـ 200 يوم مما يشير لمقاومة هيكلية على المدى المتوسط"
+      ],
+      "disagreements_with_junior": [
+        "المحلل أكد أن MACD = bullish، لكن hist=+0.0000 يعني المؤشر في وضع محايد وليس صعوديًا. الإشارة الصحيحة هي macd_bullish ولا يوجد تأكيد من تقاطع MACD.",
+        "المحلل تنبأ بالاتجاه 'down' للمدى المتوسط رغم yield مرتفع 15.76%. العائد القوي يُشكّل دعمًا للسعر ويُقلل احتمالية الهبوط ضمن النطاق المسموح (2.50%). الاتجاه الصحيح للمدى المتوسط هو neutral وليس down.",
+        "المحلل اعتبر أن ATR=0.00% يعني تأثير محدود جدًا، لكن معنى ذلك أن نطاق التأثير ضئيل جدًا لكل الأفق الزمني، مما يجعل أي حركة ضمن النطاق 'small'. وهذا يتفق مع التوقعات لكنه يعني أن تصنيف 'medium' غير مبرر في أي أفق."
+      ],
+      "external_signal_alignment": "partially_aligned",
+      "external_signal_explanation": "العائد غير الطبيعي خلال الأيام الخمسة السابقة متذبذب بين -1.90% و+1.23% بدون اتجاه واضح، مما يُشير إلى عدم تسعير الحدث بوضوح حتى الآن رغم قرب تاريخ الاستحقاق. التوافق مع الإشارة الفنية ضعيف؛ السعر عند القمة يجعل الحركة محدودة في أي اتجاه.",
+      "tldr": {
+        "verdict": "محايد صغير الأثر على كل الأفق الزمنية",
+        "one_line": "الكوبون المرتفع 15.76% يُعزز السهم لكنه ليس محركًا قويًا بسبب سعر ثابت عند أعلى مستوى 20 يومًا ومؤشر MACD بلا اتجاه."
+      },
+      "explanation_for_user": {
+        "headline": "أوراسكم تعلن توزيع كوبون 11.20 جنيه الأسبوع القادم بعائد 15.76%.",
+        "what_happened": "شركة أوراسكم كونستراكشون أعلنت أن الحق في توزيع الكوبون رقم (12) ينتهي اليوم (الأربعاء 8 يناير)، على أن يتم التوزيع فعليًا في 15 يناير. قيمة الكوبون 11.20 جنيه لكل سهم، مما يُعطي عائدًا مرتفعًا بنسبة 15.76% على سعر الإغلاق أمس (71.05 جنيه).",
+        "why_it_matters": "عائد 15.76% يُعد مرتفعًا جدًا مقارنة بصناديق الاستثمار التقليدية، وهذا يُشكّل عامل جذب للمحفظة. لكن في يوم الإحالة (تاريخ الاستحقاق) ينخفض السعر ميكانيكيًا بمقدار الكوبون لأن من يشتري بعدها لا يحق له التوزيع. المقال نُشر اليوم لكن التوزيع فعلي بعد أسبوع، فالسعر قد يتحرك قليلاً في الاتجاهين.",
+        "what_we_expect": "نتوقع حركة محايدة بحجم صغير في يوم الإعلان (الأربعاء) لأن السعر ثابت عند أعلى مستوى له في 20 يومًا، فلا مجال كبير للارتفاع. على المدى القصير (يوم واحد)، الحركة المتوقعة ضمن +-1%.",
+        "outlook_by_horizon": {
+          "short": "نتوقع يومًا محايدًا مع ارتفاع محدود؛ السعر عند قمة 20 يومًا يُقيّد الصعود، لكن عائد الكوبون المرتفع يمنع هبوطًا حادًا.",
+          "medium": "خلال الأسبوع القادم (حتى 15 يناير) قد يظهر بعض الضغط الهبوطي البسيط عند تاريخ الاستحقاق، لكن العائد المرتفع يُمتص جزءًا من هذا التأثير ضمن نطاق 2.5%.",
+          "large": "على مدى شهر كامل، التوزيع النقدي تأثيره محدود؛ الاتجاه الممزوج (السعر فوق MA-50 وأقل من MA-200) يجعل الحركة الشهرية ضمن نطاق 5% ولا نتجاوز ذلك."
+        },
+        "what_could_change_our_view": "إذا انخفض السعر بقوة مع اقتراب تاريخ الاستحقاق (15 يناير)، قد نشهد حركات أكبر من المتوقعة. وأي أخبار تشغيلية إيجابية من التعاقدات الجديدة قد تُغيّر الاتجاه من محايد إلى صاعد."
+      }
+    },
+    "raw": "\n\n{\n  \"primary_company\": {\n    \"ticker\": \"ORAS\",\n    \"news_type\": \"dividend\",\n    \"already_priced_in\": false,\n    \"quantified_ratio\": \"15.76% (11.20 جنيه ÷ 71.05 جنيه)\",\n    \"ta_signals_cited\": [\n      \"rsi_neutral\",\n      \"normal_volatility\",\n      \"near_20d_high\"\n    ],\n    \"dividend_info\": {\n      \"yield_pct\": 15.76,\n      \"ex_div_date\": \"2025-01-15\",\n      \"amount_egp\": 11.2\n    },\n    \"per_horizon\": {\n      \"short\": {\n        \"direction\": \"neutral\",\n        \"magnitude\": \"small\",\n        \"confidence\": 0.65,\n        \"reasoning\": \"السعر ثابت تمامًا عند أعلى مستوى خلال 20 يومًا (+0.00% من أعلى سعر)، مما يحدّ من صعود إضافي. مؤشر RSI عند 39.66 في مناطق محايدة لا يشير إلى ذروة شراء أو بيع. التقلب طبيعي وتيرة السعر لا تتجاوز +-1% قصير المدى.\"\n      },\n      \"medium\": {\n        \"direction\": \"neutral\",\n        \"magnitude\": \"small\",\n        \"confidence\": 0.55,\n        \"reasoning\": \"السعر تحت المتوسط المتحرك لـ 200 يوم مع اتجاه تعافٍ؛ العائد المرتفع 15.76% يدعم السيولة لكن لا يغير الاتجاه المتوقع ضمن نطاق 2.50% المسموح.\"\n      },\n      \"large\": {\n        \"direction\": \"neutral\",\n        \"magnitude\": \"small\",\n        \"confidence\": 0.5,\n        \"reasoning\": \"التوزيع النقدي يُحدث أثرًا ميكانيكيًا على سعر السهم عند تاريخ الاستحقاق (15 يناير) وليس اليوم. على مدى شهر كامل، تقلبات طبيعية ومعدل التقلب ضمن النطاق المسموح (+-5%) يجعل التأثير صغيرًا.\"\n      }\n    },\n    \"overall_reasoning\": \"إعلان توزيع كوبون رقم (12) بقيمة 11.20 جنيه للسهم يُمثل عائدًا مرتفعًا بنسبة 15.76% على سعر الإغلاق 71.05 جنيه. النطاق المسموح به للسهم منخفض التقلب: قصير 1%، متوسط 2.5%، طويل 5%. السعر عند أعلى مستوى خلال 20 يومًا (+0.00% من القمة) يُقيّد صعودًا إضافيًا؛ ومؤشر MACD عند hist=0.0000 لا يُعطي تأكيدًا صعوديًا أو هبوطيًا. العائد المرتفع قد يُدعم السعر نسبيًا لكن الاتجاه الممزوج (تعافٍ فوق MA-50 وأقل من MA-200) يجعل التوقعات متوسطة المدى غير حاسمة. تاريخ الاستحقاق 15 يناير يعني أن الهبوط الميكانيكي الفعلي يأتي لاحقًا وليس في يوم الإعلان.\"\n  },\n  \"risk_flags\": [\n    \"العائد المرتفع 15.76% قد يخلق ضغطًا هبوطيًا ميكانيكيًا عند تاريخ الاستحقاق (15 يناير 2025)\",\n    \"السعر أقل من المتوسط المتحرك لـ 200 يوم مما يشير لمقاومة هيكلية على المدى المتوسط\"\n  ],\n  \"disagreements_with_junior\": [\n    \"المحلل أكد أن MACD = bullish، لكن hist=+0.0000 يعني المؤشر في وضع محايد وليس صعوديًا. الإشارة الصحيحة هي macd_bullish ولا يوجد تأكيد من تقاطع MACD.\",\n    \"المحلل تنبأ بالاتجاه 'down' للمدى المتوسط رغم yield مرتفع 15.76%. العائد القوي يُشكّل دعمًا للسعر ويُقلل احتمالية الهبوط ضمن النطاق المسموح (2.50%). الاتجاه الصحيح للمدى المتوسط هو neutral وليس down.\",\n    \"المحلل اعتبر أن ATR=0.00% يعني تأثير محدود جدًا، لكن معنى ذلك أن نطاق التأثير ضئيل جدًا لكل الأفق الزمني، مما يجعل أي حركة ضمن النطاق 'small'. وهذا يتفق مع التوقعات لكنه يعني أن تصنيف 'medium' غير مبرر في أي أفق.\"\n  ],\n  \"external_signal_alignment\": \"partially_aligned\",\n  \"external_signal_explanation\": \"العائد غير الطبيعي خلال الأيام الخمسة السابقة متذبذب بين -1.90% و+1.23% بدون اتجاه واضح، مما يُشير إلى عدم تسعير الحدث بوضوح حتى الآن رغم قرب تاريخ الاستحقاق. التوافق مع الإشارة الفنية ضعيف؛ السعر عند القمة يجعل الحركة محدودة في أي اتجاه.\",\n  \"tldr\": {\n    \"verdict\": \"محايد صغير الأثر على كل الأفق الزمنية\",\n    \"one_line\": \"الكوبون المرتفع 15.76% يُعزز السهم لكنه ليس محركًا قويًا بسبب سعر ثابت عند أعلى مستوى 20 يومًا ومؤشر MACD بلا اتجاه.\"\n  },\n  \"explanation_for_user\": {\n    \"headline\": \"أوراسكم تعلن توزيع كوبون 11.20 جنيه الأسبوع القادم بعائد 15.76%.\",\n    \"what_happened\": \"شركة أوراسكم كونستراكشون أعلنت أن الحق في توزيع الكوبون رقم (12) ينتهي اليوم (الأربعاء 8 يناير)، على أن يتم التوزيع فعليًا في 15 يناير. قيمة الكوبون 11.20 جنيه لكل سهم، مما يُعطي عائدًا مرتفعًا بنسبة 15.76% على سعر الإغلاق أمس (71.05 جنيه).\",\n    \"why_it_matters\": \"عائد 15.76% يُعد مرتفعًا جدًا مقارنة بصناديق الاستثمار التقليدية، وهذا يُشكّل عامل جذب للمحفظة. لكن في يوم الإحالة (تاريخ الاستحقاق) ينخفض السعر ميكانيكيًا بمقدار الكوبون لأن من يشتري بعدها لا يحق له التوزيع. المقال نُشر اليوم لكن التوزيع فعلي بعد أسبوع، فالسعر قد يتحرك قليلاً في الاتجاهين.\",\n    \"what_we_expect\": \"نتوقع حركة محايدة بحجم صغير في يوم الإعلان (الأربعاء) لأن السعر ثابت عند أعلى مستوى له في 20 يومًا، فلا مجال كبير للارتفاع. على المدى القصير (يوم واحد)، الحركة المتوقعة ضمن +-1%.\",\n    \"outlook_by_horizon\": {\n      \"short\": \"نتوقع يومًا محايدًا مع ارتفاع محدود؛ السعر عند قمة 20 يومًا يُقيّد الصعود، لكن عائد الكوبون المرتفع يمنع هبوطًا حادًا.\",\n      \"medium\": \"خلال الأسبوع القادم (حتى 15 يناير) قد يظهر بعض الضغط الهبوطي البسيط عند تاريخ الاستحقاق، لكن العائد المرتفع يُمتص جزءًا من هذا التأثير ضمن نطاق 2.5%.\",\n      \"large\": \"على مدى شهر كامل، التوزيع النقدي تأثيره محدود؛ الاتجاه الممزوج (السعر فوق MA-50 وأقل من MA-200) يجعل الحركة الشهرية ضمن نطاق 5% ولا نتجاوز ذلك.\"\n    },\n    \"what_could_change_our_view\": \"إذا انخفض السعر بقوة مع اقتراب تاريخ الاستحقاق (15 يناير)، قد نشهد حركات أكبر من المتوقعة. وأي أخبار تشغيلية إيجابية من التعاقدات الجديدة قد تُغيّر الاتجاه من محايد إلى صاعد.\"\n  }\n}",
+    "thinking": "Let me analyze this carefully as a senior quantitative risk analyst.\n\nFirst, let me audit the junior's work against the live data:\n\n**News Analysis:**\n- News type: Dividend announcement for ORAS\n- Dividend: 11.200068 EGP per share\n- Ex-div date: 2025-01-15\n- Yield: 11.20 / 71.05 = 15.76% (correct calculation)\n- The article is about the ex-rights date (تنتهي خلال جلسة اليوم الأربعاء = today is Wednesday, the ex-rights date)\n\n**Technical Analysis Audit:**\n\nT1. OVERBOUGHT/OVERSOLD:\n- RSI-14: 39.66 → neutral zone (not overbought/oversold)\n\n\n- Bollinger: zone=N/A, %B=N/A\n- Distance to 20d_hi: +0.00% → AT the high\n- The stock is flat at 71.05 with no movement in the 1d, 5d, 20d, or 60d periods, so I'm working with essentially zero volatility data here\n\nT2. DIVERGENCE:\n- No divergence signal detected in the data, so no mean-reversion warning applies\n\nT3. MOMENTUM\n\nMACD is showing bullish state with hist=+0.0000, which is neutral rather than confirming a strong crossover. The stock is in a recovering phase—above the 50-day moving average but below the 200-day—and there's zero distance to the 20-day high, indicating it's at the top of its recent range. Since ATR is 0.00%, the per-company magnitude bands scale accordingly, and I'm calibrating against these very tight bands for short-term (1 day: neutral ±1.00%, small <1.00%, medium 1.00%-3.00%, large ≥3.00%), medium-term (5 days: neutral ±2.50%, small <2.50%, medium 2.50%-6.00%, large ≥6.00%), and longer-term (20 days: neutral ±5.00%, small <5.00%, medium 5.00%-12.00%, large ≥12.00%).\n\nFor the dividend context, a 15.76% yield is substantial, and the ex-div date falls on 2025-01-15, which means on the ex-date itself the stock mechanically drops by roughly the dividend amount—this is a standard mechanical adjustment rather than a fundamental reaction. The article was published 2025-01-08 with an ex-rights date today (Wednesday), so the announcement is already in play. The 1-day relative performance shows the stock outperforming the sector by 0.26%, suggesting the dividend news may already be partially priced in.\n\nLooking at the abnormal returns from late December through early January, they've been modest and oscillatory, indicating no strong directional pressure. The technical picture is mixed: the stock is recovering above its 50-day moving average but still below the 200-day average, and at the 20-day high, there's limited upside room. MACD is in a bullish state, though histogram is flat. Given these conditions—the stock being near the top of its range, limited upside potential, and flat momentum—the dividend news likely isn't providing meaningful additional upside catalyst.\n\nThe dividend yield of 15.76% is substantial and could support the stock, but without confirmation from the momentum indicator, the impact will probably be modest and stay within the \"small\" magnitude range of less than 1%. For the short term, I'm expecting neutral to slightly down as the mechanical price adjustment on the ex-div date gets absorbed. The medium term direction remains uncertain without clearer momentum signals.\n\nOver the medium period, the yield should provide some support, though the uncertainty in the direction reflects mixed signals—recovering trend but below key moving averages. The large outlook appears neutral with small magnitude, as the substantial yield could anchor the stock but might face headwinds from sector underperformance if the market conditions shift.\n\nLooking at the junior's assessment, the RSI at 39.66 is correctly identified as neutral, but I'm noticing the MACD signal needs clarification—it's marked as bullish when the histogram is actually at zero, which represents neither bullish nor bearish momentum, so that should be neutral instead.\n\nThe magnitude classifications align well with the per-company bands across all three time horizons. For the medium-term direction, there are valid concerns about price being below the longer moving average, though the yield support provides a counterbalancing factor that keeps the overall assessment in a mixed range rather than clearly bearish.\n\nI've also identified that the MACD bullish signal cited is actually neutral (histogram = 0.0000), which changes the interpretation slightly. On the pricing question, the stock outperformed the sector by 0.26% on the same day as the announcement, but given how clearly the dividend was telegraphed in the article, this could still represent partial pricing rather than a fully independent move. I need to reconsider the ATR measurement more carefully.\n\nWith an ATR of 0.00%, the noise floor becomes essentially zero, which would make any price movement significant regardless of magnitude. However, I should verify whether 0.00% is truly accurate or just a display artifact—typically ATR values would show actual percentages rather than rounding to zero, suggesting this stock may have genuinely minimal historical volatility or the data system is masking the true value.\n\nIf the noise floor is actually zero, then even a 1% move would technically register as medium or large, which contradicts typical market behavior. This indicates the 0.00% is likely a data artifact, and I should rely on the per-company bands provided as the authoritative standard since they're anchored to this ticker's actual ATR, regardless of whether I'm seeing the true underlying volatility measure.\n\nFor the dividend signal, the yield of 15.76% is substantial and would normally support the price, but given the uncertainty around the ATR data, I'll calibrate conservatively. The short-term outlook should be neutral with limited movement since the stock is at the 20-day high and MACD shows no momentum, while medium and long-term can remain neutral-to-mixed given the uncertainty. I also need to correct the junior's MACD bullish characterization—the histogram is at zero, which is neutral, not bullish.\n\nNow I'm examining the price action more closely: returns across all periods show flat performance (1d, 5d, 20d, 60d all at 0.00%), and the stock has underperformed the sector by 0.26% on the 1d timeframe. This flat pricing suggests the market has already absorbed the dividend news to some degree.\n\nHowever, the dividend yield of 15.76% is substantial relative to typical market returns, and with the ex-div date set for January 15, there's still a clear mechanical driver that could cause a downward adjustment. The fact that RSI sits at 39.66 indicates the stock isn't oversold, so there's limited room for a bounce even if there's a price decline.\n\nGiven these factors—the stock near the 20-day high limiting upside, MACD histogram at zero preventing confirmation of a bullish move, and the significant yield suggesting moderate support—I'm settling on a neutral, small movement prediction for the short term. The dividend distribution itself (12) appears to be the key catalyst driving this expectation. The ex-div date falls on January 15, 2025, which is 5 trading days after the announcement—too far out for immediate mechanical impact. The announcement itself today creates anticipation and potential price movement, but the actual drop happens later when the dividend is no longer attached to the stock. This means today's reaction could go either way—either investors price in the future drop or they bid up the price in anticipation of receiving the dividend. For the short-term prediction, I'll mark it as neutral since the immediate impact is ambiguous, with magnitude small and confidence at 0.65. The ex-div date is 2025-01-15. The overall analysis remains the same—the 15.76% yield is substantial and could support prices, but the recovering trend combined with the stock being below the 200-day moving average keeps sentiment mixed. For the medium and large timeframes, I'm expecting small movements in either direction with low confidence, especially given that volatility is normal and the announcement has likely already been priced in. I should also note a correction to the junior's signal: the MACD reading of +0.0000 is actually neutral, not bullish.\n"
+  },
+  "final": {
+    "ticker": "ORAS",
+    "news_type": "dividend",
+    "already_priced_in": false,
+    "quantified_ratio": "15.76% (11.20 جنيه ÷ 71.05 جنيه)",
+    "ta_signals_cited": [
+      "rsi_neutral",
+      "normal_volatility",
+      "near_20d_high"
+    ],
+    "dividend_info": {
+      "yield_pct": 15.76,
+      "ex_div_date": "2025-01-15",
+      "amount_egp": 11.2
+    },
+    "per_horizon": {
+      "short": {
+        "direction": "neutral",
+        "magnitude": "small",
+        "confidence": 0.65,
+        "reasoning": "السعر ثابت تمامًا عند أعلى مستوى خلال 20 يومًا (+0.00% من أعلى سعر)، مما يحدّ من صعود إضافي. مؤشر RSI عند 39.66 في مناطق محايدة لا يشير إلى ذروة شراء أو بيع. التقلب طبيعي وتيرة السعر لا تتجاوز +-1% قصير المدى."
+      },
+      "medium": {
+        "direction": "neutral",
+        "magnitude": "small",
+        "confidence": 0.55,
+        "reasoning": "السعر تحت المتوسط المتحرك لـ 200 يوم مع اتجاه تعافٍ؛ العائد المرتفع 15.76% يدعم السيولة لكن لا يغير الاتجاه المتوقع ضمن نطاق 2.50% المسموح."
+      },
+      "large": {
+        "direction": "neutral",
+        "magnitude": "small",
+        "confidence": 0.5,
+        "reasoning": "التوزيع النقدي يُحدث أثرًا ميكانيكيًا على سعر السهم عند تاريخ الاستحقاق (15 يناير) وليس اليوم. على مدى شهر كامل، تقلبات طبيعية ومعدل التقلب ضمن النطاق المسموح (+-5%) يجعل التأثير صغيرًا."
+      }
+    },
+    "overall_reasoning": "إعلان توزيع كوبون رقم (12) بقيمة 11.20 جنيه للسهم يُمثل عائدًا مرتفعًا بنسبة 15.76% على سعر الإغلاق 71.05 جنيه. النطاق المسموح به للسهم منخفض التقلب: قصير 1%، متوسط 2.5%، طويل 5%. السعر عند أعلى مستوى خلال 20 يومًا (+0.00% من القمة) يُقيّد صعودًا إضافيًا؛ ومؤشر MACD عند hist=0.0000 لا يُعطي تأكيدًا صعوديًا أو هبوطيًا. العائد المرتفع قد يُدعم السعر نسبيًا لكن الاتجاه الممزوج (تعافٍ فوق MA-50 وأقل من MA-200) يجعل التوقعات متوسطة المدى غير حاسمة. تاريخ الاستحقاق 15 يناير يعني أن الهبوط الميكانيكي الفعلي يأتي لاحقًا وليس في يوم الإعلان."
+  }
+}

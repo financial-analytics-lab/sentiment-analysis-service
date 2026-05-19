@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c ' *)",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('pipeline3.py', encoding='utf-8'\\).read\\(\\)\\); import importlib, pipeline3; importlib.reload\\(pipeline3\\); print\\('OK'\\)\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('pipeline3.py',encoding='utf-8'\\).read\\(\\)\\); import importlib, pipeline3; importlib.reload\\(pipeline3\\); print\\('OK'\\)\")"
+    ]
+  }
+}

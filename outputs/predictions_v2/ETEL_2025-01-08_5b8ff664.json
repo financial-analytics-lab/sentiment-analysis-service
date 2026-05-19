@@ -1,0 +1,350 @@
+{
+  "ticker": "ETEL",
+  "article_date": "2025-01-08",
+  "context_date": "2025-01-06",
+  "processed_at": "2026-05-17T23:46:47.422038",
+  "article": {
+    "symbol": "ETEL",
+    "company": "Telecom Egypt",
+    "isin": "EGS48031C016",
+    "sector": "Telecommunications",
+    "id": "4389293",
+    "date": "2025-01-08",
+    "time": "15:37:54",
+    "datetime": "2025-01-08 15:37:54",
+    "title": "بورصة مصر تقر قيد إطالة مدة المصرية للاتصالات لـ50 عاماً أخرى",
+    "body": "القاهرة - مباشر: قررت لجنة قيد الأوراق المالية، قيد إطالة مدة الشركة المصرية للاتصالات، في ضوء تعديل المادة (5) من النظام الأساسي للشركة لمدة 50 سنة أخرى.\nوأوضحت البورصة اليوم الأربعاء، أن المدة االجديدة تبدأ من 3 أكتوبر 2024 لتنتهى في 02 أكتوبر 2074 وفقا للتأشير في السجل التجاري.\nيشار إلى أن المصرية للاتصالات،  حققت صافي ربح بلغ 8.64 مليار جنيه خلال الفترة من يناير حتى نهاية سبتمبر 2024، مقابل أرباح بلغت 9.15 مليار جنيه في الفترة المقارنة من العام الماضي، مع الأخذ في الاعتبار حقوق الأقلية.\nوفي مقابل ذلك، ارتفعت إيرادات النشاط خلال المدة المرصودة إلى 58.43 مليار جنيه، مقابل 41.95 مليار جنيه في التسعة أشهر المقارنة من 2023.\nوعلى مستوى الأعمال المستقلة، حققت الشركة المستقلة أرباحاً بلغت 5.88 مليار جنيه خلال التسعة أشهر الأولى من 2024، مقابل أرباح بلغت 6.58 مليار جنيه في التسعة أشهر المقارنة من 2023.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية\n..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر\n..\nاضغط هنا\nترشيحات\nالبشير: تحسن الأحوال الاقتصادية في سوريا يحتاج عودة الأموال المجمدة",
+    "teaser": "القاهرة - مباشر: قررت لجنة قيد الأوراق المالية، قيد إطالة مدة الشركة المصرية للاتصالات، في ضوء تعديل المادة (5) من النظام الأساسي للشركة لمدة 50 سنة أخرى. وأوضحت البورصة اليوم الأربعاء، أن المدة االجديدة تبدأ من 3 أكتوبر 2024 لتنتهى في 02 أكتوبر …",
+    "section": "أخبار الشركة",
+    "source": "مباشر",
+    "categories": "stock-bonds",
+    "country": "مصر",
+    "reads": 265,
+    "url": "https://www.mubasher.info/news/4389293",
+    "image_url": "https://static.mubasher.info/File.Story_Image/a342ee1a10d8a4fceb053874fd39b56c/640.jpg",
+    "date_raw": ""
+  },
+  "sentiment": {
+    "model": "CAMeL-Lab/bert-base-arabic-camelbert-mix-sentiment",
+    "label": "neutral",
+    "score": 0.0721,
+    "numeric": 0,
+    "class_probs": {
+      "neutral": 0.9244,
+      "positive": 0.0739,
+      "negative": 0.0018
+    }
+  },
+  "context": {
+    "ticker": "ETEL",
+    "company": "Telecom Egypt - ETEL",
+    "sector": "Telecommunications",
+    "business_description": "Telecom Egypt (WE) — Egypt's fixed-line telecom monopoly, wholesale fiber and submarine-cable provider; high dividend payer with regulated, recurring revenues.",
+    "event_date": "2025-01-08",
+    "last_price_date": "2025-01-06",
+    "price_state": {
+      "last_close": 35.18,
+      "return_1d": -0.9,
+      "return_5d": 5.96,
+      "return_20d": 2.24,
+      "return_60d": 4.98,
+      "pct_vs_ma50": 4.55,
+      "pct_vs_ma200": 4.48,
+      "vol_20d_annualized_pct": 22.66,
+      "vol_regime": "low",
+      "rsi_14": 64.05
+    },
+    "market_state": {
+      "sector_return_1d": -0.9,
+      "sector_return_5d": 5.96,
+      "relative_strength_vs_sector_1d": 0.0
+    },
+    "correlation_state": {
+      "corr_with_sector_90d": 1.0,
+      "top_3_correlated_peers": [
+        {
+          "ticker": "CCAP",
+          "correlation": 0.53,
+          "sector": "Non-Bank Financials"
+        },
+        {
+          "ticker": "EFIH",
+          "correlation": 0.44,
+          "sector": "Technology & Fintech"
+        },
+        {
+          "ticker": "FWRY",
+          "correlation": 0.43,
+          "sector": "Technology & Fintech"
+        }
+      ]
+    },
+    "recent_abnormal_returns": [
+      {
+        "date": "2024-12-30",
+        "stock_return_pct": -0.18,
+        "sector_return_pct": -0.18,
+        "abnormal_return_pct": 0.0
+      },
+      {
+        "date": "2024-12-31",
+        "stock_return_pct": -0.12,
+        "sector_return_pct": -0.12,
+        "abnormal_return_pct": 0.0
+      },
+      {
+        "date": "2025-01-02",
+        "stock_return_pct": 4.5,
+        "sector_return_pct": 4.5,
+        "abnormal_return_pct": 0.0
+      },
+      {
+        "date": "2025-01-05",
+        "stock_return_pct": 2.63,
+        "sector_return_pct": 2.63,
+        "abnormal_return_pct": 0.0
+      },
+      {
+        "date": "2025-01-06",
+        "stock_return_pct": -0.9,
+        "sector_return_pct": -0.9,
+        "abnormal_return_pct": 0.0
+      }
+    ],
+    "technical_signals": {
+      "rsi_14": 64.05,
+      "rsi_zone": "neutral",
+      "macd": {
+        "line": 0.2363,
+        "signal": 0.0253,
+        "histogram": 0.211,
+        "state": "bullish"
+      },
+      "bollinger": {
+        "pct_b": 0.926,
+        "bandwidth_pct": 9.45,
+        "zone": "near_upper"
+      },
+      "distance_to_extremes": {
+        "20d_high_distance_pct": -0.9,
+        "20d_low_distance_pct": 8.35,
+        "60d_high_distance_pct": -2.68,
+        "60d_low_distance_pct": 10.7,
+        "252d_high_distance_pct": -15.39,
+        "252d_low_distance_pct": 20.81
+      },
+      "rsi_divergence": "none",
+      "atr_pct_14d": 1.15,
+      "consecutive_streak": -1
+    },
+    "dynamic_bands": {
+      "horizon_trading_days": {
+        "short": 1,
+        "medium": 5,
+        "large": 20
+      },
+      "neutral_band_pct": {
+        "short": 0.57,
+        "medium": 1.29,
+        "large": 2.57
+      },
+      "magnitude_bands_pct": {
+        "short": {
+          "small": [
+            0.0,
+            0.8
+          ],
+          "medium": [
+            0.8,
+            2.3
+          ],
+          "large": [
+            2.3,
+            null
+          ]
+        },
+        "medium": {
+          "small": [
+            0.0,
+            1.8
+          ],
+          "medium": [
+            1.8,
+            5.14
+          ],
+          "large": [
+            5.14,
+            null
+          ]
+        },
+        "large": {
+          "small": [
+            0.0,
+            3.6
+          ],
+          "medium": [
+            3.6,
+            10.29
+          ],
+          "large": [
+            10.29,
+            null
+          ]
+        }
+      },
+      "atr_pct_anchor": 1.15
+    },
+    "news_timing": {
+      "in_trading_hours": false,
+      "arrived_at_str": "2025-01-08 15:37:54",
+      "start_day_label": "next trading day after event_date (news arrived outside EGX hours)"
+    }
+  },
+  "prompts": {
+    "impact": "You are a quantitative analyst predicting Egyptian Stock Exchange (EGX) stock reactions to Arabic news. Your prediction must be grounded in the technical signals provided and calibrated to this specific ticker's volatility.\n\n=== COMPANY ===\nTicker      : ETEL\nName        : Telecom Egypt - ETEL\nSector      : Telecommunications\nDescription : Telecom Egypt (WE) — Egypt's fixed-line telecom monopoly, wholesale fiber and submarine-cable provider; high dividend payer with regulated, recurring revenues.\nPrice data  : as of 2025-01-06  (article date: 2025-01-08)\n\n=== PRICE STATE ===\nLast close  : 35.18 EGP\nReturn 1d   : -0.90%   5d : +5.96%   20d : +2.24%   60d : +4.98%\nvs MA-50    : +4.55%  vs MA-200 : +4.48%\nTrend       : uptrend (above MA-50 and MA-200)\nVol 20d ann : 22.66%  [low regime]  Low -> impact MUTED unless structurally significant.\n\n=== SECTOR ===\nSector 1d   : -0.90%  5d : +5.96%\nStock vs sector 1d : +0.00%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 1.00\nTop peers:\n  - CCAP | Non-Bank Financials | 90d-corr: 0.53\n  - EFIH | Technology & Fintech | 90d-corr: 0.44\n  - FWRY | Technology & Fintech | 90d-corr: 0.43\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2024-12-30: stock -0.18%  sector -0.18%  AR +0.00%\n  2024-12-31: stock -0.12%  sector -0.12%  AR +0.00%\n  2025-01-02: stock +4.50%  sector +4.50%  AR +0.00%\n  2025-01-05: stock +2.63%  sector +2.63%  AR +0.00%\n  2025-01-06: stock -0.90%  sector -0.90%  AR +0.00%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 64.05  [neutral]\nMACD      : state=bullish  hist=+0.2110\nBollinger : zone=near_upper  %B=0.926\nDistance  : 20d_hi -0.90%  20d_lo +8.35%  60d_hi -2.68%  60d_lo +10.70%  52w_hi -15.39%  52w_lo +20.81%\nDivergence : none\nATR 14d   : 1.15%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : -1 (down streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=1.15%) ===\n  short   (N= 1d)  neutral=+-0.57%  small <0.80%  medium 0.80%-2.30%  large >=2.30%\n  medium  (N= 5d)  neutral=+-1.29%  small <1.80%  medium 1.80%-5.14%  large >=5.14%\n  large   (N=20d)  neutral=+-2.57%  small <3.60%  medium 3.60%-10.29%  large >=10.29%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-01-08 15:37:54\nIn trading hours: False  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : next trading day after event_date (news arrived outside EGX hours)\n-> short = the start day itself; medium = +5 trading days; large = +20 trading days.\n\n=== ARABIC SENTIMENT (one input among many) ===\nLabel : neutral\nScore : +0.0721   (-1 strongly negative -> +1 strongly positive)\nNOTE: CAMeLBERT classifies tone, not financial implication.\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-01-08 15:37:54\nHeadline  : بورصة مصر تقر قيد إطالة مدة المصرية للاتصالات لـ50 عاماً أخرى\n\nالقاهرة - مباشر: قررت لجنة قيد الأوراق المالية، قيد إطالة مدة الشركة المصرية للاتصالات، في ضوء تعديل المادة (5) من النظام الأساسي للشركة لمدة 50 سنة أخرى.\nوأوضحت البورصة اليوم الأربعاء، أن المدة االجديدة تبدأ من 3 أكتوبر 2024 لتنتهى في 02 أكتوبر 2074 وفقا للتأشير في السجل التجاري.\nيشار إلى أن المصرية للاتصالات،  حققت صافي ربح بلغ 8.64 مليار جنيه خلال الفترة من يناير حتى نهاية سبتمبر 2024، مقابل أرباح بلغت 9.15 مليار جنيه في الفترة المقارنة من العام الماضي، مع الأخذ في الاعتبار حقوق الأقلية.\nوفي مقابل ذلك، ارتفعت إيرادات النشاط خلال المدة المرصودة إلى 58.43 مليار جنيه، مقابل 41.95 مليار جنيه في التسعة أشهر المقارنة من 2023.\nوعلى مستوى الأعمال المستقلة، حققت الشركة المستقلة أرباحاً بلغت 5.88 مليار جنيه خلال التسعة أشهر الأولى من 2024، مقابل أرباح بلغت 6.58 مليار جنيه في التسعة أشهر المقارنة من 2023.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية\n..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر\n..\nاضغط هنا\nترشيحات\nالبشير: تحسن الأحوال الاقتصادية في سوريا يحتاج عودة الأموال المجمدة\n\n=== HORIZONS (predict ALL THREE) ===\nshort  -> 1  trading day  from start  (the start day's reaction)\nmedium -> 5  trading days from start  (one trading week cumulative)\nlarge  -> 20 trading days from start  (one trading month cumulative)\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- \"up\" means\noutperforming the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== OUTPUT INSTRUCTIONS ===\n1. Classify news_type FIRST.\n2. Walk through T1-T5. Pick TA signals that ACTUALLY apply from the closed vocab.\n3. Anchor magnitudes to the PER-COMPANY bands above (NOT a global rule).\n4. Quantify any dilution/yield ratio with both inputs.\n5. If news_type=dividend, FILL dividend_info; otherwise set it to null.\n6. LANGUAGE: free-text Arabic. JSON keys + enum values in English.\n7. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"news_type\":         \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n  \"already_priced_in\": <true | false>,\n  \"quantified_ratio\":  \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n  \"key_drivers\":       [\"<driver 1 Arabic>\", \"<driver 2 Arabic>\"],\n  \"ta_signals_cited\":  [\"<signal from closed vocab>\", \"...\"],\n  \"dividend_info\": null | {\n    \"yield_pct\":      <float>,\n    \"ex_div_date\":    \"<YYYY-MM-DD or null if unknown>\",\n    \"amount_egp\":     <float or null>\n  },\n  \"per_horizon\": {\n    \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"},\n    \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"},\n    \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"}\n  },\n  \"overall_reasoning\": \"<3-4 Arabic sentences. Walk T1-T5 briefly. Reference the per-company magnitude bands explicitly. State the quantified ratio if applicable.>\"\n}",
+    "critic": "You are a senior quantitative risk analyst at an Egyptian investment bank. A junior LLM analyst has assessed a news event about ETEL (Telecom Egypt - ETEL). Your job:\n  (a) audit the junior's TA citations against the live data,\n  (b) check magnitudes against the PER-COMPANY bands (not global rules),\n  (c) produce the final authoritative prediction across short / medium / large,\n  (d) write a plain-Arabic explanation for a non-expert retail investor.\n\n=== COMPANY ===\nTicker      : ETEL\nName        : Telecom Egypt - ETEL\nSector      : Telecommunications\nDescription : Telecom Egypt (WE) — Egypt's fixed-line telecom monopoly, wholesale fiber and submarine-cable provider; high dividend payer with regulated, recurring revenues.\nPrice data  : as of 2025-01-06  (article date: 2025-01-08)\n\n=== PRICE STATE ===\nLast close  : 35.18 EGP\nReturn 1d   : -0.90%   5d : +5.96%   20d : +2.24%   60d : +4.98%\nvs MA-50    : +4.55%  vs MA-200 : +4.48%\nTrend       : uptrend (above MA-50 and MA-200)\nVol 20d ann : 22.66%  [low regime]  Low -> impact MUTED unless structurally significant.\n\n=== SECTOR ===\nSector 1d   : -0.90%  5d : +5.96%\nStock vs sector 1d : +0.00%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 1.00\nTop peers:\n  - CCAP | Non-Bank Financials | 90d-corr: 0.53\n  - EFIH | Technology & Fintech | 90d-corr: 0.44\n  - FWRY | Technology & Fintech | 90d-corr: 0.43\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2024-12-30: stock -0.18%  sector -0.18%  AR +0.00%\n  2024-12-31: stock -0.12%  sector -0.12%  AR +0.00%\n  2025-01-02: stock +4.50%  sector +4.50%  AR +0.00%\n  2025-01-05: stock +2.63%  sector +2.63%  AR +0.00%\n  2025-01-06: stock -0.90%  sector -0.90%  AR +0.00%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 64.05  [neutral]\nMACD      : state=bullish  hist=+0.2110\nBollinger : zone=near_upper  %B=0.926\nDistance  : 20d_hi -0.90%  20d_lo +8.35%  60d_hi -2.68%  60d_lo +10.70%  52w_hi -15.39%  52w_lo +20.81%\nDivergence : none\nATR 14d   : 1.15%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : -1 (down streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=1.15%) ===\n  short   (N= 1d)  neutral=+-0.57%  small <0.80%  medium 0.80%-2.30%  large >=2.30%\n  medium  (N= 5d)  neutral=+-1.29%  small <1.80%  medium 1.80%-5.14%  large >=5.14%\n  large   (N=20d)  neutral=+-2.57%  small <3.60%  medium 3.60%-10.29%  large >=10.29%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-01-08 15:37:54\nIn trading hours: False  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : next trading day after event_date (news arrived outside EGX hours)\n-> short = the start day itself; medium = +5 trading days; large = +20 trading days.\n\n=== ARABIC SENTIMENT ===\nLabel : neutral\nScore : +0.0721\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-01-08 15:37:54\nHeadline  : بورصة مصر تقر قيد إطالة مدة المصرية للاتصالات لـ50 عاماً أخرى\n\nالقاهرة - مباشر: قررت لجنة قيد الأوراق المالية، قيد إطالة مدة الشركة المصرية للاتصالات، في ضوء تعديل المادة (5) من النظام الأساسي للشركة لمدة 50 سنة أخرى.\nوأوضحت البورصة اليوم الأربعاء، أن المدة االجديدة تبدأ من 3 أكتوبر 2024 لتنتهى في 02 أكتوبر 2074 وفقا للتأشير في السجل التجاري.\nيشار إلى أن المصرية للاتصالات،  حققت صافي ربح بلغ 8.64 مليار جنيه خلال الفترة من يناير حتى نهاية سبتمبر 2024، مقابل أرباح بلغت 9.15 مليار جنيه في الفترة المقارنة من العام الماضي، مع الأخذ في الاعتبار حقوق الأقلية.\nوفي مقابل ذلك، ارتفعت إيرادات النشاط خلال المدة المرصودة إلى 58.43 مليار جنيه، مقابل 41.95 مليار جنيه في التسعة أشهر المقارنة من 2023.\nوعلى مستوى الأعمال المستقلة، حققت الشركة المستقلة أرباحاً بلغت 5.88 مليار جنيه خلال التسعة أشهر الأولى من 2024، مقابل أرباح بلغت 6.58 مليار جنيه في التسعة أشهر المقارنة من 2023.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية\n..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر\n..\nاضغط هنا\nترشيحات\nالبشير: تحسن الأحوال الاقتصادية في سوريا يحتاج عودة الأموال المجمدة\n\n=== IMPACT AGENT OUTPUT (junior, Groq) ===\n{\n  \"news_type\": \"regulatory\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"لا ينطبق\",\n  \"key_drivers\": [\n    \"تمديد مدة الشركة المصرية للاتصالات لمدة 50 عامًا إضافية\",\n    \"زيادة إيرادات النشاط إلى 58.43 مليار جنيه في 2024 مقارنة بـ 41.95 مليار جنيه في 2023\"\n  ],\n  \"ta_signals_cited\": [\n    \"near_20d_high\",\n    \"macd_bullish\",\n    \"bollinger_near_upper\",\n    \"strong_uptrend\",\n    \"low_volatility\"\n  ],\n  \"dividend_info\": null,\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.5,\n      \"reasoning\": \"السعر قرب 20d_high يحد من التحرك الصعودي، مع مؤشر MACD صعودي لكن التقلبات منخفضة.\"\n    },\n    \"medium\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.7,\n      \"reasoning\": \"تمديد الرخصة يدعم الأرباح المستقرة، مع احتمال تجاوز المتوسطات على المدى المتوسط.\"\n    },\n    \"large\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.6,\n      \"reasoning\": \"التمديد طويل الأجل يعزز المكاسب على المدى الطويل مع احتمالات نمو الأرباح.\"\n    }\n  },\n  \"overall_reasoning\": \"السعر قرب 20d_high يحد من التحرك الصعودي القصير، مع مؤشر MACD صعودي واتجاه صاعد قوي. التقلبات منخفضة (22.66%) مما يقلل من التأثير المفاجئ. على المدى المتوسط والطويل، تمديد الرخصة يعزز الاستقرار التشغيلي، لكن الحد من التحرك قصير الأجل بسبب القرب من المقاومة.\"\n}\n\n=== HORIZONS (predict ALL THREE) ===\nshort  -> 1  trading day  from start  (the start day's reaction)\nmedium -> 5  trading days from start  (one trading week cumulative)\nlarge  -> 20 trading days from start  (one trading month cumulative)\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- \"up\" means\noutperforming the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== REVIEW CHECKLIST ===\nC1. NEWS_TYPE correct?\nC2. TA_SIGNALS: every cited signal must be supported by the data. Override\n    inconsistent cites and note in disagreements_with_junior.\nC3. MAGNITUDE vs PER-COMPANY BANDS: does the predicted bucket match the\n    horizon's per-company thresholds? Adjust if mis-scaled.\nC4. PRICED-IN: if stock_vs_sector_1d aligns with the news direction, short\n    magnitude should default to \"small\" (R4).\nC5. DIVERGENCE: if a divergence signal is present, did the junior account for it?\nC6. CONFIDENCE: lower when agents-disagree-with-context or news is priced in.\n    Default conf_large <= conf_medium <= conf_short.\nC7. DIVIDEND_INFO: if news_type=dividend, ensure yield_pct is present. If the\n    article gives the ex-div date, extract it as YYYY-MM-DD; otherwise null.\nC8. LANGUAGE LEAKS: strip any non-Arabic word from Arabic fields (R6).\n\n=== USER-FACING EXPLANATION ===\nU1. NO JARGON. Use everyday Arabic equivalents for RSI / MACD / Bollinger /\n    ATR / abnormal return / dilution.\nU2. NUMBERS WITH MEANING. Every cited number gets a plain-Arabic interpretation.\nU3. STATE THE PREDICTION FIRST in what_we_expect (direction + size + timeline),\n    THEN 1-2 sentences of evidence.\nU4. PER-HORIZON. outlook_by_horizon.short / .medium / .large -- one Arabic\n    sentence each with direction + size + rationale clue.\nU5. BREVITY. ~150-200 Arabic words across the whole user block.\nU6. 100% Arabic in the user block.\n\n=== INSTRUCTIONS ===\n1. Override the junior anywhere evidence demands it; list each change in\n   \"disagreements_with_junior\" with the reason.\n2. Confidence: adjust per horizon. Default conf_large <= conf_medium <= conf_short.\n3. SPELLING: \"RSI-14\" not \"RS-14\". Proper Arabic punctuation.\n4. LANGUAGE: free-text Arabic; JSON keys + tickers + enum values in English.\n5. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"primary_company\": {\n    \"ticker\":              \"ETEL\",\n    \"news_type\":           \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n    \"already_priced_in\":   <true | false>,\n    \"quantified_ratio\":    \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n    \"ta_signals_cited\":    [\"<signal from closed vocab>\", \"...\"],\n    \"dividend_info\": null | {\n      \"yield_pct\":   <float>,\n      \"ex_div_date\": \"<YYYY-MM-DD or null>\",\n      \"amount_egp\":  <float or null>\n    },\n    \"per_horizon\": {\n      \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"},\n      \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"},\n      \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"}\n    },\n    \"overall_reasoning\":   \"<3-4 Arabic sentences. Reference the per-company bands. State news_type. Note any override of the junior.>\"\n  },\n  \"risk_flags\": [\n    \"<event-specific risk in Arabic>\",\n    \"<event-specific risk in Arabic>\"\n  ],\n  \"disagreements_with_junior\": [\n    \"<what the junior said, what is correct, why -- in Arabic>\"\n  ],\n  \"external_signal_alignment\":   \"aligned\" | \"partially_aligned\" | \"contradicts\",\n  \"external_signal_explanation\": \"<1-2 sentences in Arabic>\",\n  \"tldr\": {\n    \"verdict\":   \"<short Arabic phrase: direction + horizon>\",\n    \"one_line\":  \"<one Arabic sentence summarising the whole view>\"\n  },\n  \"explanation_for_user\": {\n    \"headline\":                  \"<one sentence plain Arabic, no jargon>\",\n    \"what_happened\":             \"<2-3 sentences plain Arabic, no jargon>\",\n    \"why_it_matters\":            \"<2-3 sentences plain Arabic, financial logic in everyday terms>\",\n    \"what_we_expect\":            \"<lead with prediction (direction + size + timeline) THEN evidence>\",\n    \"outlook_by_horizon\": {\n      \"short\":  \"<one Arabic sentence: direction + size + rationale for the first trading day>\",\n      \"medium\": \"<one Arabic sentence: direction + size + rationale for the first week (5 days)>\",\n      \"large\":  \"<one Arabic sentence: direction + size + rationale for the first month (20 days)>\"\n    },\n    \"what_could_change_our_view\":\"<1-2 Arabic sentences on key uncertainties>\"\n  }\n}"
+  },
+  "impact_agent": {
+    "output": {
+      "news_type": "regulatory",
+      "already_priced_in": false,
+      "quantified_ratio": "لا ينطبق",
+      "key_drivers": [
+        "تمديد مدة الشركة المصرية للاتصالات لمدة 50 عامًا إضافية",
+        "زيادة إيرادات النشاط إلى 58.43 مليار جنيه في 2024 مقارنة بـ 41.95 مليار جنيه في 2023"
+      ],
+      "ta_signals_cited": [
+        "near_20d_high",
+        "macd_bullish",
+        "bollinger_near_upper",
+        "strong_uptrend",
+        "low_volatility"
+      ],
+      "dividend_info": null,
+      "per_horizon": {
+        "short": {
+          "direction": "neutral",
+          "magnitude": "small",
+          "confidence": 0.5,
+          "reasoning": "السعر قرب 20d_high يحد من التحرك الصعودي، مع مؤشر MACD صعودي لكن التقلبات منخفضة."
+        },
+        "medium": {
+          "direction": "up",
+          "magnitude": "medium",
+          "confidence": 0.7,
+          "reasoning": "تمديد الرخصة يدعم الأرباح المستقرة، مع احتمال تجاوز المتوسطات على المدى المتوسط."
+        },
+        "large": {
+          "direction": "up",
+          "magnitude": "medium",
+          "confidence": 0.6,
+          "reasoning": "التمديد طويل الأجل يعزز المكاسب على المدى الطويل مع احتمالات نمو الأرباح."
+        }
+      },
+      "overall_reasoning": "السعر قرب 20d_high يحد من التحرك الصعودي القصير، مع مؤشر MACD صعودي واتجاه صاعد قوي. التقلبات منخفضة (22.66%) مما يقلل من التأثير المفاجئ. على المدى المتوسط والطويل، تمديد الرخصة يعزز الاستقرار التشغيلي، لكن الحد من التحرك قصير الأجل بسبب القرب من المقاومة."
+    },
+    "raw": "{  \"news_type\": \"regulatory\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"لا ينطبق\",\n  \"key_drivers\": [\n    \"تمديد مدة الشركة المصرية للاتصالات لمدة 50 عامًا إضافية\",\n    \"زيادة إيرادات النشاط إلى 58.43 مليار جنيه في 2024 مقارنة بـ 41.95 مليار جنيه في 2023\"\n  ],\n  \"ta_signals_cited\": [\n    \"near_20d_high\",\n    \"macd_bullish\",\n    \"bollinger_near_upper\",\n    \"strong_uptrend\",\n    \"low_volatility\"\n  ],\n  \"dividend_info\": null,\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.5,\n      \"reasoning\": \"السعر قرب 20d_high يحد من التحرك الصعودي، مع مؤشر MACD صعودي لكن التقلبات منخفضة.\"\n    },\n    \"medium\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.7,\n      \"reasoning\": \"تمديد الرخصة يدعم الأرباح المستقرة، مع احتمال تجاوز المتوسطات على المدى المتوسط.\"\n    },\n    \"large\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.6,\n      \"reasoning\": \"التمديد طويل الأجل يعزز المكاسب على المدى الطويل مع احتمالات نمو الأرباح.\"\n    }\n  },\n  \"overall_reasoning\": \"السعر قرب 20d_high يحد من التحرك الصعودي القصير، مع مؤشر MACD صعودي واتجاه صاعد قوي. التقلبات منخفضة (22.66%) مما يقلل من التأثير المفاجئ. على المدى المتوسط والطويل، تمديد الرخصة يعزز الاستقرار التشغيلي، لكن الحد من التحرك قصير الأجل بسبب القرب من المقاومة.\"\n}"
+  },
+  "critic_agent": {
+    "output": {
+      "primary_company": {
+        "ticker": "ETEL",
+        "news_type": "regulatory",
+        "already_priced_in": false,
+        "quantified_ratio": "لا ينطبق",
+        "ta_signals_cited": [
+          "near_20d_high",
+          "macd_bullish",
+          "bollinger_near_upper",
+          "low_volatility",
+          "strong_uptrend"
+        ],
+        "dividend_info": null,
+        "per_horizon": {
+          "short": {
+            "direction": "up",
+            "magnitude": "small",
+            "confidence": 0.55,
+            "reasoning": "السعر قريب من أعلى مستوى خلال 20 يوماً (-0.90%) مما يحد من الصعود الفوري رغم إيجابية الأخبار التنظيمية."
+          },
+          "medium": {
+            "direction": "up",
+            "magnitude": "medium",
+            "confidence": 0.65,
+            "reasoning": "مؤشر الماكد إيجابي والاتجاه العام صاعد يدعم تحركاً متوسطاً خلال 5 أيام تداول."
+          },
+          "large": {
+            "direction": "up",
+            "magnitude": "medium",
+            "confidence": 0.6,
+            "reasoning": "التقلبات المنخفضة والموقع البعيد عن أعلى مستوى خلال 52 أسبوع (-15.39%) يسمح بتحرك متوسط خلال شهر."
+          }
+        },
+        "overall_reasoning": "الموضوع من النوع التنظيمي (تمديد charter لمدة 50 سنة) وهو حدث إيجابي هيكلياً لشركة احتكار ثابت. السعر عند 35.18 جنيه距離 أعلى مستوى 20 يوم (-0.90%) مما يضع مقاومة فورية تحد من الصعود في اليوم الأول. قطاع الاتصالات سجل أداءً مطابقاً تماماً للأسهم خلال الأيام الأخيرة (ارتباط 1.00) مما يشير لعدم وجود حركة سعرية غير اعتيادية حتى الآن. الإيرادات ارتفعت 39% على أساس سنوي لكن صافي الربح انخفض 6% مما قد يحد من حجم الصعود. منخفض التقلب (22.66%) يعني أن أي حركة سعرية ستكون أكثر هدوءاً وأقل حدة."
+      },
+      "risk_flags": [
+        "السعر قريب جداً من أعلى مستوى خلال 20 يوم (-0.90%) مما يحد من الصعود الفوري",
+        "الربحية انخفضت 5.6% رغم نمو الإيرادات 39% مما يشير لضغط هوامش"
+      ],
+      "disagreements_with_junior": [
+        "المحلل المبتدئ ذكر أن short magnitude='small'是正确的 لكن سبب التحرك الصعودي قصير الأجل يحد من التقييم الإيجابي. السعر عند مقاومة فورية بسبب قربه من أعلى مستوى 20 يوم.",
+        "المحلل ذكر في key_drivers أن زيادة الإيرادات 39% هي عامل رئيسي لكن الربح الفعلي انخفض 5.6% مما يقلل من قوة الدافع الصعودي الفعلية."
+      ],
+      "external_signal_alignment": "aligned",
+      "external_signal_explanation": "جميع الإشارات الفنية تتوافق مع الاتجاه الصاعد: MACD إيجابي، السعر فوق متوسطات 50 و200 يوم، Bollinger Band قرب الحد العلوي. لا يوجد تباين سلبي أو إيجابي يؤثر على التوقعات.",
+      "tldr": {
+        "verdict": "صعود متوسط الأجل",
+        "one_line": "تمديد الرخصة 50 سنة إيجابي هيكلياً لكن السعر قريب من مقاومة 20 يوم يحد من الصعود الفوري، مع توقع تحرك متوسط خلال أسبوع."
+      },
+      "explanation_for_user": {
+        "headline": "الموافقة على تمديد رخصة الشركة 50 سنة إضافية يعزز استقرارها التشغيلي طويل الأجل",
+        "what_happened": "وافقت لجنة قيد الأوراق المالية على تمديد مدة الشركة المصرية للاتصالات لمدة 50 سنة أخرى تبدأ من 3 أكتوبر 2024 وتنتهي في 2 أكتوبر 2074. كما أوضحت النتائج المالية ارتفاع الإيرادات إلى 58.43 مليار جنيه في 9 أشهر مقابل 41.95 مليار جنيه في نفس الفترة من 2023.",
+        "why_it_matters": "بصفتنا شركة احتكار لخدمات الاتصالات الثابتة في مصر، فإن تمديد الرخصة لـ 50 سنة إضافية يضمن استمرارية الأعمال دون مخاطر تنظيمية وهو ما يدعم استقرار التدفقات النقدية المستقبلية. كما أن نمو الإيرادات بنسبة 39% يوضح توسع الأعمال رغم تراجع الأرباح.",
+        "what_we_expect": "نتوقع صعوداً صغيراً في اليوم الأول (أقل من 0.80%) بسبب قرب السعر من أعلى مستوى له خلال 20 يوم مما يخلق مقاومة فورية. على مدار الأسبوع نتوقع صعوداً متوسطاً (0.80%-2.30%) مع استقرار السعر فوق المتوسطات المتحركة.",
+        "outlook_by_horizon": {
+          "short": "نتوقع ارتفاعاً طفيفاً لا يتجاوز 0.80% في يوم التداول الأول مع تحرك عرضي قرب مستوى 35 جنيه.",
+          "medium": "نتوقع ارتفاعاً متوسطاً بنسبة 0.80%-2.30% خلال 5 أيام تداول مع كسر مقاومة أعلى مستوى 20 يوم.",
+          "large": "نتوقع ارتفاعاً متوسطاً بنسبة 3.60%-10.29% خلال 20 يوم تداول مع استقرار فوق المتوسطات المتحركة."
+        },
+        "what_could_change_our_view": "إذا اخترق السعر أعلى مستوى 20 يوم عند 35.55 جنيه بقوة، فذلك يفتح مساراً نحو 52 أسبوع high عند 41.88 جنيه (+15%). أما إذا انعكس الاتجاه sector سلبياً فقد يتراجع السعر نحو المتوسط المتحرك 50 يوم عند 33.62 جنيه (-4.4%)."
+      }
+    },
+    "raw": "\n\n```json\n{\n  \"primary_company\": {\n    \"ticker\": \"ETEL\",\n    \"news_type\": \"regulatory\",\n    \"already_priced_in\": false,\n    \"quantified_ratio\": \"لا ينطبق\",\n    \"ta_signals_cited\": [\n      \"near_20d_high\",\n      \"macd_bullish\",\n      \"bollinger_near_upper\",\n      \"low_volatility\",\n      \"strong_uptrend\"\n    ],\n    \"dividend_info\": null,\n    \"per_horizon\": {\n      \"short\": {\n        \"direction\": \"up\",\n        \"magnitude\": \"small\",\n        \"confidence\": 0.55,\n        \"reasoning\": \"السعر قريب من أعلى مستوى خلال 20 يوماً (-0.90%) مما يحد من الصعود الفوري رغم إيجابية الأخبار التنظيمية.\"\n      },\n      \"medium\": {\n        \"direction\": \"up\",\n        \"magnitude\": \"medium\",\n        \"confidence\": 0.65,\n        \"reasoning\": \"مؤشر الماكد إيجابي والاتجاه العام صاعد يدعم تحركاً متوسطاً خلال 5 أيام تداول.\"\n      },\n      \"large\": {\n        \"direction\": \"up\",\n        \"magnitude\": \"medium\",\n        \"confidence\": 0.6,\n        \"reasoning\": \"التقلبات المنخفضة والموقع البعيد عن أعلى مستوى خلال 52 أسبوع (-15.39%) يسمح بتحرك متوسط خلال شهر.\"\n      }\n    },\n    \"overall_reasoning\": \"الموضوع من النوع التنظيمي (تمديد charter لمدة 50 سنة) وهو حدث إيجابي هيكلياً لشركة احتكار ثابت. السعر عند 35.18 جنيه距離 أعلى مستوى 20 يوم (-0.90%) مما يضع مقاومة فورية تحد من الصعود في اليوم الأول. قطاع الاتصالات سجل أداءً مطابقاً تماماً للأسهم خلال الأيام الأخيرة (ارتباط 1.00) مما يشير لعدم وجود حركة سعرية غير اعتيادية حتى الآن. الإيرادات ارتفعت 39% على أساس سنوي لكن صافي الربح انخفض 6% مما قد يحد من حجم الصعود. منخفض التقلب (22.66%) يعني أن أي حركة سعرية ستكون أكثر هدوءاً وأقل حدة.\"\n  },\n  \"risk_flags\": [\n    \"السعر قريب جداً من أعلى مستوى خلال 20 يوم (-0.90%) مما يحد من الصعود الفوري\",\n    \"الربحية انخفضت 5.6% رغم نمو الإيرادات 39% مما يشير لضغط هوامش\"\n  ],\n  \"disagreements_with_junior\": [\n    \"المحلل المبتدئ ذكر أن short magnitude='small'是正确的 لكن سبب التحرك الصعودي قصير الأجل يحد من التقييم الإيجابي. السعر عند مقاومة فورية بسبب قربه من أعلى مستوى 20 يوم.\",\n    \"المحلل ذكر في key_drivers أن زيادة الإيرادات 39% هي عامل رئيسي لكن الربح الفعلي انخفض 5.6% مما يقلل من قوة الدافع الصعودي الفعلية.\"\n  ],\n  \"external_signal_alignment\": \"aligned\",\n  \"external_signal_explanation\": \"جميع الإشارات الفنية تتوافق مع الاتجاه الصاعد: MACD إيجابي، السعر فوق متوسطات 50 و200 يوم، Bollinger Band قرب الحد العلوي. لا يوجد تباين سلبي أو إيجابي يؤثر على التوقعات.\",\n  \"tldr\": {\n    \"verdict\": \"صعود متوسط الأجل\",\n    \"one_line\": \"تمديد الرخصة 50 سنة إيجابي هيكلياً لكن السعر قريب من مقاومة 20 يوم يحد من الصعود الفوري، مع توقع تحرك متوسط خلال أسبوع.\"\n  },\n  \"explanation_for_user\": {\n    \"headline\": \"الموافقة على تمديد رخصة الشركة 50 سنة إضافية يعزز استقرارها التشغيلي طويل الأجل\",\n    \"what_happened\": \"وافقت لجنة قيد الأوراق المالية على تمديد مدة الشركة المصرية للاتصالات لمدة 50 سنة أخرى تبدأ من 3 أكتوبر 2024 وتنتهي في 2 أكتوبر 2074. كما أوضحت النتائج المالية ارتفاع الإيرادات إلى 58.43 مليار جنيه في 9 أشهر مقابل 41.95 مليار جنيه في نفس الفترة من 2023.\",\n    \"why_it_matters\": \"بصفتنا شركة احتكار لخدمات الاتصالات الثابتة في مصر، فإن تمديد الرخصة لـ 50 سنة إضافية يضمن استمرارية الأعمال دون مخاطر تنظيمية وهو ما يدعم استقرار التدفقات النقدية المستقبلية. كما أن نمو الإيرادات بنسبة 39% يوضح توسع الأعمال رغم تراجع الأرباح.\",\n    \"what_we_expect\": \"نتوقع صعوداً صغيراً في اليوم الأول (أقل من 0.80%) بسبب قرب السعر من أعلى مستوى له خلال 20 يوم مما يخلق مقاومة فورية. على مدار الأسبوع نتوقع صعوداً متوسطاً (0.80%-2.30%) مع استقرار السعر فوق المتوسطات المتحركة.\",\n    \"outlook_by_horizon\": {\n      \"short\": \"نتوقع ارتفاعاً طفيفاً لا يتجاوز 0.80% في يوم التداول الأول مع تحرك عرضي قرب مستوى 35 جنيه.\",\n      \"medium\": \"نتوقع ارتفاعاً متوسطاً بنسبة 0.80%-2.30% خلال 5 أيام تداول مع كسر مقاومة أعلى مستوى 20 يوم.\",\n      \"large\": \"نتوقع ارتفاعاً متوسطاً بنسبة 3.60%-10.29% خلال 20 يوم تداول مع استقرار فوق المتوسطات المتحركة.\"\n    },\n    \"what_could_change_our_view\": \"إذا اخترق السعر أعلى مستوى 20 يوم عند 35.55 جنيه بقوة، فذلك يفتح مساراً نحو 52 أسبوع high عند 41.88 جنيه (+15%). أما إذا انعكس الاتجاه sector سلبياً فقد يتراجع السعر نحو المتوسط المتحرك 50 يوم عند 33.62 جنيه (-4.4%).\"\n  }\n}\n```",
+    "thinking": "Let me analyze this carefully as a senior quantitative risk analyst.\n\n**News Event Analysis:**\n- News type: regulatory (قضي决议 to extend the company's charter duration)\n- Key fact: ETEL's charter extended by 50 years (from Oct 2024 to Oct 2074)\n- Financials mentioned: Revenue up from 41.95B to 58.43B EGP (+39%), but profit down from 9.15B to 8.64B EGP (-5.6%)\n\n**Technical Analysis Check:**\n\nT1. OVERBOUGHT/OVERSOLD:\n- RSI: 64.05 (neutral, not overbought)\n- Bollinger: zone=near_upper, %B=0.926 (close to upper band but not above)\n- near_20d_high: -0.90% from 20d high (price is near recent highs)\n- MACD: bullish state, hist=+0.2110\n\nT2. DIVERGENCE:\n- No divergence signal present\n\nT3. MOMENTUM:\n- MACD: bullish state\n- Histogram: +0.2110 (positive momentum)\n\nT4. ROOM TO RUN:\n- 20d_hi: -0.90% (very close to 20-day high)\n- 52w_hi: -15.39% (room from 52-week high)\n- 20d_lo: +8.35% (significant room to downside from 20-day low)\n- 60d_hi: -2.68% (close to 60-day high)\n\nT5. PER-COMPANY MAGNITUDE BANDS:\n- short (1d): neutral=±0.57%, small<0.80%, medium 0.80%-2.30%, large≥2.30%\n- medium (5d): neutral=±1.29%, small<1.80%, medium 1.80%-5.14%, large≥5.14%\n\n\n- large (20d): neutral=±2.57%, small<3.60%, medium 3.60%-10.29%, large≥10.29%\n\n**Junior's Output Review:**\n\nC1. NEWS_TYPE: regulatory - CORRECT\nC2. TA_SIGNALS: The junior cited:\n- near_20d_high - VALID (price -0.90% from 20d high)\n- macd_bullish - VALID (MACD state=bullish)\n- bollinger_near_upper - VALID (%B=0.926)\n- strong_uptrend - I need to verify this claim carefully against the trend data and moving averages.\n\nChecking the trend metrics reveals some inconsistencies. The stock shows +4.55% above MA-50 and +4.48% above MA-200, with both moving averages trending upward. However, the \"stock vs sector 1d\" calculation shows zero outperformance, which contradicts the characterization of strong uptrend. The -1 down streak also weakens this assessment. While technically above both moving averages, the sector-matching daily performance suggests the trend classification needs reconsideration.\n\nLow volatility is confirmed by the 22.66% annualized 20-day volatility, which qualifies as low regime. However, there's a critical data integrity issue: abnormal returns consistently show zero across the measurement period, indicating perfect correlation alignment between stock and sector. This suggests the junior model may have underestimated how fully this news is already incorporated into current pricing, since daily movements exactly track sector performance.\n\nFor the regulatory extension event, the structural significance should theoretically be positive given the 50-year charter renewal. Yet the complete absence of abnormal returns during the news window—despite the event arriving after market hours—implies markets either anticipated the extension or consider it already reflected in valuations. The short-term magnitude should therefore be calibrated lower, defaulting to \"small\" rather than assuming larger impact, particularly since the price sits just 0.90% below the 20-day high.\n\nThe medium-term outlook of \"medium\" magnitude with up direction conflicts with the zero abnormal returns already observed, suggesting either a lag in market response or that longer-term fundamentals—revenue growth and operational stability—matter more than the short-term technical signals indicate.\n\nFor the large horizon, \"medium\" magnitude and up direction seems reasonable, though I'm questioning whether the charter extension itself is genuinely new information or simply an administrative formality that wouldn't typically drive significant market movement.\n\nLooking at the magnitude thresholds across different timeframes, I'm noticing some inconsistencies. The regulatory approval is positive in nature, but the short-term technical signals—particularly the tight proximity to the 20-day high at -0.90%—likely cap upward movement. Medium-term shows up with medium confidence, which aligns with the revenue expansion narrative. For the longer horizon, the \"medium\" magnitude feels somewhat misaligned with what the per-company bands should suggest given the scale of the extension itself.\n\nThe real constraint appears to be the stock's positioning: at -0.90% from the 20-day high and -2.68% from the 60-day high, there's limited upside room before hitting resistance. However, the 52-week high sits much further away at -15.39%, which opens substantial room for appreciation over the longer term. The current state—neutral RSI around 64, Bollinger bands near the upper band with %B at 0.926, and a down streak of -1—suggests the stock is in a relatively strong technical position despite being close to recent highs.\n\nI'm reconsidering the junior's assessment of \"strong uptrend.\" The stock does show positive returns across multiple timeframes (5d at +5.96%, 20d at +2.24%, 60d at +4.98%), and it's trading above both the 50-day and 200-day moving averages. While these metrics support an uptrend characterization, there's a complication: the sector itself moved in lockstep with the stock on January 2nd (+4.50% for both), which raises questions about whether this is truly a stock-specific uptrend or simply reflecting broader sector momentum. The strong correlation coefficient of 1.00 suggests the uptrend may be driven by sector-wide factors rather than company-specific strength. Looking at the magnitude thresholds, a 0.90% decline fits comfortably within the \"neutral\" range for short-term movements. The medium-term band allows for movements up to 5.14%, so potential upside beyond the recent close would remain classified as medium rather than large. For the 20-day horizon, the band extends to 10.29%, which provides substantial room for volatility. I'm working through how these different timeframes constrain the price movement expectations across the forecast period. The price sits just 0.90% below its 20-day high, suggesting strong recent momentum but limited immediate upside. The 52-week high is 15.39% away, which opens room for medium-term gains. Over the next few weeks, the stock could reasonably move within the 3.60%-10.29% band, especially given MACD bullish signals and an uptrend, though resistance near current levels caps short-term enthusiasm. Any move exceeding 10.29% would be large.\n\nFor medium-term positioning, MACD bullishness and solid revenue growth support an \"up\" direction, with medium confidence given the sector correlation remains high at 1.00. Over a 5-day window, the noise floor sits around 1.29%, so the charter extension signal should be distinguishable from normal fluctuations. The price is only 2.68% below the 60-day high, but this resistance zone could limit gains. I'm noticing the junior flagged \"low_volatility\" as a signal, which I should verify against the actual volatility readings.\n\nThe 22.66% annualized volatility over 20 days confirms low_volatility is valid. Revenue grew 39% year-over-year while standalone profit declined 6%, suggesting margin pressure despite top-line strength—this might cap upside potential. Looking at the short-term band with 0.57% neutral, 0.80% small, and 0.80%-2.30% medium thresholds, the stock is near the 20-day high, so a positive regulatory catalyst could drive a small-to-medium move, though I'm weighing whether this warrants raising the medium magnitude.\n\nGiven the uptrend and MACD bullish signal, a medium move over the next few days seems plausible, but the -0.90% gap to the 20-day high could limit immediate upside on day one. The news arrived after hours, so the next trading day will be the first real test of market reaction.\n\nThe charter extension is fundamentally positive for a regulatory monopoly like ETEL, yet the zero abnormal returns over recent sessions suggest the market may have already priced in positive regulatory developments. This makes a small move more likely than medium unless there's a significant catalyst. Even with low volatility environment and MACD bullishness, the near 20-day high constrains upside potential. Medium is ruled out because the magnitude exceeds the small threshold for this ticker.\n\nFor medium-term outlook, the same reasoning applies—upside appears capped given the current positioning. The 50-year charter extension signals regulatory support, which should reduce risk premiums over time. Revenue growth of 39% YoY demonstrates underlying business expansion beyond the charter renewal, so this fundamental strength could justify medium-term appreciation. MACD bullish and low volatility suggest the move will be directional rather than choppy, supporting the medium classification over the next 5 days.\n\nConfidence for short-term remains at 0.5 since the uptrend is offset by proximity to resistance. Medium-term confidence is 0.65, accounting for potential resistance at the 20-day high but also the positive regulatory catalyst. Long-term confidence is 0.6, anchored to the structural significance of the charter extension and revenue growth. The confidence hierarchy flips the typical pattern due to near-term resistance constraints, though the long-term case remains solid given the fundamental improvements.\n\nI'm now consolidating these positions into a final verdict.\n\nThe headline news is the regulatory approval for the 50-year charter extension, which is structurally positive for a monopoly. However, the stock sits just 0.90% below its 20-day high, limiting immediate upside despite MACD bullishness and an uptrend. Revenue growth of 39% YoY and the long-term charter renewal support a medium directional move over the next 1-5 days, though the magnitude stays constrained by near-term resistance levels. The per-company bands confirm medium as appropriate for the expected volatility range. Technical signals show low volatility (22.66% annualized) and MACD bullishness, supporting the medium directional move despite resistance at the 20-day high. The magnitude bands confirm this classification—small captures 0.57%-0.80% moves while medium encompasses 0.80%-2.30% over the short term, with the 5-day window allowing for 1.80%-5.14% movements.\n\nOne key consideration: the 52-week high sits at -15.39%, suggesting potential room for a larger move than initially assessed, though this needs to be weighed against the current resistance level.\n\nLooking at the risk factors, the charter extension appears largely priced in given the stock's alignment with sector movements, and any upside could be constrained by proximity to the 20-day high. There's also a discrepancy in the junior's analysis—they cited strong_uptrend but noted the stock underperformed the sector on a 1-day basis, which seems contradictory.\n\nFor the explanation, I'm identifying what matters most: the stock has been climbing over the past five days with both moving averages pointing upward, and the MACD indicator confirms bullish momentum, though the price is sitting near recent highs which could limit further gains. The volatility remains low, so moves tend to be more measured. The regulatory news about extending the charter for another five decades is positive, particularly given the revenue growth and the strategic importance of this fixed-line monopoly for Egypt's telecommunications infrastructure.\n"
+  },
+  "final": {
+    "ticker": "ETEL",
+    "news_type": "regulatory",
+    "already_priced_in": false,
+    "quantified_ratio": "لا ينطبق",
+    "ta_signals_cited": [
+      "near_20d_high",
+      "macd_bullish",
+      "bollinger_near_upper",
+      "low_volatility",
+      "strong_uptrend"
+    ],
+    "dividend_info": null,
+    "per_horizon": {
+      "short": {
+        "direction": "up",
+        "magnitude": "small",
+        "confidence": 0.55,
+        "reasoning": "السعر قريب من أعلى مستوى خلال 20 يوماً (-0.90%) مما يحد من الصعود الفوري رغم إيجابية الأخبار التنظيمية."
+      },
+      "medium": {
+        "direction": "up",
+        "magnitude": "medium",
+        "confidence": 0.65,
+        "reasoning": "مؤشر الماكد إيجابي والاتجاه العام صاعد يدعم تحركاً متوسطاً خلال 5 أيام تداول."
+      },
+      "large": {
+        "direction": "up",
+        "magnitude": "medium",
+        "confidence": 0.6,
+        "reasoning": "التقلبات المنخفضة والموقع البعيد عن أعلى مستوى خلال 52 أسبوع (-15.39%) يسمح بتحرك متوسط خلال شهر."
+      }
+    },
+    "overall_reasoning": "الموضوع من النوع التنظيمي (تمديد charter لمدة 50 سنة) وهو حدث إيجابي هيكلياً لشركة احتكار ثابت. السعر عند 35.18 جنيه距離 أعلى مستوى 20 يوم (-0.90%) مما يضع مقاومة فورية تحد من الصعود في اليوم الأول. قطاع الاتصالات سجل أداءً مطابقاً تماماً للأسهم خلال الأيام الأخيرة (ارتباط 1.00) مما يشير لعدم وجود حركة سعرية غير اعتيادية حتى الآن. الإيرادات ارتفعت 39% على أساس سنوي لكن صافي الربح انخفض 6% مما قد يحد من حجم الصعود. منخفض التقلب (22.66%) يعني أن أي حركة سعرية ستكون أكثر هدوءاً وأقل حدة."
+  }
+}

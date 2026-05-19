@@ -1,0 +1,363 @@
+{
+  "ticker": "ABUK",
+  "article_date": "2025-06-29",
+  "context_date": "2025-06-25",
+  "processed_at": "2026-05-18T20:20:18.308550",
+  "article": {
+    "symbol": "ABUK",
+    "company": "Abou Kir Fertilizers",
+    "isin": "EGS38191C010",
+    "sector": "Petroleum & Petrochemicals",
+    "id": "4464697",
+    "date": "2025-06-29",
+    "time": "10:03:55",
+    "datetime": "2025-06-29 10:03:55",
+    "title": "أبوقير للأسمدة تستهدف 6.7 مليار جنيه أرباحاً بموازنة العام المالي المقبل",
+    "body": "القاهرة - مباشر: اعتمدت شركة أبوقير للأسمدة والصناعات الكيماوية، الموازنة التقديرية للعام المالي المقبل.\nوقالت الشركة في بيان لبورصة مصر اليوم الأحد، إنها تستهدف تحقيق صافي ربح قبل الضريبة بقيمة 6.71 مليار جنيه خلال العام المالي 2025- 2026.\nوأضافت أنها تستهدف تحقيق إجمالي إيرادات بقيمة 22.23 مليار جنيه، ومصروفات بمبلغ 15.51 مليار جنيه خلال العام المالي المقبل.\nيشار أن أبوقير للأسمدة والصناعات الكيماوية،  حققت أرباحاً بلغت 7.77 مليار جنيه خلال الفترة من يوليو حتى مارس 2025، مقابل أرباح بلغت 12.05 مليار جنيه في الفترة المقارنة من العام المالي الماضي.\nوارتفعت إيرادات الشركة خلال الفترة إلى 16.89 مليار جنيه، مقابل 14.04 مليار جنيه في الفترة المقارنة من العام المالي الماضي.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nأبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر..\nاضغط هنا\nترشيحات\nجهاز حكومي مصري يستثمر 4 ملايين دولار في صندوق ديسربتيك\nجيزة سيستمز: النظر في الطرح ببورصة مصر لن يكون قبل 2027\nصادرات الغاز الإسرائيلي إلى مصر ترتفع لـ 970 مليون قدم مكعبة يومياً\nمصر تتعاقد على استئجار سفينة تغويز ثالثة لتلبية الاحتياجات المحلية من الغاز\nمسؤول يكشف أسباب رفع أسعار خدمات الإنترنت والاتصالات في مصر\nمصر.. نصائح مهمة من \"حماية المستهلك\" للمواطنين قبل شراء السلع",
+    "teaser": "القاهرة - مباشر: اعتمدت شركة أبوقير للأسمدة والصناعات الكيماوية، الموازنة التقديرية للعام المالي المقبل. وقالت الشركة في بيان لبورصة مصر اليوم الأحد، إنها تستهدف تحقيق صافي ربح قبل الضريبة بقيمة 6.71 مليار جنيه خلال العام المالي 2025- 2026. وأضافت …",
+    "section": "نتائج أعمال الشركات",
+    "source": "مباشر",
+    "categories": "stock-bonds",
+    "country": "مصر",
+    "reads": 1152,
+    "url": "https://www.mubasher.info/news/4464697",
+    "image_url": "https://static.mubasher.info/File.Story_Image/8f3978ca23f4426ed7210c011bcfcee5/640.jpg",
+    "date_raw": ""
+  },
+  "sentiment": {
+    "model": "CAMeL-Lab/bert-base-arabic-camelbert-mix-sentiment",
+    "label": "neutral",
+    "score": 0.0903,
+    "numeric": 0,
+    "class_probs": {
+      "neutral": 0.9067,
+      "positive": 0.0918,
+      "negative": 0.0015
+    }
+  },
+  "context": {
+    "ticker": "ABUK",
+    "company": "Abou Kir Fertilizers - ABUK",
+    "sector": "Petroleum & Petrochemicals",
+    "business_description": "Abou Kir Fertilizers — Egypt's largest nitrogen fertilizer (urea/ammonium nitrate) producer near Alexandria; exports to Europe; earnings sensitive to natural gas feedstock price and EUR/USD.",
+    "event_date": "2025-06-29",
+    "last_price_date": "2025-06-25",
+    "price_state": {
+      "last_close": 48.89,
+      "return_1d": 2.09,
+      "return_5d": 5.73,
+      "return_20d": 0.8,
+      "return_60d": -14.87,
+      "pct_vs_ma50": -3.84,
+      "pct_vs_ma200": -11.21,
+      "vol_20d_annualized_pct": 29.72,
+      "vol_regime": "normal",
+      "rsi_14": 49.39
+    },
+    "market_state": {
+      "sector_return_1d": 1.92,
+      "sector_return_5d": 6.75,
+      "relative_strength_vs_sector_1d": 0.17
+    },
+    "correlation_state": {
+      "corr_with_sector_90d": 0.67,
+      "top_3_correlated_peers": [
+        {
+          "ticker": "MFPC",
+          "correlation": 0.51,
+          "sector": "Petroleum & Petrochemicals"
+        },
+        {
+          "ticker": "ORWE",
+          "correlation": 0.47,
+          "sector": "Textiles"
+        },
+        {
+          "ticker": "TMGH",
+          "correlation": 0.47,
+          "sector": "Real Estate"
+        }
+      ]
+    },
+    "recent_abnormal_returns": [
+      {
+        "date": "2025-06-19",
+        "stock_return_pct": -0.58,
+        "sector_return_pct": -0.91,
+        "abnormal_return_pct": 0.33
+      },
+      {
+        "date": "2025-06-22",
+        "stock_return_pct": 1.89,
+        "sector_return_pct": 1.38,
+        "abnormal_return_pct": 0.51
+      },
+      {
+        "date": "2025-06-23",
+        "stock_return_pct": -0.92,
+        "sector_return_pct": 1.55,
+        "abnormal_return_pct": -2.47
+      },
+      {
+        "date": "2025-06-24",
+        "stock_return_pct": 3.19,
+        "sector_return_pct": 3.05,
+        "abnormal_return_pct": 0.14
+      },
+      {
+        "date": "2025-06-25",
+        "stock_return_pct": 2.09,
+        "sector_return_pct": 1.44,
+        "abnormal_return_pct": 0.65
+      }
+    ],
+    "technical_signals": {
+      "rsi_14": 49.39,
+      "rsi_zone": "neutral",
+      "macd": {
+        "line": -1.1199,
+        "signal": -1.286,
+        "histogram": 0.1661,
+        "state": "bullish"
+      },
+      "bollinger": {
+        "pct_b": 0.6,
+        "bandwidth_pct": 12.39,
+        "zone": "middle"
+      },
+      "distance_to_extremes": {
+        "20d_high_distance_pct": -3.68,
+        "20d_low_distance_pct": 6.35,
+        "60d_high_distance_pct": -14.35,
+        "60d_low_distance_pct": 6.35,
+        "252d_high_distance_pct": -25.11,
+        "252d_low_distance_pct": 6.35
+      },
+      "rsi_divergence": "none",
+      "atr_pct_14d": 1.55,
+      "consecutive_streak": 2
+    },
+    "dynamic_bands": {
+      "horizon_trading_days": {
+        "short": 1,
+        "medium": 2,
+        "large": 20
+      },
+      "neutral_band_pct": {
+        "short": 0.78,
+        "medium": 1.1,
+        "large": 3.47
+      },
+      "magnitude_bands_pct": {
+        "short": {
+          "small": [
+            0.0,
+            1.08
+          ],
+          "medium": [
+            1.08,
+            3.1
+          ],
+          "large": [
+            3.1,
+            null
+          ]
+        },
+        "medium": {
+          "small": [
+            0.0,
+            1.53
+          ],
+          "medium": [
+            1.53,
+            4.38
+          ],
+          "large": [
+            4.38,
+            null
+          ]
+        },
+        "large": {
+          "small": [
+            0.0,
+            4.85
+          ],
+          "medium": [
+            4.85,
+            13.86
+          ],
+          "large": [
+            13.86,
+            null
+          ]
+        }
+      },
+      "atr_pct_anchor": 1.55
+    },
+    "news_timing": {
+      "in_trading_hours": true,
+      "arrived_at_str": "2025-06-29 10:03:55",
+      "start_day_label": "event_date (article day; news arrived during EGX hours)"
+    }
+  },
+  "prompts": {
+    "impact": "You are a quantitative analyst predicting Egyptian Stock Exchange (EGX) stock reactions to Arabic news. Your prediction must be grounded in the technical signals provided and calibrated to this specific ticker's volatility.\n\n=== COMPANY ===\nTicker      : ABUK\nName        : Abou Kir Fertilizers - ABUK\nSector      : Petroleum & Petrochemicals\nDescription : Abou Kir Fertilizers — Egypt's largest nitrogen fertilizer (urea/ammonium nitrate) producer near Alexandria; exports to Europe; earnings sensitive to natural gas feedstock price and EUR/USD.\nPrice data  : as of 2025-06-25  (article date: 2025-06-29)\n\n=== PRICE STATE ===\nLast close  : 48.89 EGP\nReturn 1d   : +2.09%   5d : +5.73%   20d : +0.80%   60d : -14.87%\nvs MA-50    : -3.84%  vs MA-200 : -11.21%\nTrend       : downtrend (below MA-50 and MA-200)\nVol 20d ann : 29.72%  [normal regime]  Normal -> impact PROPORTIONAL to catalyst.\n\n=== SECTOR ===\nSector 1d   : +1.92%  5d : +6.75%\nStock vs sector 1d : +0.17%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 0.67\nTop peers:\n  - MFPC | Petroleum & Petrochemicals | 90d-corr: 0.51\n  - ORWE | Textiles | 90d-corr: 0.47\n  - TMGH | Real Estate | 90d-corr: 0.47\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2025-06-19: stock -0.58%  sector -0.91%  AR +0.33%\n  2025-06-22: stock +1.89%  sector +1.38%  AR +0.51%\n  2025-06-23: stock -0.92%  sector +1.55%  AR -2.47%\n  2025-06-24: stock +3.19%  sector +3.05%  AR +0.14%\n  2025-06-25: stock +2.09%  sector +1.44%  AR +0.65%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 49.39  [neutral]\nMACD      : state=bullish  hist=+0.1661\nBollinger : zone=middle  %B=0.600\nDistance  : 20d_hi -3.68%  20d_lo +6.35%  60d_hi -14.35%  60d_lo +6.35%  52w_hi -25.11%  52w_lo +6.35%\nDivergence : none\nATR 14d   : 1.55%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : +2 (up streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=1.55%) ===\n  short   (N= 1d)  neutral=+-0.78%  small <1.08%  medium 1.08%-3.10%  large >=3.10%\n  medium  (N= 2d)  neutral=+-1.10%  small <1.53%  medium 1.53%-4.38%  large >=4.38%\n  large   (N=20d)  neutral=+-3.47%  small <4.85%  medium 4.85%-13.86%  large >=13.86%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-06-29 10:03:55\nIn trading hours: True  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : event_date (article day; news arrived during EGX hours)\nHorizons (days) : short=1d ; medium=2d ; large=20d\n\n=== ARABIC SENTIMENT (one input among many) ===\nLabel : neutral\nScore : +0.0903   (-1 strongly negative -> +1 strongly positive)\nNOTE: CAMeLBERT classifies tone, not financial implication.\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-06-29 10:03:55\nHeadline  : أبوقير للأسمدة تستهدف 6.7 مليار جنيه أرباحاً بموازنة العام المالي المقبل\n\nالقاهرة - مباشر: اعتمدت شركة أبوقير للأسمدة والصناعات الكيماوية، الموازنة التقديرية للعام المالي المقبل.\nوقالت الشركة في بيان لبورصة مصر اليوم الأحد، إنها تستهدف تحقيق صافي ربح قبل الضريبة بقيمة 6.71 مليار جنيه خلال العام المالي 2025- 2026.\nوأضافت أنها تستهدف تحقيق إجمالي إيرادات بقيمة 22.23 مليار جنيه، ومصروفات بمبلغ 15.51 مليار جنيه خلال العام المالي المقبل.\nيشار أن أبوقير للأسمدة والصناعات الكيماوية،  حققت أرباحاً بلغت 7.77 مليار جنيه خلال الفترة من يوليو حتى مارس 2025، مقابل أرباح بلغت 12.05 مليار جنيه في الفترة المقارنة من العام المالي الماضي.\nوارتفعت إيرادات الشركة خلال الفترة إلى 16.89 مليار جنيه، مقابل 14.04 مليار جنيه في الفترة المقارنة من العام المالي الماضي.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nأبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر..\nاضغط هنا\nترشيحات\nجهاز حكومي مصري يستثمر 4 ملايين دولار في صندوق ديسربتيك\nجيزة سيستمز: النظر في الطرح ببورصة مصر لن يكون قبل 2027\nصادرات الغاز الإسرائيلي إلى مصر ترتفع لـ 970 مليون قدم مكعبة يومياً\nمصر تتعاقد على استئجار سفينة تغويز ثالثة لتلبية الاحتياجات المحلية من الغاز\nمسؤول يكشف أسباب رفع أسعار خدمات الإنترنت والاتصالات في مصر\nمصر.. نصائح مهمة من \"حماية المستهلك\" للمواطنين قبل شراء السلع\n\n=== HORIZONS (predict ALL OF THEM) ===\n  short   -> t+0 only (just the start day's return)    AR label: اليوم الأول (t+0): رد الفعل الفوري\n  medium  -> t+0 .. t+1  (2 trading days cumulative)   AR label: اليومان الأولان (t+0 إلى t+1): الاستجابة المبكرة\n  large   -> t+0 .. t+19  (20 trading days cumulative)  AR label: العشرون يوم تداول (t+0 إلى t+19): الأثر الممتد\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- 'up'\nmeans OUTPERFORMING the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== OUTPUT INSTRUCTIONS ===\n1. Classify news_type FIRST.\n2. Walk through T1-T5. Pick TA signals that ACTUALLY apply from the closed vocab.\n3. Anchor magnitudes to the PER-COMPANY bands above (NOT a global rule).\n4. Quantify any dilution/yield ratio with both inputs.\n5. If news_type=dividend, FILL dividend_info; otherwise set it to null.\n6. LANGUAGE: free-text Arabic. JSON keys + enum values in English.\n7. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"news_type\":         \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n  \"already_priced_in\": <true | false>,\n  \"quantified_ratio\":  \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n  \"key_drivers\":       [\"<driver 1 Arabic>\", \"<driver 2 Arabic>\"],\n  \"ta_signals_cited\":  [\"<signal from closed vocab>\", \"...\"],\n  \"dividend_info\": null | {\n    \"yield_pct\":      <float>,\n    \"ex_div_date\":    \"<YYYY-MM-DD or null if unknown>\",\n    \"amount_egp\":     <float or null>\n  },\n  \"per_horizon\": {\n    \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"},\n    \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"},\n    \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"}\n  },\n  \"overall_reasoning\": \"<3-4 Arabic sentences. Walk T1-T5 briefly. Reference the per-company magnitude bands explicitly. State the quantified ratio if applicable.>\"\n}",
+    "critic": "You are a senior quantitative risk analyst at an Egyptian investment bank. A junior LLM analyst has assessed a news event about ABUK (Abou Kir Fertilizers - ABUK). Your job:\n  (a) audit the junior's TA citations against the live data,\n  (b) check magnitudes against the PER-COMPANY bands (not global rules),\n  (c) produce the final authoritative prediction across short / medium / large,\n  (d) write a plain-Arabic explanation for a non-expert retail investor.\n\n=== COMPANY ===\nTicker      : ABUK\nName        : Abou Kir Fertilizers - ABUK\nSector      : Petroleum & Petrochemicals\nDescription : Abou Kir Fertilizers — Egypt's largest nitrogen fertilizer (urea/ammonium nitrate) producer near Alexandria; exports to Europe; earnings sensitive to natural gas feedstock price and EUR/USD.\nPrice data  : as of 2025-06-25  (article date: 2025-06-29)\n\n=== PRICE STATE ===\nLast close  : 48.89 EGP\nReturn 1d   : +2.09%   5d : +5.73%   20d : +0.80%   60d : -14.87%\nvs MA-50    : -3.84%  vs MA-200 : -11.21%\nTrend       : downtrend (below MA-50 and MA-200)\nVol 20d ann : 29.72%  [normal regime]  Normal -> impact PROPORTIONAL to catalyst.\n\n=== SECTOR ===\nSector 1d   : +1.92%  5d : +6.75%\nStock vs sector 1d : +0.17%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 0.67\nTop peers:\n  - MFPC | Petroleum & Petrochemicals | 90d-corr: 0.51\n  - ORWE | Textiles | 90d-corr: 0.47\n  - TMGH | Real Estate | 90d-corr: 0.47\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2025-06-19: stock -0.58%  sector -0.91%  AR +0.33%\n  2025-06-22: stock +1.89%  sector +1.38%  AR +0.51%\n  2025-06-23: stock -0.92%  sector +1.55%  AR -2.47%\n  2025-06-24: stock +3.19%  sector +3.05%  AR +0.14%\n  2025-06-25: stock +2.09%  sector +1.44%  AR +0.65%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 49.39  [neutral]\nMACD      : state=bullish  hist=+0.1661\nBollinger : zone=middle  %B=0.600\nDistance  : 20d_hi -3.68%  20d_lo +6.35%  60d_hi -14.35%  60d_lo +6.35%  52w_hi -25.11%  52w_lo +6.35%\nDivergence : none\nATR 14d   : 1.55%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : +2 (up streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=1.55%) ===\n  short   (N= 1d)  neutral=+-0.78%  small <1.08%  medium 1.08%-3.10%  large >=3.10%\n  medium  (N= 2d)  neutral=+-1.10%  small <1.53%  medium 1.53%-4.38%  large >=4.38%\n  large   (N=20d)  neutral=+-3.47%  small <4.85%  medium 4.85%-13.86%  large >=13.86%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-06-29 10:03:55\nIn trading hours: True  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : event_date (article day; news arrived during EGX hours)\nHorizons (days) : short=1d ; medium=2d ; large=20d\n\n=== ARABIC SENTIMENT ===\nLabel : neutral\nScore : +0.0903\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-06-29 10:03:55\nHeadline  : أبوقير للأسمدة تستهدف 6.7 مليار جنيه أرباحاً بموازنة العام المالي المقبل\n\nالقاهرة - مباشر: اعتمدت شركة أبوقير للأسمدة والصناعات الكيماوية، الموازنة التقديرية للعام المالي المقبل.\nوقالت الشركة في بيان لبورصة مصر اليوم الأحد، إنها تستهدف تحقيق صافي ربح قبل الضريبة بقيمة 6.71 مليار جنيه خلال العام المالي 2025- 2026.\nوأضافت أنها تستهدف تحقيق إجمالي إيرادات بقيمة 22.23 مليار جنيه، ومصروفات بمبلغ 15.51 مليار جنيه خلال العام المالي المقبل.\nيشار أن أبوقير للأسمدة والصناعات الكيماوية،  حققت أرباحاً بلغت 7.77 مليار جنيه خلال الفترة من يوليو حتى مارس 2025، مقابل أرباح بلغت 12.05 مليار جنيه في الفترة المقارنة من العام المالي الماضي.\nوارتفعت إيرادات الشركة خلال الفترة إلى 16.89 مليار جنيه، مقابل 14.04 مليار جنيه في الفترة المقارنة من العام المالي الماضي.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nأبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر..\nاضغط هنا\nترشيحات\nجهاز حكومي مصري يستثمر 4 ملايين دولار في صندوق ديسربتيك\nجيزة سيستمز: النظر في الطرح ببورصة مصر لن يكون قبل 2027\nصادرات الغاز الإسرائيلي إلى مصر ترتفع لـ 970 مليون قدم مكعبة يومياً\nمصر تتعاقد على استئجار سفينة تغويز ثالثة لتلبية الاحتياجات المحلية من الغاز\nمسؤول يكشف أسباب رفع أسعار خدمات الإنترنت والاتصالات في مصر\nمصر.. نصائح مهمة من \"حماية المستهلك\" للمواطنين قبل شراء السلع\n\n=== IMPACT AGENT OUTPUT (junior, Groq) ===\n{\n  \"news_type\": \"earnings\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"6.71 مليار جنيه (العام المالي 2025-2026) مقابل 7.77 مليار جنيه (العام المالي 2024-2025)\",\n  \"key_drivers\": [\n    \"تهدف الشركة لتحقيق صافي ربح قبل الضريبة بقيمة 6.71 مليار جنيه في العام المالي 2025-2026\",\n    \"تراجعت الأرباح مقارنة بالفترة المقابلة من العام المالي الماضي (7.77 مليار جنيه مقابل 12.05 مليار جنيه)\"\n  ],\n  \"ta_signals_cited\": [\n    \"macd_bullish\",\n    \"up_streak_3plus\",\n    \"normal_volatility\"\n  ],\n  \"dividend_info\": null,\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.65,\n      \"reasoning\": \"الماكدي بوضعية بولينج يدعم احتمال التفاعل الإيجابي، لكن التراجع في الأرباح مقارنة بالفترة المقابلة قد يحد من الموجة. النطاق الطبيعي للحركة اليومية (1.55%) يشير إلى أن التأثير لن يتجاوز 1.08% (نطاق صغير).\"\n    },\n    \"medium\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.7,\n      \"reasoning\": \"الماكدي البولينج يعزز من الزخم الإيجابي، مع احتمال ارتفاع الموجة إلى 4.38% (نطاق متوسط) خلال يومين. التراجع في الأرباح قد يُضعف الزخم بعد اليوم الأول.\"\n    },\n    \"large\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.55,\n      \"reasoning\": \"الاتجاه العام هابط (-11.21% عن المتوسط المتحرك 200 يوم)، مما يحد من التأثير على المدى الطويل. النطاق الطبيعي للحركة (13.86%) يشير إلى أن التأثير لن يتجاوز 4.85% (نطاق صغير).\"\n    }\n  },\n  \"overall_reasoning\": \"التوقعات الإيجابية محدودة بسبب تراجع الأرباح مقارنة بالفترة المقابلة، رغم دعم الماكدي البولينج. النطاقات المبنية على التقلبات (ATR=1.55%) تشير إلى أن التأثير لن يتجاوز النطاق الصغير على المدى القصير والمتوسط. الاتجاه الهابط العام يحد من التأثير على المدى الطويل.\"\n}\n\n=== HORIZONS (predict ALL OF THEM) ===\n  short   -> t+0 only (just the start day's return)    AR label: اليوم الأول (t+0): رد الفعل الفوري\n  medium  -> t+0 .. t+1  (2 trading days cumulative)   AR label: اليومان الأولان (t+0 إلى t+1): الاستجابة المبكرة\n  large   -> t+0 .. t+19  (20 trading days cumulative)  AR label: العشرون يوم تداول (t+0 إلى t+19): الأثر الممتد\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- 'up'\nmeans OUTPERFORMING the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== REVIEW CHECKLIST ===\nC1. NEWS_TYPE correct?\nC2. TA_SIGNALS: every cited signal must be supported by the data. Override\n    inconsistent cites silently in your final output.\nC3. MAGNITUDE vs PER-COMPANY BANDS: does the predicted bucket match the\n    horizon's per-company thresholds? Adjust if mis-scaled.\nC4. PRICED-IN: if stock_vs_sector_1d aligns with the news direction, short\n    magnitude should default to \"small\" (R4).\nC5. DIVERGENCE: if a divergence signal is present, did the junior account for it?\nC6. CONFIDENCE: lower when context contradicts the call or news is priced in.\n    Default conf_large <= conf_medium <= conf_short.\nC7. DIVIDEND_INFO: if news_type=dividend, ensure yield_pct is present. If the\n    article gives the ex-div date, extract it as YYYY-MM-DD; otherwise null.\nC8. LANGUAGE: strip any non-Arabic word from Arabic fields (R6).\n\n=== USER-FACING EXPLANATION (the most important deliverable) ===\nYou will produce TWO reasoning blocks tuned to two audiences:\n\n  news_story:       PLAIN ARABIC, ZERO JARGON. Just the news content and what\n                    it means in everyday language. A retail investor with no\n                    finance training must understand it. No RSI / MACD / ATR.\n\n  technical_view:   Includes TA signals AND explains each term in Arabic\n                    inline. Format example:\n                      \"مؤشر RSI (مقياس قوة الشراء والبيع) عند 72 وهو مرتفع...\"\n                      \"مؤشر MACD (تقاطع المتوسطات المتحركة) في حالة هبوطية...\"\n                      \"نطاقات بولينجر (مستوى التذبذب) تشير إلى تشبع...\"\n                      \"مؤشر ATR (متوسط الحركة اليومية المعتادة) لهذا السهم 1.5%...\"\n\n  sentiment_note:   ONE Arabic sentence that surfaces the CAMeLBERT sentiment\n                    result (label + score given above in 'ARABIC SENTIMENT')\n                    AND explicitly says whether it agrees with our prediction\n                    or contradicts it.\n\n  outlook_by_horizon: ONE Arabic sentence per horizon. Direction + size + a\n                    one-clause reason. Numbers stated in plain language.\n\n  what_could_change_our_view: 1-2 Arabic sentences on key uncertainties.\n\nU-rules:\n  U1. NUMBERS WITH MEANING. Every cited number gets a plain-Arabic interpretation.\n  U2. STATE THE PREDICTION FIRST in news_story (direction + timeline), THEN evidence.\n  U3. BREVITY. Each field is short -- prefer 2-3 sentences max per field.\n  U4. 100% Arabic in this entire block. The next agent (QA) will reject leaks.\n\n=== INSTRUCTIONS ===\n1. Override the junior wherever evidence demands; do not surface the override\n   to the user -- just produce the corrected final prediction.\n2. Confidence: adjust per horizon. Default conf_large <= conf_medium <= conf_short.\n3. SPELLING: \"RSI-14\" not \"RS-14\". Proper Arabic punctuation.\n4. LANGUAGE: free-text Arabic; JSON keys + tickers + enum values in English.\n5. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"primary_company\": {\n    \"ticker\":              \"ABUK\",\n    \"news_type\":           \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n    \"already_priced_in\":   <true | false>,\n    \"quantified_ratio\":    \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n    \"ta_signals_cited\":    [\"<signal from closed vocab>\", \"...\"],\n    \"dividend_info\": null | {\n      \"yield_pct\":   <float>,\n      \"ex_div_date\": \"<YYYY-MM-DD or null>\",\n      \"amount_egp\":  <float or null>\n    },\n    \"per_horizon\": {\n      \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"},\n      \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"},\n      \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"}\n    },\n    \"overall_reasoning\":   \"<2-3 Arabic sentences. Reference the per-company bands. State news_type. Concise.>\"\n  },\n  \"tldr\": \"<one Arabic sentence summarising the whole view: direction + dominant horizon>\",\n  \"explanation_for_user\": {\n    \"headline\":                   \"<one sentence in plain Arabic, no jargon, captures the news>\",\n    \"news_story\":                 \"<2-3 sentences PLAIN Arabic, zero technical jargon. What happened and why it matters to an everyday investor.>\",\n    \"technical_view\":             \"<2-3 sentences with TA signals, EACH technical term explained in Arabic inline as shown above (RSI / MACD / Bollinger / ATR / divergence).>\",\n    \"sentiment_note\":             \"<1 Arabic sentence: state the CAMeLBERT label and score, and whether it agrees with our prediction.>\",\n    \"outlook_by_horizon\": {\n      \"short\":  \"<one Arabic sentence: direction + size + reason for t+0>\",\n      \"medium\": \"<one Arabic sentence: direction + size + reason for t+0..t+1>\",\n      \"large\":  \"<one Arabic sentence: direction + size + reason for t+0..t+19>\"\n    },\n    \"what_could_change_our_view\": \"<1-2 Arabic sentences on key uncertainties>\"\n  }\n}"
+  },
+  "impact_agent": {
+    "output": {
+      "news_type": "earnings",
+      "already_priced_in": false,
+      "quantified_ratio": "6.71 مليار جنيه (العام المالي 2025-2026) مقابل 7.77 مليار جنيه (العام المالي 2024-2025)",
+      "key_drivers": [
+        "تهدف الشركة لتحقيق صافي ربح قبل الضريبة بقيمة 6.71 مليار جنيه في العام المالي 2025-2026",
+        "تراجعت الأرباح مقارنة بالفترة المقابلة من العام المالي الماضي (7.77 مليار جنيه مقابل 12.05 مليار جنيه)"
+      ],
+      "ta_signals_cited": [
+        "macd_bullish",
+        "up_streak_3plus",
+        "normal_volatility"
+      ],
+      "dividend_info": null,
+      "per_horizon": {
+        "short": {
+          "direction": "neutral",
+          "magnitude": "small",
+          "confidence": 0.65,
+          "reasoning": "الماكدي بوضعية بولينج يدعم احتمال التفاعل الإيجابي، لكن التراجع في الأرباح مقارنة بالفترة المقابلة قد يحد من الموجة. النطاق الطبيعي للحركة اليومية (1.55%) يشير إلى أن التأثير لن يتجاوز 1.08% (نطاق صغير)."
+        },
+        "medium": {
+          "direction": "up",
+          "magnitude": "medium",
+          "confidence": 0.7,
+          "reasoning": "الماكدي البولينج يعزز من الزخم الإيجابي، مع احتمال ارتفاع الموجة إلى 4.38% (نطاق متوسط) خلال يومين. التراجع في الأرباح قد يُضعف الزخم بعد اليوم الأول."
+        },
+        "large": {
+          "direction": "neutral",
+          "magnitude": "small",
+          "confidence": 0.55,
+          "reasoning": "الاتجاه العام هابط (-11.21% عن المتوسط المتحرك 200 يوم)، مما يحد من التأثير على المدى الطويل. النطاق الطبيعي للحركة (13.86%) يشير إلى أن التأثير لن يتجاوز 4.85% (نطاق صغير)."
+        }
+      },
+      "overall_reasoning": "التوقعات الإيجابية محدودة بسبب تراجع الأرباح مقارنة بالفترة المقابلة، رغم دعم الماكدي البولينج. النطاقات المبنية على التقلبات (ATR=1.55%) تشير إلى أن التأثير لن يتجاوز النطاق الصغير على المدى القصير والمتوسط. الاتجاه الهابط العام يحد من التأثير على المدى الطويل."
+    },
+    "raw": "{  \"news_type\": \"earnings\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"6.71 مليار جنيه (العام المالي 2025-2026) مقابل 7.77 مليار جنيه (العام المالي 2024-2025)\",\n  \"key_drivers\": [\n    \"تهدف الشركة لتحقيق صافي ربح قبل الضريبة بقيمة 6.71 مليار جنيه في العام المالي 2025-2026\",\n    \"تراجعت الأرباح مقارنة بالفترة المقابلة من العام المالي الماضي (7.77 مليار جنيه مقابل 12.05 مليار جنيه)\"\n  ],\n  \"ta_signals_cited\": [\n    \"macd_bullish\",\n    \"up_streak_3plus\",\n    \"normal_volatility\"\n  ],\n  \"dividend_info\": null,\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.65,\n      \"reasoning\": \"الماكدي بوضعية بولينج يدعم احتمال التفاعل الإيجابي، لكن التراجع في الأرباح مقارنة بالفترة المقابلة قد يحد من الموجة. النطاق الطبيعي للحركة اليومية (1.55%) يشير إلى أن التأثير لن يتجاوز 1.08% (نطاق صغير).\"\n    },\n    \"medium\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.7,\n      \"reasoning\": \"الماكدي البولينج يعزز من الزخم الإيجابي، مع احتمال ارتفاع الموجة إلى 4.38% (نطاق متوسط) خلال يومين. التراجع في الأرباح قد يُضعف الزخم بعد اليوم الأول.\"\n    },\n    \"large\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.55,\n      \"reasoning\": \"الاتجاه العام هابط (-11.21% عن المتوسط المتحرك 200 يوم)، مما يحد من التأثير على المدى الطويل. النطاق الطبيعي للحركة (13.86%) يشير إلى أن التأثير لن يتجاوز 4.85% (نطاق صغير).\"\n    }\n  },\n  \"overall_reasoning\": \"التوقعات الإيجابية محدودة بسبب تراجع الأرباح مقارنة بالفترة المقابلة، رغم دعم الماكدي البولينج. النطاقات المبنية على التقلبات (ATR=1.55%) تشير إلى أن التأثير لن يتجاوز النطاق الصغير على المدى القصير والمتوسط. الاتجاه الهابط العام يحد من التأثير على المدى الطويل.\"\n}"
+  },
+  "critic_agent": {
+    "output": {
+      "primary_company": {
+        "ticker": "ABUK",
+        "news_type": "earnings",
+        "already_priced_in": false,
+        "quantified_ratio": "6.71 مليار جنيه (الأرباح المستهدفة FY2025-2026) مقابل 7.77 مليار جنيه (الأرباح الفعلية July-March FY2024-2025) — انخفاض بنحو 13.6%",
+        "ta_signals_cited": [
+          "macd_bullish",
+          "up_streak",
+          "normal_volatility",
+          "downtrend",
+          "near_20d_low"
+        ],
+        "dividend_info": null,
+        "per_horizon": {
+          "short": {
+            "direction": "up",
+            "magnitude": "small",
+            "confidence": 0.67,
+            "reasoning": "MACD بوليچ (hist=+0.166) يدعم زخمًا إيجابيًا مع صعود لمدة يومي. السهم عند 20-day low (+6.35% من القاع) يعني أن أي خبر إيجابي يمكن أن يرتد بقوة أكبر. لكن الاتجاه العام هابط (أسفل MA-50 وMA-200) يحد من التوسع."
+          },
+          "medium": {
+            "direction": "neutral",
+            "magnitude": "small",
+            "confidence": 0.63,
+            "reasoning": "الأرباح المستهدفة (6.71B) أقل من العام الماضي (7.77B) — هذا ضغط سلبي. مع ذلك MACD بوليچ يدعم الاتجاه. النطاق القصير (1.53%-4.38%) يشير إلى أن التأثير سيبقى في النطاق الصغير بسبب ضعف الأرباح."
+          },
+          "large": {
+            "direction": "down",
+            "magnitude": "small",
+            "confidence": 0.55,
+            "reasoning": "السهم هابط (-11.21% تحت MA-200). الأرباح المستهدفة أقل من العام المالي الماضي — هذا يضعف أي زخم إيجابي طويل المدى. النطاق الكبير (4.85%-13.86%) يبقى ضمن الصغير لأن الاتجاه الهابط يُكبح الارتفاع."
+          }
+        },
+        "overall_reasoning": "إعلان أرباح أبوقير للأسمدة (news_type=earnings) يحملratioquantified سلبي: الأرباح المستهدفة 6.71B مقابل 7.77B فعلية — انخفاض ~13.6% عن الفترة المقابلة. هذا سلبي للربع الثالث/الرابع من FY2025. MACD بوليچ يدعم زخمًا إيجابيًا لكن الاتجاه العام هابط (أسفل MA-50 وMA-200). السهم عند 20d low (+6.35%) يعني أنه قريب من قاع — خبر إيجابي قد يُحدث ارتدادًا. لكن ضعف الأرباح يحد من التوسع طويل المدى. باستخدام النطاقات الخاصة بالشركة (ATR=1.55%): التأثير يبقى صغيرًا في كل الأفق."
+      },
+      "tldr": "الأرباح المستهدفة أقل من العام الماضي مما يضغط على السهم، لكن قربه من القاع مع MACD بوليچ يدعم ارتدادًا طفيفًا في اليوم الأول فقط.",
+      "explanation_for_user": {
+        "headline": "أبوقير للأسمدة تستهدف أرباحًا أقل من العام الماضي لكن تبقى قرب القاع — خبر إيجابي محدود في المدى القصير.",
+        "news_story": "الشركة أعلنت ميزانيتها التقديرية للسنة المالية الجديدة 2025-2026 وتستهدف أرباحًا بقيمة 6.71 مليار جنيه. هذا أقل من الأرباح الفعلية التي حققتها في نفس الفترة من العام الماضي (7.77 مليار جنيه) — أي أن الأرباح تراجعت بنسبة 13.6% تقريبًا. في المقابل تستهدف الشركة إجمالي إيرادات 22.23 مليار جنيه. بالنسبة للمستثمر العادي: هذا يعني أن الشركة تتوقع كسبًا أقل هذا العام مقارنة بالعام الماضي، لكن السعر الحالي للسهم عند مستوى قريب من أدنى مستوى له خلال العشرين يومًا الأخيرة — مما يعني أن السوق قد يكون قد أخذ هذا الانخفاض في الاعتبار بالفعل.",
+        "technical_view": "مؤشر MACD (تقاطع المتوسطات المتحركة قصيرة وطويلة المدى) يعطي إشارة إيجابية (hist=+0.166) — أي أن الزخم يتحسن. مؤشر RSI (مقياس التشبع الشرائي والبيعي) عند 49.39 في المنتصف — لا تشبع في أي اتجاه. نطاقات بولينجر (مستوى التذبذب) في المنتصف مع%B=0.60 — حركة طبيعية. متوسط الحركة اليومية (ATR) لهذا السهم 1.55% — أي أن الحركة اليومية المعتادة أقل من 1.6%. السهم أسفل المتوسط المتحرك لـ50 يومًا (-3.84%) وأيضًا أسفل متوسط 200 يوم (-11.21%) — أي اتجاه هابط.",
+        "sentiment_note": "تحليل المشاعر الآلي (CAMeLBERT-EDGE-Mix) أعطى النتيجة: محايدة مع درجة +0.0903 — وهذا يتفق مع تقديرنا بأن التأثير محدود.",
+        "outlook_by_horizon": {
+          "short": "صعود طفيف — MACD بوليچر مع قرب السهم من القاع يدعم ارتدادًا، لكن النطاق لن يتجاوز 1.08% (حد النطاق الصغير).",
+          "medium": "محايد — الأرباح المستهدفة الأقل من العام الماضي تضغط سلبيًا على المدى يومين، بينما MACD بوليچر يدعم إيجابيًا — التأثير يبقى في النطاق الصغير (1.53%-4.38% لكن أقرب للحد الأدنى).",
+          "large": "انخفاض طفيف — الاتجاه الهابط العام (-11.21% تحت المتوسط المتحرك لـ200 يوم) مع أرباح أقل يضعف أي زخم إيجابي على مدى 20 يومًا، التأثير لن يتجاوز 4.85% (النطاق الصغير)."
+        },
+        "what_could_change_our_view": "إذا انخفضت أسعار الغاز الطبيعي (المادة الخام الأساسية)، قد تتحسن هوامش الربح وتتجاوز التوقعات — وهذا عامل إيجابي لم يُذكر في الخبر. أيضًا، إذا تحسن سعر صرف اليورو أمام الدولار، فإن صادرات الشركة لأوروبا ستصبح أكثر ربحية."
+      }
+    },
+    "raw": "\n\n{\"primary_company\":{\"ticker\":\"ABUK\",\"news_type\":\"earnings\",\"already_priced_in\":false,\"quantified_ratio\":\"6.71 مليار جنيه (الأرباح المستهدفة FY2025-2026) مقابل 7.77 مليار جنيه (الأرباح الفعلية July-March FY2024-2025) — انخفاض بنحو 13.6%\",\"ta_signals_cited\":[\"macd_bullish\",\"up_streak\",\"normal_volatility\",\"downtrend\",\"near_20d_low\"],\"dividend_info\":null,\"per_horizon\":{\"short\":{\"direction\":\"up\",\"magnitude\":\"small\",\"confidence\":0.67,\"reasoning\":\"MACD بوليچ (hist=+0.166) يدعم زخمًا إيجابيًا مع صعود لمدة يومي. السهم عند 20-day low (+6.35% من القاع) يعني أن أي خبر إيجابي يمكن أن يرتد بقوة أكبر. لكن الاتجاه العام هابط (أسفل MA-50 وMA-200) يحد من التوسع.\"},\"medium\":{\"direction\":\"neutral\",\"magnitude\":\"small\",\"confidence\":0.63,\"reasoning\":\"الأرباح المستهدفة (6.71B) أقل من العام الماضي (7.77B) — هذا ضغط سلبي. مع ذلك MACD بوليچ يدعم الاتجاه. النطاق القصير (1.53%-4.38%) يشير إلى أن التأثير سيبقى في النطاق الصغير بسبب ضعف الأرباح.\"},\"large\":{\"direction\":\"down\",\"magnitude\":\"small\",\"confidence\":0.55,\"reasoning\":\"السهم هابط (-11.21% تحت MA-200). الأرباح المستهدفة أقل من العام المالي الماضي — هذا يضعف أي زخم إيجابي طويل المدى. النطاق الكبير (4.85%-13.86%) يبقى ضمن الصغير لأن الاتجاه الهابط يُكبح الارتفاع.\"}},\"overall_reasoning\":\"إعلان أرباح أبوقير للأسمدة (news_type=earnings) يحملratioquantified سلبي: الأرباح المستهدفة 6.71B مقابل 7.77B فعلية — انخفاض ~13.6% عن الفترة المقابلة. هذا سلبي للربع الثالث/الرابع من FY2025. MACD بوليچ يدعم زخمًا إيجابيًا لكن الاتجاه العام هابط (أسفل MA-50 وMA-200). السهم عند 20d low (+6.35%) يعني أنه قريب من قاع — خبر إيجابي قد يُحدث ارتدادًا. لكن ضعف الأرباح يحد من التوسع طويل المدى. باستخدام النطاقات الخاصة بالشركة (ATR=1.55%): التأثير يبقى صغيرًا في كل الأفق.\"},\"tldr\":\"الأرباح المستهدفة أقل من العام الماضي مما يضغط على السهم، لكن قربه من القاع مع MACD بوليچ يدعم ارتدادًا طفيفًا في اليوم الأول فقط.\",\"explanation_for_user\":{\"headline\":\"أبوقير للأسمدة تستهدف أرباحًا أقل من العام الماضي لكن تبقى قرب القاع — خبر إيجابي محدود في المدى القصير.\",\"news_story\":\"الشركة أعلنت ميزانيتها التقديرية للسنة المالية الجديدة 2025-2026 وتستهدف أرباحًا بقيمة 6.71 مليار جنيه. هذا أقل من الأرباح الفعلية التي حققتها في نفس الفترة من العام الماضي (7.77 مليار جنيه) — أي أن الأرباح تراجعت بنسبة 13.6% تقريبًا. في المقابل تستهدف الشركة إجمالي إيرادات 22.23 مليار جنيه. بالنسبة للمستثمر العادي: هذا يعني أن الشركة تتوقع كسبًا أقل هذا العام مقارنة بالعام الماضي، لكن السعر الحالي للسهم عند مستوى قريب من أدنى مستوى له خلال العشرين يومًا الأخيرة — مما يعني أن السوق قد يكون قد أخذ هذا الانخفاض في الاعتبار بالفعل.\",\"technical_view\":\"مؤشر MACD (تقاطع المتوسطات المتحركة قصيرة وطويلة المدى) يعطي إشارة إيجابية (hist=+0.166) — أي أن الزخم يتحسن. مؤشر RSI (مقياس التشبع الشرائي والبيعي) عند 49.39 في المنتصف — لا تشبع في أي اتجاه. نطاقات بولينجر (مستوى التذبذب) في المنتصف مع%B=0.60 — حركة طبيعية. متوسط الحركة اليومية (ATR) لهذا السهم 1.55% — أي أن الحركة اليومية المعتادة أقل من 1.6%. السهم أسفل المتوسط المتحرك لـ50 يومًا (-3.84%) وأيضًا أسفل متوسط 200 يوم (-11.21%) — أي اتجاه هابط.\",\"sentiment_note\":\"تحليل المشاعر الآلي (CAMeLBERT) أعطى النتيجة: محايدة مع درجة +0.0903 — وهذا يتفق مع تقديرنا بأن التأثير محدود.\",outlook_by_horizon:{\"short\":\"صعود طفيف — MACD بوليچ مع قرب السهم من القاع يدعم ارتدادًا، لكن النطاق لن يتجاوز 1.08% (حد النطاق الصغير).\",\"medium\":\"محايد — الأرباح المستهدفة الأقل من العام الماضي تضغط سلبيًا على المدى يومين، بينما MACD بوليچ يدعم إيجابيًا — التأثير يبقى في النطاق الصغير (1.53%-4.38% لكن أقرب للحد الأدنى).\",\"large\":\"انخفاض طفيف — الاتجاه الهابط العام (-11.21% تحت MA-200) مع أرباح أقل يضعف أي زخم إيجابي على مدى 20 يومًا، التأثير لن يتجاوز 4.85% (النطاق الصغير).\"},\"what_could_change_our_view\":\"إذا جاءت أسعار الغاز الطبيعي (المادة الخام الأساسية)低了، قد تتحسن هوامش الربح وتتجاوز التوقعات — وهذا عامل إيجابي لم يُذكر في الخبر. أيضًا، إذا تحسن سعر صرف اليورو أمام الدولار، فإن صادرات الشركة لأوروبا ستصبح أكثر ربحية.\"}}",
+    "thinking": "Let me analyze the junior's output carefully and audit it against the live data.\n\n**C1. NEWS_TYPE correct?**\nThe news is about ABUK's budget plan for FY 2025-2026 targeting 6.71B EGP profit vs 7.77B actual for the same period last year. This is an earnings/guidance announcement. The junior correctly identified it as \"earnings\".\n\n**C2. TA_SIGNALS audit:**\nJunior cited: \"macd_bullish\", \"up_streak_3plus\", \"normal_volatility\"\n\nLet me check each:\n- macd_bullish: MACD state = bullish, hist = +0.1661 ✓ CORRECT\n- up_streak_3plus: Streak = +2 (up streak), not 3+. The junior overstated this. \"up_streak_3plus\" requires 3+ consecutive up days. We only have 2. So this is WRONG - should be \"up_streak_3plus\" is NOT supported. The signal is actually just \"up_streak\" without the 3+ qualifier.\n- normal_volatility: Vol 20d ann = 29.72% [normal regime] ✓ CORRECT\n\nSo the junior's ta_signals_cited contains an invalid cite (up_streak_3plus when streak is only +2). I should silently override.\n\n**C3. MAGNITUDE vs PER-COMPANY BANDS check:**\nJunior predicted:\n- short: small (reasoning says \"لن يتجاوز 1.08% (نطاق صغير)\")\n- medium: medium (reasoning says \"إلى 4.38% (نطاق متوسط)\")\n- large: small (reasoning says \"لن يتجاوز 4.85% (نطاق صغير)\")\n\n\nThe thresholds are:\n- short: neutral=+-0.78%, small<1.08%, medium 1.08%-3.10%, large>=3.10%\n- medium: neutral=+-1.10%, small<1.53%, medium 1.53%-4.38%, large>=4.38%\n- large: neutral=+-3.47%, small<4.85%, medium 4.85%-13.86%, large>=13.86%\n\nThe earnings guidance shows 6.71B vs 7.77B last year - a decline of about 13.6%. This is significant. The guidance shortfall relative to prior year performance should drive medium and large magnitude moves higher than the junior's assessment. Given the neutral short-term regime but negative earnings revision, the medium-term threshold should breach into medium territory, and the large threshold could approach small-to-medium territory.\n\nThe company is trading below both its 50-day (-3.84%) and 200-day (-11.21%) moving averages, confirming a clear downtrend. MACD is bullish which would typically signal upward potential, but the downtrend context means this upside signal is structurally constrained.\n\nRSI sits neutral at 49.39, offering room in either direction. The stock is positioned 6.35% above its 20-day low, providing some downside cushion. Bollinger bands are in the middle zone with %B at 0.600, and ATR of 1.55% suggests normal daily volatility.\n\nFor the short-term earnings announcement: the stock outperformed the sector by 0.17% on the announcement day, and with news arriving during trading hours, the immediate reaction appears already captured. This is a guidance revision downward (6.71B target vs 7.77B prior year), not a beat, which should be bearish. However, the positive guidance for the full year provides some counterbalance to the near-term earnings decline.\n\nThe MACD bullish signal and up-day momentum support an initial positive reaction, but the stock has been underperforming the sector despite recent strength. The per-company ATR of 1.55% means small moves (1.08-3.10%) are more likely than large moves (3.10%+), so I'm settling on a small upward response with moderate confidence for the first day.\n\nOver the next two days, the earnings miss relative to last year will continue to weigh on sentiment, though the MACD signal still provides some support. The downtrend complicates things—I'm predicting a small magnitude response that falls below the medium threshold of 1.53%, with moderate confidence but acknowledging the stock's underperformance trajectory. For the longer 20-day window, the company guidance and downtrend dynamics suggest another small move rather than a medium or large one. The negative earnings trajectory—6.71B projected versus 7.77B actual—aligns with the downtrend and limits extended upside. The neutral Arabic sentiment score (0.0903) supports this cautious outlook. I need to reassess the short-term call: the stock's 1-day return of +2.09% versus sector +1.92% suggests some reaction is already underway, which the junior flagged as not priced in, but the earnings decline versus prior year creates headwinds that should limit the magnitude.\n\nFor the medium term, the earnings forecast shows meaningful decline rather than growth—6.71B target versus 7.77B prior year represents a 13.6% drop, which should constrain any upside over the next few weeks. The large-window band of 4.85% to 13.86% aligns with this, pointing to a small-to-medium range rather than a large move.\n\nI'm settling on neutral with small magnitude for the short term, neutral with small magnitude for the medium term, and neutral with small magnitude for the large term, each with moderate confidence. The core constraint here is that the guidance shows declining earnings year-over-year, which fundamentally limits bullish potential across all timeframes. .neutral\n- magnitude: large  -> medium (capped by downtrend, down 11.21% from MA-200)\n- confidence: 0.65\n\nThe earnings guidance for FY 2025-2026 shows 6.71B EGP profit versus 7.77B actual last year—a decline that's concerning. The medium-term band of 1.53% to 4.38% aligns with a small to medium impact given the magnitude of the miss, though the stock's current downtrend and distance from the 200-day moving average (-11.21%) will constrain any recovery.\n\nKey support: bullish MACD crossing, uptrend confirmed by recent 2-day streak, volatility within normal parameters. Resistance: downtrend established below moving averages, down 11.21% from 200-day MA.\n\nFor the 20-day window, the downtrend limits bullish expansion even with MACD support, keeping the move small. However, I'm noticing the 1-day return exceeded my small threshold of 1.08%, and the 2-day return appears to surpass the 1.53% lower bound for medium moves. I need to recalibrate the magnitude bands to align with the observed data.\n\nThe stock is only 6.35% above its 52-week low, which constrains downside moves. The technical picture shows mixed signals: MACD is bullish but the stock trades below both the 50-day (-3.84%) and 200-day (-11.21%) moving averages, confirming a downtrend. This positioning suggests the price will struggle to sustain upward momentum despite the earnings beat.\n\nFor the short-term view, the MACD signal and recent 2-day up streak provide some support, though they're insufficient to overcome the broader downtrend. The medium and longer-term forecasts both point to small magnitude moves, with the downtrend limiting upside potential across all timeframes. I should correct the TA signals from the previous forecast—removing up_streak_3plus and replacing it with the accurate up_streak reading. The overall assessment remains neutral given the conflicting technical signals and fundamental constraints.\n"
+  },
+  "arabic_qa": {
+    "enabled": true,
+    "model": "claude-sonnet-4-6",
+    "explanation_pre": {
+      "headline": "أبوقير للأسمدة تستهدف أرباحًا أقل من العام الماضي لكن تبقى قرب القاع — خبر إيجابي محدود في المدى القصير.",
+      "news_story": "الشركة أعلنت ميزانيتها التقديرية للسنة المالية الجديدة 2025-2026 وتستهدف أرباحًا بقيمة 6.71 مليار جنيه. هذا أقل من الأرباح الفعلية التي حققتها في نفس الفترة من العام الماضي (7.77 مليار جنيه) — أي أن الأرباح تراجعت بنسبة 13.6% تقريبًا. في المقابل تستهدف الشركة إجمالي إيرادات 22.23 مليار جنيه. بالنسبة للمستثمر العادي: هذا يعني أن الشركة تتوقع كسبًا أقل هذا العام مقارنة بالعام الماضي، لكن السعر الحالي للسهم عند مستوى قريب من أدنى مستوى له خلال العشرين يومًا الأخيرة — مما يعني أن السوق قد يكون قد أخذ هذا الانخفاض في الاعتبار بالفعل.",
+      "technical_view": "مؤشر MACD (تقاطع المتوسطات المتحركة قصيرة وطويلة المدى) يعطي إشارة إيجابية (hist=+0.166) — أي أن الزخم يتحسن. مؤشر RSI (مقياس التشبع الشرائي والبيعي) عند 49.39 في المنتصف — لا تشبع في أي اتجاه. نطاقات بولينجر (مستوى التذبذب) في المنتصف مع%B=0.60 — حركة طبيعية. متوسط الحركة اليومية (ATR) لهذا السهم 1.55% — أي أن الحركة اليومية المعتادة أقل من 1.6%. السهم أسفل المتوسط المتحرك لـ50 يومًا (-3.84%) وأيضًا أسفل متوسط 200 يوم (-11.21%) — أي اتجاه هابط.",
+      "sentiment_note": "تحليل المشاعر الآلي (CAMeLBERT) أعطى النتيجة: محايدة مع درجة +0.0903 — وهذا يتفق مع تقديرنا بأن التأثير محدود.",
+      "outlook_by_horizon": {
+        "short": "صعود طفيف — MACD بوليچ مع قرب السهم من القاع يدعم ارتدادًا، لكن النطاق لن يتجاوز 1.08% (حد النطاق الصغير).",
+        "medium": "محايد — الأرباح المستهدفة الأقل من العام الماضي تضغط سلبيًا على المدى يومين، بينما MACD بوليچ يدعم إيجابيًا — التأثير يبقى في النطاق الصغير (1.53%-4.38% لكن أقرب للحد الأدنى).",
+        "large": "انخفاض طفيف — الاتجاه الهابط العام (-11.21% تحت MA-200) مع أرباح أقل يضعف أي زخم إيجابي على مدى 20 يومًا، التأثير لن يتجاوز 4.85% (النطاق الصغير)."
+      },
+      "what_could_change_our_view": "إذا جاءت أسعار الغاز الطبيعي (المادة الخام الأساسية)低了، قد تتحسن هوامش الربح وتتجاوز التوقعات — وهذا عامل إيجابي لم يُذكر في الخبر. أيضًا، إذا تحسن سعر صرف اليورو أمام الدولار، فإن صادرات الشركة لأوروبا ستصبح أكثر ربحية."
+    },
+    "explanation_post": {
+      "headline": "أبوقير للأسمدة تستهدف أرباحًا أقل من العام الماضي لكن تبقى قرب القاع — خبر إيجابي محدود في المدى القصير.",
+      "news_story": "الشركة أعلنت ميزانيتها التقديرية للسنة المالية الجديدة 2025-2026 وتستهدف أرباحًا بقيمة 6.71 مليار جنيه. هذا أقل من الأرباح الفعلية التي حققتها في نفس الفترة من العام الماضي (7.77 مليار جنيه) — أي أن الأرباح تراجعت بنسبة 13.6% تقريبًا. في المقابل تستهدف الشركة إجمالي إيرادات 22.23 مليار جنيه. بالنسبة للمستثمر العادي: هذا يعني أن الشركة تتوقع كسبًا أقل هذا العام مقارنة بالعام الماضي، لكن السعر الحالي للسهم عند مستوى قريب من أدنى مستوى له خلال العشرين يومًا الأخيرة — مما يعني أن السوق قد يكون قد أخذ هذا الانخفاض في الاعتبار بالفعل.",
+      "technical_view": "مؤشر MACD (تقاطع المتوسطات المتحركة قصيرة وطويلة المدى) يعطي إشارة إيجابية (hist=+0.166) — أي أن الزخم يتحسن. مؤشر RSI (مقياس التشبع الشرائي والبيعي) عند 49.39 في المنتصف — لا تشبع في أي اتجاه. نطاقات بولينجر (مستوى التذبذب) في المنتصف مع%B=0.60 — حركة طبيعية. متوسط الحركة اليومية (ATR) لهذا السهم 1.55% — أي أن الحركة اليومية المعتادة أقل من 1.6%. السهم أسفل المتوسط المتحرك لـ50 يومًا (-3.84%) وأيضًا أسفل متوسط 200 يوم (-11.21%) — أي اتجاه هابط.",
+      "sentiment_note": "تحليل المشاعر الآلي (CAMeLBERT-EDGE-Mix) أعطى النتيجة: محايدة مع درجة +0.0903 — وهذا يتفق مع تقديرنا بأن التأثير محدود.",
+      "outlook_by_horizon": {
+        "short": "صعود طفيف — MACD بوليچر مع قرب السهم من القاع يدعم ارتدادًا، لكن النطاق لن يتجاوز 1.08% (حد النطاق الصغير).",
+        "medium": "محايد — الأرباح المستهدفة الأقل من العام الماضي تضغط سلبيًا على المدى يومين، بينما MACD بوليچر يدعم إيجابيًا — التأثير يبقى في النطاق الصغير (1.53%-4.38% لكن أقرب للحد الأدنى).",
+        "large": "انخفاض طفيف — الاتجاه الهابط العام (-11.21% تحت المتوسط المتحرك لـ200 يوم) مع أرباح أقل يضعف أي زخم إيجابي على مدى 20 يومًا، التأثير لن يتجاوز 4.85% (النطاق الصغير)."
+      },
+      "what_could_change_our_view": "إذا انخفضت أسعار الغاز الطبيعي (المادة الخام الأساسية)، قد تتحسن هوامش الربح وتتجاوز التوقعات — وهذا عامل إيجابي لم يُذكر في الخبر. أيضًا، إذا تحسن سعر صرف اليورو أمام الدولار، فإن صادرات الشركة لأوروبا ستصبح أكثر ربحية."
+    }
+  },
+  "final": {
+    "ticker": "ABUK",
+    "news_type": "earnings",
+    "already_priced_in": false,
+    "quantified_ratio": "6.71 مليار جنيه (الأرباح المستهدفة FY2025-2026) مقابل 7.77 مليار جنيه (الأرباح الفعلية July-March FY2024-2025) — انخفاض بنحو 13.6%",
+    "ta_signals_cited": [
+      "macd_bullish",
+      "up_streak",
+      "normal_volatility",
+      "downtrend",
+      "near_20d_low"
+    ],
+    "dividend_info": null,
+    "per_horizon": {
+      "short": {
+        "direction": "up",
+        "magnitude": "small",
+        "confidence": 0.67,
+        "reasoning": "MACD بوليچ (hist=+0.166) يدعم زخمًا إيجابيًا مع صعود لمدة يومي. السهم عند 20-day low (+6.35% من القاع) يعني أن أي خبر إيجابي يمكن أن يرتد بقوة أكبر. لكن الاتجاه العام هابط (أسفل MA-50 وMA-200) يحد من التوسع."
+      },
+      "medium": {
+        "direction": "neutral",
+        "magnitude": "small",
+        "confidence": 0.63,
+        "reasoning": "الأرباح المستهدفة (6.71B) أقل من العام الماضي (7.77B) — هذا ضغط سلبي. مع ذلك MACD بوليچ يدعم الاتجاه. النطاق القصير (1.53%-4.38%) يشير إلى أن التأثير سيبقى في النطاق الصغير بسبب ضعف الأرباح."
+      },
+      "large": {
+        "direction": "down",
+        "magnitude": "small",
+        "confidence": 0.55,
+        "reasoning": "السهم هابط (-11.21% تحت MA-200). الأرباح المستهدفة أقل من العام المالي الماضي — هذا يضعف أي زخم إيجابي طويل المدى. النطاق الكبير (4.85%-13.86%) يبقى ضمن الصغير لأن الاتجاه الهابط يُكبح الارتفاع."
+      }
+    },
+    "overall_reasoning": "إعلان أرباح أبوقير للأسمدة (news_type=earnings) يحملratioquantified سلبي: الأرباح المستهدفة 6.71B مقابل 7.77B فعلية — انخفاض ~13.6% عن الفترة المقابلة. هذا سلبي للربع الثالث/الرابع من FY2025. MACD بوليچ يدعم زخمًا إيجابيًا لكن الاتجاه العام هابط (أسفل MA-50 وMA-200). السهم عند 20d low (+6.35%) يعني أنه قريب من قاع — خبر إيجابي قد يُحدث ارتدادًا. لكن ضعف الأرباح يحد من التوسع طويل المدى. باستخدام النطاقات الخاصة بالشركة (ATR=1.55%): التأثير يبقى صغيرًا في كل الأفق."
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "ticker": "ABUK",
+  "article_date": "2025-01-16",
+  "context_date": "2025-01-15",
+  "processed_at": "2026-05-17T23:55:54.044586",
+  "article": {
+    "symbol": "ABUK",
+    "company": "Abou Kir Fertilizers",
+    "isin": "EGS38191C010",
+    "sector": "Petroleum & Petrochemicals",
+    "id": "4392733",
+    "date": "2025-01-16",
+    "time": "11:42:35",
+    "datetime": "2025-01-16 11:42:35",
+    "title": "أبو قير للأسمدة تقرر استكمال مشروع طاقة شمسية بقدرة 3 ميجاوات",
+    "body": "القاهرة - مباشر: وافق مجلس إدارة شركة أبو قير للأسمدة والصناعات الكيماوية، على استكمال مشروع الطاقة الشمسية بالشركة.\nوقالت الشركة في بيان لبورصة مصر اليوم، إن المجلس وافق على بدء السير في إجراءات طرح المرحلة الثانية لتوريد وتركيب محطات طاقة شمسية في عدة مواقع داخل الشركة بقدرة في حدود 2.5 إلى 3 ميجاوات.\nووافق المجلس على تكليف محمد فوزي محمد حسين للقيام بأعمال ومهام نائب العضو المنتدب لشؤون المصانع.\nويشار إلى أن أبو قير للأسمدة والصناعات الكيماوية،  حققت صافي ربح بلغ 1.28 مليار جنيه خلال الفترة من يوليو حتى نهاية سبتمبر 2024، مقابل 1.98 مليار جنيه ربح خلال الفترة المقارنة من العام المالي الماضي.\nوتراجعت إيرادات الشركة خلال الربع الأول من العام المالي الجاري إلى 3.62 مليار جنيه، مقارنة بـ4.33 مليار جنيه خلال الربع المقارن من العام المالي الماضي.\nوأرجعت الشركة تراجع صافي الربح إلى هبوط قيمة المبيعات نتيجة انخفاض الكميات المبيعة ومتوسطات أسعار التصدير بالعملة الأجنبية؛ بسبب انخفاض ضخ الغاز لمصانع الشركة وتخفيض الأحمال وكذلك زيادة مخزون الإنتاج التام من الأسمدة وهي كميات متعاقد على معظمها بأسعار أعلى من أسعار الشحن بشهر سبتمبر.\nومن بين الأسباب أيضاً زيادة تكلفة مستلزمات التشغيل نتيجة الزيادات السعرية وتغيرات سعر صرف الجنيه مقابل الدولار.\nوكانت أبوقير للأسمدة والصناعات الكيماوية، قررت البدء في إجراءات الإحلال الجزئي للغاز الطبيعي بالهيدروجين، وتركيب محطات طاقة شمسية بقدرة 2.5 ميجاوات لتقليل استهلاك الكهرباء من الشبكة أو مولدات الكهرباء الداخلية.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر..\nاضغط هنا\nترشيحات\nصادرات الغاز الإسرائيلي إلى مصر ترتفع لـ 970 مليون قدم مكعبة يومياً\nمصر تتعاقد على استئجار سفينة تغويز ثالثة لتلبية الاحتياجات المحلية من الغاز\nمسؤول يكشف أسباب رفع أسعار خدمات الإنترنت والاتصالات في مصر\nمصر.. نصائح مهمة من \"حماية المستهلك\" للمواطنين قبل شراء السلع",
+    "teaser": "القاهرة - مباشر: وافق مجلس إدارة شركة أبو قير للأسمدة والصناعات الكيماوية، على استكمال مشروع الطاقة الشمسية بالشركة. وقالت الشركة في بيان لبورصة مصر اليوم، إن المجلس وافق على بدء السير في إجراءات طرح المرحلة الثانية لتوريد وتركيب محطات طاقة شمسية …",
+    "section": "استثمارات الشركات",
+    "source": "مباشر",
+    "categories": "stock-bonds",
+    "country": "مصر",
+    "reads": 1128,
+    "url": "https://www.mubasher.info/news/4392733",
+    "image_url": "https://static.mubasher.info/File.Story_Image/e002a5f18be271bfcda46d28b8210082/640.jpg",
+    "date_raw": ""
+  },
+  "sentiment": {
+    "model": "CAMeL-Lab/bert-base-arabic-camelbert-mix-sentiment",
+    "label": "neutral",
+    "score": 0.0274,
+    "numeric": 0,
+    "class_probs": {
+      "neutral": 0.965,
+      "positive": 0.0312,
+      "negative": 0.0038
+    }
+  },
+  "context": {
+    "ticker": "ABUK",
+    "company": "Abou Kir Fertilizers - ABUK",
+    "sector": "Petroleum & Petrochemicals",
+    "business_description": "Abou Kir Fertilizers — Egypt's largest nitrogen fertilizer (urea/ammonium nitrate) producer near Alexandria; exports to Europe; earnings sensitive to natural gas feedstock price and EUR/USD.",
+    "event_date": "2025-01-16",
+    "last_price_date": "2025-01-15",
+    "price_state": {
+      "last_close": 54.01,
+      "return_1d": 1.66,
+      "return_5d": 11.02,
+      "return_20d": 5.1,
+      "return_60d": -14.68,
+      "pct_vs_ma50": 3.81,
+      "pct_vs_ma200": -8.26,
+      "vol_20d_annualized_pct": 34.26,
+      "vol_regime": "normal",
+      "rsi_14": 64.89
+    },
+    "market_state": {
+      "sector_return_1d": 2.54,
+      "sector_return_5d": 7.44,
+      "relative_strength_vs_sector_1d": -0.88
+    },
+    "correlation_state": {
+      "corr_with_sector_90d": 0.5,
+      "top_3_correlated_peers": [
+        {
+          "ticker": "EGAL",
+          "correlation": 0.42,
+          "sector": "Metals & Mining"
+        },
+        {
+          "ticker": "MFPC",
+          "correlation": 0.36,
+          "sector": "Petroleum & Petrochemicals"
+        },
+        {
+          "ticker": "TMGH",
+          "correlation": 0.29,
+          "sector": "Real Estate"
+        }
+      ]
+    },
+    "recent_abnormal_returns": [
+      {
+        "date": "2025-01-09",
+        "stock_return_pct": -1.09,
+        "sector_return_pct": 0.15,
+        "abnormal_return_pct": -1.24
+      },
+      {
+        "date": "2025-01-12",
+        "stock_return_pct": 5.99,
+        "sector_return_pct": 2.39,
+        "abnormal_return_pct": 3.6
+      },
+      {
+        "date": "2025-01-13",
+        "stock_return_pct": 0.98,
+        "sector_return_pct": -0.56,
+        "abnormal_return_pct": 1.54
+      },
+      {
+        "date": "2025-01-14",
+        "stock_return_pct": 3.17,
+        "sector_return_pct": 1.04,
+        "abnormal_return_pct": 2.13
+      },
+      {
+        "date": "2025-01-15",
+        "stock_return_pct": 1.66,
+        "sector_return_pct": 2.33,
+        "abnormal_return_pct": -0.67
+      }
+    ],
+    "technical_signals": {
+      "rsi_14": 64.89,
+      "rsi_zone": "neutral",
+      "macd": {
+        "line": -0.0504,
+        "signal": -0.7659,
+        "histogram": 0.7155,
+        "state": "bullish"
+      },
+      "bollinger": {
+        "pct_b": 1.178,
+        "bandwidth_pct": 12.51,
+        "zone": "above_upper"
+      },
+      "distance_to_extremes": {
+        "20d_high_distance_pct": 0.0,
+        "20d_low_distance_pct": 12.26,
+        "60d_high_distance_pct": -6.04,
+        "60d_low_distance_pct": 12.26,
+        "252d_high_distance_pct": -49.38,
+        "252d_low_distance_pct": 12.26
+      },
+      "rsi_divergence": "none",
+      "atr_pct_14d": 1.54,
+      "consecutive_streak": 4
+    },
+    "dynamic_bands": {
+      "horizon_trading_days": {
+        "short": 1,
+        "medium": 5,
+        "large": 20
+      },
+      "neutral_band_pct": {
+        "short": 0.77,
+        "medium": 1.72,
+        "large": 3.44
+      },
+      "magnitude_bands_pct": {
+        "short": {
+          "small": [
+            0.0,
+            1.08
+          ],
+          "medium": [
+            1.08,
+            3.08
+          ],
+          "large": [
+            3.08,
+            null
+          ]
+        },
+        "medium": {
+          "small": [
+            0.0,
+            2.41
+          ],
+          "medium": [
+            2.41,
+            6.89
+          ],
+          "large": [
+            6.89,
+            null
+          ]
+        },
+        "large": {
+          "small": [
+            0.0,
+            4.82
+          ],
+          "medium": [
+            4.82,
+            13.77
+          ],
+          "large": [
+            13.77,
+            null
+          ]
+        }
+      },
+      "atr_pct_anchor": 1.54
+    },
+    "news_timing": {
+      "in_trading_hours": true,
+      "arrived_at_str": "2025-01-16 11:42:35",
+      "start_day_label": "event_date (article day; news arrived during EGX hours)"
+    }
+  },
+  "prompts": {
+    "impact": "You are a quantitative analyst predicting Egyptian Stock Exchange (EGX) stock reactions to Arabic news. Your prediction must be grounded in the technical signals provided and calibrated to this specific ticker's volatility.\n\n=== COMPANY ===\nTicker      : ABUK\nName        : Abou Kir Fertilizers - ABUK\nSector      : Petroleum & Petrochemicals\nDescription : Abou Kir Fertilizers — Egypt's largest nitrogen fertilizer (urea/ammonium nitrate) producer near Alexandria; exports to Europe; earnings sensitive to natural gas feedstock price and EUR/USD.\nPrice data  : as of 2025-01-15  (article date: 2025-01-16)\n\n=== PRICE STATE ===\nLast close  : 54.01 EGP\nReturn 1d   : +1.66%   5d : +11.02%   20d : +5.10%   60d : -14.68%\nvs MA-50    : +3.81%  vs MA-200 : -8.26%\nTrend       : recovering (above MA-50 but below MA-200)\nVol 20d ann : 34.26%  [normal regime]  Normal -> impact PROPORTIONAL to catalyst.\n\n=== SECTOR ===\nSector 1d   : +2.54%  5d : +7.44%\nStock vs sector 1d : -0.88%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 0.50\nTop peers:\n  - EGAL | Metals & Mining | 90d-corr: 0.42\n  - MFPC | Petroleum & Petrochemicals | 90d-corr: 0.36\n  - TMGH | Real Estate | 90d-corr: 0.29\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2025-01-09: stock -1.09%  sector +0.15%  AR -1.24%\n  2025-01-12: stock +5.99%  sector +2.39%  AR +3.60%\n  2025-01-13: stock +0.98%  sector -0.56%  AR +1.54%\n  2025-01-14: stock +3.17%  sector +1.04%  AR +2.13%\n  2025-01-15: stock +1.66%  sector +2.33%  AR -0.67%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 64.89  [neutral]\nMACD      : state=bullish  hist=+0.7155\nBollinger : zone=above_upper  %B=1.178\nDistance  : 20d_hi +0.00%  20d_lo +12.26%  60d_hi -6.04%  60d_lo +12.26%  52w_hi -49.38%  52w_lo +12.26%\nDivergence : none\nATR 14d   : 1.54%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : +4 (up streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=1.54%) ===\n  short   (N= 1d)  neutral=+-0.77%  small <1.08%  medium 1.08%-3.08%  large >=3.08%\n  medium  (N= 5d)  neutral=+-1.72%  small <2.41%  medium 2.41%-6.89%  large >=6.89%\n  large   (N=20d)  neutral=+-3.44%  small <4.82%  medium 4.82%-13.77%  large >=13.77%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-01-16 11:42:35\nIn trading hours: True  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : event_date (article day; news arrived during EGX hours)\n-> short = the start day itself; medium = +5 trading days; large = +20 trading days.\n\n=== ARABIC SENTIMENT (one input among many) ===\nLabel : neutral\nScore : +0.0274   (-1 strongly negative -> +1 strongly positive)\nNOTE: CAMeLBERT classifies tone, not financial implication.\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-01-16 11:42:35\nHeadline  : أبو قير للأسمدة تقرر استكمال مشروع طاقة شمسية بقدرة 3 ميجاوات\n\nالقاهرة - مباشر: وافق مجلس إدارة شركة أبو قير للأسمدة والصناعات الكيماوية، على استكمال مشروع الطاقة الشمسية بالشركة.\nوقالت الشركة في بيان لبورصة مصر اليوم، إن المجلس وافق على بدء السير في إجراءات طرح المرحلة الثانية لتوريد وتركيب محطات طاقة شمسية في عدة مواقع داخل الشركة بقدرة في حدود 2.5 إلى 3 ميجاوات.\nووافق المجلس على تكليف محمد فوزي محمد حسين للقيام بأعمال ومهام نائب العضو المنتدب لشؤون المصانع.\nويشار إلى أن أبو قير للأسمدة والصناعات الكيماوية،  حققت صافي ربح بلغ 1.28 مليار جنيه خلال الفترة من يوليو حتى نهاية سبتمبر 2024، مقابل 1.98 مليار جنيه ربح خلال الفترة المقارنة من العام المالي الماضي.\nوتراجعت إيرادات الشركة خلال الربع الأول من العام المالي الجاري إلى 3.62 مليار جنيه، مقارنة بـ4.33 مليار جنيه خلال الربع المقارن من العام المالي الماضي.\nوأرجعت الشركة تراجع صافي الربح إلى هبوط قيمة المبيعات نتيجة انخفاض الكميات المبيعة ومتوسطات أسعار التصدير بالعملة الأجنبية؛ بسبب انخفاض ضخ الغاز لمصانع الشركة وتخفيض الأحمال وكذلك زيادة مخزون الإنتاج التام من الأسمدة وهي كميات متعاقد على معظمها بأسعار أعلى من أسعار الشحن بشهر سبتمبر.\nومن بين الأسباب أيضاً زيادة تكلفة مستلزمات التشغيل نتيجة الزيادات السعرية وتغيرات سعر صرف الجنيه مقابل الدولار.\nوكانت أبوقير للأسمدة والصناعات الكيماوية، قررت البدء في إجراءات الإحلال الجزئي للغاز الطبيعي بالهيدروجين، وتركيب محطات طاقة شمسية بقدرة 2.5 ميجاوات لتقليل استهلاك الكهرباء من الشبكة أو مولدات الكهرباء الداخلية.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر..\nاضغط هنا\nترشيحات\nصادرات الغاز الإسرائيلي إلى مصر ترتفع لـ 970 مليون قدم مكعبة يومياً\nمصر تتعاقد على استئجار سفينة تغويز ثالثة لتلبية الاحتياجات المحلية من الغاز\nمسؤول يكشف أسباب رفع أسعار خدمات الإنترنت والاتصالات في مصر\nمصر.. نصائح مهمة من \"حماية المستهلك\" للمواطنين قبل شراء السلع\n\n=== HORIZONS (predict ALL THREE) ===\nshort  -> 1  trading day  from start  (the start day's reaction)\nmedium -> 5  trading days from start  (one trading week cumulative)\nlarge  -> 20 trading days from start  (one trading month cumulative)\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- \"up\" means\noutperforming the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== OUTPUT INSTRUCTIONS ===\n1. Classify news_type FIRST.\n2. Walk through T1-T5. Pick TA signals that ACTUALLY apply from the closed vocab.\n3. Anchor magnitudes to the PER-COMPANY bands above (NOT a global rule).\n4. Quantify any dilution/yield ratio with both inputs.\n5. If news_type=dividend, FILL dividend_info; otherwise set it to null.\n6. LANGUAGE: free-text Arabic. JSON keys + enum values in English.\n7. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"news_type\":         \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n  \"already_priced_in\": <true | false>,\n  \"quantified_ratio\":  \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n  \"key_drivers\":       [\"<driver 1 Arabic>\", \"<driver 2 Arabic>\"],\n  \"ta_signals_cited\":  [\"<signal from closed vocab>\", \"...\"],\n  \"dividend_info\": null | {\n    \"yield_pct\":      <float>,\n    \"ex_div_date\":    \"<YYYY-MM-DD or null if unknown>\",\n    \"amount_egp\":     <float or null>\n  },\n  \"per_horizon\": {\n    \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"},\n    \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"},\n    \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"}\n  },\n  \"overall_reasoning\": \"<3-4 Arabic sentences. Walk T1-T5 briefly. Reference the per-company magnitude bands explicitly. State the quantified ratio if applicable.>\"\n}",
+    "critic": "You are a senior quantitative risk analyst at an Egyptian investment bank. A junior LLM analyst has assessed a news event about ABUK (Abou Kir Fertilizers - ABUK). Your job:\n  (a) audit the junior's TA citations against the live data,\n  (b) check magnitudes against the PER-COMPANY bands (not global rules),\n  (c) produce the final authoritative prediction across short / medium / large,\n  (d) write a plain-Arabic explanation for a non-expert retail investor.\n\n=== COMPANY ===\nTicker      : ABUK\nName        : Abou Kir Fertilizers - ABUK\nSector      : Petroleum & Petrochemicals\nDescription : Abou Kir Fertilizers — Egypt's largest nitrogen fertilizer (urea/ammonium nitrate) producer near Alexandria; exports to Europe; earnings sensitive to natural gas feedstock price and EUR/USD.\nPrice data  : as of 2025-01-15  (article date: 2025-01-16)\n\n=== PRICE STATE ===\nLast close  : 54.01 EGP\nReturn 1d   : +1.66%   5d : +11.02%   20d : +5.10%   60d : -14.68%\nvs MA-50    : +3.81%  vs MA-200 : -8.26%\nTrend       : recovering (above MA-50 but below MA-200)\nVol 20d ann : 34.26%  [normal regime]  Normal -> impact PROPORTIONAL to catalyst.\n\n=== SECTOR ===\nSector 1d   : +2.54%  5d : +7.44%\nStock vs sector 1d : -0.88%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 0.50\nTop peers:\n  - EGAL | Metals & Mining | 90d-corr: 0.42\n  - MFPC | Petroleum & Petrochemicals | 90d-corr: 0.36\n  - TMGH | Real Estate | 90d-corr: 0.29\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2025-01-09: stock -1.09%  sector +0.15%  AR -1.24%\n  2025-01-12: stock +5.99%  sector +2.39%  AR +3.60%\n  2025-01-13: stock +0.98%  sector -0.56%  AR +1.54%\n  2025-01-14: stock +3.17%  sector +1.04%  AR +2.13%\n  2025-01-15: stock +1.66%  sector +2.33%  AR -0.67%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 64.89  [neutral]\nMACD      : state=bullish  hist=+0.7155\nBollinger : zone=above_upper  %B=1.178\nDistance  : 20d_hi +0.00%  20d_lo +12.26%  60d_hi -6.04%  60d_lo +12.26%  52w_hi -49.38%  52w_lo +12.26%\nDivergence : none\nATR 14d   : 1.54%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : +4 (up streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=1.54%) ===\n  short   (N= 1d)  neutral=+-0.77%  small <1.08%  medium 1.08%-3.08%  large >=3.08%\n  medium  (N= 5d)  neutral=+-1.72%  small <2.41%  medium 2.41%-6.89%  large >=6.89%\n  large   (N=20d)  neutral=+-3.44%  small <4.82%  medium 4.82%-13.77%  large >=13.77%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-01-16 11:42:35\nIn trading hours: True  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : event_date (article day; news arrived during EGX hours)\n-> short = the start day itself; medium = +5 trading days; large = +20 trading days.\n\n=== ARABIC SENTIMENT ===\nLabel : neutral\nScore : +0.0274\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-01-16 11:42:35\nHeadline  : أبو قير للأسمدة تقرر استكمال مشروع طاقة شمسية بقدرة 3 ميجاوات\n\nالقاهرة - مباشر: وافق مجلس إدارة شركة أبو قير للأسمدة والصناعات الكيماوية، على استكمال مشروع الطاقة الشمسية بالشركة.\nوقالت الشركة في بيان لبورصة مصر اليوم، إن المجلس وافق على بدء السير في إجراءات طرح المرحلة الثانية لتوريد وتركيب محطات طاقة شمسية في عدة مواقع داخل الشركة بقدرة في حدود 2.5 إلى 3 ميجاوات.\nووافق المجلس على تكليف محمد فوزي محمد حسين للقيام بأعمال ومهام نائب العضو المنتدب لشؤون المصانع.\nويشار إلى أن أبو قير للأسمدة والصناعات الكيماوية،  حققت صافي ربح بلغ 1.28 مليار جنيه خلال الفترة من يوليو حتى نهاية سبتمبر 2024، مقابل 1.98 مليار جنيه ربح خلال الفترة المقارنة من العام المالي الماضي.\nوتراجعت إيرادات الشركة خلال الربع الأول من العام المالي الجاري إلى 3.62 مليار جنيه، مقارنة بـ4.33 مليار جنيه خلال الربع المقارن من العام المالي الماضي.\nوأرجعت الشركة تراجع صافي الربح إلى هبوط قيمة المبيعات نتيجة انخفاض الكميات المبيعة ومتوسطات أسعار التصدير بالعملة الأجنبية؛ بسبب انخفاض ضخ الغاز لمصانع الشركة وتخفيض الأحمال وكذلك زيادة مخزون الإنتاج التام من الأسمدة وهي كميات متعاقد على معظمها بأسعار أعلى من أسعار الشحن بشهر سبتمبر.\nومن بين الأسباب أيضاً زيادة تكلفة مستلزمات التشغيل نتيجة الزيادات السعرية وتغيرات سعر صرف الجنيه مقابل الدولار.\nوكانت أبوقير للأسمدة والصناعات الكيماوية، قررت البدء في إجراءات الإحلال الجزئي للغاز الطبيعي بالهيدروجين، وتركيب محطات طاقة شمسية بقدرة 2.5 ميجاوات لتقليل استهلاك الكهرباء من الشبكة أو مولدات الكهرباء الداخلية.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر..\nاضغط هنا\nترشيحات\nصادرات الغاز الإسرائيلي إلى مصر ترتفع لـ 970 مليون قدم مكعبة يومياً\nمصر تتعاقد على استئجار سفينة تغويز ثالثة لتلبية الاحتياجات المحلية من الغاز\nمسؤول يكشف أسباب رفع أسعار خدمات الإنترنت والاتصالات في مصر\nمصر.. نصائح مهمة من \"حماية المستهلك\" للمواطنين قبل شراء السلع\n\n=== IMPACT AGENT OUTPUT (junior, Groq) ===\n{\n  \"news_type\": \"operational\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"لا ينطبق\",\n  \"key_drivers\": [\n    \"استكمال مشروع الطاقة الشمسية بقدرة 2.5 إلى 3 ميجاوات\",\n    \"تكليف محمد فوزي محمد حسين بأعمال نائب العضو المنتدب لشؤون المصانع\"\n  ],\n  \"ta_signals_cited\": [\n    \"near_20d_high\",\n    \"macd_bullish\",\n    \"up_streak_3plus\"\n  ],\n  \"dividend_info\": null,\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.65,\n      \"reasoning\": \"السهم قرب 20d_high يحد من الحركة الصعودية المحتملة، مع MACD بحالة بيعية لكن RSI محايد. نطاق الحركة اليومي الطبيعي ~1.54% يشير إلى أن التأثير لن يتجاوز 3%.\"\n    },\n    \"medium\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.55,\n      \"reasoning\": \"الاتجاه في استعادة (أعلى MA-50) مع MACD بحالة بيعية قد يعزز التأثير على مدى 5 أيام. نطاق 5d يسمح بـ6.89% كحد أقصى.\"\n    },\n    \"large\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.45,\n      \"reasoning\": \"السهم ما زال تحت MA-200 (-8.26%) مما يشير إلى تردد طويل المدى. تقلب 20d (34.26%) يسمح بـ13.77% لكن التأثير المركب على مدى شهر سيكون محدودًا.\"\n    }\n  },\n  \"overall_reasoning\": \"الأخبار التشغيلية الإيجابية تواجه مقاومة عند 20d_high (12.26% فوق السعر الحالي). MACD البائع يدعم احتمال التفوق على القطاع قصير المدى، لكن RSI المحايد يشير إلى عدم وجود زخم قوي. النطاقات المخصصة للسهم تشير إلى أن التأثير لن يتجاوز 3% يوميًا، 6.89% على 5 أيام، و13.77% على 20 يومًا. تراجع الأرباح الفصلية (1.28 مليار جنيه) يُضعف التأثير طويل المدى.\"\n}\n\n=== HORIZONS (predict ALL THREE) ===\nshort  -> 1  trading day  from start  (the start day's reaction)\nmedium -> 5  trading days from start  (one trading week cumulative)\nlarge  -> 20 trading days from start  (one trading month cumulative)\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- \"up\" means\noutperforming the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== REVIEW CHECKLIST ===\nC1. NEWS_TYPE correct?\nC2. TA_SIGNALS: every cited signal must be supported by the data. Override\n    inconsistent cites and note in disagreements_with_junior.\nC3. MAGNITUDE vs PER-COMPANY BANDS: does the predicted bucket match the\n    horizon's per-company thresholds? Adjust if mis-scaled.\nC4. PRICED-IN: if stock_vs_sector_1d aligns with the news direction, short\n    magnitude should default to \"small\" (R4).\nC5. DIVERGENCE: if a divergence signal is present, did the junior account for it?\nC6. CONFIDENCE: lower when agents-disagree-with-context or news is priced in.\n    Default conf_large <= conf_medium <= conf_short.\nC7. DIVIDEND_INFO: if news_type=dividend, ensure yield_pct is present. If the\n    article gives the ex-div date, extract it as YYYY-MM-DD; otherwise null.\nC8. LANGUAGE LEAKS: strip any non-Arabic word from Arabic fields (R6).\n\n=== USER-FACING EXPLANATION ===\nU1. NO JARGON. Use everyday Arabic equivalents for RSI / MACD / Bollinger /\n    ATR / abnormal return / dilution.\nU2. NUMBERS WITH MEANING. Every cited number gets a plain-Arabic interpretation.\nU3. STATE THE PREDICTION FIRST in what_we_expect (direction + size + timeline),\n    THEN 1-2 sentences of evidence.\nU4. PER-HORIZON. outlook_by_horizon.short / .medium / .large -- one Arabic\n    sentence each with direction + size + rationale clue.\nU5. BREVITY. ~150-200 Arabic words across the whole user block.\nU6. 100% Arabic in the user block.\n\n=== INSTRUCTIONS ===\n1. Override the junior anywhere evidence demands it; list each change in\n   \"disagreements_with_junior\" with the reason.\n2. Confidence: adjust per horizon. Default conf_large <= conf_medium <= conf_short.\n3. SPELLING: \"RSI-14\" not \"RS-14\". Proper Arabic punctuation.\n4. LANGUAGE: free-text Arabic; JSON keys + tickers + enum values in English.\n5. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"primary_company\": {\n    \"ticker\":              \"ABUK\",\n    \"news_type\":           \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n    \"already_priced_in\":   <true | false>,\n    \"quantified_ratio\":    \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n    \"ta_signals_cited\":    [\"<signal from closed vocab>\", \"...\"],\n    \"dividend_info\": null | {\n      \"yield_pct\":   <float>,\n      \"ex_div_date\": \"<YYYY-MM-DD or null>\",\n      \"amount_egp\":  <float or null>\n    },\n    \"per_horizon\": {\n      \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"},\n      \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"},\n      \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"}\n    },\n    \"overall_reasoning\":   \"<3-4 Arabic sentences. Reference the per-company bands. State news_type. Note any override of the junior.>\"\n  },\n  \"risk_flags\": [\n    \"<event-specific risk in Arabic>\",\n    \"<event-specific risk in Arabic>\"\n  ],\n  \"disagreements_with_junior\": [\n    \"<what the junior said, what is correct, why -- in Arabic>\"\n  ],\n  \"external_signal_alignment\":   \"aligned\" | \"partially_aligned\" | \"contradicts\",\n  \"external_signal_explanation\": \"<1-2 sentences in Arabic>\",\n  \"tldr\": {\n    \"verdict\":   \"<short Arabic phrase: direction + horizon>\",\n    \"one_line\":  \"<one Arabic sentence summarising the whole view>\"\n  },\n  \"explanation_for_user\": {\n    \"headline\":                  \"<one sentence plain Arabic, no jargon>\",\n    \"what_happened\":             \"<2-3 sentences plain Arabic, no jargon>\",\n    \"why_it_matters\":            \"<2-3 sentences plain Arabic, financial logic in everyday terms>\",\n    \"what_we_expect\":            \"<lead with prediction (direction + size + timeline) THEN evidence>\",\n    \"outlook_by_horizon\": {\n      \"short\":  \"<one Arabic sentence: direction + size + rationale for the first trading day>\",\n      \"medium\": \"<one Arabic sentence: direction + size + rationale for the first week (5 days)>\",\n      \"large\":  \"<one Arabic sentence: direction + size + rationale for the first month (20 days)>\"\n    },\n    \"what_could_change_our_view\":\"<1-2 Arabic sentences on key uncertainties>\"\n  }\n}"
+  },
+  "impact_agent": {
+    "output": {
+      "news_type": "operational",
+      "already_priced_in": false,
+      "quantified_ratio": "لا ينطبق",
+      "key_drivers": [
+        "استكمال مشروع الطاقة الشمسية بقدرة 2.5 إلى 3 ميجاوات",
+        "تكليف محمد فوزي محمد حسين بأعمال نائب العضو المنتدب لشؤون المصانع"
+      ],
+      "ta_signals_cited": [
+        "near_20d_high",
+        "macd_bullish",
+        "up_streak_3plus"
+      ],
+      "dividend_info": null,
+      "per_horizon": {
+        "short": {
+          "direction": "neutral",
+          "magnitude": "small",
+          "confidence": 0.65,
+          "reasoning": "السهم قرب 20d_high يحد من الحركة الصعودية المحتملة، مع MACD بحالة بيعية لكن RSI محايد. نطاق الحركة اليومي الطبيعي ~1.54% يشير إلى أن التأثير لن يتجاوز 3%."
+        },
+        "medium": {
+          "direction": "up",
+          "magnitude": "medium",
+          "confidence": 0.55,
+          "reasoning": "الاتجاه في استعادة (أعلى MA-50) مع MACD بحالة بيعية قد يعزز التأثير على مدى 5 أيام. نطاق 5d يسمح بـ6.89% كحد أقصى."
+        },
+        "large": {
+          "direction": "neutral",
+          "magnitude": "small",
+          "confidence": 0.45,
+          "reasoning": "السهم ما زال تحت MA-200 (-8.26%) مما يشير إلى تردد طويل المدى. تقلب 20d (34.26%) يسمح بـ13.77% لكن التأثير المركب على مدى شهر سيكون محدودًا."
+        }
+      },
+      "overall_reasoning": "الأخبار التشغيلية الإيجابية تواجه مقاومة عند 20d_high (12.26% فوق السعر الحالي). MACD البائع يدعم احتمال التفوق على القطاع قصير المدى، لكن RSI المحايد يشير إلى عدم وجود زخم قوي. النطاقات المخصصة للسهم تشير إلى أن التأثير لن يتجاوز 3% يوميًا، 6.89% على 5 أيام، و13.77% على 20 يومًا. تراجع الأرباح الفصلية (1.28 مليار جنيه) يُضعف التأثير طويل المدى."
+    },
+    "raw": "{  \"news_type\": \"operational\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"لا ينطبق\",\n  \"key_drivers\": [\n    \"استكمال مشروع الطاقة الشمسية بقدرة 2.5 إلى 3 ميجاوات\",\n    \"تكليف محمد فوزي محمد حسين بأعمال نائب العضو المنتدب لشؤون المصانع\"\n  ],\n  \"ta_signals_cited\": [\n    \"near_20d_high\",\n    \"macd_bullish\",\n    \"up_streak_3plus\"\n  ],\n  \"dividend_info\": null,\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.65,\n      \"reasoning\": \"السهم قرب 20d_high يحد من الحركة الصعودية المحتملة، مع MACD بحالة بيعية لكن RSI محايد. نطاق الحركة اليومي الطبيعي ~1.54% يشير إلى أن التأثير لن يتجاوز 3%.\"\n    },\n    \"medium\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.55,\n      \"reasoning\": \"الاتجاه في استعادة (أعلى MA-50) مع MACD بحالة بيعية قد يعزز التأثير على مدى 5 أيام. نطاق 5d يسمح بـ6.89% كحد أقصى.\"\n    },\n    \"large\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.45,\n      \"reasoning\": \"السهم ما زال تحت MA-200 (-8.26%) مما يشير إلى تردد طويل المدى. تقلب 20d (34.26%) يسمح بـ13.77% لكن التأثير المركب على مدى شهر سيكون محدودًا.\"\n    }\n  },\n  \"overall_reasoning\": \"الأخبار التشغيلية الإيجابية تواجه مقاومة عند 20d_high (12.26% فوق السعر الحالي). MACD البائع يدعم احتمال التفوق على القطاع قصير المدى، لكن RSI المحايد يشير إلى عدم وجود زخم قوي. النطاقات المخصصة للسهم تشير إلى أن التأثير لن يتجاوز 3% يوميًا، 6.89% على 5 أيام، و13.77% على 20 يومًا. تراجع الأرباح الفصلية (1.28 مليار جنيه) يُضعف التأثير طويل المدى.\"\n}"
+  },
+  "critic_agent": {
+    "output": {
+      "primary_company": {
+        "ticker": "ABUK",
+        "news_type": "operational",
+        "already_priced_in": false,
+        "quantified_ratio": "لا ينطبق",
+        "ta_signals_cited": [
+          "near_20d_high",
+          "macd_bullish",
+          "bollinger_above_upper",
+          "up_streak_3plus"
+        ],
+        "dividend_info": null,
+        "per_horizon": {
+          "short": {
+            "direction": "neutral",
+            "magnitude": "small",
+            "confidence": 0.6,
+            "reasoning": "السهم عند أعلى مستوى له خلال 20 يومًا (+0.00% من 20d_hi) مع Bollinger أعلى الحد العلوي (%B=1.178)، مما يحد من حركة صعود إضافية. MACD إيجابي لكن زخم محدود."
+          },
+          "medium": {
+            "direction": "neutral",
+            "magnitude": "small",
+            "confidence": 0.5,
+            "reasoning": "صعوبة تحقيق مكاسب إضافية على المدى المتوسط بسبب قرب السعر من أعلى مستوى في 20 يومًا وضعف أرباح الربع الأول (1.28 مليار مقابل 1.98 مليار). النطاق المسموح 2.41%-6.89% لكن العوامل الفنية تحد."
+          },
+          "large": {
+            "direction": "neutral",
+            "magnitude": "small",
+            "confidence": 0.4,
+            "reasoning": "السهم تحت المتوسط المتحرك لـ200 يوم (-8.26%) ومبتعد عن أعلى مستوى سنوي (-49.38%). النطاق المسموح 4.82%-13.77% لكن الاتجاه طويل المدى ضعيف."
+          }
+        },
+        "overall_reasoning": "الخبر إيجابي تشغيلياً (مشروع طاقة شمسية 2.5-3 ميجاوات) لكنه يواجه مقاومة فنية قوية. السهم عند أعلى مستوى له في 20 يومًا معBollinger في منطقة التشبع الشرائي (٪B=1.178)، مما يحد من الحركة الصعودية القصيرة المدى. الأرباح الفصلية الضعيفة (انخفاض من 1.98 إلى 1.28 مليار جنيه) تضعف التأثير طويل المدى. استخدمت النطاق المخصص للشركة: صغير (<1.08%) قصير، (<2.41%) متوسط، (<4.82%) طويل."
+      },
+      "risk_flags": [
+        "تراجع الأرباح الفصلية بنسبة 35% مقارنة بالفترة المقارنة قد يضغط على السهم لاحقًا",
+        "ارتفاع تكلفة مستلزمات التشغيل وتغير سعر الصرف قد يقلص الهوامش المستقبلية"
+      ],
+      "disagreements_with_junior": [
+        "المستوى المتوسط: تنبأ المحلل المبتدئ بـ'up/medium' لكن الصحيح هو 'neutral/small' لأن السهم عند أعلى مستوى في 20 يومًا (مقاومة) مع Bollinger في التشبع الشرائي (%B=1.178) وسوق اليوم تحت أداء القطاع (-0.88%) رغم الخبر الإيجابي.",
+        "MACD: وصفه المحلل بـ'حالة بيعية' وهذا خطأ؛ MACD إيجابي (hist=+0.7155) وهو يدعم الاتجاه الصعودي لكنه غير كافٍ لمواجهة التشبع الشرائي.",
+        "ثقة المتوسط: حدد 0.55 وهي مرتفعة جداً؛ يجب أن تكون 0.5 أو أقل لأن العوامل الفنية المتعارضة والتأثير السلبي لأرباح الربع الأول تبرر حذراً أعلى."
+      ],
+      "external_signal_alignment": "partially_aligned",
+      "external_signal_explanation": "التذبذبات غير الطبيعية اليومية这几天 متذبذبة (+3.60% و+2.13% و-0.67%) لكنها ضمن نطاق طبيعي (ATR=1.54%). لا يوجد انحراف جوهري يشير إلى تسعير مسبق للخبر.",
+      "tldr": {
+        "verdict": "محايد-صغير على المدى القصير والمتوسط والبعيد",
+        "one_line": "مشروع الطاقة الشمسية خبر جيد لكنه يواجە مقاومة فنية قوية عند أعلى مستوى في 20 يومًا مع أرباح ضعيفة؛ تأثير محدود."
+      },
+      "explanation_for_user": {
+        "headline": "أبو قير للأسمدة توافق على مشروع طاقة شمسية جديد لكن السهم يواجه مقاومة فنية قوية تحد من مكاسب اليوم.",
+        "what_happened": "وافق مجلس إدارة أبو قير للأسمدة على استكمال مشروع طاقة شمسية بقدرة 2.5 إلى 3 ميجاوات، وأيضاً تعيين محمد فوزي كنائب للعضو المنتدب لشؤون المصانع. في الوقت نفسه، أظهرت النتائج المالية للربع الأول تراجعا في الأرباح من 1.98 مليار إلى 1.28 مليار جنيه.",
+        "why_it_matters": "مشروع الطاقة الشمسية خطوة إيجابية لأنه يقلل تكاليف الكهرباء على المدى الطويل، مما يدعم هوامش الأرباح. لكن الأرباح الضعيفة وتراجع الإيرادات (من 4.33 إلى 3.62 مليار جنيه) بسبب ارتفاع تكاليف التشغيل وضعف أسعار التصدير تُضعف التأثير الإيجابي.",
+        "what_we_expect": "نتوقع حركة محدودة (صغيرة) خلال اليوم بسبب أن السهم عند أعلى مستوى له في 20 يومًا. هذا يعني أن معظم المكاسب المتوقعة قد تحققت بالفعل الأسبوع الماضي (السهم صعد +11% في 5 أيام). النطاق الطبيعي للحركة اليومية لهذا السهم حوالي 1.5%، فلا نتوقع تجاوز 1% أو 2% اليوم.",
+        "outlook_by_horizon": {
+          "short": "خلال اليوم الأول: حركة محدودة (<1%) في نطاق محايد لأن السهم عند مقاومة 20 يومًا.",
+          "medium": "خلال أول أسبوع: أيضاً محدود (<2.4%) مع تردد بسبب الأرباح الضعيفة والمقاومة الفنية.",
+          "large": "خلال أول شهر: استمرار النطاق الضيق (<4.8%) لأن السهم تحت المتوسط المتحرك لـ200 يوم (-8.26%) والاتجاه طويل المدى ضعيف."
+        },
+        "what_could_change_our_view": "إذا تجاوز السهم مقاومة 20 يومًا بقوة مع حجم تداول مرتفع، فقد نتوقع ارتفاعًا أكبر. أو إذا تحسنت أسعار الغاز عالميًا، فقد يدعم ذلك السهم بقوة أكبر."
+      }
+    },
+    "raw": "\n\n{\n  \"primary_company\": {\n    \"ticker\": \"ABUK\",\n    \"news_type\": \"operational\",\n    \"already_priced_in\": false,\n    \"quantified_ratio\": \"لا ينطبق\",\n    \"ta_signals_cited\": [\n      \"near_20d_high\",\n      \"macd_bullish\",\n      \"bollinger_above_upper\",\n      \"up_streak_3plus\"\n    ],\n    \"dividend_info\": null,\n    \"per_horizon\": {\n      \"short\": {\n        \"direction\": \"neutral\",\n        \"magnitude\": \"small\",\n        \"confidence\": 0.6,\n        \"reasoning\": \"السهم عند أعلى مستوى له خلال 20 يومًا (+0.00% من 20d_hi) مع Bollinger أعلى الحد العلوي (%B=1.178)، مما يحد من حركة صعود إضافية. MACD إيجابي لكن زخم محدود.\"\n      },\n      \"medium\": {\n        \"direction\": \"neutral\",\n        \"magnitude\": \"small\",\n        \"confidence\": 0.5,\n        \"reasoning\": \"صعوبة تحقيق مكاسب إضافية على المدى المتوسط بسبب قرب السعر من أعلى مستوى في 20 يومًا وضعف أرباح الربع الأول (1.28 مليار مقابل 1.98 مليار). النطاق المسموح 2.41%-6.89% لكن العوامل الفنية تحد.\"\n      },\n      \"large\": {\n        \"direction\": \"neutral\",\n        \"magnitude\": \"small\",\n        \"confidence\": 0.4,\n        \"reasoning\": \"السهم تحت المتوسط المتحرك لـ200 يوم (-8.26%) ومبتعد عن أعلى مستوى سنوي (-49.38%). النطاق المسموح 4.82%-13.77% لكن الاتجاه طويل المدى ضعيف.\"\n      }\n    },\n    \"overall_reasoning\": \"الخبر إيجابي تشغيلياً (مشروع طاقة شمسية 2.5-3 ميجاوات) لكنه يواجه مقاومة فنية قوية. السهم عند أعلى مستوى له في 20 يومًا معBollinger في منطقة التشبع الشرائي (٪B=1.178)، مما يحد من الحركة الصعودية القصيرة المدى. الأرباح الفصلية الضعيفة (انخفاض من 1.98 إلى 1.28 مليار جنيه) تضعف التأثير طويل المدى. استخدمت النطاق المخصص للشركة: صغير (<1.08%) قصير، (<2.41%) متوسط، (<4.82%) طويل.\"\n  },\n  \"risk_flags\": [\n    \"تراجع الأرباح الفصلية بنسبة 35% مقارنة بالفترة المقارنة قد يضغط على السهم لاحقًا\",\n    \"ارتفاع تكلفة مستلزمات التشغيل وتغير سعر الصرف قد يقلص الهوامش المستقبلية\"\n  ],\n  \"disagreements_with_junior\": [\n    \"المستوى المتوسط: تنبأ المحلل المبتدئ بـ'up/medium' لكن الصحيح هو 'neutral/small' لأن السهم عند أعلى مستوى في 20 يومًا (مقاومة) مع Bollinger في التشبع الشرائي (%B=1.178) وسوق اليوم تحت أداء القطاع (-0.88%) رغم الخبر الإيجابي.\",\n    \"MACD: وصفه المحلل بـ'حالة بيعية' وهذا خطأ؛ MACD إيجابي (hist=+0.7155) وهو يدعم الاتجاه الصعودي لكنه غير كافٍ لمواجهة التشبع الشرائي.\",\n    \"ثقة المتوسط: حدد 0.55 وهي مرتفعة جداً؛ يجب أن تكون 0.5 أو أقل لأن العوامل الفنية المتعارضة والتأثير السلبي لأرباح الربع الأول تبرر حذراً أعلى.\"\n  ],\n  \"external_signal_alignment\": \"partially_aligned\",\n  \"external_signal_explanation\": \"التذبذبات غير الطبيعية اليومية这几天 متذبذبة (+3.60% و+2.13% و-0.67%) لكنها ضمن نطاق طبيعي (ATR=1.54%). لا يوجد انحراف جوهري يشير إلى تسعير مسبق للخبر.\",\n  \"tldr\": {\n    \"verdict\": \"محايد-صغير على المدى القصير والمتوسط والبعيد\",\n    \"one_line\": \"مشروع الطاقة الشمسية خبر جيد لكنه يواجە مقاومة فنية قوية عند أعلى مستوى في 20 يومًا مع أرباح ضعيفة؛ تأثير محدود.\"\n  },\n  \"explanation_for_user\": {\n    \"headline\": \"أبو قير للأسمدة توافق على مشروع طاقة شمسية جديد لكن السهم يواجه مقاومة فنية قوية تحد من مكاسب اليوم.\",\n    \"what_happened\": \"وافق مجلس إدارة أبو قير للأسمدة على استكمال مشروع طاقة شمسية بقدرة 2.5 إلى 3 ميجاوات، وأيضاً تعيين محمد فوزي كنائب للعضو المنتدب لشؤون المصانع. في الوقت نفسه، أظهرت النتائج المالية للربع الأول تراجعا في الأرباح من 1.98 مليار إلى 1.28 مليار جنيه.\",\n    \"why_it_matters\": \"مشروع الطاقة الشمسية خطوة إيجابية لأنه يقلل تكاليف الكهرباء على المدى الطويل، مما يدعم هوامش الأرباح. لكن الأرباح الضعيفة وتراجع الإيرادات (من 4.33 إلى 3.62 مليار جنيه) بسبب ارتفاع تكاليف التشغيل وضعف أسعار التصدير تُضعف التأثير الإيجابي.\",\n    \"what_we_expect\": \"نتوقع حركة محدودة (صغيرة) خلال اليوم بسبب أن السهم عند أعلى مستوى له في 20 يومًا. هذا يعني أن معظم المكاسب المتوقعة قد تحققت بالفعل الأسبوع الماضي (السهم صعد +11% في 5 أيام). النطاق الطبيعي للحركة اليومية لهذا السهم حوالي 1.5%، فلا نتوقع تجاوز 1% أو 2% اليوم.\",\n    \"outlook_by_horizon\": {\n      \"short\": \"خلال اليوم الأول: حركة محدودة (<1%) في نطاق محايد لأن السهم عند مقاومة 20 يومًا.\",\n      \"medium\": \"خلال أول أسبوع: أيضاً محدود (<2.4%) مع تردد بسبب الأرباح الضعيفة والمقاومة الفنية.\",\n      \"large\": \"خلال أول شهر: استمرار النطاق الضيق (<4.8%) لأن السهم تحت المتوسط المتحرك لـ200 يوم (-8.26%) والاتجاه طويل المدى ضعيف.\"\n    },\n    \"what_could_change_our_view\": \"إذا تجاوز السهم مقاومة 20 يومًا بقوة مع حجم تداول مرتفع، فقد نتوقع ارتفاعًا أكبر. أو إذا تحسنت أسعار الغاز عالميًا، فقد يدعم ذلك السهم بقوة أكبر.\"\n  }\n}",
+    "thinking": "Let me analyze this carefully as a senior quantitative risk analyst auditing a junior's output on ABUK.\n\n**Step 1: News Type**\nThe news is about:\n- ABUK board approved completing a solar energy project (2.5-3 MW)\n- Appointment of a new VP for manufacturing affairs\n- Recent earnings: net profit 1.28B EGP (down from 1.98B)\n- Revenue: 3.62B (down from 4.33B)\n\nNews type: operational (solar project approval)\n\n**Step 2: Technical Signal Audit**\n\nJunior cited:\n- \"near_20d_high\" - Let me check: Distance 20d_hi is +0.00%. Yes, stock is AT the 20-day high. ✓\n- \"macd_bullish\" - MACD state is bullish, hist=+0.7155. ✓\n- \"up_streak_3plus\" - Streak is +4 (up streak). ✓\n\nAll three cited signals are correct.\n\n**Step 3: Per-Company Bands Check**\n\nShort (1d): small <1.08%, medium 1.08%-3.08%, large >=3.08%\nMedium (5d): small <2.41%, medium 2.41%-6.89%, large >=6.89%\nLarge (20d): small <4.82%, medium 4.82%-13.77%, large >=13.77%\n\n**Step 4: Technical Checklist**\n\nT1. OVERBOUGHT:\n- RSI: 64.89 → neutral (not overbought)\n- Bollinger: %B=1.178, zone=above_upper → OVERBOUGHT signal\n\n\n- 20-day high at +0.00% → AT THE HIGH\n\nT2. DIVERGENCE: none stated\nT3. MOMENTUM: MACD bullish ✓\nT4. ROOM TO RUN: At 20d high, +0.00% from 20d high. Structurally capped upside.\nT5. PER-COMPANY BANDS: Need to apply.\n\n**Step 5: Pricing Check**\nStock vs sector 1d: -0.88% (underperforming)\nThe news is positive (solar project), but stock underperformed sector today (-0.88%).\nThis suggests some of the news may already be priced in or that other factors are limiting immediate gains.\n\n**Step 6: Junior's Predictions vs Evidence**\n\nSHORT: neutral, small (conf 0.65)\n- At 20d high, structurally capped\n- MACD bullish ✓\n- Up streak +4 ✓\n- Overbought (Bollinger above upper, %B=1.178)\n- Stock underperformed sector today despite positive news\n- This is a bullish operational event but technicals cap upside\n- Given ATR=1.54%, small is appropriate (noise floor ~1.5%)\n- Reasonable: conf 0.65\n\nMEDIUM: up, medium (conf 0.55)\n- Direction UP contradicts the technical picture somewhat\n- At 20d high, still below MA-200 (-8.26%)\n- Medium 5d threshold: 2.41-6.89%\n- But with overbought indicators and being at the high, upside is limited\n- Weakness in fundamentals (revenue decline, profit decline)\n- Medium seems optimistic given technical constraints and weak financial performance\n\nThe fundamental picture is concerning—earnings fell significantly and revenue declined—which argues against an upward medium-term move despite the bullish MACD signal. The technical overbought condition and proximity to the 20-day high create resistance, while the sector underperformance today suggests the market isn't responding favorably to the news.\n\nFor large: neutral, small (conf 0.45)\n- Below MA-200: -8.26%\n- Below 52w high: -49.38%\n- 60d hi: -6.04%\n- Small threshold: <4.82% over 20 days\n- Given weakness in fundamentals, small is appropriate\n- conf 0.45 is low - reasonable\n\nThe technical setup shows significant distance from yearly highs and the 60-day high, which provides room for either direction. Combined with the earnings decline and the stock's position below key moving averages, a neutral stance with limited upside seems justified over the longer timeframe.\n\nSeveral adjustments needed: MACD classification should be \"macd_bullish\" not \"macd_bearish\" as the histogram is positive; the short-term prediction aligns with the data; medium-term direction should flip to neutral with lower confidence given the overbought state and fundamental weakness; and large should maintain neutral with small magnitude. The positive solar news faces resistance from the stock being at its 20-day high and RSI already elevated at 64.89, which typically limits further gains.\n\nThe weak Q1 earnings (1.28B versus 1.98B) undermine bullish momentum over longer timeframes, though the solar initiative could provide gradual operational support. For sizing, the short-term move caps around 1.54% given ATR constraints, staying within the small threshold. Medium-term positioning faces headwinds from overbought conditions and sector underperformance (-0.88%), allowing only 2-4% potential upside before the 2.41-6.89% medium range becomes relevant. Long-term, the stock's distance from the 52-week high (-49.38%) and 20-day high (+0.00%) suggests muted directional movement over 20 days, likely remaining under 4.82% given the fundamental headwinds and technical resistance.\n"
+  },
+  "final": {
+    "ticker": "ABUK",
+    "news_type": "operational",
+    "already_priced_in": false,
+    "quantified_ratio": "لا ينطبق",
+    "ta_signals_cited": [
+      "near_20d_high",
+      "macd_bullish",
+      "bollinger_above_upper",
+      "up_streak_3plus"
+    ],
+    "dividend_info": null,
+    "per_horizon": {
+      "short": {
+        "direction": "neutral",
+        "magnitude": "small",
+        "confidence": 0.6,
+        "reasoning": "السهم عند أعلى مستوى له خلال 20 يومًا (+0.00% من 20d_hi) مع Bollinger أعلى الحد العلوي (%B=1.178)، مما يحد من حركة صعود إضافية. MACD إيجابي لكن زخم محدود."
+      },
+      "medium": {
+        "direction": "neutral",
+        "magnitude": "small",
+        "confidence": 0.5,
+        "reasoning": "صعوبة تحقيق مكاسب إضافية على المدى المتوسط بسبب قرب السعر من أعلى مستوى في 20 يومًا وضعف أرباح الربع الأول (1.28 مليار مقابل 1.98 مليار). النطاق المسموح 2.41%-6.89% لكن العوامل الفنية تحد."
+      },
+      "large": {
+        "direction": "neutral",
+        "magnitude": "small",
+        "confidence": 0.4,
+        "reasoning": "السهم تحت المتوسط المتحرك لـ200 يوم (-8.26%) ومبتعد عن أعلى مستوى سنوي (-49.38%). النطاق المسموح 4.82%-13.77% لكن الاتجاه طويل المدى ضعيف."
+      }
+    },
+    "overall_reasoning": "الخبر إيجابي تشغيلياً (مشروع طاقة شمسية 2.5-3 ميجاوات) لكنه يواجه مقاومة فنية قوية. السهم عند أعلى مستوى له في 20 يومًا معBollinger في منطقة التشبع الشرائي (٪B=1.178)، مما يحد من الحركة الصعودية القصيرة المدى. الأرباح الفصلية الضعيفة (انخفاض من 1.98 إلى 1.28 مليار جنيه) تضعف التأثير طويل المدى. استخدمت النطاق المخصص للشركة: صغير (<1.08%) قصير، (<2.41%) متوسط، (<4.82%) طويل."
+  }
+}

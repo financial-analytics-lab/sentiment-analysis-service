@@ -1,0 +1,350 @@
+{
+  "ticker": "RMDA",
+  "article_date": "2025-01-09",
+  "context_date": "2025-01-08",
+  "processed_at": "2026-05-17T23:49:31.395847",
+  "article": {
+    "symbol": "RMDA",
+    "company": "Tenth Of Ramadan Pharmaceutical Industries&Diagnostic-Rameda",
+    "isin": "EGS381B1C015",
+    "sector": "Healthcare & Pharmaceuticals",
+    "id": "4389822",
+    "date": "2025-01-09",
+    "time": "15:51:50",
+    "datetime": "2025-01-09 15:51:50",
+    "title": "57 % ارتفاعًا في مبيعات \"راميدا\" خلال نوفمبر الماضي",
+    "body": "القاهرة - مباشر: قالت شركة العاشر من رمضان للصناعات الدوائية والمستحضرات تشخيصية- راميدا، إن مبيعات الشركة ارتفعت بنسبة 57% خلال شهر نوفمبر الماضي.\nوأضافت الشركة في افصاح ردًا على استفسارات البورصة، إن نسبة النمو بناء على تقارير سوق الدواء الصادرة عن IQVIA.\nيشار إلى أن العاشر من رمضان للصناعات الدوائية والمستحضرات تشخيصية-راميدا،  حققت أرباحاً بلغت 244.03 مليون جنيه خلال الفترة من يناير حتى نهاية سبتمبر 2024، مقابل أرباح بلغت 196.97 مليون جنيه في الفترة المقارنة من 2023، مع الأخذ في الاعتبار حقوق الأقلية.\nوارتفعت إيرادات الشركة خلال التسعة أشهر الأولى من العام الجاري إلى 1.78 مليار جنيه، مقابل 1.38 مليار جنيه إيرادات خلال الفترة ذاتها من العام الماضي.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية\n..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر\n..\nاضغط هنا\nترشيحات\n:\nأرباح \"راميدا\" ترتفع لأكثر من 244 مليون جنيه خلال 9 أشهر\n\"راميدا\" تدعو عموميتها للانعقاد في طور انعقاد ثان يوم 10 ديسمبر المقبل",
+    "teaser": "القاهرة - مباشر: قالت شركة العاشر من رمضان للصناعات الدوائية والمستحضرات تشخيصية- راميدا، إن مبيعات الشركة ارتفعت بنسبة 57% خلال شهر نوفمبر الماضي. وأضافت الشركة في افصاح ردًا على استفسارات البورصة، إن نسبة النمو بناء على تقارير سوق الدواء الصادرة …",
+    "section": "أخبار الشركة",
+    "source": "مباشر",
+    "categories": "stock-bonds",
+    "country": "مصر",
+    "reads": 428,
+    "url": "https://www.mubasher.info/news/4389822",
+    "image_url": "https://static.mubasher.info/File.Story_Image/14cbad55cdfeb5b72cd0adbde455e8c6/640.jpg",
+    "date_raw": ""
+  },
+  "sentiment": {
+    "model": "CAMeL-Lab/bert-base-arabic-camelbert-mix-sentiment",
+    "label": "neutral",
+    "score": 0.2329,
+    "numeric": 0,
+    "class_probs": {
+      "neutral": 0.763,
+      "positive": 0.2349,
+      "negative": 0.002
+    }
+  },
+  "context": {
+    "ticker": "RMDA",
+    "company": "Rameda - RMDA",
+    "sector": "Healthcare & Pharmaceuticals",
+    "business_description": "Rameda — Egyptian generic pharmaceutical manufacturer; domestic-focused revenues in EGP; sensitive to regulatory pricing decisions.",
+    "event_date": "2025-01-09",
+    "last_price_date": "2025-01-08",
+    "price_state": {
+      "last_close": 3.53,
+      "return_1d": -1.94,
+      "return_5d": 7.29,
+      "return_20d": 2.32,
+      "return_60d": 9.97,
+      "pct_vs_ma50": 1.73,
+      "pct_vs_ma200": 27.44,
+      "vol_20d_annualized_pct": 37.95,
+      "vol_regime": "low",
+      "rsi_14": 55.82
+    },
+    "market_state": {
+      "sector_return_1d": -1.55,
+      "sector_return_5d": 6.28,
+      "relative_strength_vs_sector_1d": -0.39
+    },
+    "correlation_state": {
+      "corr_with_sector_90d": 0.82,
+      "top_3_correlated_peers": [
+        {
+          "ticker": "TMGH",
+          "correlation": 0.45,
+          "sector": "Real Estate"
+        },
+        {
+          "ticker": "ISPH",
+          "correlation": 0.41,
+          "sector": "Healthcare & Pharmaceuticals"
+        },
+        {
+          "ticker": "EMFD",
+          "correlation": 0.39,
+          "sector": "Real Estate"
+        }
+      ]
+    },
+    "recent_abnormal_returns": [
+      {
+        "date": "2024-12-31",
+        "stock_return_pct": 1.52,
+        "sector_return_pct": 1.48,
+        "abnormal_return_pct": 0.04
+      },
+      {
+        "date": "2025-01-02",
+        "stock_return_pct": 2.1,
+        "sector_return_pct": 0.69,
+        "abnormal_return_pct": 1.41
+      },
+      {
+        "date": "2025-01-05",
+        "stock_return_pct": 5.57,
+        "sector_return_pct": 6.31,
+        "abnormal_return_pct": -0.74
+      },
+      {
+        "date": "2025-01-06",
+        "stock_return_pct": 0.0,
+        "sector_return_pct": -0.27,
+        "abnormal_return_pct": 0.27
+      },
+      {
+        "date": "2025-01-08",
+        "stock_return_pct": -1.94,
+        "sector_return_pct": -1.65,
+        "abnormal_return_pct": -0.29
+      }
+    ],
+    "technical_signals": {
+      "rsi_14": 55.82,
+      "rsi_zone": "neutral",
+      "macd": {
+        "line": 0.0163,
+        "signal": -0.0074,
+        "histogram": 0.0237,
+        "state": "bullish"
+      },
+      "bollinger": {
+        "pct_b": 0.791,
+        "bandwidth_pct": 11.16,
+        "zone": "middle"
+      },
+      "distance_to_extremes": {
+        "20d_high_distance_pct": -1.94,
+        "20d_low_distance_pct": 7.29,
+        "60d_high_distance_pct": -9.02,
+        "60d_low_distance_pct": 9.63,
+        "252d_high_distance_pct": -9.02,
+        "252d_low_distance_pct": 119.39
+      },
+      "rsi_divergence": "none",
+      "atr_pct_14d": 1.85,
+      "consecutive_streak": -1
+    },
+    "dynamic_bands": {
+      "horizon_trading_days": {
+        "short": 1,
+        "medium": 5,
+        "large": 20
+      },
+      "neutral_band_pct": {
+        "short": 0.93,
+        "medium": 2.07,
+        "large": 4.14
+      },
+      "magnitude_bands_pct": {
+        "short": {
+          "small": [
+            0.0,
+            1.29
+          ],
+          "medium": [
+            1.29,
+            3.7
+          ],
+          "large": [
+            3.7,
+            null
+          ]
+        },
+        "medium": {
+          "small": [
+            0.0,
+            2.9
+          ],
+          "medium": [
+            2.9,
+            8.27
+          ],
+          "large": [
+            8.27,
+            null
+          ]
+        },
+        "large": {
+          "small": [
+            0.0,
+            5.79
+          ],
+          "medium": [
+            5.79,
+            16.55
+          ],
+          "large": [
+            16.55,
+            null
+          ]
+        }
+      },
+      "atr_pct_anchor": 1.85
+    },
+    "news_timing": {
+      "in_trading_hours": false,
+      "arrived_at_str": "2025-01-09 15:51:50",
+      "start_day_label": "next trading day after event_date (news arrived outside EGX hours)"
+    }
+  },
+  "prompts": {
+    "impact": "You are a quantitative analyst predicting Egyptian Stock Exchange (EGX) stock reactions to Arabic news. Your prediction must be grounded in the technical signals provided and calibrated to this specific ticker's volatility.\n\n=== COMPANY ===\nTicker      : RMDA\nName        : Rameda - RMDA\nSector      : Healthcare & Pharmaceuticals\nDescription : Rameda — Egyptian generic pharmaceutical manufacturer; domestic-focused revenues in EGP; sensitive to regulatory pricing decisions.\nPrice data  : as of 2025-01-08  (article date: 2025-01-09)\n\n=== PRICE STATE ===\nLast close  : 3.53 EGP\nReturn 1d   : -1.94%   5d : +7.29%   20d : +2.32%   60d : +9.97%\nvs MA-50    : +1.73%  vs MA-200 : +27.44%\nTrend       : uptrend (above MA-50 and MA-200)\nVol 20d ann : 37.95%  [low regime]  Low -> impact MUTED unless structurally significant.\n\n=== SECTOR ===\nSector 1d   : -1.55%  5d : +6.28%\nStock vs sector 1d : -0.39%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 0.82\nTop peers:\n  - TMGH | Real Estate | 90d-corr: 0.45\n  - ISPH | Healthcare & Pharmaceuticals | 90d-corr: 0.41\n  - EMFD | Real Estate | 90d-corr: 0.39\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2024-12-31: stock +1.52%  sector +1.48%  AR +0.04%\n  2025-01-02: stock +2.10%  sector +0.69%  AR +1.41%\n  2025-01-05: stock +5.57%  sector +6.31%  AR -0.74%\n  2025-01-06: stock +0.00%  sector -0.27%  AR +0.27%\n  2025-01-08: stock -1.94%  sector -1.65%  AR -0.29%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 55.82  [neutral]\nMACD      : state=bullish  hist=+0.0237\nBollinger : zone=middle  %B=0.791\nDistance  : 20d_hi -1.94%  20d_lo +7.29%  60d_hi -9.02%  60d_lo +9.63%  52w_hi -9.02%  52w_lo +119.39%\nDivergence : none\nATR 14d   : 1.85%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : -1 (down streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=1.85%) ===\n  short   (N= 1d)  neutral=+-0.93%  small <1.29%  medium 1.29%-3.70%  large >=3.70%\n  medium  (N= 5d)  neutral=+-2.07%  small <2.90%  medium 2.90%-8.27%  large >=8.27%\n  large   (N=20d)  neutral=+-4.14%  small <5.79%  medium 5.79%-16.55%  large >=16.55%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-01-09 15:51:50\nIn trading hours: False  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : next trading day after event_date (news arrived outside EGX hours)\n-> short = the start day itself; medium = +5 trading days; large = +20 trading days.\n\n=== ARABIC SENTIMENT (one input among many) ===\nLabel : neutral\nScore : +0.2329   (-1 strongly negative -> +1 strongly positive)\nNOTE: CAMeLBERT classifies tone, not financial implication.\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-01-09 15:51:50\nHeadline  : 57 % ارتفاعًا في مبيعات \"راميدا\" خلال نوفمبر الماضي\n\nالقاهرة - مباشر: قالت شركة العاشر من رمضان للصناعات الدوائية والمستحضرات تشخيصية- راميدا، إن مبيعات الشركة ارتفعت بنسبة 57% خلال شهر نوفمبر الماضي.\nوأضافت الشركة في افصاح ردًا على استفسارات البورصة، إن نسبة النمو بناء على تقارير سوق الدواء الصادرة عن IQVIA.\nيشار إلى أن العاشر من رمضان للصناعات الدوائية والمستحضرات تشخيصية-راميدا،  حققت أرباحاً بلغت 244.03 مليون جنيه خلال الفترة من يناير حتى نهاية سبتمبر 2024، مقابل أرباح بلغت 196.97 مليون جنيه في الفترة المقارنة من 2023، مع الأخذ في الاعتبار حقوق الأقلية.\nوارتفعت إيرادات الشركة خلال التسعة أشهر الأولى من العام الجاري إلى 1.78 مليار جنيه، مقابل 1.38 مليار جنيه إيرادات خلال الفترة ذاتها من العام الماضي.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية\n..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر\n..\nاضغط هنا\nترشيحات\n:\nأرباح \"راميدا\" ترتفع لأكثر من 244 مليون جنيه خلال 9 أشهر\n\"راميدا\" تدعو عموميتها للانعقاد في طور انعقاد ثان يوم 10 ديسمبر المقبل\n\n=== HORIZONS (predict ALL THREE) ===\nshort  -> 1  trading day  from start  (the start day's reaction)\nmedium -> 5  trading days from start  (one trading week cumulative)\nlarge  -> 20 trading days from start  (one trading month cumulative)\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- \"up\" means\noutperforming the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== OUTPUT INSTRUCTIONS ===\n1. Classify news_type FIRST.\n2. Walk through T1-T5. Pick TA signals that ACTUALLY apply from the closed vocab.\n3. Anchor magnitudes to the PER-COMPANY bands above (NOT a global rule).\n4. Quantify any dilution/yield ratio with both inputs.\n5. If news_type=dividend, FILL dividend_info; otherwise set it to null.\n6. LANGUAGE: free-text Arabic. JSON keys + enum values in English.\n7. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"news_type\":         \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n  \"already_priced_in\": <true | false>,\n  \"quantified_ratio\":  \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n  \"key_drivers\":       [\"<driver 1 Arabic>\", \"<driver 2 Arabic>\"],\n  \"ta_signals_cited\":  [\"<signal from closed vocab>\", \"...\"],\n  \"dividend_info\": null | {\n    \"yield_pct\":      <float>,\n    \"ex_div_date\":    \"<YYYY-MM-DD or null if unknown>\",\n    \"amount_egp\":     <float or null>\n  },\n  \"per_horizon\": {\n    \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"},\n    \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"},\n    \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"}\n  },\n  \"overall_reasoning\": \"<3-4 Arabic sentences. Walk T1-T5 briefly. Reference the per-company magnitude bands explicitly. State the quantified ratio if applicable.>\"\n}",
+    "critic": "You are a senior quantitative risk analyst at an Egyptian investment bank. A junior LLM analyst has assessed a news event about RMDA (Rameda - RMDA). Your job:\n  (a) audit the junior's TA citations against the live data,\n  (b) check magnitudes against the PER-COMPANY bands (not global rules),\n  (c) produce the final authoritative prediction across short / medium / large,\n  (d) write a plain-Arabic explanation for a non-expert retail investor.\n\n=== COMPANY ===\nTicker      : RMDA\nName        : Rameda - RMDA\nSector      : Healthcare & Pharmaceuticals\nDescription : Rameda — Egyptian generic pharmaceutical manufacturer; domestic-focused revenues in EGP; sensitive to regulatory pricing decisions.\nPrice data  : as of 2025-01-08  (article date: 2025-01-09)\n\n=== PRICE STATE ===\nLast close  : 3.53 EGP\nReturn 1d   : -1.94%   5d : +7.29%   20d : +2.32%   60d : +9.97%\nvs MA-50    : +1.73%  vs MA-200 : +27.44%\nTrend       : uptrend (above MA-50 and MA-200)\nVol 20d ann : 37.95%  [low regime]  Low -> impact MUTED unless structurally significant.\n\n=== SECTOR ===\nSector 1d   : -1.55%  5d : +6.28%\nStock vs sector 1d : -0.39%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 0.82\nTop peers:\n  - TMGH | Real Estate | 90d-corr: 0.45\n  - ISPH | Healthcare & Pharmaceuticals | 90d-corr: 0.41\n  - EMFD | Real Estate | 90d-corr: 0.39\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2024-12-31: stock +1.52%  sector +1.48%  AR +0.04%\n  2025-01-02: stock +2.10%  sector +0.69%  AR +1.41%\n  2025-01-05: stock +5.57%  sector +6.31%  AR -0.74%\n  2025-01-06: stock +0.00%  sector -0.27%  AR +0.27%\n  2025-01-08: stock -1.94%  sector -1.65%  AR -0.29%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 55.82  [neutral]\nMACD      : state=bullish  hist=+0.0237\nBollinger : zone=middle  %B=0.791\nDistance  : 20d_hi -1.94%  20d_lo +7.29%  60d_hi -9.02%  60d_lo +9.63%  52w_hi -9.02%  52w_lo +119.39%\nDivergence : none\nATR 14d   : 1.85%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : -1 (down streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=1.85%) ===\n  short   (N= 1d)  neutral=+-0.93%  small <1.29%  medium 1.29%-3.70%  large >=3.70%\n  medium  (N= 5d)  neutral=+-2.07%  small <2.90%  medium 2.90%-8.27%  large >=8.27%\n  large   (N=20d)  neutral=+-4.14%  small <5.79%  medium 5.79%-16.55%  large >=16.55%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-01-09 15:51:50\nIn trading hours: False  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : next trading day after event_date (news arrived outside EGX hours)\n-> short = the start day itself; medium = +5 trading days; large = +20 trading days.\n\n=== ARABIC SENTIMENT ===\nLabel : neutral\nScore : +0.2329\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-01-09 15:51:50\nHeadline  : 57 % ارتفاعًا في مبيعات \"راميدا\" خلال نوفمبر الماضي\n\nالقاهرة - مباشر: قالت شركة العاشر من رمضان للصناعات الدوائية والمستحضرات تشخيصية- راميدا، إن مبيعات الشركة ارتفعت بنسبة 57% خلال شهر نوفمبر الماضي.\nوأضافت الشركة في افصاح ردًا على استفسارات البورصة، إن نسبة النمو بناء على تقارير سوق الدواء الصادرة عن IQVIA.\nيشار إلى أن العاشر من رمضان للصناعات الدوائية والمستحضرات تشخيصية-راميدا،  حققت أرباحاً بلغت 244.03 مليون جنيه خلال الفترة من يناير حتى نهاية سبتمبر 2024، مقابل أرباح بلغت 196.97 مليون جنيه في الفترة المقارنة من 2023، مع الأخذ في الاعتبار حقوق الأقلية.\nوارتفعت إيرادات الشركة خلال التسعة أشهر الأولى من العام الجاري إلى 1.78 مليار جنيه، مقابل 1.38 مليار جنيه إيرادات خلال الفترة ذاتها من العام الماضي.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية\n..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر\n..\nاضغط هنا\nترشيحات\n:\nأرباح \"راميدا\" ترتفع لأكثر من 244 مليون جنيه خلال 9 أشهر\n\"راميدا\" تدعو عموميتها للانعقاد في طور انعقاد ثان يوم 10 ديسمبر المقبل\n\n=== IMPACT AGENT OUTPUT (junior, Groq) ===\n{\n  \"news_type\": \"operational\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"لا ينطبق\",\n  \"key_drivers\": [\n    \"ارتفاع مبيعات راميدا بنسبة 57% في نوفمبر\",\n    \"زيادة إيرادات الشركة إلى 1.78 مليار جنيه في 9 أشهر\"\n  ],\n  \"ta_signals_cited\": [\n    \"macd_bullish\",\n    \"strong_uptrend\",\n    \"low_volatility\",\n    \"rsi_neutral\"\n  ],\n  \"dividend_info\": null,\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.75,\n      \"reasoning\": \"الماكدي بولشية تدعم التحرك الإيجابي، مع احتمال تأثير معتدل بسبب التقلبات المنخفضة (37.95%)، والاتجاه الصعودي القوي (أعلى من المتوسطات المتحركة).\"\n    },\n    \"medium\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.65,\n      \"reasoning\": \"الاتجاه الصعودي المستمر والماكدي بولشية يدعمان استمرار الأداء الإيجابي، مع حدود معتدلة بسبب تقلبات 20 يومًا (37.95%) ونطاق الموجات الصغيرة (±2.07%).\"\n    },\n    \"large\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.55,\n      \"reasoning\": \"الاتجاه الصعودي القوي (27.44% أعلى من المتوسط المتحرك 200 يوم) والماكدي بولشية يعززان التوقعات على المدى الطويل، مع احتمالات معتدلة بسبب تقلبات 20 يومًا ونطاق الموجات المتوسطة (±4.14%).\"\n    }\n  }\n}\n\n=== HORIZONS (predict ALL THREE) ===\nshort  -> 1  trading day  from start  (the start day's reaction)\nmedium -> 5  trading days from start  (one trading week cumulative)\nlarge  -> 20 trading days from start  (one trading month cumulative)\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- \"up\" means\noutperforming the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== REVIEW CHECKLIST ===\nC1. NEWS_TYPE correct?\nC2. TA_SIGNALS: every cited signal must be supported by the data. Override\n    inconsistent cites and note in disagreements_with_junior.\nC3. MAGNITUDE vs PER-COMPANY BANDS: does the predicted bucket match the\n    horizon's per-company thresholds? Adjust if mis-scaled.\nC4. PRICED-IN: if stock_vs_sector_1d aligns with the news direction, short\n    magnitude should default to \"small\" (R4).\nC5. DIVERGENCE: if a divergence signal is present, did the junior account for it?\nC6. CONFIDENCE: lower when agents-disagree-with-context or news is priced in.\n    Default conf_large <= conf_medium <= conf_short.\nC7. DIVIDEND_INFO: if news_type=dividend, ensure yield_pct is present. If the\n    article gives the ex-div date, extract it as YYYY-MM-DD; otherwise null.\nC8. LANGUAGE LEAKS: strip any non-Arabic word from Arabic fields (R6).\n\n=== USER-FACING EXPLANATION ===\nU1. NO JARGON. Use everyday Arabic equivalents for RSI / MACD / Bollinger /\n    ATR / abnormal return / dilution.\nU2. NUMBERS WITH MEANING. Every cited number gets a plain-Arabic interpretation.\nU3. STATE THE PREDICTION FIRST in what_we_expect (direction + size + timeline),\n    THEN 1-2 sentences of evidence.\nU4. PER-HORIZON. outlook_by_horizon.short / .medium / .large -- one Arabic\n    sentence each with direction + size + rationale clue.\nU5. BREVITY. ~150-200 Arabic words across the whole user block.\nU6. 100% Arabic in the user block.\n\n=== INSTRUCTIONS ===\n1. Override the junior anywhere evidence demands it; list each change in\n   \"disagreements_with_junior\" with the reason.\n2. Confidence: adjust per horizon. Default conf_large <= conf_medium <= conf_short.\n3. SPELLING: \"RSI-14\" not \"RS-14\". Proper Arabic punctuation.\n4. LANGUAGE: free-text Arabic; JSON keys + tickers + enum values in English.\n5. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"primary_company\": {\n    \"ticker\":              \"RMDA\",\n    \"news_type\":           \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n    \"already_priced_in\":   <true | false>,\n    \"quantified_ratio\":    \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n    \"ta_signals_cited\":    [\"<signal from closed vocab>\", \"...\"],\n    \"dividend_info\": null | {\n      \"yield_pct\":   <float>,\n      \"ex_div_date\": \"<YYYY-MM-DD or null>\",\n      \"amount_egp\":  <float or null>\n    },\n    \"per_horizon\": {\n      \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"},\n      \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"},\n      \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"}\n    },\n    \"overall_reasoning\":   \"<3-4 Arabic sentences. Reference the per-company bands. State news_type. Note any override of the junior.>\"\n  },\n  \"risk_flags\": [\n    \"<event-specific risk in Arabic>\",\n    \"<event-specific risk in Arabic>\"\n  ],\n  \"disagreements_with_junior\": [\n    \"<what the junior said, what is correct, why -- in Arabic>\"\n  ],\n  \"external_signal_alignment\":   \"aligned\" | \"partially_aligned\" | \"contradicts\",\n  \"external_signal_explanation\": \"<1-2 sentences in Arabic>\",\n  \"tldr\": {\n    \"verdict\":   \"<short Arabic phrase: direction + horizon>\",\n    \"one_line\":  \"<one Arabic sentence summarising the whole view>\"\n  },\n  \"explanation_for_user\": {\n    \"headline\":                  \"<one sentence plain Arabic, no jargon>\",\n    \"what_happened\":             \"<2-3 sentences plain Arabic, no jargon>\",\n    \"why_it_matters\":            \"<2-3 sentences plain Arabic, financial logic in everyday terms>\",\n    \"what_we_expect\":            \"<lead with prediction (direction + size + timeline) THEN evidence>\",\n    \"outlook_by_horizon\": {\n      \"short\":  \"<one Arabic sentence: direction + size + rationale for the first trading day>\",\n      \"medium\": \"<one Arabic sentence: direction + size + rationale for the first week (5 days)>\",\n      \"large\":  \"<one Arabic sentence: direction + size + rationale for the first month (20 days)>\"\n    },\n    \"what_could_change_our_view\":\"<1-2 Arabic sentences on key uncertainties>\"\n  }\n}"
+  },
+  "impact_agent": {
+    "output": {
+      "news_type": "operational",
+      "already_priced_in": false,
+      "quantified_ratio": "لا ينطبق",
+      "key_drivers": [
+        "ارتفاع مبيعات راميدا بنسبة 57% في نوفمبر",
+        "زيادة إيرادات الشركة إلى 1.78 مليار جنيه في 9 أشهر"
+      ],
+      "ta_signals_cited": [
+        "macd_bullish",
+        "strong_uptrend",
+        "low_volatility",
+        "rsi_neutral"
+      ],
+      "dividend_info": null,
+      "per_horizon": {
+        "short": {
+          "direction": "up",
+          "magnitude": "medium",
+          "confidence": 0.75,
+          "reasoning": "الماكدي بولشية تدعم التحرك الإيجابي، مع احتمال تأثير معتدل بسبب التقلبات المنخفضة (37.95%)، والاتجاه الصعودي القوي (أعلى من المتوسطات المتحركة)."
+        },
+        "medium": {
+          "direction": "up",
+          "magnitude": "medium",
+          "confidence": 0.65,
+          "reasoning": "الاتجاه الصعودي المستمر والماكدي بولشية يدعمان استمرار الأداء الإيجابي، مع حدود معتدلة بسبب تقلبات 20 يومًا (37.95%) ونطاق الموجات الصغيرة (±2.07%)."
+        },
+        "large": {
+          "direction": "up",
+          "magnitude": "medium",
+          "confidence": 0.55,
+          "reasoning": "الاتجاه الصعودي القوي (27.44% أعلى من المتوسط المتحرك 200 يوم) والماكدي بولشية يعززان التوقعات على المدى الطويل، مع احتمالات معتدلة بسبب تقلبات 20 يومًا ونطاق الموجات المتوسطة (±4.14%)."
+        }
+      }
+    },
+    "raw": "{  \"news_type\": \"operational\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"لا ينطبق\",\n  \"key_drivers\": [\n    \"ارتفاع مبيعات راميدا بنسبة 57% في نوفمبر\",\n    \"زيادة إيرادات الشركة إلى 1.78 مليار جنيه في 9 أشهر\"\n  ],\n  \"ta_signals_cited\": [\n    \"macd_bullish\",\n    \"strong_uptrend\",\n    \"low_volatility\",\n    \"rsi_neutral\"\n  ],\n  \"dividend_info\": null,\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.75,\n      \"reasoning\": \"الماكدي بولشية تدعم التحرك الإيجابي، مع احتمال تأثير معتدل بسبب التقلبات المنخفضة (37.95%)، والاتجاه الصعودي القوي (أعلى من المتوسطات المتحركة).\"\n    },\n    \"medium\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.65,\n      \"reasoning\": \"الاتجاه الصعودي المستمر والماكدي بولشية يدعمان استمرار الأداء الإيجابي، مع حدود معتدلة بسبب تقلبات 20 يومًا (37.95%) ونطاق الموجات الصغيرة (±2.07%).\"\n    },\n    \"large\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.55,\n      \"reasoning\": \"الاتجاه الصعودي القوي (27.44% أعلى من المتوسط المتحرك 200 يوم) والماكدي بولشية يعززان التوقعات على المدى الطويل، مع احتمالات معتدلة بسبب تقلبات 20 يومًا ونطاق الموجات المتوسطة (±4.14%).\"\n    }\n  }}"
+  },
+  "critic_agent": {
+    "output": {
+      "primary_company": {
+        "ticker": "RMDA",
+        "news_type": "operational",
+        "already_priced_in": false,
+        "quantified_ratio": "57% ارتفاع في مبيعات نوفمبر بناءً على تقارير IQVIA؛ لا توجد بيانات مقارنة للمبيعات القديمة",
+        "ta_signals_cited": [
+          "macd_bullish",
+          "strong_uptrend",
+          "rsi_neutral",
+          "bollinger_middle",
+          "near_20d_high"
+        ],
+        "dividend_info": null,
+        "per_horizon": {
+          "short": {
+            "direction": "up",
+            "magnitude": "small",
+            "confidence": 0.75,
+            "reasoning": "الماكدي بولشي مع السعر عند 55.82 RSI (محايد) يتيح مساحة صعود، والمسافة 1.94% من القمة اليومية تعني أن القفزة محدودة. الحركة المتوقعة ضمن نطاق الضوضاء (أقل من 1.29%)."
+          },
+          "medium": {
+            "direction": "up",
+            "magnitude": "medium",
+            "confidence": 0.68,
+            "reasoning": "الاتجاه الصعودي (+7.29% في 5 أيام) والماكدية يدعمان الصعود؛ المسافة 9.02% من قمة 60 يومًا تترك مجالاً للحركة ضمن نطاق الموجة المتوسطة (2.90%-8.27%)."
+          },
+          "large": {
+            "direction": "up",
+            "magnitude": "medium",
+            "confidence": 0.6,
+            "reasoning": "البُعد 27.44% فوق المتوسط المتحرك 200 يوم يؤكد اتجاهاً صعودياً قوياً، والحركة المتوقعة ضمن نطاق الموجة المتوسطة على المدى الطويل (5.79%-16.55%)."
+          }
+        },
+        "overall_reasoning": "الأخبار إيجابية: ارتفاع المبيعات 57% في نوفمبر ومبيعات 9 أشهر 1.78 مليار جنيه (+29% على سنوي) تدعم الصعود. الماكدي بولشي + الاتجاه القوي + المساحة من القمم يamplify إيجابية الأخبار. التداول خارجHoraires لا يعني تسعير مسبق لأن الحدث لم يصدر بعد. مستويات الـ ATR (1.85%) تعني أن السهم منخفض التقلب نسبياً مما يحد من حجم الحركة المتوقعة."
+      },
+      "risk_flags": [
+        "مخاطر تنظيمية: تسعير الأدوية في مصر عرضة لقرارات الجهات الرقابية التي قد تؤثر على الهوامش",
+        "مخاطر التقلب: رغم أن التقلب منخفض حالياً، إلا أن أي خبر سلبي مفاجئ قد يسبب حركة معكوسة حادة",
+        "مخاطر القطاع: ارتباط 0.82 مع القطاع يجعل حركة القطاع السلبية تؤثر سلباً على السهم"
+      ],
+      "disagreements_with_junior": [
+        "Junior وصف التقلب بـ'منخفض' (37.95%) بينما التصنيف الصحيح هو 'تداول طبيعي' Low regime = vol regime منخفض، وليس التقلب نفسه منخفض. الضوضاء اليومية النموذجية 1.85% تعني أن الحركة 'الطبيعية' موجودة.",
+        "Junior قدّم 'medium' للثلاثة آفاق، لكن على المدى القصير (1 يوم) الحركة المتوقعة ضمن نطاق 'small' (أقل من 1.29%) بسبب قرب السعر من قمة 20 يوم (-1.94%)، مما يحد من القفزة الصاعدة.",
+        "Junior لم يذكر near_20d_high رغم أن المسافة -1.94% مهمة لتحديد سقف الحركة القصيرة."
+      ],
+      "external_signal_alignment": "aligned",
+      "external_signal_explanation": "المؤشرات الفنية (ماكدية صاعدة، اتجاه صعودي قوي، ارتباط 0.82 مع القطاع) تتفق مع اتجاه الأخبار الإيجابية.",
+      "tldr": {
+        "verdict": "صعود صغير على المدى القصير ثم صعود متوسط على المدى المتوسط والطويل",
+        "one_line": "أخبار تشغيلية إيجابية (57% نمو مبيعات نوفمبر) مع اتجاه صعودي قوي وماكدية بولشية تدعم الصعود على المدى القصير والمتوسط والطويل، لكن قرب السعر من قمة 20 يوم يحد من القفزة الفورية"
+      },
+      "explanation_for_user": {
+        "headline": "ارتفاع مبيعات راميدا 57% في نوفمبر إيجابي لكن السعر قريب من قمته اليومية",
+        "what_happened": "سجلت راميدا نمواً في المبيعات بنسبة 57% خلال نوفمبر الماضي according to IQVIA، كما ارتفعت الإيرادات في 9 أشهر إلى 1.78 مليار جنيه مقابل 1.38 مليار جنيه العام الماضي.",
+        "why_it_matters": "هذا يعني أن الشركة تنمو بسرعة كبيرة وأن منتجاتها تحظى بانتشار جيد في السوق المصري. الأرباح ارتفعت هي الأخرى 23% في 9 أشهر.",
+        "what_we_expect": "نتوقع صعوداً بسيطاً في اليوم الأول (يوم التداول القادم) بسبب قرب السعر من قمة 20 يوم، ثم صعوداً متوسطاً خلال الأسبوع والشهر حيث يستمر الزخم الإيجابي.",
+        "outlook_by_horizon": {
+          "short": "نتوقع صعوداً بسيطاً (small) في يوم التداول الأول بنسبة تتراوح بين 0.5% و 1.3%، لأن السعر قريب من قمته الأخيرة مما يحد من القفزة.",
+          "medium": "نتوقع صعوداً متوسطاً (medium) خلال 5 أيام بنسبة تتراوح بين 3% و 8%، بدعم من الاتجاه الصعودي القوي والماكدية.",
+          "large": "نتوقع صعوداً متوسطاً (medium) خلال 20 يوماً بنسبة تتراوح بين 6% و 16%، حيث البُعد 27% فوق المتوسط طويل المدى يدعم الاتجاه."
+        },
+        "what_could_change_our_view": "إذا صدرت قرارات تسعيرية سلبية من الجهات الرقابية المصرية، أو انخفضSector Pharmaceuticals بشكل عام، فقد تتغير التوقعات."
+      }
+    },
+    "raw": "\n\n{\"primary_company\":{\"ticker\":\"RMDA\",\"news_type\":\"operational\",\"already_priced_in\":false,\"quantified_ratio\":\"57% ارتفاع في مبيعات نوفمبر بناءً على تقارير IQVIA؛ لا توجد بيانات مقارنة للمبيعات القديمة\",\"ta_signals_cited\":[\"macd_bullish\",\"strong_uptrend\",\"rsi_neutral\",\"bollinger_middle\",\"near_20d_high\"],\"dividend_info\":null,\"per_horizon\":{\"short\":{\"direction\":\"up\",\"magnitude\":\"small\",\"confidence\":0.75,\"reasoning\":\"الماكدي بولشي مع السعر عند 55.82 RSI (محايد) يتيح مساحة صعود، والمسافة 1.94% من القمة اليومية تعني أن القفزة محدودة. الحركة المتوقعة ضمن نطاق الضوضاء (أقل من 1.29%).\"},\"medium\":{\"direction\":\"up\",\"magnitude\":\"medium\",\"confidence\":0.68,\"reasoning\":\"الاتجاه الصعودي (+7.29% في 5 أيام) والماكدية يدعمان الصعود؛ المسافة 9.02% من قمة 60 يومًا تترك مجالاً للحركة ضمن نطاق الموجة المتوسطة (2.90%-8.27%).\"},\"large\":{\"direction\":\"up\",\"magnitude\":\"medium\",\"confidence\":0.60,\"reasoning\":\"البُعد 27.44% فوق المتوسط المتحرك 200 يوم يؤكد اتجاهاً صعودياً قوياً، والحركة المتوقعة ضمن نطاق الموجة المتوسطة على المدى الطويل (5.79%-16.55%).\"}},\"overall_reasoning\":\"الأخبار إيجابية: ارتفاع المبيعات 57% في نوفمبر ومبيعات 9 أشهر 1.78 مليار جنيه (+29% على سنوي) تدعم الصعود. الماكدي بولشي + الاتجاه القوي + المساحة من القمم يamplify إيجابية الأخبار. التداول خارجHoraires لا يعني تسعير مسبق لأن الحدث لم يصدر بعد. مستويات الـ ATR (1.85%) تعني أن السهم منخفض التقلب نسبياً مما يحد من حجم الحركة المتوقعة.\"},\"risk_flags\":[\"مخاطر تنظيمية: تسعير الأدوية في مصر عرضة لقرارات الجهات الرقابية التي قد تؤثر على الهوامش\",\"مخاطر التقلب: رغم أن التقلب منخفض حالياً، إلا أن أي خبر سلبي مفاجئ قد يسبب حركة معكوسة حادة\",\"مخاطر القطاع: ارتباط 0.82 مع القطاع يجعل حركة القطاع السلبية تؤثر سلباً على السهم\"],\"disagreements_with_junior\":[\"Junior وصف التقلب بـ'منخفض' (37.95%) بينما التصنيف الصحيح هو 'تداول طبيعي' Low regime = vol regime منخفض، وليس التقلب نفسه منخفض. الضوضاء اليومية النموذجية 1.85% تعني أن الحركة 'الطبيعية' موجودة.\",\"Junior قدّم 'medium' للثلاثة آفاق، لكن على المدى القصير (1 يوم) الحركة المتوقعة ضمن نطاق 'small' (أقل من 1.29%) بسبب قرب السعر من قمة 20 يوم (-1.94%)، مما يحد من القفزة الصاعدة.\",\"Junior لم يذكر near_20d_high رغم أن المسافة -1.94% مهمة لتحديد سقف الحركة القصيرة.\"],\"external_signal_alignment\":\"aligned\",\"external_signal_explanation\":\"المؤشرات الفنية (ماكدية صاعدة، اتجاه صعودي قوي، ارتباط 0.82 مع القطاع) تتفق مع اتجاه الأخبار الإيجابية.\",\"tldr\":{\"verdict\":\"صعود صغير على المدى القصير ثم صعود متوسط على المدى المتوسط والطويل\",\"one_line\":\"أخبار تشغيلية إيجابية (57% نمو مبيعات نوفمبر) مع اتجاه صعودي قوي وماكدية بولشية تدعم الصعود على المدى القصير والمتوسط والطويل، لكن قرب السعر من قمة 20 يوم يحد من القفزة الفورية\"},\"explanation_for_user\":{\"headline\":\"ارتفاع مبيعات راميدا 57% في نوفمبر إيجابي لكن السعر قريب من قمته اليومية\",\"what_happened\":\"سجلت راميدا نمواً في المبيعات بنسبة 57% خلال نوفمبر الماضي according to IQVIA، كما ارتفعت الإيرادات في 9 أشهر إلى 1.78 مليار جنيه مقابل 1.38 مليار جنيه العام الماضي.\",\"why_it_matters\":\"هذا يعني أن الشركة تنمو بسرعة كبيرة وأن منتجاتها تحظى بانتشار جيد في السوق المصري. الأرباح ارتفعت هي الأخرى 23% في 9 أشهر.\",\"what_we_expect\":\"نتوقع صعوداً بسيطاً في اليوم الأول (يوم التداول القادم) بسبب قرب السعر من قمة 20 يوم، ثم صعوداً متوسطاً خلال الأسبوع والشهر حيث يستمر الزخم الإيجابي.\",\"outlook_by_horizon\":{\"short\":\"نتوقع صعوداً بسيطاً (small) في يوم التداول الأول بنسبة تتراوح بين 0.5% و 1.3%، لأن السعر قريب من قمته الأخيرة مما يحد من القفزة.\",\"medium\":\"نتوقع صعوداً متوسطاً (medium) خلال 5 أيام بنسبة تتراوح بين 3% و 8%، بدعم من الاتجاه الصعودي القوي والماكدية.\",\"large\":\"نتوقع صعوداً متوسطاً (medium) خلال 20 يوماً بنسبة تتراوح بين 6% و 16%، حيث البُعد 27% فوق المتوسط طويل المدى يدعم الاتجاه.\"},\"what_could_change_our_view\":\"إذا صدرت قرارات تسعيرية سلبية من الجهات الرقابية المصرية، أو انخفضSector Pharmaceuticals بشكل عام، فقد تتغير التوقعات.\"}}",
+    "thinking": "Let me carefully analyze this RMDA news event and the junior analyst's output to produce the authoritative prediction.\n\n**News Analysis:**\n- News: Rameda reported 57% sales increase in November (based on IQVIA market data)\n- Also: 9-month revenues reached 1.78B EGP vs 1.38B EGP (↑29%)\n- 9-month profits: 244.03M EGP vs 196.97M EGP (↑23.9%)\n- News type: **operational** (positive operational update)\n\n**Price State Check:**\n- Stock: down 1.94% on Jan 8, sector down 1.65% → AR = -0.29%\n- But the news came AFTER trading hours on Jan 9, so the Jan 8 move doesn't directly relate\n- The 5d return is +7.29% vs sector +6.28% → AR = +1.01% positive over 5 days\n- The stock has been outperforming slightly\n\n**Technical Checklist:**\n\nT1. OVERBOUGHT/OVERSOLD:\n- RSI-14: 55.82 → neutral (not overbought, not oversold)\n- Bollinger %B: 0.791 → middle zone, not at extremes\n- Near 20d high: -1.94% → stock is 1.94% below 20d high, NOT at high\n- Not overbought conditions\n\nT2. DIVERGENCE:\n- No divergence mentioned\n- No divergence signals present\n\nT3. MOMENTUM CONFIRMATION:\n- MACD: bullish state, histogram +0.0237\n- This AMPLIFIES bullish news\n- Confirmed\n\nT4. ROOM TO RUN:\n- Distance to 20d high: -1.94% → close to high but not AT it (cap exists but modest)\n\n\n- Distance to 52w high: -9.02% → significant room to run\n- Distance to 60d low: +9.63% → clear of support\n\nT5. PER-COMPANY BANDS (RMDA ATR = 1.85%):\n- Short (1d): neutral ±0.93%, small <1.29%, medium 1.29%-3.70%, large ≥3.70%\n- Medium (5d): neutral ±2.07%, small <2.90%, medium 2.90%-8.27%, large ≥8.27%\n- Large (20d): neutral ±4.14%, small <5.79%\n\nThe per-company bands show significant upside potential across all timeframes. With 57% sales growth and positive MACD momentum, the medium and large timeframes offer substantial room for price appreciation before hitting resistance levels.\n\nChecking the junior's cited signals against actual data reveals some discrepancies. The MACD bullish state checks out, but the low volatility characterization is debatable given the 37.95% annualized 20-day volatility—more accurately described as normal. The strong uptrend is confirmed by the 27.44% advantage over the 200-day moving average. RSI neutrality at 55.82 is correct but doesn't necessarily support bullish positioning. The junior's predictions for short, medium, and large timeframes all point upward with medium confidence levels, suggesting a consistent directional bias despite some signal misalignment. Looking at the 5-day forecast: the +7.29% return sits in the medium range, and with positive abnormal returns visible across the window, this aligns with the medium magnitude projection. The MACD's bullish configuration supports this view, while room remains between current levels and the 60-day high to sustain upward movement. For the 20-day horizon: the +9.97% return falls within medium parameters. The strong 27.44% outperformance versus the 200-day MA establishes a clear uptrend, though confidence is tempered by the inherently lower reliability of longer-term forecasts. All horizons favor upward momentum with medium magnitude and confidence scores of 0.75, 0.68, and 0.60 respectively, reflecting the strong MACD signal but cautious positioning due to the moderate volatility regime.\n\nThe stock shows consistent outperformance against the sector with a 0.82 correlation, and the 5-day abnormal return trajectory is net positive, suggesting the recent strength is genuine rather than noise-driven. The MACD histogram at +0.0237 confirms the bullish signal across all timeframes. While the 37.95% annualized volatility sits in a low regime, this actually constrains potential magnitude rather than undermining the directional thesis. I disagree with characterizing this as low volatility—the metric represents moderate movement rather than quiet conditions. Since this is operational news rather than earnings, there's no consensus baseline to evaluate against, but the 57% November sales growth provides clear positive momentum that the analysis appropriately captures.\n\nThe technical picture supports continuation: RSI neutral at 55.82 leaves room for upside without overbought concerns, the stock sits 1.94% below its 20-day high leaving meaningful ceiling to work with, and MACD confirms the bullish trend. My directional outlook across all horizons remains upward with medium confidence. Short-term predictions show smaller deviations that align with normal market noise, medium-term targets fall within expected ranges given the sales acceleration, and large-term expectations track similarly. Risk factors to monitor include whether regulatory pricing pressures emerge or competitive dynamics in Egypt's pharmaceutical sector shift unfavorably.\n"
+  },
+  "final": {
+    "ticker": "RMDA",
+    "news_type": "operational",
+    "already_priced_in": false,
+    "quantified_ratio": "57% ارتفاع في مبيعات نوفمبر بناءً على تقارير IQVIA؛ لا توجد بيانات مقارنة للمبيعات القديمة",
+    "ta_signals_cited": [
+      "macd_bullish",
+      "strong_uptrend",
+      "rsi_neutral",
+      "bollinger_middle",
+      "near_20d_high"
+    ],
+    "dividend_info": null,
+    "per_horizon": {
+      "short": {
+        "direction": "up",
+        "magnitude": "small",
+        "confidence": 0.75,
+        "reasoning": "الماكدي بولشي مع السعر عند 55.82 RSI (محايد) يتيح مساحة صعود، والمسافة 1.94% من القمة اليومية تعني أن القفزة محدودة. الحركة المتوقعة ضمن نطاق الضوضاء (أقل من 1.29%)."
+      },
+      "medium": {
+        "direction": "up",
+        "magnitude": "medium",
+        "confidence": 0.68,
+        "reasoning": "الاتجاه الصعودي (+7.29% في 5 أيام) والماكدية يدعمان الصعود؛ المسافة 9.02% من قمة 60 يومًا تترك مجالاً للحركة ضمن نطاق الموجة المتوسطة (2.90%-8.27%)."
+      },
+      "large": {
+        "direction": "up",
+        "magnitude": "medium",
+        "confidence": 0.6,
+        "reasoning": "البُعد 27.44% فوق المتوسط المتحرك 200 يوم يؤكد اتجاهاً صعودياً قوياً، والحركة المتوقعة ضمن نطاق الموجة المتوسطة على المدى الطويل (5.79%-16.55%)."
+      }
+    },
+    "overall_reasoning": "الأخبار إيجابية: ارتفاع المبيعات 57% في نوفمبر ومبيعات 9 أشهر 1.78 مليار جنيه (+29% على سنوي) تدعم الصعود. الماكدي بولشي + الاتجاه القوي + المساحة من القمم يamplify إيجابية الأخبار. التداول خارجHoraires لا يعني تسعير مسبق لأن الحدث لم يصدر بعد. مستويات الـ ATR (1.85%) تعني أن السهم منخفض التقلب نسبياً مما يحد من حجم الحركة المتوقعة."
+  }
+}

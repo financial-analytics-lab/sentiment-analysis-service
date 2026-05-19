@@ -1,6 +1,0 @@
-ticker,event_date,horizon,news_type,predicted_direction,predicted_magnitude,confidence,actual_ar_pct,directional_hit,magnitude_hit,status,file
-EMFD,2025-01-02,2-4w,capital_increase,down,medium,0.62,-6.396,True,False,scored,EMFD_2025-01-02_b5fd0aa7.json
-EMFD,2025-01-02,2-4w,capital_increase,down,medium,0.55,-6.396,True,False,scored,EMFD_2025-01-02_c2cb046f.json
-EMFD,2025-02-11,2-5d,operational,up,small,0.55,6.825,True,False,scored,EMFD_2025-02-11_93a07e2e.json
-EMFD,2025-02-13,2-4w,capital_increase,down,medium,0.52,12.541,False,False,scored,EMFD_2025-02-13_e61d5b72.json
-EMFD,2025-02-16,1-2w,operational,up,medium,0.6,-0.138,False,False,scored,EMFD_2025-02-16_08083ff8.json

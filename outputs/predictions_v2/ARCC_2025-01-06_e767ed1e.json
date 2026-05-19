@@ -1,0 +1,364 @@
+{
+  "ticker": "ARCC",
+  "article_date": "2025-01-06",
+  "context_date": "2025-01-05",
+  "processed_at": "2026-05-17T23:42:34.052357",
+  "article": {
+    "symbol": "ARCC",
+    "company": "Arabian Cement Company",
+    "isin": "EGS3C0O1C016",
+    "sector": "Construction & Building Materials",
+    "id": "4388236",
+    "date": "2025-01-06",
+    "time": "10:14:32",
+    "datetime": "2025-01-06 10:14:32",
+    "title": "اليوم.. نهاية الحق في توزيع كوبون شركة العربية للأسمنت",
+    "body": "القاهرة - مباشر: ينتهي خلال جلسة اليوم الأثنين، الحق في توزيع كوبون شركة العربية للأسمنت لمشتري السهم.\nومن المقرر توزيع كوبون العربية للأسمنت رقم (16) بواقع 1.585 جنيه للسهم الواحد وذلك اعتباراً من 12 يناير 2025.\nيشار إلى أن العربية للأسمنت، حققت صافي ربح بلغ 664.72 مليون جنيه خلال الفترة من يناير حتى سبتمبر 2024، مقابل أرباح بلغت 500.25 مليون جنيه بالفترة المقارنة من 2023، مع الأخذ في الاعتبار حقوق الأقلية.\nوارتفعت إيرادات الشركة خلال التسعة أشهر إلى 6.38 مليار جنيه، مقابل 4.6 مليار جنيه في الفترة المقارنة من 2023.\nوعلى صعيد القوائم غير المجمعة، ارتفعت أرباح الشركة المستقلة خلال المدة من يناير حتى نهاية سبتمبر الماضي إلى 650.6 مليون جنيه، مقابل 502.69 مليون جنيه في الفترة المقابلة من العام الماضي.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر..\nاضغط هنا\nترشيحات\nمسؤول يكشف أسباب رفع أسعار خدمات الإنترنت والاتصالات في مصر\nمصر.. نصائح مهمة من \"حماية المستهلك\" للمواطنين قبل شراء السلع",
+    "teaser": "القاهرة - مباشر: ينتهي خلال جلسة اليوم الأثنين، الحق في توزيع كوبون شركة العربية للأسمنت لمشتري السهم. ومن المقرر توزيع كوبون العربية للأسمنت رقم (16) بواقع 1.585 جنيه للسهم الواحد وذلك اعتباراً من 12 يناير 2025. يشار إلى أن العربية للأسمنت، حققت …",
+    "section": "التعاملات الداخلية وأسهم الخزينة",
+    "source": "مباشر",
+    "categories": "stock-bonds",
+    "country": "مصر",
+    "reads": 1490,
+    "url": "https://www.mubasher.info/news/4388236",
+    "image_url": "https://static.mubasher.info/File.Story_Image/ecbcfa72810e6f655059b8729e034846/640.jpg",
+    "date_raw": ""
+  },
+  "sentiment": {
+    "model": "CAMeL-Lab/bert-base-arabic-camelbert-mix-sentiment",
+    "label": "neutral",
+    "score": 0.0551,
+    "numeric": 0,
+    "class_probs": {
+      "neutral": 0.9423,
+      "positive": 0.0564,
+      "negative": 0.0013
+    }
+  },
+  "context": {
+    "ticker": "ARCC",
+    "company": "Arabian Cement Company - ARCC",
+    "sector": "Construction & Building Materials",
+    "business_description": "Arabian Cement Company — major cement producer in the Suez corridor; exposed to construction activity, energy costs, and domestic cement prices.",
+    "event_date": "2025-01-06",
+    "last_price_date": "2025-01-05",
+    "price_state": {
+      "last_close": 17.2,
+      "return_1d": 1.78,
+      "return_5d": 1.96,
+      "return_20d": 9.28,
+      "return_60d": 47.64,
+      "pct_vs_ma50": 10.12,
+      "pct_vs_ma200": 39.5,
+      "vol_20d_annualized_pct": 48.73,
+      "vol_regime": "normal",
+      "rsi_14": 59.85
+    },
+    "market_state": {
+      "sector_return_1d": 0.58,
+      "sector_return_5d": 1.1,
+      "relative_strength_vs_sector_1d": 1.2
+    },
+    "correlation_state": {
+      "corr_with_sector_90d": 0.87,
+      "top_3_correlated_peers": [
+        {
+          "ticker": "MCQE",
+          "correlation": 0.6,
+          "sector": "Construction & Building Materials"
+        },
+        {
+          "ticker": "RMDA",
+          "correlation": 0.24,
+          "sector": "Healthcare & Pharmaceuticals"
+        },
+        {
+          "ticker": "ORHD",
+          "correlation": 0.24,
+          "sector": "Real Estate"
+        }
+      ]
+    },
+    "recent_abnormal_returns": [
+      {
+        "date": "2024-12-29",
+        "stock_return_pct": -0.41,
+        "sector_return_pct": -0.86,
+        "abnormal_return_pct": 0.45
+      },
+      {
+        "date": "2024-12-30",
+        "stock_return_pct": -3.04,
+        "sector_return_pct": -1.23,
+        "abnormal_return_pct": -1.81
+      },
+      {
+        "date": "2024-12-31",
+        "stock_return_pct": 4.36,
+        "sector_return_pct": 1.9,
+        "abnormal_return_pct": 2.46
+      },
+      {
+        "date": "2025-01-02",
+        "stock_return_pct": -0.59,
+        "sector_return_pct": 1.11,
+        "abnormal_return_pct": -1.7
+      },
+      {
+        "date": "2025-01-05",
+        "stock_return_pct": 1.78,
+        "sector_return_pct": 1.09,
+        "abnormal_return_pct": 0.69
+      }
+    ],
+    "technical_signals": {
+      "rsi_14": 59.85,
+      "rsi_zone": "neutral",
+      "macd": {
+        "line": 0.4428,
+        "signal": 0.4888,
+        "histogram": -0.046,
+        "state": "bearish"
+      },
+      "bollinger": {
+        "pct_b": 0.717,
+        "bandwidth_pct": 16.46,
+        "zone": "middle"
+      },
+      "distance_to_extremes": {
+        "20d_high_distance_pct": -3.21,
+        "20d_low_distance_pct": 12.64,
+        "60d_high_distance_pct": -3.21,
+        "60d_low_distance_pct": 44.66,
+        "252d_high_distance_pct": -3.21,
+        "252d_low_distance_pct": 93.69
+      },
+      "rsi_divergence": "none",
+      "atr_pct_14d": 2.45,
+      "consecutive_streak": 1
+    },
+    "dynamic_bands": {
+      "horizon_trading_days": {
+        "short": 1,
+        "medium": 5,
+        "large": 20
+      },
+      "neutral_band_pct": {
+        "short": 1.23,
+        "medium": 2.74,
+        "large": 5.48
+      },
+      "magnitude_bands_pct": {
+        "short": {
+          "small": [
+            0.0,
+            1.72
+          ],
+          "medium": [
+            1.72,
+            4.9
+          ],
+          "large": [
+            4.9,
+            null
+          ]
+        },
+        "medium": {
+          "small": [
+            0.0,
+            3.83
+          ],
+          "medium": [
+            3.83,
+            10.96
+          ],
+          "large": [
+            10.96,
+            null
+          ]
+        },
+        "large": {
+          "small": [
+            0.0,
+            7.67
+          ],
+          "medium": [
+            7.67,
+            21.91
+          ],
+          "large": [
+            21.91,
+            null
+          ]
+        }
+      },
+      "atr_pct_anchor": 2.45
+    },
+    "news_timing": {
+      "in_trading_hours": true,
+      "arrived_at_str": "2025-01-06 10:14:32",
+      "start_day_label": "event_date (article day; news arrived during EGX hours)"
+    }
+  },
+  "prompts": {
+    "impact": "You are a quantitative analyst predicting Egyptian Stock Exchange (EGX) stock reactions to Arabic news. Your prediction must be grounded in the technical signals provided and calibrated to this specific ticker's volatility.\n\n=== COMPANY ===\nTicker      : ARCC\nName        : Arabian Cement Company - ARCC\nSector      : Construction & Building Materials\nDescription : Arabian Cement Company — major cement producer in the Suez corridor; exposed to construction activity, energy costs, and domestic cement prices.\nPrice data  : as of 2025-01-05  (article date: 2025-01-06)\n\n=== PRICE STATE ===\nLast close  : 17.20 EGP\nReturn 1d   : +1.78%   5d : +1.96%   20d : +9.28%   60d : +47.64%\nvs MA-50    : +10.12%  vs MA-200 : +39.50%\nTrend       : uptrend (above MA-50 and MA-200)\nVol 20d ann : 48.73%  [normal regime]  Normal -> impact PROPORTIONAL to catalyst.\n\n=== SECTOR ===\nSector 1d   : +0.58%  5d : +1.10%\nStock vs sector 1d : +1.20%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 0.87\nTop peers:\n  - MCQE | Construction & Building Materials | 90d-corr: 0.6\n  - RMDA | Healthcare & Pharmaceuticals | 90d-corr: 0.24\n  - ORHD | Real Estate | 90d-corr: 0.24\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2024-12-29: stock -0.41%  sector -0.86%  AR +0.45%\n  2024-12-30: stock -3.04%  sector -1.23%  AR -1.81%\n  2024-12-31: stock +4.36%  sector +1.90%  AR +2.46%\n  2025-01-02: stock -0.59%  sector +1.11%  AR -1.70%\n  2025-01-05: stock +1.78%  sector +1.09%  AR +0.69%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 59.85  [neutral]\nMACD      : state=bearish  hist=-0.0460\nBollinger : zone=middle  %B=0.717\nDistance  : 20d_hi -3.21%  20d_lo +12.64%  60d_hi -3.21%  60d_lo +44.66%  52w_hi -3.21%  52w_lo +93.69%\nDivergence : none\nATR 14d   : 2.45%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : +1 (up streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=2.45%) ===\n  short   (N= 1d)  neutral=+-1.23%  small <1.72%  medium 1.72%-4.90%  large >=4.90%\n  medium  (N= 5d)  neutral=+-2.74%  small <3.83%  medium 3.83%-10.96%  large >=10.96%\n  large   (N=20d)  neutral=+-5.48%  small <7.67%  medium 7.67%-21.91%  large >=21.91%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-01-06 10:14:32\nIn trading hours: True  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : event_date (article day; news arrived during EGX hours)\n-> short = the start day itself; medium = +5 trading days; large = +20 trading days.\n\n=== ARABIC SENTIMENT (one input among many) ===\nLabel : neutral\nScore : +0.0551   (-1 strongly negative -> +1 strongly positive)\nNOTE: CAMeLBERT classifies tone, not financial implication.\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-01-06 10:14:32\nHeadline  : اليوم.. نهاية الحق في توزيع كوبون شركة العربية للأسمنت\n\nالقاهرة - مباشر: ينتهي خلال جلسة اليوم الأثنين، الحق في توزيع كوبون شركة العربية للأسمنت لمشتري السهم.\nومن المقرر توزيع كوبون العربية للأسمنت رقم (16) بواقع 1.585 جنيه للسهم الواحد وذلك اعتباراً من 12 يناير 2025.\nيشار إلى أن العربية للأسمنت، حققت صافي ربح بلغ 664.72 مليون جنيه خلال الفترة من يناير حتى سبتمبر 2024، مقابل أرباح بلغت 500.25 مليون جنيه بالفترة المقارنة من 2023، مع الأخذ في الاعتبار حقوق الأقلية.\nوارتفعت إيرادات الشركة خلال التسعة أشهر إلى 6.38 مليار جنيه، مقابل 4.6 مليار جنيه في الفترة المقارنة من 2023.\nوعلى صعيد القوائم غير المجمعة، ارتفعت أرباح الشركة المستقلة خلال المدة من يناير حتى نهاية سبتمبر الماضي إلى 650.6 مليون جنيه، مقابل 502.69 مليون جنيه في الفترة المقابلة من العام الماضي.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر..\nاضغط هنا\nترشيحات\nمسؤول يكشف أسباب رفع أسعار خدمات الإنترنت والاتصالات في مصر\nمصر.. نصائح مهمة من \"حماية المستهلك\" للمواطنين قبل شراء السلع\n\n=== HORIZONS (predict ALL THREE) ===\nshort  -> 1  trading day  from start  (the start day's reaction)\nmedium -> 5  trading days from start  (one trading week cumulative)\nlarge  -> 20 trading days from start  (one trading month cumulative)\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- \"up\" means\noutperforming the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== OUTPUT INSTRUCTIONS ===\n1. Classify news_type FIRST.\n2. Walk through T1-T5. Pick TA signals that ACTUALLY apply from the closed vocab.\n3. Anchor magnitudes to the PER-COMPANY bands above (NOT a global rule).\n4. Quantify any dilution/yield ratio with both inputs.\n5. If news_type=dividend, FILL dividend_info; otherwise set it to null.\n6. LANGUAGE: free-text Arabic. JSON keys + enum values in English.\n7. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"news_type\":         \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n  \"already_priced_in\": <true | false>,\n  \"quantified_ratio\":  \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n  \"key_drivers\":       [\"<driver 1 Arabic>\", \"<driver 2 Arabic>\"],\n  \"ta_signals_cited\":  [\"<signal from closed vocab>\", \"...\"],\n  \"dividend_info\": null | {\n    \"yield_pct\":      <float>,\n    \"ex_div_date\":    \"<YYYY-MM-DD or null if unknown>\",\n    \"amount_egp\":     <float or null>\n  },\n  \"per_horizon\": {\n    \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"},\n    \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"},\n    \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"}\n  },\n  \"overall_reasoning\": \"<3-4 Arabic sentences. Walk T1-T5 briefly. Reference the per-company magnitude bands explicitly. State the quantified ratio if applicable.>\"\n}",
+    "critic": "You are a senior quantitative risk analyst at an Egyptian investment bank. A junior LLM analyst has assessed a news event about ARCC (Arabian Cement Company - ARCC). Your job:\n  (a) audit the junior's TA citations against the live data,\n  (b) check magnitudes against the PER-COMPANY bands (not global rules),\n  (c) produce the final authoritative prediction across short / medium / large,\n  (d) write a plain-Arabic explanation for a non-expert retail investor.\n\n=== COMPANY ===\nTicker      : ARCC\nName        : Arabian Cement Company - ARCC\nSector      : Construction & Building Materials\nDescription : Arabian Cement Company — major cement producer in the Suez corridor; exposed to construction activity, energy costs, and domestic cement prices.\nPrice data  : as of 2025-01-05  (article date: 2025-01-06)\n\n=== PRICE STATE ===\nLast close  : 17.20 EGP\nReturn 1d   : +1.78%   5d : +1.96%   20d : +9.28%   60d : +47.64%\nvs MA-50    : +10.12%  vs MA-200 : +39.50%\nTrend       : uptrend (above MA-50 and MA-200)\nVol 20d ann : 48.73%  [normal regime]  Normal -> impact PROPORTIONAL to catalyst.\n\n=== SECTOR ===\nSector 1d   : +0.58%  5d : +1.10%\nStock vs sector 1d : +1.20%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 0.87\nTop peers:\n  - MCQE | Construction & Building Materials | 90d-corr: 0.6\n  - RMDA | Healthcare & Pharmaceuticals | 90d-corr: 0.24\n  - ORHD | Real Estate | 90d-corr: 0.24\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2024-12-29: stock -0.41%  sector -0.86%  AR +0.45%\n  2024-12-30: stock -3.04%  sector -1.23%  AR -1.81%\n  2024-12-31: stock +4.36%  sector +1.90%  AR +2.46%\n  2025-01-02: stock -0.59%  sector +1.11%  AR -1.70%\n  2025-01-05: stock +1.78%  sector +1.09%  AR +0.69%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 59.85  [neutral]\nMACD      : state=bearish  hist=-0.0460\nBollinger : zone=middle  %B=0.717\nDistance  : 20d_hi -3.21%  20d_lo +12.64%  60d_hi -3.21%  60d_lo +44.66%  52w_hi -3.21%  52w_lo +93.69%\nDivergence : none\nATR 14d   : 2.45%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : +1 (up streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=2.45%) ===\n  short   (N= 1d)  neutral=+-1.23%  small <1.72%  medium 1.72%-4.90%  large >=4.90%\n  medium  (N= 5d)  neutral=+-2.74%  small <3.83%  medium 3.83%-10.96%  large >=10.96%\n  large   (N=20d)  neutral=+-5.48%  small <7.67%  medium 7.67%-21.91%  large >=21.91%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-01-06 10:14:32\nIn trading hours: True  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : event_date (article day; news arrived during EGX hours)\n-> short = the start day itself; medium = +5 trading days; large = +20 trading days.\n\n=== ARABIC SENTIMENT ===\nLabel : neutral\nScore : +0.0551\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-01-06 10:14:32\nHeadline  : اليوم.. نهاية الحق في توزيع كوبون شركة العربية للأسمنت\n\nالقاهرة - مباشر: ينتهي خلال جلسة اليوم الأثنين، الحق في توزيع كوبون شركة العربية للأسمنت لمشتري السهم.\nومن المقرر توزيع كوبون العربية للأسمنت رقم (16) بواقع 1.585 جنيه للسهم الواحد وذلك اعتباراً من 12 يناير 2025.\nيشار إلى أن العربية للأسمنت، حققت صافي ربح بلغ 664.72 مليون جنيه خلال الفترة من يناير حتى سبتمبر 2024، مقابل أرباح بلغت 500.25 مليون جنيه بالفترة المقارنة من 2023، مع الأخذ في الاعتبار حقوق الأقلية.\nوارتفعت إيرادات الشركة خلال التسعة أشهر إلى 6.38 مليار جنيه، مقابل 4.6 مليار جنيه في الفترة المقارنة من 2023.\nوعلى صعيد القوائم غير المجمعة، ارتفعت أرباح الشركة المستقلة خلال المدة من يناير حتى نهاية سبتمبر الماضي إلى 650.6 مليون جنيه، مقابل 502.69 مليون جنيه في الفترة المقابلة من العام الماضي.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر..\nاضغط هنا\nترشيحات\nمسؤول يكشف أسباب رفع أسعار خدمات الإنترنت والاتصالات في مصر\nمصر.. نصائح مهمة من \"حماية المستهلك\" للمواطنين قبل شراء السلع\n\n=== IMPACT AGENT OUTPUT (junior, Groq) ===\n{\n  \"news_type\": \"dividend\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"العائد = 1.585 / 17.20 = 9.2%\",\n  \"key_drivers\": [\n    \"إعلان توزيع كوبون 1.585 جنيه للسهم اعتباراً من 12 يناير\",\n    \"تحقيق صافي ربح 664.72 مليون جنيه في 9 أشهر مقابل 500.25 مليون في 2023\"\n  ],\n  \"ta_signals_cited\": [\n    \"rsi_neutral\",\n    \"macd_bearish\",\n    \"bollinger_middle\",\n    \"strong_uptrend\",\n    \"normal_volatility\"\n  ],\n  \"dividend_info\": {\n    \"yield_pct\": 9.2,\n    \"ex_div_date\": \"2025-01-12\",\n    \"amount_egp\": 1.585\n  },\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.65,\n      \"reasoning\": \"الـRSI محايد (59.85) مع عدم وجود ضغوط على الحدود العلوية، لكن MACD سلبي (hist=-0.0460) يقلل من التأثير.\"\n    },\n    \"medium\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.6,\n      \"reasoning\": \"الاتجاه الصعودي القوي (أعلى MA-50/200) يدعم الاستمرار في الأداء، مع نطاق متوسط 3.83%-10.96%.\"\n    },\n    \"large\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.55,\n      \"reasoning\": \"العائد المرتفع (9.2%) وتحسن الأرباح يعززان الثقة على المدى الطويل مع تقييد MACD السلبي.\"\n    }\n  }\n}\n\n=== HORIZONS (predict ALL THREE) ===\nshort  -> 1  trading day  from start  (the start day's reaction)\nmedium -> 5  trading days from start  (one trading week cumulative)\nlarge  -> 20 trading days from start  (one trading month cumulative)\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- \"up\" means\noutperforming the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== REVIEW CHECKLIST ===\nC1. NEWS_TYPE correct?\nC2. TA_SIGNALS: every cited signal must be supported by the data. Override\n    inconsistent cites and note in disagreements_with_junior.\nC3. MAGNITUDE vs PER-COMPANY BANDS: does the predicted bucket match the\n    horizon's per-company thresholds? Adjust if mis-scaled.\nC4. PRICED-IN: if stock_vs_sector_1d aligns with the news direction, short\n    magnitude should default to \"small\" (R4).\nC5. DIVERGENCE: if a divergence signal is present, did the junior account for it?\nC6. CONFIDENCE: lower when agents-disagree-with-context or news is priced in.\n    Default conf_large <= conf_medium <= conf_short.\nC7. DIVIDEND_INFO: if news_type=dividend, ensure yield_pct is present. If the\n    article gives the ex-div date, extract it as YYYY-MM-DD; otherwise null.\nC8. LANGUAGE LEAKS: strip any non-Arabic word from Arabic fields (R6).\n\n=== USER-FACING EXPLANATION ===\nU1. NO JARGON. Use everyday Arabic equivalents for RSI / MACD / Bollinger /\n    ATR / abnormal return / dilution.\nU2. NUMBERS WITH MEANING. Every cited number gets a plain-Arabic interpretation.\nU3. STATE THE PREDICTION FIRST in what_we_expect (direction + size + timeline),\n    THEN 1-2 sentences of evidence.\nU4. PER-HORIZON. outlook_by_horizon.short / .medium / .large -- one Arabic\n    sentence each with direction + size + rationale clue.\nU5. BREVITY. ~150-200 Arabic words across the whole user block.\nU6. 100% Arabic in the user block.\n\n=== INSTRUCTIONS ===\n1. Override the junior anywhere evidence demands it; list each change in\n   \"disagreements_with_junior\" with the reason.\n2. Confidence: adjust per horizon. Default conf_large <= conf_medium <= conf_short.\n3. SPELLING: \"RSI-14\" not \"RS-14\". Proper Arabic punctuation.\n4. LANGUAGE: free-text Arabic; JSON keys + tickers + enum values in English.\n5. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"primary_company\": {\n    \"ticker\":              \"ARCC\",\n    \"news_type\":           \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n    \"already_priced_in\":   <true | false>,\n    \"quantified_ratio\":    \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n    \"ta_signals_cited\":    [\"<signal from closed vocab>\", \"...\"],\n    \"dividend_info\": null | {\n      \"yield_pct\":   <float>,\n      \"ex_div_date\": \"<YYYY-MM-DD or null>\",\n      \"amount_egp\":  <float or null>\n    },\n    \"per_horizon\": {\n      \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"},\n      \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"},\n      \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"}\n    },\n    \"overall_reasoning\":   \"<3-4 Arabic sentences. Reference the per-company bands. State news_type. Note any override of the junior.>\"\n  },\n  \"risk_flags\": [\n    \"<event-specific risk in Arabic>\",\n    \"<event-specific risk in Arabic>\"\n  ],\n  \"disagreements_with_junior\": [\n    \"<what the junior said, what is correct, why -- in Arabic>\"\n  ],\n  \"external_signal_alignment\":   \"aligned\" | \"partially_aligned\" | \"contradicts\",\n  \"external_signal_explanation\": \"<1-2 sentences in Arabic>\",\n  \"tldr\": {\n    \"verdict\":   \"<short Arabic phrase: direction + horizon>\",\n    \"one_line\":  \"<one Arabic sentence summarising the whole view>\"\n  },\n  \"explanation_for_user\": {\n    \"headline\":                  \"<one sentence plain Arabic, no jargon>\",\n    \"what_happened\":             \"<2-3 sentences plain Arabic, no jargon>\",\n    \"why_it_matters\":            \"<2-3 sentences plain Arabic, financial logic in everyday terms>\",\n    \"what_we_expect\":            \"<lead with prediction (direction + size + timeline) THEN evidence>\",\n    \"outlook_by_horizon\": {\n      \"short\":  \"<one Arabic sentence: direction + size + rationale for the first trading day>\",\n      \"medium\": \"<one Arabic sentence: direction + size + rationale for the first week (5 days)>\",\n      \"large\":  \"<one Arabic sentence: direction + size + rationale for the first month (20 days)>\"\n    },\n    \"what_could_change_our_view\":\"<1-2 Arabic sentences on key uncertainties>\"\n  }\n}"
+  },
+  "impact_agent": {
+    "output": {
+      "news_type": "dividend",
+      "already_priced_in": false,
+      "quantified_ratio": "العائد = 1.585 / 17.20 = 9.2%",
+      "key_drivers": [
+        "إعلان توزيع كوبون 1.585 جنيه للسهم اعتباراً من 12 يناير",
+        "تحقيق صافي ربح 664.72 مليون جنيه في 9 أشهر مقابل 500.25 مليون في 2023"
+      ],
+      "ta_signals_cited": [
+        "rsi_neutral",
+        "macd_bearish",
+        "bollinger_middle",
+        "strong_uptrend",
+        "normal_volatility"
+      ],
+      "dividend_info": {
+        "yield_pct": 9.2,
+        "ex_div_date": "2025-01-12",
+        "amount_egp": 1.585
+      },
+      "per_horizon": {
+        "short": {
+          "direction": "neutral",
+          "magnitude": "small",
+          "confidence": 0.65,
+          "reasoning": "الـRSI محايد (59.85) مع عدم وجود ضغوط على الحدود العلوية، لكن MACD سلبي (hist=-0.0460) يقلل من التأثير."
+        },
+        "medium": {
+          "direction": "up",
+          "magnitude": "medium",
+          "confidence": 0.6,
+          "reasoning": "الاتجاه الصعودي القوي (أعلى MA-50/200) يدعم الاستمرار في الأداء، مع نطاق متوسط 3.83%-10.96%."
+        },
+        "large": {
+          "direction": "up",
+          "magnitude": "medium",
+          "confidence": 0.55,
+          "reasoning": "العائد المرتفع (9.2%) وتحسن الأرباح يعززان الثقة على المدى الطويل مع تقييد MACD السلبي."
+        }
+      }
+    },
+    "raw": "{  \"news_type\": \"dividend\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"العائد = 1.585 / 17.20 = 9.2%\",\n  \"key_drivers\": [\n    \"إعلان توزيع كوبون 1.585 جنيه للسهم اعتباراً من 12 يناير\",\n    \"تحقيق صافي ربح 664.72 مليون جنيه في 9 أشهر مقابل 500.25 مليون في 2023\"\n  ],\n  \"ta_signals_cited\": [\n    \"rsi_neutral\",\n    \"macd_bearish\",\n    \"bollinger_middle\",\n    \"strong_uptrend\",\n    \"normal_volatility\"\n  ],\n  \"dividend_info\": {\n    \"yield_pct\": 9.2,\n    \"ex_div_date\": \"2025-01-12\",\n    \"amount_egp\": 1.585\n  },\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.65,\n      \"reasoning\": \"الـRSI محايد (59.85) مع عدم وجود ضغوط على الحدود العلوية، لكن MACD سلبي (hist=-0.0460) يقلل من التأثير.\"\n    },\n    \"medium\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.6,\n      \"reasoning\": \"الاتجاه الصعودي القوي (أعلى MA-50/200) يدعم الاستمرار في الأداء، مع نطاق متوسط 3.83%-10.96%.\"\n    },\n    \"large\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.55,\n      \"reasoning\": \"العائد المرتفع (9.2%) وتحسن الأرباح يعززان الثقة على المدى الطويل مع تقييد MACD السلبي.\"\n    }\n  }}"
+  },
+  "critic_agent": {
+    "output": {
+      "primary_company": {
+        "ticker": "ARCC",
+        "news_type": "dividend",
+        "already_priced_in": false,
+        "quantified_ratio": "العائد = 1.585 ÷ 17.20 = 9.2%",
+        "ta_signals_cited": [
+          "rsi_neutral",
+          "macd_bearish",
+          "bollinger_middle",
+          "strong_uptrend",
+          "normal_volatility",
+          "near_52w_high"
+        ],
+        "dividend_info": {
+          "yield_pct": 9.2,
+          "ex_div_date": "2025-01-12",
+          "amount_egp": 1.585
+        },
+        "per_horizon": {
+          "short": {
+            "direction": "neutral",
+            "magnitude": "small",
+            "confidence": 0.65,
+            "reasoning": "RSI محايد عند 59.85 لا يضغط من extremes؛ MACD سلبي (hist=-0.0460) يُضعف الزخم؛ السهم على بُعد 3.21% فقط من أعلى سعر خلال 52 أسبوع مما يحدّ من صعود إضافي. العائد المرتفع (9.2%) لا يضمن تحركًا كبيرًا في اليوم الأول مع MACD المعاكس."
+          },
+          "medium": {
+            "direction": "up",
+            "magnitude": "medium",
+            "confidence": 0.62,
+            "reasoning": "الاتجاه الصعودي القوي (أعلى MA-50 وMA-200) مع عائد 9.2% يدعم استمرار الأداء؛ الأرباح ارتفعت 32.8% (664.72M vs 500.25M) تُعزز الثقة؛ السهم ضمن نطاق 3.83%-10.96% للـ medium. لكن MACD السلبي يُقيّد الثقة."
+          },
+          "large": {
+            "direction": "up",
+            "magnitude": "small",
+            "confidence": 0.55,
+            "reasoning": "العائد المرتفع والأرباح المتزايدة يُؤيدان ارتفاعًا، لكن السهم عند أعلى مستوى خلال 52 أسبوع (-3.21% فقط من القمة) يُقيّد مكاسب إضافية؛ النطاق المحصور 7.67%-21.91% لـ medium يتطلب زخمًا قويًا غير متوفر حاليًا مع MACD المعاكس؛ conf_large < conf_medium per rule R6."
+          }
+        },
+        "overall_reasoning": "خبر توزيع كوبون 1.585 جنيه (عائد 9.2%) مع أرباح قياسية (664.72M في 9 أشهر) إيجابي جوهريًا. لكن MACD سلبي (hist=-0.0460) يُنشئ تضاربًا مع الأخبار الإيجابية؛ السهم قرب أعلى مستوى في 52 أسبوع (-3.21%) يحدّ من room to run؛ volatility normal (48.73%) يعني impact proportional to catalyst. تم تعديل magnitude للـ short من medium إلى small (MACD سلبي يُقلّل الاستجابة) ولـ large من medium إلى small (محدودية room to run). Dividend_info مُكتمل (yield 9.2% + ex_date 2025-01-12)."
+      },
+      "risk_flags": [
+        "MACD سلبي (hist=-0.0460) يُضعف الزخم الصعودي ويُقلل من magnitude المتوقع على المدى القصير",
+        "السهم عند أعلى مستوى خلال 52 أسبوع (-3.21% من القمة) يحدّ من احتمالية الصعود الإضافي"
+      ],
+      "disagreements_with_junior": [
+        "الـ short: junior قال medium؛ الصحيح small لأن MACD سلبي (hist=-0.0460) يُنشئ headwind للـ dividend bullish news بينما السهم قرب 52w high (-3.21%) يحدّ room to run؛ magnitude bands short: medium starts at 1.72% لكن MACD المعاكس يُخفّض magnitude",
+        "الـ large: junior قال medium؛ الصحيح small لأن السهم عند -3.21% فقط من 52w high مع MACD bearish لا يدعم magnitude تُلامس 7.67% في ظل limited upside room؛ conf_large=0.55 < conf_medium=0.62 per R6",
+        "PRICED-IN: stock vs sector -1.20% يوم 05-يناير يتوافق مع الاتجاه؛ يوم الأخبار (06-يناير) كان السهم يتداول بالفعل عند مستويات مرتفعة مما يُقلل من surprise element"
+      ],
+      "external_signal_alignment": "partially_aligned",
+      "external_signal_explanation": "الـ ARCC سجل outperform sector بـ +0.69% يوم 05-يناير وstock_vs_sector_1d = +1.20% مما يُشير لتسعير جزئي مسبق؛ الأخبار الإيجابية (كوبون 9.2% + أرباح قوية) تتوافق جزئيًا مع الاتجاه الصعودي العام لكن MACD المعاكس يُقلل magnitude",
+      "tldr": {
+        "verdict": "محايد على المدى القصير مع ارتفاع متوقع على المدى المتوسط",
+        "one_line": "كوبون 1.585 جنيه (عائد 9.2%) وأرباح قوية يدعمان الأداء لكن MACD السلبي والسهم قرب 52w high يُقيّدان magnitude"
+      },
+      "explanation_for_user": {
+        "headline": "شركة العربية للأسمنت تعلن توزيع كوبون 1.585 جنيه الأسبوع القادم مع أرباح قياسية.",
+        "what_happened": "أعلنت العربية للأسمنت عن توزيع كوبون رقم (16) بقيمة 1.585 جنيه للسهم يُصرف من 12 يناير 2025. كما كشفت عن صافي ربح 664.72 مليون جنيه في التسعة أشهر الأولى من 2024 بزيادة 32.8% عن نفس الفترة من 2023.",
+        "why_it_matters": "العائد على السهم (1.585 ÷ 17.20 = 9.2%) مرتفع جدًا مقارنة بأسعار الفائدة الحالية، مما يجعل الخبر جذابًا للمستثمر. الأرباح والقفزات في الإيرادات (من 4.6 إلى 6.38 مليار جنيه) تُظهر نموًا تشغيليًا قويًا.",
+        "what_we_expect": "نتوقع ارتفاعًا بسيطًا في أول يوم trading لكن محدودية الزخم (MACD سلبي) والسهم قرب أعلى مستوى في عام كامل تُقلل magnitude؛ على مدار الأسبوع قد يرتفع السهم بنسبة 3-7% مع جني أرباح من المتداولين.",
+        "outlook_by_horizon": {
+          "short": "ارتفاع بسيط (small) في اليوم الأول مع MACD السلبي يُضعف الاستجابة؛ السهم عند -3.21% من أعلى سعر سنوي.",
+          "medium": "ارتفاع متوسط (medium) خلال 5 أيام مع اتجاه صعودي قوي والأرباح القياسية تُعزز الثقة؛ النطاق المستهدف 3.83%-10.96%.",
+          "large": "ارتفاع محدود (small) خلال 20 يومًا لأن السهم عند قمة سنوية لا يترك مجالًا كبيرًا للارتفاع؛ conf_low بسبب MACD المعاكس."
+        },
+        "what_could_change_our_view": "إذا اخترق السهم أعلى مستوى خلال 52 أسبوع (>17.77 جنيه) فقد يتسارع الارتفاع؛ انخفاض حاد في أسعار الإسمنت أو ارتفاع تكاليف الطاقة قد يُقلل الزخم الإيجابي."
+      }
+    },
+    "raw": "\n\n{\"primary_company\":{\"ticker\":\"ARCC\",\"news_type\":\"dividend\",\"already_priced_in\":false,\"quantified_ratio\":\"العائد = 1.585 ÷ 17.20 = 9.2%\",\"ta_signals_cited\":[\"rsi_neutral\",\"macd_bearish\",\"bollinger_middle\",\"strong_uptrend\",\"normal_volatility\",\"near_52w_high\"],\"dividend_info\":{\"yield_pct\":9.2,\"ex_div_date\":\"2025-01-12\",\"amount_egp\":1.585},\"per_horizon\":{\"short\":{\"direction\":\"neutral\",\"magnitude\":\"small\",\"confidence\":0.65,\"reasoning\":\"RSI محايد عند 59.85 لا يضغط من extremes؛ MACD سلبي (hist=-0.0460) يُضعف الزخم؛ السهم على بُعد 3.21% فقط من أعلى سعر خلال 52 أسبوع مما يحدّ من صعود إضافي. العائد المرتفع (9.2%) لا يضمن تحركًا كبيرًا في اليوم الأول مع MACD المعاكس.\"},\"medium\":{\"direction\":\"up\",\"magnitude\":\"medium\",\"confidence\":0.62,\"reasoning\":\"الاتجاه الصعودي القوي (أعلى MA-50 وMA-200) مع عائد 9.2% يدعم استمرار الأداء؛ الأرباح ارتفعت 32.8% (664.72M vs 500.25M) تُعزز الثقة؛ السهم ضمن نطاق 3.83%-10.96% للـ medium. لكن MACD السلبي يُقيّد الثقة.\"},\"large\":{\"direction\":\"up\",\"magnitude\":\"small\",\"confidence\":0.55,\"reasoning\":\"العائد المرتفع والأرباح المتزايدة يُؤيدان ارتفاعًا، لكن السهم عند أعلى مستوى خلال 52 أسبوع (-3.21% فقط من القمة) يُقيّد مكاسب إضافية؛ النطاق المحصور 7.67%-21.91% لـ medium يتطلب زخمًا قويًا غير متوفر حاليًا مع MACD المعاكس؛ conf_large < conf_medium per rule R6.\"}},\"overall_reasoning\":\"خبر توزيع كوبون 1.585 جنيه (عائد 9.2%) مع أرباح قياسية (664.72M في 9 أشهر) إيجابي جوهريًا. لكن MACD سلبي (hist=-0.0460) يُنشئ تضاربًا مع الأخبار الإيجابية؛ السهم قرب أعلى مستوى في 52 أسبوع (-3.21%) يحدّ من room to run؛ volatility normal (48.73%) يعني impact proportional to catalyst. تم تعديل magnitude للـ short من medium إلى small (MACD سلبي يُقلّل الاستجابة) ولـ large من medium إلى small (محدودية room to run). Dividend_info مُكتمل (yield 9.2% + ex_date 2025-01-12).\"},\"risk_flags\":[\"MACD سلبي (hist=-0.0460) يُضعف الزخم الصعودي ويُقلل من magnitude المتوقع على المدى القصير\",\"السهم عند أعلى مستوى خلال 52 أسبوع (-3.21% من القمة) يحدّ من احتمالية الصعود الإضافي\"],\"disagreements_with_junior\":[\"الـ short: junior قال medium؛ الصحيح small لأن MACD سلبي (hist=-0.0460) يُنشئ headwind للـ dividend bullish news بينما السهم قرب 52w high (-3.21%) يحدّ room to run؛ magnitude bands short: medium starts at 1.72% لكن MACD المعاكس يُخفّض magnitude\",\"الـ large: junior قال medium؛ الصحيح small لأن السهم عند -3.21% فقط من 52w high مع MACD bearish لا يدعم magnitude تُلامس 7.67% في ظل limited upside room؛ conf_large=0.55 < conf_medium=0.62 per R6\",\"PRICED-IN: stock vs sector -1.20% يوم 05-يناير يتوافق مع الاتجاه؛ يوم الأخبار (06-يناير) كان السهم يتداول بالفعل عند مستويات مرتفعة مما يُقلل من surprise element\"],\"external_signal_alignment\":\"partially_aligned\",\"external_signal_explanation\":\"الـ ARCC سجل outperform sector بـ +0.69% يوم 05-يناير وstock_vs_sector_1d = +1.20% مما يُشير لتسعير جزئي مسبق؛ الأخبار الإيجابية (كوبون 9.2% + أرباح قوية) تتوافق جزئيًا مع الاتجاه الصعودي العام لكن MACD المعاكس يُقلل magnitude\",\"tldr\":{\"verdict\":\"محايد على المدى القصير مع ارتفاع متوقع على المدى المتوسط\",\"one_line\":\"كوبون 1.585 جنيه (عائد 9.2%) وأرباح قوية يدعمان الأداء لكن MACD السلبي والسهم قرب 52w high يُقيّدان magnitude\"}},\"explanation_for_user\":{\"headline\":\"شركة العربية للأسمنت تعلن توزيع كوبون 1.585 جنيه الأسبوع القادم مع أرباح قياسية.\",\"what_happened\":\"أعلنت العربية للأسمنت عن توزيع كوبون رقم (16) بقيمة 1.585 جنيه للسهم يُصرف من 12 يناير 2025. كما كشفت عن صافي ربح 664.72 مليون جنيه في التسعة أشهر الأولى من 2024 بزيادة 32.8% عن نفس الفترة من 2023.\",\"why_it_matters\":\"العائد على السهم (1.585 ÷ 17.20 = 9.2%) مرتفع جدًا مقارنة بأسعار الفائدة الحالية، مما يجعل الخبر جذابًا للمستثمر. الأرباح والقفزات في الإيرادات (من 4.6 إلى 6.38 مليار جنيه) تُظهر نموًا تشغيليًا قويًا.\",\"what_we_expect\":\"نتوقع ارتفاعًا بسيطًا في أول يوم trading لكن محدودية الزخم (MACD سلبي) والسهم قرب أعلى مستوى في عام كامل تُقلل magnitude؛ على مدار الأسبوع قد يرتفع السهم بنسبة 3-7% مع جني أرباح من المتداولين.\",\"outlook_by_horizon\":{\"short\":\"ارتفاع بسيط (small) في اليوم الأول مع MACD السلبي يُضعف الاستجابة؛ السهم عند -3.21% من أعلى سعر سنوي.\",\"medium\":\"ارتفاع متوسط (medium) خلال 5 أيام مع اتجاه صعودي قوي والأرباح القياسية تُعزز الثقة؛ النطاق المستهدف 3.83%-10.96%.\",\"large\":\"ارتفاع محدود (small) خلال 20 يومًا لأن السهم عند قمة سنوية لا يترك مجالًا كبيرًا للارتفاع؛ conf_low بسبب MACD المعاكس.\"},\"what_could_change_our_view\":\"إذا اخترق السهم أعلى مستوى خلال 52 أسبوع (>17.77 جنيه) فقد يتسارع الارتفاع؛ انخفاض حاد في أسعار الإسمنت أو ارتفاع تكاليف الطاقة قد يُقلل الزخم الإيجابي.\"}}",
+    "thinking": "Let me analyze this carefully as a senior quantitative risk analyst.\n\nFirst, let me understand the data:\n\n**Price State:**\n- Last close: 17.20 EGP\n- Returns: 1d +1.78%, 5d +1.96%, 20d +9.28%, 60d +47.64%\n- vs MA-50: +10.12%, vs MA-200: +39.50%\n- Trend: uptrend (above MA-50 and MA-200)\n- Vol 20d ann: 48.73% - normal regime, impact proportional to catalyst\n\n**News Article Analysis:**\n- News type: Dividend announcement (كوبون)\n- Dividend: 1.585 EGP per share\n- Ex-div date: 2025-01-12 (stated in article)\n- Yield: 1.585 / 17.20 = 9.2%\n- Strong earnings: Net profit 664.72M EGP (Jan-Sep 2024) vs 500.25M EGP (2023) = +32.8%\n- Revenue: 6.38B EGP vs 4.6B EGP = +38.7%\n\n**Technical Analysis Check:**\n\nT1. OVERBOUGHT / OVERSOLD:\n- RSI-14: 59.85 → neutral (not overbought/oversold)\n- Bollinger: middle zone, %B=0.717 → neutral\n- Distance: 20d_hi -3.21% → near 20d high but not at extreme\n- Status: Neutral, no cap or floor from extremes\n\nT2. DIVERGENCE:\n- Divergence: none stated\n- Status: No divergence warning\n\nT3. MOMENTUM CONFIRMATION:\n- MACD: bearish state, hist=-0.0460\n- This contradicts the bullish dividend news\n\n\n- The bearish momentum indicator weakens the bullish signal from the dividend and earnings strength\n\nT4. ROOM TO RUN:\n- 20d_hi distance: -3.21% → 3.21% below 20d high\n- 60d_lo distance: +44.66% → 44.66% above 60d low\n- 52w_hi distance: -3.21% → near 52w high\n- Status: Limited upside room, positioned near highs\n\nT5. PER-COMPANY MAGNITUDE BANDS:\n- Short (1d): neutral ±1.23%, small <1.72%, medium 1.72%-4\n\n.90%, large ≥4.90%\n- Medium (5d): neutral ±2.74%, small <3.83%, medium 3.83%-10.96%, large ≥10.96%\n- Large (20d): neutral ±5.48%, small <7.67%, medium 7.67%-21.91%, large ≥21.91%\n\nThe yield of 9.2% substantially exceeds standard market rates and aligns with ARCC's dividend history. The 1.585 EGP dividend payout is substantial relative to the stock price. With the stock already up 47.64% over 60 days and near 52-week highs, upside room is constrained. The bearish MACD histogram (-0.0460) conflicts with the dividend's bullish signal, creating uncertainty about momentum direction.\n\nHistorical price action shows ARCC outperformed the sector by 0.69% on January 5th and underperformed by 1.20% on January 6th, suggesting mixed signals. The dividend announcement is new and not yet priced in, but the limited upside at current levels and the bearish MACD suggest a modest rather than large reaction. For the short term, neutral movement with small magnitude (65% confidence) reflects the neutral RSI and bearish MACD headwind. Medium-term predictions should incorporate the yield impact over the five-day window.\n\nThe 9.2% dividend yield represents a substantial return relative to the stock's recent performance, though the MACD headwind tempers expectations. The strong earnings improvement (32.8% year-over-year profit growth) and bullish trend structure provide support for medium-term upside, warranting a medium magnitude prediction. The large-term view remains cautiously optimistic given the combination of attractive yield and improving fundamentals, though the MACD resistance needs monitoring.\n\nThe primary concerns center on MACD's bearish signal diverging from the dividend's bullish nature, the stock's proximity to 52-week highs constraining further gains, and inherent timing uncertainty around the ex-dividend date itself.\n\nThe analysis reveals several critical adjustments: MACD bearishness was understated in the original assessment and should counterbalance dividend optimism, the 9.2% yield was properly quantified, but the magnitude bands warrant recalibration—short-term 'medium' exceeds the 1.72% threshold when MACD headwinds are considered, while medium-term remains valid at the lower bound of 3.83%-10.96%, and the large horizon was inappropriately classified as 'medium' rather than 'small' given the neutral threshold of ±5.48%.\n\nThe ex-dividend mechanics also need clarification: the January 12 ex-date was correctly identified but may already be reflected in recent price action, particularly the 1.78% gain on January 5. The overall assessment should emphasize dividend strength alongside MACD resistance, moderate confidence in medium-term performance, and a more conservative large-term outlook.\n"
+  },
+  "final": {
+    "ticker": "ARCC",
+    "news_type": "dividend",
+    "already_priced_in": false,
+    "quantified_ratio": "العائد = 1.585 ÷ 17.20 = 9.2%",
+    "ta_signals_cited": [
+      "rsi_neutral",
+      "macd_bearish",
+      "bollinger_middle",
+      "strong_uptrend",
+      "normal_volatility",
+      "near_52w_high"
+    ],
+    "dividend_info": {
+      "yield_pct": 9.2,
+      "ex_div_date": "2025-01-12",
+      "amount_egp": 1.585
+    },
+    "per_horizon": {
+      "short": {
+        "direction": "neutral",
+        "magnitude": "small",
+        "confidence": 0.65,
+        "reasoning": "RSI محايد عند 59.85 لا يضغط من extremes؛ MACD سلبي (hist=-0.0460) يُضعف الزخم؛ السهم على بُعد 3.21% فقط من أعلى سعر خلال 52 أسبوع مما يحدّ من صعود إضافي. العائد المرتفع (9.2%) لا يضمن تحركًا كبيرًا في اليوم الأول مع MACD المعاكس."
+      },
+      "medium": {
+        "direction": "up",
+        "magnitude": "medium",
+        "confidence": 0.62,
+        "reasoning": "الاتجاه الصعودي القوي (أعلى MA-50 وMA-200) مع عائد 9.2% يدعم استمرار الأداء؛ الأرباح ارتفعت 32.8% (664.72M vs 500.25M) تُعزز الثقة؛ السهم ضمن نطاق 3.83%-10.96% للـ medium. لكن MACD السلبي يُقيّد الثقة."
+      },
+      "large": {
+        "direction": "up",
+        "magnitude": "small",
+        "confidence": 0.55,
+        "reasoning": "العائد المرتفع والأرباح المتزايدة يُؤيدان ارتفاعًا، لكن السهم عند أعلى مستوى خلال 52 أسبوع (-3.21% فقط من القمة) يُقيّد مكاسب إضافية؛ النطاق المحصور 7.67%-21.91% لـ medium يتطلب زخمًا قويًا غير متوفر حاليًا مع MACD المعاكس؛ conf_large < conf_medium per rule R6."
+      }
+    },
+    "overall_reasoning": "خبر توزيع كوبون 1.585 جنيه (عائد 9.2%) مع أرباح قياسية (664.72M في 9 أشهر) إيجابي جوهريًا. لكن MACD سلبي (hist=-0.0460) يُنشئ تضاربًا مع الأخبار الإيجابية؛ السهم قرب أعلى مستوى في 52 أسبوع (-3.21%) يحدّ من room to run؛ volatility normal (48.73%) يعني impact proportional to catalyst. تم تعديل magnitude للـ short من medium إلى small (MACD سلبي يُقلّل الاستجابة) ولـ large من medium إلى small (محدودية room to run). Dividend_info مُكتمل (yield 9.2% + ex_date 2025-01-12)."
+  }
+}

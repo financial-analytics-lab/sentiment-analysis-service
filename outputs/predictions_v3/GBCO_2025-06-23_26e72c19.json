@@ -1,0 +1,362 @@
+{
+  "ticker": "GBCO",
+  "article_date": "2025-06-23",
+  "context_date": "2025-06-22",
+  "processed_at": "2026-05-18T20:03:51.759828",
+  "article": {
+    "symbol": "GBCO",
+    "company": "GB Corp",
+    "isin": "EGS673T1C012",
+    "sector": "Diversified Holding",
+    "id": "4463040",
+    "date": "2025-06-23",
+    "time": "10:25:38",
+    "datetime": "2025-06-23 10:25:38",
+    "title": "\"جي بي كوربوريشن\": طرح أول طراز مجمع في مصر من \"شانجان\" الصينية",
+    "body": "القاهرة - مباشر: أعلنت شركة جي بي كوربوريشن، طرح أول طراز من العلامة الصينية \"شانجان\" مجمع محليًا في مصر نهاية الأسبوع الماضي.\nوأوضحت الشركة في افصاح لبورصة مصر اليوم الأثنين، أن الطراز ينتمي لفة السيارات الرياضية متعددة الاستخدامات.\nيشار أن جي بي كوربوريشن،  حققت أرباحاً بلغت 602.76 مليون جنيه خلال الفترة من يناير حتى نهاية مارس 2025، مقابل أرباح بلغت 667 مليون جنيه في الربع المقارن من 2024، مع الأخذ في الاعتبار حقوق الأقلية.\nوقفزت إيرادات الشركة خلال الثلاثة الأشهر الأولى من العام الجاري إلى 16.76 مليار جنيه، مقابل 9.01 مليار جنيه في الربع الأول من العام الماضي.\nوارتفعت تكاليف النشاط إلى 14 مليون جنيه خلال الربع الأول من العام الجاري، مقابل 6.44 مليون جنيه في الربع المقارن من 2024.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر..\nاضغط هنا\nترشيحات\nصادرات الغاز الإسرائيلي إلى مصر ترتفع لـ 970 مليون قدم مكعبة يومياً\nمصر تتعاقد على استئجار سفينة تغويز ثالثة لتلبية الاحتياجات المحلية من الغاز\nمسؤول يكشف أسباب رفع أسعار خدمات الإنترنت والاتصالات في مصر\nمصر.. نصائح مهمة من \"حماية المستهلك\" للمواطنين قبل شراء السلع",
+    "teaser": "القاهرة - مباشر: أعلنت شركة جي بي كوربوريشن، طرح أول طراز من العلامة الصينية \"شانجان\" مجمع محليًا في مصر نهاية الأسبوع الماضي. وأوضحت الشركة في افصاح لبورصة مصر اليوم الأثنين، أن الطراز ينتمي لفة السيارات الرياضية متعددة الاستخدامات. يشار أن جي بي …",
+    "section": "أخبار الشركة",
+    "source": "مباشر",
+    "categories": "stock-bonds",
+    "country": "مصر",
+    "reads": 429,
+    "url": "https://www.mubasher.info/news/4463040",
+    "image_url": "https://static.mubasher.info/File.Story_Image/d8bbcc1c42321d3c5debab5a43eef17d/640.jpg",
+    "date_raw": ""
+  },
+  "sentiment": {
+    "model": "CAMeL-Lab/bert-base-arabic-camelbert-mix-sentiment",
+    "label": "neutral",
+    "score": 0.1002,
+    "numeric": 0,
+    "class_probs": {
+      "neutral": 0.8972,
+      "positive": 0.1015,
+      "negative": 0.0013
+    }
+  },
+  "context": {
+    "ticker": "GBCO",
+    "company": "GB Corp - GBCO",
+    "sector": "Diversified Holding",
+    "business_description": "GB Corp — diversified holding group with exposure to financial services, consumer goods, and industrial businesses.",
+    "event_date": "2025-06-23",
+    "last_price_date": "2025-06-22",
+    "price_state": {
+      "last_close": 22.64,
+      "return_1d": 3.85,
+      "return_5d": 3.76,
+      "return_20d": 6.49,
+      "return_60d": 22.38,
+      "pct_vs_ma50": 2.44,
+      "pct_vs_ma200": 30.79,
+      "vol_20d_annualized_pct": 62.5,
+      "vol_regime": "elevated",
+      "rsi_14": 52.42
+    },
+    "market_state": {
+      "sector_return_1d": 3.85,
+      "sector_return_5d": 3.76,
+      "relative_strength_vs_sector_1d": 0.0
+    },
+    "correlation_state": {
+      "corr_with_sector_90d": 1.0,
+      "top_3_correlated_peers": [
+        {
+          "ticker": "CCAP",
+          "correlation": 0.47,
+          "sector": "Non-Bank Financials"
+        },
+        {
+          "ticker": "ORHD",
+          "correlation": 0.45,
+          "sector": "Real Estate"
+        },
+        {
+          "ticker": "ORWE",
+          "correlation": 0.33,
+          "sector": "Textiles"
+        }
+      ]
+    },
+    "recent_abnormal_returns": [
+      {
+        "date": "2025-06-16",
+        "stock_return_pct": 0.82,
+        "sector_return_pct": 0.82,
+        "abnormal_return_pct": 0.0
+      },
+      {
+        "date": "2025-06-17",
+        "stock_return_pct": -0.64,
+        "sector_return_pct": -0.64,
+        "abnormal_return_pct": 0.0
+      },
+      {
+        "date": "2025-06-18",
+        "stock_return_pct": 0.09,
+        "sector_return_pct": 0.09,
+        "abnormal_return_pct": 0.0
+      },
+      {
+        "date": "2025-06-19",
+        "stock_return_pct": -0.37,
+        "sector_return_pct": -0.37,
+        "abnormal_return_pct": 0.0
+      },
+      {
+        "date": "2025-06-22",
+        "stock_return_pct": 3.85,
+        "sector_return_pct": 3.85,
+        "abnormal_return_pct": 0.0
+      }
+    ],
+    "technical_signals": {
+      "rsi_14": 52.42,
+      "rsi_zone": "neutral",
+      "macd": {
+        "line": 0.1685,
+        "signal": 0.3271,
+        "histogram": -0.1586,
+        "state": "bearish"
+      },
+      "bollinger": {
+        "pct_b": 0.523,
+        "bandwidth_pct": 17.48,
+        "zone": "middle"
+      },
+      "distance_to_extremes": {
+        "20d_high_distance_pct": -7.55,
+        "20d_low_distance_pct": 7.81,
+        "60d_high_distance_pct": -7.55,
+        "60d_low_distance_pct": 25.57,
+        "252d_high_distance_pct": -7.55,
+        "252d_low_distance_pct": 124.16
+      },
+      "rsi_divergence": "none",
+      "atr_pct_14d": 2.97,
+      "consecutive_streak": 1
+    },
+    "dynamic_bands": {
+      "horizon_trading_days": {
+        "short": 1,
+        "medium": 2,
+        "large": 20
+      },
+      "neutral_band_pct": {
+        "short": 1.49,
+        "medium": 2.1,
+        "large": 6.64
+      },
+      "magnitude_bands_pct": {
+        "short": {
+          "small": [
+            0.0,
+            2.08
+          ],
+          "medium": [
+            2.08,
+            5.94
+          ],
+          "large": [
+            5.94,
+            null
+          ]
+        },
+        "medium": {
+          "small": [
+            0.0,
+            2.94
+          ],
+          "medium": [
+            2.94,
+            8.4
+          ],
+          "large": [
+            8.4,
+            null
+          ]
+        },
+        "large": {
+          "small": [
+            0.0,
+            9.3
+          ],
+          "medium": [
+            9.3,
+            26.56
+          ],
+          "large": [
+            26.56,
+            null
+          ]
+        }
+      },
+      "atr_pct_anchor": 2.97
+    },
+    "news_timing": {
+      "in_trading_hours": true,
+      "arrived_at_str": "2025-06-23 10:25:38",
+      "start_day_label": "event_date (article day; news arrived during EGX hours)"
+    }
+  },
+  "prompts": {
+    "impact": "You are a quantitative analyst predicting Egyptian Stock Exchange (EGX) stock reactions to Arabic news. Your prediction must be grounded in the technical signals provided and calibrated to this specific ticker's volatility.\n\n=== COMPANY ===\nTicker      : GBCO\nName        : GB Corp - GBCO\nSector      : Diversified Holding\nDescription : GB Corp — diversified holding group with exposure to financial services, consumer goods, and industrial businesses.\nPrice data  : as of 2025-06-22  (article date: 2025-06-23)\n\n=== PRICE STATE ===\nLast close  : 22.64 EGP\nReturn 1d   : +3.85%   5d : +3.76%   20d : +6.49%   60d : +22.38%\nvs MA-50    : +2.44%  vs MA-200 : +30.79%\nTrend       : uptrend (above MA-50 and MA-200)\nVol 20d ann : 62.50%  [elevated regime]  Elevated -> impact AMPLIFIED.\n\n=== SECTOR ===\nSector 1d   : +3.85%  5d : +3.76%\nStock vs sector 1d : +0.00%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 1.00\nTop peers:\n  - CCAP | Non-Bank Financials | 90d-corr: 0.47\n  - ORHD | Real Estate | 90d-corr: 0.45\n  - ORWE | Textiles | 90d-corr: 0.33\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2025-06-16: stock +0.82%  sector +0.82%  AR +0.00%\n  2025-06-17: stock -0.64%  sector -0.64%  AR +0.00%\n  2025-06-18: stock +0.09%  sector +0.09%  AR +0.00%\n  2025-06-19: stock -0.37%  sector -0.37%  AR +0.00%\n  2025-06-22: stock +3.85%  sector +3.85%  AR +0.00%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 52.42  [neutral]\nMACD      : state=bearish  hist=-0.1586\nBollinger : zone=middle  %B=0.523\nDistance  : 20d_hi -7.55%  20d_lo +7.81%  60d_hi -7.55%  60d_lo +25.57%  52w_hi -7.55%  52w_lo +124.16%\nDivergence : none\nATR 14d   : 2.97%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : +1 (up streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=2.97%) ===\n  short   (N= 1d)  neutral=+-1.49%  small <2.08%  medium 2.08%-5.94%  large >=5.94%\n  medium  (N= 2d)  neutral=+-2.10%  small <2.94%  medium 2.94%-8.40%  large >=8.40%\n  large   (N=20d)  neutral=+-6.64%  small <9.30%  medium 9.30%-26.56%  large >=26.56%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-06-23 10:25:38\nIn trading hours: True  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : event_date (article day; news arrived during EGX hours)\nHorizons (days) : short=1d ; medium=2d ; large=20d\n\n=== ARABIC SENTIMENT (one input among many) ===\nLabel : neutral\nScore : +0.1002   (-1 strongly negative -> +1 strongly positive)\nNOTE: CAMeLBERT classifies tone, not financial implication.\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-06-23 10:25:38\nHeadline  : \"جي بي كوربوريشن\": طرح أول طراز مجمع في مصر من \"شانجان\" الصينية\n\nالقاهرة - مباشر: أعلنت شركة جي بي كوربوريشن، طرح أول طراز من العلامة الصينية \"شانجان\" مجمع محليًا في مصر نهاية الأسبوع الماضي.\nوأوضحت الشركة في افصاح لبورصة مصر اليوم الأثنين، أن الطراز ينتمي لفة السيارات الرياضية متعددة الاستخدامات.\nيشار أن جي بي كوربوريشن،  حققت أرباحاً بلغت 602.76 مليون جنيه خلال الفترة من يناير حتى نهاية مارس 2025، مقابل أرباح بلغت 667 مليون جنيه في الربع المقارن من 2024، مع الأخذ في الاعتبار حقوق الأقلية.\nوقفزت إيرادات الشركة خلال الثلاثة الأشهر الأولى من العام الجاري إلى 16.76 مليار جنيه، مقابل 9.01 مليار جنيه في الربع الأول من العام الماضي.\nوارتفعت تكاليف النشاط إلى 14 مليون جنيه خلال الربع الأول من العام الجاري، مقابل 6.44 مليون جنيه في الربع المقارن من 2024.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر..\nاضغط هنا\nترشيحات\nصادرات الغاز الإسرائيلي إلى مصر ترتفع لـ 970 مليون قدم مكعبة يومياً\nمصر تتعاقد على استئجار سفينة تغويز ثالثة لتلبية الاحتياجات المحلية من الغاز\nمسؤول يكشف أسباب رفع أسعار خدمات الإنترنت والاتصالات في مصر\nمصر.. نصائح مهمة من \"حماية المستهلك\" للمواطنين قبل شراء السلع\n\n=== HORIZONS (predict ALL OF THEM) ===\n  short   -> t+0 only (just the start day's return)    AR label: اليوم الأول (t+0): رد الفعل الفوري\n  medium  -> t+0 .. t+1  (2 trading days cumulative)   AR label: اليومان الأولان (t+0 إلى t+1): الاستجابة المبكرة\n  large   -> t+0 .. t+19  (20 trading days cumulative)  AR label: العشرون يوم تداول (t+0 إلى t+19): الأثر الممتد\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- 'up'\nmeans OUTPERFORMING the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== OUTPUT INSTRUCTIONS ===\n1. Classify news_type FIRST.\n2. Walk through T1-T5. Pick TA signals that ACTUALLY apply from the closed vocab.\n3. Anchor magnitudes to the PER-COMPANY bands above (NOT a global rule).\n4. Quantify any dilution/yield ratio with both inputs.\n5. If news_type=dividend, FILL dividend_info; otherwise set it to null.\n6. LANGUAGE: free-text Arabic. JSON keys + enum values in English.\n7. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"news_type\":         \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n  \"already_priced_in\": <true | false>,\n  \"quantified_ratio\":  \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n  \"key_drivers\":       [\"<driver 1 Arabic>\", \"<driver 2 Arabic>\"],\n  \"ta_signals_cited\":  [\"<signal from closed vocab>\", \"...\"],\n  \"dividend_info\": null | {\n    \"yield_pct\":      <float>,\n    \"ex_div_date\":    \"<YYYY-MM-DD or null if unknown>\",\n    \"amount_egp\":     <float or null>\n  },\n  \"per_horizon\": {\n    \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"},\n    \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"},\n    \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"}\n  },\n  \"overall_reasoning\": \"<3-4 Arabic sentences. Walk T1-T5 briefly. Reference the per-company magnitude bands explicitly. State the quantified ratio if applicable.>\"\n}",
+    "critic": "You are a senior quantitative risk analyst at an Egyptian investment bank. A junior LLM analyst has assessed a news event about GBCO (GB Corp - GBCO). Your job:\n  (a) audit the junior's TA citations against the live data,\n  (b) check magnitudes against the PER-COMPANY bands (not global rules),\n  (c) produce the final authoritative prediction across short / medium / large,\n  (d) write a plain-Arabic explanation for a non-expert retail investor.\n\n=== COMPANY ===\nTicker      : GBCO\nName        : GB Corp - GBCO\nSector      : Diversified Holding\nDescription : GB Corp — diversified holding group with exposure to financial services, consumer goods, and industrial businesses.\nPrice data  : as of 2025-06-22  (article date: 2025-06-23)\n\n=== PRICE STATE ===\nLast close  : 22.64 EGP\nReturn 1d   : +3.85%   5d : +3.76%   20d : +6.49%   60d : +22.38%\nvs MA-50    : +2.44%  vs MA-200 : +30.79%\nTrend       : uptrend (above MA-50 and MA-200)\nVol 20d ann : 62.50%  [elevated regime]  Elevated -> impact AMPLIFIED.\n\n=== SECTOR ===\nSector 1d   : +3.85%  5d : +3.76%\nStock vs sector 1d : +0.00%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 1.00\nTop peers:\n  - CCAP | Non-Bank Financials | 90d-corr: 0.47\n  - ORHD | Real Estate | 90d-corr: 0.45\n  - ORWE | Textiles | 90d-corr: 0.33\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2025-06-16: stock +0.82%  sector +0.82%  AR +0.00%\n  2025-06-17: stock -0.64%  sector -0.64%  AR +0.00%\n  2025-06-18: stock +0.09%  sector +0.09%  AR +0.00%\n  2025-06-19: stock -0.37%  sector -0.37%  AR +0.00%\n  2025-06-22: stock +3.85%  sector +3.85%  AR +0.00%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 52.42  [neutral]\nMACD      : state=bearish  hist=-0.1586\nBollinger : zone=middle  %B=0.523\nDistance  : 20d_hi -7.55%  20d_lo +7.81%  60d_hi -7.55%  60d_lo +25.57%  52w_hi -7.55%  52w_lo +124.16%\nDivergence : none\nATR 14d   : 2.97%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : +1 (up streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=2.97%) ===\n  short   (N= 1d)  neutral=+-1.49%  small <2.08%  medium 2.08%-5.94%  large >=5.94%\n  medium  (N= 2d)  neutral=+-2.10%  small <2.94%  medium 2.94%-8.40%  large >=8.40%\n  large   (N=20d)  neutral=+-6.64%  small <9.30%  medium 9.30%-26.56%  large >=26.56%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-06-23 10:25:38\nIn trading hours: True  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : event_date (article day; news arrived during EGX hours)\nHorizons (days) : short=1d ; medium=2d ; large=20d\n\n=== ARABIC SENTIMENT ===\nLabel : neutral\nScore : +0.1002\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-06-23 10:25:38\nHeadline  : \"جي بي كوربوريشن\": طرح أول طراز مجمع في مصر من \"شانجان\" الصينية\n\nالقاهرة - مباشر: أعلنت شركة جي بي كوربوريشن، طرح أول طراز من العلامة الصينية \"شانجان\" مجمع محليًا في مصر نهاية الأسبوع الماضي.\nوأوضحت الشركة في افصاح لبورصة مصر اليوم الأثنين، أن الطراز ينتمي لفة السيارات الرياضية متعددة الاستخدامات.\nيشار أن جي بي كوربوريشن،  حققت أرباحاً بلغت 602.76 مليون جنيه خلال الفترة من يناير حتى نهاية مارس 2025، مقابل أرباح بلغت 667 مليون جنيه في الربع المقارن من 2024، مع الأخذ في الاعتبار حقوق الأقلية.\nوقفزت إيرادات الشركة خلال الثلاثة الأشهر الأولى من العام الجاري إلى 16.76 مليار جنيه، مقابل 9.01 مليار جنيه في الربع الأول من العام الماضي.\nوارتفعت تكاليف النشاط إلى 14 مليون جنيه خلال الربع الأول من العام الجاري، مقابل 6.44 مليون جنيه في الربع المقارن من 2024.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر..\nاضغط هنا\nترشيحات\nصادرات الغاز الإسرائيلي إلى مصر ترتفع لـ 970 مليون قدم مكعبة يومياً\nمصر تتعاقد على استئجار سفينة تغويز ثالثة لتلبية الاحتياجات المحلية من الغاز\nمسؤول يكشف أسباب رفع أسعار خدمات الإنترنت والاتصالات في مصر\nمصر.. نصائح مهمة من \"حماية المستهلك\" للمواطنين قبل شراء السلع\n\n=== IMPACT AGENT OUTPUT (junior, Groq) ===\n{\n  \"news_type\": \"operational\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"لا ينطبق\",\n  \"key_drivers\": [\n    \"طرح أول طراز مجمع محليًا من شانجان\",\n    \"زيادة إيرادات الشركة في الربع الأول\"\n  ],\n  \"ta_signals_cited\": [\n    \"macd_bearish\",\n    \"strong_uptrend\",\n    \"high_volatility\",\n    \"up_streak_3plus\"\n  ],\n  \"dividend_info\": null,\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.6,\n      \"reasoning\": \"الاتجاه الصعودي القوي والتحفيز الإيجابي من الأخبار يدعمان الاتجاه الصعودي، لكن MACD السلبي يقلل من الثقة.\"\n    },\n    \"medium\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.55,\n      \"reasoning\": \"الاتجاه الصعودي المستمر والتحفيز الإيجابي من الأخبار يعززان الاستجابة، مع تأثير محدود من MACD السلبي.\"\n    },\n    \"large\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"large\",\n      \"confidence\": 0.5,\n      \"reasoning\": \"الاتجاه الصعودي على المدى الطويل والتحفيز الإيجابي من الأخبار يدعمان حركة كبيرة، مع تقليل الثقة بسبب MACD السلبي.\"\n    }\n  },\n  \"overall_reasoning\": \"الأخبار الإيجابية عن طرح منتج جديد تدعم اتجاه صعودي، لكن MACD السلبي يشير إلى ضعف في الزخم. مع ارتفاع التقلبات (62.50%)، فإن الحركة المقدرة (3-5%) تقع ضمن نطاق المتوسط إلى الكبير حسب النطاقات المحددة. الاتجاه الصعودي القوي (أعلى من المتوسطات الحسابية) يعزز من احتمال الاستجابة الإيجابية.\"\n}\n\n=== HORIZONS (predict ALL OF THEM) ===\n  short   -> t+0 only (just the start day's return)    AR label: اليوم الأول (t+0): رد الفعل الفوري\n  medium  -> t+0 .. t+1  (2 trading days cumulative)   AR label: اليومان الأولان (t+0 إلى t+1): الاستجابة المبكرة\n  large   -> t+0 .. t+19  (20 trading days cumulative)  AR label: العشرون يوم تداول (t+0 إلى t+19): الأثر الممتد\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- 'up'\nmeans OUTPERFORMING the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== REVIEW CHECKLIST ===\nC1. NEWS_TYPE correct?\nC2. TA_SIGNALS: every cited signal must be supported by the data. Override\n    inconsistent cites silently in your final output.\nC3. MAGNITUDE vs PER-COMPANY BANDS: does the predicted bucket match the\n    horizon's per-company thresholds? Adjust if mis-scaled.\nC4. PRICED-IN: if stock_vs_sector_1d aligns with the news direction, short\n    magnitude should default to \"small\" (R4).\nC5. DIVERGENCE: if a divergence signal is present, did the junior account for it?\nC6. CONFIDENCE: lower when context contradicts the call or news is priced in.\n    Default conf_large <= conf_medium <= conf_short.\nC7. DIVIDEND_INFO: if news_type=dividend, ensure yield_pct is present. If the\n    article gives the ex-div date, extract it as YYYY-MM-DD; otherwise null.\nC8. LANGUAGE: strip any non-Arabic word from Arabic fields (R6).\n\n=== USER-FACING EXPLANATION (the most important deliverable) ===\nYou will produce TWO reasoning blocks tuned to two audiences:\n\n  news_story:       PLAIN ARABIC, ZERO JARGON. Just the news content and what\n                    it means in everyday language. A retail investor with no\n                    finance training must understand it. No RSI / MACD / ATR.\n\n  technical_view:   Includes TA signals AND explains each term in Arabic\n                    inline. Format example:\n                      \"مؤشر RSI (مقياس قوة الشراء والبيع) عند 72 وهو مرتفع...\"\n                      \"مؤشر MACD (تقاطع المتوسطات المتحركة) في حالة هبوطية...\"\n                      \"نطاقات بولينجر (مستوى التذبذب) تشير إلى تشبع...\"\n                      \"مؤشر ATR (متوسط الحركة اليومية المعتادة) لهذا السهم 1.5%...\"\n\n  sentiment_note:   ONE Arabic sentence that surfaces the CAMeLBERT sentiment\n                    result (label + score given above in 'ARABIC SENTIMENT')\n                    AND explicitly says whether it agrees with our prediction\n                    or contradicts it.\n\n  outlook_by_horizon: ONE Arabic sentence per horizon. Direction + size + a\n                    one-clause reason. Numbers stated in plain language.\n\n  what_could_change_our_view: 1-2 Arabic sentences on key uncertainties.\n\nU-rules:\n  U1. NUMBERS WITH MEANING. Every cited number gets a plain-Arabic interpretation.\n  U2. STATE THE PREDICTION FIRST in news_story (direction + timeline), THEN evidence.\n  U3. BREVITY. Each field is short -- prefer 2-3 sentences max per field.\n  U4. 100% Arabic in this entire block. The next agent (QA) will reject leaks.\n\n=== INSTRUCTIONS ===\n1. Override the junior wherever evidence demands; do not surface the override\n   to the user -- just produce the corrected final prediction.\n2. Confidence: adjust per horizon. Default conf_large <= conf_medium <= conf_short.\n3. SPELLING: \"RSI-14\" not \"RS-14\". Proper Arabic punctuation.\n4. LANGUAGE: free-text Arabic; JSON keys + tickers + enum values in English.\n5. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"primary_company\": {\n    \"ticker\":              \"GBCO\",\n    \"news_type\":           \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n    \"already_priced_in\":   <true | false>,\n    \"quantified_ratio\":    \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n    \"ta_signals_cited\":    [\"<signal from closed vocab>\", \"...\"],\n    \"dividend_info\": null | {\n      \"yield_pct\":   <float>,\n      \"ex_div_date\": \"<YYYY-MM-DD or null>\",\n      \"amount_egp\":  <float or null>\n    },\n    \"per_horizon\": {\n      \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"},\n      \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"},\n      \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"}\n    },\n    \"overall_reasoning\":   \"<2-3 Arabic sentences. Reference the per-company bands. State news_type. Concise.>\"\n  },\n  \"tldr\": \"<one Arabic sentence summarising the whole view: direction + dominant horizon>\",\n  \"explanation_for_user\": {\n    \"headline\":                   \"<one sentence in plain Arabic, no jargon, captures the news>\",\n    \"news_story\":                 \"<2-3 sentences PLAIN Arabic, zero technical jargon. What happened and why it matters to an everyday investor.>\",\n    \"technical_view\":             \"<2-3 sentences with TA signals, EACH technical term explained in Arabic inline as shown above (RSI / MACD / Bollinger / ATR / divergence).>\",\n    \"sentiment_note\":             \"<1 Arabic sentence: state the CAMeLBERT label and score, and whether it agrees with our prediction.>\",\n    \"outlook_by_horizon\": {\n      \"short\":  \"<one Arabic sentence: direction + size + reason for t+0>\",\n      \"medium\": \"<one Arabic sentence: direction + size + reason for t+0..t+1>\",\n      \"large\":  \"<one Arabic sentence: direction + size + reason for t+0..t+19>\"\n    },\n    \"what_could_change_our_view\": \"<1-2 Arabic sentences on key uncertainties>\"\n  }\n}"
+  },
+  "impact_agent": {
+    "output": {
+      "news_type": "operational",
+      "already_priced_in": false,
+      "quantified_ratio": "لا ينطبق",
+      "key_drivers": [
+        "طرح أول طراز مجمع محليًا من شانجان",
+        "زيادة إيرادات الشركة في الربع الأول"
+      ],
+      "ta_signals_cited": [
+        "macd_bearish",
+        "strong_uptrend",
+        "high_volatility",
+        "up_streak_3plus"
+      ],
+      "dividend_info": null,
+      "per_horizon": {
+        "short": {
+          "direction": "up",
+          "magnitude": "medium",
+          "confidence": 0.6,
+          "reasoning": "الاتجاه الصعودي القوي والتحفيز الإيجابي من الأخبار يدعمان الاتجاه الصعودي، لكن MACD السلبي يقلل من الثقة."
+        },
+        "medium": {
+          "direction": "up",
+          "magnitude": "medium",
+          "confidence": 0.55,
+          "reasoning": "الاتجاه الصعودي المستمر والتحفيز الإيجابي من الأخبار يعززان الاستجابة، مع تأثير محدود من MACD السلبي."
+        },
+        "large": {
+          "direction": "up",
+          "magnitude": "large",
+          "confidence": 0.5,
+          "reasoning": "الاتجاه الصعودي على المدى الطويل والتحفيز الإيجابي من الأخبار يدعمان حركة كبيرة، مع تقليل الثقة بسبب MACD السلبي."
+        }
+      },
+      "overall_reasoning": "الأخبار الإيجابية عن طرح منتج جديد تدعم اتجاه صعودي، لكن MACD السلبي يشير إلى ضعف في الزخم. مع ارتفاع التقلبات (62.50%)، فإن الحركة المقدرة (3-5%) تقع ضمن نطاق المتوسط إلى الكبير حسب النطاقات المحددة. الاتجاه الصعودي القوي (أعلى من المتوسطات الحسابية) يعزز من احتمال الاستجابة الإيجابية."
+    },
+    "raw": "{  \"news_type\": \"operational\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"لا ينطبق\",\n  \"key_drivers\": [\"طرح أول طراز مجمع محليًا من شانجان\", \"زيادة إيرادات الشركة في الربع الأول\"],\n  \"ta_signals_cited\": [\"macd_bearish\", \"strong_uptrend\", \"high_volatility\", \"up_streak_3plus\"],\n  \"dividend_info\": null,\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.6,\n      \"reasoning\": \"الاتجاه الصعودي القوي والتحفيز الإيجابي من الأخبار يدعمان الاتجاه الصعودي، لكن MACD السلبي يقلل من الثقة.\"\n    },\n    \"medium\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.55,\n      \"reasoning\": \"الاتجاه الصعودي المستمر والتحفيز الإيجابي من الأخبار يعززان الاستجابة، مع تأثير محدود من MACD السلبي.\"\n    },\n    \"large\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"large\",\n      \"confidence\": 0.5,\n      \"reasoning\": \"الاتجاه الصعودي على المدى الطويل والتحفيز الإيجابي من الأخبار يدعمان حركة كبيرة، مع تقليل الثقة بسبب MACD السلبي.\"\n    }\n  },\n  \"overall_reasoning\": \"الأخبار الإيجابية عن طرح منتج جديد تدعم اتجاه صعودي، لكن MACD السلبي يشير إلى ضعف في الزخم. مع ارتفاع التقلبات (62.50%)، فإن الحركة المقدرة (3-5%) تقع ضمن نطاق المتوسط إلى الكبير حسب النطاقات المحددة. الاتجاه الصعودي القوي (أعلى من المتوسطات الحسابية) يعزز من احتمال الاستجابة الإيجابية.\"\n}"
+  },
+  "critic_agent": {
+    "output": {
+      "primary_company": {
+        "ticker": "GBCO",
+        "news_type": "operational",
+        "already_priced_in": false,
+        "quantified_ratio": "لا ينطبق",
+        "ta_signals_cited": [
+          "macd_bearish",
+          "strong_uptrend",
+          "high_volatility",
+          "near_20d_high"
+        ],
+        "dividend_info": null,
+        "per_horizon": {
+          "short": {
+            "direction": "up",
+            "magnitude": "small",
+            "confidence": 0.6,
+            "reasoning": "السهم قرب أعلى مستوى له خلال ٢٠ يومًا (-٧٫٥٥٪ فقط من القمة)، مما يحدّ من الصعود. التقلبات المرتفعة (٦٢٫٥٪) تضخّم الحركة لكن MACD الهبوطي يقلّص الزخم الصعودي. الأخبار الإيجابية عن طرح شانجان تدعم الاتجاه."
+          },
+          "medium": {
+            "direction": "up",
+            "magnitude": "small",
+            "confidence": 0.55,
+            "reasoning": "الاتجاه الصعودي القوي فوق المتوسطات الحسابية يدعم استمرار الأداء الإيجابي، لكن ضعف الأرباح (انخفاض ٩٫٦٪ في صافي الربح) يجعل الاستجابة محدودة. MACD السلبي يحدّ من حجم الحركة."
+          },
+          "large": {
+            "direction": "up",
+            "magnitude": "medium",
+            "confidence": 0.5,
+            "reasoning": "النطاق الممتد (حتى ٢٠ يوم تداول) يمنح السهم مساحة أكبر للاستجابة الإيجابية. الطرح المحلي الأول من شانجان يعزز النمو طويل المدى. يظل MACD السلبي عاملاً مخففًا."
+          }
+        },
+        "overall_reasoning": "الأخبار opérationnelle (طرح أول طراز مجمع محليًا من شانجان) إيجابية وتدعم النمو، مع ارتفاع الإيرادات ٨٦٪ في الربع الأول. لكن صافي الربح تراجع ٩٫٦٪ وتكاليف النشاط ارتفعت ١١٦٪ مما يشير لضغوط هوامش. السهم قرب أعلى مستوى له خلال ٢٠ يومًا (-٧٫٥٥٪ من القمة) يحدّ من الصعود في الأفق القصير والمتوسط. مع التقلبات المرتفعة (٦٢٫٥٪) والتوجه الصعودي القوي، الحجم المتوقع يقع ضمن 'صغير' للآفاق القصيرة والمتوسطة وفقًا لنطاقات الشركة (قصير: أكبر من ٢٫٠٨٪ = متوسط، لكن قرب القمة يحدّ من الحركة)، و'متوسط' للأفق الكبير (أقل من ٢٦٫٥٦٪)."
+      },
+      "tldr": "السهم يتجه صعودًا معززًا بنمو الإيرادات وطرح شانجان المحلي، لكن قرب القمة وتراجع الأرباح يحدّان من حجم الحركة خاصة في الأفق القصير والمتوسط.",
+      "explanation_for_user": {
+        "headline": "جي بي كوربوريشن تطرح أول سيارة شانجان مُجمَّعة محليًا في مصر مع نمو قوي في الإيرادات.",
+        "news_story": "أعلنت جي بي كوربوريشن أنها طرحت أول طراز من السيارة الصينية شانجان يُجمَّع محليًا في مصر نهاية الأسبوع الماضي. هذا الطرح يعزز تواجد الشركة في سوق السيارات المحلية. ورغم أن إيرادات الشركة قفزت ٨٦٪ في الربع الأول من ٢٠٢٥ إلى ١٦٫٧٦ مليار جنيه، إلا أن صافي الربح تراجع ٩٫٦٪ إلى ٦٠٢٫٧٦ مليون جنيه بسبب ارتفاع تكاليف النشاط بنسبة ١١٦٪.",
+        "technical_view": "مؤشر MACD (تقاطع المتوسطات المتحركة) في حالة هبوطية مما يشير إلى ضعف الزخم الصعودي الحالي. يتداول السهم في اتجاه صعودي قوي فوق المتوسطين الحسابيين (٥٠ و٢٠٠ يوم). التقلبات المرتفعة (٦٢٫٥٪) تعني أن أي حركة سعرية ستكون أكبر من المعتاد. النطاق أعلى مستوى له خلال ٢٠ يومًا بـ ٧٫٥٥٪ فقط.",
+        "sentiment_note": "تحليل المشاعر الآلي (CAMeLBERT) منح الخبر تصنيفًا محايدًا مع درجة +٠٫١٠، وهذا يتوافق مع توقعاتنا إذ أن الأخبار إيجابية لكن الأرباح متراجعة.",
+        "outlook_by_horizon": {
+          "short": "اتجاه صعودي بحجم صغير — قرب السهم من أعلى مستوى له خلال ٢٠ يومًا يحدّ من الصعود رغم الأخبار الإيجابية.",
+          "medium": "اتجاه صعودي بحجم صغير — ضعف الأرباح يحدّ من زخم الصعود مع بقاء MACD السلبي عاملاً مخففًا.",
+          "large": "اتجاه صعودي بحجم متوسط — طرح شانجان المحلي يدعم النمو طويل المدى مع مساحة أكبر للتحرك الإيجابي."
+        },
+        "what_could_change_our_view": "إذا أظهرت البيانات القادمة تحسنًا في الهوامش، فإن الحجم قد يرتفع إلى 'كبير'. أي تراجعات حادة في الأسواق قد تُلغي الاتجاه الصعودي وتقلّص حجم الحركة."
+      }
+    },
+    "raw": "\n\n{\n  \"primary_company\": {\n    \"ticker\": \"GBCO\",\n    \"news_type\": \"operational\",\n    \"already_priced_in\": false,\n    \"quantified_ratio\": \"لا ينطبق\",\n    \"ta_signals_cited\": [\n      \"macd_bearish\",\n      \"strong_uptrend\",\n      \"high_volatility\",\n      \"near_20d_high\"\n    ],\n    \"dividend_info\": null,\n    \"per_horizon\": {\n      \"short\": {\n        \"direction\": \"up\",\n        \"magnitude\": \"small\",\n        \"confidence\": 0.6,\n        \"reasoning\": \"السهم قرب أعلى مستوى له خلال ٢٠ يومًا (-٧٫٥٥٪ فقط من القمة)، مما يحدّ من الصعود. التقلبات المرتفعة (٦٢٫٥٪) تضخّم الحركة لكن MACD الهبوطي يقلّص الزخم الصعودي. الأخبار الإيجابية عن طرح شانجان تدعم الاتجاه.\"\n      },\n      \"medium\": {\n        \"direction\": \"up\",\n        \"magnitude\": \"small\",\n        \"confidence\": 0.55,\n        \"reasoning\": \"الاتجاه الصعودي القوي فوق المتوسطات الحسابية يدعم استمرار الأداء الإيجابي، لكن ضعف الأرباح (انخفاض ٩٫٦٪ في صافي الربح) يجعل الاستجابة محدودة. MACD السلبي يحدّ من حجم الحركة.\"\n      },\n      \"large\": {\n        \"direction\": \"up\",\n        \"magnitude\": \"medium\",\n        \"confidence\": 0.5,\n        \"reasoning\": \"النطاق الممتد (حتى ٢٠ يوم تداول) يمنح السهم مساحة أكبر للاستجابة الإيجابية. الطرح المحلي الأول من شانجان يعزز النمو طويل المدى. يظل MACD السلبي عاملاً مخففًا.\"\n      }\n    },\n    \"overall_reasoning\": \"الأخبار opérationnelle (طرح أول طراز مجمع محليًا من شانجان) إيجابية وتدعم النمو، مع ارتفاع الإيرادات ٨٦٪ في الربع الأول. لكن صافي الربح تراجع ٩٫٦٪ وتكاليف النشاط ارتفعت ١١٦٪ مما يشير لضغوط هوامش. السهم قرب أعلى مستوى له خلال ٢٠ يومًا (-٧٫٥٥٪ من القمة) يحدّ من الصعود في الأفق القصير والمتوسط. مع التقلبات المرتفعة (٦٢٫٥٪) والتوجه الصعودي القوي، الحجم المتوقع يقع ضمن 'صغير' للآفاق القصيرة والمتوسطة وفقًا لنطاقات الشركة (قصير: أكبر من ٢٫٠٨٪ = متوسط، لكن قرب القمة يحدّ من الحركة)، و'متوسط' للأفق الكبير (أقل من ٢٦٫٥٦٪).\"\n  },\n  \"tldr\": \"السهم يتجه صعودًا معززًا بنمو الإيرادات وطرح شانجان المحلي، لكن قرب القمة وتراجع الأرباح يحدّان من حجم الحركة خاصة في الأفق القصير والمتوسط.\",\n  \"explanation_for_user\": {\n    \"headline\": \"جي بي كوربوريشن تطرح أول سيارة شانجان مُجمَّعة محليًا في مصر مع نمو قوي في الإيرادات.\",\n    \"news_story\": \"أعلنت جي بي كوربوريشن أنها طرحت أول طراز من السيارة الصينية شانجان يُجمَّع محليًا في مصر نهاية الأسبوع الماضي. هذا الطرح يعزز تواجد الشركة في سوق السيارات المحلية. ورغم أن إيرادات الشركة قفزت ٨٦٪ في الربع الأول من ٢٠٢٥ إلى ١٦٫٧٦ مليار جنيه، إلا أن صافي الربح تراجع ٩٫٦٪ إلى ٦٠٢٫٧٦ مليون جنيه بسبب ارتفاع تكاليف النشاط بنسبة ١١٦٪.\",\n    \"technical_view\": \"مؤشر MACD (تقاطع المتوسطات المتحركة) في حالة هبوطية مما يشير لضعف الزخم الصعودي الحالي. السهم يتداول في اتجاه صعودي قوي فوق المتوسطين الحسابيين (٥٠ و٢٠٠ يوم). التقلبات المرتفعة (٦٢٫٥٪) تعني أن أي حركة سعرية ستكون أكبر من المعتاد. النطاق，距 أعلى مستوى له خلال ٢٠ يومًا بـ ٧٫٥٥٪ فقط.\",\n    \"sentiment_note\": \"تحليل المشاعر الآلي (CAMeLBERT) منح الخبر تصنيفًا محايدًا مع درجة +٠٫١٠، وهذا يتوافق مع توقعاتنا إذ أن الأخبار إيجابية لكن الأرباح متراجعة.\",\n    \"outlook_by_horizon\": {\n      \"short\": \"اتجاه صعودي بحجم صغير — قرب السهم من أعلى مستوى له خلال ٢٠ يومًا يحدّ من الصعود رغم الأخبار الإيجابية.\",\n      \"medium\": \"اتجاه صعودي بحجم صغير — ضعف الأرباح يحدّ من زخم الصعود مع بقاء MACD السلبي عاملاً مخففًا.\",\n      \"large\": \"اتجاه صعودي بحجم متوسط — طرح شانجان المحلي يدعم النمو طويل المدى مع مساحة أكبر للتحرك الإيجابي.\"\n    },\n    \"what_could_change_our_view\": \"إذا أظهرت البيانات القادمة تحسنًا في الهوامش Profits، فإن الحجم قد يرتفع إلى 'كبير'. أي تراجعات حادة في الأسواق قد تُلغي الاتجاه الصعودي وتقلّص حجم الحركة.\"\n  }\n}",
+    "thinking": "Let me analyze this carefully as a senior quantitative risk analyst auditing the junior's work.\n\n**News Analysis:**\n- GBCO announced launching the first locally assembled Changan vehicle model in Egypt\n- Q1 2025 results: Revenue jumped from 9.01B to 16.76B EGP (+86%)\n- Net profit declined from 667M to 602.76M EGP (-9.6%)\n- Activity costs jumped from 6.44M to 14M (+116%)\n\n**News Type:** operational (new product launch + earnings data)\n\n**Already Priced In Check:**\n- Stock 1d return: +3.85%, sector 1d: +3.85%\n- AR = 0.00% over past 5 days\n- No evidence of pricing in before the announcement\n\n**Technical Signal Audit:**\nThe junior cited:\n- \"macd_bearish\" - CHECK: MACD state = bearish, hist = -0.1586 → VALID\n- \"strong_uptrend\" - CHECK: above MA-50 (+2.44%) and MA-200 (+30.79%), uptrend confirmed → VALID\n- \"high_volatility\" - CHECK: Vol 20d ann = 62.50%, elevated regime → VALID\n- \"up_streak_3plus\" - CHECK: Streak = +1 only, not 3+ → INVALID (junior overcounted)\n\n**Per-Company Bands Check:**\nShort (1d): neutral ±1.49%, small <2.08%, medium 2.08%-5.94%, large ≥5.94%\nMedium (2d): neutral ±2.10%, small <2.94%, medium 2.94%-8.40%, large ≥8.40%\nLarge (20d): neutral ±6.64%, small <9.30%, medium 9.30%-26.56%, large ≥26.56%\n\n\n- 20d distance: -7.55% from 20d high, +7.81% from 20d low\n- 60d distance: -7.55% from 60d high, +25.57% from 60d low\n- 52w distance: -7.55% from 52w high, +124.16% from 52w low\n\nRSI at 52.42 is neutral territory with room for upside. MACD bearish signals weak momentum. Bollinger %B at 0.523 sits in middle band. Volatility elevated means moves get amplified. Price has already gained +7.55% from recent lows, reducing upside potential but not severely constrained.\n\nFor Q1 2025: Revenue surged 86% year-over-year to 16.76B EGP while net profit declined 9.6% to 602.76M EGP due to cost increases outpacing revenue growth. The Changan product launch supports future growth but current profitability metrics are mixed.\n\nThe stock is up 3.85% today with no news priced in beforehand, aligning with the announcement. For the short term (1 day), a neutral-to-small move makes sense—moderate upside could occur given the positive news offset by MACD bearishness and proximity to the 20-day high, with medium confidence. Medium-term (2 days) shows similar dynamics, small-to-medium movement possible with weak momentum and mixed earnings picture, medium confidence. Over 20 days, the strong uptrend and substantial distance from the 52-week high suggest medium magnitude is appropriate, though confidence stays medium due to MACD headwinds and earnings quality concerns. Profitability declining despite strong revenue growth suggests execution challenges. Revenue expansion indicates market share gains, but cost pressures require monitoring. The announcement alone won't drive large movements without confirming sustained profitability improvement.\n"
+  },
+  "arabic_qa": {
+    "enabled": true,
+    "model": "claude-sonnet-4-6",
+    "explanation_pre": {
+      "headline": "جي بي كوربوريشن تطرح أول سيارة شانجان مُجمَّعة محليًا في مصر مع نمو قوي في الإيرادات.",
+      "news_story": "أعلنت جي بي كوربوريشن أنها طرحت أول طراز من السيارة الصينية شانجان يُجمَّع محليًا في مصر نهاية الأسبوع الماضي. هذا الطرح يعزز تواجد الشركة في سوق السيارات المحلية. ورغم أن إيرادات الشركة قفزت ٨٦٪ في الربع الأول من ٢٠٢٥ إلى ١٦٫٧٦ مليار جنيه، إلا أن صافي الربح تراجع ٩٫٦٪ إلى ٦٠٢٫٧٦ مليون جنيه بسبب ارتفاع تكاليف النشاط بنسبة ١١٦٪.",
+      "technical_view": "مؤشر MACD (تقاطع المتوسطات المتحركة) في حالة هبوطية مما يشير لضعف الزخم الصعودي الحالي. السهم يتداول في اتجاه صعودي قوي فوق المتوسطين الحسابيين (٥٠ و٢٠٠ يوم). التقلبات المرتفعة (٦٢٫٥٪) تعني أن أي حركة سعرية ستكون أكبر من المعتاد. النطاق，距 أعلى مستوى له خلال ٢٠ يومًا بـ ٧٫٥٥٪ فقط.",
+      "sentiment_note": "تحليل المشاعر الآلي (CAMeLBERT) منح الخبر تصنيفًا محايدًا مع درجة +٠٫١٠، وهذا يتوافق مع توقعاتنا إذ أن الأخبار إيجابية لكن الأرباح متراجعة.",
+      "outlook_by_horizon": {
+        "short": "اتجاه صعودي بحجم صغير — قرب السهم من أعلى مستوى له خلال ٢٠ يومًا يحدّ من الصعود رغم الأخبار الإيجابية.",
+        "medium": "اتجاه صعودي بحجم صغير — ضعف الأرباح يحدّ من زخم الصعود مع بقاء MACD السلبي عاملاً مخففًا.",
+        "large": "اتجاه صعودي بحجم متوسط — طرح شانجان المحلي يدعم النمو طويل المدى مع مساحة أكبر للتحرك الإيجابي."
+      },
+      "what_could_change_our_view": "إذا أظهرت البيانات القادمة تحسنًا في الهوامش Profits، فإن الحجم قد يرتفع إلى 'كبير'. أي تراجعات حادة في الأسواق قد تُلغي الاتجاه الصعودي وتقلّص حجم الحركة."
+    },
+    "explanation_post": {
+      "headline": "جي بي كوربوريشن تطرح أول سيارة شانجان مُجمَّعة محليًا في مصر مع نمو قوي في الإيرادات.",
+      "news_story": "أعلنت جي بي كوربوريشن أنها طرحت أول طراز من السيارة الصينية شانجان يُجمَّع محليًا في مصر نهاية الأسبوع الماضي. هذا الطرح يعزز تواجد الشركة في سوق السيارات المحلية. ورغم أن إيرادات الشركة قفزت ٨٦٪ في الربع الأول من ٢٠٢٥ إلى ١٦٫٧٦ مليار جنيه، إلا أن صافي الربح تراجع ٩٫٦٪ إلى ٦٠٢٫٧٦ مليون جنيه بسبب ارتفاع تكاليف النشاط بنسبة ١١٦٪.",
+      "technical_view": "مؤشر MACD (تقاطع المتوسطات المتحركة) في حالة هبوطية مما يشير إلى ضعف الزخم الصعودي الحالي. يتداول السهم في اتجاه صعودي قوي فوق المتوسطين الحسابيين (٥٠ و٢٠٠ يوم). التقلبات المرتفعة (٦٢٫٥٪) تعني أن أي حركة سعرية ستكون أكبر من المعتاد. النطاق أعلى مستوى له خلال ٢٠ يومًا بـ ٧٫٥٥٪ فقط.",
+      "sentiment_note": "تحليل المشاعر الآلي (CAMeLBERT) منح الخبر تصنيفًا محايدًا مع درجة +٠٫١٠، وهذا يتوافق مع توقعاتنا إذ أن الأخبار إيجابية لكن الأرباح متراجعة.",
+      "outlook_by_horizon": {
+        "short": "اتجاه صعودي بحجم صغير — قرب السهم من أعلى مستوى له خلال ٢٠ يومًا يحدّ من الصعود رغم الأخبار الإيجابية.",
+        "medium": "اتجاه صعودي بحجم صغير — ضعف الأرباح يحدّ من زخم الصعود مع بقاء MACD السلبي عاملاً مخففًا.",
+        "large": "اتجاه صعودي بحجم متوسط — طرح شانجان المحلي يدعم النمو طويل المدى مع مساحة أكبر للتحرك الإيجابي."
+      },
+      "what_could_change_our_view": "إذا أظهرت البيانات القادمة تحسنًا في الهوامش، فإن الحجم قد يرتفع إلى 'كبير'. أي تراجعات حادة في الأسواق قد تُلغي الاتجاه الصعودي وتقلّص حجم الحركة."
+    }
+  },
+  "final": {
+    "ticker": "GBCO",
+    "news_type": "operational",
+    "already_priced_in": false,
+    "quantified_ratio": "لا ينطبق",
+    "ta_signals_cited": [
+      "macd_bearish",
+      "strong_uptrend",
+      "high_volatility",
+      "near_20d_high"
+    ],
+    "dividend_info": null,
+    "per_horizon": {
+      "short": {
+        "direction": "up",
+        "magnitude": "small",
+        "confidence": 0.6,
+        "reasoning": "السهم قرب أعلى مستوى له خلال ٢٠ يومًا (-٧٫٥٥٪ فقط من القمة)، مما يحدّ من الصعود. التقلبات المرتفعة (٦٢٫٥٪) تضخّم الحركة لكن MACD الهبوطي يقلّص الزخم الصعودي. الأخبار الإيجابية عن طرح شانجان تدعم الاتجاه."
+      },
+      "medium": {
+        "direction": "up",
+        "magnitude": "small",
+        "confidence": 0.55,
+        "reasoning": "الاتجاه الصعودي القوي فوق المتوسطات الحسابية يدعم استمرار الأداء الإيجابي، لكن ضعف الأرباح (انخفاض ٩٫٦٪ في صافي الربح) يجعل الاستجابة محدودة. MACD السلبي يحدّ من حجم الحركة."
+      },
+      "large": {
+        "direction": "up",
+        "magnitude": "medium",
+        "confidence": 0.5,
+        "reasoning": "النطاق الممتد (حتى ٢٠ يوم تداول) يمنح السهم مساحة أكبر للاستجابة الإيجابية. الطرح المحلي الأول من شانجان يعزز النمو طويل المدى. يظل MACD السلبي عاملاً مخففًا."
+      }
+    },
+    "overall_reasoning": "الأخبار opérationnelle (طرح أول طراز مجمع محليًا من شانجان) إيجابية وتدعم النمو، مع ارتفاع الإيرادات ٨٦٪ في الربع الأول. لكن صافي الربح تراجع ٩٫٦٪ وتكاليف النشاط ارتفعت ١١٦٪ مما يشير لضغوط هوامش. السهم قرب أعلى مستوى له خلال ٢٠ يومًا (-٧٫٥٥٪ من القمة) يحدّ من الصعود في الأفق القصير والمتوسط. مع التقلبات المرتفعة (٦٢٫٥٪) والتوجه الصعودي القوي، الحجم المتوقع يقع ضمن 'صغير' للآفاق القصيرة والمتوسطة وفقًا لنطاقات الشركة (قصير: أكبر من ٢٫٠٨٪ = متوسط، لكن قرب القمة يحدّ من الحركة)، و'متوسط' للأفق الكبير (أقل من ٢٦٫٥٦٪)."
+  }
+}

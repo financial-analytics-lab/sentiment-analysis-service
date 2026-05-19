@@ -1,0 +1,93 @@
+{
+  "trace_file": "BTFH_2025-01-08_c20d32aa.json",
+  "ticker": "BTFH",
+  "article_date": "2025-01-08",
+  "wall_clock_s": 19.26,
+  "aggregate": {
+    "consensus_action": "BUY",
+    "action_tally": {
+      "BUY": 3,
+      "HOLD": 2,
+      "SELL": 0
+    },
+    "entry_price_median": {
+      "low": 2.41,
+      "high": 2.46
+    },
+    "mean_confidence": 0.534,
+    "n_voters": 5,
+    "n_successful": 5
+  },
+  "votes": [
+    {
+      "voter": 2,
+      "ok": true,
+      "latency_s": 10.32,
+      "vote": {
+        "action": "HOLD",
+        "entry_price_egp": {
+          "low": 2.47,
+          "high": 2.47
+        },
+        "confidence": 0.5,
+        "rationale": "السهم قريب من أدنى مستويات الدعم مما يحد من الهبوط لكن الاتجاه المحايد متوسطة المدى يحد من الصعود المتوقع"
+      }
+    },
+    {
+      "voter": 1,
+      "ok": true,
+      "latency_s": 10.32,
+      "vote": {
+        "action": "BUY",
+        "entry_price_egp": {
+          "low": 2.4,
+          "high": 2.46
+        },
+        "confidence": 0.55,
+        "rationale": "السهم قريب من أدنى مستوى له خلال 20 يوم مع إشارة صعود قصيرة المدى"
+      }
+    },
+    {
+      "voter": 4,
+      "ok": true,
+      "latency_s": 11.1,
+      "vote": {
+        "action": "BUY",
+        "entry_price_egp": {
+          "low": 2.37,
+          "high": 2.45
+        },
+        "confidence": 0.55,
+        "rationale": "السهم قرب دعم 20 يوم و52 أسبوع مما يعطي نسبة مخاطرة لمكافأة مناسبة"
+      }
+    },
+    {
+      "voter": 3,
+      "ok": true,
+      "latency_s": 12.17,
+      "vote": {
+        "action": "HOLD",
+        "entry_price_egp": {
+          "low": 2.47,
+          "high": 2.47
+        },
+        "confidence": 0.52,
+        "rationale": "السعر قريب من قاع 52 أسبوعاً لكن دون محفز واضح للشراء"
+      }
+    },
+    {
+      "voter": 5,
+      "ok": true,
+      "latency_s": 19.26,
+      "vote": {
+        "action": "BUY",
+        "entry_price_egp": {
+          "low": 2.41,
+          "high": 2.45
+        },
+        "confidence": 0.55,
+        "rationale": "السعر قرب قاع 20 و52 أسبوع مع ميل تحليلي إيجابي قصير الأجل يستدعي دخول-buy عند مستويات دعم قوية"
+      }
+    }
+  ]
+}

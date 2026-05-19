@@ -1,0 +1,266 @@
+{
+  "ticker": "RAYA",
+  "article_date": "2025-01-02",
+  "context_date": "2024-12-31",
+  "processed_at": "2026-05-17T22:56:00.977547",
+  "article": {
+    "symbol": "RAYA",
+    "company": "Raya Holding For Financial Investments",
+    "isin": "EGS690C1C010",
+    "sector": "Technology & Fintech",
+    "id": "4387387",
+    "date": "2025-01-02",
+    "time": "12:43:35",
+    "datetime": "2025-01-02 12:43:35",
+    "title": "أمان القابضة تنجح في إصدار سندات توريق بقيمة 2.5 مليار جنيه",
+    "body": "القاهرة - مباشر: أعلنت شركة أمان القابضة -تابعة لراية القابضة للاستثمارات المالية بنسبة 76%- عن نجاحها في الانتهاء من الاصدار السادس والسابع لسندات التوريق في ديسمبر 2024.\nوأوضحت الشركة في افصاح اليوم الخميس، أن الإصدارين الأول والثاني لشركة أمات للتوريق -تابعة لأمان القابضة- بإجمالي 2.5 مليار جنيه، وتم تخصيصه على 5 شرائح بآجال زمنية تتراوح بين قصيرة ومتوسطة الأجل.\nوأضافت أن الإصدار الأول بقيمة 1.41 مليار جنيه المضمون بمحفظة تمويل متناهي الصغر من شركتها التابعة -أمان لتمويل المشروعات-، فيما أغلق الإصدار الثاني بقيمة 1.08 مليار جنيه المضمون بمحفظة تمويل استهلاكي من شركتها التابعة أمان للتمويل الاستهلاكي.\nيشار إلى أن راية القابضة للاستثمارات المالية،  سجلت صافي ربح بلغ 1.27 مليار جنيه خلال الفترة من يناير حتى نهاية سبتمبر 2024، مقابل أرباح بقيمة 489.2 مليون جنيه خلال الفترة نفسها من العام الماضي، مع الأخذ في الاعتبار حقوق الأقلية.\nوارتفعت إيرادات الشركة خلال الفترة إلى 32.3 مليار جنيه، مقابل 22.6 مليار جنيه خلال الفترة نفسها من العام الماضي.\nوعلى صعيد القوائم غير المجمعة، تحولت الشركة المستقلة خلال الفترة إلى الخسائر لتتكبد 24.9 مليون جنيه، مقابل أرباح بلغت 56.6 مليون جنيه خلال النصف نفسه من 2023.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية\n..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر\n..\nاضغط هنا\nترشيحات\n:\nمحمد بن زايد: الإمارات حريصة على وحدة سوريا وسلامتها وسيادتها",
+    "teaser": "القاهرة - مباشر: أعلنت شركة أمان القابضة -تابعة لراية القابضة للاستثمارات المالية بنسبة 76%- عن نجاحها في الانتهاء من الاصدار السادس والسابع لسندات التوريق في ديسمبر 2024. وأوضحت الشركة في افصاح اليوم الخميس، أن الإصدارين الأول والثاني لشركة أمات …",
+    "section": "أخبار الشركة",
+    "source": "مباشر",
+    "categories": "stock-bonds",
+    "country": "مصر",
+    "reads": 274,
+    "url": "https://www.mubasher.info/news/4387387",
+    "image_url": "https://static.mubasher.info/File.Story_Image/e0347423e4e9d7feebfe569115db92d0/640.jpg",
+    "date_raw": ""
+  },
+  "sentiment": {
+    "model": "CAMeL-Lab/bert-base-arabic-camelbert-mix-sentiment",
+    "label": "neutral",
+    "score": 0.2424,
+    "numeric": 0,
+    "class_probs": {
+      "neutral": 0.7523,
+      "positive": 0.245,
+      "negative": 0.0026
+    }
+  },
+  "context": {
+    "ticker": "RAYA",
+    "company": "Raya Holding - RAYA",
+    "sector": "Technology & Fintech",
+    "business_description": "Raya Holding for Financial Investments — diversified group: Raya Contact Center (BPO), consumer electronics distribution, and manufacturing subsidiaries across Africa and the Middle East.",
+    "event_date": "2025-01-02",
+    "last_price_date": "2024-12-31",
+    "price_state": {
+      "last_close": 2.81,
+      "return_1d": 2.93,
+      "return_5d": -3.77,
+      "return_20d": -11.08,
+      "return_60d": 4.85,
+      "pct_vs_ma50": -13.27,
+      "pct_vs_ma200": -11.91,
+      "vol_20d_annualized_pct": 53.68,
+      "vol_regime": "low",
+      "rsi_14": 34.99
+    },
+    "market_state": {
+      "sector_return_1d": -0.23,
+      "sector_return_5d": -0.23,
+      "relative_strength_vs_sector_1d": 3.16
+    },
+    "correlation_state": {
+      "corr_with_sector_90d": 0.77,
+      "top_3_correlated_peers": [
+        {
+          "ticker": "MFPC",
+          "correlation": 0.31,
+          "sector": "Petroleum & Petrochemicals"
+        },
+        {
+          "ticker": "ABUK",
+          "correlation": 0.29,
+          "sector": "Petroleum & Petrochemicals"
+        },
+        {
+          "ticker": "ORWE",
+          "correlation": 0.27,
+          "sector": "Textiles"
+        }
+      ]
+    },
+    "recent_abnormal_returns": [
+      {
+        "date": "2024-12-25",
+        "stock_return_pct": -1.03,
+        "sector_return_pct": -0.28,
+        "abnormal_return_pct": -0.75
+      },
+      {
+        "date": "2024-12-26",
+        "stock_return_pct": 0.0,
+        "sector_return_pct": 1.08,
+        "abnormal_return_pct": -1.08
+      },
+      {
+        "date": "2024-12-29",
+        "stock_return_pct": -3.46,
+        "sector_return_pct": -1.34,
+        "abnormal_return_pct": -2.12
+      },
+      {
+        "date": "2024-12-30",
+        "stock_return_pct": -2.15,
+        "sector_return_pct": -0.89,
+        "abnormal_return_pct": -1.26
+      },
+      {
+        "date": "2024-12-31",
+        "stock_return_pct": 2.93,
+        "sector_return_pct": 0.98,
+        "abnormal_return_pct": 1.95
+      }
+    ],
+    "technical_signals": {
+      "rsi_14": 34.99,
+      "rsi_zone": "neutral",
+      "macd": {
+        "line": -0.1193,
+        "signal": -0.0576,
+        "histogram": -0.0616,
+        "state": "bearish"
+      },
+      "bollinger": {
+        "pct_b": 0.146,
+        "bandwidth_pct": 33.56,
+        "zone": "near_lower"
+      },
+      "distance_to_extremes": {
+        "20d_high_distance_pct": -20.17,
+        "20d_low_distance_pct": 2.93,
+        "60d_high_distance_pct": -23.43,
+        "60d_low_distance_pct": 4.46,
+        "252d_high_distance_pct": -46.07,
+        "252d_low_distance_pct": 43.73
+      },
+      "rsi_divergence": "none",
+      "atr_pct_14d": 2.41,
+      "consecutive_streak": 1
+    }
+  },
+  "prompts": {
+    "impact": "You are a quantitative analyst predicting Egyptian Stock Exchange (EGX) stock reactions to Arabic news. Your prediction must be grounded in the technical signals provided -- not vibes.\n\n=== COMPANY ===\nTicker      : RAYA\nName        : Raya Holding - RAYA\nSector      : Technology & Fintech\nDescription : Raya Holding for Financial Investments — diversified group: Raya Contact Center (BPO), consumer electronics distribution, and manufacturing subsidiaries across Africa and the Middle East.\nPrice data  : as of 2024-12-31  (article date: 2025-01-02)\n\n=== PRICE STATE ===\nLast close  : 2.81 EGP\nReturn 1d   : +2.93%\nReturn 5d   : -3.77%\nReturn 20d  : -11.08%\nReturn 60d  : +4.85%\nvs MA-50    : -13.27%\nvs MA-200   : -11.91%\nTrend       : downtrend (below MA-50 and MA-200)\nVol 20d ann : 53.68%  [low regime]  Low -> impact MUTED unless structurally significant.\n\n=== SECTOR / MARKET ===\nSector ret 1d   : -0.23%\nSector ret 5d   : -0.23%\nStock vs sector 1d : +3.16%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 0.77\nTop peers:\n  - MFPC | Petroleum & Petrochemicals | 90d-corr: 0.31\n  - ABUK | Petroleum & Petrochemicals | 90d-corr: 0.29\n  - ORWE | Textiles | 90d-corr: 0.27\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2024-12-25: stock -1.03%  sector -0.28%  AR -0.75%\n  2024-12-26: stock +0.00%  sector +1.08%  AR -1.08%\n  2024-12-29: stock -3.46%  sector -1.34%  AR -2.12%\n  2024-12-30: stock -2.15%  sector -0.89%  AR -1.26%\n  2024-12-31: stock +2.93%  sector +0.98%  AR +1.95%\n\n=== TECHNICAL SIGNALS ===\nRSI-14      : 34.99  [neutral]\nMACD (12/26/9):\n  state=bearish                   line=-0.1193  signal=-0.0576  hist=-0.0616\nBollinger (20, 2sigma):\n  zone=near_lower      %B=0.146  bandwidth=33.56%\nDistance to extremes (negative = below high, positive = above low):\n  20d high: -20.17%   20d low: +2.93%\n  60d high: -23.43%   60d low: +4.46%\n  52w high: -46.07%   52w low: +43.73%\nRSI divergence : none\nATR (14d, avg |daily%|) : 2.41%   <-- TYPICAL DAILY MOVE ANCHOR\nConsecutive streak     : +1  (up streak)\n\n=== ARABIC SENTIMENT (one input among many) ===\nLabel : neutral\nScore : +0.2424   (-1 strongly negative -> +1 strongly positive)\nNOTE: CAMeLBERT classifies tone, not financial implication.\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-01-02 12:43:35\nHeadline  : أمان القابضة تنجح في إصدار سندات توريق بقيمة 2.5 مليار جنيه\n\nالقاهرة - مباشر: أعلنت شركة أمان القابضة -تابعة لراية القابضة للاستثمارات المالية بنسبة 76%- عن نجاحها في الانتهاء من الاصدار السادس والسابع لسندات التوريق في ديسمبر 2024.\nوأوضحت الشركة في افصاح اليوم الخميس، أن الإصدارين الأول والثاني لشركة أمات للتوريق -تابعة لأمان القابضة- بإجمالي 2.5 مليار جنيه، وتم تخصيصه على 5 شرائح بآجال زمنية تتراوح بين قصيرة ومتوسطة الأجل.\nوأضافت أن الإصدار الأول بقيمة 1.41 مليار جنيه المضمون بمحفظة تمويل متناهي الصغر من شركتها التابعة -أمان لتمويل المشروعات-، فيما أغلق الإصدار الثاني بقيمة 1.08 مليار جنيه المضمون بمحفظة تمويل استهلاكي من شركتها التابعة أمان للتمويل الاستهلاكي.\nيشار إلى أن راية القابضة للاستثمارات المالية،  سجلت صافي ربح بلغ 1.27 مليار جنيه خلال الفترة من يناير حتى نهاية سبتمبر 2024، مقابل أرباح بقيمة 489.2 مليون جنيه خلال الفترة نفسها من العام الماضي، مع الأخذ في الاعتبار حقوق الأقلية.\nوارتفعت إيرادات الشركة خلال الفترة إلى 32.3 مليار جنيه، مقابل 22.6 مليار جنيه خلال الفترة نفسها من العام الماضي.\nوعلى صعيد القوائم غير المجمعة، تحولت الشركة المستقلة خلال الفترة إلى الخسائر لتتكبد 24.9 مليون جنيه، مقابل أرباح بلغت 56.6 مليون جنيه خلال النصف نفسه من 2023.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية\n..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر\n..\nاضغط هنا\nترشيحات\n:\nمحمد بن زايد: الإمارات حريصة على وحدة سوريا وسلامتها وسيادتها\n\n=== HORIZONS (predict BOTH) ===\nshort  -> t+1 to t+2  trading days  (neutral band +-1.5%; mag: <1.5% / 1.5-4% / >=4%)\nmedium -> t+1 to t+20 trading days  (neutral band +-4%;   mag: <4%   / 4-8%   / >=8%)\n\nMagnitude is |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window, NOT raw price change. Direction is relative to the\nsector benchmark too -- \"up\" means OUTPERFORMING the sector.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected (prefer small/neutral).\n    bullish_divergence + bearish news  -> react LESS than expected (prefer small/neutral).\n    Divergence is a STRONG counter-signal -- do not ignore.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence, narrow magnitude.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped (resistance).\n    At/near 20d low  -> downside structurally capped (support).\n    Cite the exact % distance to support your magnitude call.\n\nT5. MAGNITUDE ANCHOR (most important -- this fixes the \"always-small\" failure mode)\n    atr_pct_14d = THIS stock's typical daily abnormal-return scale.\n    Over 2 days  the noise floor is ~1.4 x atr_pct_14d.\n    Over 20 days the noise floor is ~4.5 x atr_pct_14d.\n    Example: atr_pct_14d = 2.0% -> 2-day noise ~2.8%, 20-day noise ~9%.\n    A \"small\" prediction means you expect the news to SUPPRESS normal vol.\n    A \"large\" prediction means signal clearly EXCEEDS the noise floor.\n    Predicting \"small\" without referencing atr_pct_14d is a calibration error.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant to\n    YOUR prediction -- not filler.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% dilution without\n                                  preemptive rights = bearish prior.\n    earnings   -> compare to consensus / recent trend.\n    dividend   -> quantify yield = div / last_close.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d is strongly aligned with the news\n    direction, SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear+aligned; 0.5-0.7 mixed; 0.3-0.5 ambiguous;\n    0.0-0.3 undetermined. Default conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== OUTPUT INSTRUCTIONS ===\n1. Classify news_type FIRST.\n2. Walk through T1-T5 in order. Pick the TA signals that ACTUALLY apply from\n   the closed vocab list above (no inventions).\n3. Anchor magnitudes to atr_pct_14d (T5). State the anchor in overall_reasoning.\n4. Quantify any dilution/yield ratio with both inputs.\n5. Confidence: default conf_medium <= conf_short.\n6. LANGUAGE: All free-text Arabic. JSON keys and enum values in English.\n7. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"news_type\":         \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n  \"already_priced_in\": <true | false>,\n  \"quantified_ratio\":  \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n  \"key_drivers\":       [\"<driver 1 Arabic>\", \"<driver 2 Arabic>\"],\n  \"ta_signals_cited\":  [\"<signal from closed vocab>\", \"...\"],\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\":  \"up\" | \"down\" | \"neutral\",\n      \"magnitude\":  \"small\" | \"medium\" | \"large\",\n      \"confidence\": <float 0.0-1.0>,\n      \"reasoning\":  \"<1-2 Arabic sentences. Cite >=1 TA signal by name.>\"\n    },\n    \"medium\": {\n      \"direction\":  \"up\" | \"down\" | \"neutral\",\n      \"magnitude\":  \"small\" | \"medium\" | \"large\",\n      \"confidence\": <float 0.0-1.0>,\n      \"reasoning\":  \"<1-2 Arabic sentences. Cite >=1 TA signal by name.>\"\n    }\n  },\n  \"overall_reasoning\": \"<3-4 Arabic sentences. Walk T1-T5 briefly. Reference atr_pct_14d as the magnitude anchor. State the quantified ratio if applicable.>\"\n}",
+    "critic": "You are a senior quantitative risk analyst at an Egyptian investment bank. A junior LLM analyst has assessed a news event about RAYA (Raya Holding - RAYA). Your job:\n  (a) audit the junior's TA citations against the live data,\n  (b) check magnitude vs the ATR anchor and priced-in vs the 1d move,\n  (c) produce the final authoritative prediction across short and medium horizons,\n  (d) write a plain-Arabic explanation for a non-expert retail investor.\n\n=== COMPANY ===\nTicker      : RAYA\nName        : Raya Holding - RAYA\nSector      : Technology & Fintech\nDescription : Raya Holding for Financial Investments — diversified group: Raya Contact Center (BPO), consumer electronics distribution, and manufacturing subsidiaries across Africa and the Middle East.\nPrice data  : as of 2024-12-31  (article date: 2025-01-02)\n\n=== PRICE STATE ===\nLast close  : 2.81 EGP\nReturn 1d   : +2.93%\nReturn 5d   : -3.77%\nReturn 20d  : -11.08%\nReturn 60d  : +4.85%\nvs MA-50    : -13.27%\nvs MA-200   : -11.91%\nTrend       : downtrend (below MA-50 and MA-200)\nVol 20d ann : 53.68%  [low regime]  Low -> impact MUTED unless structurally significant.\n\n=== SECTOR / MARKET ===\nSector ret 1d   : -0.23%\nSector ret 5d   : -0.23%\nStock vs sector 1d : +3.16%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 0.77\nTop peers:\n  - MFPC | Petroleum & Petrochemicals | 90d-corr: 0.31\n  - ABUK | Petroleum & Petrochemicals | 90d-corr: 0.29\n  - ORWE | Textiles | 90d-corr: 0.27\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2024-12-25: stock -1.03%  sector -0.28%  AR -0.75%\n  2024-12-26: stock +0.00%  sector +1.08%  AR -1.08%\n  2024-12-29: stock -3.46%  sector -1.34%  AR -2.12%\n  2024-12-30: stock -2.15%  sector -0.89%  AR -1.26%\n  2024-12-31: stock +2.93%  sector +0.98%  AR +1.95%\n\n=== TECHNICAL SIGNALS ===\nRSI-14      : 34.99  [neutral]\nMACD (12/26/9):\n  state=bearish                   line=-0.1193  signal=-0.0576  hist=-0.0616\nBollinger (20, 2sigma):\n  zone=near_lower      %B=0.146  bandwidth=33.56%\nDistance to extremes (negative = below high, positive = above low):\n  20d high: -20.17%   20d low: +2.93%\n  60d high: -23.43%   60d low: +4.46%\n  52w high: -46.07%   52w low: +43.73%\nRSI divergence : none\nATR (14d, avg |daily%|) : 2.41%   <-- TYPICAL DAILY MOVE ANCHOR\nConsecutive streak     : +1  (up streak)\n\n=== ARABIC SENTIMENT ===\nLabel : neutral\nScore : +0.2424\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-01-02 12:43:35\nHeadline  : أمان القابضة تنجح في إصدار سندات توريق بقيمة 2.5 مليار جنيه\n\nالقاهرة - مباشر: أعلنت شركة أمان القابضة -تابعة لراية القابضة للاستثمارات المالية بنسبة 76%- عن نجاحها في الانتهاء من الاصدار السادس والسابع لسندات التوريق في ديسمبر 2024.\nوأوضحت الشركة في افصاح اليوم الخميس، أن الإصدارين الأول والثاني لشركة أمات للتوريق -تابعة لأمان القابضة- بإجمالي 2.5 مليار جنيه، وتم تخصيصه على 5 شرائح بآجال زمنية تتراوح بين قصيرة ومتوسطة الأجل.\nوأضافت أن الإصدار الأول بقيمة 1.41 مليار جنيه المضمون بمحفظة تمويل متناهي الصغر من شركتها التابعة -أمان لتمويل المشروعات-، فيما أغلق الإصدار الثاني بقيمة 1.08 مليار جنيه المضمون بمحفظة تمويل استهلاكي من شركتها التابعة أمان للتمويل الاستهلاكي.\nيشار إلى أن راية القابضة للاستثمارات المالية،  سجلت صافي ربح بلغ 1.27 مليار جنيه خلال الفترة من يناير حتى نهاية سبتمبر 2024، مقابل أرباح بقيمة 489.2 مليون جنيه خلال الفترة نفسها من العام الماضي، مع الأخذ في الاعتبار حقوق الأقلية.\nوارتفعت إيرادات الشركة خلال الفترة إلى 32.3 مليار جنيه، مقابل 22.6 مليار جنيه خلال الفترة نفسها من العام الماضي.\nوعلى صعيد القوائم غير المجمعة، تحولت الشركة المستقلة خلال الفترة إلى الخسائر لتتكبد 24.9 مليون جنيه، مقابل أرباح بلغت 56.6 مليون جنيه خلال النصف نفسه من 2023.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية\n..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر\n..\nاضغط هنا\nترشيحات\n:\nمحمد بن زايد: الإمارات حريصة على وحدة سوريا وسلامتها وسيادتها\n\n=== IMPACT AGENT OUTPUT (junior, Groq) ===\n{\n  \"news_type\": \"operational\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"لا ينطبق\",\n  \"key_drivers\": [\n    \"نجاح أمان القابضة في إصدار سندات توريق بقيمة 2.5 مليار جنيه\",\n    \"زيادة إيرادات راية القابضة للاستثمارات المالية إلى 32.3 مليار جنيه في 2024\"\n  ],\n  \"ta_signals_cited\": [\n    \"rsi_neutral\",\n    \"bollinger_near_lower\",\n    \"macd_bearish\",\n    \"near_20d_low\",\n    \"low_volatility\"\n  ],\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.6,\n      \"reasoning\": \"الأخبار الإيجابية قد تدعم الاتجاه الصعودي قصير المدى، لكن مؤشر MACD السلبي يقلل من قوة التحرك.\"\n    },\n    \"medium\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.4,\n      \"reasoning\": \"الاتجاه العام للأسهم في تراجع حاد (minus 13.27% عن المتوسط المتحرك 50 يومًا)، مما يحد من تأثير الأخبار الإيجابية على المدى المتوسط.\"\n    }\n  }\n}\n\n=== HORIZONS (predict BOTH) ===\nshort  -> t+1 to t+2  trading days  (neutral band +-1.5%; mag: <1.5% / 1.5-4% / >=4%)\nmedium -> t+1 to t+20 trading days  (neutral band +-4%;   mag: <4%   / 4-8%   / >=8%)\n\nMagnitude is |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window, NOT raw price change. Direction is relative to the\nsector benchmark too -- \"up\" means OUTPERFORMING the sector.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected (prefer small/neutral).\n    bullish_divergence + bearish news  -> react LESS than expected (prefer small/neutral).\n    Divergence is a STRONG counter-signal -- do not ignore.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence, narrow magnitude.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped (resistance).\n    At/near 20d low  -> downside structurally capped (support).\n    Cite the exact % distance to support your magnitude call.\n\nT5. MAGNITUDE ANCHOR (most important -- this fixes the \"always-small\" failure mode)\n    atr_pct_14d = THIS stock's typical daily abnormal-return scale.\n    Over 2 days  the noise floor is ~1.4 x atr_pct_14d.\n    Over 20 days the noise floor is ~4.5 x atr_pct_14d.\n    Example: atr_pct_14d = 2.0% -> 2-day noise ~2.8%, 20-day noise ~9%.\n    A \"small\" prediction means you expect the news to SUPPRESS normal vol.\n    A \"large\" prediction means signal clearly EXCEEDS the noise floor.\n    Predicting \"small\" without referencing atr_pct_14d is a calibration error.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant to\n    YOUR prediction -- not filler.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% dilution without\n                                  preemptive rights = bearish prior.\n    earnings   -> compare to consensus / recent trend.\n    dividend   -> quantify yield = div / last_close.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d is strongly aligned with the news\n    direction, SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear+aligned; 0.5-0.7 mixed; 0.3-0.5 ambiguous;\n    0.0-0.3 undetermined. Default conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== REVIEW CHECKLIST ===\nC1. NEWS_TYPE: correct?\nC2. TA_SIGNALS: every cited signal must be supported by the data block above.\n    If junior cited \"rsi_overbought\" but RSI is 45, REMOVE the signal and note\n    the override.\nC3. MAGNITUDE vs ATR: does the predicted magnitude make sense relative to\n    1.4 x atr_pct_14d (short) and 4.5 x atr_pct_14d (medium)? Adjust if mis-scaled.\nC4. PRICED-IN: if stock_vs_sector_1d aligns with the news direction, short\n    magnitude should default to \"small\" (R4).\nC5. DIVERGENCE: if a divergence signal is present, did the junior account for it?\nC6. CONFIDENCE: lower it when agents-disagree-with-context or when news is priced in.\n    Default conf_medium <= conf_short.\nC7. LANGUAGE LEAKS: strip any non-Arabic word from Arabic fields (R6).\n\n=== USER-FACING EXPLANATION (mandatory) ===\nAfter the technical analysis, produce a plain-Arabic explanation for a\nnon-expert retail investor.\n\nU1. NO JARGON. Replace technical terms with everyday Arabic:\n    \"تخفيف\" -> \"تقليل نسبة ملكية المساهمين الحاليين\"\n    \"MA-50/MA-200\" -> \"متوسط سعر السهم خلال الشهرين / السنة الماضية\"\n    \"RSI\" -> \"مؤشر قوة الشراء والبيع\"\n    \"MACD\" -> \"مؤشر تقاطع المتوسطات\"\n    \"Bollinger\" -> \"نطاقات تذبذب السعر\"\n    \"ATR\" -> \"متوسط الحركة اليومية المعتادة\"\nU2. NUMBERS WITH MEANING. Every cited number gets a plain-Arabic interpretation.\nU3. STATE THE PREDICTION FIRST inside what_we_expect (direction + size + timeframe),\n    THEN 1-2 sentences of supporting evidence.\nU4. PER-HORIZON. outlook_by_horizon.short and .medium must each be ONE Arabic\n    sentence with direction + size + rationale clue.\nU5. BREVITY. ~120-180 Arabic words across the whole user block.\nU6. NO LANGUAGE LEAKS. 100% Arabic in the user block.\n\n=== INSTRUCTIONS ===\n1. Override the junior anywhere evidence demands it; list each change in\n   \"disagreements_with_junior\" with the reason.\n2. Confidence: adjust per horizon. Default conf_medium <= conf_short.\n3. SPELLING: \"RSI-14\" not \"RS-14\". Proper Arabic punctuation.\n4. LANGUAGE: All free-text Arabic; JSON keys + tickers + enum values in English.\n5. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"primary_company\": {\n    \"ticker\":              \"RAYA\",\n    \"news_type\":           \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n    \"already_priced_in\":   <true | false>,\n    \"quantified_ratio\":    \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n    \"ta_signals_cited\":    [\"<signal from closed vocab>\", \"...\"],\n    \"per_horizon\": {\n      \"short\": {\n        \"direction\":  \"up\" | \"down\" | \"neutral\",\n        \"magnitude\":  \"small\" | \"medium\" | \"large\",\n        \"confidence\": <float 0.0-1.0>,\n        \"reasoning\":  \"<1-2 Arabic sentences citing TA signals by name>\"\n      },\n      \"medium\": {\n        \"direction\":  \"up\" | \"down\" | \"neutral\",\n        \"magnitude\":  \"small\" | \"medium\" | \"large\",\n        \"confidence\": <float 0.0-1.0>,\n        \"reasoning\":  \"<1-2 Arabic sentences citing TA signals by name>\"\n      }\n    },\n    \"overall_reasoning\":   \"<3-4 Arabic sentences. Reference atr_pct_14d anchor. State news_type. Note any override of the junior.>\"\n  },\n  \"risk_flags\": [\n    \"<event-specific risk in Arabic>\",\n    \"<event-specific risk in Arabic>\"\n  ],\n  \"disagreements_with_junior\": [\n    \"<what the junior said, what is correct, why -- in Arabic>\"\n  ],\n  \"external_signal_alignment\":   \"aligned\" | \"partially_aligned\" | \"contradicts\",\n  \"external_signal_explanation\": \"<1-2 sentences in Arabic>\",\n  \"tldr\": {\n    \"verdict\":   \"<short Arabic phrase: direction + horizon>\",\n    \"one_line\":  \"<one Arabic sentence summarising the whole view>\"\n  },\n  \"explanation_for_user\": {\n    \"headline\":                  \"<one sentence plain Arabic, no jargon>\",\n    \"what_happened\":             \"<2-3 sentences plain Arabic, no jargon>\",\n    \"why_it_matters\":            \"<2-3 sentences plain Arabic, financial logic in everyday terms>\",\n    \"what_we_expect\":            \"<lead with prediction (direction + size + timeline) THEN evidence>\",\n    \"outlook_by_horizon\": {\n      \"short\":  \"<one Arabic sentence: direction + size + rationale for the next 2 days>\",\n      \"medium\": \"<one Arabic sentence: direction + size + rationale for the next month>\"\n    },\n    \"what_could_change_our_view\":\"<1-2 Arabic sentences on key uncertainties>\"\n  }\n}"
+  },
+  "impact_agent": {
+    "output": {
+      "news_type": "operational",
+      "already_priced_in": false,
+      "quantified_ratio": "لا ينطبق",
+      "key_drivers": [
+        "نجاح أمان القابضة في إصدار سندات توريق بقيمة 2.5 مليار جنيه",
+        "زيادة إيرادات راية القابضة للاستثمارات المالية إلى 32.3 مليار جنيه في 2024"
+      ],
+      "ta_signals_cited": [
+        "rsi_neutral",
+        "bollinger_near_lower",
+        "macd_bearish",
+        "near_20d_low",
+        "low_volatility"
+      ],
+      "per_horizon": {
+        "short": {
+          "direction": "up",
+          "magnitude": "small",
+          "confidence": 0.6,
+          "reasoning": "الأخبار الإيجابية قد تدعم الاتجاه الصعودي قصير المدى، لكن مؤشر MACD السلبي يقلل من قوة التحرك."
+        },
+        "medium": {
+          "direction": "neutral",
+          "magnitude": "small",
+          "confidence": 0.4,
+          "reasoning": "الاتجاه العام للأسهم في تراجع حاد (minus 13.27% عن المتوسط المتحرك 50 يومًا)، مما يحد من تأثير الأخبار الإيجابية على المدى المتوسط."
+        }
+      }
+    },
+    "raw": "{  \"news_type\": \"operational\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"لا ينطبق\",\n  \"key_drivers\": [\n    \"نجاح أمان القابضة في إصدار سندات توريق بقيمة 2.5 مليار جنيه\",\n    \"زيادة إيرادات راية القابضة للاستثمارات المالية إلى 32.3 مليار جنيه في 2024\"\n  ],\n  \"ta_signals_cited\": [\n    \"rsi_neutral\",\n    \"bollinger_near_lower\",\n    \"macd_bearish\",\n    \"near_20d_low\",\n    \"low_volatility\"\n  ],\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.6,\n      \"reasoning\": \"الأخبار الإيجابية قد تدعم الاتجاه الصعودي قصير المدى، لكن مؤشر MACD السلبي يقلل من قوة التحرك.\"\n    },\n    \"medium\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.4,\n      \"reasoning\": \"الاتجاه العام للأسهم في تراجع حاد (minus 13.27% عن المتوسط المتحرك 50 يومًا)، مما يحد من تأثير الأخبار الإيجابية على المدى المتوسط.\"\n    }\n  }}"
+  },
+  "critic_agent": {
+    "output": {
+      "primary_company": {
+        "ticker": "RAYA",
+        "news_type": "operational",
+        "already_priced_in": false,
+        "quantified_ratio": "لا ينطبق",
+        "ta_signals_cited": [
+          "macd_bearish",
+          "rsi_neutral",
+          "bollinger_near_lower",
+          "near_20d_low",
+          "normal_volatility"
+        ],
+        "per_horizon": {
+          "short": {
+            "direction": "neutral",
+            "magnitude": "small",
+            "confidence": 0.6,
+            "reasoning": "مؤشر الماكد في وضع سلبي يحدّ من زخم أي صعود، لكن قرب السهم من أدنى سعره خلال ٢٠ يومًا يقلل من احتمالية الهبوط القريب."
+          },
+          "medium": {
+            "direction": "neutral",
+            "magnitude": "small",
+            "confidence": 0.45,
+            "reasoning": "السهم يتداول بعيدًا عن المتوسطات المتحركة (أقل ١٣٪ من MA-50) مع مقاومة شديدة عند أعلى مستوى ٢٠ يوم (-٢٠٪)؛ الأخبار الإيجابية لا تكفي لتغيير الاتجاه الهابط."
+          }
+        },
+        "overall_reasoning": "الإصدار الناجح لسندات التوريق بقيمة ٢٫٥ مليار جنيه من أمان القابضة يُعزّز الوضع المالي للذرية لكنه لا يغير وضع راية القابضة الأم كسهم متداول في اتجاه هابط. ATR بنسبة ٢٫٤١٪ يُحدد متوسط الحركة اليومية المعتادة؛ لذا أي حركة تتجاوز ٣٫٤٪ على مدى يومين تُعتبر ذات دلالة، وأي حركة أقل من ذلك تقع ضمن نطاق الضوضاء المعتادة. الأخبار الإيجابية بشأن تمويل الذرية إيجابية لكن محدودة التأثير على سعر السهم الأم في ظل ضعف الزخم العام. تصحيح التوقعات قصيرة المدى من صعود إلى محايد لأن الماكد السلبي يتناقض مع_direction المتوقع، وتصحيح وصف التذبذب من منخفض إلى طبيعي لأن ATR وعائد ٢٠ يوم المعتمد على ٥٣٫٦٨٪ لا يدعمان وصف منخفض."
+      },
+      "risk_flags": [
+        "التركز في قطاع التكنولوجيا يحدّ من الاستفادة من أخبار فرعية دون تأثير ملموس على السعر الأم",
+        "الاتجاه الهابط العام يحدّ من قدرة الأخبار الإيجابية على عكس المسار الحالي"
+      ],
+      "disagreements_with_junior": [
+        "الوصف: وصف التذبذب بأنه 'low_volatility' في ta_signals_cited. الصحيح: ATR = ٢٫٤١٪ وعائد سنوي ٥٣٫٦٨٪ يُصنّفان التذبذب كـ'normal_volatility' وليس منخفضًا.",
+        "الوصف: اتجاه قصير المدى 'up'. الصحيح: الماكد في وضع سلبي (-٠٫١١٩) وتناقض واضح مع الأخبار الإيجابية؛ يجب أن تكون التوقعات 'neutral' مع حجم 'small'.",
+        "التوقع: conf_medium = 0.4 أقل من conf_short = 0.6. الصحيح: conf_medium = 0.45 لا تزال أقل من conf_short = 0.6 لأن الاتجاه الهابط العام يقلل من ثقة التوقع المتوسط المدى."
+      ],
+      "external_signal_alignment": "partially_aligned",
+      "external_signal_explanation": "الحركة الإيجابية أمس (+٢٫٩٣٪ مقابل -٠٫٢٣٪ للقطاع) تتوافق جزئيًا مع الأخبار الإيجابية، لكن الاتجاه الهابط العام والمؤشرات التقنية السلبية تحدّ من حجم الحركة المتوقعة.",
+      "tldr": {
+        "verdict": "محايد قصير ومتوسط المدى مع حجم متوقع صغير",
+        "one_line": "إصدار سندات أمان القابضة تطور إيجابي لكنه لن يغير المسار الهابط للسهم في ظل ضعف الزخم الفني."
+      },
+      "explanation_for_user": {
+        "headline": "إصدار سندات ناجح لأمان القابضة إيجابي لكن تأثيره على سهم راية القابضة محدود.",
+        "what_happened": "نجحت شركة أمان القابضة التابعة لراية القابضة (امتلاك ٧٦٪) في إصدار سندات توريق بقيمة ٢٫٥ مليار جنيه مصري في ديسمبر ٢٠٢٤، مقسمة على شريحتين: ١٫٤١ مليار من تمويل متناهي الصغر و١٫٠٨ مليار من تمويل استهلاكي.",
+        "why_it_matters": "هذا يعني أن أمان تستطيع تمويل أعمالها بدون اللجوء لزيادة رأس المال؛ كما أن ربحية راية القابضة زادت بنسبة ١٦٠٪ حتى سبتمبر ٢٠٢٤ مقارنة بنفس الفترة العام الماضي. لكن هذا الخبر يخص الذرية وليس السهم الأم بشكل مباشر، وأثره على سعر السهم محدود في الوقت الحالي.",
+        "what_we_expect": "نتوقع حركة محايدة في نطاق ±١٫٥٪ خلال اليومين المقبلين، لأن السهم قريب من أدنى مستوى له خلال شهر لكنه في اتجاه هابط عام. متوسط الحركة اليومية المعتادة للسهم ٢٫٤٪؛ أي حركة أكبر من ذلك تُعتبر استثنائية.",
+        "outlook_by_horizon": {
+          "short": "قد يرتفع السهم بنسبة بسيطة (١-٢٪) عنSector خلال يومين إذا استمر الطلب، لكنه لن يتجاوز أعلى مستوى قريب (-٢٠٪) بسبب ضعف الزخم.",
+          "medium": "على مدى شهر قد يتحرك السهم ±٤٪ عنSector، لكنه يظل في الاتجاه الهابط لأن الأخبار الإيجابية لا تكفي لقلب الاتجاه مع بقاء سعره أقل من متوسطه الحسابي لآخر شهرين (-١٣٪)."
+        },
+        "what_could_change_our_view": "إذا تجاوز السهم أعلى مستوى له خلال ٢٠ يومًا أو اخترق الماكد خط الإشارة للأعلى، سنرفع توقعاتنا. العكس صحيح إذا أعلن عن أحداث سلبية جوهرية."
+      }
+    },
+    "raw": "\n\n```json\n{\n  \"primary_company\": {\n    \"ticker\": \"RAYA\",\n    \"news_type\": \"operational\",\n    \"already_priced_in\": false,\n    \"quantified_ratio\": \"لا ينطبق\",\n    \"ta_signals_cited\": [\n      \"macd_bearish\",\n      \"rsi_neutral\",\n      \"bollinger_near_lower\",\n      \"near_20d_low\",\n      \"normal_volatility\"\n    ],\n    \"per_horizon\": {\n      \"short\": {\n        \"direction\": \"neutral\",\n        \"magnitude\": \"small\",\n        \"confidence\": 0.6,\n        \"reasoning\": \"مؤشر الماكد في وضع سلبي يحدّ من زخم أي صعود، لكن قرب السهم من أدنى سعره خلال ٢٠ يومًا يقلل من احتمالية الهبوط القريب.\"\n      },\n      \"medium\": {\n        \"direction\": \"neutral\",\n        \"magnitude\": \"small\",\n        \"confidence\": 0.45,\n        \"reasoning\": \"السهم يتداول بعيدًا عن المتوسطات المتحركة (أقل ١٣٪ من MA-50) مع مقاومة شديدة عند أعلى مستوى ٢٠ يوم (-٢٠٪)؛ الأخبار الإيجابية لا تكفي لتغيير الاتجاه الهابط.\"\n      }\n    },\n    \"overall_reasoning\": \"الإصدار الناجح لسندات التوريق بقيمة ٢٫٥ مليار جنيه من أمان القابضة يُعزّز الوضع المالي للذرية لكنه لا يغير وضع راية القابضة الأم كسهم متداول في اتجاه هابط. ATR بنسبة ٢٫٤١٪ يُحدد متوسط الحركة اليومية المعتادة؛ لذا أي حركة تتجاوز ٣٫٤٪ على مدى يومين تُعتبر ذات دلالة، وأي حركة أقل من ذلك تقع ضمن نطاق الضوضاء المعتادة. الأخبار الإيجابية بشأن تمويل الذرية إيجابية لكن محدودة التأثير على سعر السهم الأم في ظل ضعف الزخم العام. تصحيح التوقعات قصيرة المدى من صعود إلى محايد لأن الماكد السلبي يتناقض مع_direction المتوقع، وتصحيح وصف التذبذب من منخفض إلى طبيعي لأن ATR وعائد ٢٠ يوم المعتمد على ٥٣٫٦٨٪ لا يدعمان وصف منخفض.\"\n  },\n  \"risk_flags\": [\n    \"التركز في قطاع التكنولوجيا يحدّ من الاستفادة من أخبار فرعية دون تأثير ملموس على السعر الأم\",\n    \"الاتجاه الهابط العام يحدّ من قدرة الأخبار الإيجابية على عكس المسار الحالي\"\n  ],\n  \"disagreements_with_junior\": [\n    \"الوصف: وصف التذبذب بأنه 'low_volatility' في ta_signals_cited. الصحيح: ATR = ٢٫٤١٪ وعائد سنوي ٥٣٫٦٨٪ يُصنّفان التذبذب كـ'normal_volatility' وليس منخفضًا.\",\n    \"الوصف: اتجاه قصير المدى 'up'. الصحيح: الماكد في وضع سلبي (-٠٫١١٩) وتناقض واضح مع الأخبار الإيجابية؛ يجب أن تكون التوقعات 'neutral' مع حجم 'small'.\",\n    \"التوقع: conf_medium = 0.4 أقل من conf_short = 0.6. الصحيح: conf_medium = 0.45 لا تزال أقل من conf_short = 0.6 لأن الاتجاه الهابط العام يقلل من ثقة التوقع المتوسط المدى.\"\n  ],\n  \"external_signal_alignment\": \"partially_aligned\",\n  \"external_signal_explanation\": \"الحركة الإيجابية أمس (+٢٫٩٣٪ مقابل -٠٫٢٣٪ للقطاع) تتوافق جزئيًا مع الأخبار الإيجابية، لكن الاتجاه الهابط العام والمؤشرات التقنية السلبية تحدّ من حجم الحركة المتوقعة.\",\n  \"tldr\": {\n    \"verdict\": \"محايد قصير ومتوسط المدى مع حجم متوقع صغير\",\n    \"one_line\": \"إصدار سندات أمان القابضة تطور إيجابي لكنه لن يغير المسار الهابط للسهم في ظل ضعف الزخم الفني.\"\n  },\n  \"explanation_for_user\": {\n    \"headline\": \"إصدار سندات ناجح لأمان القابضة إيجابي لكن تأثيره على سهم راية القابضة محدود.\",\n    \"what_happened\": \"نجحت شركة أمان القابضة التابعة لراية القابضة (امتلاك ٧٦٪) في إصدار سندات توريق بقيمة ٢٫٥ مليار جنيه مصري في ديسمبر ٢٠٢٤، مقسمة على شريحتين: ١٫٤١ مليار من تمويل متناهي الصغر و١٫٠٨ مليار من تمويل استهلاكي.\",\n    \"why_it_matters\": \"هذا يعني أن أمان تستطيع تمويل أعمالها بدون اللجوء لزيادة رأس المال؛ كما أن ربحية راية القابضة زادت بنسبة ١٦٠٪ حتى سبتمبر ٢٠٢٤ مقارنة بنفس الفترة العام الماضي. لكن هذا الخبر يخص الذرية وليس السهم الأم بشكل مباشر، وأثره على سعر السهم محدود في الوقت الحالي.\",\n    \"what_we_expect\": \"نتوقع حركة محايدة في نطاق ±١٫٥٪ خلال اليومين المقبلين، لأن السهم قريب من أدنى مستوى له خلال شهر لكنه في اتجاه هابط عام. متوسط الحركة اليومية المعتادة للسهم ٢٫٤٪؛ أي حركة أكبر من ذلك تُعتبر استثنائية.\",\n    \"outlook_by_horizon\": {\n      \"short\": \"قد يرتفع السهم بنسبة بسيطة (١-٢٪) عنSector خلال يومين إذا استمر الطلب، لكنه لن يتجاوز أعلى مستوى قريب (-٢٠٪) بسبب ضعف الزخم.\",\n      \"medium\": \"على مدى شهر قد يتحرك السهم ±٤٪ عنSector، لكنه يظل في الاتجاه الهابط لأن الأخبار الإيجابية لا تكفي لقلب الاتجاه مع بقاء سعره أقل من متوسطه الحسابي لآخر شهرين (-١٣٪).\"\n    },\n    \"what_could_change_our_view\": \"إذا تجاوز السهم أعلى مستوى له خلال ٢٠ يومًا أو اخترق الماكد خط الإشارة للأعلى، سنرفع توقعاتنا. العكس صحيح إذا أعلن عن أحداث سلبية جوهرية.\"\n  }\n}\n```",
+    "thinking": "Let me carefully analyze this task step by step.\n\n**Step 1: Analyze the news article**\n\nThe news is about Aman Holding (下属/ subsidiary of Raya Holding - RAYA) successfully issuing securitization bonds worth 2.5 billion EGP. Key details:\n\n- Aman Holding (76% owned by RAYA) completed its 6th and 7th securitization bond issuances in December 2024\n- Total value: 2.5 billion EGP\n- Split: 1.41 billion (microfinance portfolio) + 1.08 billion (consumer finance portfolio)\n- RAYA's net profit Jan-Sep 2024: 1.27 billion EGP vs 489.2 million in same period 2023\n- Revenues: 32.3 billion EGP vs 22.6 billion EGP (same period last year)\n- Standalone company turned to losses: 24.9 million EGP vs profits of 56.6 million in H1 2023\n\n**News Type Assessment:**\nThis is operational - a subsidiary successfully completing bond issuance. NOT capital_increase (no new shares issued), NOT earnings (it's a subsidiary's bond issuance, not an earnings announcement), NOT regulatory, NOT macro.\n\n**Step 2: Technical Analysis Checklist**\n\nT1. OVERBOUGHT/OVERSOLD:\n- RSI-14: 34.99 → neutral (not overbought at 70+, not oversold at 30-)\n- Bollinger: %B = 0.146, zone = near_lower → approaching oversold, not oversold\n- Near 20d low: YES, at +2.93% above 20d low (near bottom)\n\n\n- Bollinger positioning and distance from 20d low indicate potential oversold conditions, which could support upward price movement\n\nThe stock shows bearish technical signals without clear divergence patterns. MACD remains in negative territory with the histogram still below zero, suggesting continued downward momentum. RSI at 34.99 is approaching oversold territory, which might limit further downside potential.\n\nDistance metrics reveal significant room for movement, particularly since the stock is trading well below its 20-day high but only marginally above its recent low. This positioning leaves substantial upside room before hitting resistance, while providing limited downside cushion. The ATR of 2.41% anchors the typical daily movement, with short-term fluctuations potentially reaching around 3.4%.\n\nPricing appears partially incorporated, with the stock outperforming the sector by 3.16% on the last trading day. However, the overall downtrend with persistent below-average trading suggests this may reflect temporary market mechanics rather than full news absorption.\n\nThe news about Aman Holding's bond issuance represents operational validation without immediate dilution. The 2.5 billion EGP issuance demonstrates funding capability but doesn't fundamentally alter the underlying investment profile. The stock's reaction seems constrained by broader technical weaknesses - bearish MACD, downtrend momentum, and elevated sector correlation limit meaningful upside potential despite the news supporting medium-term financial stability.\n\nShort-term trajectory shows modest gains, potentially 1.5-2% above sector performance given recent price action and technical positioning. Medium-term outlook remains neutral, with substantial resistance levels and downtrend dynamics constraining more aggressive positioning despite constructive financial developments. I'm setting confidence levels for short and medium-term horizons. Short-term outlook is slightly more promising at 0.6 given the proximity to oversold conditions, while medium-term confidence drops to 0.45 given the prevailing downtrend and resistance levels. The 90-day correlation with the sector sits at 0.77, suggesting moderate alignment in movement patterns.\n\nComparing against the initial assessment reveals some discrepancies. The junior analyst incorrectly flagged \"low_volatility\" when the actual ATR of 2.41% and annual volatility of 53.68% indicate normal market conditions. Additionally, their short-term bullish assessment contradicts the existing bearish MACD signal and downtrend dynamics, so I'm adjusting to neutral with small magnitude. The medium-term neutral-small view remains acceptable given the structural headwinds present.\n\nFor the Arabic text fields, I need to ensure the reasoning components cite the specific technical indicators while keeping the explanation concise and aligned with the actual market data.\n"
+  },
+  "final": {
+    "ticker": "RAYA",
+    "news_type": "operational",
+    "already_priced_in": false,
+    "quantified_ratio": "لا ينطبق",
+    "ta_signals_cited": [
+      "macd_bearish",
+      "rsi_neutral",
+      "bollinger_near_lower",
+      "near_20d_low",
+      "normal_volatility"
+    ],
+    "per_horizon": {
+      "short": {
+        "direction": "neutral",
+        "magnitude": "small",
+        "confidence": 0.6,
+        "reasoning": "مؤشر الماكد في وضع سلبي يحدّ من زخم أي صعود، لكن قرب السهم من أدنى سعره خلال ٢٠ يومًا يقلل من احتمالية الهبوط القريب."
+      },
+      "medium": {
+        "direction": "neutral",
+        "magnitude": "small",
+        "confidence": 0.45,
+        "reasoning": "السهم يتداول بعيدًا عن المتوسطات المتحركة (أقل ١٣٪ من MA-50) مع مقاومة شديدة عند أعلى مستوى ٢٠ يوم (-٢٠٪)؛ الأخبار الإيجابية لا تكفي لتغيير الاتجاه الهابط."
+      }
+    },
+    "overall_reasoning": "الإصدار الناجح لسندات التوريق بقيمة ٢٫٥ مليار جنيه من أمان القابضة يُعزّز الوضع المالي للذرية لكنه لا يغير وضع راية القابضة الأم كسهم متداول في اتجاه هابط. ATR بنسبة ٢٫٤١٪ يُحدد متوسط الحركة اليومية المعتادة؛ لذا أي حركة تتجاوز ٣٫٤٪ على مدى يومين تُعتبر ذات دلالة، وأي حركة أقل من ذلك تقع ضمن نطاق الضوضاء المعتادة. الأخبار الإيجابية بشأن تمويل الذرية إيجابية لكن محدودة التأثير على سعر السهم الأم في ظل ضعف الزخم العام. تصحيح التوقعات قصيرة المدى من صعود إلى محايد لأن الماكد السلبي يتناقض مع_direction المتوقع، وتصحيح وصف التذبذب من منخفض إلى طبيعي لأن ATR وعائد ٢٠ يوم المعتمد على ٥٣٫٦٨٪ لا يدعمان وصف منخفض."
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "trace_file": "ADIB_2025-01-09_251668bb.json",
+  "ticker": "ADIB",
+  "article_date": "2025-01-09",
+  "wall_clock_s": 11.59,
+  "aggregate": {
+    "consensus_action": "HOLD",
+    "action_tally": {
+      "BUY": 0,
+      "HOLD": 4,
+      "SELL": 1
+    },
+    "entry_price_median": {
+      "low": 38.53,
+      "high": 38.53
+    },
+    "mean_confidence": 0.366,
+    "n_voters": 5,
+    "n_successful": 5
+  },
+  "votes": [
+    {
+      "voter": 3,
+      "ok": true,
+      "latency_s": 8.1,
+      "vote": {
+        "action": "HOLD",
+        "entry_price_egp": {
+          "low": 38.53,
+          "high": 38.53
+        },
+        "confidence": 0.34,
+        "rationale": "السهم قريب من دعم 20 يوم مع توقع هبوطي قصير المدى مما يستدعي التريث"
+      }
+    },
+    {
+      "voter": 2,
+      "ok": true,
+      "latency_s": 8.47,
+      "vote": {
+        "action": "HOLD",
+        "entry_price_egp": {
+          "low": 38.53,
+          "high": 38.53
+        },
+        "confidence": 0.36,
+        "rationale": "السهم قريب من الدعم الفني مع إشارة سلبية ضعيفة من المحلل مما لاifies مبرر كافٍ للبيع أو الشراء"
+      }
+    },
+    {
+      "voter": 5,
+      "ok": true,
+      "latency_s": 9.09,
+      "vote": {
+        "action": "SELL",
+        "entry_price_egp": {
+          "low": 38.0,
+          "high": 38.53
+        },
+        "confidence": 0.42,
+        "rationale": "التوقع القصير هبوطي مع سهم قريب من أدنى 20 يوم وبيع جزئي"
+      }
+    },
+    {
+      "voter": 4,
+      "ok": true,
+      "latency_s": 9.5,
+      "vote": {
+        "action": "HOLD",
+        "entry_price_egp": {
+          "low": 38.53,
+          "high": 38.53
+        },
+        "confidence": 0.36,
+        "rationale": "بيع حصة صغيرة بنسبة 0.003% مع توقعات متوسطة ومحايدة لا يبرر اتخاذ مركز جديد"
+      }
+    },
+    {
+      "voter": 1,
+      "ok": true,
+      "latency_s": 11.59,
+      "vote": {
+        "action": "HOLD",
+        "entry_price_egp": {
+          "low": 38.53,
+          "high": 38.53
+        },
+        "confidence": 0.35,
+        "rationale": "السعر قريب من الدعم عند 20 يوم مع توقعات محايدة للاتجاه قصير المدى"
+      }
+    }
+  ]
+}

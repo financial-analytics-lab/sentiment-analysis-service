@@ -1,0 +1,663 @@
+{
+  "n_total_rows": 39,
+  "n_scored": 39,
+  "n_no_data": 0,
+  "n_no_prediction": 0,
+  "overall_directional_hit_rate": 0.564,
+  "overall_magnitude_hit_rate": 0.282,
+  "by_horizon": {
+    "short": {
+      "n": 13,
+      "directional_hit_rate": 0.692,
+      "magnitude_hit_rate": 0.308
+    },
+    "medium": {
+      "n": 13,
+      "directional_hit_rate": 0.615,
+      "magnitude_hit_rate": 0.231
+    },
+    "large": {
+      "n": 13,
+      "directional_hit_rate": 0.385,
+      "magnitude_hit_rate": 0.308
+    }
+  },
+  "by_news_type": {
+    "earnings": {
+      "n": 6,
+      "directional_hit_rate": 0.5,
+      "magnitude_hit_rate": 0.333
+    },
+    "operational": {
+      "n": 24,
+      "directional_hit_rate": 0.667,
+      "magnitude_hit_rate": 0.292
+    },
+    "capital_increase": {
+      "n": 3,
+      "directional_hit_rate": 0.0,
+      "magnitude_hit_rate": 0.0
+    },
+    "dividend": {
+      "n": 6,
+      "directional_hit_rate": 0.5,
+      "magnitude_hit_rate": 0.333
+    }
+  },
+  "by_direction": {
+    "up": {
+      "n": 20,
+      "directional_hit_rate": 0.75,
+      "magnitude_hit_rate": 0.25
+    },
+    "neutral": {
+      "n": 11,
+      "directional_hit_rate": 0.273,
+      "magnitude_hit_rate": 0.273
+    },
+    "down": {
+      "n": 8,
+      "directional_hit_rate": 0.5,
+      "magnitude_hit_rate": 0.375
+    }
+  },
+  "by_magnitude": {
+    "small": {
+      "n": 29,
+      "directional_hit_rate": 0.552,
+      "magnitude_hit_rate": 0.207
+    },
+    "medium": {
+      "n": 10,
+      "directional_hit_rate": 0.6,
+      "magnitude_hit_rate": 0.5
+    }
+  },
+  "by_already_priced_in": {
+    "false": {
+      "n": 33,
+      "directional_hit_rate": 0.576,
+      "magnitude_hit_rate": 0.303
+    },
+    "true": {
+      "n": 6,
+      "directional_hit_rate": 0.5,
+      "magnitude_hit_rate": 0.167
+    }
+  },
+  "by_in_trading_hours": {
+    "true": {
+      "n": 24,
+      "directional_hit_rate": 0.458,
+      "magnitude_hit_rate": 0.167
+    },
+    "false": {
+      "n": 15,
+      "directional_hit_rate": 0.733,
+      "magnitude_hit_rate": 0.467
+    }
+  },
+  "horizon_x_news_type": {
+    "short": {
+      "earnings": {
+        "n": 2,
+        "directional_hit_rate": 1.0,
+        "magnitude_hit_rate": 0.5
+      },
+      "operational": {
+        "n": 8,
+        "directional_hit_rate": 0.75,
+        "magnitude_hit_rate": 0.25
+      },
+      "capital_increase": {
+        "n": 1,
+        "directional_hit_rate": 0.0,
+        "magnitude_hit_rate": 0.0
+      },
+      "dividend": {
+        "n": 2,
+        "directional_hit_rate": 0.5,
+        "magnitude_hit_rate": 0.5
+      }
+    },
+    "medium": {
+      "earnings": {
+        "n": 2,
+        "directional_hit_rate": 0.5,
+        "magnitude_hit_rate": 0.5
+      },
+      "operational": {
+        "n": 8,
+        "directional_hit_rate": 0.75,
+        "magnitude_hit_rate": 0.25
+      },
+      "capital_increase": {
+        "n": 1,
+        "directional_hit_rate": 0.0,
+        "magnitude_hit_rate": 0.0
+      },
+      "dividend": {
+        "n": 2,
+        "directional_hit_rate": 0.5,
+        "magnitude_hit_rate": 0.0
+      }
+    },
+    "large": {
+      "earnings": {
+        "n": 2,
+        "directional_hit_rate": 0.0,
+        "magnitude_hit_rate": 0.0
+      },
+      "operational": {
+        "n": 8,
+        "directional_hit_rate": 0.5,
+        "magnitude_hit_rate": 0.375
+      },
+      "capital_increase": {
+        "n": 1,
+        "directional_hit_rate": 0.0,
+        "magnitude_hit_rate": 0.0
+      },
+      "dividend": {
+        "n": 2,
+        "directional_hit_rate": 0.5,
+        "magnitude_hit_rate": 0.5
+      }
+    }
+  },
+  "by_confidence_per_horizon": {
+    "short": {
+      "0.6-0.8": {
+        "n": 10,
+        "directional_hit_rate": 0.7,
+        "magnitude_hit_rate": 0.3
+      },
+      "0.4-0.6": {
+        "n": 3,
+        "directional_hit_rate": 0.667,
+        "magnitude_hit_rate": 0.333
+      }
+    },
+    "medium": {
+      "0.6-0.8": {
+        "n": 8,
+        "directional_hit_rate": 0.625,
+        "magnitude_hit_rate": 0.125
+      },
+      "0.4-0.6": {
+        "n": 5,
+        "directional_hit_rate": 0.6,
+        "magnitude_hit_rate": 0.4
+      }
+    },
+    "large": {
+      "0.4-0.6": {
+        "n": 11,
+        "directional_hit_rate": 0.455,
+        "magnitude_hit_rate": 0.364
+      },
+      "0.6-0.8": {
+        "n": 2,
+        "directional_hit_rate": 0.0,
+        "magnitude_hit_rate": 0.0
+      }
+    }
+  },
+  "by_ta_signal": {
+    "macd_bullish": {
+      "n": 15,
+      "directional_hit_rate": 0.733,
+      "magnitude_hit_rate": 0.4
+    },
+    "up_streak": {
+      "n": 3,
+      "directional_hit_rate": 0.333,
+      "magnitude_hit_rate": 0.0
+    },
+    "normal_volatility": {
+      "n": 24,
+      "directional_hit_rate": 0.708,
+      "magnitude_hit_rate": 0.333
+    },
+    "downtrend": {
+      "n": 3,
+      "directional_hit_rate": 0.333,
+      "magnitude_hit_rate": 0.0
+    },
+    "near_20d_low": {
+      "n": 12,
+      "directional_hit_rate": 0.333,
+      "magnitude_hit_rate": 0.25
+    },
+    "strong_downtrend": {
+      "n": 9,
+      "directional_hit_rate": 0.889,
+      "magnitude_hit_rate": 0.556
+    },
+    "rsi_neutral": {
+      "n": 21,
+      "directional_hit_rate": 0.571,
+      "magnitude_hit_rate": 0.286
+    },
+    "bollinger_middle": {
+      "n": 18,
+      "directional_hit_rate": 0.667,
+      "magnitude_hit_rate": 0.389
+    },
+    "macd_bearish": {
+      "n": 12,
+      "directional_hit_rate": 0.25,
+      "magnitude_hit_rate": 0.25
+    },
+    "high_volatility": {
+      "n": 12,
+      "directional_hit_rate": 0.333,
+      "magnitude_hit_rate": 0.25
+    },
+    "macd_bullish_crossover": {
+      "n": 12,
+      "directional_hit_rate": 0.667,
+      "magnitude_hit_rate": 0.167
+    },
+    "bollinger_near_upper": {
+      "n": 6,
+      "directional_hit_rate": 0.5,
+      "magnitude_hit_rate": 0.333
+    },
+    "near_20d_high": {
+      "n": 15,
+      "directional_hit_rate": 0.467,
+      "magnitude_hit_rate": 0.133
+    },
+    "near_52w_high": {
+      "n": 3,
+      "directional_hit_rate": 0.333,
+      "magnitude_hit_rate": 0.333
+    },
+    "strong_uptrend": {
+      "n": 18,
+      "directional_hit_rate": 0.556,
+      "magnitude_hit_rate": 0.167
+    },
+    "bollinger_above_upper": {
+      "n": 6,
+      "directional_hit_rate": 0.667,
+      "magnitude_hit_rate": 0.0
+    },
+    "up_streak_3plus": {
+      "n": 6,
+      "directional_hit_rate": 0.833,
+      "magnitude_hit_rate": 0.5
+    },
+    "rsi_overbought": {
+      "n": 3,
+      "directional_hit_rate": 0.667,
+      "magnitude_hit_rate": 0.333
+    },
+    "already_priced_in": {
+      "n": 3,
+      "directional_hit_rate": 0.667,
+      "magnitude_hit_rate": 0.333
+    }
+  },
+  "by_sector": {
+    "Petroleum & Petrochemicals": {
+      "n": 6,
+      "directional_hit_rate": 0.667,
+      "magnitude_hit_rate": 0.167
+    },
+    "Non-Bank Financials": {
+      "n": 3,
+      "directional_hit_rate": 0.0,
+      "magnitude_hit_rate": 0.0
+    },
+    "Telecommunications": {
+      "n": 3,
+      "directional_hit_rate": 0.333,
+      "magnitude_hit_rate": 0.333
+    },
+    "Technology & Fintech": {
+      "n": 12,
+      "directional_hit_rate": 0.667,
+      "magnitude_hit_rate": 0.167
+    },
+    "Diversified Holding": {
+      "n": 3,
+      "directional_hit_rate": 0.0,
+      "magnitude_hit_rate": 0.0
+    },
+    "Food & Beverages": {
+      "n": 6,
+      "directional_hit_rate": 0.833,
+      "magnitude_hit_rate": 0.667
+    },
+    "Real Estate": {
+      "n": 3,
+      "directional_hit_rate": 0.667,
+      "magnitude_hit_rate": 0.667
+    },
+    "Construction & Building Materials": {
+      "n": 3,
+      "directional_hit_rate": 0.667,
+      "magnitude_hit_rate": 0.333
+    }
+  },
+  "horizon_x_sector": {
+    "short": {
+      "Petroleum & Petrochemicals": {
+        "n": 2,
+        "directional_hit_rate": 1.0,
+        "magnitude_hit_rate": 0.0
+      },
+      "Non-Bank Financials": {
+        "n": 1,
+        "directional_hit_rate": 0.0,
+        "magnitude_hit_rate": 0.0
+      },
+      "Telecommunications": {
+        "n": 1,
+        "directional_hit_rate": 1.0,
+        "magnitude_hit_rate": 1.0
+      },
+      "Technology & Fintech": {
+        "n": 4,
+        "directional_hit_rate": 0.75,
+        "magnitude_hit_rate": 0.25
+      },
+      "Diversified Holding": {
+        "n": 1,
+        "directional_hit_rate": 0.0,
+        "magnitude_hit_rate": 0.0
+      },
+      "Food & Beverages": {
+        "n": 2,
+        "directional_hit_rate": 1.0,
+        "magnitude_hit_rate": 0.5
+      },
+      "Real Estate": {
+        "n": 1,
+        "directional_hit_rate": 1.0,
+        "magnitude_hit_rate": 1.0
+      },
+      "Construction & Building Materials": {
+        "n": 1,
+        "directional_hit_rate": 0.0,
+        "magnitude_hit_rate": 0.0
+      }
+    },
+    "medium": {
+      "Petroleum & Petrochemicals": {
+        "n": 2,
+        "directional_hit_rate": 0.5,
+        "magnitude_hit_rate": 0.0
+      },
+      "Non-Bank Financials": {
+        "n": 1,
+        "directional_hit_rate": 0.0,
+        "magnitude_hit_rate": 0.0
+      },
+      "Telecommunications": {
+        "n": 1,
+        "directional_hit_rate": 0.0,
+        "magnitude_hit_rate": 0.0
+      },
+      "Technology & Fintech": {
+        "n": 4,
+        "directional_hit_rate": 0.75,
+        "magnitude_hit_rate": 0.0
+      },
+      "Diversified Holding": {
+        "n": 1,
+        "directional_hit_rate": 0.0,
+        "magnitude_hit_rate": 0.0
+      },
+      "Food & Beverages": {
+        "n": 2,
+        "directional_hit_rate": 1.0,
+        "magnitude_hit_rate": 1.0
+      },
+      "Real Estate": {
+        "n": 1,
+        "directional_hit_rate": 1.0,
+        "magnitude_hit_rate": 1.0
+      },
+      "Construction & Building Materials": {
+        "n": 1,
+        "directional_hit_rate": 1.0,
+        "magnitude_hit_rate": 0.0
+      }
+    },
+    "large": {
+      "Petroleum & Petrochemicals": {
+        "n": 2,
+        "directional_hit_rate": 0.5,
+        "magnitude_hit_rate": 0.5
+      },
+      "Non-Bank Financials": {
+        "n": 1,
+        "directional_hit_rate": 0.0,
+        "magnitude_hit_rate": 0.0
+      },
+      "Telecommunications": {
+        "n": 1,
+        "directional_hit_rate": 0.0,
+        "magnitude_hit_rate": 0.0
+      },
+      "Technology & Fintech": {
+        "n": 4,
+        "directional_hit_rate": 0.5,
+        "magnitude_hit_rate": 0.25
+      },
+      "Diversified Holding": {
+        "n": 1,
+        "directional_hit_rate": 0.0,
+        "magnitude_hit_rate": 0.0
+      },
+      "Food & Beverages": {
+        "n": 2,
+        "directional_hit_rate": 0.5,
+        "magnitude_hit_rate": 0.5
+      },
+      "Real Estate": {
+        "n": 1,
+        "directional_hit_rate": 0.0,
+        "magnitude_hit_rate": 0.0
+      },
+      "Construction & Building Materials": {
+        "n": 1,
+        "directional_hit_rate": 1.0,
+        "magnitude_hit_rate": 1.0
+      }
+    }
+  },
+  "by_ticker": {
+    "ABUK": {
+      "n": 6,
+      "directional_hit_rate": 0.667,
+      "magnitude_hit_rate": 0.167
+    },
+    "CCAP": {
+      "n": 3,
+      "directional_hit_rate": 0.0,
+      "magnitude_hit_rate": 0.0
+    },
+    "ETEL": {
+      "n": 3,
+      "directional_hit_rate": 0.333,
+      "magnitude_hit_rate": 0.333
+    },
+    "FWRY": {
+      "n": 6,
+      "directional_hit_rate": 0.667,
+      "magnitude_hit_rate": 0.0
+    },
+    "GBCO": {
+      "n": 3,
+      "directional_hit_rate": 0.0,
+      "magnitude_hit_rate": 0.0
+    },
+    "JUFO": {
+      "n": 6,
+      "directional_hit_rate": 0.833,
+      "magnitude_hit_rate": 0.667
+    },
+    "MASR": {
+      "n": 3,
+      "directional_hit_rate": 0.667,
+      "magnitude_hit_rate": 0.667
+    },
+    "MCQE": {
+      "n": 3,
+      "directional_hit_rate": 0.667,
+      "magnitude_hit_rate": 0.333
+    },
+    "RAYA": {
+      "n": 6,
+      "directional_hit_rate": 0.667,
+      "magnitude_hit_rate": 0.333
+    }
+  },
+  "horizon_x_ticker": {
+    "short": {
+      "ABUK": {
+        "n": 2,
+        "directional_hit_rate": 1.0,
+        "magnitude_hit_rate": 0.0
+      },
+      "CCAP": {
+        "n": 1,
+        "directional_hit_rate": 0.0,
+        "magnitude_hit_rate": 0.0
+      },
+      "ETEL": {
+        "n": 1,
+        "directional_hit_rate": 1.0,
+        "magnitude_hit_rate": 1.0
+      },
+      "FWRY": {
+        "n": 2,
+        "directional_hit_rate": 0.5,
+        "magnitude_hit_rate": 0.0
+      },
+      "GBCO": {
+        "n": 1,
+        "directional_hit_rate": 0.0,
+        "magnitude_hit_rate": 0.0
+      },
+      "JUFO": {
+        "n": 2,
+        "directional_hit_rate": 1.0,
+        "magnitude_hit_rate": 0.5
+      },
+      "MASR": {
+        "n": 1,
+        "directional_hit_rate": 1.0,
+        "magnitude_hit_rate": 1.0
+      },
+      "MCQE": {
+        "n": 1,
+        "directional_hit_rate": 0.0,
+        "magnitude_hit_rate": 0.0
+      },
+      "RAYA": {
+        "n": 2,
+        "directional_hit_rate": 1.0,
+        "magnitude_hit_rate": 0.5
+      }
+    },
+    "medium": {
+      "ABUK": {
+        "n": 2,
+        "directional_hit_rate": 0.5,
+        "magnitude_hit_rate": 0.0
+      },
+      "CCAP": {
+        "n": 1,
+        "directional_hit_rate": 0.0,
+        "magnitude_hit_rate": 0.0
+      },
+      "ETEL": {
+        "n": 1,
+        "directional_hit_rate": 0.0,
+        "magnitude_hit_rate": 0.0
+      },
+      "FWRY": {
+        "n": 2,
+        "directional_hit_rate": 1.0,
+        "magnitude_hit_rate": 0.0
+      },
+      "GBCO": {
+        "n": 1,
+        "directional_hit_rate": 0.0,
+        "magnitude_hit_rate": 0.0
+      },
+      "JUFO": {
+        "n": 2,
+        "directional_hit_rate": 1.0,
+        "magnitude_hit_rate": 1.0
+      },
+      "MASR": {
+        "n": 1,
+        "directional_hit_rate": 1.0,
+        "magnitude_hit_rate": 1.0
+      },
+      "MCQE": {
+        "n": 1,
+        "directional_hit_rate": 1.0,
+        "magnitude_hit_rate": 0.0
+      },
+      "RAYA": {
+        "n": 2,
+        "directional_hit_rate": 0.5,
+        "magnitude_hit_rate": 0.0
+      }
+    },
+    "large": {
+      "ABUK": {
+        "n": 2,
+        "directional_hit_rate": 0.5,
+        "magnitude_hit_rate": 0.5
+      },
+      "CCAP": {
+        "n": 1,
+        "directional_hit_rate": 0.0,
+        "magnitude_hit_rate": 0.0
+      },
+      "ETEL": {
+        "n": 1,
+        "directional_hit_rate": 0.0,
+        "magnitude_hit_rate": 0.0
+      },
+      "FWRY": {
+        "n": 2,
+        "directional_hit_rate": 0.5,
+        "magnitude_hit_rate": 0.0
+      },
+      "GBCO": {
+        "n": 1,
+        "directional_hit_rate": 0.0,
+        "magnitude_hit_rate": 0.0
+      },
+      "JUFO": {
+        "n": 2,
+        "directional_hit_rate": 0.5,
+        "magnitude_hit_rate": 0.5
+      },
+      "MASR": {
+        "n": 1,
+        "directional_hit_rate": 0.0,
+        "magnitude_hit_rate": 0.0
+      },
+      "MCQE": {
+        "n": 1,
+        "directional_hit_rate": 1.0,
+        "magnitude_hit_rate": 1.0
+      },
+      "RAYA": {
+        "n": 2,
+        "directional_hit_rate": 0.5,
+        "magnitude_hit_rate": 0.5
+      }
+    }
+  }
+}

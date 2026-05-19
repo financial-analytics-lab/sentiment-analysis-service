@@ -1,37 +1,43 @@
-# pipeline.py
+# pipeline3.py
 """
-EGX30 News-Impact Pipeline — orchestrates the three-agent system.
+EGX30 News-Impact Pipeline (two-agent, TA-grounded, v2).
 
-Flow for each article:
-  1. Load context (price stats) for the trading day BEFORE the article date.
+Flow per article:
+  1. Load context + technical signals (no lookahead) for the trading day before the article.
   2. Run Arabic sentiment model (CAMeLBERT).
-  3. Call Impact Agent  (Groq Llama 3.3 70B) -> direction / magnitude / horizon.
-  4. Call Spillover Agent (Groq Llama 3.3 70B) -> affected peers.
-  5. Call Critic Agent  (Claude) -> final authoritative prediction.
-  6. Save full trace to outputs/predictions/{ticker}_{date}_{hash}.json.
+  3. Impact Agent (Groq Qwen3-32B) -> per-horizon prediction (short, medium) grounded
+                                      in TA signals from the closed vocab.
+  4. Critic Agent (Claude)         -> audits TA citations, finalizes prediction,
+                                      writes plain-Arabic user explanation.
+  5. Save full trace to outputs/predictions_v2/{ticker}_{date}_{hash}.json.
 """
 
 # =============================================================================
-#  TOP-LEVEL CONTROLS  -- edit these before each run
+#  TOP-LEVEL CONTROLS  -- edit these in one place
 # =============================================================================
 
-MAX_NEWS = 1
-# Number of articles to process from all_news_by_date.json.
-# Articles are taken in chronological order (earliest date first).
-# Set to None to process all articles.
+MAX_NEWS = 15
+# Number of articles to process. Set to None for all.
 
-OUTPUT_DIR = "outputs/predictions"
+OUTPUT_DIR = "outputs/predictions_v3"
 
-# --- Model identifiers (must match what your API provider accepts) ------------
-GROQ_MODEL   = "qwen/qwen3-32b"
-CLAUDE_MODEL = "claude-sonnet-4.6"
+# --- Models  (one knob per stage) ---------------------------------------------
+GROQ_MODEL          = "qwen/qwen3-32b"      # ImpactAgent  (Groq)
+CLAUDE_MODEL        = "claude-sonnet-4-6"   # CriticAgent  (Claude via proxy)
+ARABIC_QA_MODEL     = "claude-sonnet-4-6"   # Arabic-QA    (Claude via proxy)
 
-# --- Request limits -----------------------------------------------------------
-GROQ_MAX_TOKENS    = 1200
-CLAUDE_MAX_TOKENS  = 8000     # raised from 2000 -- extended thinking + JSON output needs headroom
-MAX_RETRIES        = 5
-RETRY_BACKOFF      = 2.0       # seconds; multiplied by attempt number on each retry
-RATE_LIMIT_BACKOFF = 30.0      # base wait after 429; multiplied by attempt number
+# --- Toggles ------------------------------------------------------------------
+ARABIC_QA_ENABLED   = True   # 4th-stage Arabic editor (Claude). +5-15s, better Arabic.
+
+# --- Token budgets ------------------------------------------------------------
+GROQ_MAX_TOKENS     = 1500
+CLAUDE_MAX_TOKENS   = 6000   # lowered from 8000 -- explanation_for_user is leaner now
+QA_MAX_TOKENS       = 1500   # QA output is small (just the cleaned explanation dict)
+
+# --- Retry / rate-limit -------------------------------------------------------
+MAX_RETRIES         = 5
+RETRY_BACKOFF       = 2.0    # seconds; multiplied by attempt number
+RATE_LIMIT_BACKOFF  = 30.0   # base wait after 429; multiplied by attempt number
 
 # =============================================================================
 
@@ -45,20 +51,24 @@ from pathlib import Path
 import requests
 
 from config import GROQ_API_KEY, CLAUDE_API_KEY, CLAUDE_BASE_URL
-from features import compute_context, COMPANY_DESCRIPTIONS
+from features import (
+    compute_context,
+    news_in_trading_hours,
+    HORIZON_TRADING_DAYS,   # single source of truth for horizons
+)
 from prompts import (
+    HORIZONS,
     impact_agent_prompt,
-    spillover_agent_prompt,
     critic_agent_prompt,
-    build_spillover_candidates,
+    arabic_qa_prompt,
 )
 from arabic_sentiment import ArabicSentimentAnalyzer
 
 # Resolve paths relative to this file's location
 _HERE      = Path(__file__).parent
-NEWS_FILE  = _HERE / "output" / "EMFD.json"
+NEWS_FILE  = _HERE / "output" / "all_news_by_date_mubasher.json"
 if not NEWS_FILE.exists():
-    NEWS_FILE = _HERE.parent / "EMFD.json"
+    NEWS_FILE = _HERE.parent / "all_news_by_date_mubasher.json"
 PRICES_FILE = _HERE / "egyptian_stocks_2020_2025.json"
 
 _sentiment_model: ArabicSentimentAnalyzer | None = None
@@ -128,6 +138,16 @@ def _prev_trading_day(ticker: str, article_date: str, price_data: dict) -> str:
 # =============================================================================
 
 def _call_groq(prompt: str) -> str:
+    # reasoning_format="hidden" tells Qwen3 to keep its internal reasoning but
+    # NOT emit <think>...</think> in the response. Without it, the model wraps
+    # its chain-of-thought around the JSON, which corrupts naive {...} slicing.
+    return _call_groq_with_model(
+        prompt, model=GROQ_MODEL, max_tokens=GROQ_MAX_TOKENS,
+    )
+
+
+def _call_groq_with_model(prompt: str, model: str, max_tokens: int) -> str:
+    """Reusable Groq call -- lets us pick a different model per stage."""
     resp = requests.post(
         "https://api.groq.com/openai/v1/chat/completions",
         headers={
@@ -135,10 +155,12 @@ def _call_groq(prompt: str) -> str:
             "Content-Type": "application/json",
         },
         json={
-            "model":      GROQ_MODEL,
-            "messages":   [{"role": "user", "content": prompt}],
-            "max_tokens": GROQ_MAX_TOKENS,
-            "temperature": 0,
+            "model":            model,
+            "messages":         [{"role": "user", "content": prompt}],
+            "max_tokens":       max_tokens,
+            "temperature":      0,
+            "reasoning_format": "hidden",
+            "response_format":  {"type": "json_object"},
         },
         timeout=60,
     )
@@ -152,13 +174,19 @@ _last_claude_thinking: str = ""
 
 
 def _call_claude(prompt: str) -> str:
-    """
-    Call the Claude / proxy endpoint and return the assistant's text output.
+    """Default Claude call -- uses CLAUDE_MODEL + CLAUDE_MAX_TOKENS (Critic stage)."""
+    return _call_claude_with_model(prompt, model=CLAUDE_MODEL, max_tokens=CLAUDE_MAX_TOKENS)
 
-    Handles:
-      - Anthropic-native response: content blocks of type "thinking" and "text"
+
+def _call_claude_with_model(prompt: str, model: str, max_tokens: int) -> str:
+    """
+    Parameterised Claude / proxy call. Lets each stage pick its own model
+    and token budget. Returns the assistant's text output.
+
+    Handles response shapes:
+      - Anthropic-native: content blocks of type "thinking" and "text"
       - OpenAI-compatible proxies:  choices[0].message.content
-      - Other proxy variants:       response/result/output/message at the top level
+      - Other proxy variants:       response/result/output/message at top level
 
     If the response is Anthropic-native but contains NO text block (typically
     because max_tokens was consumed entirely by the thinking budget), raises
@@ -176,12 +204,12 @@ def _call_claude(prompt: str) -> str:
             "Content-Type":      "application/json",
         },
         json={
-            "model":      CLAUDE_MODEL,
+            "model":      model,
             "messages":   [{"role": "user", "content": prompt}],
-            "max_tokens": CLAUDE_MAX_TOKENS,
+            "max_tokens": max_tokens,
             "temperature": 0,
         },
-        timeout=120,
+        timeout=240,   # raised for slow proxies (api.claudy.cloud occasionally stalls)
     )
     resp.raise_for_status()
     data = resp.json()
@@ -190,22 +218,20 @@ def _call_claude(prompt: str) -> str:
     usage = data.get("usage") if isinstance(data, dict) else None
     if isinstance(usage, dict):
         print(
-            f"    [Claude] tokens: "
+            f"    [Claude:{model}] tokens: "
             f"input={usage.get('input_tokens')}  "
             f"output={usage.get('output_tokens')}  "
-            f"max={CLAUDE_MAX_TOKENS}"
+            f"max={max_tokens}"
         )
 
     # ── Anthropic-native shape ────────────────────────────────────────────────
     if isinstance(data, dict) and "content" in data:
         content = data["content"]
         if isinstance(content, list) and content:
-            # 1) Capture any thinking block(s) first
             for block in content:
                 if isinstance(block, dict) and block.get("type") == "thinking":
                     _last_claude_thinking = block.get("thinking", "")
 
-            # 2) Return the first text block
             for block in content:
                 if (
                     isinstance(block, dict)
@@ -214,17 +240,15 @@ def _call_claude(prompt: str) -> str:
                 ):
                     return block["text"]
 
-            # 3) No text block found -- fail loudly. Common cause:
-            #    extended thinking ate the whole token budget.
             block_types = [b.get("type") for b in content if isinstance(b, dict)]
             stop_reason = data.get("stop_reason")
             raise ValueError(
                 f"Claude returned no text block. "
                 f"Block types: {block_types}. "
                 f"stop_reason: {stop_reason}. "
-                f"Likely cause: CLAUDE_MAX_TOKENS={CLAUDE_MAX_TOKENS} is too small "
+                f"Likely cause: max_tokens={max_tokens} for model={model} is too small "
                 f"and the response was cut off mid-thinking. "
-                f"Raise CLAUDE_MAX_TOKENS and re-run."
+                f"Raise the token budget and re-run."
             )
         return str(content)
 
@@ -253,14 +277,37 @@ def _call_claude(prompt: str) -> str:
 #  JSON parsing + retry logic
 # =============================================================================
 
-def _parse_json(raw: str) -> dict:
+import re
+
+_THINK_RE = re.compile(r"<think(?:ing)?>.*?</think(?:ing)?>", re.DOTALL | re.IGNORECASE)
+
+# Optional lenient fallback for LLM-produced JSON (unescaped quotes, trailing
+# commas, etc.). Install with: pip install json-repair
+try:
+    from json_repair import repair_json as _repair_json  # type: ignore
+    _HAS_JSON_REPAIR = True
+except ImportError:
+    _HAS_JSON_REPAIR = False
+
+
+def _parse_json(raw: str):
     """
     Extract a JSON object from raw LLM output.
-    Handles markdown fences, leading prose, and Python-style single-quoted dicts.
+    Handles markdown fences, Qwen3 <think>...</think> reasoning blocks,
+    leading prose, Python-style single-quoted dicts, and (if json-repair is
+    installed) common LLM JSON malformations.
     """
     raw = raw.strip()
 
-    # Strip markdown fences
+    # Strip Qwen3-style reasoning blocks first -- their curly braces would
+    # otherwise corrupt the first-{ ... last-} slice below.
+    raw = _THINK_RE.sub("", raw).strip()
+
+    # Also handle an unclosed <think> at the start (max_tokens cut it off).
+    if raw.lower().startswith("<think"):
+        cut = raw.find("</think>")
+        raw = raw[cut + len("</think>"):].strip() if cut != -1 else raw[raw.find("{"):]
+
     for fence in ("```json", "```"):
         if raw.startswith(fence):
             raw = raw[len(fence):]
@@ -268,29 +315,34 @@ def _parse_json(raw: str) -> dict:
         raw = raw[:-3]
     raw = raw.strip()
 
-    # Isolate first { ... } block
     start, end = raw.find("{"), raw.rfind("}")
     if start != -1 and end != -1:
         raw = raw[start : end + 1]
 
-    # 1st try: strict JSON
     try:
         return json.loads(raw)
     except json.JSONDecodeError:
         pass
 
-    # 2nd try: Python literal (handles single-quoted keys/values from LLMs)
+    # Fallback 1: Python literal (single-quoted dicts).
     try:
         import ast
         result = ast.literal_eval(raw)
         if isinstance(result, dict):
-            # Round-trip through json to normalise types
             return json.loads(json.dumps(result, ensure_ascii=False))
     except (ValueError, SyntaxError):
         pass
 
-    # Re-raise as JSONDecodeError so retry logic sees it
-    return json.loads(raw)
+    # Fallback 2: json-repair handles unescaped quotes, trailing commas,
+    # invalid control characters inside strings -- the usual LLM JSON sins.
+    if _HAS_JSON_REPAIR:
+        try:
+            repaired = _repair_json(raw, return_objects=False)
+            return json.loads(repaired)
+        except Exception:
+            pass
+
+    return json.loads(raw)  # final attempt -- re-raises with original error
 
 
 def _call_with_retry(
@@ -313,20 +365,55 @@ def _call_with_retry(
         try:
             raw    = call_fn(current_prompt)
             parsed = _parse_json(raw)
+
+            # Some models occasionally return a JSON array even when asked for
+            # an object. Accept the common single-item wrapper and normalize it.
+            if isinstance(parsed, list):
+                if len(parsed) == 1 and isinstance(parsed[0], dict):
+                    parsed = parsed[0]
+                    print(f"    [{agent_name}] Normalized single-item JSON array to object.")
+                else:
+                    raise ValueError(
+                        f"Expected top-level JSON object, got array(len={len(parsed)})."
+                    )
+
+            if not isinstance(parsed, dict):
+                raise ValueError(
+                    f"Expected top-level JSON object, got {type(parsed).__name__}."
+                )
+
             if attempt > 1:
                 print(f"    [{agent_name}] OK on attempt {attempt}.")
             return parsed, raw
 
         except json.JSONDecodeError as exc:
             last_exc = exc
+            pos = getattr(exc, "pos", None)
             print(f"    [{agent_name}] JSON error (attempt {attempt}): {exc}")
-            print(f"    [{agent_name}] Raw response (first 300 chars): {repr(raw[:300])}")
+            if pos is not None and 0 <= pos <= len(raw):
+                lo, hi = max(0, pos - 120), min(len(raw), pos + 120)
+                print(f"    [{agent_name}] Context around char {pos}: "
+                      f"{repr(raw[lo:pos])}  >>HERE>>  {repr(raw[pos:hi])}")
+            else:
+                print(f"    [{agent_name}] Raw response (first 300 chars): {repr(raw[:300])}")
             if attempt < MAX_RETRIES:
                 current_prompt = (
                     current_prompt
                     + f"\n\nYour previous response was not valid JSON.\n"
                       f"Parse error: {exc}\n"
                       f"Output ONLY the JSON object -- no markdown, no surrounding text."
+                )
+                time.sleep(RETRY_BACKOFF * attempt)
+
+        except ValueError as exc:
+            last_exc = exc
+            print(f"    [{agent_name}] Payload-shape error (attempt {attempt}): {exc}")
+            if attempt < MAX_RETRIES:
+                current_prompt = (
+                    current_prompt
+                    + "\n\nYour previous response had the wrong JSON shape.\n"
+                      "Return a single top-level JSON object (not an array/list).\n"
+                      "Do not add markdown or extra explanatory text."
                 )
                 time.sleep(RETRY_BACKOFF * attempt)
 
@@ -353,8 +440,23 @@ def _call_with_retry(
 
 
 # =============================================================================
-#  Output
+#  Output formatting helpers
 # =============================================================================
+
+def _fmt_per_horizon(per_horizon: dict | None) -> str:
+    """Render a per-horizon dict as a compact, aligned multi-line summary."""
+    if not isinstance(per_horizon, dict):
+        return "    (no per_horizon payload)"
+    lines = []
+    for h in HORIZONS:
+        row = per_horizon.get(h) or {}
+        lines.append(
+            f"      {h:<5} -> dir={str(row.get('direction')):<7} "
+            f"mag={str(row.get('magnitude')):<6} "
+            f"conf={row.get('confidence')}"
+        )
+    return "\n".join(lines)
+
 
 def _save_trace(trace: dict) -> str:
     os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -376,6 +478,62 @@ def _get_sentiment_model() -> ArabicSentimentAnalyzer:
     return _sentiment_model
 
 
+def _run_arabic_qa(explanation: dict) -> dict:
+    """
+    4th-stage Arabic editor pass over the critic's `explanation_for_user`.
+    Uses Claude (same vendor as the critic) so Arabic-language quality is
+    consistent across both stages. Adds ~5-15s through the proxy; the QA
+    prompt is small so output is fast once the connection lands.
+
+    Best-effort: on any failure (proxy down, JSON parse, etc.) we keep
+    the original explanation unchanged rather than blocking the pipeline.
+    """
+    if not ARABIC_QA_ENABLED or not isinstance(explanation, dict) or not explanation:
+        return explanation
+
+    prompt = arabic_qa_prompt(explanation)
+    try:
+        raw = _call_claude_with_model(
+            prompt, model=ARABIC_QA_MODEL, max_tokens=QA_MAX_TOKENS,
+        )
+        cleaned = _parse_json(raw)
+        if isinstance(cleaned, dict) and cleaned.keys() & explanation.keys():
+            print(f"    [ArabicQA] OK -- polished {len(cleaned)} field(s).")
+            return cleaned
+        print(f"    [ArabicQA] returned wrong shape; using original.")
+    except Exception as exc:
+        print(f"    [ArabicQA] failed ({type(exc).__name__}: {exc}); using original.")
+    return explanation
+
+
+def _build_news_timing(article: dict) -> dict:
+    """
+    Resolve the news timing (drives the evaluation window's START day):
+      in_trading_hours = True  -> window starts at event_date itself
+      in_trading_hours = False -> window starts at next trading day
+
+    Returned dict is attached to ctx so both the prompts and the saved trace
+    agree on the start-day convention.
+    """
+    in_hours   = news_in_trading_hours(article)
+    arrived_at = article.get("datetime") or (
+        f"{article.get('date', '?')} {article.get('time', '?')}"
+    )
+    return {
+        "in_trading_hours": in_hours,
+        "arrived_at_str":   arrived_at,
+        "start_day_label": (
+            "event_date (article day; news arrived during EGX hours)"
+            if in_hours
+            else "next trading day after event_date (news arrived outside EGX hours)"
+        ),
+    }
+
+
+# =============================================================================
+#  Single-article entry point (used by the FastAPI service if rewired)
+# =============================================================================
+
 def analyze_article(article: dict, *, save_trace: bool = True) -> dict:
     """Run the full pipeline for a single news article and return the trace."""
     price_data = _load_price_data()
@@ -392,21 +550,15 @@ def analyze_article(article: dict, *, save_trace: bool = True) -> dict:
 
     context_date = _prev_trading_day(ticker, article_date, price_data)
     ctx = compute_context(ticker, context_date)
-    ctx["event_date"] = article_date
+    ctx["event_date"]  = article_date
+    ctx["news_timing"] = _build_news_timing(article)
 
     sentiment_model = _get_sentiment_model()
     text = (article.get("body") or article.get("title") or "").strip()
     sentiment = sentiment_model.analyze(text)
 
-    candidates = build_spillover_candidates(ctx, COMPANY_DESCRIPTIONS)
-
     p_impact = impact_agent_prompt(ctx, sentiment["score"], sentiment["label"], article)
     impact_parsed, impact_raw = _call_with_retry(_call_groq, p_impact, "ImpactAgent")
-
-    p_spillover = spillover_agent_prompt(ctx, article, candidates)
-    spillover_parsed, spillover_raw = _call_with_retry(
-        _call_groq, p_spillover, "SpilloverAgent"
-    )
 
     p_critic = critic_agent_prompt(
         ctx,
@@ -414,24 +566,34 @@ def analyze_article(article: dict, *, save_trace: bool = True) -> dict:
         sentiment["label"],
         article,
         impact_parsed,
-        spillover_parsed,
     )
     critic_parsed, critic_raw = _call_with_retry(_call_claude, p_critic, "CriticAgent")
     critic_thinking = _last_claude_thinking
 
+    # 4th stage: Arabic-QA polish on the user-facing block (best-effort).
+    explanation_raw   = critic_parsed.get("explanation_for_user") or {}
+    explanation_clean = _run_arabic_qa(explanation_raw)
+    if isinstance(explanation_clean, dict):
+        critic_parsed["explanation_for_user"] = explanation_clean
+
     trace = {
-        "ticker": ticker,
+        "ticker":       ticker,
         "article_date": article_date,
         "context_date": context_date,
-        "article": article,
-        "context": ctx,
-        "sentiment": sentiment,
-        "impact_agent": {"parsed": impact_parsed, "raw": impact_raw},
-        "spillover_agent": {"parsed": spillover_parsed, "raw": spillover_raw},
+        "article":      article,
+        "context":      ctx,
+        "sentiment":    sentiment,
+        "impact_agent": {"output": impact_parsed, "raw": impact_raw},
         "critic_agent": {
-            "parsed": critic_parsed,
-            "raw": critic_raw,
+            "output":   critic_parsed,
+            "raw":      critic_raw,
             "thinking": critic_thinking,
+        },
+        "arabic_qa": {
+            "enabled":          ARABIC_QA_ENABLED,
+            "model":            ARABIC_QA_MODEL,
+            "explanation_pre":  explanation_raw,
+            "explanation_post": explanation_clean,
         },
     }
 
@@ -444,20 +606,23 @@ def analyze_article(article: dict, *, save_trace: bool = True) -> dict:
 
 
 # =============================================================================
-#  Main pipeline
+#  Main batch pipeline
 # =============================================================================
 
 def run(max_news: int = MAX_NEWS) -> list:
     """
-    Process the first `max_news` articles from all_news_by_date.json.
+    Process the first `max_news` articles from the source news file.
     Returns a list of result summary dicts.
     """
     print("=" * 62)
-    print("  EGX30 News-Impact Pipeline")
-    print(f"  Articles to process : {max_news if max_news is not None else 'ALL'}")
-    print(f"  Groq model          : {GROQ_MODEL}")
-    print(f"  Claude model        : {CLAUDE_MODEL}")
-    print(f"  Claude max tokens   : {CLAUDE_MAX_TOKENS}")
+    print("  EGX30 News-Impact Pipeline (v2.2: Impact -> Critic -> Arabic-QA)")
+    print(f"  Articles to process  : {max_news if max_news is not None else 'ALL'}")
+    print(f"  Impact   (Groq)      : {GROQ_MODEL}")
+    print(f"  Critic   (Claude)    : {CLAUDE_MODEL}")
+    print(f"  Arabic-QA (Claude)   : {ARABIC_QA_MODEL}  (enabled={ARABIC_QA_ENABLED})")
+    print(f"  Token budgets        : impact={GROQ_MAX_TOKENS}  critic={CLAUDE_MAX_TOKENS}  qa={QA_MAX_TOKENS}")
+    print(f"  Horizons             : "
+          + ", ".join(f"{h}({HORIZON_TRADING_DAYS[h]}d)" for h in HORIZONS))
     print("=" * 62)
 
     news_data   = _load_news()
@@ -505,7 +670,11 @@ def run(max_news: int = MAX_NEWS) -> list:
             continue
 
         # Override event_date so prompts show the actual news date, not cutoff.
-        ctx["event_date"] = article_date
+        ctx["event_date"]  = article_date
+        ctx["news_timing"] = _build_news_timing(article)
+        print(f"  News timing: {ctx['news_timing']['arrived_at_str']}  "
+              f"in_hours={ctx['news_timing']['in_trading_hours']}  "
+              f"-> {ctx['news_timing']['start_day_label']}")
 
         # ── Arabic sentiment ──────────────────────────────────────────────────
         text      = (article.get("body") or article.get("title") or "").strip()
@@ -513,28 +682,17 @@ def run(max_news: int = MAX_NEWS) -> list:
         print(f"  Sentiment : {sentiment['label']}  score={sentiment['score']:+.4f}  "
               f"probs={sentiment['class_probs']}")
 
-        # ── spillover candidate universe ──────────────────────────────────────
-        candidates = build_spillover_candidates(ctx, COMPANY_DESCRIPTIONS)
-
         # ── Impact Agent (Groq) ───────────────────────────────────────────────
         print("  Calling Impact Agent (Groq)...")
         p_impact = impact_agent_prompt(
             ctx, sentiment["score"], sentiment["label"], article
         )
         impact_parsed, impact_raw = _call_with_retry(_call_groq, p_impact, "ImpactAgent")
-        print(f"    -> direction={impact_parsed.get('direction')}  "
-              f"magnitude={impact_parsed.get('magnitude')}  "
-              f"horizon={impact_parsed.get('horizon')}  "
-              f"confidence={impact_parsed.get('confidence')}")
-
-        # ── Spillover Agent (Groq) ────────────────────────────────────────────
-        print("  Calling Spillover Agent (Groq)...")
-        p_spillover = spillover_agent_prompt(ctx, article, candidates)
-        spillover_parsed, spillover_raw = _call_with_retry(
-            _call_groq, p_spillover, "SpilloverAgent"
-        )
-        n_spill = len(spillover_parsed.get("spillovers", []))
-        print(f"    -> {n_spill} spillover(s) identified.")
+        print(f"    news_type={impact_parsed.get('news_type')}  "
+              f"priced_in={impact_parsed.get('already_priced_in')}  "
+              f"signals={impact_parsed.get('ta_signals_cited')}")
+        print("    per_horizon:")
+        print(_fmt_per_horizon(impact_parsed.get("per_horizon")))
 
         # ── Critic Agent (Claude) ─────────────────────────────────────────────
         print("  Calling Critic Agent (Claude)...")
@@ -544,55 +702,68 @@ def run(max_news: int = MAX_NEWS) -> list:
             sentiment["label"],
             article,
             impact_parsed,
-            spillover_parsed,
         )
         critic_parsed, critic_raw = _call_with_retry(_call_claude, p_critic, "CriticAgent")
-
-        # Snapshot thinking captured during the LAST successful Claude call,
-        # then immediately clear the module-level var so it can't leak
-        # into a future iteration.
         critic_thinking = _last_claude_thinking
 
-        final = critic_parsed.get("primary_company", {})
-        print(f"    -> direction={final.get('direction')}  "
-              f"magnitude={final.get('magnitude')}  "
-              f"horizon={final.get('horizon')}  "
-              f"confidence={final.get('confidence')}")
+        primary = critic_parsed.get("primary_company", {}) or {}
+        print(f"    news_type={primary.get('news_type')}  "
+              f"priced_in={primary.get('already_priced_in')}  "
+              f"signals={primary.get('ta_signals_cited')}")
+        print("    per_horizon (final):")
+        print(_fmt_per_horizon(primary.get("per_horizon")))
+
+        # ── 4th stage: Arabic-QA polish ───────────────────────────────────────
+        explanation_raw   = critic_parsed.get("explanation_for_user") or {}
+        if ARABIC_QA_ENABLED:
+            print("  Calling Arabic-QA Agent (Claude)...")
+            explanation_clean = _run_arabic_qa(explanation_raw)
+            if isinstance(explanation_clean, dict):
+                critic_parsed["explanation_for_user"] = explanation_clean
+        else:
+            explanation_clean = explanation_raw
 
         # ── save full trace ───────────────────────────────────────────────────
         trace = {
-            "ticker":        ticker,
-            "article_date":  article_date,
-            "context_date":  context_date,
-            "processed_at":  datetime.now().isoformat(),
-            "article":       article,
-            "sentiment":     sentiment,
-            "context":       ctx,
+            "ticker":       ticker,
+            "article_date": article_date,
+            "context_date": context_date,
+            "processed_at": datetime.now().isoformat(),
+            "article":      article,
+            "sentiment":    sentiment,
+            "context":      ctx,
             "prompts": {
-                "impact":    p_impact,
-                "spillover": p_spillover,
-                "critic":    p_critic,
+                "impact": p_impact,
+                "critic": p_critic,
             },
-            "impact_agent":    {"output": impact_parsed,    "raw": impact_raw},
-            "spillover_agent": {"output": spillover_parsed,  "raw": spillover_raw},
-            "critic_agent":    {
+            "impact_agent": {"output": impact_parsed, "raw": impact_raw},
+            "critic_agent": {
                 "output":   critic_parsed,
                 "raw":      critic_raw,
                 "thinking": critic_thinking,
             },
+            "arabic_qa": {
+                "enabled":          ARABIC_QA_ENABLED,
+                "model":            ARABIC_QA_MODEL,
+                "explanation_pre":  explanation_raw,
+                "explanation_post": explanation_clean,
+            },
+            "final": primary,
         }
         path = _save_trace(trace)
         print(f"  Saved -> {path}")
 
+        # Build a flat summary row (one record per article).
+        per_h = primary.get("per_horizon") or {}
         results.append({
-            "ticker":       ticker,
-            "article_date": article_date,
-            "context_date": context_date,
-            "direction":    final.get("direction"),
-            "magnitude":    final.get("magnitude"),
-            "horizon":      final.get("horizon"),
-            "confidence":   final.get("confidence"),
-            "path":         path,
+            "ticker":            ticker,
+            "article_date":      article_date,
+            "context_date":      context_date,
+            "news_type":         primary.get("news_type"),
+            "already_priced_in": primary.get("already_priced_in"),
+            "ta_signals_cited":  primary.get("ta_signals_cited") or [],
+            "per_horizon":       {h: per_h.get(h) for h in HORIZONS},
+            "path":              path,
         })
 
     # ── summary ───────────────────────────────────────────────────────────────
@@ -600,11 +771,25 @@ def run(max_news: int = MAX_NEWS) -> list:
     print(f"  Done. {len(results)}/{len(articles)} article(s) processed successfully.")
     if results:
         print()
+        col_w = 18
+        header = (
+            f"  {'TICKER':<7} {'DATE':<11} {'NEWS_TYPE':<18} "
+            + " ".join(f"{h.upper():<{col_w}}" for h in HORIZONS)
+        )
+        print(header)
+        print("  " + "-" * (len(header) - 2))
+
+        def _cell(h):
+            if not isinstance(h, dict):
+                return "-"
+            return f"{str(h.get('direction'))[:4]}/{str(h.get('magnitude'))[:3]}/{h.get('confidence')}"
+
         for r in results:
+            per_h = r["per_horizon"]
+            cells = " ".join(f"{_cell(per_h.get(h)):<{col_w}}" for h in HORIZONS)
             print(
-                f"  {r['ticker']:<8} {r['article_date']}  "
-                f"{str(r['direction']):<8} {str(r['magnitude']):<8} "
-                f"{str(r['horizon']):<6} conf={r['confidence']}"
+                f"  {r['ticker']:<7} {r['article_date']:<11} "
+                f"{str(r['news_type'])[:18]:<18} {cells}"
             )
     print("=" * 62)
     return results

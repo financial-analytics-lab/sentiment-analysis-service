@@ -16,25 +16,61 @@ import pandas as pd
 from pathlib import Path
 
 SECTOR_MAP = {
-    "ABUK": "Petroleum & Petrochemicals", "SKPC": "Petroleum & Petrochemicals",
-    "AMOC": "Petroleum & Petrochemicals", "MFPC": "Petroleum & Petrochemicals",
-    "EKHO": "Petroleum & Petrochemicals",
-    "COMI": "Banking", "ADIB": "Banking", "CIEB": "Banking",
-    "HRHO": "Non-Bank Financials", "CCAP": "Non-Bank Financials",
-    "BTFH": "Non-Bank Financials",
-    "FWRY": "Technology & Fintech", "EFIH": "Technology & Fintech",
+    # Petroleum & Petrochemicals
+    "ABUK": "Petroleum & Petrochemicals",
+    "VLMRA": "Petroleum & Petrochemicals",
+    "VLMR": "Petroleum & Petrochemicals",
+    "SKPC": "Petroleum & Petrochemicals",
+    "AMOC": "Petroleum & Petrochemicals",
+    "MFPC": "Petroleum & Petrochemicals",
+
+    # Banking & Financial Services
+    "COMI": "Banking & Financial Services",
+    "ADIB": "Banking & Financial Services",
+    "CIEB": "Banking & Financial Services",
+    "BTFH": "Banking & Financial Services",
+
+    # Non-Bank Financials
+    "HRHO": "Non-Bank Financials",
+    "CCAP": "Non-Bank Financials",
+
+    # Technology & Fintech
+    "FWRY": "Technology & Fintech",
+    "EFIH": "Technology & Fintech",
     "RAYA": "Technology & Fintech",
-    "PHDC": "Real Estate", "MASR": "Real Estate", "TMGH": "Real Estate",
-    "EMFD": "Real Estate", "ORHD": "Real Estate",
+
+    # Real Estate
+    "PHDC": "Real Estate",
+    "MASR": "Real Estate",
+    "TMGH": "Real Estate",
+    "EMFD": "Real Estate",
+    "ORHD": "Real Estate",
+
+    # Construction & Building Materials
     "ARCC": "Construction & Building Materials",
     "MCQE": "Construction & Building Materials",
     "ORAS": "Construction & Building Materials",
-    "RMDA": "Healthcare & Pharmaceuticals", "ISPH": "Healthcare & Pharmaceuticals",
+
+    # Healthcare & Pharmaceuticals
+    "RMDA": "Healthcare & Pharmaceuticals",
+    "ISPH": "Healthcare & Pharmaceuticals",
+
+    # Food & Beverages
     "JUFO": "Food & Beverages",
+
+    # Metals & Mining
     "EGAL": "Metals & Mining",
+
+    # Telecommunications
     "ETEL": "Telecommunications",
+
+    # Textiles
     "ORWE": "Textiles",
+
+    # Tobacco & Consumer Goods
     "EAST": "Tobacco & Consumer Goods",
+
+    # Diversified Holding
     "GBCO": "Diversified Holding",
 }
 

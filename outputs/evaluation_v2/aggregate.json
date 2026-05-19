@@ -1,0 +1,343 @@
+{
+  "n_total_rows": 51,
+  "n_scored": 49,
+  "n_no_data": 0,
+  "n_no_prediction": 2,
+  "overall_directional_hit_rate": 0.449,
+  "overall_magnitude_hit_rate": 0.306,
+  "by_horizon": {
+    "short": {
+      "n": 17,
+      "directional_hit_rate": 0.353,
+      "magnitude_hit_rate": 0.176
+    },
+    "medium": {
+      "n": 17,
+      "directional_hit_rate": 0.529,
+      "magnitude_hit_rate": 0.471
+    },
+    "large": {
+      "n": 15,
+      "directional_hit_rate": 0.467,
+      "magnitude_hit_rate": 0.267
+    }
+  },
+  "by_news_type": {
+    "operational": {
+      "n": 25,
+      "directional_hit_rate": 0.52,
+      "magnitude_hit_rate": 0.32
+    },
+    "other": {
+      "n": 12,
+      "directional_hit_rate": 0.5,
+      "magnitude_hit_rate": 0.5
+    },
+    "dividend": {
+      "n": 6,
+      "directional_hit_rate": 0.333,
+      "magnitude_hit_rate": 0.167
+    },
+    "capital_increase": {
+      "n": 3,
+      "directional_hit_rate": 0.333,
+      "magnitude_hit_rate": 0.0
+    },
+    "regulatory": {
+      "n": 3,
+      "directional_hit_rate": 0.0,
+      "magnitude_hit_rate": 0.0
+    }
+  },
+  "by_direction": {
+    "neutral": {
+      "n": 24,
+      "directional_hit_rate": 0.625,
+      "magnitude_hit_rate": 0.583
+    },
+    "down": {
+      "n": 6,
+      "directional_hit_rate": 0.167,
+      "magnitude_hit_rate": 0.0
+    },
+    "up": {
+      "n": 19,
+      "directional_hit_rate": 0.316,
+      "magnitude_hit_rate": 0.053
+    }
+  },
+  "by_magnitude": {
+    "small": {
+      "n": 35,
+      "directional_hit_rate": 0.543,
+      "magnitude_hit_rate": 0.4
+    },
+    "medium": {
+      "n": 14,
+      "directional_hit_rate": 0.214,
+      "magnitude_hit_rate": 0.071
+    }
+  },
+  "by_already_priced_in": {
+    "false": {
+      "n": 41,
+      "directional_hit_rate": 0.439,
+      "magnitude_hit_rate": 0.268
+    },
+    "true": {
+      "n": 8,
+      "directional_hit_rate": 0.5,
+      "magnitude_hit_rate": 0.5
+    }
+  },
+  "by_in_trading_hours": {
+    "true": {
+      "n": 18,
+      "directional_hit_rate": 0.444,
+      "magnitude_hit_rate": 0.278
+    },
+    "false": {
+      "n": 31,
+      "directional_hit_rate": 0.452,
+      "magnitude_hit_rate": 0.323
+    }
+  },
+  "horizon_x_news_type": {
+    "short": {
+      "operational": {
+        "n": 9,
+        "directional_hit_rate": 0.333,
+        "magnitude_hit_rate": 0.111
+      },
+      "other": {
+        "n": 4,
+        "directional_hit_rate": 0.25,
+        "magnitude_hit_rate": 0.25
+      },
+      "dividend": {
+        "n": 2,
+        "directional_hit_rate": 0.5,
+        "magnitude_hit_rate": 0.5
+      },
+      "capital_increase": {
+        "n": 1,
+        "directional_hit_rate": 1.0,
+        "magnitude_hit_rate": 0.0
+      },
+      "regulatory": {
+        "n": 1,
+        "directional_hit_rate": 0.0,
+        "magnitude_hit_rate": 0.0
+      }
+    },
+    "medium": {
+      "operational": {
+        "n": 9,
+        "directional_hit_rate": 0.667,
+        "magnitude_hit_rate": 0.556
+      },
+      "other": {
+        "n": 4,
+        "directional_hit_rate": 0.75,
+        "magnitude_hit_rate": 0.75
+      },
+      "dividend": {
+        "n": 2,
+        "directional_hit_rate": 0.0,
+        "magnitude_hit_rate": 0.0
+      },
+      "capital_increase": {
+        "n": 1,
+        "directional_hit_rate": 0.0,
+        "magnitude_hit_rate": 0.0
+      },
+      "regulatory": {
+        "n": 1,
+        "directional_hit_rate": 0.0,
+        "magnitude_hit_rate": 0.0
+      }
+    },
+    "large": {
+      "operational": {
+        "n": 7,
+        "directional_hit_rate": 0.571,
+        "magnitude_hit_rate": 0.286
+      },
+      "other": {
+        "n": 4,
+        "directional_hit_rate": 0.5,
+        "magnitude_hit_rate": 0.5
+      },
+      "dividend": {
+        "n": 2,
+        "directional_hit_rate": 0.5,
+        "magnitude_hit_rate": 0.0
+      },
+      "capital_increase": {
+        "n": 1,
+        "directional_hit_rate": 0.0,
+        "magnitude_hit_rate": 0.0
+      },
+      "regulatory": {
+        "n": 1,
+        "directional_hit_rate": 0.0,
+        "magnitude_hit_rate": 0.0
+      }
+    }
+  },
+  "by_confidence_per_horizon": {
+    "short": {
+      "0.6-0.8": {
+        "n": 10,
+        "directional_hit_rate": 0.5,
+        "magnitude_hit_rate": 0.2
+      },
+      "0.4-0.6": {
+        "n": 7,
+        "directional_hit_rate": 0.143,
+        "magnitude_hit_rate": 0.143
+      }
+    },
+    "medium": {
+      "0.4-0.6": {
+        "n": 9,
+        "directional_hit_rate": 0.667,
+        "magnitude_hit_rate": 0.556
+      },
+      "0.0-0.4": {
+        "n": 1,
+        "directional_hit_rate": 1.0,
+        "magnitude_hit_rate": 1.0
+      },
+      "0.6-0.8": {
+        "n": 7,
+        "directional_hit_rate": 0.286,
+        "magnitude_hit_rate": 0.286
+      }
+    },
+    "large": {
+      "0.4-0.6": {
+        "n": 9,
+        "directional_hit_rate": 0.556,
+        "magnitude_hit_rate": 0.333
+      },
+      "0.0-0.4": {
+        "n": 1,
+        "directional_hit_rate": 1.0,
+        "magnitude_hit_rate": 1.0
+      },
+      "0.6-0.8": {
+        "n": 5,
+        "directional_hit_rate": 0.2,
+        "magnitude_hit_rate": 0.0
+      }
+    }
+  },
+  "by_ta_signal": {
+    "near_20d_high": {
+      "n": 14,
+      "directional_hit_rate": 0.429,
+      "magnitude_hit_rate": 0.286
+    },
+    "macd_bullish": {
+      "n": 18,
+      "directional_hit_rate": 0.444,
+      "magnitude_hit_rate": 0.278
+    },
+    "bollinger_above_upper": {
+      "n": 3,
+      "directional_hit_rate": 0.667,
+      "magnitude_hit_rate": 0.667
+    },
+    "up_streak_3plus": {
+      "n": 3,
+      "directional_hit_rate": 0.667,
+      "magnitude_hit_rate": 0.667
+    },
+    "rsi_neutral": {
+      "n": 31,
+      "directional_hit_rate": 0.452,
+      "magnitude_hit_rate": 0.323
+    },
+    "bollinger_middle": {
+      "n": 11,
+      "directional_hit_rate": 0.727,
+      "magnitude_hit_rate": 0.455
+    },
+    "low_volatility": {
+      "n": 17,
+      "directional_hit_rate": 0.471,
+      "magnitude_hit_rate": 0.412
+    },
+    "down_streak_3plus": {
+      "n": 9,
+      "directional_hit_rate": 0.556,
+      "magnitude_hit_rate": 0.556
+    },
+    "macd_bearish": {
+      "n": 22,
+      "directional_hit_rate": 0.545,
+      "magnitude_hit_rate": 0.409
+    },
+    "strong_uptrend": {
+      "n": 12,
+      "directional_hit_rate": 0.333,
+      "magnitude_hit_rate": 0.083
+    },
+    "normal_volatility": {
+      "n": 23,
+      "directional_hit_rate": 0.348,
+      "magnitude_hit_rate": 0.174
+    },
+    "near_52w_high": {
+      "n": 3,
+      "directional_hit_rate": 0.667,
+      "magnitude_hit_rate": 0.333
+    },
+    "bollinger_near_lower": {
+      "n": 14,
+      "directional_hit_rate": 0.429,
+      "magnitude_hit_rate": 0.286
+    },
+    "strong_downtrend": {
+      "n": 9,
+      "directional_hit_rate": 0.444,
+      "magnitude_hit_rate": 0.222
+    },
+    "near_20d_low": {
+      "n": 14,
+      "directional_hit_rate": 0.5,
+      "magnitude_hit_rate": 0.357
+    },
+    "rsi_oversold": {
+      "n": 3,
+      "directional_hit_rate": 0.667,
+      "magnitude_hit_rate": 0.333
+    },
+    "bollinger_near_upper": {
+      "n": 3,
+      "directional_hit_rate": 0.0,
+      "magnitude_hit_rate": 0.0
+    },
+    "macd_bearish_crossover": {
+      "n": 6,
+      "directional_hit_rate": 0.333,
+      "magnitude_hit_rate": 0.167
+    },
+    "trend_mixed": {
+      "n": 6,
+      "directional_hit_rate": 0.333,
+      "magnitude_hit_rate": 0.167
+    },
+    "bollinger_below_lower": {
+      "n": 3,
+      "directional_hit_rate": 0.333,
+      "magnitude_hit_rate": 0.333
+    },
+    "at_20d_low": {
+      "n": 3,
+      "directional_hit_rate": 0.333,
+      "magnitude_hit_rate": 0.333
+    }
+  }
+}

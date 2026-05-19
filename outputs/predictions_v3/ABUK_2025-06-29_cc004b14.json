@@ -1,0 +1,363 @@
+{
+  "ticker": "ABUK",
+  "article_date": "2025-06-29",
+  "context_date": "2025-06-25",
+  "processed_at": "2026-05-18T20:21:40.941626",
+  "article": {
+    "symbol": "ABUK",
+    "company": "Abou Kir Fertilizers",
+    "isin": "EGS38191C010",
+    "sector": "Petroleum & Petrochemicals",
+    "id": "4464705",
+    "date": "2025-06-29",
+    "time": "10:11:37",
+    "datetime": "2025-06-29 10:11:37",
+    "title": "أبوقير للأسمدة تقرر المساهمة في شركة أبوطرطور لحامض الفوسفوريك",
+    "body": "القاهرة - مباشر: قررت شركة أبوقير للأسمدة والصناعات الكيماوية، المساهمة في شركة أبوطرطور لحامض الفوسفوريك بنسبة 10%، بعد الانتهاء من إجراءات الدمج مع شركة الوادي للصناعات الفوسفاتية والأسمدة.\nوقالت الشركة في افصاح اليوم الأحد، إنها وافقت على الاتفاق الإطاري المنظم للعلاقة بين المساهمين لتمويل المشروع من خلال عقد قرض مساهم بفائدة.\nومن المتوقع أن تبلغ تكلفة المشروع 643 مليون دولار، بطاقة إنتاجية 250 ألف طن/عام حامض فوسفوريك، على أن ينفذ خلال 3 سنوات.\nيشار أن أبوقير للأسمدة والصناعات الكيماوية،  حققت أرباحاً بلغت 7.77 مليار جنيه خلال الفترة من يوليو حتى مارس 2025، مقابل أرباح بلغت 12.05 مليار جنيه في الفترة المقارنة من العام المالي الماضي.\nوارتفعت إيرادات الشركة خلال الفترة إلى 16.89 مليار جنيه، مقابل 14.04 مليار جنيه في الفترة المقارنة من العام المالي الماضي.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nأبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر..\nاضغط هنا\nترشيحات\nجهاز حكومي مصري يستثمر 4 ملايين دولار في صندوق ديسربتيك\nجيزة سيستمز: النظر في الطرح ببورصة مصر لن يكون قبل 2027\nمسؤول يكشف أسباب رفع أسعار خدمات الإنترنت والاتصالات في مصر\nمصر.. نصائح مهمة من \"حماية المستهلك\" للمواطنين قبل شراء السلع",
+    "teaser": "القاهرة - مباشر: قررت شركة أبوقير للأسمدة والصناعات الكيماوية، المساهمة في شركة أبوطرطور لحامض الفوسفوريك بنسبة 10%، بعد الانتهاء من إجراءات الدمج مع شركة الوادي للصناعات الفوسفاتية والأسمدة. وقالت الشركة في افصاح اليوم الأحد، إنها وافقت على …",
+    "section": "أخبار الشركة",
+    "source": "مباشر",
+    "categories": "stock-bonds",
+    "country": "مصر",
+    "reads": 1233,
+    "url": "https://www.mubasher.info/news/4464705",
+    "image_url": "https://static.mubasher.info/File.Story_Image/93531c2bb0cd4e3397481e18ca622e64/640.jpg",
+    "date_raw": ""
+  },
+  "sentiment": {
+    "model": "CAMeL-Lab/bert-base-arabic-camelbert-mix-sentiment",
+    "label": "neutral",
+    "score": 0.1423,
+    "numeric": 0,
+    "class_probs": {
+      "neutral": 0.8549,
+      "positive": 0.1437,
+      "negative": 0.0014
+    }
+  },
+  "context": {
+    "ticker": "ABUK",
+    "company": "Abou Kir Fertilizers - ABUK",
+    "sector": "Petroleum & Petrochemicals",
+    "business_description": "Abou Kir Fertilizers — Egypt's largest nitrogen fertilizer (urea/ammonium nitrate) producer near Alexandria; exports to Europe; earnings sensitive to natural gas feedstock price and EUR/USD.",
+    "event_date": "2025-06-29",
+    "last_price_date": "2025-06-25",
+    "price_state": {
+      "last_close": 48.89,
+      "return_1d": 2.09,
+      "return_5d": 5.73,
+      "return_20d": 0.8,
+      "return_60d": -14.87,
+      "pct_vs_ma50": -3.84,
+      "pct_vs_ma200": -11.21,
+      "vol_20d_annualized_pct": 29.72,
+      "vol_regime": "normal",
+      "rsi_14": 49.39
+    },
+    "market_state": {
+      "sector_return_1d": 1.92,
+      "sector_return_5d": 6.75,
+      "relative_strength_vs_sector_1d": 0.17
+    },
+    "correlation_state": {
+      "corr_with_sector_90d": 0.67,
+      "top_3_correlated_peers": [
+        {
+          "ticker": "MFPC",
+          "correlation": 0.51,
+          "sector": "Petroleum & Petrochemicals"
+        },
+        {
+          "ticker": "ORWE",
+          "correlation": 0.47,
+          "sector": "Textiles"
+        },
+        {
+          "ticker": "TMGH",
+          "correlation": 0.47,
+          "sector": "Real Estate"
+        }
+      ]
+    },
+    "recent_abnormal_returns": [
+      {
+        "date": "2025-06-19",
+        "stock_return_pct": -0.58,
+        "sector_return_pct": -0.91,
+        "abnormal_return_pct": 0.33
+      },
+      {
+        "date": "2025-06-22",
+        "stock_return_pct": 1.89,
+        "sector_return_pct": 1.38,
+        "abnormal_return_pct": 0.51
+      },
+      {
+        "date": "2025-06-23",
+        "stock_return_pct": -0.92,
+        "sector_return_pct": 1.55,
+        "abnormal_return_pct": -2.47
+      },
+      {
+        "date": "2025-06-24",
+        "stock_return_pct": 3.19,
+        "sector_return_pct": 3.05,
+        "abnormal_return_pct": 0.14
+      },
+      {
+        "date": "2025-06-25",
+        "stock_return_pct": 2.09,
+        "sector_return_pct": 1.44,
+        "abnormal_return_pct": 0.65
+      }
+    ],
+    "technical_signals": {
+      "rsi_14": 49.39,
+      "rsi_zone": "neutral",
+      "macd": {
+        "line": -1.1199,
+        "signal": -1.286,
+        "histogram": 0.1661,
+        "state": "bullish"
+      },
+      "bollinger": {
+        "pct_b": 0.6,
+        "bandwidth_pct": 12.39,
+        "zone": "middle"
+      },
+      "distance_to_extremes": {
+        "20d_high_distance_pct": -3.68,
+        "20d_low_distance_pct": 6.35,
+        "60d_high_distance_pct": -14.35,
+        "60d_low_distance_pct": 6.35,
+        "252d_high_distance_pct": -25.11,
+        "252d_low_distance_pct": 6.35
+      },
+      "rsi_divergence": "none",
+      "atr_pct_14d": 1.55,
+      "consecutive_streak": 2
+    },
+    "dynamic_bands": {
+      "horizon_trading_days": {
+        "short": 1,
+        "medium": 2,
+        "large": 20
+      },
+      "neutral_band_pct": {
+        "short": 0.78,
+        "medium": 1.1,
+        "large": 3.47
+      },
+      "magnitude_bands_pct": {
+        "short": {
+          "small": [
+            0.0,
+            1.08
+          ],
+          "medium": [
+            1.08,
+            3.1
+          ],
+          "large": [
+            3.1,
+            null
+          ]
+        },
+        "medium": {
+          "small": [
+            0.0,
+            1.53
+          ],
+          "medium": [
+            1.53,
+            4.38
+          ],
+          "large": [
+            4.38,
+            null
+          ]
+        },
+        "large": {
+          "small": [
+            0.0,
+            4.85
+          ],
+          "medium": [
+            4.85,
+            13.86
+          ],
+          "large": [
+            13.86,
+            null
+          ]
+        }
+      },
+      "atr_pct_anchor": 1.55
+    },
+    "news_timing": {
+      "in_trading_hours": true,
+      "arrived_at_str": "2025-06-29 10:11:37",
+      "start_day_label": "event_date (article day; news arrived during EGX hours)"
+    }
+  },
+  "prompts": {
+    "impact": "You are a quantitative analyst predicting Egyptian Stock Exchange (EGX) stock reactions to Arabic news. Your prediction must be grounded in the technical signals provided and calibrated to this specific ticker's volatility.\n\n=== COMPANY ===\nTicker      : ABUK\nName        : Abou Kir Fertilizers - ABUK\nSector      : Petroleum & Petrochemicals\nDescription : Abou Kir Fertilizers — Egypt's largest nitrogen fertilizer (urea/ammonium nitrate) producer near Alexandria; exports to Europe; earnings sensitive to natural gas feedstock price and EUR/USD.\nPrice data  : as of 2025-06-25  (article date: 2025-06-29)\n\n=== PRICE STATE ===\nLast close  : 48.89 EGP\nReturn 1d   : +2.09%   5d : +5.73%   20d : +0.80%   60d : -14.87%\nvs MA-50    : -3.84%  vs MA-200 : -11.21%\nTrend       : downtrend (below MA-50 and MA-200)\nVol 20d ann : 29.72%  [normal regime]  Normal -> impact PROPORTIONAL to catalyst.\n\n=== SECTOR ===\nSector 1d   : +1.92%  5d : +6.75%\nStock vs sector 1d : +0.17%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 0.67\nTop peers:\n  - MFPC | Petroleum & Petrochemicals | 90d-corr: 0.51\n  - ORWE | Textiles | 90d-corr: 0.47\n  - TMGH | Real Estate | 90d-corr: 0.47\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2025-06-19: stock -0.58%  sector -0.91%  AR +0.33%\n  2025-06-22: stock +1.89%  sector +1.38%  AR +0.51%\n  2025-06-23: stock -0.92%  sector +1.55%  AR -2.47%\n  2025-06-24: stock +3.19%  sector +3.05%  AR +0.14%\n  2025-06-25: stock +2.09%  sector +1.44%  AR +0.65%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 49.39  [neutral]\nMACD      : state=bullish  hist=+0.1661\nBollinger : zone=middle  %B=0.600\nDistance  : 20d_hi -3.68%  20d_lo +6.35%  60d_hi -14.35%  60d_lo +6.35%  52w_hi -25.11%  52w_lo +6.35%\nDivergence : none\nATR 14d   : 1.55%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : +2 (up streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=1.55%) ===\n  short   (N= 1d)  neutral=+-0.78%  small <1.08%  medium 1.08%-3.10%  large >=3.10%\n  medium  (N= 2d)  neutral=+-1.10%  small <1.53%  medium 1.53%-4.38%  large >=4.38%\n  large   (N=20d)  neutral=+-3.47%  small <4.85%  medium 4.85%-13.86%  large >=13.86%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-06-29 10:11:37\nIn trading hours: True  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : event_date (article day; news arrived during EGX hours)\nHorizons (days) : short=1d ; medium=2d ; large=20d\n\n=== ARABIC SENTIMENT (one input among many) ===\nLabel : neutral\nScore : +0.1423   (-1 strongly negative -> +1 strongly positive)\nNOTE: CAMeLBERT classifies tone, not financial implication.\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-06-29 10:11:37\nHeadline  : أبوقير للأسمدة تقرر المساهمة في شركة أبوطرطور لحامض الفوسفوريك\n\nالقاهرة - مباشر: قررت شركة أبوقير للأسمدة والصناعات الكيماوية، المساهمة في شركة أبوطرطور لحامض الفوسفوريك بنسبة 10%، بعد الانتهاء من إجراءات الدمج مع شركة الوادي للصناعات الفوسفاتية والأسمدة.\nوقالت الشركة في افصاح اليوم الأحد، إنها وافقت على الاتفاق الإطاري المنظم للعلاقة بين المساهمين لتمويل المشروع من خلال عقد قرض مساهم بفائدة.\nومن المتوقع أن تبلغ تكلفة المشروع 643 مليون دولار، بطاقة إنتاجية 250 ألف طن/عام حامض فوسفوريك، على أن ينفذ خلال 3 سنوات.\nيشار أن أبوقير للأسمدة والصناعات الكيماوية،  حققت أرباحاً بلغت 7.77 مليار جنيه خلال الفترة من يوليو حتى مارس 2025، مقابل أرباح بلغت 12.05 مليار جنيه في الفترة المقارنة من العام المالي الماضي.\nوارتفعت إيرادات الشركة خلال الفترة إلى 16.89 مليار جنيه، مقابل 14.04 مليار جنيه في الفترة المقارنة من العام المالي الماضي.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nأبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر..\nاضغط هنا\nترشيحات\nجهاز حكومي مصري يستثمر 4 ملايين دولار في صندوق ديسربتيك\nجيزة سيستمز: النظر في الطرح ببورصة مصر لن يكون قبل 2027\nمسؤول يكشف أسباب رفع أسعار خدمات الإنترنت والاتصالات في مصر\nمصر.. نصائح مهمة من \"حماية المستهلك\" للمواطنين قبل شراء السلع\n\n=== HORIZONS (predict ALL OF THEM) ===\n  short   -> t+0 only (just the start day's return)    AR label: اليوم الأول (t+0): رد الفعل الفوري\n  medium  -> t+0 .. t+1  (2 trading days cumulative)   AR label: اليومان الأولان (t+0 إلى t+1): الاستجابة المبكرة\n  large   -> t+0 .. t+19  (20 trading days cumulative)  AR label: العشرون يوم تداول (t+0 إلى t+19): الأثر الممتد\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- 'up'\nmeans OUTPERFORMING the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== OUTPUT INSTRUCTIONS ===\n1. Classify news_type FIRST.\n2. Walk through T1-T5. Pick TA signals that ACTUALLY apply from the closed vocab.\n3. Anchor magnitudes to the PER-COMPANY bands above (NOT a global rule).\n4. Quantify any dilution/yield ratio with both inputs.\n5. If news_type=dividend, FILL dividend_info; otherwise set it to null.\n6. LANGUAGE: free-text Arabic. JSON keys + enum values in English.\n7. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"news_type\":         \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n  \"already_priced_in\": <true | false>,\n  \"quantified_ratio\":  \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n  \"key_drivers\":       [\"<driver 1 Arabic>\", \"<driver 2 Arabic>\"],\n  \"ta_signals_cited\":  [\"<signal from closed vocab>\", \"...\"],\n  \"dividend_info\": null | {\n    \"yield_pct\":      <float>,\n    \"ex_div_date\":    \"<YYYY-MM-DD or null if unknown>\",\n    \"amount_egp\":     <float or null>\n  },\n  \"per_horizon\": {\n    \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"},\n    \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"},\n    \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"}\n  },\n  \"overall_reasoning\": \"<3-4 Arabic sentences. Walk T1-T5 briefly. Reference the per-company magnitude bands explicitly. State the quantified ratio if applicable.>\"\n}",
+    "critic": "You are a senior quantitative risk analyst at an Egyptian investment bank. A junior LLM analyst has assessed a news event about ABUK (Abou Kir Fertilizers - ABUK). Your job:\n  (a) audit the junior's TA citations against the live data,\n  (b) check magnitudes against the PER-COMPANY bands (not global rules),\n  (c) produce the final authoritative prediction across short / medium / large,\n  (d) write a plain-Arabic explanation for a non-expert retail investor.\n\n=== COMPANY ===\nTicker      : ABUK\nName        : Abou Kir Fertilizers - ABUK\nSector      : Petroleum & Petrochemicals\nDescription : Abou Kir Fertilizers — Egypt's largest nitrogen fertilizer (urea/ammonium nitrate) producer near Alexandria; exports to Europe; earnings sensitive to natural gas feedstock price and EUR/USD.\nPrice data  : as of 2025-06-25  (article date: 2025-06-29)\n\n=== PRICE STATE ===\nLast close  : 48.89 EGP\nReturn 1d   : +2.09%   5d : +5.73%   20d : +0.80%   60d : -14.87%\nvs MA-50    : -3.84%  vs MA-200 : -11.21%\nTrend       : downtrend (below MA-50 and MA-200)\nVol 20d ann : 29.72%  [normal regime]  Normal -> impact PROPORTIONAL to catalyst.\n\n=== SECTOR ===\nSector 1d   : +1.92%  5d : +6.75%\nStock vs sector 1d : +0.17%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 0.67\nTop peers:\n  - MFPC | Petroleum & Petrochemicals | 90d-corr: 0.51\n  - ORWE | Textiles | 90d-corr: 0.47\n  - TMGH | Real Estate | 90d-corr: 0.47\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2025-06-19: stock -0.58%  sector -0.91%  AR +0.33%\n  2025-06-22: stock +1.89%  sector +1.38%  AR +0.51%\n  2025-06-23: stock -0.92%  sector +1.55%  AR -2.47%\n  2025-06-24: stock +3.19%  sector +3.05%  AR +0.14%\n  2025-06-25: stock +2.09%  sector +1.44%  AR +0.65%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 49.39  [neutral]\nMACD      : state=bullish  hist=+0.1661\nBollinger : zone=middle  %B=0.600\nDistance  : 20d_hi -3.68%  20d_lo +6.35%  60d_hi -14.35%  60d_lo +6.35%  52w_hi -25.11%  52w_lo +6.35%\nDivergence : none\nATR 14d   : 1.55%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : +2 (up streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=1.55%) ===\n  short   (N= 1d)  neutral=+-0.78%  small <1.08%  medium 1.08%-3.10%  large >=3.10%\n  medium  (N= 2d)  neutral=+-1.10%  small <1.53%  medium 1.53%-4.38%  large >=4.38%\n  large   (N=20d)  neutral=+-3.47%  small <4.85%  medium 4.85%-13.86%  large >=13.86%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-06-29 10:11:37\nIn trading hours: True  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : event_date (article day; news arrived during EGX hours)\nHorizons (days) : short=1d ; medium=2d ; large=20d\n\n=== ARABIC SENTIMENT ===\nLabel : neutral\nScore : +0.1423\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-06-29 10:11:37\nHeadline  : أبوقير للأسمدة تقرر المساهمة في شركة أبوطرطور لحامض الفوسفوريك\n\nالقاهرة - مباشر: قررت شركة أبوقير للأسمدة والصناعات الكيماوية، المساهمة في شركة أبوطرطور لحامض الفوسفوريك بنسبة 10%، بعد الانتهاء من إجراءات الدمج مع شركة الوادي للصناعات الفوسفاتية والأسمدة.\nوقالت الشركة في افصاح اليوم الأحد، إنها وافقت على الاتفاق الإطاري المنظم للعلاقة بين المساهمين لتمويل المشروع من خلال عقد قرض مساهم بفائدة.\nومن المتوقع أن تبلغ تكلفة المشروع 643 مليون دولار، بطاقة إنتاجية 250 ألف طن/عام حامض فوسفوريك، على أن ينفذ خلال 3 سنوات.\nيشار أن أبوقير للأسمدة والصناعات الكيماوية،  حققت أرباحاً بلغت 7.77 مليار جنيه خلال الفترة من يوليو حتى مارس 2025، مقابل أرباح بلغت 12.05 مليار جنيه في الفترة المقارنة من العام المالي الماضي.\nوارتفعت إيرادات الشركة خلال الفترة إلى 16.89 مليار جنيه، مقابل 14.04 مليار جنيه في الفترة المقارنة من العام المالي الماضي.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nأبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر..\nاضغط هنا\nترشيحات\nجهاز حكومي مصري يستثمر 4 ملايين دولار في صندوق ديسربتيك\nجيزة سيستمز: النظر في الطرح ببورصة مصر لن يكون قبل 2027\nمسؤول يكشف أسباب رفع أسعار خدمات الإنترنت والاتصالات في مصر\nمصر.. نصائح مهمة من \"حماية المستهلك\" للمواطنين قبل شراء السلع\n\n=== IMPACT AGENT OUTPUT (junior, Groq) ===\n{\n  \"news_type\": \"m_and_a\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"10% مساهمة في شركة أبوطرطور لحامض الفوسفوريك\",\n  \"key_drivers\": [\n    \"المساهمة في مشروع إنتاج حامض الفوسفوريك بطاقة 250 ألف طن/سنة\",\n    \"الدمج مع شركة الوادي للصناعات الفوسفاتية والأسمدة\"\n  ],\n  \"ta_signals_cited\": [\n    \"macd_bullish\",\n    \"strong_downtrend\",\n    \"normal_volatility\"\n  ],\n  \"dividend_info\": null,\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.65,\n      \"reasoning\": \"MACD بحالة بيعية تدعم التحرك الإيجابي، لكن السهم في ترند هابط يحد من المكاسب. نطاق الحركة الصغيرة يتراوح بين 0.78%.\"\n    },\n    \"medium\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.6,\n      \"reasoning\": \"الترند الهابط قد يقاوم لكن التكامل مع القطاع يدعم استمرار الأداء الأفضل من القطاع. النطاق المتوسط يتراوح بين 1.53%-4.38%.\"\n    },\n    \"large\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.55,\n      \"reasoning\": \"التغير الهيكلي قد يستغرق وقت للتأثير، مع حدة التذبذب الطبيعي (29.72%) تحد من الحركة الطويلة.\"\n    }\n  },\n  \"overall_reasoning\": \"السهم في ترند هابط لكن MACD بحالة بيعية يدعم رد فعل إيجابي فوري. المساهمة في مشروع فوسفاتي تُعد محفزًا متوسط الأثر. النطاقات المبنية على ATR=1.55% تشير إلى أن حركة 3% تُعتبر متوسطة. التكامل مع قطاع الأسمدة يعزز من استمرارية الأداء الأفضل من القطاع على المدى المتوسط.\"\n}\n\n=== HORIZONS (predict ALL OF THEM) ===\n  short   -> t+0 only (just the start day's return)    AR label: اليوم الأول (t+0): رد الفعل الفوري\n  medium  -> t+0 .. t+1  (2 trading days cumulative)   AR label: اليومان الأولان (t+0 إلى t+1): الاستجابة المبكرة\n  large   -> t+0 .. t+19  (20 trading days cumulative)  AR label: العشرون يوم تداول (t+0 إلى t+19): الأثر الممتد\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- 'up'\nmeans OUTPERFORMING the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== REVIEW CHECKLIST ===\nC1. NEWS_TYPE correct?\nC2. TA_SIGNALS: every cited signal must be supported by the data. Override\n    inconsistent cites silently in your final output.\nC3. MAGNITUDE vs PER-COMPANY BANDS: does the predicted bucket match the\n    horizon's per-company thresholds? Adjust if mis-scaled.\nC4. PRICED-IN: if stock_vs_sector_1d aligns with the news direction, short\n    magnitude should default to \"small\" (R4).\nC5. DIVERGENCE: if a divergence signal is present, did the junior account for it?\nC6. CONFIDENCE: lower when context contradicts the call or news is priced in.\n    Default conf_large <= conf_medium <= conf_short.\nC7. DIVIDEND_INFO: if news_type=dividend, ensure yield_pct is present. If the\n    article gives the ex-div date, extract it as YYYY-MM-DD; otherwise null.\nC8. LANGUAGE: strip any non-Arabic word from Arabic fields (R6).\n\n=== USER-FACING EXPLANATION (the most important deliverable) ===\nYou will produce TWO reasoning blocks tuned to two audiences:\n\n  news_story:       PLAIN ARABIC, ZERO JARGON. Just the news content and what\n                    it means in everyday language. A retail investor with no\n                    finance training must understand it. No RSI / MACD / ATR.\n\n  technical_view:   Includes TA signals AND explains each term in Arabic\n                    inline. Format example:\n                      \"مؤشر RSI (مقياس قوة الشراء والبيع) عند 72 وهو مرتفع...\"\n                      \"مؤشر MACD (تقاطع المتوسطات المتحركة) في حالة هبوطية...\"\n                      \"نطاقات بولينجر (مستوى التذبذب) تشير إلى تشبع...\"\n                      \"مؤشر ATR (متوسط الحركة اليومية المعتادة) لهذا السهم 1.5%...\"\n\n  sentiment_note:   ONE Arabic sentence that surfaces the CAMeLBERT sentiment\n                    result (label + score given above in 'ARABIC SENTIMENT')\n                    AND explicitly says whether it agrees with our prediction\n                    or contradicts it.\n\n  outlook_by_horizon: ONE Arabic sentence per horizon. Direction + size + a\n                    one-clause reason. Numbers stated in plain language.\n\n  what_could_change_our_view: 1-2 Arabic sentences on key uncertainties.\n\nU-rules:\n  U1. NUMBERS WITH MEANING. Every cited number gets a plain-Arabic interpretation.\n  U2. STATE THE PREDICTION FIRST in news_story (direction + timeline), THEN evidence.\n  U3. BREVITY. Each field is short -- prefer 2-3 sentences max per field.\n  U4. 100% Arabic in this entire block. The next agent (QA) will reject leaks.\n\n=== INSTRUCTIONS ===\n1. Override the junior wherever evidence demands; do not surface the override\n   to the user -- just produce the corrected final prediction.\n2. Confidence: adjust per horizon. Default conf_large <= conf_medium <= conf_short.\n3. SPELLING: \"RSI-14\" not \"RS-14\". Proper Arabic punctuation.\n4. LANGUAGE: free-text Arabic; JSON keys + tickers + enum values in English.\n5. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"primary_company\": {\n    \"ticker\":              \"ABUK\",\n    \"news_type\":           \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n    \"already_priced_in\":   <true | false>,\n    \"quantified_ratio\":    \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n    \"ta_signals_cited\":    [\"<signal from closed vocab>\", \"...\"],\n    \"dividend_info\": null | {\n      \"yield_pct\":   <float>,\n      \"ex_div_date\": \"<YYYY-MM-DD or null>\",\n      \"amount_egp\":  <float or null>\n    },\n    \"per_horizon\": {\n      \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"},\n      \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"},\n      \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"}\n    },\n    \"overall_reasoning\":   \"<2-3 Arabic sentences. Reference the per-company bands. State news_type. Concise.>\"\n  },\n  \"tldr\": \"<one Arabic sentence summarising the whole view: direction + dominant horizon>\",\n  \"explanation_for_user\": {\n    \"headline\":                   \"<one sentence in plain Arabic, no jargon, captures the news>\",\n    \"news_story\":                 \"<2-3 sentences PLAIN Arabic, zero technical jargon. What happened and why it matters to an everyday investor.>\",\n    \"technical_view\":             \"<2-3 sentences with TA signals, EACH technical term explained in Arabic inline as shown above (RSI / MACD / Bollinger / ATR / divergence).>\",\n    \"sentiment_note\":             \"<1 Arabic sentence: state the CAMeLBERT label and score, and whether it agrees with our prediction.>\",\n    \"outlook_by_horizon\": {\n      \"short\":  \"<one Arabic sentence: direction + size + reason for t+0>\",\n      \"medium\": \"<one Arabic sentence: direction + size + reason for t+0..t+1>\",\n      \"large\":  \"<one Arabic sentence: direction + size + reason for t+0..t+19>\"\n    },\n    \"what_could_change_our_view\": \"<1-2 Arabic sentences on key uncertainties>\"\n  }\n}"
+  },
+  "impact_agent": {
+    "output": {
+      "news_type": "m_and_a",
+      "already_priced_in": false,
+      "quantified_ratio": "10% مساهمة في شركة أبوطرطور لحامض الفوسفوريك",
+      "key_drivers": [
+        "المساهمة في مشروع إنتاج حامض الفوسفوريك بطاقة 250 ألف طن/سنة",
+        "الدمج مع شركة الوادي للصناعات الفوسفاتية والأسمدة"
+      ],
+      "ta_signals_cited": [
+        "macd_bullish",
+        "strong_downtrend",
+        "normal_volatility"
+      ],
+      "dividend_info": null,
+      "per_horizon": {
+        "short": {
+          "direction": "up",
+          "magnitude": "small",
+          "confidence": 0.65,
+          "reasoning": "MACD بحالة بيعية تدعم التحرك الإيجابي، لكن السهم في ترند هابط يحد من المكاسب. نطاق الحركة الصغيرة يتراوح بين 0.78%."
+        },
+        "medium": {
+          "direction": "up",
+          "magnitude": "medium",
+          "confidence": 0.6,
+          "reasoning": "الترند الهابط قد يقاوم لكن التكامل مع القطاع يدعم استمرار الأداء الأفضل من القطاع. النطاق المتوسط يتراوح بين 1.53%-4.38%."
+        },
+        "large": {
+          "direction": "neutral",
+          "magnitude": "medium",
+          "confidence": 0.55,
+          "reasoning": "التغير الهيكلي قد يستغرق وقت للتأثير، مع حدة التذبذب الطبيعي (29.72%) تحد من الحركة الطويلة."
+        }
+      },
+      "overall_reasoning": "السهم في ترند هابط لكن MACD بحالة بيعية يدعم رد فعل إيجابي فوري. المساهمة في مشروع فوسفاتي تُعد محفزًا متوسط الأثر. النطاقات المبنية على ATR=1.55% تشير إلى أن حركة 3% تُعتبر متوسطة. التكامل مع قطاع الأسمدة يعزز من استمرارية الأداء الأفضل من القطاع على المدى المتوسط."
+    },
+    "raw": "{  \"news_type\": \"m_and_a\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"10% مساهمة في شركة أبوطرطور لحامض الفوسفوريك\",\n  \"key_drivers\": [\n    \"المساهمة في مشروع إنتاج حامض الفوسفوريك بطاقة 250 ألف طن/سنة\",\n    \"الدمج مع شركة الوادي للصناعات الفوسفاتية والأسمدة\"\n  ],\n  \"ta_signals_cited\": [\n    \"macd_bullish\",\n    \"strong_downtrend\",\n    \"normal_volatility\"\n  ],\n  \"dividend_info\": null,\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.65,\n      \"reasoning\": \"MACD بحالة بيعية تدعم التحرك الإيجابي، لكن السهم في ترند هابط يحد من المكاسب. نطاق الحركة الصغيرة يتراوح بين 0.78%.\"\n    },\n    \"medium\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.6,\n      \"reasoning\": \"الترند الهابط قد يقاوم لكن التكامل مع القطاع يدعم استمرار الأداء الأفضل من القطاع. النطاق المتوسط يتراوح بين 1.53%-4.38%.\"\n    },\n    \"large\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.55,\n      \"reasoning\": \"التغير الهيكلي قد يستغرق وقت للتأثير، مع حدة التذبذب الطبيعي (29.72%) تحد من الحركة الطويلة.\"\n    }\n  },\n  \"overall_reasoning\": \"السهم في ترند هابط لكن MACD بحالة بيعية يدعم رد فعل إيجابي فوري. المساهمة في مشروع فوسفاتي تُعد محفزًا متوسط الأثر. النطاقات المبنية على ATR=1.55% تشير إلى أن حركة 3% تُعتبر متوسطة. التكامل مع قطاع الأسمدة يعزز من استمرارية الأداء الأفضل من القطاع على المدى المتوسط.\"\n}"
+  },
+  "critic_agent": {
+    "output": {
+      "primary_company": {
+        "ticker": "ABUK",
+        "news_type": "operational",
+        "already_priced_in": false,
+        "quantified_ratio": "مساهمة بنسبة 10% في شركة أبوطرطور لحامض الفوسفوريك (مشروع بتكلفة 643 مليون دولار)",
+        "ta_signals_cited": [
+          "macd_bullish",
+          "strong_downtrend",
+          "normal_volatility",
+          "rsi_neutral",
+          "bollinger_middle"
+        ],
+        "dividend_info": null,
+        "per_horizon": {
+          "short": {
+            "direction": "up",
+            "magnitude": "small",
+            "confidence": 0.65,
+            "reasoning": "مؤشر MACD bullish (hist=+0.1661) يدعم حركة إيجابية قصيرة الأجل، لكن ATR=1.55% ونطاقات الشركة تحدد small عند <1.08%. السهم في strong_downtrend يحد من زخم الصعود. المسافة من أعلى 20 يوم -3.68% تعني مساحة صعود محدودة."
+          },
+          "medium": {
+            "direction": "up",
+            "magnitude": "small",
+            "confidence": 0.6,
+            "reasoning": "قطاع الأسمدة صاعد (+6.75% في 5 أيام) يدعم الأداء الأفضل. أرباح الشركة انخفضت 35% رغم ارتفاع الإيرادات 20% - ضغط على الهوامش. النطاق medium للمُدى المتوسط يبدأ عند 1.53% لكن البيانات لا تدعم هذه الحدة. weak صعودي متوسط."
+          },
+          "large": {
+            "direction": "neutral",
+            "magnitude": "small",
+            "confidence": 0.55,
+            "reasoning": "مشروع أبوطرطور ينفذ خلال 3 سنوات - لا أثر على أرباح 2025. الأرباح الحالية متراجعة. الترند الهابط هيكلياً تحت MA-50 وMA-200 يسيطر على المدى الطويل. النطاق medium يبدأ عند 4.85% ولا مبرر له."
+          }
+        },
+        "overall_reasoning": "مساهمة أبوقير بنسبة 10% في مشروع فوسفوريك بتكلفة 643 مليون دولار diversifying من الأسمدة النيتروجينية. الخبر إيجابي استراتيجياً لكن الأثر موزع على 3 سنوات. MACD bullish يقابله strong_downtrend هيكلي. أرباح Q1-Q3 FY25 متراجعة 35% رغم نمو الإيرادات 20% مما يضغط على الثقة. التحرك المتوقع small للمدى القصير والمتوسط - ضمن نطاقات ATR=1.55%."
+      },
+      "tldr": "أبوقير تستثمر في مشروع فوسفاتي بعيد الأجل؛ MACD إيجابي لكن الترند الهابط يحد من رد الفعل الفوري",
+      "explanation_for_user": {
+        "headline": "أبوقير للأسمدة تستثمر في مشروع فوسفوريك جديد بتكلفة 643 مليون دولار لتنويع منتجاتها",
+        "news_story": "قررت شركة أبوقير للأسمدة المساهمة بنسبة 10% في شركة أبوطرطور لحمض الفوسفوريك بعد دمجها مع شركة الوادي للصناعات الفوسفاتية. المشروع يكلف 643 مليون دولار وينتج 250 ألف طن حمض فوسفوريك سنوياً ويُنفذ خلال 3 سنوات. هذا يعني أن أبوقير تتوسع من الأسمدة النيتروجينية (اليوريا) إلى منتجات فوسفاتية جديدة لتنويع محفظتها. لكن الربح الحالي انخفض إلى 7.77 مليار جنيه مقابل 12.05 مليار العام الماضي (-35%) رغم نمو الإيرادات 20%.",
+        "technical_view": "مؤشر MACD (تقاطع المتوسطات المتحركة) إيجابي بـ hist=+0.1661 مما يدعم حركة صاعدة. مؤشر RSI (مقياس التشبع الشرائي/البيعي) عند 49.39 محايد - لا تشبع. نطاقات بولينجر في المنطقة الوسطى (%B=0.60). ATR=1.55% يعني أن الحركة اليومية المعتادة لهذا السهم 1.55%. السهم تحت متوسطه 50 و200 يوم (-3.84% و-11.21%) مما يؤكد اتجاهاً هابطاً هيكلياً.",
+        "sentiment_note": "نتيجة CAMeLBERT: محايدة (+0.1423) - تتفق مع تصنيفنا المحايد على المدى المتوسط والطويل لكن تتناقض مع الاتجاه الصعودي القصير.",
+        "outlook_by_horizon": {
+          "short": "اليوم الأول: ارتفاع طفيف (+0.5% إلى 1%) مقارنة بالقطاع - MACD إيجابي يقابله اتجاه هابط.",
+          "medium": "اليومان الأولان: استقرار مع ميل صعودي طفيف (1% إلى 1.5%) - القطاع يدعم لكن أرباح ضعيفة تحد.",
+          "large": "العشرون يوماً: حركة محدودة (أقل من 4.85%) - المشروع بعيد المدى ولا يغير أرباح 2025."
+        },
+        "what_could_change_our_view": "ارتفاع أسعار الغاز الطبيعي عالمياً قد يُضعف هوامش أبوقير ويُفاقم الاتجاه الهابط. كذلك أي تأخير في تنفيذ مشروع أبوطرطور قد يقلل من الحماس الاستراتيجي."
+      }
+    },
+    "raw": "\n\n{\n  \"primary_company\": {\n    \"ticker\": \"ABUK\",\n    \"news_type\": \"operational\",\n    \"already_priced_in\": false,\n    \"quantified_ratio\": \"مساهمة بنسبة 10% في شركة أبوطرطور لحامض الفوسفوريك (مشروع بتكلفة 643 مليون دولار)\",\n    \"ta_signals_cited\": [\n      \"macd_bullish\",\n      \"strong_downtrend\",\n      \"normal_volatility\",\n      \"rsi_neutral\",\n      \"bollinger_middle\"\n    ],\n    \"dividend_info\": null,\n    \"per_horizon\": {\n      \"short\": {\n        \"direction\": \"up\",\n        \"magnitude\": \"small\",\n        \"confidence\": 0.65,\n        \"reasoning\": \"مؤشر MACD bullish (hist=+0.1661) يدعم حركة إيجابية قصيرة الأجل، لكن ATR=1.55% ونطاقات الشركة تحدد small عند <1.08%. السهم في strong_downtrend يحد من زخم الصعود. المسافة من أعلى 20 يوم -3.68% تعني مساحة صعود محدودة.\"\n      },\n      \"medium\": {\n        \"direction\": \"up\",\n        \"magnitude\": \"small\",\n        \"confidence\": 0.60,\n        \"reasoning\": \"قطاع الأسمدة صاعد (+6.75% في 5 أيام) يدعم الأداء الأفضل. أرباح الشركة انخفضت 35% رغم ارتفاع الإيرادات 20% - ضغط على الهوامش. النطاق medium للمُدى المتوسط يبدأ عند 1.53% لكن البيانات لا تدعم هذه الحدة. weak صعودي متوسط.\"\n      },\n      \"large\": {\n        \"direction\": \"neutral\",\n        \"magnitude\": \"small\",\n        \"confidence\": 0.55,\n        \"reasoning\": \"مشروع أبوطرطور ينفذ خلال 3 سنوات - لا أثر على أرباح 2025. الأرباح الحالية متراجعة. الترند الهابط هيكلياً تحت MA-50 وMA-200 يسيطر على المدى الطويل. النطاق medium يبدأ عند 4.85% ولا مبرر له.\"\n      }\n    },\n    \"overall_reasoning\": \"مساهمة أبوقير بنسبة 10% في مشروع فوسفوريك بتكلفة 643 مليون دولار diversifying من الأسمدة النيتروجينية. الخبر إيجابي استراتيجياً لكن الأثر موزع على 3 سنوات. MACD bullish يقابله strong_downtrend هيكلي. أرباح Q1-Q3 FY25 متراجعة 35% رغم نمو الإيرادات 20% مما يضغط على الثقة. التحرك المتوقع small للمدى القصير والمتوسط - ضمن نطاقات ATR=1.55%.\"\n  },\n  \"tldr\": \"أبوقير تستثمر في مشروع فوسفاتي بعيد الأجل؛ MACD إيجابي لكن الترند الهابط يحد من رد الفعل الفوري\",\n  \"explanation_for_user\": {\n    \"headline\": \"أبوقير للأسمدة تستثمر في مشروع فوسفوريك جديد بتكلفة 643 مليون دولار لتنويع منتجاتها\",\n    \"news_story\": \"قررت شركة أبوقير للأسمدة المساهمة بنسبة 10% في شركة أبوطرطور لحامض الفوسفوريك بعد دمجها مع شركة الوادي للصناعات الفوسفاتية. المشروع يكلف 643 مليون دولار وينتج 250 ألف طن حامض فوسفوريك سنوياً ويُنفذ خلال 3 سنوات. هذا يعني أن أبوقير تتوسع من الأسمدة النيتروجينية (اليوريا) إلى منتجات فوسفاتية جديدة diversify محفظتها. لكن الربح الحالي انخفض إلى 7.77 مليار جنيه مقابل 12.05 مليار العام الماضي (-35%) رغم نمو الإيرادات 20%.\",\n    \"technical_view\": \"مؤشر MACD (تقاطع المتوسطات المتحركة) إيجابي بـ hist=+0.1661 مما يدعم حركة صاعدة. مؤشر RSI (مقياس التشبع الشرائي/البيعي) عند 49.39 محايد - لا تشبع. Bollinger Bands في المنطقة الوسطى (%B=0.60). ATR=1.55% يعني أن الحركة اليومية المعتادة لهذا السهم 1.55%. السهم تحت متوسطه 50 و200 يوم (-3.84% و-11.21%) مما يؤكد ترند هابط هيكلي.\",\n    \"sentiment_note\": \"نتيجة CAMeLBERT: محايدة (+0.1423) - تتفق مع تصنيفنا المحايد على المدى المتوسط والطويل لكن تتناقض مع الاتجاه الصعودي القصير.\",\n    \"outlook_by_horizon\": {\n      \"short\": \"اليوم الأول: ارتفاع طفيف small (+0.5% إلى 1%) مقارنة بالقطاع - MACD إيجابي يقابله ترند هابط.\",\n      \"medium\": \"اليومان الأولان: استقرار مع ميل صعودي small (1% إلى 1.5%) - القطاع يدعم لكن أرباح ضعيفة تحد.\",\n      \"large\": \"العشرون يوماً: حركة محدودة neutral (أقل من 4.85%) - المشروع بعيد المدى ولا يغير أرباح 2025.\"\n    },\n    \"what_could_change_our_view\": \"ارتفاع أسعار الغاز الطبيعي عالمياً قد يُضعف هوامش أبوقير ويُفاقم الترند الهابط. كذلك أي تأخر في تنفيذ مشروع أبوطرطور قد يقلل من الحماس الاستراتيجي.\"\n  }\n}",
+    "thinking": "Let me analyze this carefully as a senior quantitative risk analyst.\n\n**News Analysis:**\nThe article is about ABUK (Abou Kir Fertilizers) deciding to contribute to a phosphoric acid company (Abu Turtur) with a 10% stake. This is an operational/strategic decision - a diversification move into phosphoric acid production.\n\nKey facts:\n- 10% contribution to Abu Turtur for Phosphoric Acid company\n- After merger completion with El Wadi for Phosphates and Fertilizers\n- Project cost: $643 million\n- Production capacity: 250,000 tons/year phosphoric acid\n- Implementation: 3 years\n- Recent earnings: 7.77B EGP profit (Jul-Mar 2025) vs 12.05B EGP last year (DOWN ~35%)\n- Revenue up: 16.89B vs 14.04B last year (UP ~20%)\n\n**News Type:** This is operational/strategic M&A - a minority stake investment.\n\n**TA Checklist:**\n\nT1. OVERBOUGHT/OVERSOLD:\n- RSI-14: 49.39 (NEUTRAL - neither overbought nor oversold)\n- Bollinger: zone=middle, %B=0.600 (neutral zone)\n- Distance to 20d_hi: -3.68% (near but not at high)\n- NOT overbought, NOT oversold - neutral setup\n\nT2. DIVERGENCE:\n- Divergence: none stated\n- No warning here\n\nT3. MOMENTUM CONFIRMATION:\n- MACD: state=bullish, hist=+0.1661\n- MACD is bullish - supports upward movement\n- BUT stock is in strong_downtrend (below MA-50 and MA-200)\n\nT4. ROOM TO RUN:\n- Distance to 20d_lo: +6.35% (has room on downside, not at low)\n\n\n- Distance to 52w_lo: +6.35% (also has room on downside)\n\nT5. PER-COMPANY MAGNITUDE BANDS:\n- ATR = 1.55%\n- Short: neutral=+-0.78%, small<1.08%, medium 1.08%-3.10%, large>=3.10%\n- Medium: neutral=+-1.10%, small<1.53%, medium 1.53%-4.38%, large>=4.38%\n- Large: neutral=+-3.47%, small<4.85%, medium 4.85%-13.86%, large>=13.86%\n\n**Key Observations:**\n\n1. **Downtrend vs MACD contradiction** - The stock trades below both 50 and 200-day moving averages while MACD shows bullish divergence, creating conflicting signals.\n\n2. **Earnings quality concern** - Revenue improved 20% year-over-year but profits dropped 35%, indicating margin compression, which is typical in fertilizer businesses when natural gas costs rise faster than selling prices.\n\n3. **Valuation setup** - RSI at 49.39 sits in neutral territory, providing room for movement in either direction, with Bollinger bands confirming the middle range position.\n\n4. **Project timeline** - The 10% stake in Abu Turtur represents a three-year initiative, making it irrelevant for short-term trading decisions.\n\n5. **Pricing assessment** - The 1-day stock performance (+2.09%) versus sector (+1.92%) shows only marginal outperformance of 0.17%, suggesting the news hasn't been fully priced in yet, though the move is small relative to typical daily ranges.\n\n6. **Technical positioning** - MACD's bullish divergence at hist=+0.1661 contrasts with the strong downtrend, creating opposing signals. RSI neutral at 49.39 allows room for either direction. The 6.35% distance to the 20-day low indicates some downside cushion exists.\n\nFor the short-term view, MACD's bullish momentum suggests upward potential, but the entrenched downtrend limits how far any rally can extend. The medium-term projection needs evaluation against the 2-day trading window.\n\nThe medium-term outlook shows similar dynamics—the bullish MACD offset by persistent downtrend pressure and recent earnings weakness. Revenue growth appears promising at 20%, though this hasn't translated to profit gains yet. For longer-term positioning, the three-year implementation timeline means near-term market reaction should remain muted despite the structural project benefits.\n\nRegarding the junior's analysis, there are some technical signal mismatches. The MACD call checks out given the +0.1661 histogram, but \"strong_downtrend\" warrants scrutiny—while the stock trades below both moving averages and sits 14.87% below the 60-day level, the recent 5-day performance shows +5.73%, suggesting the downtrend isn't uniformly severe across all timeframes. The volatility assessment seems reasonable given the 29.72% annualized figure.\n\nFor pricing, the 1-day sector outperformance of +0.17% falls within the neutral band, suggesting the news isn't fully reflected yet. The magnitude estimates need recalibration—the short-term projection of 0.78% sits between small and medium ranges, medium-term 1.10% aligns with the small band ceiling, and large-term 3.47% approaches the bottom of medium territory. These classifications appear understated given the actual volatility profile.\n\nThe core drivers are sound: MACD momentum supports the bullish bias, but the entrenched downtrend and recent earnings decline of roughly 35% constrain the upside potential. The sector's outperformance over five days adds confirmation to the upward bias.\n\nFor short-term positioning, the MACD bullishness combined with RSI neutral and near the 20-day high (down 3.68%) suggests modest gains. Medium-term, sector rotation momentum could push toward medium magnitude with confidence around 0.65. Long-term, the project fundamentals exist but lack near-term catalysts, so I'm leaning neutral-to-small with lower conviction given the downtrend pressure.\n\nI need to reconcile what \"per-company bands\" actually means for magnitude classification and how that differs from my current estimates. The three-year timeline means limited short-term catalyst impact. Recent earnings show a 35% profit decline despite 20% revenue growth, suggesting margin compression that's concerning. The 10% stake in Abu Turtur is a minority position, not a controlling acquisition, and while the project represents strategic diversification into phosphoric acid, it's too early to affect near-term valuations. I'm assigning a short-term rating of small magnitude with upward direction and medium confidence, reflecting the MACD bullish signal offset by the strong downtrend and weak RSI. Medium-term assessment mirrors this cautious view due to earnings pressure and the downtrend trajectory.\n\nFor the longer horizon, the announcement could provide mild support, but the structural issues dominating the stock mean any gains would likely be capped. The project's 3-year implementation timeline ensures no immediate earnings impact, so I'm settling on neutral with small magnitude and 0.55 confidence—slightly below my medium-term estimate given the 20-day window still allows for some recovery potential.\n\nThe news itself warrants closer examination. The 10% equity stake in Abu Turtur represents a minority position, not a controlling interest. The project details are substantial—$643 million in capital expenditure, 250,000 tons annually over three years—but this isn't a merger or acquisition in the traditional sense. It's a strategic investment that diversifies the product portfolio while integrating with the existing phosphate operations from the El Wadi merger. I'll classify this as \"operational\" rather than M&A, since the minority stake and announced investment don't fit the typical M&A profile.\n\nHowever, the operational implications are significant: this is a meaningful capital deployment with strategic positioning in a new product line. I'm leaning toward \"operational\" for the classification, though I should note that a 10% stake is substantial enough that it could warrant an \"M&A\" label depending on how strictly the categorization is defined.\n\nFor the quantified ratio, I'm calculating 10% contribution as specified. On the technical signals, the junior analyst mentioned \"strong_downtrend\" which checks out—the stock is below both its 50-day and 200-day moving averages, with the recent 60-day return at -14.87%. I should verify whether this downtrend signal is being appropriately weighted in the analysis.\n\nFor the momentum indicators, MACD bullish is confirmed with the positive histogram value, and the volatility reading of 29.72% annualized aligns with normal conditions. I'm keeping my signal citations focused on those explicitly supported by the data.\n\nNow I'm setting up the JSON structure with these validated signals and preparing to integrate them with the other analysis components.\n"
+  },
+  "arabic_qa": {
+    "enabled": true,
+    "model": "claude-sonnet-4-6",
+    "explanation_pre": {
+      "headline": "أبوقير للأسمدة تستثمر في مشروع فوسفوريك جديد بتكلفة 643 مليون دولار لتنويع منتجاتها",
+      "news_story": "قررت شركة أبوقير للأسمدة المساهمة بنسبة 10% في شركة أبوطرطور لحامض الفوسفوريك بعد دمجها مع شركة الوادي للصناعات الفوسفاتية. المشروع يكلف 643 مليون دولار وينتج 250 ألف طن حامض فوسفوريك سنوياً ويُنفذ خلال 3 سنوات. هذا يعني أن أبوقير تتوسع من الأسمدة النيتروجينية (اليوريا) إلى منتجات فوسفاتية جديدة diversify محفظتها. لكن الربح الحالي انخفض إلى 7.77 مليار جنيه مقابل 12.05 مليار العام الماضي (-35%) رغم نمو الإيرادات 20%.",
+      "technical_view": "مؤشر MACD (تقاطع المتوسطات المتحركة) إيجابي بـ hist=+0.1661 مما يدعم حركة صاعدة. مؤشر RSI (مقياس التشبع الشرائي/البيعي) عند 49.39 محايد - لا تشبع. Bollinger Bands في المنطقة الوسطى (%B=0.60). ATR=1.55% يعني أن الحركة اليومية المعتادة لهذا السهم 1.55%. السهم تحت متوسطه 50 و200 يوم (-3.84% و-11.21%) مما يؤكد ترند هابط هيكلي.",
+      "sentiment_note": "نتيجة CAMeLBERT: محايدة (+0.1423) - تتفق مع تصنيفنا المحايد على المدى المتوسط والطويل لكن تتناقض مع الاتجاه الصعودي القصير.",
+      "outlook_by_horizon": {
+        "short": "اليوم الأول: ارتفاع طفيف small (+0.5% إلى 1%) مقارنة بالقطاع - MACD إيجابي يقابله ترند هابط.",
+        "medium": "اليومان الأولان: استقرار مع ميل صعودي small (1% إلى 1.5%) - القطاع يدعم لكن أرباح ضعيفة تحد.",
+        "large": "العشرون يوماً: حركة محدودة neutral (أقل من 4.85%) - المشروع بعيد المدى ولا يغير أرباح 2025."
+      },
+      "what_could_change_our_view": "ارتفاع أسعار الغاز الطبيعي عالمياً قد يُضعف هوامش أبوقير ويُفاقم الترند الهابط. كذلك أي تأخر في تنفيذ مشروع أبوطرطور قد يقلل من الحماس الاستراتيجي."
+    },
+    "explanation_post": {
+      "headline": "أبوقير للأسمدة تستثمر في مشروع فوسفوريك جديد بتكلفة 643 مليون دولار لتنويع منتجاتها",
+      "news_story": "قررت شركة أبوقير للأسمدة المساهمة بنسبة 10% في شركة أبوطرطور لحمض الفوسفوريك بعد دمجها مع شركة الوادي للصناعات الفوسفاتية. المشروع يكلف 643 مليون دولار وينتج 250 ألف طن حمض فوسفوريك سنوياً ويُنفذ خلال 3 سنوات. هذا يعني أن أبوقير تتوسع من الأسمدة النيتروجينية (اليوريا) إلى منتجات فوسفاتية جديدة لتنويع محفظتها. لكن الربح الحالي انخفض إلى 7.77 مليار جنيه مقابل 12.05 مليار العام الماضي (-35%) رغم نمو الإيرادات 20%.",
+      "technical_view": "مؤشر MACD (تقاطع المتوسطات المتحركة) إيجابي بـ hist=+0.1661 مما يدعم حركة صاعدة. مؤشر RSI (مقياس التشبع الشرائي/البيعي) عند 49.39 محايد - لا تشبع. نطاقات بولينجر في المنطقة الوسطى (%B=0.60). ATR=1.55% يعني أن الحركة اليومية المعتادة لهذا السهم 1.55%. السهم تحت متوسطه 50 و200 يوم (-3.84% و-11.21%) مما يؤكد اتجاهاً هابطاً هيكلياً.",
+      "sentiment_note": "نتيجة CAMeLBERT: محايدة (+0.1423) - تتفق مع تصنيفنا المحايد على المدى المتوسط والطويل لكن تتناقض مع الاتجاه الصعودي القصير.",
+      "outlook_by_horizon": {
+        "short": "اليوم الأول: ارتفاع طفيف (+0.5% إلى 1%) مقارنة بالقطاع - MACD إيجابي يقابله اتجاه هابط.",
+        "medium": "اليومان الأولان: استقرار مع ميل صعودي طفيف (1% إلى 1.5%) - القطاع يدعم لكن أرباح ضعيفة تحد.",
+        "large": "العشرون يوماً: حركة محدودة (أقل من 4.85%) - المشروع بعيد المدى ولا يغير أرباح 2025."
+      },
+      "what_could_change_our_view": "ارتفاع أسعار الغاز الطبيعي عالمياً قد يُضعف هوامش أبوقير ويُفاقم الاتجاه الهابط. كذلك أي تأخير في تنفيذ مشروع أبوطرطور قد يقلل من الحماس الاستراتيجي."
+    }
+  },
+  "final": {
+    "ticker": "ABUK",
+    "news_type": "operational",
+    "already_priced_in": false,
+    "quantified_ratio": "مساهمة بنسبة 10% في شركة أبوطرطور لحامض الفوسفوريك (مشروع بتكلفة 643 مليون دولار)",
+    "ta_signals_cited": [
+      "macd_bullish",
+      "strong_downtrend",
+      "normal_volatility",
+      "rsi_neutral",
+      "bollinger_middle"
+    ],
+    "dividend_info": null,
+    "per_horizon": {
+      "short": {
+        "direction": "up",
+        "magnitude": "small",
+        "confidence": 0.65,
+        "reasoning": "مؤشر MACD bullish (hist=+0.1661) يدعم حركة إيجابية قصيرة الأجل، لكن ATR=1.55% ونطاقات الشركة تحدد small عند <1.08%. السهم في strong_downtrend يحد من زخم الصعود. المسافة من أعلى 20 يوم -3.68% تعني مساحة صعود محدودة."
+      },
+      "medium": {
+        "direction": "up",
+        "magnitude": "small",
+        "confidence": 0.6,
+        "reasoning": "قطاع الأسمدة صاعد (+6.75% في 5 أيام) يدعم الأداء الأفضل. أرباح الشركة انخفضت 35% رغم ارتفاع الإيرادات 20% - ضغط على الهوامش. النطاق medium للمُدى المتوسط يبدأ عند 1.53% لكن البيانات لا تدعم هذه الحدة. weak صعودي متوسط."
+      },
+      "large": {
+        "direction": "neutral",
+        "magnitude": "small",
+        "confidence": 0.55,
+        "reasoning": "مشروع أبوطرطور ينفذ خلال 3 سنوات - لا أثر على أرباح 2025. الأرباح الحالية متراجعة. الترند الهابط هيكلياً تحت MA-50 وMA-200 يسيطر على المدى الطويل. النطاق medium يبدأ عند 4.85% ولا مبرر له."
+      }
+    },
+    "overall_reasoning": "مساهمة أبوقير بنسبة 10% في مشروع فوسفوريك بتكلفة 643 مليون دولار diversifying من الأسمدة النيتروجينية. الخبر إيجابي استراتيجياً لكن الأثر موزع على 3 سنوات. MACD bullish يقابله strong_downtrend هيكلي. أرباح Q1-Q3 FY25 متراجعة 35% رغم نمو الإيرادات 20% مما يضغط على الثقة. التحرك المتوقع small للمدى القصير والمتوسط - ضمن نطاقات ATR=1.55%."
+  }
+}

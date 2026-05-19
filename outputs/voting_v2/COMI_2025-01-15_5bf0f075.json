@@ -1,0 +1,93 @@
+{
+  "trace_file": "COMI_2025-01-15_5bf0f075.json",
+  "ticker": "COMI",
+  "article_date": "2025-01-15",
+  "wall_clock_s": 14.96,
+  "aggregate": {
+    "consensus_action": "BUY",
+    "action_tally": {
+      "BUY": 4,
+      "HOLD": 1,
+      "SELL": 0
+    },
+    "entry_price_median": {
+      "low": 73.7,
+      "high": 74.5
+    },
+    "mean_confidence": 0.692,
+    "n_voters": 5,
+    "n_successful": 5
+  },
+  "votes": [
+    {
+      "voter": 2,
+      "ok": true,
+      "latency_s": 9.88,
+      "vote": {
+        "action": "BUY",
+        "entry_price_egp": {
+          "low": 73.7,
+          "high": 74.5
+        },
+        "confidence": 0.72,
+        "rationale": "السهم قرب دعمه القريب مع إشارة صعودية قصيرة المدى غير مُسعّرة بعد"
+      }
+    },
+    {
+      "voter": 5,
+      "ok": true,
+      "latency_s": 9.89,
+      "vote": {
+        "action": "BUY",
+        "entry_price_egp": {
+          "low": 73.5,
+          "high": 74.5
+        },
+        "confidence": 0.72,
+        "rationale": "السهم قريب من أدنى مستوى له خلال عشرين يوماً مع إشارة صاعدة قصيرة المدى لم تُسعَر بعد"
+      }
+    },
+    {
+      "voter": 1,
+      "ok": true,
+      "latency_s": 10.89,
+      "vote": {
+        "action": "HOLD",
+        "entry_price_egp": {
+          "low": 75.0,
+          "high": 75.0
+        },
+        "confidence": 0.58,
+        "rationale": "السعر قريب من الدعم الفني لكن التوقع متوسط المدى محايد ولا يوجد اتجاه واضح للاستثمار"
+      }
+    },
+    {
+      "voter": 4,
+      "ok": true,
+      "latency_s": 11.39,
+      "vote": {
+        "action": "BUY",
+        "entry_price_egp": {
+          "low": 73.7,
+          "high": 74.5
+        },
+        "confidence": 0.72,
+        "rationale": "معلومات إيجابية غير مُسعَّرة مع قرب السعر من دعم 20 يوم"
+      }
+    },
+    {
+      "voter": 3,
+      "ok": true,
+      "latency_s": 14.96,
+      "vote": {
+        "action": "BUY",
+        "entry_price_egp": {
+          "low": 74.0,
+          "high": 74.8
+        },
+        "confidence": 0.72,
+        "rationale": "السعر قريب من الدعم عند أدنى مستوى خلال ٢٠ يوماً مع إشارة صعود قصيرة المدى غير معلقة بالسعر"
+      }
+    }
+  ]
+}

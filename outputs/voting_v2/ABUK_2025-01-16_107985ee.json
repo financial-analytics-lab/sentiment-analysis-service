@@ -1,0 +1,93 @@
+{
+  "trace_file": "ABUK_2025-01-16_107985ee.json",
+  "ticker": "ABUK",
+  "article_date": "2025-01-16",
+  "wall_clock_s": 11.61,
+  "aggregate": {
+    "consensus_action": "HOLD",
+    "action_tally": {
+      "BUY": 0,
+      "HOLD": 4,
+      "SELL": 1
+    },
+    "entry_price_median": {
+      "low": 54.01,
+      "high": 54.01
+    },
+    "mean_confidence": 0.51,
+    "n_voters": 5,
+    "n_successful": 5
+  },
+  "votes": [
+    {
+      "voter": 5,
+      "ok": true,
+      "latency_s": 8.26,
+      "vote": {
+        "action": "SELL",
+        "entry_price_egp": {
+          "low": 54.5,
+          "high": 55.5
+        },
+        "confidence": 0.55,
+        "rationale": "السعر عند أعلى مستوى له خلال 20 يوماً مع توقعات محايدة مما يشير لضعف في الاتجاه الصاعد"
+      }
+    },
+    {
+      "voter": 3,
+      "ok": true,
+      "latency_s": 8.86,
+      "vote": {
+        "action": "HOLD",
+        "entry_price_egp": {
+          "low": 54.01,
+          "high": 54.01
+        },
+        "confidence": 0.5,
+        "rationale": "السعر عند أعلى مستوى له خلال 20 يومًا مع توقعات محايدة ضعيفة من المحلل، لذا لا يوجد سبب كافٍ للشراء أو البيع في الوقت الحالي."
+      }
+    },
+    {
+      "voter": 4,
+      "ok": true,
+      "latency_s": 10.63,
+      "vote": {
+        "action": "HOLD",
+        "entry_price_egp": {
+          "low": 54.01,
+          "high": 54.01
+        },
+        "confidence": 0.5,
+        "rationale": "السعر عند أعلى مستوى له خلال 20 يوم بدون محفزات قوية تدعم الحركة"
+      }
+    },
+    {
+      "voter": 1,
+      "ok": true,
+      "latency_s": 10.78,
+      "vote": {
+        "action": "HOLD",
+        "entry_price_egp": {
+          "low": 54.01,
+          "high": 54.01
+        },
+        "confidence": 0.5,
+        "rationale": "السعر عند أعلى مستوى خلال 20 يوماً مع توقعات محايدة لا تبرر الشراء"
+      }
+    },
+    {
+      "voter": 2,
+      "ok": true,
+      "latency_s": 11.61,
+      "vote": {
+        "action": "HOLD",
+        "entry_price_egp": {
+          "low": 54.01,
+          "high": 54.01
+        },
+        "confidence": 0.5,
+        "rationale": "السهم عند أعلى مستوى له خلال 20 يوماً مع إشارة محايدة تستدعي عدم التدخل"
+      }
+    }
+  ]
+}

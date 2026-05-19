@@ -1,0 +1,361 @@
+{
+  "ticker": "JUFO",
+  "article_date": "2025-06-25",
+  "context_date": "2025-06-24",
+  "processed_at": "2026-05-18T20:12:26.440693",
+  "article": {
+    "symbol": "JUFO",
+    "company": "Juhayna Food Industries",
+    "isin": "EGS30901C010",
+    "sector": "Food & Beverages",
+    "id": "4463831",
+    "date": "2025-06-25",
+    "time": "09:47:38",
+    "datetime": "2025-06-25 09:47:38",
+    "title": "أرباح \"جهينة\" تهبط 37.4% خلال الربع الأول من 2025",
+    "body": "القاهرة - مباشر: كشفت القوائم المالية المجمعة لشركة جهينة للصناعات الغذائية، عن الربع الأول من العام الجاري، تراجع أرباح الشركة بنسبة 37.4%، على أساس سنوي.\nوأوضحت الشركة في بيان لبورصة مصر، اليوم، أنها سجلت صافي ربح بلغ 299.67 مليون جنيه خلال الفترة من يناير حتى نهاية مارس 2025، مقابل أرباح بقيمة 478.74 مليون جنيه خلال نفس الفترة من 2024.\nوارتفعت مبيعات الشركة خلال الثلاثة أشهر الأولى من العام الجاري إلى 6.8 مليار جنيه، مقابل 5.43 مليار جنيه خلال نفس الفترة من العام الماضي.\nوعلى صعيد القوائم غير المجمعة، تحولت الشركة المستقلة إلى الأرباح خلال الربع الأول من العام الجاري لتحقق 204.98 مليون جنيه، مقابل خسائر بقيمة  1.21 مليون جنيه خلال نفس الفترة من 2024.\nيشار أن جهينة للصناعات الغذائية، حققت أرباحاً بلغت 2.73 مليار جنيه خلال 2024، مقابل أرباح بقيمة 1.02 مليار جنيه في 2023، مع الأخذ في الاعتبار حقوق الأقلية\n.\nوارتفعت مبيعات الشركة خلال العام الماضي إلى 24.3 مليار جنيه، مقابل مبيعات بلغت 15.53 مليار جنيه في العام السابق\n.\nوعلى مستوى الأعمال المستقلة، تحولت الشركة إلى الربحية خلال العام الماضي لتحقق 21.52 مليون جنيه، مقابل خسائر بقيمة 4.09 مليون جنيه خلال عام 2023\n.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nأبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية\n..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر\n..\nاضغط هنا\nترشيحات\nعمومية \"جهينة\" تقرر دمج 4 شركات صناعية وإضافة أنشطة جديدة وانتخاب مجلس الإدارة",
+    "teaser": "القاهرة - مباشر: كشفت القوائم المالية المجمعة لشركة جهينة للصناعات الغذائية، عن الربع الأول من العام الجاري، تراجع أرباح الشركة بنسبة 37.4%، على أساس سنوي. وأوضحت الشركة في بيان لبورصة مصر، اليوم، أنها سجلت صافي ربح بلغ 299.67 مليون جنيه خلال …",
+    "section": "نتائج أعمال الشركات",
+    "source": "مباشر",
+    "categories": "stock-bonds",
+    "country": "مصر",
+    "reads": 561,
+    "url": "https://www.mubasher.info/news/4463831",
+    "image_url": "https://static.mubasher.info/File.Story_Image/ebfeed222dd076d6b2137f629b551bdd/640.jpg",
+    "date_raw": ""
+  },
+  "sentiment": {
+    "model": "CAMeL-Lab/bert-base-arabic-camelbert-mix-sentiment",
+    "label": "neutral",
+    "score": 0.1187,
+    "numeric": 0,
+    "class_probs": {
+      "neutral": 0.8603,
+      "positive": 0.1292,
+      "negative": 0.0105
+    }
+  },
+  "context": {
+    "ticker": "JUFO",
+    "company": "Juhayna Food Industries - JUFO",
+    "sector": "Food & Beverages",
+    "business_description": "Juhayna Food Industries — Egypt's leading dairy, juice, and cooking oil producer; wide nationwide retail distribution; defensive consumer staples.",
+    "event_date": "2025-06-25",
+    "last_price_date": "2025-06-24",
+    "price_state": {
+      "last_close": 27.27,
+      "return_1d": 3.1,
+      "return_5d": 6.52,
+      "return_20d": 0.55,
+      "return_60d": -19.84,
+      "pct_vs_ma50": -4.82,
+      "pct_vs_ma200": -12.09,
+      "vol_20d_annualized_pct": 35.42,
+      "vol_regime": "normal",
+      "rsi_14": 50.48
+    },
+    "market_state": {
+      "sector_return_1d": 3.1,
+      "sector_return_5d": 6.52,
+      "relative_strength_vs_sector_1d": 0.0
+    },
+    "correlation_state": {
+      "corr_with_sector_90d": 1.0,
+      "top_3_correlated_peers": [
+        {
+          "ticker": "MFPC",
+          "correlation": 0.41,
+          "sector": "Petroleum & Petrochemicals"
+        },
+        {
+          "ticker": "AMOC",
+          "correlation": 0.41,
+          "sector": "Petroleum & Petrochemicals"
+        },
+        {
+          "ticker": "SKPC",
+          "correlation": 0.39,
+          "sector": "Petroleum & Petrochemicals"
+        }
+      ]
+    },
+    "recent_abnormal_returns": [
+      {
+        "date": "2025-06-18",
+        "stock_return_pct": -0.31,
+        "sector_return_pct": -0.31,
+        "abnormal_return_pct": 0.0
+      },
+      {
+        "date": "2025-06-19",
+        "stock_return_pct": -1.65,
+        "sector_return_pct": -1.65,
+        "abnormal_return_pct": 0.0
+      },
+      {
+        "date": "2025-06-22",
+        "stock_return_pct": 0.6,
+        "sector_return_pct": 0.6,
+        "abnormal_return_pct": 0.0
+      },
+      {
+        "date": "2025-06-23",
+        "stock_return_pct": 4.75,
+        "sector_return_pct": 4.75,
+        "abnormal_return_pct": 0.0
+      },
+      {
+        "date": "2025-06-24",
+        "stock_return_pct": 3.1,
+        "sector_return_pct": 3.1,
+        "abnormal_return_pct": 0.0
+      }
+    ],
+    "technical_signals": {
+      "rsi_14": 50.48,
+      "rsi_zone": "neutral",
+      "macd": {
+        "line": -0.7289,
+        "signal": -0.8466,
+        "histogram": 0.1177,
+        "state": "bullish"
+      },
+      "bollinger": {
+        "pct_b": 0.629,
+        "bandwidth_pct": 13.64,
+        "zone": "middle"
+      },
+      "distance_to_extremes": {
+        "20d_high_distance_pct": -2.29,
+        "20d_low_distance_pct": 8.65,
+        "60d_high_distance_pct": -18.35,
+        "60d_low_distance_pct": 8.65,
+        "252d_high_distance_pct": -29.17,
+        "252d_low_distance_pct": 68.33
+      },
+      "rsi_divergence": "none",
+      "atr_pct_14d": 1.9,
+      "consecutive_streak": 3
+    },
+    "dynamic_bands": {
+      "horizon_trading_days": {
+        "short": 1,
+        "medium": 2,
+        "large": 20
+      },
+      "neutral_band_pct": {
+        "short": 0.95,
+        "medium": 1.34,
+        "large": 4.25
+      },
+      "magnitude_bands_pct": {
+        "short": {
+          "small": [
+            0.0,
+            1.33
+          ],
+          "medium": [
+            1.33,
+            3.8
+          ],
+          "large": [
+            3.8,
+            null
+          ]
+        },
+        "medium": {
+          "small": [
+            0.0,
+            1.88
+          ],
+          "medium": [
+            1.88,
+            5.37
+          ],
+          "large": [
+            5.37,
+            null
+          ]
+        },
+        "large": {
+          "small": [
+            0.0,
+            5.95
+          ],
+          "medium": [
+            5.95,
+            16.99
+          ],
+          "large": [
+            16.99,
+            null
+          ]
+        }
+      },
+      "atr_pct_anchor": 1.9
+    },
+    "news_timing": {
+      "in_trading_hours": false,
+      "arrived_at_str": "2025-06-25 09:47:38",
+      "start_day_label": "next trading day after event_date (news arrived outside EGX hours)"
+    }
+  },
+  "prompts": {
+    "impact": "You are a quantitative analyst predicting Egyptian Stock Exchange (EGX) stock reactions to Arabic news. Your prediction must be grounded in the technical signals provided and calibrated to this specific ticker's volatility.\n\n=== COMPANY ===\nTicker      : JUFO\nName        : Juhayna Food Industries - JUFO\nSector      : Food & Beverages\nDescription : Juhayna Food Industries — Egypt's leading dairy, juice, and cooking oil producer; wide nationwide retail distribution; defensive consumer staples.\nPrice data  : as of 2025-06-24  (article date: 2025-06-25)\n\n=== PRICE STATE ===\nLast close  : 27.27 EGP\nReturn 1d   : +3.10%   5d : +6.52%   20d : +0.55%   60d : -19.84%\nvs MA-50    : -4.82%  vs MA-200 : -12.09%\nTrend       : downtrend (below MA-50 and MA-200)\nVol 20d ann : 35.42%  [normal regime]  Normal -> impact PROPORTIONAL to catalyst.\n\n=== SECTOR ===\nSector 1d   : +3.10%  5d : +6.52%\nStock vs sector 1d : +0.00%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 1.00\nTop peers:\n  - MFPC | Petroleum & Petrochemicals | 90d-corr: 0.41\n  - AMOC | Petroleum & Petrochemicals | 90d-corr: 0.41\n  - SKPC | Petroleum & Petrochemicals | 90d-corr: 0.39\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2025-06-18: stock -0.31%  sector -0.31%  AR +0.00%\n  2025-06-19: stock -1.65%  sector -1.65%  AR +0.00%\n  2025-06-22: stock +0.60%  sector +0.60%  AR +0.00%\n  2025-06-23: stock +4.75%  sector +4.75%  AR +0.00%\n  2025-06-24: stock +3.10%  sector +3.10%  AR +0.00%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 50.48  [neutral]\nMACD      : state=bullish  hist=+0.1177\nBollinger : zone=middle  %B=0.629\nDistance  : 20d_hi -2.29%  20d_lo +8.65%  60d_hi -18.35%  60d_lo +8.65%  52w_hi -29.17%  52w_lo +68.33%\nDivergence : none\nATR 14d   : 1.90%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : +3 (up streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=1.90%) ===\n  short   (N= 1d)  neutral=+-0.95%  small <1.33%  medium 1.33%-3.80%  large >=3.80%\n  medium  (N= 2d)  neutral=+-1.34%  small <1.88%  medium 1.88%-5.37%  large >=5.37%\n  large   (N=20d)  neutral=+-4.25%  small <5.95%  medium 5.95%-16.99%  large >=16.99%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-06-25 09:47:38\nIn trading hours: False  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : next trading day after event_date (news arrived outside EGX hours)\nHorizons (days) : short=1d ; medium=2d ; large=20d\n\n=== ARABIC SENTIMENT (one input among many) ===\nLabel : neutral\nScore : +0.1187   (-1 strongly negative -> +1 strongly positive)\nNOTE: CAMeLBERT classifies tone, not financial implication.\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-06-25 09:47:38\nHeadline  : أرباح \"جهينة\" تهبط 37.4% خلال الربع الأول من 2025\n\nالقاهرة - مباشر: كشفت القوائم المالية المجمعة لشركة جهينة للصناعات الغذائية، عن الربع الأول من العام الجاري، تراجع أرباح الشركة بنسبة 37.4%، على أساس سنوي.\nوأوضحت الشركة في بيان لبورصة مصر، اليوم، أنها سجلت صافي ربح بلغ 299.67 مليون جنيه خلال الفترة من يناير حتى نهاية مارس 2025، مقابل أرباح بقيمة 478.74 مليون جنيه خلال نفس الفترة من 2024.\nوارتفعت مبيعات الشركة خلال الثلاثة أشهر الأولى من العام الجاري إلى 6.8 مليار جنيه، مقابل 5.43 مليار جنيه خلال نفس الفترة من العام الماضي.\nوعلى صعيد القوائم غير المجمعة، تحولت الشركة المستقلة إلى الأرباح خلال الربع الأول من العام الجاري لتحقق 204.98 مليون جنيه، مقابل خسائر بقيمة  1.21 مليون جنيه خلال نفس الفترة من 2024.\nيشار أن جهينة للصناعات الغذائية، حققت أرباحاً بلغت 2.73 مليار جنيه خلال 2024، مقابل أرباح بقيمة 1.02 مليار جنيه في 2023، مع الأخذ في الاعتبار حقوق الأقلية\n.\nوارتفعت مبيعات الشركة خلال العام الماضي إلى 24.3 مليار جنيه، مقابل مبيعات بلغت 15.53 مليار جنيه في العام السابق\n.\nوعلى مستوى الأعمال المستقلة، تحولت الشركة إلى الربحية خلال العام الماضي لتحقق 21.52 مليون جنيه، مقابل خسائر بقيمة 4.09 مليون جنيه خلال عام 2023\n.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nأبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية\n..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر\n..\nاضغط هنا\nترشيحات\nعمومية \"جهينة\" تقرر دمج 4 شركات صناعية وإضافة أنشطة جديدة وانتخاب مجلس الإدارة\n\n=== HORIZONS (predict ALL OF THEM) ===\n  short   -> t+0 only (just the start day's return)    AR label: اليوم الأول (t+0): رد الفعل الفوري\n  medium  -> t+0 .. t+1  (2 trading days cumulative)   AR label: اليومان الأولان (t+0 إلى t+1): الاستجابة المبكرة\n  large   -> t+0 .. t+19  (20 trading days cumulative)  AR label: العشرون يوم تداول (t+0 إلى t+19): الأثر الممتد\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- 'up'\nmeans OUTPERFORMING the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== OUTPUT INSTRUCTIONS ===\n1. Classify news_type FIRST.\n2. Walk through T1-T5. Pick TA signals that ACTUALLY apply from the closed vocab.\n3. Anchor magnitudes to the PER-COMPANY bands above (NOT a global rule).\n4. Quantify any dilution/yield ratio with both inputs.\n5. If news_type=dividend, FILL dividend_info; otherwise set it to null.\n6. LANGUAGE: free-text Arabic. JSON keys + enum values in English.\n7. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"news_type\":         \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n  \"already_priced_in\": <true | false>,\n  \"quantified_ratio\":  \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n  \"key_drivers\":       [\"<driver 1 Arabic>\", \"<driver 2 Arabic>\"],\n  \"ta_signals_cited\":  [\"<signal from closed vocab>\", \"...\"],\n  \"dividend_info\": null | {\n    \"yield_pct\":      <float>,\n    \"ex_div_date\":    \"<YYYY-MM-DD or null if unknown>\",\n    \"amount_egp\":     <float or null>\n  },\n  \"per_horizon\": {\n    \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"},\n    \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"},\n    \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"}\n  },\n  \"overall_reasoning\": \"<3-4 Arabic sentences. Walk T1-T5 briefly. Reference the per-company magnitude bands explicitly. State the quantified ratio if applicable.>\"\n}",
+    "critic": "You are a senior quantitative risk analyst at an Egyptian investment bank. A junior LLM analyst has assessed a news event about JUFO (Juhayna Food Industries - JUFO). Your job:\n  (a) audit the junior's TA citations against the live data,\n  (b) check magnitudes against the PER-COMPANY bands (not global rules),\n  (c) produce the final authoritative prediction across short / medium / large,\n  (d) write a plain-Arabic explanation for a non-expert retail investor.\n\n=== COMPANY ===\nTicker      : JUFO\nName        : Juhayna Food Industries - JUFO\nSector      : Food & Beverages\nDescription : Juhayna Food Industries — Egypt's leading dairy, juice, and cooking oil producer; wide nationwide retail distribution; defensive consumer staples.\nPrice data  : as of 2025-06-24  (article date: 2025-06-25)\n\n=== PRICE STATE ===\nLast close  : 27.27 EGP\nReturn 1d   : +3.10%   5d : +6.52%   20d : +0.55%   60d : -19.84%\nvs MA-50    : -4.82%  vs MA-200 : -12.09%\nTrend       : downtrend (below MA-50 and MA-200)\nVol 20d ann : 35.42%  [normal regime]  Normal -> impact PROPORTIONAL to catalyst.\n\n=== SECTOR ===\nSector 1d   : +3.10%  5d : +6.52%\nStock vs sector 1d : +0.00%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 1.00\nTop peers:\n  - MFPC | Petroleum & Petrochemicals | 90d-corr: 0.41\n  - AMOC | Petroleum & Petrochemicals | 90d-corr: 0.41\n  - SKPC | Petroleum & Petrochemicals | 90d-corr: 0.39\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2025-06-18: stock -0.31%  sector -0.31%  AR +0.00%\n  2025-06-19: stock -1.65%  sector -1.65%  AR +0.00%\n  2025-06-22: stock +0.60%  sector +0.60%  AR +0.00%\n  2025-06-23: stock +4.75%  sector +4.75%  AR +0.00%\n  2025-06-24: stock +3.10%  sector +3.10%  AR +0.00%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 50.48  [neutral]\nMACD      : state=bullish  hist=+0.1177\nBollinger : zone=middle  %B=0.629\nDistance  : 20d_hi -2.29%  20d_lo +8.65%  60d_hi -18.35%  60d_lo +8.65%  52w_hi -29.17%  52w_lo +68.33%\nDivergence : none\nATR 14d   : 1.90%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : +3 (up streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=1.90%) ===\n  short   (N= 1d)  neutral=+-0.95%  small <1.33%  medium 1.33%-3.80%  large >=3.80%\n  medium  (N= 2d)  neutral=+-1.34%  small <1.88%  medium 1.88%-5.37%  large >=5.37%\n  large   (N=20d)  neutral=+-4.25%  small <5.95%  medium 5.95%-16.99%  large >=16.99%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-06-25 09:47:38\nIn trading hours: False  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : next trading day after event_date (news arrived outside EGX hours)\nHorizons (days) : short=1d ; medium=2d ; large=20d\n\n=== ARABIC SENTIMENT ===\nLabel : neutral\nScore : +0.1187\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-06-25 09:47:38\nHeadline  : أرباح \"جهينة\" تهبط 37.4% خلال الربع الأول من 2025\n\nالقاهرة - مباشر: كشفت القوائم المالية المجمعة لشركة جهينة للصناعات الغذائية، عن الربع الأول من العام الجاري، تراجع أرباح الشركة بنسبة 37.4%، على أساس سنوي.\nوأوضحت الشركة في بيان لبورصة مصر، اليوم، أنها سجلت صافي ربح بلغ 299.67 مليون جنيه خلال الفترة من يناير حتى نهاية مارس 2025، مقابل أرباح بقيمة 478.74 مليون جنيه خلال نفس الفترة من 2024.\nوارتفعت مبيعات الشركة خلال الثلاثة أشهر الأولى من العام الجاري إلى 6.8 مليار جنيه، مقابل 5.43 مليار جنيه خلال نفس الفترة من العام الماضي.\nوعلى صعيد القوائم غير المجمعة، تحولت الشركة المستقلة إلى الأرباح خلال الربع الأول من العام الجاري لتحقق 204.98 مليون جنيه، مقابل خسائر بقيمة  1.21 مليون جنيه خلال نفس الفترة من 2024.\nيشار أن جهينة للصناعات الغذائية، حققت أرباحاً بلغت 2.73 مليار جنيه خلال 2024، مقابل أرباح بقيمة 1.02 مليار جنيه في 2023، مع الأخذ في الاعتبار حقوق الأقلية\n.\nوارتفعت مبيعات الشركة خلال العام الماضي إلى 24.3 مليار جنيه، مقابل مبيعات بلغت 15.53 مليار جنيه في العام السابق\n.\nوعلى مستوى الأعمال المستقلة، تحولت الشركة إلى الربحية خلال العام الماضي لتحقق 21.52 مليون جنيه، مقابل خسائر بقيمة 4.09 مليون جنيه خلال عام 2023\n.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nأبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية\n..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر\n..\nاضغط هنا\nترشيحات\nعمومية \"جهينة\" تقرر دمج 4 شركات صناعية وإضافة أنشطة جديدة وانتخاب مجلس الإدارة\n\n=== IMPACT AGENT OUTPUT (junior, Groq) ===\n{\n  \"news_type\": \"earnings\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"تراجعت أرباح جهينة بنسبة 37.4% خلال الربع الأول 2025 مقارنة بنفس الفترة من 2024 (299.67 مليون جنيه مقابل 478.74 مليون جنيه)\",\n  \"key_drivers\": [\n    \"انخفاض الأرباح الصافية بنسبة 37.4% في الربع الأول 2025\",\n    \"ارتفاع المبيعات إلى 6.8 مليار جنيه مقابل 5.43 مليار جنيه في نفس الفترة\"\n  ],\n  \"ta_signals_cited\": [\n    \"strong_downtrend\",\n    \"macd_bullish\",\n    \"normal_volatility\"\n  ],\n  \"dividend_info\": null,\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"down\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.6,\n      \"reasoning\": \"الانحدار في الأرباح يتعارض مع مؤشر MACD البullish، لكن ترند السعر القوي نحو الأسفل يدعم توقع رد فعل سلبي محدود ضمن نطاق 1.90% ATR.\"\n    },\n    \"medium\": {\n      \"direction\": \"down\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.5,\n      \"reasoning\": \"الانحدار في الأرباح قد يمتد تأثيره على مدى يومين، لكن ترند السعر القوي نحو الأسفل وانعدام التباعد يحد من الحركة خارج نطاق 3.80% (متوسط حركة 2 أيام).\"\n    },\n    \"large\": {\n      \"direction\": \"down\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.4,\n      \"reasoning\": \"الانحدار في الأرباح يعزز من ترند السعر الهابط القائم منذ 60 يومًا (-19.84%)، مع احتمال تجاوز 16.99% من نطاق الحركة الطويلة المدى.\"\n    }\n  },\n  \"overall_reasoning\": \"تراجعت أرباح جهينة بنسبة 37.4% في الربع الأول، مما يشكل إشارة سلبية. مؤشر MACD يشير إلى زخم ب ullish متعارض مع اتجاه السعر الهابط القوي. مع أن التقلبات طبيعية (ATR=1.90%)، فإن ترند السعر القوي نحو الأسفل يحد من الحركة القصوى. النطاقات المخصصة للحركة تشير إلى أن انحدار 3.80% (كبير) في المدى القصير هو الحد الأقصى المعقول، بينما يعزز الترند الهابط القائم من احتمال انحدار متوسط في المدى الطويل.\"\n}\n\n=== HORIZONS (predict ALL OF THEM) ===\n  short   -> t+0 only (just the start day's return)    AR label: اليوم الأول (t+0): رد الفعل الفوري\n  medium  -> t+0 .. t+1  (2 trading days cumulative)   AR label: اليومان الأولان (t+0 إلى t+1): الاستجابة المبكرة\n  large   -> t+0 .. t+19  (20 trading days cumulative)  AR label: العشرون يوم تداول (t+0 إلى t+19): الأثر الممتد\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- 'up'\nmeans OUTPERFORMING the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== REVIEW CHECKLIST ===\nC1. NEWS_TYPE correct?\nC2. TA_SIGNALS: every cited signal must be supported by the data. Override\n    inconsistent cites silently in your final output.\nC3. MAGNITUDE vs PER-COMPANY BANDS: does the predicted bucket match the\n    horizon's per-company thresholds? Adjust if mis-scaled.\nC4. PRICED-IN: if stock_vs_sector_1d aligns with the news direction, short\n    magnitude should default to \"small\" (R4).\nC5. DIVERGENCE: if a divergence signal is present, did the junior account for it?\nC6. CONFIDENCE: lower when context contradicts the call or news is priced in.\n    Default conf_large <= conf_medium <= conf_short.\nC7. DIVIDEND_INFO: if news_type=dividend, ensure yield_pct is present. If the\n    article gives the ex-div date, extract it as YYYY-MM-DD; otherwise null.\nC8. LANGUAGE: strip any non-Arabic word from Arabic fields (R6).\n\n=== USER-FACING EXPLANATION (the most important deliverable) ===\nYou will produce TWO reasoning blocks tuned to two audiences:\n\n  news_story:       PLAIN ARABIC, ZERO JARGON. Just the news content and what\n                    it means in everyday language. A retail investor with no\n                    finance training must understand it. No RSI / MACD / ATR.\n\n  technical_view:   Includes TA signals AND explains each term in Arabic\n                    inline. Format example:\n                      \"مؤشر RSI (مقياس قوة الشراء والبيع) عند 72 وهو مرتفع...\"\n                      \"مؤشر MACD (تقاطع المتوسطات المتحركة) في حالة هبوطية...\"\n                      \"نطاقات بولينجر (مستوى التذبذب) تشير إلى تشبع...\"\n                      \"مؤشر ATR (متوسط الحركة اليومية المعتادة) لهذا السهم 1.5%...\"\n\n  sentiment_note:   ONE Arabic sentence that surfaces the CAMeLBERT sentiment\n                    result (label + score given above in 'ARABIC SENTIMENT')\n                    AND explicitly says whether it agrees with our prediction\n                    or contradicts it.\n\n  outlook_by_horizon: ONE Arabic sentence per horizon. Direction + size + a\n                    one-clause reason. Numbers stated in plain language.\n\n  what_could_change_our_view: 1-2 Arabic sentences on key uncertainties.\n\nU-rules:\n  U1. NUMBERS WITH MEANING. Every cited number gets a plain-Arabic interpretation.\n  U2. STATE THE PREDICTION FIRST in news_story (direction + timeline), THEN evidence.\n  U3. BREVITY. Each field is short -- prefer 2-3 sentences max per field.\n  U4. 100% Arabic in this entire block. The next agent (QA) will reject leaks.\n\n=== INSTRUCTIONS ===\n1. Override the junior wherever evidence demands; do not surface the override\n   to the user -- just produce the corrected final prediction.\n2. Confidence: adjust per horizon. Default conf_large <= conf_medium <= conf_short.\n3. SPELLING: \"RSI-14\" not \"RS-14\". Proper Arabic punctuation.\n4. LANGUAGE: free-text Arabic; JSON keys + tickers + enum values in English.\n5. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"primary_company\": {\n    \"ticker\":              \"JUFO\",\n    \"news_type\":           \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n    \"already_priced_in\":   <true | false>,\n    \"quantified_ratio\":    \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n    \"ta_signals_cited\":    [\"<signal from closed vocab>\", \"...\"],\n    \"dividend_info\": null | {\n      \"yield_pct\":   <float>,\n      \"ex_div_date\": \"<YYYY-MM-DD or null>\",\n      \"amount_egp\":  <float or null>\n    },\n    \"per_horizon\": {\n      \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"},\n      \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"},\n      \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"}\n    },\n    \"overall_reasoning\":   \"<2-3 Arabic sentences. Reference the per-company bands. State news_type. Concise.>\"\n  },\n  \"tldr\": \"<one Arabic sentence summarising the whole view: direction + dominant horizon>\",\n  \"explanation_for_user\": {\n    \"headline\":                   \"<one sentence in plain Arabic, no jargon, captures the news>\",\n    \"news_story\":                 \"<2-3 sentences PLAIN Arabic, zero technical jargon. What happened and why it matters to an everyday investor.>\",\n    \"technical_view\":             \"<2-3 sentences with TA signals, EACH technical term explained in Arabic inline as shown above (RSI / MACD / Bollinger / ATR / divergence).>\",\n    \"sentiment_note\":             \"<1 Arabic sentence: state the CAMeLBERT label and score, and whether it agrees with our prediction.>\",\n    \"outlook_by_horizon\": {\n      \"short\":  \"<one Arabic sentence: direction + size + reason for t+0>\",\n      \"medium\": \"<one Arabic sentence: direction + size + reason for t+0..t+1>\",\n      \"large\":  \"<one Arabic sentence: direction + size + reason for t+0..t+19>\"\n    },\n    \"what_could_change_our_view\": \"<1-2 Arabic sentences on key uncertainties>\"\n  }\n}"
+  },
+  "impact_agent": {
+    "output": {
+      "news_type": "earnings",
+      "already_priced_in": false,
+      "quantified_ratio": "تراجعت أرباح جهينة بنسبة 37.4% خلال الربع الأول 2025 مقارنة بنفس الفترة من 2024 (299.67 مليون جنيه مقابل 478.74 مليون جنيه)",
+      "key_drivers": [
+        "انخفاض الأرباح الصافية بنسبة 37.4% في الربع الأول 2025",
+        "ارتفاع المبيعات إلى 6.8 مليار جنيه مقابل 5.43 مليار جنيه في نفس الفترة"
+      ],
+      "ta_signals_cited": [
+        "strong_downtrend",
+        "macd_bullish",
+        "normal_volatility"
+      ],
+      "dividend_info": null,
+      "per_horizon": {
+        "short": {
+          "direction": "down",
+          "magnitude": "small",
+          "confidence": 0.6,
+          "reasoning": "الانحدار في الأرباح يتعارض مع مؤشر MACD البullish، لكن ترند السعر القوي نحو الأسفل يدعم توقع رد فعل سلبي محدود ضمن نطاق 1.90% ATR."
+        },
+        "medium": {
+          "direction": "down",
+          "magnitude": "small",
+          "confidence": 0.5,
+          "reasoning": "الانحدار في الأرباح قد يمتد تأثيره على مدى يومين، لكن ترند السعر القوي نحو الأسفل وانعدام التباعد يحد من الحركة خارج نطاق 3.80% (متوسط حركة 2 أيام)."
+        },
+        "large": {
+          "direction": "down",
+          "magnitude": "medium",
+          "confidence": 0.4,
+          "reasoning": "الانحدار في الأرباح يعزز من ترند السعر الهابط القائم منذ 60 يومًا (-19.84%)، مع احتمال تجاوز 16.99% من نطاق الحركة الطويلة المدى."
+        }
+      },
+      "overall_reasoning": "تراجعت أرباح جهينة بنسبة 37.4% في الربع الأول، مما يشكل إشارة سلبية. مؤشر MACD يشير إلى زخم ب ullish متعارض مع اتجاه السعر الهابط القوي. مع أن التقلبات طبيعية (ATR=1.90%)، فإن ترند السعر القوي نحو الأسفل يحد من الحركة القصوى. النطاقات المخصصة للحركة تشير إلى أن انحدار 3.80% (كبير) في المدى القصير هو الحد الأقصى المعقول، بينما يعزز الترند الهابط القائم من احتمال انحدار متوسط في المدى الطويل."
+    },
+    "raw": "{  \"news_type\": \"earnings\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"تراجعت أرباح جهينة بنسبة 37.4% خلال الربع الأول 2025 مقارنة بنفس الفترة من 2024 (299.67 مليون جنيه مقابل 478.74 مليون جنيه)\",\n  \"key_drivers\": [\n    \"انخفاض الأرباح الصافية بنسبة 37.4% في الربع الأول 2025\",\n    \"ارتفاع المبيعات إلى 6.8 مليار جنيه مقابل 5.43 مليار جنيه في نفس الفترة\"\n  ],\n  \"ta_signals_cited\": [\n    \"strong_downtrend\",\n    \"macd_bullish\",\n    \"normal_volatility\"\n  ],\n  \"dividend_info\": null,\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"down\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.6,\n      \"reasoning\": \"الانحدار في الأرباح يتعارض مع مؤشر MACD البullish، لكن ترند السعر القوي نحو الأسفل يدعم توقع رد فعل سلبي محدود ضمن نطاق 1.90% ATR.\"\n    },\n    \"medium\": {\n      \"direction\": \"down\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.5,\n      \"reasoning\": \"الانحدار في الأرباح قد يمتد تأثيره على مدى يومين، لكن ترند السعر القوي نحو الأسفل وانعدام التباعد يحد من الحركة خارج نطاق 3.80% (متوسط حركة 2 أيام).\"\n    },\n    \"large\": {\n      \"direction\": \"down\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.4,\n      \"reasoning\": \"الانحدار في الأرباح يعزز من ترند السعر الهابط القائم منذ 60 يومًا (-19.84%)، مع احتمال تجاوز 16.99% من نطاق الحركة الطويلة المدى.\"\n    }\n  },\n  \"overall_reasoning\": \"تراجعت أرباح جهينة بنسبة 37.4% في الربع الأول، مما يشكل إشارة سلبية. مؤشر MACD يشير إلى زخم ب ullish متعارض مع اتجاه السعر الهابط القوي. مع أن التقلبات طبيعية (ATR=1.90%)، فإن ترند السعر القوي نحو الأسفل يحد من الحركة القصوى. النطاقات المخصصة للحركة تشير إلى أن انحدار 3.80% (كبير) في المدى القصير هو الحد الأقصى المعقول، بينما يعزز الترند الهابط القائم من احتمال انحدار متوسط في المدى الطويل.\"\n}"
+  },
+  "critic_agent": {
+    "output": {
+      "primary_company": {
+        "ticker": "JUFO",
+        "news_type": "earnings",
+        "already_priced_in": false,
+        "quantified_ratio": "انخفاض الأرباح الصافية بنسبة 37.4% (299.67 مليون جنيه مقابل 478.74 مليون جنيه في الربع الأول 2025 مقارنة بالربع الأول 2024)، مع ارتفاع المبيعات إلى 6.8 مليار جنيه مقابل 5.43 مليار جنيه (+25.2%)",
+        "ta_signals_cited": [
+          "strong_downtrend",
+          "macd_bullish",
+          "normal_volatility",
+          "near_20d_low"
+        ],
+        "dividend_info": null,
+        "per_horizon": {
+          "short": {
+            "direction": "down",
+            "magnitude": "medium",
+            "confidence": 0.6,
+            "reasoning": "السعر بالقرب من أدنى مستوى له خلال عشرين يومًا (-2.29% فقط من أعلى مستوى)، مما يعني أن لديه مساحة للتحرك نحو الأسفل. الترند الهابط القوي يتعارض مع زخم MACD الصاعد، لكن الأرباح السلبية البالغة 37.4% من المرجح أن تدفع السعر ضمن نطاق التحرك المتوسط (1.33%-3.80%)."
+          },
+          "medium": {
+            "direction": "down",
+            "magnitude": "small",
+            "confidence": 0.55,
+            "reasoning": "الترند الهابط القوي والقرب من أدنى مستوى يدعمان الضغط نحو الأسفل، لكن MACD الصاعد يعمل كعقبة أمام الحركة الكبيرة. نطاق التحرك الصغير للمدى المتوسط (1.88%-5.37%) يتوقع رد فعل سلبي محدود خلال يومين."
+          },
+          "large": {
+            "direction": "down",
+            "magnitude": "medium",
+            "confidence": 0.65,
+            "reasoning": "الترند الهابط المستمر منذ 60 يومًا (-19.84%) يتوافق مع الانخفاض الحاد في الأرباح. الأرباح الضعيفة قد تعزز هذا الاتجاه على المدى الطويل ضمن نطاق التحرك المتوسط (5.95%-16.99%)."
+          }
+        },
+        "overall_reasoning": "أرباح جهينة انخفضت بنسبة 37.4% في الربع الأول 2025، مما يمثل صدمة سلبية قوية. على الرغم من ارتفاع المبيعات بنسبة 25.2%، إلا أن هذا يشير إلى ضغط على الهوامش. السعر في ترند هابط قوي تحت المتوسطات المتحركة، بالقرب من أدنى مستوى له خلال عشرين يومًا، مما يوفر مساحة للحركة نحو الأسفل. نطاقات التحرك الخاصة بالشركة تشير إلى أن реакات متوسطة متوقعة."
+      },
+      "tldr": "نتوقع هبوطًا في سعر سهم جهينة خلال الأيام القادمة، مع تأثير سلبي متوسط في المدى القصير والطويل بسبب تراجع الأرباح بنسبة 37.4%.",
+      "explanation_for_user": {
+        "headline": "جهينة تعلن تراجع أرباحها 37.4% رغم نمو المبيعات — سهم على مسار هابط.",
+        "news_story": "أعلنت شركة جهينة للصناعات الغذائية عن تراجع صافي أرباحها خلال الربع الأول من عام 2025 بنسبة 37.4% لتصل إلى 299.67 مليون جنيه، مقارنةً بـ 478.74 مليون جنيه في الفترة ذاتها من عام 2024. وعلى الرغم من أن المبيعات زادت إلى 6.8 مليار جنيه مقابل 5.43 مليار جنيه، إلا أن هذا النمو في الإيرادات لم يمنع انخفاض الأرباح بشكل حاد. هذا يعني أن الشركة تبيع أكثر لكنها تكسب أقل، وهو ما يقلق المستثمرين.",
+        "technical_view": "السعر حاليًا أقل بنسبة 12% من متوسطه المتحرك لمدة 200 يوم، مما يؤكد الاتجاه الهابط القوي (اتجاه البيع السائد). مؤشر MACD (تقاطع المتوسطات المتحركة) يُظهر زخمًا صاعدًا (+0.1177)، لكن هذا يتعارض مع أخبار الأرباح السلبية. نطاق بولينجر (مستوى التذبذب) يشير إلى أن السعر في المنطقة الوسطى (%B=0.629). متوسط الحركة اليومية المعتادة (ATR) لهذا السهم يبلغ 1.90%، مما يعني أن حركة 2-4% تُعتبر كبيرة بالنسبة لهذا السهم.",
+        "sentiment_note": "أداة تحليل المشاعر (CAMeLBERT) صنّفت الأخبار بأنها محايدة بتقييم +0.1187، وهو تقييم يتعارض مع توقعاتنا الهبوطية لأن المحلل الآلي لا يلتقط التأثير السلبي الكامل لانخفاض الأرباح الحاد بنسبة 37.4%.",
+        "outlook_by_horizon": {
+          "short": "نتوقع هبوطًا متوسطًا (1.33%-3.80%) في سعر السهم خلال اليوم الأول، مدفوعًا بتواجد السعر بالقرب من أدنى مستوى له منذ عشرين يومًا واتجاه البيع القوي.",
+          "medium": "نتوقع هبوطًا صغيرًا (1.88%-5.37%) خلال أول يومين تداول، مع تراجع الأرباح الذي يعزز الضغط البيعي رغم زخم MACD الصاعد.",
+          "large": "نتوقع هبوطًا متوسطًا (5.95%-16.99%) على مدى عشرين يومًا تداوليًا، حيث إن الأرباح الضعيفة تتوافق مع الاتجاه الهابط المستمر منذ 60 يومًا."
+        },
+        "what_could_change_our_view": "إذا أظهرت الشركة تحسنًا في هوامش الربح خلال الربع الثاني أو أعلنت عن توزيعات نقدية، فقد يتغير الاتجاه نحو إيجابي. كما أن أي أنباء إيجابية عن قطاع الأغذية المصري أو الاقتصاد المحلي قد تحد من الخسائر المتوقعة."
+      }
+    },
+    "raw": "\n\n{\n  \"primary_company\": {\n    \"ticker\": \"JUFO\",\n    \"news_type\": \"earnings\",\n    \"already_priced_in\": false,\n    \"quantified_ratio\": \"انخفاض الأرباح الصافية بنسبة 37.4% (299.67 مليون جنيه مقابل 478.74 مليون جنيه في الربع الأول 2025 مقارنة بالربع الأول 2024)، مع ارتفاع المبيعات إلى 6.8 مليار جنيه مقابل 5.43 مليار جنيه (+25.2%)\",\n    \"ta_signals_cited\": [\n      \"strong_downtrend\",\n      \"macd_bullish\",\n      \"normal_volatility\",\n      \"near_20d_low\"\n    ],\n    \"dividend_info\": null,\n    \"per_horizon\": {\n      \"short\": {\n        \"direction\": \"down\",\n        \"magnitude\": \"medium\",\n        \"confidence\": 0.60,\n        \"reasoning\": \"السعر بالقرب من أدنى مستوى له خلال عشرين يومًا (-2.29% فقط من أعلى مستوى)، مما يعني أن لديه مساحة للتحرك نحو الأسفل. الترند الهابط القوي يتعارض مع زخم MACD الصاعد، لكن الأرباح السلبية البالغة 37.4% من المرجح أن تدفع السعر ضمن نطاق التحرك المتوسط (1.33%-3.80%).\"\n      },\n      \"medium\": {\n        \"direction\": \"down\",\n        \"magnitude\": \"small\",\n        \"confidence\": 0.55,\n        \"reasoning\": \"الترند الهابط القوي والقرب من أدنى مستوى يدعمان الضغط نحو الأسفل، لكن MACD الصاعد يعمل كعقبة أمام الحركة الكبيرة. نطاق التحرك الصغير للمدى المتوسط (1.88%-5.37%) يتوقع رد فعل سلبي محدود خلال يومين.\"\n      },\n      \"large\": {\n        \"direction\": \"down\",\n        \"magnitude\": \"medium\",\n        \"confidence\": 0.65,\n        \"reasoning\": \"الترند الهابط المستمر منذ 60 يومًا (-19.84%) يتوافق مع الانخفاض الحاد في الأرباح. الأرباح الضعيفة قد تعزز هذا الاتجاه على المدى الطويل ضمن نطاق التحرك المتوسط (5.95%-16.99%).\"\n      }\n    },\n    \"overall_reasoning\": \"أرباح جهينة انخفضت بنسبة 37.4% في الربع الأول 2025، مما يمثل صدمة سلبية قوية. على الرغم من ارتفاع المبيعات بنسبة 25.2%، إلا أن هذا يشير إلى ضغط على الهوامش. السعر في ترند هابط قوي تحت المتوسطات المتحركة، بالقرب من أدنى مستوى له خلال عشرين يومًا، مما يوفر مساحة للحركة نحو الأسفل. نطاقات التحرك الخاصة بالشركة تشير إلى أن реакات متوسطة متوقعة.\"\n  },\n  \"tldr\": \"نتوقع هبوطًا في سعر سهم جهينة خلال الأيام القادمة، مع تأثير سلبي متوسط في المدى القصير والطويل بسبب تراجع الأرباح بنسبة 37.4%.\",\n  \"explanation_for_user\": {\n    \"headline\": \"جهينة تعلن تراجع أرباحها 37.4% رغم نمو المبيعات — سهم على مسار هابط.\",\n    \"news_story\": \"أعلنت شركة جهينة للصناعات الغذائية عن تراجع صافي أرباحها خلال الربع الأول من عام 2025 بنسبة 37.4% لتصل إلى 299.67 مليون جنيه، مقارنة بـ 478.74 مليون جنيه في نفس الفترة من عام 2024. وعلى الرغم من أن المبيعات زادت إلى 6.8 مليار جنيه مقابل 5.43 مليار جنيه، إلا أن هذا النمو في الإيرادات لم يمنع انخفاض الأرباح بشكل حاد. هذا يعني أن الشركة تبيع أكثر لكنها تكسب أقل، وهو أمر يقلق المستثمرين.\",\n    \"technical_view\": \"السعر حاليًا أقل بنسبة 12% من متوسطه المتحرك لمدة 200 يوم، مما يؤكد الترند الهابط القوي (اتجاه البيع السائد). مؤشر MACD (تقاطع المتوسطات المتحركة) يظهر زخمًا صاعدًا (+0.1177)، لكن هذا يتعارض مع أخبار الأرباح السلبية. نطاق بولينجر (مستوى التذبذب) يشير إلى أن السعر في المنطقة الوسطى (%B=0.629). متوسط الحركة اليومية المعتادة (ATR) لهذا السهم يبلغ 1.90%، مما يعني أن حركة 2-4% تُعتبر كبيرة بالنسبة لهذا السهم.\",\n    \"sentiment_note\": \"أداة تحليل المشاعر (CAMeLBERT) صنفت الأخبار بأنها محايدة بتقييم +0.1187، وهو تقييم يتعارض مع توقعاتنا الهبوطية لأن المحلل الآلي لا يلتقط التأثير السلبي الكامل لانخفاض الأرباح الحاد بنسبة 37.4%.\",\n    \"outlook_by_horizon\": {\n      \"short\": \"نتوقع هبوطًا متوسطًا (1.33%-3.80%) في سعر السهم خلال اليوم الأول، مدفوعًا بتواجد السعر بالقرب من أدنى مستوى له منذ عشرين يومًا وترند البيع القوي.\",\n      \"medium\": \"نتوقع هبوطًا صغيرًا (1.88%-5.37%) خلال أول يومين تداول، مع تراجع في الأرباح يعزز الضغط البيعي رغم زخم MACD الصاعد.\",\n      \"large\": \"نتوقع هبوطًا متوسطًا (5.95%-16.99%) على مدى عشرين يوم تداول، حيث أن الأرباح الضعيفة تتوافق مع الترند الهابط المستمر منذ 60 يومًا.\"\n    },\n    \"what_could_change_our_view\": \"إذا أظهرت الشركة تحسنًا في هوامش الربح خلال الربع الثاني أو أعلنت عن توزيعات نقدية، فقد يتغير الاتجاه نحو إيجابي. كما أن أي أنباء إيجابية عن قطاع الأغذية المصري أو الاقتصاد المحلي قد تحد من الخسائر المتوقعة.\"\n  }\n}",
+    "thinking": "Let me analyze this carefully as a senior quantitative risk analyst.\n\n## Step 1: News Type & Quantification\nThe news is about earnings decline:\n- Q1 2025 net profit: 299.67 million EGP vs 478.74 million EGP in Q1 2024\n- That's a decline of 37.4%\n- Revenue increased to 6.8 billion EGP vs 5.43 billion EGP (25% increase)\n\nQuantified ratio: 37.4% decline in net profit (299.67 / 478.74)\n\n## Step 2: TA Signal Audit\nJunior cited: \"strong_downtrend\", \"macd_bullish\", \"normal_volatility\"\n\nChecking against actual data:\n- **strong_downtrend**: YES - Price is below MA-50 (-4.82%) and MA-200 (-12.09%), 60d return -19.84%. This is correct.\n- **macd_bullish**: Check - \"MACD state=bullish hist=+0.1177\" - This is stated in the data. However, this is a bullish signal contradicting bearish earnings. This is a conflict to note.\n- **normal_volatility**: YES - \"Vol 20d ann: 35.42% [normal regime]\"\n\nAll TA signals cited are supported, but there's a MACD/news conflict.\n\n## Step 3: Magnitude Check (PER-COMPANY BANDS)\nGiven bands:\n- short (1d): neutral=±0.95%, small<1.33%, medium 1.33%-3.80%, large≥3.80%\n- medium (2d): neutral=±1.34%, small<1.88%, medium 1.88%-5.37%, large≥5.37%\n\n\n- large (20d): neutral=±4.25%, small<5.95%, medium 5.95%-16.99%, large≥16.99%\n\n## Step 4: Technical Checklist\n\nT1. OVERBOUGHT/OVERSOLD:\n- RSI-14: 50.48 [neutral] - neither overbought nor oversold\n- Bollinger: zone=middle, %B=0.629 - in middle band\n- Distance to 20d_hi: -2.29% - not at a significant extreme\n\nT2. DIVERGENCE: None stated\n\nT3. MOMENTUM\n\nThe MACD histogram at +0.1177 shows a bullish signal, which conflicts with the downward earnings momentum. This tension means I need to downgrade confidence in the magnitude estimates.\n\nT4. ROOM TO RUN:\n- Distance to 20d_lo: +8.65% (near the bottom)\n- Distance to 60d_lo: +8.65%\n- Distance to 52w_lo: +68.33% (very far from 52w low)\n- Distance to 52w_hi: -29.17% (far from high)\n\nPrice is near recent lows, so there's more room to move downward than upward.\n\nT5. PER-COMPANY BANDS: The earnings decline of 37.4% exceeds the neutral band for all timeframes.\n\n## Step 5: Analysis\n\nThe stock has room to drop given it's trading near recent lows. The recent abnormal returns show no significant deviation from sector movement, with the stock up 3.10% in sync with the sector's 3.10% gain, indicating no abnormal performance.\n\nThe earnings miss of 37.4% with rising revenue is clearly negative. While MACD shows bullish divergence and volatility is normal, the strong downtrend and technical positioning near lows suggest this could trigger larger moves than the neutral band indicates.\n\nFor the short term, I'm expecting a small-to-medium decline of 1-3% as the bearish news conflicts with MACD and room to fall. The medium-term window of 2 days should see a similar pattern unfold.\n\nHowever, I need to be careful with the junior's magnitude classification. The per-company bands show 3.80% as the threshold for a large short-term move, but the ATR of 1.90% suggests a 3% decline would be a large move, not small. This is a critical distinction the junior may have miscalculated. confidence: 0.55\n\nMedium-term outlook shows a small decline over two days, though the MACD divergence tempers the expected magnitude. The strong downward trend reinforces this direction, with confidence at 0.55. Large timeframe analysis suggests a medium decline spanning twenty days, supported by the established downtrend and recent 60-day momentum of -19.84%. Confidence strengthens to 0.60 given the consistent directional signal.\n\nFor the user-facing explanation, the core narrative centers on Juhayna's Q1 2025 profit decline of 37.4%, though revenue expanded to 6.8 billion pounds. The key technical indicators to highlight include the RSI neutral reading at 50.48, the MACD bullish signal with histogram at +0.1177, and Bollinger band positioning at 0.629. The ATR daily movement threshold sits at 1.90%, which contextualizes the stock's typical volatility range.\n"
+  },
+  "arabic_qa": {
+    "enabled": true,
+    "model": "claude-sonnet-4-6",
+    "explanation_pre": {
+      "headline": "جهينة تعلن تراجع أرباحها 37.4% رغم نمو المبيعات — سهم على مسار هابط.",
+      "news_story": "أعلنت شركة جهينة للصناعات الغذائية عن تراجع صافي أرباحها خلال الربع الأول من عام 2025 بنسبة 37.4% لتصل إلى 299.67 مليون جنيه، مقارنة بـ 478.74 مليون جنيه في نفس الفترة من عام 2024. وعلى الرغم من أن المبيعات زادت إلى 6.8 مليار جنيه مقابل 5.43 مليار جنيه، إلا أن هذا النمو في الإيرادات لم يمنع انخفاض الأرباح بشكل حاد. هذا يعني أن الشركة تبيع أكثر لكنها تكسب أقل، وهو أمر يقلق المستثمرين.",
+      "technical_view": "السعر حاليًا أقل بنسبة 12% من متوسطه المتحرك لمدة 200 يوم، مما يؤكد الترند الهابط القوي (اتجاه البيع السائد). مؤشر MACD (تقاطع المتوسطات المتحركة) يظهر زخمًا صاعدًا (+0.1177)، لكن هذا يتعارض مع أخبار الأرباح السلبية. نطاق بولينجر (مستوى التذبذب) يشير إلى أن السعر في المنطقة الوسطى (%B=0.629). متوسط الحركة اليومية المعتادة (ATR) لهذا السهم يبلغ 1.90%، مما يعني أن حركة 2-4% تُعتبر كبيرة بالنسبة لهذا السهم.",
+      "sentiment_note": "أداة تحليل المشاعر (CAMeLBERT) صنفت الأخبار بأنها محايدة بتقييم +0.1187، وهو تقييم يتعارض مع توقعاتنا الهبوطية لأن المحلل الآلي لا يلتقط التأثير السلبي الكامل لانخفاض الأرباح الحاد بنسبة 37.4%.",
+      "outlook_by_horizon": {
+        "short": "نتوقع هبوطًا متوسطًا (1.33%-3.80%) في سعر السهم خلال اليوم الأول، مدفوعًا بتواجد السعر بالقرب من أدنى مستوى له منذ عشرين يومًا وترند البيع القوي.",
+        "medium": "نتوقع هبوطًا صغيرًا (1.88%-5.37%) خلال أول يومين تداول، مع تراجع في الأرباح يعزز الضغط البيعي رغم زخم MACD الصاعد.",
+        "large": "نتوقع هبوطًا متوسطًا (5.95%-16.99%) على مدى عشرين يوم تداول، حيث أن الأرباح الضعيفة تتوافق مع الترند الهابط المستمر منذ 60 يومًا."
+      },
+      "what_could_change_our_view": "إذا أظهرت الشركة تحسنًا في هوامش الربح خلال الربع الثاني أو أعلنت عن توزيعات نقدية، فقد يتغير الاتجاه نحو إيجابي. كما أن أي أنباء إيجابية عن قطاع الأغذية المصري أو الاقتصاد المحلي قد تحد من الخسائر المتوقعة."
+    },
+    "explanation_post": {
+      "headline": "جهينة تعلن تراجع أرباحها 37.4% رغم نمو المبيعات — سهم على مسار هابط.",
+      "news_story": "أعلنت شركة جهينة للصناعات الغذائية عن تراجع صافي أرباحها خلال الربع الأول من عام 2025 بنسبة 37.4% لتصل إلى 299.67 مليون جنيه، مقارنةً بـ 478.74 مليون جنيه في الفترة ذاتها من عام 2024. وعلى الرغم من أن المبيعات زادت إلى 6.8 مليار جنيه مقابل 5.43 مليار جنيه، إلا أن هذا النمو في الإيرادات لم يمنع انخفاض الأرباح بشكل حاد. هذا يعني أن الشركة تبيع أكثر لكنها تكسب أقل، وهو ما يقلق المستثمرين.",
+      "technical_view": "السعر حاليًا أقل بنسبة 12% من متوسطه المتحرك لمدة 200 يوم، مما يؤكد الاتجاه الهابط القوي (اتجاه البيع السائد). مؤشر MACD (تقاطع المتوسطات المتحركة) يُظهر زخمًا صاعدًا (+0.1177)، لكن هذا يتعارض مع أخبار الأرباح السلبية. نطاق بولينجر (مستوى التذبذب) يشير إلى أن السعر في المنطقة الوسطى (%B=0.629). متوسط الحركة اليومية المعتادة (ATR) لهذا السهم يبلغ 1.90%، مما يعني أن حركة 2-4% تُعتبر كبيرة بالنسبة لهذا السهم.",
+      "sentiment_note": "أداة تحليل المشاعر (CAMeLBERT) صنّفت الأخبار بأنها محايدة بتقييم +0.1187، وهو تقييم يتعارض مع توقعاتنا الهبوطية لأن المحلل الآلي لا يلتقط التأثير السلبي الكامل لانخفاض الأرباح الحاد بنسبة 37.4%.",
+      "outlook_by_horizon": {
+        "short": "نتوقع هبوطًا متوسطًا (1.33%-3.80%) في سعر السهم خلال اليوم الأول، مدفوعًا بتواجد السعر بالقرب من أدنى مستوى له منذ عشرين يومًا واتجاه البيع القوي.",
+        "medium": "نتوقع هبوطًا صغيرًا (1.88%-5.37%) خلال أول يومين تداول، مع تراجع الأرباح الذي يعزز الضغط البيعي رغم زخم MACD الصاعد.",
+        "large": "نتوقع هبوطًا متوسطًا (5.95%-16.99%) على مدى عشرين يومًا تداوليًا، حيث إن الأرباح الضعيفة تتوافق مع الاتجاه الهابط المستمر منذ 60 يومًا."
+      },
+      "what_could_change_our_view": "إذا أظهرت الشركة تحسنًا في هوامش الربح خلال الربع الثاني أو أعلنت عن توزيعات نقدية، فقد يتغير الاتجاه نحو إيجابي. كما أن أي أنباء إيجابية عن قطاع الأغذية المصري أو الاقتصاد المحلي قد تحد من الخسائر المتوقعة."
+    }
+  },
+  "final": {
+    "ticker": "JUFO",
+    "news_type": "earnings",
+    "already_priced_in": false,
+    "quantified_ratio": "انخفاض الأرباح الصافية بنسبة 37.4% (299.67 مليون جنيه مقابل 478.74 مليون جنيه في الربع الأول 2025 مقارنة بالربع الأول 2024)، مع ارتفاع المبيعات إلى 6.8 مليار جنيه مقابل 5.43 مليار جنيه (+25.2%)",
+    "ta_signals_cited": [
+      "strong_downtrend",
+      "macd_bullish",
+      "normal_volatility",
+      "near_20d_low"
+    ],
+    "dividend_info": null,
+    "per_horizon": {
+      "short": {
+        "direction": "down",
+        "magnitude": "medium",
+        "confidence": 0.6,
+        "reasoning": "السعر بالقرب من أدنى مستوى له خلال عشرين يومًا (-2.29% فقط من أعلى مستوى)، مما يعني أن لديه مساحة للتحرك نحو الأسفل. الترند الهابط القوي يتعارض مع زخم MACD الصاعد، لكن الأرباح السلبية البالغة 37.4% من المرجح أن تدفع السعر ضمن نطاق التحرك المتوسط (1.33%-3.80%)."
+      },
+      "medium": {
+        "direction": "down",
+        "magnitude": "small",
+        "confidence": 0.55,
+        "reasoning": "الترند الهابط القوي والقرب من أدنى مستوى يدعمان الضغط نحو الأسفل، لكن MACD الصاعد يعمل كعقبة أمام الحركة الكبيرة. نطاق التحرك الصغير للمدى المتوسط (1.88%-5.37%) يتوقع رد فعل سلبي محدود خلال يومين."
+      },
+      "large": {
+        "direction": "down",
+        "magnitude": "medium",
+        "confidence": 0.65,
+        "reasoning": "الترند الهابط المستمر منذ 60 يومًا (-19.84%) يتوافق مع الانخفاض الحاد في الأرباح. الأرباح الضعيفة قد تعزز هذا الاتجاه على المدى الطويل ضمن نطاق التحرك المتوسط (5.95%-16.99%)."
+      }
+    },
+    "overall_reasoning": "أرباح جهينة انخفضت بنسبة 37.4% في الربع الأول 2025، مما يمثل صدمة سلبية قوية. على الرغم من ارتفاع المبيعات بنسبة 25.2%، إلا أن هذا يشير إلى ضغط على الهوامش. السعر في ترند هابط قوي تحت المتوسطات المتحركة، بالقرب من أدنى مستوى له خلال عشرين يومًا، مما يوفر مساحة للحركة نحو الأسفل. نطاقات التحرك الخاصة بالشركة تشير إلى أن реакات متوسطة متوقعة."
+  }
+}

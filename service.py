@@ -5,7 +5,7 @@ from typing import Any
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 
-from pipeline import analyze_article
+from pipeline3 import analyze_article
 
 app = FastAPI(
     title="EGX30 News Impact Service",
@@ -41,9 +41,13 @@ def _extract_final_summary(trace: dict) -> dict:
         else:
             payload = critic
 
+    arabic_qa = trace.get("arabic_qa", {})
+    explanation_post = arabic_qa.get("explanation_post") or payload.get("explanation_post", {})
+
     return {
         "tldr": payload.get("tldr", {}),
         "explanation_for_user": payload.get("explanation_for_user", {}),
+        "explanation_post": explanation_post,
     }
 
 
@@ -73,6 +77,7 @@ async def analyze(request: Request) -> dict:
         "context_date": trace["context_date"],
         "tldr": summary["tldr"],
         "explanation_for_user": summary["explanation_for_user"],
+        "explanation_post": summary.get("explanation_post", {}),
         "final": trace.get("final", {}),
     }
 

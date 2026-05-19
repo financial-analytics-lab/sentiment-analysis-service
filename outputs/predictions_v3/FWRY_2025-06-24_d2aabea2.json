@@ -1,0 +1,365 @@
+{
+  "ticker": "FWRY",
+  "article_date": "2025-06-24",
+  "context_date": "2025-06-23",
+  "processed_at": "2026-05-18T20:06:55.968382",
+  "article": {
+    "symbol": "FWRY",
+    "company": "Fawry For Banking Technology And Electronic Payment",
+    "isin": "EGS745L1C014",
+    "sector": "Technology & Fintech",
+    "id": "4463487",
+    "date": "2025-06-24",
+    "time": "10:47:53",
+    "datetime": "2025-06-24 10:47:53",
+    "title": "بورصة مصر تعلن تنفيذ صفقة نقل ملكية على أسهم فوري بـ302 ألف جنيه",
+    "body": "القاهرة - مباشر: أعلنت البورصة المصرية تنفيذ صفقة نقل ملكية أسهم في إطار نظام الإثابة والتحفيز على أسهم فوري لتكنولوجيا البنوك والمدفوعات الالكترونية بقيمة 302.3 ألف جنيه.\nوأوضحت البورصة في بيان اليوم أنه تم تنفيذ الصفقة عبر 53 ألف سهم.\nيشار ان فوري لتكنولوجيا البنوك والمدفوعات الإلكترونية،  سجلت صافي ربح بلغ 641.66 مليون جنيه خلال الفترة من يناير حتى نهاية مارس 2025، مقابل 333.71 مليون جنيه خلال الفترة نفسها من 2024، مع الأخذ في الاعتبار حقوق الأقلية.\nوارتفعت إيرادات الشركة خلال الثلاثة أشهر الأولى من العام الجاري إلى 1.79 مليار جنيه، مقابل 1.08 مليار جنيه خلال الربع نفسه من العام الماضي.\nوعلى صعيد القوائم غير المجمعة، ارتفعت أرباح الشركة المستقلة خلال الربع الأول من العام الجاري إلى 542.15 مليون جنيه، مقابل 305.19 مليون جنيه خلال الربع نفسه من 2024.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nأبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية\n..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر\n..\nاضغط هنا\nترشيحات\nتوقيع عقد لإنشاء مصنع جينز بالمنطقة الاقتصادية لقناة السويس باستثمارات تركية",
+    "teaser": "القاهرة - مباشر: أعلنت البورصة المصرية تنفيذ صفقة نقل ملكية أسهم في إطار نظام الإثابة والتحفيز على أسهم فوري لتكنولوجيا البنوك والمدفوعات الالكترونية بقيمة 302.3 ألف جنيه. وأوضحت البورصة في بيان اليوم أنه تم تنفيذ الصفقة عبر 53 ألف سهم. يشار ان …",
+    "section": "التعاملات الداخلية وأسهم الخزينة",
+    "source": "مباشر",
+    "categories": "stock-bonds",
+    "country": "مصر",
+    "reads": 547,
+    "url": "https://www.mubasher.info/news/4463487",
+    "image_url": "https://static.mubasher.info/File.Story_Image/b8c60aab1ddccc15c7a116d1d155a089/640.jpg",
+    "date_raw": ""
+  },
+  "sentiment": {
+    "model": "CAMeL-Lab/bert-base-arabic-camelbert-mix-sentiment",
+    "label": "neutral",
+    "score": 0.1309,
+    "numeric": 0,
+    "class_probs": {
+      "neutral": 0.8659,
+      "positive": 0.1325,
+      "negative": 0.0016
+    }
+  },
+  "context": {
+    "ticker": "FWRY",
+    "company": "Fawry - FWRY",
+    "sector": "Technology & Fintech",
+    "business_description": "Fawry for Banking Technology and Electronic Payments — Egypt's largest e-payments and bill-payment platform; processes 4 M+ daily transactions across 300 K+ merchant touchpoints.",
+    "event_date": "2025-06-24",
+    "last_price_date": "2025-06-23",
+    "price_state": {
+      "last_close": 12.01,
+      "return_1d": 2.56,
+      "return_5d": 10.18,
+      "return_20d": 7.23,
+      "return_60d": 31.4,
+      "pct_vs_ma50": 14.71,
+      "pct_vs_ma200": 35.25,
+      "vol_20d_annualized_pct": 39.76,
+      "vol_regime": "normal",
+      "rsi_14": 66.2
+    },
+    "market_state": {
+      "sector_return_1d": 2.17,
+      "sector_return_5d": 5.15,
+      "relative_strength_vs_sector_1d": 0.39
+    },
+    "correlation_state": {
+      "corr_with_sector_90d": 0.67,
+      "top_3_correlated_peers": [
+        {
+          "ticker": "CCAP",
+          "correlation": 0.52,
+          "sector": "Non-Bank Financials"
+        },
+        {
+          "ticker": "AMOC",
+          "correlation": 0.44,
+          "sector": "Petroleum & Petrochemicals"
+        },
+        {
+          "ticker": "PHDC",
+          "correlation": 0.42,
+          "sector": "Real Estate"
+        }
+      ]
+    },
+    "recent_abnormal_returns": [
+      {
+        "date": "2025-06-17",
+        "stock_return_pct": -2.57,
+        "sector_return_pct": -3.19,
+        "abnormal_return_pct": 0.62
+      },
+      {
+        "date": "2025-06-18",
+        "stock_return_pct": 4.14,
+        "sector_return_pct": 2.94,
+        "abnormal_return_pct": 1.2
+      },
+      {
+        "date": "2025-06-19",
+        "stock_return_pct": 0.0,
+        "sector_return_pct": -0.89,
+        "abnormal_return_pct": 0.89
+      },
+      {
+        "date": "2025-06-22",
+        "stock_return_pct": 5.88,
+        "sector_return_pct": 3.77,
+        "abnormal_return_pct": 2.11
+      },
+      {
+        "date": "2025-06-23",
+        "stock_return_pct": 2.56,
+        "sector_return_pct": 1.8,
+        "abnormal_return_pct": 0.76
+      }
+    ],
+    "technical_signals": {
+      "rsi_14": 66.2,
+      "rsi_zone": "neutral",
+      "macd": {
+        "line": 0.2652,
+        "signal": 0.248,
+        "histogram": 0.0172,
+        "state": "bullish_crossover_today"
+      },
+      "bollinger": {
+        "pct_b": 1.073,
+        "bandwidth_pct": 11.54,
+        "zone": "above_upper"
+      },
+      "distance_to_extremes": {
+        "20d_high_distance_pct": 0.0,
+        "20d_low_distance_pct": 13.09,
+        "60d_high_distance_pct": 0.0,
+        "60d_low_distance_pct": 36.32,
+        "252d_high_distance_pct": 0.0,
+        "252d_low_distance_pct": 116.01
+      },
+      "rsi_divergence": "none",
+      "atr_pct_14d": 2.07,
+      "consecutive_streak": 2
+    },
+    "dynamic_bands": {
+      "horizon_trading_days": {
+        "short": 1,
+        "medium": 2,
+        "large": 20
+      },
+      "neutral_band_pct": {
+        "short": 1.03,
+        "medium": 1.46,
+        "large": 4.63
+      },
+      "magnitude_bands_pct": {
+        "short": {
+          "small": [
+            0.0,
+            1.45
+          ],
+          "medium": [
+            1.45,
+            4.14
+          ],
+          "large": [
+            4.14,
+            null
+          ]
+        },
+        "medium": {
+          "small": [
+            0.0,
+            2.05
+          ],
+          "medium": [
+            2.05,
+            5.85
+          ],
+          "large": [
+            5.85,
+            null
+          ]
+        },
+        "large": {
+          "small": [
+            0.0,
+            6.48
+          ],
+          "medium": [
+            6.48,
+            18.51
+          ],
+          "large": [
+            18.51,
+            null
+          ]
+        }
+      },
+      "atr_pct_anchor": 2.07
+    },
+    "news_timing": {
+      "in_trading_hours": true,
+      "arrived_at_str": "2025-06-24 10:47:53",
+      "start_day_label": "event_date (article day; news arrived during EGX hours)"
+    }
+  },
+  "prompts": {
+    "impact": "You are a quantitative analyst predicting Egyptian Stock Exchange (EGX) stock reactions to Arabic news. Your prediction must be grounded in the technical signals provided and calibrated to this specific ticker's volatility.\n\n=== COMPANY ===\nTicker      : FWRY\nName        : Fawry - FWRY\nSector      : Technology & Fintech\nDescription : Fawry for Banking Technology and Electronic Payments — Egypt's largest e-payments and bill-payment platform; processes 4 M+ daily transactions across 300 K+ merchant touchpoints.\nPrice data  : as of 2025-06-23  (article date: 2025-06-24)\n\n=== PRICE STATE ===\nLast close  : 12.01 EGP\nReturn 1d   : +2.56%   5d : +10.18%   20d : +7.23%   60d : +31.40%\nvs MA-50    : +14.71%  vs MA-200 : +35.25%\nTrend       : uptrend (above MA-50 and MA-200)\nVol 20d ann : 39.76%  [normal regime]  Normal -> impact PROPORTIONAL to catalyst.\n\n=== SECTOR ===\nSector 1d   : +2.17%  5d : +5.15%\nStock vs sector 1d : +0.39%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 0.67\nTop peers:\n  - CCAP | Non-Bank Financials | 90d-corr: 0.52\n  - AMOC | Petroleum & Petrochemicals | 90d-corr: 0.44\n  - PHDC | Real Estate | 90d-corr: 0.42\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2025-06-17: stock -2.57%  sector -3.19%  AR +0.62%\n  2025-06-18: stock +4.14%  sector +2.94%  AR +1.20%\n  2025-06-19: stock +0.00%  sector -0.89%  AR +0.89%\n  2025-06-22: stock +5.88%  sector +3.77%  AR +2.11%\n  2025-06-23: stock +2.56%  sector +1.80%  AR +0.76%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 66.20  [neutral]\nMACD      : state=bullish_crossover_today  hist=+0.0172\nBollinger : zone=above_upper  %B=1.073\nDistance  : 20d_hi +0.00%  20d_lo +13.09%  60d_hi +0.00%  60d_lo +36.32%  52w_hi +0.00%  52w_lo +116.01%\nDivergence : none\nATR 14d   : 2.07%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : +2 (up streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=2.07%) ===\n  short   (N= 1d)  neutral=+-1.03%  small <1.45%  medium 1.45%-4.14%  large >=4.14%\n  medium  (N= 2d)  neutral=+-1.46%  small <2.05%  medium 2.05%-5.85%  large >=5.85%\n  large   (N=20d)  neutral=+-4.63%  small <6.48%  medium 6.48%-18.51%  large >=18.51%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-06-24 10:47:53\nIn trading hours: True  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : event_date (article day; news arrived during EGX hours)\nHorizons (days) : short=1d ; medium=2d ; large=20d\n\n=== ARABIC SENTIMENT (one input among many) ===\nLabel : neutral\nScore : +0.1309   (-1 strongly negative -> +1 strongly positive)\nNOTE: CAMeLBERT classifies tone, not financial implication.\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-06-24 10:47:53\nHeadline  : بورصة مصر تعلن تنفيذ صفقة نقل ملكية على أسهم فوري بـ302 ألف جنيه\n\nالقاهرة - مباشر: أعلنت البورصة المصرية تنفيذ صفقة نقل ملكية أسهم في إطار نظام الإثابة والتحفيز على أسهم فوري لتكنولوجيا البنوك والمدفوعات الالكترونية بقيمة 302.3 ألف جنيه.\nوأوضحت البورصة في بيان اليوم أنه تم تنفيذ الصفقة عبر 53 ألف سهم.\nيشار ان فوري لتكنولوجيا البنوك والمدفوعات الإلكترونية،  سجلت صافي ربح بلغ 641.66 مليون جنيه خلال الفترة من يناير حتى نهاية مارس 2025، مقابل 333.71 مليون جنيه خلال الفترة نفسها من 2024، مع الأخذ في الاعتبار حقوق الأقلية.\nوارتفعت إيرادات الشركة خلال الثلاثة أشهر الأولى من العام الجاري إلى 1.79 مليار جنيه، مقابل 1.08 مليار جنيه خلال الربع نفسه من العام الماضي.\nوعلى صعيد القوائم غير المجمعة، ارتفعت أرباح الشركة المستقلة خلال الربع الأول من العام الجاري إلى 542.15 مليون جنيه، مقابل 305.19 مليون جنيه خلال الربع نفسه من 2024.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nأبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية\n..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر\n..\nاضغط هنا\nترشيحات\nتوقيع عقد لإنشاء مصنع جينز بالمنطقة الاقتصادية لقناة السويس باستثمارات تركية\n\n=== HORIZONS (predict ALL OF THEM) ===\n  short   -> t+0 only (just the start day's return)    AR label: اليوم الأول (t+0): رد الفعل الفوري\n  medium  -> t+0 .. t+1  (2 trading days cumulative)   AR label: اليومان الأولان (t+0 إلى t+1): الاستجابة المبكرة\n  large   -> t+0 .. t+19  (20 trading days cumulative)  AR label: العشرون يوم تداول (t+0 إلى t+19): الأثر الممتد\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- 'up'\nmeans OUTPERFORMING the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== OUTPUT INSTRUCTIONS ===\n1. Classify news_type FIRST.\n2. Walk through T1-T5. Pick TA signals that ACTUALLY apply from the closed vocab.\n3. Anchor magnitudes to the PER-COMPANY bands above (NOT a global rule).\n4. Quantify any dilution/yield ratio with both inputs.\n5. If news_type=dividend, FILL dividend_info; otherwise set it to null.\n6. LANGUAGE: free-text Arabic. JSON keys + enum values in English.\n7. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"news_type\":         \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n  \"already_priced_in\": <true | false>,\n  \"quantified_ratio\":  \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n  \"key_drivers\":       [\"<driver 1 Arabic>\", \"<driver 2 Arabic>\"],\n  \"ta_signals_cited\":  [\"<signal from closed vocab>\", \"...\"],\n  \"dividend_info\": null | {\n    \"yield_pct\":      <float>,\n    \"ex_div_date\":    \"<YYYY-MM-DD or null if unknown>\",\n    \"amount_egp\":     <float or null>\n  },\n  \"per_horizon\": {\n    \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"},\n    \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"},\n    \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"}\n  },\n  \"overall_reasoning\": \"<3-4 Arabic sentences. Walk T1-T5 briefly. Reference the per-company magnitude bands explicitly. State the quantified ratio if applicable.>\"\n}",
+    "critic": "You are a senior quantitative risk analyst at an Egyptian investment bank. A junior LLM analyst has assessed a news event about FWRY (Fawry - FWRY). Your job:\n  (a) audit the junior's TA citations against the live data,\n  (b) check magnitudes against the PER-COMPANY bands (not global rules),\n  (c) produce the final authoritative prediction across short / medium / large,\n  (d) write a plain-Arabic explanation for a non-expert retail investor.\n\n=== COMPANY ===\nTicker      : FWRY\nName        : Fawry - FWRY\nSector      : Technology & Fintech\nDescription : Fawry for Banking Technology and Electronic Payments — Egypt's largest e-payments and bill-payment platform; processes 4 M+ daily transactions across 300 K+ merchant touchpoints.\nPrice data  : as of 2025-06-23  (article date: 2025-06-24)\n\n=== PRICE STATE ===\nLast close  : 12.01 EGP\nReturn 1d   : +2.56%   5d : +10.18%   20d : +7.23%   60d : +31.40%\nvs MA-50    : +14.71%  vs MA-200 : +35.25%\nTrend       : uptrend (above MA-50 and MA-200)\nVol 20d ann : 39.76%  [normal regime]  Normal -> impact PROPORTIONAL to catalyst.\n\n=== SECTOR ===\nSector 1d   : +2.17%  5d : +5.15%\nStock vs sector 1d : +0.39%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 0.67\nTop peers:\n  - CCAP | Non-Bank Financials | 90d-corr: 0.52\n  - AMOC | Petroleum & Petrochemicals | 90d-corr: 0.44\n  - PHDC | Real Estate | 90d-corr: 0.42\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2025-06-17: stock -2.57%  sector -3.19%  AR +0.62%\n  2025-06-18: stock +4.14%  sector +2.94%  AR +1.20%\n  2025-06-19: stock +0.00%  sector -0.89%  AR +0.89%\n  2025-06-22: stock +5.88%  sector +3.77%  AR +2.11%\n  2025-06-23: stock +2.56%  sector +1.80%  AR +0.76%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 66.20  [neutral]\nMACD      : state=bullish_crossover_today  hist=+0.0172\nBollinger : zone=above_upper  %B=1.073\nDistance  : 20d_hi +0.00%  20d_lo +13.09%  60d_hi +0.00%  60d_lo +36.32%  52w_hi +0.00%  52w_lo +116.01%\nDivergence : none\nATR 14d   : 2.07%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : +2 (up streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=2.07%) ===\n  short   (N= 1d)  neutral=+-1.03%  small <1.45%  medium 1.45%-4.14%  large >=4.14%\n  medium  (N= 2d)  neutral=+-1.46%  small <2.05%  medium 2.05%-5.85%  large >=5.85%\n  large   (N=20d)  neutral=+-4.63%  small <6.48%  medium 6.48%-18.51%  large >=18.51%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-06-24 10:47:53\nIn trading hours: True  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : event_date (article day; news arrived during EGX hours)\nHorizons (days) : short=1d ; medium=2d ; large=20d\n\n=== ARABIC SENTIMENT ===\nLabel : neutral\nScore : +0.1309\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-06-24 10:47:53\nHeadline  : بورصة مصر تعلن تنفيذ صفقة نقل ملكية على أسهم فوري بـ302 ألف جنيه\n\nالقاهرة - مباشر: أعلنت البورصة المصرية تنفيذ صفقة نقل ملكية أسهم في إطار نظام الإثابة والتحفيز على أسهم فوري لتكنولوجيا البنوك والمدفوعات الالكترونية بقيمة 302.3 ألف جنيه.\nوأوضحت البورصة في بيان اليوم أنه تم تنفيذ الصفقة عبر 53 ألف سهم.\nيشار ان فوري لتكنولوجيا البنوك والمدفوعات الإلكترونية،  سجلت صافي ربح بلغ 641.66 مليون جنيه خلال الفترة من يناير حتى نهاية مارس 2025، مقابل 333.71 مليون جنيه خلال الفترة نفسها من 2024، مع الأخذ في الاعتبار حقوق الأقلية.\nوارتفعت إيرادات الشركة خلال الثلاثة أشهر الأولى من العام الجاري إلى 1.79 مليار جنيه، مقابل 1.08 مليار جنيه خلال الربع نفسه من العام الماضي.\nوعلى صعيد القوائم غير المجمعة، ارتفعت أرباح الشركة المستقلة خلال الربع الأول من العام الجاري إلى 542.15 مليون جنيه، مقابل 305.19 مليون جنيه خلال الربع نفسه من 2024.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nأبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية\n..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر\n..\nاضغط هنا\nترشيحات\nتوقيع عقد لإنشاء مصنع جينز بالمنطقة الاقتصادية لقناة السويس باستثمارات تركية\n\n=== IMPACT AGENT OUTPUT (junior, Groq) ===\n{\n  \"news_type\": \"operational\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"لا ينطبق\",\n  \"key_drivers\": [\n    \"صفقة نقل ملكية أسهم فوري بقيمة 302.3 ألف جنيه عبر 53 ألف سهم\",\n    \"ارتفاع أرباح فوري المستقلة إلى 542.15 مليون جنيه في الربع الأول 2025\"\n  ],\n  \"ta_signals_cited\": [\n    \"bollinger_above_upper\",\n    \"macd_bullish_crossover\",\n    \"near_20d_high\",\n    \"strong_uptrend\",\n    \"normal_volatility\"\n  ],\n  \"dividend_info\": null,\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.65,\n      \"reasoning\": \"الوضع فوق المقبض (Bollinger Above Upper) يحد من التحرك الصعودي المحتمل، مع تأكيد MACD Bullish Crossover على استمرار الزخم الصعودي. التقلبات الطبيعية تشير إلى تأثير متناسب.\"\n    },\n    \"medium\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.6,\n      \"reasoning\": \"الاتجاه الصعودي القوي (Strong Uptrend) قد يدعم استقرار السعر، لكن القرب من أعلى 20 يومًا يشير إلى احتمال تصحيح طفيف. التأثير المركب على مدى يومين سيظل ضمن نطاق الأداء الطبيعي.\"\n    },\n    \"large\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.55,\n      \"reasoning\": \"الاتجاه الصعودي المستمر فوق المتوسطات الطويلة (MA-200) يدعم استقرار الأداء على المدى الطويل، لكن الضغوط الفنية من الوضع فوق المقبض قد تحد من التحركات الكبيرة.\"\n    }\n  },\n  \"overall_reasoning\": \"الوضع فوق المقبض (Bollinger Above Upper) يشير إلى احتمال تقييد التحرك الصعودي، بينما يعزز MACD Bullish Crossover من استمرار الزخم. القرب من أعلى 20 يومًا يشير إلى احتمال تصحيح طفيف. مع أن الإخبارية محايدة، فإن التقلبات الطبيعية (39.76% سنوية) تشير إلى أن التأثير سيكون ضمن نطاق الأداء العادي. النطاقات المخصصة للحجم (Magnitude Bands) تؤكد أن التحركات الأكبر من 4.14% غير محتملة في هذا السيناريو.\"\n}\n\n=== HORIZONS (predict ALL OF THEM) ===\n  short   -> t+0 only (just the start day's return)    AR label: اليوم الأول (t+0): رد الفعل الفوري\n  medium  -> t+0 .. t+1  (2 trading days cumulative)   AR label: اليومان الأولان (t+0 إلى t+1): الاستجابة المبكرة\n  large   -> t+0 .. t+19  (20 trading days cumulative)  AR label: العشرون يوم تداول (t+0 إلى t+19): الأثر الممتد\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- 'up'\nmeans OUTPERFORMING the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== REVIEW CHECKLIST ===\nC1. NEWS_TYPE correct?\nC2. TA_SIGNALS: every cited signal must be supported by the data. Override\n    inconsistent cites silently in your final output.\nC3. MAGNITUDE vs PER-COMPANY BANDS: does the predicted bucket match the\n    horizon's per-company thresholds? Adjust if mis-scaled.\nC4. PRICED-IN: if stock_vs_sector_1d aligns with the news direction, short\n    magnitude should default to \"small\" (R4).\nC5. DIVERGENCE: if a divergence signal is present, did the junior account for it?\nC6. CONFIDENCE: lower when context contradicts the call or news is priced in.\n    Default conf_large <= conf_medium <= conf_short.\nC7. DIVIDEND_INFO: if news_type=dividend, ensure yield_pct is present. If the\n    article gives the ex-div date, extract it as YYYY-MM-DD; otherwise null.\nC8. LANGUAGE: strip any non-Arabic word from Arabic fields (R6).\n\n=== USER-FACING EXPLANATION (the most important deliverable) ===\nYou will produce TWO reasoning blocks tuned to two audiences:\n\n  news_story:       PLAIN ARABIC, ZERO JARGON. Just the news content and what\n                    it means in everyday language. A retail investor with no\n                    finance training must understand it. No RSI / MACD / ATR.\n\n  technical_view:   Includes TA signals AND explains each term in Arabic\n                    inline. Format example:\n                      \"مؤشر RSI (مقياس قوة الشراء والبيع) عند 72 وهو مرتفع...\"\n                      \"مؤشر MACD (تقاطع المتوسطات المتحركة) في حالة هبوطية...\"\n                      \"نطاقات بولينجر (مستوى التذبذب) تشير إلى تشبع...\"\n                      \"مؤشر ATR (متوسط الحركة اليومية المعتادة) لهذا السهم 1.5%...\"\n\n  sentiment_note:   ONE Arabic sentence that surfaces the CAMeLBERT sentiment\n                    result (label + score given above in 'ARABIC SENTIMENT')\n                    AND explicitly says whether it agrees with our prediction\n                    or contradicts it.\n\n  outlook_by_horizon: ONE Arabic sentence per horizon. Direction + size + a\n                    one-clause reason. Numbers stated in plain language.\n\n  what_could_change_our_view: 1-2 Arabic sentences on key uncertainties.\n\nU-rules:\n  U1. NUMBERS WITH MEANING. Every cited number gets a plain-Arabic interpretation.\n  U2. STATE THE PREDICTION FIRST in news_story (direction + timeline), THEN evidence.\n  U3. BREVITY. Each field is short -- prefer 2-3 sentences max per field.\n  U4. 100% Arabic in this entire block. The next agent (QA) will reject leaks.\n\n=== INSTRUCTIONS ===\n1. Override the junior wherever evidence demands; do not surface the override\n   to the user -- just produce the corrected final prediction.\n2. Confidence: adjust per horizon. Default conf_large <= conf_medium <= conf_short.\n3. SPELLING: \"RSI-14\" not \"RS-14\". Proper Arabic punctuation.\n4. LANGUAGE: free-text Arabic; JSON keys + tickers + enum values in English.\n5. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"primary_company\": {\n    \"ticker\":              \"FWRY\",\n    \"news_type\":           \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n    \"already_priced_in\":   <true | false>,\n    \"quantified_ratio\":    \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n    \"ta_signals_cited\":    [\"<signal from closed vocab>\", \"...\"],\n    \"dividend_info\": null | {\n      \"yield_pct\":   <float>,\n      \"ex_div_date\": \"<YYYY-MM-DD or null>\",\n      \"amount_egp\":  <float or null>\n    },\n    \"per_horizon\": {\n      \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"},\n      \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"},\n      \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"}\n    },\n    \"overall_reasoning\":   \"<2-3 Arabic sentences. Reference the per-company bands. State news_type. Concise.>\"\n  },\n  \"tldr\": \"<one Arabic sentence summarising the whole view: direction + dominant horizon>\",\n  \"explanation_for_user\": {\n    \"headline\":                   \"<one sentence in plain Arabic, no jargon, captures the news>\",\n    \"news_story\":                 \"<2-3 sentences PLAIN Arabic, zero technical jargon. What happened and why it matters to an everyday investor.>\",\n    \"technical_view\":             \"<2-3 sentences with TA signals, EACH technical term explained in Arabic inline as shown above (RSI / MACD / Bollinger / ATR / divergence).>\",\n    \"sentiment_note\":             \"<1 Arabic sentence: state the CAMeLBERT label and score, and whether it agrees with our prediction.>\",\n    \"outlook_by_horizon\": {\n      \"short\":  \"<one Arabic sentence: direction + size + reason for t+0>\",\n      \"medium\": \"<one Arabic sentence: direction + size + reason for t+0..t+1>\",\n      \"large\":  \"<one Arabic sentence: direction + size + reason for t+0..t+19>\"\n    },\n    \"what_could_change_our_view\": \"<1-2 Arabic sentences on key uncertainties>\"\n  }\n}"
+  },
+  "impact_agent": {
+    "output": {
+      "news_type": "operational",
+      "already_priced_in": false,
+      "quantified_ratio": "لا ينطبق",
+      "key_drivers": [
+        "صفقة نقل ملكية أسهم فوري بقيمة 302.3 ألف جنيه عبر 53 ألف سهم",
+        "ارتفاع أرباح فوري المستقلة إلى 542.15 مليون جنيه في الربع الأول 2025"
+      ],
+      "ta_signals_cited": [
+        "bollinger_above_upper",
+        "macd_bullish_crossover",
+        "near_20d_high",
+        "strong_uptrend",
+        "normal_volatility"
+      ],
+      "dividend_info": null,
+      "per_horizon": {
+        "short": {
+          "direction": "neutral",
+          "magnitude": "small",
+          "confidence": 0.65,
+          "reasoning": "الوضع فوق المقبض (Bollinger Above Upper) يحد من التحرك الصعودي المحتمل، مع تأكيد MACD Bullish Crossover على استمرار الزخم الصعودي. التقلبات الطبيعية تشير إلى تأثير متناسب."
+        },
+        "medium": {
+          "direction": "neutral",
+          "magnitude": "small",
+          "confidence": 0.6,
+          "reasoning": "الاتجاه الصعودي القوي (Strong Uptrend) قد يدعم استقرار السعر، لكن القرب من أعلى 20 يومًا يشير إلى احتمال تصحيح طفيف. التأثير المركب على مدى يومين سيظل ضمن نطاق الأداء الطبيعي."
+        },
+        "large": {
+          "direction": "neutral",
+          "magnitude": "small",
+          "confidence": 0.55,
+          "reasoning": "الاتجاه الصعودي المستمر فوق المتوسطات الطويلة (MA-200) يدعم استقرار الأداء على المدى الطويل، لكن الضغوط الفنية من الوضع فوق المقبض قد تحد من التحركات الكبيرة."
+        }
+      },
+      "overall_reasoning": "الوضع فوق المقبض (Bollinger Above Upper) يشير إلى احتمال تقييد التحرك الصعودي، بينما يعزز MACD Bullish Crossover من استمرار الزخم. القرب من أعلى 20 يومًا يشير إلى احتمال تصحيح طفيف. مع أن الإخبارية محايدة، فإن التقلبات الطبيعية (39.76% سنوية) تشير إلى أن التأثير سيكون ضمن نطاق الأداء العادي. النطاقات المخصصة للحجم (Magnitude Bands) تؤكد أن التحركات الأكبر من 4.14% غير محتملة في هذا السيناريو."
+    },
+    "raw": "{  \"news_type\": \"operational\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"لا ينطبق\",\n  \"key_drivers\": [\"صفقة نقل ملكية أسهم فوري بقيمة 302.3 ألف جنيه عبر 53 ألف سهم\", \"ارتفاع أرباح فوري المستقلة إلى 542.15 مليون جنيه في الربع الأول 2025\"],\n  \"ta_signals_cited\": [\"bollinger_above_upper\", \"macd_bullish_crossover\", \"near_20d_high\", \"strong_uptrend\", \"normal_volatility\"],\n  \"dividend_info\": null,\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.65,\n      \"reasoning\": \"الوضع فوق المقبض (Bollinger Above Upper) يحد من التحرك الصعودي المحتمل، مع تأكيد MACD Bullish Crossover على استمرار الزخم الصعودي. التقلبات الطبيعية تشير إلى تأثير متناسب.\"\n    },\n    \"medium\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.6,\n      \"reasoning\": \"الاتجاه الصعودي القوي (Strong Uptrend) قد يدعم استقرار السعر، لكن القرب من أعلى 20 يومًا يشير إلى احتمال تصحيح طفيف. التأثير المركب على مدى يومين سيظل ضمن نطاق الأداء الطبيعي.\"\n    },\n    \"large\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.55,\n      \"reasoning\": \"الاتجاه الصعودي المستمر فوق المتوسطات الطويلة (MA-200) يدعم استقرار الأداء على المدى الطويل، لكن الضغوط الفنية من الوضع فوق المقبض قد تحد من التحركات الكبيرة.\"\n    }\n  },\n  \"overall_reasoning\": \"الوضع فوق المقبض (Bollinger Above Upper) يشير إلى احتمال تقييد التحرك الصعودي، بينما يعزز MACD Bullish Crossover من استمرار الزخم. القرب من أعلى 20 يومًا يشير إلى احتمال تصحيح طفيف. مع أن الإخبارية محايدة، فإن التقلبات الطبيعية (39.76% سنوية) تشير إلى أن التأثير سيكون ضمن نطاق الأداء العادي. النطاقات المخصصة للحجم (Magnitude Bands) تؤكد أن التحركات الأكبر من 4.14% غير محتملة في هذا السيناريو.\"\n}"
+  },
+  "critic_agent": {
+    "output": {
+      "primary_company": {
+        "ticker": "FWRY",
+        "news_type": "operational",
+        "already_priced_in": false,
+        "quantified_ratio": "لا ينطبق — صفقة نقل ملكية داخلية ضمن نظام الإثابة والتحفيز (302.3 ألف جنيه عبر 53 ألف سهم)، حجمها صغير مقارنة بحجم التداول اليومي، ولا تُغير هيكل الملكية أو عدد الأسهم القائمة.",
+        "ta_signals_cited": [
+          "bollinger_above_upper",
+          "macd_bullish_crossover",
+          "near_20d_high",
+          "strong_uptrend",
+          "normal_volatility"
+        ],
+        "dividend_info": null,
+        "per_horizon": {
+          "short": {
+            "direction": "up",
+            "magnitude": "small",
+            "confidence": 0.65,
+            "reasoning": "بولينجر فوق الحد العلوي (%B=1.073) وتقاطع MACD صعودي يؤكدان زخمًا إيجابيًا مع تقلبات طبيعية (39.76% سنويًا). القرب من أعلى 20 يومًا يحدّ من حجم الارتداد. الأخبار إيجابية لكن التأثير سيُقاس بالمقياس الطبيعي للحركة اليومية (ATR=2.07% ≈ 0.25 جنيه)."
+          },
+          "medium": {
+            "direction": "up",
+            "magnitude": "small",
+            "confidence": 0.6,
+            "reasoning": "أرباح الربع الأول 2025 ارتفعت إلى 542.15 مليون جنيه مقابل 305.19 مليون جنيه في 2024 — نمو 77% على أساس مستقل — وهو دعم جوهري. الاتجاه الصعودي القوي فوق MA-50 وMA-200 يدعم استمرار الأداء الإيجابي. لكن الوضع فوق بولينجر العلوي يحدّ من التوسع الكبير."
+          },
+          "large": {
+            "direction": "up",
+            "magnitude": "small",
+            "confidence": 0.55,
+            "reasoning": "مسافة +116.01% من أدنى 52 أسبوع تُظهر أن السهم بعيد عن القاع، مما يُقلّص احتمالية التصحيح الحاد. الاتجاه فوق المتوسطات المتحركة طويل المدى يدعم استقرار الأداء. العائد غير الطبيعي التراكمي الأخير إيجابي (أعلى من القطاع في 5 من آخر 5 أيام) مما يُشير إلى استمرار الزخم مع تقلبات ضمن النطاق الطبيعي."
+          }
+        },
+        "overall_reasoning": "هذا الخبر opérationnel بطبيعته: صفقة نقل ملكية صغيرة ضمن نظام الإثابة والتحفيز (302.3 ألف جنيه) إلى جانب أرباح قوية للربع الأول 2025 (542.15 مليون جنيه مقابل 305.19 مليون جنيه — نمو 77%). الزخم الفني إيجابي (MACD صعودي، بولينجر فوق الحد العلوي، اتجاه صعودي قوي) مما يدعم استمرار الأداء الإيجابي على جميع الآفاق الزمنية. لكن القرب من أعلى 20 يومًا والوضع فوق بولينجر يحدّان من حجم التوسع. باستخدام نطاقات الحجم الخاصة بالشركة (ATR=2.07%): small عند 1.45% وmedium عند 4.14% على المدى القصير؛ التحرك المتوقع ضمن نطاق small-medium على المدى القصير والمتوسط، مع تأثير ممتد لكن محدود على المدى الطويل."
+      },
+      "tldr": "أرباح فوري القوية (نمو 77% على أساس مستقل في الربع الأول 2025) ودعم الزخم الفني الإيجابي يُرجّح استمرار الأداء المتفوق على القطاع، لكن القرب من أعلى 20 يومًا يحدّ من حجم الحركة على المدى القصير والمتوسط.",
+      "explanation_for_user": {
+        "headline": "فوري تعلن عن أرباح قياسية للربع الأول من 2025 مع صفقة نقل ملكية داخلية صغيرة — زخم إيجابي مع حدود فنية",
+        "news_story": "أعلنت شركة فوري لتكنولوجيا البنوك والمدفوعات الإلكترونية عن أرباح صافية مستقلة بلغت 542.15 مليون جنيه خلال الربع الأول من 2025، مقارنةً بـ305.19 مليون جنيه في الفترة ذاتها من 2024، أي بنموٍّ وصل إلى 77%. كما ارتفعت الإيرادات إلى 1.79 مليار جنيه مقابل 1.08 مليار جنيه. تُظهر هذه الأرقام أن الشركة تنمو بسرعة كبيرة. إضافةً إلى ذلك، تم تنفيذ صفقة نقل ملكية أسهم بقيمة 302.3 ألف جنيه عبر 53 ألف سهم ضمن نظام الإثابة والتحفيز للموظفين — وهي صفقة صغيرة ولا تُغيّر من وضع الشركة.",
+        "technical_view": "مؤشر بولينجر (مستوى التذبذب) يُظهر أن السعر فوق الحد العلوي (مؤشر النطاق المئوي = 1.073)، مما يعني أن السعر قريب من أعلى مستوياته الأخيرة — ويحدّ ذلك من الحركة الصاعدة في المدى القصير. مؤشر تقاطع المتوسطات المتحركة أعطى إشارة صعودية اليوم (قيمة المؤشر = +0.0172)، مما يُؤكد استمرار الزخم الإيجابي. الاتجاه العام صعودي بقوة — السعر أعلى من متوسط 50 يومًا بنسبة 14.71% وأعلى من متوسط 200 يومًا بنسبة 35.25%. متوسط المدى الحقيقي اليومي لهذا السهم يبلغ 2.07%، أي أن الحركة اليومية المعتادة تتراوح حول 0.25 جنيه.",
+        "sentiment_note": "أظهرت نتيجة تحليل المشاعر نتيجة محايدة عند +0.1309 — وهي تتوافق مع توقعاتنا بتأثير إيجابي محدود؛ إذ يعكس التصنيف المحايد أن الخبر إيجابي لكنه غير مُفاجئ للسوق الذي كان يتوقع أداءً قويًا بالفعل.",
+        "outlook_by_horizon": {
+          "short": "المدى القصير (يوم واحد): ارتفاع طفيف — الزخم الإيجابي مدعوم بتقاطع المتوسطات المتحركة الصعودي، لكن القرب من أعلى 20 يومًا يحدّ من حجم الارتفاع المتوقع ضمن نطاقٍ صغير (أقل من 1.45% وهو حد النطاق الصغير لهذا السهم).",
+          "medium": "المدى المتوسط (يومان): ارتفاع محدود — أرباح الربع الأول القوية (نمو 77%) تدعم الاتجاه، لكن الوضع فوق الحد العلوي لمؤشر التذبذب يحدّ من التوسع؛ التأثير المتوقع ضمن نطاق الأداء الطبيعي (2-5% وهو نطاق صغير-متوسط).",
+          "large": "المدى الطويل (20 يومًا): استقرار إيجابي — الاتجاه الصعودي فوق المتوسطات الطويلة يدعم الأداء، مع عائد غير طبيعي تراكمي إيجابي في الأيام الأخيرة يشير إلى استمرار الأداء المتفوق على القطاع."
+        },
+        "what_could_change_our_view": "أي تراجع مفاجئ في أحجام التداول قد يُقلّص من الزخم الإيجابي؛ كما أن صدور تقارير سلبية عن قطاع التكنولوجيا المصري أو تحركات جيوسياسية قد تؤثر سلبًا على الاتجاه العام. يجب مراقبة بيانات التضخم المصري الأسبوع المقبل لأنها قد تُغيّر من توجهات المستثمرين تجاه أسهم التكنولوجيا."
+      }
+    },
+    "raw": "\n\n{\n  \"primary_company\": {\n    \"ticker\": \"FWRY\",\n    \"news_type\": \"operational\",\n    \"already_priced_in\": false,\n    \"quantified_ratio\": \"لا ينطبق — صفقة نقل ملكية داخلية ضمن نظام الإثابة والتحفيز (302.3 ألف جنيه عبر 53 ألف سهم)، حجمها صغير مقارنة بحجم التداول اليومي، ولا تُغير هيكل الملكية أو عدد الأسهم القائمة.\",\n    \"ta_signals_cited\": [\n      \"bollinger_above_upper\",\n      \"macd_bullish_crossover\",\n      \"near_20d_high\",\n      \"strong_uptrend\",\n      \"normal_volatility\"\n    ],\n    \"dividend_info\": null,\n    \"per_horizon\": {\n      \"short\": {\n        \"direction\": \"up\",\n        \"magnitude\": \"small\",\n        \"confidence\": 0.65,\n        \"reasoning\": \"بولينجر فوق الحد العلوي (%B=1.073) وتقاطع MACD صعودي يؤكدان زخمًا إيجابيًا مع تقلبات طبيعية (39.76% سنويًا). القرب من أعلى 20 يومًا يحدّ من حجم الارتداد. الأخبار إيجابية لكن التأثير سيُقاس بالمقياس الطبيعي للحركة اليومية (ATR=2.07% ≈ 0.25 جنيه).\"\n      },\n      \"medium\": {\n        \"direction\": \"up\",\n        \"magnitude\": \"small\",\n        \"confidence\": 0.6,\n        \"reasoning\": \"أرباح الربع الأول 2025 ارتفعت إلى 542.15 مليون جنيه مقابل 305.19 مليون جنيه في 2024 — نمو 77% على أساس مستقل — وهو دعم جوهري. الاتجاه الصعودي القوي فوق MA-50 وMA-200 يدعم استمرار الأداء الإيجابي. لكن الوضع فوق بولينجر العلوي يحدّ من التوسع الكبير.\"\n      },\n      \"large\": {\n        \"direction\": \"up\",\n        \"magnitude\": \"small\",\n        \"confidence\": 0.55,\n        \"reasoning\": \"مسافة +116.01% من أدنى 52 أسبوع تُظهر أن السهم بعيد عن القاع، مما يُقلّص احتمالية التصحيح الحاد. الاتجاه فوق المتوسطات المتحركة طويل المدى يدعم استقرار الأداء. العائد غير الطبيعي التراكمي الأخير إيجابي (أعلى من القطاع في 5 من آخر 5 أيام) مما يُشير إلى استمرار الزخم مع تقلبات ضمن النطاق الطبيعي.\"\n      }\n    },\n    \"overall_reasoning\": \"هذا الخبر opérationnel بطبيعته: صفقة نقل ملكية صغيرة ضمن نظام الإثابة والتحفيز (302.3 ألف جنيه) إلى جانب أرباح قوية للربع الأول 2025 (542.15 مليون جنيه مقابل 305.19 مليون جنيه — نمو 77%). الزخم الفني إيجابي (MACD صعودي، بولينجر فوق الحد العلوي، اتجاه صعودي قوي) مما يدعم استمرار الأداء الإيجابي على جميع الآفاق الزمنية. لكن القرب من أعلى 20 يومًا والوضع فوق بولينجر يحدّان من حجم التوسع. باستخدام نطاقات الحجم الخاصة بالشركة (ATR=2.07%): small عند 1.45% وmedium عند 4.14% على المدى القصير؛ التحرك المتوقع ضمن نطاق small-medium على المدى القصير والمتوسط، مع تأثير ممتد لكن محدود على المدى الطويل.\"\n  },\n  \"tldr\": \"أرباح فوري القوية (نمو 77% على أساس مستقل في الربع الأول 2025) ودعم الزخم الفني الإيجابي يُرجّح استمرار الأداء المتفوق على القطاع، لكن القرب من أعلى 20 يومًا يحدّ من حجم الحركة على المدى القصير والمتوسط.\",\n  \"explanation_for_user\": {\n    \"headline\": \"فوري تعلن عن أرباح قياسية للربع الأول 2025 مع صفقة نقل ملكية داخلية صغيرة — زخم إيجابي مع حدود فنية.\",\n    \"news_story\": \"أعلنت شركة فوري لتكنولوجيا البنوك والمدفوعات الإلكترونية عن أرباح صافية مستقلة بلغت 542.15 مليون جنيه خلال الربع الأول من 2025، مقارنة بـ 305.19 مليون جنيه في نفس الفترة من 2024، أي بنمو وصل إلى 77%. كما ارتفعت الإيرادات إلى 1.79 مليار جنيه مقابل 1.08 مليار جنيه. هذه الأرقام تُظهر أن الشركة تنمو بسرعة كبيرة. بالإضافة إلى ذلك، تم تنفيذ صفقة نقل ملكية أسهم بقيمة 302.3 ألف جنيه عبر 53 ألف سهم ضمن نظام الإثابة والتحفيز للموظفين — وهي صفقة صغيرة ولا تُغيّر من وضع الشركة.\",\n    \"technical_view\": \"مؤشر بولينجر (مستوى التذبذب) يُظهر السعر فوق الحد العلوي (%B=1.073) مما يعني أن السعر قريب من أعلى مستوياته الأخيرة — هذا يحدّ من الحركة الصاعدة في المدى القصير. مؤشر MACD (تقاطع المتوسطات المتحركة) أعطى إشارة صعودية اليوم (hist=+0.0172) مما يُؤكد استمرار الزخم الإيجابي. الاتجاه العام صعودي بقوة — السعر أعلى من متوسط 50 يومًا بنسبة 14.71% وأعلى من متوسط 200 يومًا بنسبة 35.25%. متوسط الحركة اليومية المعتادة (ATR) لهذا السهم هو 2.07% — أي أن الحركة الطبيعية اليومية تتراوح حول 0.25 جنيه.\",\n    \"sentiment_note\": \"نتيجة تحليل المشاعر (CAMeLBERT) جاءت محايدة عند +0.1309 — وهي تتوافق مع توقعاتنا بتأثير إيجابي محدود؛ التصنيف المحايد يعكس أن الخبر إيجابي لكنه غير مُفاجئ للسوق الذي كان يتوقع أداءً قويًا بالفعل.\",\n    \"outlook_by_horizon\": {\n      \"short\": \"المدى القصير (يوم واحد): ارتفاع طفيف — الزخم الإيجابي مدعوم بتقاطع MACD الصعودي، لكن القرب من أعلى 20 يومًا يحدّ من حجم الارتفاع المتوقع ضمن نطاق صغير (أقل من 1.45% وهو حد النطاق الصغير لهذا السهم).\",\n      \"medium\": \"المدى المتوسط (يومان): ارتفاع محدود — أرباح الربع الأول القوية (نمو 77%) تدعم الاتجاه، لكن الوضع فوق بولينجر العلوي يحدّ من التوسع؛ التأثير المتوقع ضمن نطاق الأداء الطبيعي (2-5% وهو نطاق small-medium).\",\n      \"large\": \"المدى الطويل (20 يومًا): استقرار إيجابي — الاتجاه الصعودي فوق المتوسطات الطويلة يدعم الأداء، مع عائد غير طبيعي تراكمي إيجابي في الأيام الأخيرة يشير إلى استمرار الأداء المتفوق على القطاع.\"\n    },\n    \"what_could_change_our_view\": \"أي تراجع مفاجئ في أحجام التداول قد يُقلّص من الزخم الإيجابي؛ كما أن صدور تقارير سلبية عن قطاع التكنولوجيا المصري أو تحركات جيوسياسية قد تؤثر سلبًا على الاتجاه العام. يجب مراقبة بيانات التضخم المصري الأسبوع القادم لأنها قد تُغيّر من توجهات المستثمرين تجاه أسهم التكنولوجيا.\"\n  }\n}",
+    "thinking": "Let me analyze this carefully as a senior quantitative risk analyst.\n\n## Step 1: Audit the junior's TA citations\n\nThe junior cited:\n1. bollinger_above_upper - YES, %B=1.073 confirms this\n2. macd_bullish_crossover - YES, state=bullish_crossover_today, hist=+0.0172\n3. near_20d_high - YES, distance to 20d_hi is +0.00%\n4. strong_uptrend - YES, above MA-50 and MA-200, +14.71% and +35.25%\n5. normal_volatility - YES, Vol 20d ann = 39.76% labeled as [normal regime]\n\nAll cited signals are consistent with data. ✓\n\n## Step 2: News Type Analysis\n\nThe article describes:\n- A stock ownership transfer transaction (صفقة نقل ملكية أسهم)\n- In the context of an employee incentive/stock compensation system (نظام الإثابة والتحفيز)\n- Value: 302.3 thousand EGP via 53,000 shares\n- Also mentions Q1 2025 earnings: net profit 641.66M EGP vs 333.71M EGP (YoY)\n- Revenues: 1.79B EGP vs 1.08B EGP (YoY)\n- Standalone profit: 542.15M EGP vs 305.19M EGP (YoY)\n\nThis is an \"operational\" news type (share-based compensation + earnings). The news isn't about capital increase or M&A per se - it's about a small ownership transfer within an incentive system, plus strong earnings.\n\nWait - looking more carefully, \"صفقة نقل ملكية\" in context of \"نظام الإثابة والتحفيز\" = this is a stock-based compensation/esop transaction. This is operational in nature. Not a capital increase in the traditional sense (no new shares being issued to the market). The 53,000 shares appear to be internal transfer.\n \nThe earnings picture is fundamentally positive—revenues and profits both doubled year-over-year with standalone profit hitting 542.15M versus 305.19M. The actual ownership transfer is modest at 302.3K EGP, representing just a fraction of daily trading volume. However, the stock's recent performance complicates the outlook: it's already up 2.56% today and 10.18% over the past five days, sitting near its 20-day high with elevated RSI at 66.20 and Bollinger Bands positioned above the upper band. This positioning suggests the stock is technically extended, which could limit further upside despite the strong earnings foundation.\n\nThe MACD bullish crossover is technically supportive, but with only 0.39% outperformance versus the sector today, the positive news appears substantially reflected in current pricing. The ownership transfer itself is immaterial relative to the stock's already-elevated valuation and technical state.\n\nGiven the overbought technical position and minimal news impact, I'm adjusting the short-term outlook downward. The stock is near the upper band at 1.073, RSI at 66.20 approaches overbought territory, and we're at the 20-day high—all suggesting limited upside potential. Since the news is already priced in with recent outperformance lagging the sector, small negative movement seems most probable for the immediate period.\n\nFor the medium term, I'm reconsidering the earnings direction. The actual earnings report shows very strong performance—net profit of 641.66 million EGP versus 333.71 million, roughly 92% growth year-over-year. This is substantial positive news that should support the stock, though the magnitude of impact will likely be constrained by the overbought technical conditions. The earnings beat is genuinely bullish, but the stock's positioning limits how much further it can run.\n\nFor the large horizon, I'm calibrating against the company's own volatility bands rather than global rules. With ATR around 2.07%, the thresholds are: small movement under 1.45%, medium between 1.45-4.14%, and large above 4.14%. Since the overbought conditions persist but the earnings catalyst is material, I'm settling on a medium call for both short and medium horizons.\n\nThe earnings acceleration from 305 to 542 million is substantial enough to justify a small-medium range for short-term, with medium confirming that trajectory. The fundamental story is genuinely strong, yet the stock's elevated positioning caps how much further it can move. I'm applying a neutral stance with low-medium confidence given the conflicting signals—the earnings justify optimism, but technical constraints limit the upside.\n\nThe per-company calibration supports this too: the move aligns with normal volatility (roughly 2% over two days), and recent abnormal returns have been consistently positive, suggesting the stock has room to run despite near-term resistance. The price already reflects some premium through the strong uptrend, so I'm setting confidence at 0.55 for the medium horizon—bullish earnings offset by capped upside from overbought conditions.\n"
+  },
+  "arabic_qa": {
+    "enabled": true,
+    "model": "claude-sonnet-4-6",
+    "explanation_pre": {
+      "headline": "فوري تعلن عن أرباح قياسية للربع الأول 2025 مع صفقة نقل ملكية داخلية صغيرة — زخم إيجابي مع حدود فنية.",
+      "news_story": "أعلنت شركة فوري لتكنولوجيا البنوك والمدفوعات الإلكترونية عن أرباح صافية مستقلة بلغت 542.15 مليون جنيه خلال الربع الأول من 2025، مقارنة بـ 305.19 مليون جنيه في نفس الفترة من 2024، أي بنمو وصل إلى 77%. كما ارتفعت الإيرادات إلى 1.79 مليار جنيه مقابل 1.08 مليار جنيه. هذه الأرقام تُظهر أن الشركة تنمو بسرعة كبيرة. بالإضافة إلى ذلك، تم تنفيذ صفقة نقل ملكية أسهم بقيمة 302.3 ألف جنيه عبر 53 ألف سهم ضمن نظام الإثابة والتحفيز للموظفين — وهي صفقة صغيرة ولا تُغيّر من وضع الشركة.",
+      "technical_view": "مؤشر بولينجر (مستوى التذبذب) يُظهر السعر فوق الحد العلوي (%B=1.073) مما يعني أن السعر قريب من أعلى مستوياته الأخيرة — هذا يحدّ من الحركة الصاعدة في المدى القصير. مؤشر MACD (تقاطع المتوسطات المتحركة) أعطى إشارة صعودية اليوم (hist=+0.0172) مما يُؤكد استمرار الزخم الإيجابي. الاتجاه العام صعودي بقوة — السعر أعلى من متوسط 50 يومًا بنسبة 14.71% وأعلى من متوسط 200 يومًا بنسبة 35.25%. متوسط الحركة اليومية المعتادة (ATR) لهذا السهم هو 2.07% — أي أن الحركة الطبيعية اليومية تتراوح حول 0.25 جنيه.",
+      "sentiment_note": "نتيجة تحليل المشاعر (CAMeLBERT) جاءت محايدة عند +0.1309 — وهي تتوافق مع توقعاتنا بتأثير إيجابي محدود؛ التصنيف المحايد يعكس أن الخبر إيجابي لكنه غير مُفاجئ للسوق الذي كان يتوقع أداءً قويًا بالفعل.",
+      "outlook_by_horizon": {
+        "short": "المدى القصير (يوم واحد): ارتفاع طفيف — الزخم الإيجابي مدعوم بتقاطع MACD الصعودي، لكن القرب من أعلى 20 يومًا يحدّ من حجم الارتفاع المتوقع ضمن نطاق صغير (أقل من 1.45% وهو حد النطاق الصغير لهذا السهم).",
+        "medium": "المدى المتوسط (يومان): ارتفاع محدود — أرباح الربع الأول القوية (نمو 77%) تدعم الاتجاه، لكن الوضع فوق بولينجر العلوي يحدّ من التوسع؛ التأثير المتوقع ضمن نطاق الأداء الطبيعي (2-5% وهو نطاق small-medium).",
+        "large": "المدى الطويل (20 يومًا): استقرار إيجابي — الاتجاه الصعودي فوق المتوسطات الطويلة يدعم الأداء، مع عائد غير طبيعي تراكمي إيجابي في الأيام الأخيرة يشير إلى استمرار الأداء المتفوق على القطاع."
+      },
+      "what_could_change_our_view": "أي تراجع مفاجئ في أحجام التداول قد يُقلّص من الزخم الإيجابي؛ كما أن صدور تقارير سلبية عن قطاع التكنولوجيا المصري أو تحركات جيوسياسية قد تؤثر سلبًا على الاتجاه العام. يجب مراقبة بيانات التضخم المصري الأسبوع القادم لأنها قد تُغيّر من توجهات المستثمرين تجاه أسهم التكنولوجيا."
+    },
+    "explanation_post": {
+      "headline": "فوري تعلن عن أرباح قياسية للربع الأول من 2025 مع صفقة نقل ملكية داخلية صغيرة — زخم إيجابي مع حدود فنية",
+      "news_story": "أعلنت شركة فوري لتكنولوجيا البنوك والمدفوعات الإلكترونية عن أرباح صافية مستقلة بلغت 542.15 مليون جنيه خلال الربع الأول من 2025، مقارنةً بـ305.19 مليون جنيه في الفترة ذاتها من 2024، أي بنموٍّ وصل إلى 77%. كما ارتفعت الإيرادات إلى 1.79 مليار جنيه مقابل 1.08 مليار جنيه. تُظهر هذه الأرقام أن الشركة تنمو بسرعة كبيرة. إضافةً إلى ذلك، تم تنفيذ صفقة نقل ملكية أسهم بقيمة 302.3 ألف جنيه عبر 53 ألف سهم ضمن نظام الإثابة والتحفيز للموظفين — وهي صفقة صغيرة ولا تُغيّر من وضع الشركة.",
+      "technical_view": "مؤشر بولينجر (مستوى التذبذب) يُظهر أن السعر فوق الحد العلوي (مؤشر النطاق المئوي = 1.073)، مما يعني أن السعر قريب من أعلى مستوياته الأخيرة — ويحدّ ذلك من الحركة الصاعدة في المدى القصير. مؤشر تقاطع المتوسطات المتحركة أعطى إشارة صعودية اليوم (قيمة المؤشر = +0.0172)، مما يُؤكد استمرار الزخم الإيجابي. الاتجاه العام صعودي بقوة — السعر أعلى من متوسط 50 يومًا بنسبة 14.71% وأعلى من متوسط 200 يومًا بنسبة 35.25%. متوسط المدى الحقيقي اليومي لهذا السهم يبلغ 2.07%، أي أن الحركة اليومية المعتادة تتراوح حول 0.25 جنيه.",
+      "sentiment_note": "أظهرت نتيجة تحليل المشاعر نتيجة محايدة عند +0.1309 — وهي تتوافق مع توقعاتنا بتأثير إيجابي محدود؛ إذ يعكس التصنيف المحايد أن الخبر إيجابي لكنه غير مُفاجئ للسوق الذي كان يتوقع أداءً قويًا بالفعل.",
+      "outlook_by_horizon": {
+        "short": "المدى القصير (يوم واحد): ارتفاع طفيف — الزخم الإيجابي مدعوم بتقاطع المتوسطات المتحركة الصعودي، لكن القرب من أعلى 20 يومًا يحدّ من حجم الارتفاع المتوقع ضمن نطاقٍ صغير (أقل من 1.45% وهو حد النطاق الصغير لهذا السهم).",
+        "medium": "المدى المتوسط (يومان): ارتفاع محدود — أرباح الربع الأول القوية (نمو 77%) تدعم الاتجاه، لكن الوضع فوق الحد العلوي لمؤشر التذبذب يحدّ من التوسع؛ التأثير المتوقع ضمن نطاق الأداء الطبيعي (2-5% وهو نطاق صغير-متوسط).",
+        "large": "المدى الطويل (20 يومًا): استقرار إيجابي — الاتجاه الصعودي فوق المتوسطات الطويلة يدعم الأداء، مع عائد غير طبيعي تراكمي إيجابي في الأيام الأخيرة يشير إلى استمرار الأداء المتفوق على القطاع."
+      },
+      "what_could_change_our_view": "أي تراجع مفاجئ في أحجام التداول قد يُقلّص من الزخم الإيجابي؛ كما أن صدور تقارير سلبية عن قطاع التكنولوجيا المصري أو تحركات جيوسياسية قد تؤثر سلبًا على الاتجاه العام. يجب مراقبة بيانات التضخم المصري الأسبوع المقبل لأنها قد تُغيّر من توجهات المستثمرين تجاه أسهم التكنولوجيا."
+    }
+  },
+  "final": {
+    "ticker": "FWRY",
+    "news_type": "operational",
+    "already_priced_in": false,
+    "quantified_ratio": "لا ينطبق — صفقة نقل ملكية داخلية ضمن نظام الإثابة والتحفيز (302.3 ألف جنيه عبر 53 ألف سهم)، حجمها صغير مقارنة بحجم التداول اليومي، ولا تُغير هيكل الملكية أو عدد الأسهم القائمة.",
+    "ta_signals_cited": [
+      "bollinger_above_upper",
+      "macd_bullish_crossover",
+      "near_20d_high",
+      "strong_uptrend",
+      "normal_volatility"
+    ],
+    "dividend_info": null,
+    "per_horizon": {
+      "short": {
+        "direction": "up",
+        "magnitude": "small",
+        "confidence": 0.65,
+        "reasoning": "بولينجر فوق الحد العلوي (%B=1.073) وتقاطع MACD صعودي يؤكدان زخمًا إيجابيًا مع تقلبات طبيعية (39.76% سنويًا). القرب من أعلى 20 يومًا يحدّ من حجم الارتداد. الأخبار إيجابية لكن التأثير سيُقاس بالمقياس الطبيعي للحركة اليومية (ATR=2.07% ≈ 0.25 جنيه)."
+      },
+      "medium": {
+        "direction": "up",
+        "magnitude": "small",
+        "confidence": 0.6,
+        "reasoning": "أرباح الربع الأول 2025 ارتفعت إلى 542.15 مليون جنيه مقابل 305.19 مليون جنيه في 2024 — نمو 77% على أساس مستقل — وهو دعم جوهري. الاتجاه الصعودي القوي فوق MA-50 وMA-200 يدعم استمرار الأداء الإيجابي. لكن الوضع فوق بولينجر العلوي يحدّ من التوسع الكبير."
+      },
+      "large": {
+        "direction": "up",
+        "magnitude": "small",
+        "confidence": 0.55,
+        "reasoning": "مسافة +116.01% من أدنى 52 أسبوع تُظهر أن السهم بعيد عن القاع، مما يُقلّص احتمالية التصحيح الحاد. الاتجاه فوق المتوسطات المتحركة طويل المدى يدعم استقرار الأداء. العائد غير الطبيعي التراكمي الأخير إيجابي (أعلى من القطاع في 5 من آخر 5 أيام) مما يُشير إلى استمرار الزخم مع تقلبات ضمن النطاق الطبيعي."
+      }
+    },
+    "overall_reasoning": "هذا الخبر opérationnel بطبيعته: صفقة نقل ملكية صغيرة ضمن نظام الإثابة والتحفيز (302.3 ألف جنيه) إلى جانب أرباح قوية للربع الأول 2025 (542.15 مليون جنيه مقابل 305.19 مليون جنيه — نمو 77%). الزخم الفني إيجابي (MACD صعودي، بولينجر فوق الحد العلوي، اتجاه صعودي قوي) مما يدعم استمرار الأداء الإيجابي على جميع الآفاق الزمنية. لكن القرب من أعلى 20 يومًا والوضع فوق بولينجر يحدّان من حجم التوسع. باستخدام نطاقات الحجم الخاصة بالشركة (ATR=2.07%): small عند 1.45% وmedium عند 4.14% على المدى القصير؛ التحرك المتوقع ضمن نطاق small-medium على المدى القصير والمتوسط، مع تأثير ممتد لكن محدود على المدى الطويل."
+  }
+}

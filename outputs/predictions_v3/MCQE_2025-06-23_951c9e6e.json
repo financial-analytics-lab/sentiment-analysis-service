@@ -1,0 +1,381 @@
+{
+  "ticker": "MCQE",
+  "article_date": "2025-06-23",
+  "context_date": "2025-06-22",
+  "processed_at": "2026-05-18T20:00:47.240522",
+  "article": {
+    "symbol": "MCQE",
+    "company": "Misr Cement (Qena)",
+    "isin": "EGS3C391C017",
+    "sector": "Construction & Building Materials",
+    "id": "4462980",
+    "date": "2025-06-23",
+    "time": "09:12:37",
+    "datetime": "2025-06-23 09:12:37",
+    "title": "اليوم.. نهاية الحق في توزيع كوبون مصر للأسمنت - قنا",
+    "body": "القاهرة - مباشر: ينتهي خلال جلسة اليوم الأثنين، الحق في التوزيع النقدي لشركة مصر للأسمنت - قنا.\nومن المقرر توزيع كوبون مصر للأسمنت - قنا رقم (26) بواقع 1 جنيه للسهم الواحد على\nقسطين:\nالقسط الأول:\n0.5 جنيه ويصرف اعتباراً من 26 يونيو 2025\nالقسط الثاني:\n0.5 جنيه ويصرف اعتبارا من 27 نوفمبر 2025\nيشار أن مصر للأسمنت - قنا،  سجلت صافي ربح بلغ 310.7 مليون جنيه منذ بداية يناير حتى نهاية مارس 2025، مقابل أرباح بلغت 32.45 مليون جنيه خلال نفس الفترة من العام الماضي، مع الأخذ في الاعتبار حقوق الأقلية.\nوارتفعت صافي مبيعات الشركة خلال الثلاثة أشهر الأولى من العام الجاري إلى 1.82 مليار جنيه، مقابل 1.25 مليار جنيه خلال نفس الفترة من العام الماضي.\nوارتفعت أرباح الشركة في القوائم المستقلة إلى 165.36 مليون جنيه بنهاية الربع الأول من 2025، مقابل 48.63 مليون جنيه خلال نفس الربع من العام الماضي.\nوكانت مصر للأسمنت - قنا، حققت صافي أرباح بلغ 271.38 مليون جنيه خلال 2024، مقابل أرباح بلغت 115.35 مليون جنيه في 2023، مع الاخذ فى الاعتبار حقوق الأقلية.\nوارتفعت مبيعات الشركة خلال العام الماضي إلى 5.83 مليار جنيه، مقارنة بـ4.03 مليار جنيه خلال العام السابق له.\nوعلى مستوى الأعمال المستقلة، صعدت الأرباح خلال العام الماضي إلى 215.75 مليون جنيه، مقابل أرباح بقيمة 75.81 مليون جنيه خلال 2023.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية\n..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر\n..\nاضغط هنا\nترشيحات:\nالجاسر: 4.4 مليار دولار تمويلاً للبنك الإسلامي للتنمية لمشاريع مكافحة التصحر",
+    "teaser": "القاهرة - مباشر: ينتهي خلال جلسة اليوم الأثنين، الحق في التوزيع النقدي لشركة مصر للأسمنت - قنا. ومن المقرر توزيع كوبون مصر للأسمنت - قنا رقم (26) بواقع 1 جنيه للسهم الواحد على قسطين: القسط الأول: 0.5 جنيه ويصرف اعتباراً من 26 يونيو 2025 القسط …",
+    "section": "أخبار الشركة",
+    "source": "مباشر",
+    "categories": "stock-bonds",
+    "country": "مصر",
+    "reads": 2152,
+    "url": "https://www.mubasher.info/news/4462980",
+    "image_url": "https://static.mubasher.info/File.Story_Image/ecbcfa72810e6f655059b8729e034846/640.jpg",
+    "date_raw": ""
+  },
+  "sentiment": {
+    "model": "CAMeL-Lab/bert-base-arabic-camelbert-mix-sentiment",
+    "label": "neutral",
+    "score": 0.0678,
+    "numeric": 0,
+    "class_probs": {
+      "neutral": 0.9282,
+      "positive": 0.0698,
+      "negative": 0.002
+    }
+  },
+  "context": {
+    "ticker": "MCQE",
+    "company": "Misr Cement Qena - MCQE",
+    "sector": "Construction & Building Materials",
+    "business_description": "Misr Cement Qena — cement producer in Upper Egypt; exposed to construction sector cycles and energy cost inflation.",
+    "event_date": "2025-06-23",
+    "last_price_date": "2025-06-22",
+    "price_state": {
+      "last_close": 48.8,
+      "return_1d": -1.35,
+      "return_5d": 21.79,
+      "return_20d": 63.98,
+      "return_60d": 100.74,
+      "pct_vs_ma50": 47.48,
+      "pct_vs_ma200": 81.14,
+      "vol_20d_annualized_pct": 71.93,
+      "vol_regime": "elevated",
+      "rsi_14": 74.73
+    },
+    "market_state": {
+      "sector_return_1d": -0.11,
+      "sector_return_5d": 7.79,
+      "relative_strength_vs_sector_1d": -1.24
+    },
+    "correlation_state": {
+      "corr_with_sector_90d": 0.83,
+      "top_3_correlated_peers": [
+        {
+          "ticker": "ARCC",
+          "correlation": 0.36,
+          "sector": "Construction & Building Materials"
+        },
+        {
+          "ticker": "ETEL",
+          "correlation": 0.26,
+          "sector": "Telecommunications"
+        },
+        {
+          "ticker": "CCAP",
+          "correlation": 0.24,
+          "sector": "Non-Bank Financials"
+        }
+      ]
+    },
+    "recent_abnormal_returns": [
+      {
+        "date": "2025-06-16",
+        "stock_return_pct": 6.16,
+        "sector_return_pct": 2.9,
+        "abnormal_return_pct": 3.26
+      },
+      {
+        "date": "2025-06-17",
+        "stock_return_pct": 7.48,
+        "sector_return_pct": 2.59,
+        "abnormal_return_pct": 4.89
+      },
+      {
+        "date": "2025-06-18",
+        "stock_return_pct": 4.44,
+        "sector_return_pct": 1.64,
+        "abnormal_return_pct": 2.8
+      },
+      {
+        "date": "2025-06-19",
+        "stock_return_pct": 3.6,
+        "sector_return_pct": 2.04,
+        "abnormal_return_pct": 1.56
+      },
+      {
+        "date": "2025-06-22",
+        "stock_return_pct": -1.35,
+        "sector_return_pct": 0.06,
+        "abnormal_return_pct": -1.41
+      }
+    ],
+    "technical_signals": {
+      "rsi_14": 74.73,
+      "rsi_zone": "overbought",
+      "macd": {
+        "line": 4.2695,
+        "signal": 3.8882,
+        "histogram": 0.3812,
+        "state": "bullish"
+      },
+      "bollinger": {
+        "pct_b": 0.887,
+        "bandwidth_pct": 43.05,
+        "zone": "near_upper"
+      },
+      "distance_to_extremes": {
+        "20d_high_distance_pct": -1.35,
+        "20d_low_distance_pct": 45.15,
+        "60d_high_distance_pct": -1.35,
+        "60d_low_distance_pct": 98.86,
+        "252d_high_distance_pct": -1.35,
+        "252d_low_distance_pct": 232.65
+      },
+      "rsi_divergence": "none",
+      "atr_pct_14d": 4.06,
+      "consecutive_streak": -1
+    },
+    "dynamic_bands": {
+      "horizon_trading_days": {
+        "short": 1,
+        "medium": 2,
+        "large": 20
+      },
+      "neutral_band_pct": {
+        "short": 2.03,
+        "medium": 2.87,
+        "large": 9.08
+      },
+      "magnitude_bands_pct": {
+        "short": {
+          "small": [
+            0.0,
+            2.84
+          ],
+          "medium": [
+            2.84,
+            8.12
+          ],
+          "large": [
+            8.12,
+            null
+          ]
+        },
+        "medium": {
+          "small": [
+            0.0,
+            4.02
+          ],
+          "medium": [
+            4.02,
+            11.48
+          ],
+          "large": [
+            11.48,
+            null
+          ]
+        },
+        "large": {
+          "small": [
+            0.0,
+            12.71
+          ],
+          "medium": [
+            12.71,
+            36.31
+          ],
+          "large": [
+            36.31,
+            null
+          ]
+        }
+      },
+      "atr_pct_anchor": 4.06
+    },
+    "news_timing": {
+      "in_trading_hours": false,
+      "arrived_at_str": "2025-06-23 09:12:37",
+      "start_day_label": "next trading day after event_date (news arrived outside EGX hours)"
+    }
+  },
+  "prompts": {
+    "impact": "You are a quantitative analyst predicting Egyptian Stock Exchange (EGX) stock reactions to Arabic news. Your prediction must be grounded in the technical signals provided and calibrated to this specific ticker's volatility.\n\n=== COMPANY ===\nTicker      : MCQE\nName        : Misr Cement Qena - MCQE\nSector      : Construction & Building Materials\nDescription : Misr Cement Qena — cement producer in Upper Egypt; exposed to construction sector cycles and energy cost inflation.\nPrice data  : as of 2025-06-22  (article date: 2025-06-23)\n\n=== PRICE STATE ===\nLast close  : 48.80 EGP\nReturn 1d   : -1.35%   5d : +21.79%   20d : +63.98%   60d : +100.74%\nvs MA-50    : +47.48%  vs MA-200 : +81.14%\nTrend       : uptrend (above MA-50 and MA-200)\nVol 20d ann : 71.93%  [elevated regime]  Elevated -> impact AMPLIFIED.\n\n=== SECTOR ===\nSector 1d   : -0.11%  5d : +7.79%\nStock vs sector 1d : -1.24%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 0.83\nTop peers:\n  - ARCC | Construction & Building Materials | 90d-corr: 0.36\n  - ETEL | Telecommunications | 90d-corr: 0.26\n  - CCAP | Non-Bank Financials | 90d-corr: 0.24\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2025-06-16: stock +6.16%  sector +2.90%  AR +3.26%\n  2025-06-17: stock +7.48%  sector +2.59%  AR +4.89%\n  2025-06-18: stock +4.44%  sector +1.64%  AR +2.80%\n  2025-06-19: stock +3.60%  sector +2.04%  AR +1.56%\n  2025-06-22: stock -1.35%  sector +0.06%  AR -1.41%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 74.73  [overbought]\nMACD      : state=bullish  hist=+0.3812\nBollinger : zone=near_upper  %B=0.887\nDistance  : 20d_hi -1.35%  20d_lo +45.15%  60d_hi -1.35%  60d_lo +98.86%  52w_hi -1.35%  52w_lo +232.65%\nDivergence : none\nATR 14d   : 4.06%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : -1 (down streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=4.06%) ===\n  short   (N= 1d)  neutral=+-2.03%  small <2.84%  medium 2.84%-8.12%  large >=8.12%\n  medium  (N= 2d)  neutral=+-2.87%  small <4.02%  medium 4.02%-11.48%  large >=11.48%\n  large   (N=20d)  neutral=+-9.08%  small <12.71%  medium 12.71%-36.31%  large >=36.31%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-06-23 09:12:37\nIn trading hours: False  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : next trading day after event_date (news arrived outside EGX hours)\nHorizons (days) : short=1d ; medium=2d ; large=20d\n\n=== ARABIC SENTIMENT (one input among many) ===\nLabel : neutral\nScore : +0.0678   (-1 strongly negative -> +1 strongly positive)\nNOTE: CAMeLBERT classifies tone, not financial implication.\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-06-23 09:12:37\nHeadline  : اليوم.. نهاية الحق في توزيع كوبون مصر للأسمنت - قنا\n\nالقاهرة - مباشر: ينتهي خلال جلسة اليوم الأثنين، الحق في التوزيع النقدي لشركة مصر للأسمنت - قنا.\nومن المقرر توزيع كوبون مصر للأسمنت - قنا رقم (26) بواقع 1 جنيه للسهم الواحد على\nقسطين:\nالقسط الأول:\n0.5 جنيه ويصرف اعتباراً من 26 يونيو 2025\nالقسط الثاني:\n0.5 جنيه ويصرف اعتبارا من 27 نوفمبر 2025\nيشار أن مصر للأسمنت - قنا،  سجلت صافي ربح بلغ 310.7 مليون جنيه منذ بداية يناير حتى نهاية مارس 2025، مقابل أرباح بلغت 32.45 مليون جنيه خلال نفس الفترة من العام الماضي، مع الأخذ في الاعتبار حقوق الأقلية.\nوارتفعت صافي مبيعات الشركة خلال الثلاثة أشهر الأولى من العام الجاري إلى 1.82 مليار جنيه، مقابل 1.25 مليار جنيه خلال نفس الفترة من العام الماضي.\nوارتفعت أرباح الشركة في القوائم المستقلة إلى 165.36 مليون جنيه بنهاية الربع الأول من 2025، مقابل 48.63 مليون جنيه خلال نفس الربع من العام الماضي.\nوكانت مصر للأسمنت - قنا، حققت صافي أرباح بلغ 271.38 مليون جنيه خلال 2024، مقابل أرباح بلغت 115.35 مليون جنيه في 2023، مع الاخذ فى الاعتبار حقوق الأقلية.\nوارتفعت مبيعات الشركة خلال العام الماضي إلى 5.83 مليار جنيه، مقارنة بـ4.03 مليار جنيه خلال العام السابق له.\nوعلى مستوى الأعمال المستقلة، صعدت الأرباح خلال العام الماضي إلى 215.75 مليون جنيه، مقابل أرباح بقيمة 75.81 مليون جنيه خلال 2023.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية\n..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر\n..\nاضغط هنا\nترشيحات:\nالجاسر: 4.4 مليار دولار تمويلاً للبنك الإسلامي للتنمية لمشاريع مكافحة التصحر\n\n=== HORIZONS (predict ALL OF THEM) ===\n  short   -> t+0 only (just the start day's return)    AR label: اليوم الأول (t+0): رد الفعل الفوري\n  medium  -> t+0 .. t+1  (2 trading days cumulative)   AR label: اليومان الأولان (t+0 إلى t+1): الاستجابة المبكرة\n  large   -> t+0 .. t+19  (20 trading days cumulative)  AR label: العشرون يوم تداول (t+0 إلى t+19): الأثر الممتد\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- 'up'\nmeans OUTPERFORMING the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== OUTPUT INSTRUCTIONS ===\n1. Classify news_type FIRST.\n2. Walk through T1-T5. Pick TA signals that ACTUALLY apply from the closed vocab.\n3. Anchor magnitudes to the PER-COMPANY bands above (NOT a global rule).\n4. Quantify any dilution/yield ratio with both inputs.\n5. If news_type=dividend, FILL dividend_info; otherwise set it to null.\n6. LANGUAGE: free-text Arabic. JSON keys + enum values in English.\n7. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"news_type\":         \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n  \"already_priced_in\": <true | false>,\n  \"quantified_ratio\":  \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n  \"key_drivers\":       [\"<driver 1 Arabic>\", \"<driver 2 Arabic>\"],\n  \"ta_signals_cited\":  [\"<signal from closed vocab>\", \"...\"],\n  \"dividend_info\": null | {\n    \"yield_pct\":      <float>,\n    \"ex_div_date\":    \"<YYYY-MM-DD or null if unknown>\",\n    \"amount_egp\":     <float or null>\n  },\n  \"per_horizon\": {\n    \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"},\n    \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"},\n    \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"}\n  },\n  \"overall_reasoning\": \"<3-4 Arabic sentences. Walk T1-T5 briefly. Reference the per-company magnitude bands explicitly. State the quantified ratio if applicable.>\"\n}",
+    "critic": "You are a senior quantitative risk analyst at an Egyptian investment bank. A junior LLM analyst has assessed a news event about MCQE (Misr Cement Qena - MCQE). Your job:\n  (a) audit the junior's TA citations against the live data,\n  (b) check magnitudes against the PER-COMPANY bands (not global rules),\n  (c) produce the final authoritative prediction across short / medium / large,\n  (d) write a plain-Arabic explanation for a non-expert retail investor.\n\n=== COMPANY ===\nTicker      : MCQE\nName        : Misr Cement Qena - MCQE\nSector      : Construction & Building Materials\nDescription : Misr Cement Qena — cement producer in Upper Egypt; exposed to construction sector cycles and energy cost inflation.\nPrice data  : as of 2025-06-22  (article date: 2025-06-23)\n\n=== PRICE STATE ===\nLast close  : 48.80 EGP\nReturn 1d   : -1.35%   5d : +21.79%   20d : +63.98%   60d : +100.74%\nvs MA-50    : +47.48%  vs MA-200 : +81.14%\nTrend       : uptrend (above MA-50 and MA-200)\nVol 20d ann : 71.93%  [elevated regime]  Elevated -> impact AMPLIFIED.\n\n=== SECTOR ===\nSector 1d   : -0.11%  5d : +7.79%\nStock vs sector 1d : -1.24%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 0.83\nTop peers:\n  - ARCC | Construction & Building Materials | 90d-corr: 0.36\n  - ETEL | Telecommunications | 90d-corr: 0.26\n  - CCAP | Non-Bank Financials | 90d-corr: 0.24\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2025-06-16: stock +6.16%  sector +2.90%  AR +3.26%\n  2025-06-17: stock +7.48%  sector +2.59%  AR +4.89%\n  2025-06-18: stock +4.44%  sector +1.64%  AR +2.80%\n  2025-06-19: stock +3.60%  sector +2.04%  AR +1.56%\n  2025-06-22: stock -1.35%  sector +0.06%  AR -1.41%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 74.73  [overbought]\nMACD      : state=bullish  hist=+0.3812\nBollinger : zone=near_upper  %B=0.887\nDistance  : 20d_hi -1.35%  20d_lo +45.15%  60d_hi -1.35%  60d_lo +98.86%  52w_hi -1.35%  52w_lo +232.65%\nDivergence : none\nATR 14d   : 4.06%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : -1 (down streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=4.06%) ===\n  short   (N= 1d)  neutral=+-2.03%  small <2.84%  medium 2.84%-8.12%  large >=8.12%\n  medium  (N= 2d)  neutral=+-2.87%  small <4.02%  medium 4.02%-11.48%  large >=11.48%\n  large   (N=20d)  neutral=+-9.08%  small <12.71%  medium 12.71%-36.31%  large >=36.31%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-06-23 09:12:37\nIn trading hours: False  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : next trading day after event_date (news arrived outside EGX hours)\nHorizons (days) : short=1d ; medium=2d ; large=20d\n\n=== ARABIC SENTIMENT ===\nLabel : neutral\nScore : +0.0678\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-06-23 09:12:37\nHeadline  : اليوم.. نهاية الحق في توزيع كوبون مصر للأسمنت - قنا\n\nالقاهرة - مباشر: ينتهي خلال جلسة اليوم الأثنين، الحق في التوزيع النقدي لشركة مصر للأسمنت - قنا.\nومن المقرر توزيع كوبون مصر للأسمنت - قنا رقم (26) بواقع 1 جنيه للسهم الواحد على\nقسطين:\nالقسط الأول:\n0.5 جنيه ويصرف اعتباراً من 26 يونيو 2025\nالقسط الثاني:\n0.5 جنيه ويصرف اعتبارا من 27 نوفمبر 2025\nيشار أن مصر للأسمنت - قنا،  سجلت صافي ربح بلغ 310.7 مليون جنيه منذ بداية يناير حتى نهاية مارس 2025، مقابل أرباح بلغت 32.45 مليون جنيه خلال نفس الفترة من العام الماضي، مع الأخذ في الاعتبار حقوق الأقلية.\nوارتفعت صافي مبيعات الشركة خلال الثلاثة أشهر الأولى من العام الجاري إلى 1.82 مليار جنيه، مقابل 1.25 مليار جنيه خلال نفس الفترة من العام الماضي.\nوارتفعت أرباح الشركة في القوائم المستقلة إلى 165.36 مليون جنيه بنهاية الربع الأول من 2025، مقابل 48.63 مليون جنيه خلال نفس الربع من العام الماضي.\nوكانت مصر للأسمنت - قنا، حققت صافي أرباح بلغ 271.38 مليون جنيه خلال 2024، مقابل أرباح بلغت 115.35 مليون جنيه في 2023، مع الاخذ فى الاعتبار حقوق الأقلية.\nوارتفعت مبيعات الشركة خلال العام الماضي إلى 5.83 مليار جنيه، مقارنة بـ4.03 مليار جنيه خلال العام السابق له.\nوعلى مستوى الأعمال المستقلة، صعدت الأرباح خلال العام الماضي إلى 215.75 مليون جنيه، مقابل أرباح بقيمة 75.81 مليون جنيه خلال 2023.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nآبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية\n..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر\n..\nاضغط هنا\nترشيحات:\nالجاسر: 4.4 مليار دولار تمويلاً للبنك الإسلامي للتنمية لمشاريع مكافحة التصحر\n\n=== IMPACT AGENT OUTPUT (junior, Groq) ===\n{\n  \"news_type\": \"dividend\",\n  \"already_priced_in\": true,\n  \"quantified_ratio\": \"العائد = 1.00 جنيه / 48.80 جنيه = 2.05%\",\n  \"key_drivers\": [\n    \"انتهاء حق التوزيع النقدي لكوبون مصر للأسمنت - قنا\",\n    \"ارتفاع أرباح الشركة بشكل ملحوظ مقارنة بالفترة نفسها من العام الماضي\"\n  ],\n  \"ta_signals_cited\": [\n    \"rsi_overbought\",\n    \"near_20d_high\",\n    \"macd_bullish\",\n    \"strong_uptrend\",\n    \"high_volatility\"\n  ],\n  \"dividend_info\": {\n    \"yield_pct\": 2.05,\n    \"ex_div_date\": \"2025-06-23\",\n    \"amount_egp\": 1.0\n  },\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.6,\n      \"reasoning\": \"الرسوم البيانية تشير إلى أن السهم قرب أعلى 20 يومًا (near_20d_high) مع RSI مفرط الشراء (74.73)، مما يشير إلى أن أي رد فعل إيجابي قد يكون محدودًا. مع الأخذ في الاعتبار أن الإعلان عن انتهاء حق التوزيع النقدي قد تم بالفعل، فإن التأثير الفوري متوقع أن يكون صغيرًا.\"\n    },\n    \"medium\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.7,\n      \"reasoning\": \"السهم في اتجاه صاعد قوي (strong_uptrend) مع MACD بحالة بيعية (bullish) وقطاع مرتبط قويًا (correlation 0.83). على الرغم من قرب السهم من أعلى 20 يومًا، فإن الزخم القطاعي والأساسيات القوية للشركة قد تدعم استمرار الأداء الإيجابي.\"\n    },\n    \"large\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.5,\n      \"reasoning\": \"السهم فوق المتوسطات المتحركة الطويلة (MA-200) بـ 81% مع تقلبات عالية (20d ann 71.93%). الأرباح المحققة في الربع الأول تشير إلى قوة أساسية، مما يدعم استمرار الأداء الإيجابي على المدى الطويل رغم الضغوط الفنية.\"\n    }\n  },\n  \"overall_reasoning\": \"السهم في حالة مفرطة الشراء (RSI 74.73) وقرب أعلى 20 يومًا، مما يشير إلى أن أي رد فعل إيجابي قد يكون محدودًا. مع ذلك، فإن الزخم الصاعد القوي (MACD bullish) والاتجاه الصاعد الطويل يدعمان استمرار الأداء الإيجابي على المدى المتوسط والطويل. العائد المعلن (2.05%) يُعتبر متوسطًا مقارنة بالقطاع. تأثير الإعلان قد تم تسعيره بالفعل (already_priced_in)، مما يقلل من التأثير الفوري.\"\n}\n\n=== HORIZONS (predict ALL OF THEM) ===\n  short   -> t+0 only (just the start day's return)    AR label: اليوم الأول (t+0): رد الفعل الفوري\n  medium  -> t+0 .. t+1  (2 trading days cumulative)   AR label: اليومان الأولان (t+0 إلى t+1): الاستجابة المبكرة\n  large   -> t+0 .. t+19  (20 trading days cumulative)  AR label: العشرون يوم تداول (t+0 إلى t+19): الأثر الممتد\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- 'up'\nmeans OUTPERFORMING the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== REVIEW CHECKLIST ===\nC1. NEWS_TYPE correct?\nC2. TA_SIGNALS: every cited signal must be supported by the data. Override\n    inconsistent cites silently in your final output.\nC3. MAGNITUDE vs PER-COMPANY BANDS: does the predicted bucket match the\n    horizon's per-company thresholds? Adjust if mis-scaled.\nC4. PRICED-IN: if stock_vs_sector_1d aligns with the news direction, short\n    magnitude should default to \"small\" (R4).\nC5. DIVERGENCE: if a divergence signal is present, did the junior account for it?\nC6. CONFIDENCE: lower when context contradicts the call or news is priced in.\n    Default conf_large <= conf_medium <= conf_short.\nC7. DIVIDEND_INFO: if news_type=dividend, ensure yield_pct is present. If the\n    article gives the ex-div date, extract it as YYYY-MM-DD; otherwise null.\nC8. LANGUAGE: strip any non-Arabic word from Arabic fields (R6).\n\n=== USER-FACING EXPLANATION (the most important deliverable) ===\nYou will produce TWO reasoning blocks tuned to two audiences:\n\n  news_story:       PLAIN ARABIC, ZERO JARGON. Just the news content and what\n                    it means in everyday language. A retail investor with no\n                    finance training must understand it. No RSI / MACD / ATR.\n\n  technical_view:   Includes TA signals AND explains each term in Arabic\n                    inline. Format example:\n                      \"مؤشر RSI (مقياس قوة الشراء والبيع) عند 72 وهو مرتفع...\"\n                      \"مؤشر MACD (تقاطع المتوسطات المتحركة) في حالة هبوطية...\"\n                      \"نطاقات بولينجر (مستوى التذبذب) تشير إلى تشبع...\"\n                      \"مؤشر ATR (متوسط الحركة اليومية المعتادة) لهذا السهم 1.5%...\"\n\n  sentiment_note:   ONE Arabic sentence that surfaces the CAMeLBERT sentiment\n                    result (label + score given above in 'ARABIC SENTIMENT')\n                    AND explicitly says whether it agrees with our prediction\n                    or contradicts it.\n\n  outlook_by_horizon: ONE Arabic sentence per horizon. Direction + size + a\n                    one-clause reason. Numbers stated in plain language.\n\n  what_could_change_our_view: 1-2 Arabic sentences on key uncertainties.\n\nU-rules:\n  U1. NUMBERS WITH MEANING. Every cited number gets a plain-Arabic interpretation.\n  U2. STATE THE PREDICTION FIRST in news_story (direction + timeline), THEN evidence.\n  U3. BREVITY. Each field is short -- prefer 2-3 sentences max per field.\n  U4. 100% Arabic in this entire block. The next agent (QA) will reject leaks.\n\n=== INSTRUCTIONS ===\n1. Override the junior wherever evidence demands; do not surface the override\n   to the user -- just produce the corrected final prediction.\n2. Confidence: adjust per horizon. Default conf_large <= conf_medium <= conf_short.\n3. SPELLING: \"RSI-14\" not \"RS-14\". Proper Arabic punctuation.\n4. LANGUAGE: free-text Arabic; JSON keys + tickers + enum values in English.\n5. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"primary_company\": {\n    \"ticker\":              \"MCQE\",\n    \"news_type\":           \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n    \"already_priced_in\":   <true | false>,\n    \"quantified_ratio\":    \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n    \"ta_signals_cited\":    [\"<signal from closed vocab>\", \"...\"],\n    \"dividend_info\": null | {\n      \"yield_pct\":   <float>,\n      \"ex_div_date\": \"<YYYY-MM-DD or null>\",\n      \"amount_egp\":  <float or null>\n    },\n    \"per_horizon\": {\n      \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"},\n      \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"},\n      \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"}\n    },\n    \"overall_reasoning\":   \"<2-3 Arabic sentences. Reference the per-company bands. State news_type. Concise.>\"\n  },\n  \"tldr\": \"<one Arabic sentence summarising the whole view: direction + dominant horizon>\",\n  \"explanation_for_user\": {\n    \"headline\":                   \"<one sentence in plain Arabic, no jargon, captures the news>\",\n    \"news_story\":                 \"<2-3 sentences PLAIN Arabic, zero technical jargon. What happened and why it matters to an everyday investor.>\",\n    \"technical_view\":             \"<2-3 sentences with TA signals, EACH technical term explained in Arabic inline as shown above (RSI / MACD / Bollinger / ATR / divergence).>\",\n    \"sentiment_note\":             \"<1 Arabic sentence: state the CAMeLBERT label and score, and whether it agrees with our prediction.>\",\n    \"outlook_by_horizon\": {\n      \"short\":  \"<one Arabic sentence: direction + size + reason for t+0>\",\n      \"medium\": \"<one Arabic sentence: direction + size + reason for t+0..t+1>\",\n      \"large\":  \"<one Arabic sentence: direction + size + reason for t+0..t+19>\"\n    },\n    \"what_could_change_our_view\": \"<1-2 Arabic sentences on key uncertainties>\"\n  }\n}"
+  },
+  "impact_agent": {
+    "output": {
+      "news_type": "dividend",
+      "already_priced_in": true,
+      "quantified_ratio": "العائد = 1.00 جنيه / 48.80 جنيه = 2.05%",
+      "key_drivers": [
+        "انتهاء حق التوزيع النقدي لكوبون مصر للأسمنت - قنا",
+        "ارتفاع أرباح الشركة بشكل ملحوظ مقارنة بالفترة نفسها من العام الماضي"
+      ],
+      "ta_signals_cited": [
+        "rsi_overbought",
+        "near_20d_high",
+        "macd_bullish",
+        "strong_uptrend",
+        "high_volatility"
+      ],
+      "dividend_info": {
+        "yield_pct": 2.05,
+        "ex_div_date": "2025-06-23",
+        "amount_egp": 1.0
+      },
+      "per_horizon": {
+        "short": {
+          "direction": "neutral",
+          "magnitude": "small",
+          "confidence": 0.6,
+          "reasoning": "الرسوم البيانية تشير إلى أن السهم قرب أعلى 20 يومًا (near_20d_high) مع RSI مفرط الشراء (74.73)، مما يشير إلى أن أي رد فعل إيجابي قد يكون محدودًا. مع الأخذ في الاعتبار أن الإعلان عن انتهاء حق التوزيع النقدي قد تم بالفعل، فإن التأثير الفوري متوقع أن يكون صغيرًا."
+        },
+        "medium": {
+          "direction": "up",
+          "magnitude": "medium",
+          "confidence": 0.7,
+          "reasoning": "السهم في اتجاه صاعد قوي (strong_uptrend) مع MACD بحالة بيعية (bullish) وقطاع مرتبط قويًا (correlation 0.83). على الرغم من قرب السهم من أعلى 20 يومًا، فإن الزخم القطاعي والأساسيات القوية للشركة قد تدعم استمرار الأداء الإيجابي."
+        },
+        "large": {
+          "direction": "up",
+          "magnitude": "medium",
+          "confidence": 0.5,
+          "reasoning": "السهم فوق المتوسطات المتحركة الطويلة (MA-200) بـ 81% مع تقلبات عالية (20d ann 71.93%). الأرباح المحققة في الربع الأول تشير إلى قوة أساسية، مما يدعم استمرار الأداء الإيجابي على المدى الطويل رغم الضغوط الفنية."
+        }
+      },
+      "overall_reasoning": "السهم في حالة مفرطة الشراء (RSI 74.73) وقرب أعلى 20 يومًا، مما يشير إلى أن أي رد فعل إيجابي قد يكون محدودًا. مع ذلك، فإن الزخم الصاعد القوي (MACD bullish) والاتجاه الصاعد الطويل يدعمان استمرار الأداء الإيجابي على المدى المتوسط والطويل. العائد المعلن (2.05%) يُعتبر متوسطًا مقارنة بالقطاع. تأثير الإعلان قد تم تسعيره بالفعل (already_priced_in)، مما يقلل من التأثير الفوري."
+    },
+    "raw": "{  \"news_type\": \"dividend\",\n  \"already_priced_in\": true,\n  \"quantified_ratio\": \"العائد = 1.00 جنيه / 48.80 جنيه = 2.05%\",\n  \"key_drivers\": [\n    \"انتهاء حق التوزيع النقدي لكوبون مصر للأسمنت - قنا\",\n    \"ارتفاع أرباح الشركة بشكل ملحوظ مقارنة بالفترة نفسها من العام الماضي\"\n  ],\n  \"ta_signals_cited\": [\n    \"rsi_overbought\",\n    \"near_20d_high\",\n    \"macd_bullish\",\n    \"strong_uptrend\",\n    \"high_volatility\"\n  ],\n  \"dividend_info\": {\n    \"yield_pct\": 2.05,\n    \"ex_div_date\": \"2025-06-23\",\n    \"amount_egp\": 1.00\n  },\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.6,\n      \"reasoning\": \"الرسوم البيانية تشير إلى أن السهم قرب أعلى 20 يومًا (near_20d_high) مع RSI مفرط الشراء (74.73)، مما يشير إلى أن أي رد فعل إيجابي قد يكون محدودًا. مع الأخذ في الاعتبار أن الإعلان عن انتهاء حق التوزيع النقدي قد تم بالفعل، فإن التأثير الفوري متوقع أن يكون صغيرًا.\"\n    },\n    \"medium\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.7,\n      \"reasoning\": \"السهم في اتجاه صاعد قوي (strong_uptrend) مع MACD بحالة بيعية (bullish) وقطاع مرتبط قويًا (correlation 0.83). على الرغم من قرب السهم من أعلى 20 يومًا، فإن الزخم القطاعي والأساسيات القوية للشركة قد تدعم استمرار الأداء الإيجابي.\"\n    },\n    \"large\": {\n      \"direction\": \"up\",\n      \"magnitude\": \"medium\",\n      \"confidence\": 0.5,\n      \"reasoning\": \"السهم فوق المتوسطات المتحركة الطويلة (MA-200) بـ 81% مع تقلبات عالية (20d ann 71.93%). الأرباح المحققة في الربع الأول تشير إلى قوة أساسية، مما يدعم استمرار الأداء الإيجابي على المدى الطويل رغم الضغوط الفنية.\"\n    }\n  },\n  \"overall_reasoning\": \"السهم في حالة مفرطة الشراء (RSI 74.73) وقرب أعلى 20 يومًا، مما يشير إلى أن أي رد فعل إيجابي قد يكون محدودًا. مع ذلك، فإن الزخم الصاعد القوي (MACD bullish) والاتجاه الصاعد الطويل يدعمان استمرار الأداء الإيجابي على المدى المتوسط والطويل. العائد المعلن (2.05%) يُعتبر متوسطًا مقارنة بالقطاع. تأثير الإعلان قد تم تسعيره بالفعل (already_priced_in)، مما يقلل من التأثير الفوري.\"\n}"
+  },
+  "critic_agent": {
+    "output": {
+      "primary_company": {
+        "ticker": "MCQE",
+        "news_type": "dividend",
+        "already_priced_in": true,
+        "quantified_ratio": "العائد = 1.00 جنيه / 48.80 جنيه = 2.05%",
+        "ta_signals_cited": [
+          "rsi_overbought",
+          "bollinger_near_upper",
+          "near_20d_high",
+          "macd_bullish",
+          "strong_uptrend",
+          "high_volatility",
+          "already_priced_in"
+        ],
+        "dividend_info": {
+          "yield_pct": 2.05,
+          "ex_div_date": "2025-06-23",
+          "amount_egp": 1.0
+        },
+        "per_horizon": {
+          "short": {
+            "direction": "neutral",
+            "magnitude": "small",
+            "confidence": 0.75,
+            "reasoning": "السهم تجاوز قمة 20 يومًا (-1.35% فقط من القمة) مع مؤشر RSI عند 74.73 (تشبع شراء)، ما يحدّ من رد الفعل الإيجابي. العائد النقدي (2.05%) تم تسعيره بالفعل في السوق بناءً على الأداء السلبي يوم 22 يونيو (-1.41% عائد غير طبيعي). التقلب المرتفع (71.93%) يُضخّم الحركة المتوقعة."
+          },
+          "medium": {
+            "direction": "up",
+            "magnitude": "medium",
+            "confidence": 0.65,
+            "reasoning": "مؤشر MACD في حالة إيجابية وتوجه صاعد قوي مع ارتباط قطاعي 0.83 يدعم استمرار الأداء الإيجابي. الأرباح القوية في الربع الأول (صعود 3 أضعاف سنويًا) توفر أساسًا ماليًا. المسافة من أعلى 20 يوم (-1.35%) تمنح مجالًا صعوديًا محدودًا لكنها لا تحظره."
+          },
+          "large": {
+            "direction": "up",
+            "magnitude": "medium",
+            "confidence": 0.55,
+            "reasoning": "السهم يتداول فوق المتوسط المتحرك 200 يوم بنسبة +81% مع أرباح قياسية في 2024 (+235% سنويًا). حجم التداول المرتفع يعكس اهتمامًا مؤسسيًا. المسافة من أدنى 52 أسبوع (+232%) تؤكد قوة الاتجاه الصاعد على المدى الطويل رغم ضغوط التشبع."
+          }
+        },
+        "overall_reasoning": "هذا الخبر هو توزيع نقدي (كوبون رقم 26) بقيمة 1 جنيه للسهم أي عائد 2.05% على السعر الحالي. يوم 22 يونيو شهد بالفعل رد فعل سلبي (-1.41% عائد غير طبيعي) ما يعني التسعير المسبق. على المدى القصير: لا حركة تُذكر بسبب التشبع الشرائي وبعد السهم عن القمة. على المدى المتوسط والطويل: الزخم الإيجابي والأساسيات القوية (أرباح الطفرة) يدعمان استمرار الأداء المتفوق على القطاع."
+      },
+      "tldr": "توزيع نقدي بنسبة 2.05% تم تسعيره بالفعل؛ لا تأثير يُذكر على المدى القصير، مع توقع أداء متفوق على القطاع في المدى المتوسط والطويل.",
+      "explanation_for_user": {
+        "headline": "شركة مصر للأسمنت - قنا توزّع كوبونًا نقديًا بقيمة جنيه واحد لكل سهم اليوم، والأرباح القوية تدعم الاتجاه الصاعد.",
+        "news_story": "شركة مصر للأسمنت - قنا (المذكورة في الخبر) تصرف اليوم للمستثمرين المسجلين في سجلاتها كوبونًا نقديًا قدره جنيه واحد لكل سهم. هذا المبلغ يُحتسب من أرباح الشركة التي قفزت في الربع الأول من 2025 إلى نحو 165 مليون جنيه مقابل 49 مليونًا فقط في نفس الفترة من العام الماضي، أي زيادة ثلاث مرات تقريبًا. العائد النقدي على السعر الحالي (48.80 جنيه) يساوي 2.05%، وهو مبلغ تم استيعابه بالفعل في سعر السهم قبل صدور الخبر.",
+        "technical_view": "مؤشر RSI (مقياس التشبع الشرائي) عند 74.73، مما يعني أن السهم في منطقة تشبع شرائي حيث استنفد المشترون زخمهم الشرائي على المدى القصير. مؤشر MACD (تقاطع المتوسطات المتحركة) لا يزال إيجابيًا ويدعم الاتجاه الصاعد. نطاقات بولينجر (مستوى التذبذب) تشير إلى أن السهم قريب من الحد العلوي، ما يترك مساحة صعود محدودة لكن لا يحظرها. متوسط الحركة اليومية المعتادة (ATR) لهذا السهم 4.06%، أي أن تحركات اليوم الطبيعي تتراوح حول هذه النسبة.",
+        "sentiment_note": "نموذج المشاعر (CAMeLBERT) أعطى قراءة محايدة بنتيجة +0.0678، وهو ما يتوافق مع تقديرنا: لا صعود ولا هبوط ملحوظ على المدى القصير لأن الخبر تم تسعيره مسبقًا.",
+        "outlook_by_horizon": {
+          "short": "غدًا (t+0): لا حركة تُذكر؛ التشبع الشرائي والخبر المُسعّر مسبقًا يُبطلان أي رد فعل.",
+          "medium": "اليومان الأولان (t+0 إلى t+1): أداء متفوق على القطاع بحجم متوسط؛ الأساسيات القوية والزخم الصاعد يدعمان ذلك.",
+          "large": "العشرون يومًا القادمة (t+0 إلى t+19): أداء متفوق على القطاع بحجم متوسط؛ الأرباح القياسية والاتجاه الصاعد يوفران الدعم."
+        },
+        "what_could_change_our_view": "إذا شهدنا تصحيحًا تقنيًا حادًا يقوده جني الأرباح من المتداولين قصيري الأجل، فقد يهبط السهم إلى ما دون مستوى 48 جنيهًا في المدى القصير. كما أن أي انتكاسة في أسعار الأسمنت أو ارتفاع حاد في تكاليف الطاقة قد يضغط على هامش ربح الشركة ويقلل من زخم الأداء الإيجابي."
+      }
+    },
+    "raw": "\n\n{\n  \"primary_company\": {\n    \"ticker\": \"MCQE\",\n    \"news_type\": \"dividend\",\n    \"already_priced_in\": true,\n    \"quantified_ratio\": \"العائد = 1.00 جنيه / 48.80 جنيه = 2.05%\",\n    \"ta_signals_cited\": [\n      \"rsi_overbought\",\n      \"bollinger_near_upper\",\n      \"near_20d_high\",\n      \"macd_bullish\",\n      \"strong_uptrend\",\n      \"high_volatility\",\n      \"already_priced_in\"\n    ],\n    \"dividend_info\": {\n      \"yield_pct\": 2.05,\n      \"ex_div_date\": \"2025-06-23\",\n      \"amount_egp\": 1.0\n    },\n    \"per_horizon\": {\n      \"short\": {\n        \"direction\": \"neutral\",\n        \"magnitude\": \"small\",\n        \"confidence\": 0.75,\n        \"reasoning\": \"السهم تجاوز قمة 20 يومًا (-1.35% فقط من القمة) مع مؤشر RSI عند 74.73 (تشبع شراء)، ما يحدّ من رد الفعل الإيجابي. العائد النقدي (2.05%) تم تسعيره بالفعل في السوق بناءً على الأداء السلبي يوم 22 يونيو (-1.41% عائد غير طبيعي). التقلب المرتفع (71.93%) يُضخّم الحركة المتوقعة.\"\n      },\n      \"medium\": {\n        \"direction\": \"up\",\n        \"magnitude\": \"medium\",\n        \"confidence\": 0.65,\n        \"reasoning\": \"مؤشر MACD في حالة إيجابية وتوجه صاعد قوي مع ارتباط قطاعي 0.83 يدعم استمرار الأداء الإيجابي. الأرباح القوية في الربع الأول (صعود 3 أضعاف سنويًا) توفر أساسًا ماليًا. المسافة من أعلى 20 يوم (-1.35%) تمنح مجالًا صعوديًا محدودًا لكنها لا تحظره.\"\n      },\n      \"large\": {\n        \"direction\": \"up\",\n        \"magnitude\": \"medium\",\n        \"confidence\": 0.55,\n        \"reasoning\": \"السهم يتداول فوق المتوسط المتحرك 200 يوم بنسبة +81% مع أرباح قياسية في 2024 (+235% سنويًا). حجم التداول المرتفع يعكس اهتمامًا مؤسسيًا. المسافة من أدنى 52 أسبوع (+232%) تؤكد قوة الاتجاه الصاعد على المدى الطويل رغم ضغوط التشبع.\"\n      }\n    },\n    \"overall_reasoning\": \"هذا الخبر هو توزيع نقدي (كوبون رقم 26) بقيمة 1 جنيه للسهم أي عائد 2.05% على السعر الحالي. يوم 22 يونيو شهد بالفعل رد فعل سلبي (-1.41% عائد غير طبيعي) ما يعني التسعير المسبق. على المدى القصير: لا حركة تُذكر بسبب التشبع الشرائي وبعد السهم عن القمة. على المدى المتوسط والطويل: الزخم الإيجابي والأساسيات القوية (أرباح الطفرة) يدعمان استمرار الأداء المتفوق على القطاع.\"\n  },\n  \"tldr\": \"توزيع نقدي بنسبة 2.05% تم تسعيره بالفعل؛ لا تأثير يُذكر على المدى القصير، مع توقع أداء متفوق على القطاع في المدى المتوسط والطويل.\",\n  \"explanation_for_user\": {\n    \"headline\": \"شركة مصر للأسمنت - قنا توزّع كوبونًا نقديًا بقيمة جنيه واحد لكل سهم اليوم، والأرباح القوية تدعم الاتجاه الصاعد.\",\n    \"news_story\": \"شركة مصر للأسمنت - قنا (المقصودة في الخبر باسم قنا نفسها) تصرف اليوم للمستثمرين المسجلين في سجلاتها كوبونًا نقديًا قدره جنيه واحد لكل سهم. هذا المبلغ يُحتسب من أرباح الشركة التي قفزت في الربع الأول من 2025 إلى نحو 165 مليون جنيه مقابل 49 مليونًا فقط في نفس الفترة من العام الماضي — أي زيادة ثلاث مرات تقريبًا. العائد النقدي على السعر الحالي (48.80 جنيه) يساوي 2.05% — وهو مبلغ تم استيعابه بالفعل في سعر السهم قبل صدور الخبر.\",\n    \"technical_view\": \"مؤشر RSI (مقياس التشبع الشرائي) عند 74.73 أي أن السهم في منطقة تشبع شراء بمعنى أن المشترين است疲ذوا力气هم قصيرة المدى. مؤشر MACD (تقاطع المتوسطات المتحركة) لا يزال إيجابيًا ويدعم الاتجاه الصاعد. نطاقات بولينجر (مستوى التذبذب) تشير إلى أن السهم قريب من الحد العلوي، ما يترك مساحة صعود محدودة لكن لا يحظرها. متوسط الحركة اليومية المعتادة (ATR) لهذا السهم 4.06% — أي أن تحركات اليوم الطبيعي تتراوح حول هذه النسبة.\",\n    \"sentiment_note\": \"نموذج المشاعر (CAMeLBERT) أعطى قراءة محايدة بنتيجة +0.0678، وهو ما يتوافق مع تقديرنا: لا صعود ولا هبوط ملحوظ على المدى القصير لأن الخبر تم تسعيره مسبقًا.\",\n    \"outlook_by_horizon\": {\n      \"short\": \"غدًا (t+0): لا حركة تُذكر؛ التشبع الشرائي والخبر المُسعّر مسبقًا يُبطلان أي رد فعل.\",\n      \"medium\": \"اليومان الأولان (t+0 إلى t+1): أداء متفوق على القطاع بحجم متوسط؛ الأساسيات القوية والزخم الصاعد يدعمان ذلك.\",\n      \"large\": \"العشرون يومًا القادمة (t+0 إلى t+19): أداء متفوق على القطاع بحجم متوسط؛ الأرباح القياسية والاتجاه الصاعد يوفران الدعم.\"\n    },\n    \"what_could_change_our_view\": \"إذا شهدنا تصحيحًا تقنيًا حادًا يقوده جني الأرباح من المتداولين قصاري الأجل، فقد يهبط السهم إلى ما دون مستوى 48 جنيهًا في المدى القصير. كما أن أي انتكاسة في أسعار الأسمنت أو ارتفاع حاد في تكاليف الطاقة قد يضغط على هامش ربح الشركة ويقلل من زخم الأداء الإيجابي.\"\n  }\n}",
+    "thinking": "Let me analyze this carefully as a senior quantitative risk analyst.\n\n**Step 1: Audit the junior's work**\n\n**News Type Check:**\n- The article is about \"انتهاء الحق في توزيع كوبون مصر للأسمنت - قنا\" (end of dividend rights for MCQE)\n- This is clearly a dividend news type\n- Junior correctly identified it as \"dividend\" ✓\n\n**Quantified Ratio:**\n- Junior: 1.00 EGP / 48.80 EGP = 2.05% ✓\n\n**Already Priced In Check:**\n- The news arrived at 2025-06-23 09:12:37, which is OUTSIDE EGX hours (10:00-14:30)\n- So the window starts next trading day (2025-06-23 itself as it's Monday and EGX was closed)\n- Wait, the article says \"ينتهي خلال جلسة اليوم الأثنين\" - ends during today's session (Monday 2025-06-23)\n- So the ex-div date IS 2025-06-23\n- The stock already had -1.35% on 2025-06-22 and the article came on 2025-06-23\n- Let me check: 2025-06-22 stock return -1.35%, sector +0.06%, AR = -1.41%\n- The -1.41% AR on 2025-06-22 is when the market started pricing in the ex-div\n- The stock already underperformed sector by -1.24% on 2025-06-22 (1d)\n- This ALIGNS with the dividend news direction (negative = ex-div mechanical drop)\n- Per R4: \"If stock_vs_sector_1d strongly aligns with the news direction, SHORT magnitude defaults to 'small'\"\n- So SHORT should be \"small\", not neutral\n\n\n- The technical indicators confirm this setup: RSI is overbought at 74.73, Bollinger Bands sit near the upper band at 0.887, and the stock is just 1.35% below the 20-day high—suggesting limited upside room. The MACD bullish signal and strong uptrend both validate the directional bias, but the overbought conditions and tight distance to recent highs mean any move higher faces resistance. Volatility is elevated at 71.93% annualized, amplifying the magnitude of any price action.\n\n- For the dividend event specifically, the ex-div date is 2025-06-23, which means the mechanical price adjustment happens on that date. The yield calculates to 2.05% (1.00 EGP dividend / 48.80 EGP price), and this event has already been priced in during the prior day. The short-term outlook appears neutral to slightly bearish given the overbought technical state and minimal upside room, while medium-term strength remains intact with strong momentum signals supporting continued upside.\n\nLooking at the magnitude thresholds, the short-term band (1 day) shows small movements under 2.84%, medium between 2.84%-8.12%, and large above 8.12%. The medium-term window (2 days) has tighter bands with small under 4.02% and medium extending to 11.48%. Over the longer 20-day horizon, the bands widen significantly—small movements cap at 12.71%, medium reaches up to 36.31%, and large captures anything above that threshold.\n\nFor the short-term outlook, the overbought technical picture (RSI in the 70s, positioned near the 20-day high) combined with the dividend already priced in by the market on the prior day suggests a neutral to slightly negative bias over the next day. The medium-term projection shows upward momentum still in place with the MACD bullish signal intact and strong correlation to sector performance, though RSI remains elevated—supporting a medium upward move with moderate confidence. The longer-term view holds similar upside potential with fundamental strength from the dividend and earnings data, but the combination of overbought conditions and already-accounted pricing keeps confidence lower on the large move.\n\nThe confidence hierarchy needs adjustment since the short-term signal is actually clearer here given the ex-dividend mechanics are already reflected in the price. The medium and large horizons carry more uncertainty due to stretched valuations and the elevated RSI readings creating potential for mean reversion.\n"
+  },
+  "arabic_qa": {
+    "enabled": true,
+    "model": "claude-sonnet-4-6",
+    "explanation_pre": {
+      "headline": "شركة مصر للأسمنت - قنا توزّع كوبونًا نقديًا بقيمة جنيه واحد لكل سهم اليوم، والأرباح القوية تدعم الاتجاه الصاعد.",
+      "news_story": "شركة مصر للأسمنت - قنا (المقصودة في الخبر باسم قنا نفسها) تصرف اليوم للمستثمرين المسجلين في سجلاتها كوبونًا نقديًا قدره جنيه واحد لكل سهم. هذا المبلغ يُحتسب من أرباح الشركة التي قفزت في الربع الأول من 2025 إلى نحو 165 مليون جنيه مقابل 49 مليونًا فقط في نفس الفترة من العام الماضي — أي زيادة ثلاث مرات تقريبًا. العائد النقدي على السعر الحالي (48.80 جنيه) يساوي 2.05% — وهو مبلغ تم استيعابه بالفعل في سعر السهم قبل صدور الخبر.",
+      "technical_view": "مؤشر RSI (مقياس التشبع الشرائي) عند 74.73 أي أن السهم في منطقة تشبع شراء بمعنى أن المشترين است疲ذوا力气هم قصيرة المدى. مؤشر MACD (تقاطع المتوسطات المتحركة) لا يزال إيجابيًا ويدعم الاتجاه الصاعد. نطاقات بولينجر (مستوى التذبذب) تشير إلى أن السهم قريب من الحد العلوي، ما يترك مساحة صعود محدودة لكن لا يحظرها. متوسط الحركة اليومية المعتادة (ATR) لهذا السهم 4.06% — أي أن تحركات اليوم الطبيعي تتراوح حول هذه النسبة.",
+      "sentiment_note": "نموذج المشاعر (CAMeLBERT) أعطى قراءة محايدة بنتيجة +0.0678، وهو ما يتوافق مع تقديرنا: لا صعود ولا هبوط ملحوظ على المدى القصير لأن الخبر تم تسعيره مسبقًا.",
+      "outlook_by_horizon": {
+        "short": "غدًا (t+0): لا حركة تُذكر؛ التشبع الشرائي والخبر المُسعّر مسبقًا يُبطلان أي رد فعل.",
+        "medium": "اليومان الأولان (t+0 إلى t+1): أداء متفوق على القطاع بحجم متوسط؛ الأساسيات القوية والزخم الصاعد يدعمان ذلك.",
+        "large": "العشرون يومًا القادمة (t+0 إلى t+19): أداء متفوق على القطاع بحجم متوسط؛ الأرباح القياسية والاتجاه الصاعد يوفران الدعم."
+      },
+      "what_could_change_our_view": "إذا شهدنا تصحيحًا تقنيًا حادًا يقوده جني الأرباح من المتداولين قصاري الأجل، فقد يهبط السهم إلى ما دون مستوى 48 جنيهًا في المدى القصير. كما أن أي انتكاسة في أسعار الأسمنت أو ارتفاع حاد في تكاليف الطاقة قد يضغط على هامش ربح الشركة ويقلل من زخم الأداء الإيجابي."
+    },
+    "explanation_post": {
+      "headline": "شركة مصر للأسمنت - قنا توزّع كوبونًا نقديًا بقيمة جنيه واحد لكل سهم اليوم، والأرباح القوية تدعم الاتجاه الصاعد.",
+      "news_story": "شركة مصر للأسمنت - قنا (المذكورة في الخبر) تصرف اليوم للمستثمرين المسجلين في سجلاتها كوبونًا نقديًا قدره جنيه واحد لكل سهم. هذا المبلغ يُحتسب من أرباح الشركة التي قفزت في الربع الأول من 2025 إلى نحو 165 مليون جنيه مقابل 49 مليونًا فقط في نفس الفترة من العام الماضي، أي زيادة ثلاث مرات تقريبًا. العائد النقدي على السعر الحالي (48.80 جنيه) يساوي 2.05%، وهو مبلغ تم استيعابه بالفعل في سعر السهم قبل صدور الخبر.",
+      "technical_view": "مؤشر RSI (مقياس التشبع الشرائي) عند 74.73، مما يعني أن السهم في منطقة تشبع شرائي حيث استنفد المشترون زخمهم الشرائي على المدى القصير. مؤشر MACD (تقاطع المتوسطات المتحركة) لا يزال إيجابيًا ويدعم الاتجاه الصاعد. نطاقات بولينجر (مستوى التذبذب) تشير إلى أن السهم قريب من الحد العلوي، ما يترك مساحة صعود محدودة لكن لا يحظرها. متوسط الحركة اليومية المعتادة (ATR) لهذا السهم 4.06%، أي أن تحركات اليوم الطبيعي تتراوح حول هذه النسبة.",
+      "sentiment_note": "نموذج المشاعر (CAMeLBERT) أعطى قراءة محايدة بنتيجة +0.0678، وهو ما يتوافق مع تقديرنا: لا صعود ولا هبوط ملحوظ على المدى القصير لأن الخبر تم تسعيره مسبقًا.",
+      "outlook_by_horizon": {
+        "short": "غدًا (t+0): لا حركة تُذكر؛ التشبع الشرائي والخبر المُسعّر مسبقًا يُبطلان أي رد فعل.",
+        "medium": "اليومان الأولان (t+0 إلى t+1): أداء متفوق على القطاع بحجم متوسط؛ الأساسيات القوية والزخم الصاعد يدعمان ذلك.",
+        "large": "العشرون يومًا القادمة (t+0 إلى t+19): أداء متفوق على القطاع بحجم متوسط؛ الأرباح القياسية والاتجاه الصاعد يوفران الدعم."
+      },
+      "what_could_change_our_view": "إذا شهدنا تصحيحًا تقنيًا حادًا يقوده جني الأرباح من المتداولين قصيري الأجل، فقد يهبط السهم إلى ما دون مستوى 48 جنيهًا في المدى القصير. كما أن أي انتكاسة في أسعار الأسمنت أو ارتفاع حاد في تكاليف الطاقة قد يضغط على هامش ربح الشركة ويقلل من زخم الأداء الإيجابي."
+    }
+  },
+  "final": {
+    "ticker": "MCQE",
+    "news_type": "dividend",
+    "already_priced_in": true,
+    "quantified_ratio": "العائد = 1.00 جنيه / 48.80 جنيه = 2.05%",
+    "ta_signals_cited": [
+      "rsi_overbought",
+      "bollinger_near_upper",
+      "near_20d_high",
+      "macd_bullish",
+      "strong_uptrend",
+      "high_volatility",
+      "already_priced_in"
+    ],
+    "dividend_info": {
+      "yield_pct": 2.05,
+      "ex_div_date": "2025-06-23",
+      "amount_egp": 1.0
+    },
+    "per_horizon": {
+      "short": {
+        "direction": "neutral",
+        "magnitude": "small",
+        "confidence": 0.75,
+        "reasoning": "السهم تجاوز قمة 20 يومًا (-1.35% فقط من القمة) مع مؤشر RSI عند 74.73 (تشبع شراء)، ما يحدّ من رد الفعل الإيجابي. العائد النقدي (2.05%) تم تسعيره بالفعل في السوق بناءً على الأداء السلبي يوم 22 يونيو (-1.41% عائد غير طبيعي). التقلب المرتفع (71.93%) يُضخّم الحركة المتوقعة."
+      },
+      "medium": {
+        "direction": "up",
+        "magnitude": "medium",
+        "confidence": 0.65,
+        "reasoning": "مؤشر MACD في حالة إيجابية وتوجه صاعد قوي مع ارتباط قطاعي 0.83 يدعم استمرار الأداء الإيجابي. الأرباح القوية في الربع الأول (صعود 3 أضعاف سنويًا) توفر أساسًا ماليًا. المسافة من أعلى 20 يوم (-1.35%) تمنح مجالًا صعوديًا محدودًا لكنها لا تحظره."
+      },
+      "large": {
+        "direction": "up",
+        "magnitude": "medium",
+        "confidence": 0.55,
+        "reasoning": "السهم يتداول فوق المتوسط المتحرك 200 يوم بنسبة +81% مع أرباح قياسية في 2024 (+235% سنويًا). حجم التداول المرتفع يعكس اهتمامًا مؤسسيًا. المسافة من أدنى 52 أسبوع (+232%) تؤكد قوة الاتجاه الصاعد على المدى الطويل رغم ضغوط التشبع."
+      }
+    },
+    "overall_reasoning": "هذا الخبر هو توزيع نقدي (كوبون رقم 26) بقيمة 1 جنيه للسهم أي عائد 2.05% على السعر الحالي. يوم 22 يونيو شهد بالفعل رد فعل سلبي (-1.41% عائد غير طبيعي) ما يعني التسعير المسبق. على المدى القصير: لا حركة تُذكر بسبب التشبع الشرائي وبعد السهم عن القمة. على المدى المتوسط والطويل: الزخم الإيجابي والأساسيات القوية (أرباح الطفرة) يدعمان استمرار الأداء المتفوق على القطاع."
+  }
+}

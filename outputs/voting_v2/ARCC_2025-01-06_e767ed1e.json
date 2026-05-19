@@ -1,0 +1,93 @@
+{
+  "trace_file": "ARCC_2025-01-06_e767ed1e.json",
+  "ticker": "ARCC",
+  "article_date": "2025-01-06",
+  "wall_clock_s": 13.72,
+  "aggregate": {
+    "consensus_action": "BUY",
+    "action_tally": {
+      "BUY": 4,
+      "HOLD": 1,
+      "SELL": 0
+    },
+    "entry_price_median": {
+      "low": 16.5,
+      "high": 17.0
+    },
+    "mean_confidence": 0.62,
+    "n_voters": 5,
+    "n_successful": 5
+  },
+  "votes": [
+    {
+      "voter": 1,
+      "ok": true,
+      "latency_s": 7.42,
+      "vote": {
+        "action": "BUY",
+        "entry_price_egp": {
+          "low": 16.5,
+          "high": 17.0
+        },
+        "confidence": 0.62,
+        "rationale": "أرباح الأرباح بنسبة 9.2% لم تُسعير بعد مع توقعات متوسطة إيجابية تعوض قرب المقاومة."
+      }
+    },
+    {
+      "voter": 3,
+      "ok": true,
+      "latency_s": 7.64,
+      "vote": {
+        "action": "HOLD",
+        "entry_price_egp": {
+          "low": 17.2,
+          "high": 17.2
+        },
+        "confidence": 0.62,
+        "rationale": "السهم قريب من أعلى مستويات المقاومة خلال 20 يوم و52 أسبوع مما يحد من المكاسب قصيرة المدى رغم عائد الأرباح المرتفع بنسبة 9.2%"
+      }
+    },
+    {
+      "voter": 4,
+      "ok": true,
+      "latency_s": 8.04,
+      "vote": {
+        "action": "BUY",
+        "entry_price_egp": {
+          "low": 15.5,
+          "high": 16.8
+        },
+        "confidence": 0.62,
+        "rationale": "السعر قريب من أعلى مستويات 52 أسبوع مما يحد من الصعود القريب لكن العائد المتوقع 9.2% مع فرصة متوسطة الأجل تدعم الدخول عند مستويات دعم أقوى."
+      }
+    },
+    {
+      "voter": 2,
+      "ok": true,
+      "latency_s": 12.02,
+      "vote": {
+        "action": "BUY",
+        "entry_price_egp": {
+          "low": 16.2,
+          "high": 17.0
+        },
+        "confidence": 0.62,
+        "rationale": "الأرباح الموزعة غير متوقعة السعر الحالي قريب من مقاومة 52 أسبوع لكن الاتجاه المتوسط صاعد"
+      }
+    },
+    {
+      "voter": 5,
+      "ok": true,
+      "latency_s": 13.72,
+      "vote": {
+        "action": "BUY",
+        "entry_price_egp": {
+          "low": 16.8,
+          "high": 17.2
+        },
+        "confidence": 0.62,
+        "rationale": "عائد الأرباح المرتفع يدعم القرار مع إمكانية الصعود في المدى المتوسط"
+      }
+    }
+  ]
+}

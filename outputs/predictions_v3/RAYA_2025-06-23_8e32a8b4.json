@@ -1,0 +1,377 @@
+{
+  "ticker": "RAYA",
+  "article_date": "2025-06-23",
+  "context_date": "2025-06-22",
+  "processed_at": "2026-05-18T20:02:22.080950",
+  "article": {
+    "symbol": "RAYA",
+    "company": "Raya Holding For Financial Investments",
+    "isin": "EGS690C1C010",
+    "sector": "Technology & Fintech",
+    "id": "4462998",
+    "date": "2025-06-23",
+    "time": "09:21:15",
+    "datetime": "2025-06-23 09:21:15",
+    "title": "البورصة تعلن نهاية حق وموعد توزيع كوبون راية القابضة",
+    "body": "القاهرة - مباشر: قالت البورصة المصرية، إن نهاية الحق في التوزيع النقدي لشركة راية القابضة للاستثمارات المالية، بإغلاق جلسة يوم الإثنين 7 يوليو المقبل.\nوأوضحت البورصة اليوم الأثنين، أنه تقرر توزيع كوبون \"راية القابضة\" رقم (18) بواقع 0.040 جنيه للسهم الواحد وذلك اعتباراً من10 يوليو 2025.\nوحققت راية القابضة للاستثمارات المالية، صافي ربح بلغ 387.89 مليون جنيه خلال الفترة من يناير حتى نهاية مارس 2025، مقابل أرباح بقيمة 377.88 مليون جنيه خلال الفترة نفسها من العام الماضي، مع الأخذ في الاعتبار حقوق الأقلية.\nوارتفعت إيرادات الشركة خلال الربع الأول من العام الجاري إلى 12.88 مليار جنيه، مقابل 10.41 مليار جنيه خلال الفترة نفسها من العام الماضي.\nوعلى صعيد القوائم غير المجمعة، تحولت الشركة المستقلة خلال الربع الأول من العام الجاري إلى الربحية لتحقق 1.05 مليار جنيه، مقابل خسائر بلغت 173.38 مليون جنيه خلال الربع نفسه من 2024.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nأبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية\n..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر\n..\nاضغط هنا\nترشيحات\nوزير المالية المصري: الإيرادات الضريبية ترتفع 500 مليار جنيه في 11 شهراً",
+    "teaser": "القاهرة - مباشر: قالت البورصة المصرية، إن نهاية الحق في التوزيع النقدي لشركة راية القابضة للاستثمارات المالية، بإغلاق جلسة يوم الإثنين 7 يوليو المقبل. وأوضحت البورصة اليوم الأثنين، أنه تقرر توزيع كوبون \"راية القابضة\" رقم (18) بواقع 0.040 جنيه …",
+    "section": "توزيعات نقدية ",
+    "source": "مباشر",
+    "categories": "stock-bonds",
+    "country": "مصر",
+    "reads": 1929,
+    "url": "https://www.mubasher.info/news/4462998",
+    "image_url": "https://static.mubasher.info/File.Story_Image/f56605dffdee180f06a488c6d71ae7cd/640.jpg",
+    "date_raw": ""
+  },
+  "sentiment": {
+    "model": "CAMeL-Lab/bert-base-arabic-camelbert-mix-sentiment",
+    "label": "neutral",
+    "score": 0.0391,
+    "numeric": 0,
+    "class_probs": {
+      "neutral": 0.9579,
+      "positive": 0.0406,
+      "negative": 0.0015
+    }
+  },
+  "context": {
+    "ticker": "RAYA",
+    "company": "Raya Holding - RAYA",
+    "sector": "Technology & Fintech",
+    "business_description": "Raya Holding for Financial Investments — diversified group: Raya Contact Center (BPO), consumer electronics distribution, and manufacturing subsidiaries across Africa and the Middle East.",
+    "event_date": "2025-06-23",
+    "last_price_date": "2025-06-22",
+    "price_state": {
+      "last_close": 2.77,
+      "return_1d": 4.53,
+      "return_5d": 3.75,
+      "return_20d": 0.0,
+      "return_60d": 18.38,
+      "pct_vs_ma50": 1.84,
+      "pct_vs_ma200": -1.77,
+      "vol_20d_annualized_pct": 56.66,
+      "vol_regime": "normal",
+      "rsi_14": 50.99
+    },
+    "market_state": {
+      "sector_return_1d": 3.49,
+      "sector_return_5d": 2.06,
+      "relative_strength_vs_sector_1d": 1.04
+    },
+    "correlation_state": {
+      "corr_with_sector_90d": 0.68,
+      "top_3_correlated_peers": [
+        {
+          "ticker": "HRHO",
+          "correlation": 0.49,
+          "sector": "Non-Bank Financials"
+        },
+        {
+          "ticker": "ORWE",
+          "correlation": 0.48,
+          "sector": "Textiles"
+        },
+        {
+          "ticker": "CCAP",
+          "correlation": 0.45,
+          "sector": "Non-Bank Financials"
+        }
+      ]
+    },
+    "recent_abnormal_returns": [
+      {
+        "date": "2025-06-16",
+        "stock_return_pct": 2.62,
+        "sector_return_pct": 0.05,
+        "abnormal_return_pct": 2.57
+      },
+      {
+        "date": "2025-06-17",
+        "stock_return_pct": -4.01,
+        "sector_return_pct": -3.19,
+        "abnormal_return_pct": -0.82
+      },
+      {
+        "date": "2025-06-18",
+        "stock_return_pct": 3.42,
+        "sector_return_pct": 2.94,
+        "abnormal_return_pct": 0.48
+      },
+      {
+        "date": "2025-06-19",
+        "stock_return_pct": -2.57,
+        "sector_return_pct": -0.89,
+        "abnormal_return_pct": -1.68
+      },
+      {
+        "date": "2025-06-22",
+        "stock_return_pct": 4.53,
+        "sector_return_pct": 3.77,
+        "abnormal_return_pct": 0.76
+      }
+    ],
+    "technical_signals": {
+      "rsi_14": 50.99,
+      "rsi_zone": "neutral",
+      "macd": {
+        "line": -0.0012,
+        "signal": 0.0149,
+        "histogram": -0.0162,
+        "state": "bearish"
+      },
+      "bollinger": {
+        "pct_b": 0.523,
+        "bandwidth_pct": 14.41,
+        "zone": "middle"
+      },
+      "distance_to_extremes": {
+        "20d_high_distance_pct": -8.58,
+        "20d_low_distance_pct": 5.32,
+        "60d_high_distance_pct": -8.58,
+        "60d_low_distance_pct": 22.57,
+        "252d_high_distance_pct": -27.3,
+        "252d_low_distance_pct": 41.69
+      },
+      "rsi_divergence": "none",
+      "atr_pct_14d": 2.88,
+      "consecutive_streak": 1
+    },
+    "dynamic_bands": {
+      "horizon_trading_days": {
+        "short": 1,
+        "medium": 2,
+        "large": 20
+      },
+      "neutral_band_pct": {
+        "short": 1.44,
+        "medium": 2.04,
+        "large": 6.44
+      },
+      "magnitude_bands_pct": {
+        "short": {
+          "small": [
+            0.0,
+            2.02
+          ],
+          "medium": [
+            2.02,
+            5.76
+          ],
+          "large": [
+            5.76,
+            null
+          ]
+        },
+        "medium": {
+          "small": [
+            0.0,
+            2.85
+          ],
+          "medium": [
+            2.85,
+            8.15
+          ],
+          "large": [
+            8.15,
+            null
+          ]
+        },
+        "large": {
+          "small": [
+            0.0,
+            9.02
+          ],
+          "medium": [
+            9.02,
+            25.76
+          ],
+          "large": [
+            25.76,
+            null
+          ]
+        }
+      },
+      "atr_pct_anchor": 2.88
+    },
+    "news_timing": {
+      "in_trading_hours": false,
+      "arrived_at_str": "2025-06-23 09:21:15",
+      "start_day_label": "next trading day after event_date (news arrived outside EGX hours)"
+    }
+  },
+  "prompts": {
+    "impact": "You are a quantitative analyst predicting Egyptian Stock Exchange (EGX) stock reactions to Arabic news. Your prediction must be grounded in the technical signals provided and calibrated to this specific ticker's volatility.\n\n=== COMPANY ===\nTicker      : RAYA\nName        : Raya Holding - RAYA\nSector      : Technology & Fintech\nDescription : Raya Holding for Financial Investments — diversified group: Raya Contact Center (BPO), consumer electronics distribution, and manufacturing subsidiaries across Africa and the Middle East.\nPrice data  : as of 2025-06-22  (article date: 2025-06-23)\n\n=== PRICE STATE ===\nLast close  : 2.77 EGP\nReturn 1d   : +4.53%   5d : +3.75%   20d : +0.00%   60d : +18.38%\nvs MA-50    : +1.84%  vs MA-200 : -1.77%\nTrend       : recovering (above MA-50 but below MA-200)\nVol 20d ann : 56.66%  [normal regime]  Normal -> impact PROPORTIONAL to catalyst.\n\n=== SECTOR ===\nSector 1d   : +3.49%  5d : +2.06%\nStock vs sector 1d : +1.04%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 0.68\nTop peers:\n  - HRHO | Non-Bank Financials | 90d-corr: 0.49\n  - ORWE | Textiles | 90d-corr: 0.48\n  - CCAP | Non-Bank Financials | 90d-corr: 0.45\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2025-06-16: stock +2.62%  sector +0.05%  AR +2.57%\n  2025-06-17: stock -4.01%  sector -3.19%  AR -0.82%\n  2025-06-18: stock +3.42%  sector +2.94%  AR +0.48%\n  2025-06-19: stock -2.57%  sector -0.89%  AR -1.68%\n  2025-06-22: stock +4.53%  sector +3.77%  AR +0.76%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 50.99  [neutral]\nMACD      : state=bearish  hist=-0.0162\nBollinger : zone=middle  %B=0.523\nDistance  : 20d_hi -8.58%  20d_lo +5.32%  60d_hi -8.58%  60d_lo +22.57%  52w_hi -27.30%  52w_lo +41.69%\nDivergence : none\nATR 14d   : 2.88%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : +1 (up streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=2.88%) ===\n  short   (N= 1d)  neutral=+-1.44%  small <2.02%  medium 2.02%-5.76%  large >=5.76%\n  medium  (N= 2d)  neutral=+-2.04%  small <2.85%  medium 2.85%-8.15%  large >=8.15%\n  large   (N=20d)  neutral=+-6.44%  small <9.02%  medium 9.02%-25.76%  large >=25.76%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-06-23 09:21:15\nIn trading hours: False  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : next trading day after event_date (news arrived outside EGX hours)\nHorizons (days) : short=1d ; medium=2d ; large=20d\n\n=== ARABIC SENTIMENT (one input among many) ===\nLabel : neutral\nScore : +0.0391   (-1 strongly negative -> +1 strongly positive)\nNOTE: CAMeLBERT classifies tone, not financial implication.\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-06-23 09:21:15\nHeadline  : البورصة تعلن نهاية حق وموعد توزيع كوبون راية القابضة\n\nالقاهرة - مباشر: قالت البورصة المصرية، إن نهاية الحق في التوزيع النقدي لشركة راية القابضة للاستثمارات المالية، بإغلاق جلسة يوم الإثنين 7 يوليو المقبل.\nوأوضحت البورصة اليوم الأثنين، أنه تقرر توزيع كوبون \"راية القابضة\" رقم (18) بواقع 0.040 جنيه للسهم الواحد وذلك اعتباراً من10 يوليو 2025.\nوحققت راية القابضة للاستثمارات المالية، صافي ربح بلغ 387.89 مليون جنيه خلال الفترة من يناير حتى نهاية مارس 2025، مقابل أرباح بقيمة 377.88 مليون جنيه خلال الفترة نفسها من العام الماضي، مع الأخذ في الاعتبار حقوق الأقلية.\nوارتفعت إيرادات الشركة خلال الربع الأول من العام الجاري إلى 12.88 مليار جنيه، مقابل 10.41 مليار جنيه خلال الفترة نفسها من العام الماضي.\nوعلى صعيد القوائم غير المجمعة، تحولت الشركة المستقلة خلال الربع الأول من العام الجاري إلى الربحية لتحقق 1.05 مليار جنيه، مقابل خسائر بلغت 173.38 مليون جنيه خلال الربع نفسه من 2024.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nأبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية\n..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر\n..\nاضغط هنا\nترشيحات\nوزير المالية المصري: الإيرادات الضريبية ترتفع 500 مليار جنيه في 11 شهراً\n\n=== HORIZONS (predict ALL OF THEM) ===\n  short   -> t+0 only (just the start day's return)    AR label: اليوم الأول (t+0): رد الفعل الفوري\n  medium  -> t+0 .. t+1  (2 trading days cumulative)   AR label: اليومان الأولان (t+0 إلى t+1): الاستجابة المبكرة\n  large   -> t+0 .. t+19  (20 trading days cumulative)  AR label: العشرون يوم تداول (t+0 إلى t+19): الأثر الممتد\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- 'up'\nmeans OUTPERFORMING the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== OUTPUT INSTRUCTIONS ===\n1. Classify news_type FIRST.\n2. Walk through T1-T5. Pick TA signals that ACTUALLY apply from the closed vocab.\n3. Anchor magnitudes to the PER-COMPANY bands above (NOT a global rule).\n4. Quantify any dilution/yield ratio with both inputs.\n5. If news_type=dividend, FILL dividend_info; otherwise set it to null.\n6. LANGUAGE: free-text Arabic. JSON keys + enum values in English.\n7. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"news_type\":         \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n  \"already_priced_in\": <true | false>,\n  \"quantified_ratio\":  \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n  \"key_drivers\":       [\"<driver 1 Arabic>\", \"<driver 2 Arabic>\"],\n  \"ta_signals_cited\":  [\"<signal from closed vocab>\", \"...\"],\n  \"dividend_info\": null | {\n    \"yield_pct\":      <float>,\n    \"ex_div_date\":    \"<YYYY-MM-DD or null if unknown>\",\n    \"amount_egp\":     <float or null>\n  },\n  \"per_horizon\": {\n    \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"},\n    \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"},\n    \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing >=1 TA signal>\"}\n  },\n  \"overall_reasoning\": \"<3-4 Arabic sentences. Walk T1-T5 briefly. Reference the per-company magnitude bands explicitly. State the quantified ratio if applicable.>\"\n}",
+    "critic": "You are a senior quantitative risk analyst at an Egyptian investment bank. A junior LLM analyst has assessed a news event about RAYA (Raya Holding - RAYA). Your job:\n  (a) audit the junior's TA citations against the live data,\n  (b) check magnitudes against the PER-COMPANY bands (not global rules),\n  (c) produce the final authoritative prediction across short / medium / large,\n  (d) write a plain-Arabic explanation for a non-expert retail investor.\n\n=== COMPANY ===\nTicker      : RAYA\nName        : Raya Holding - RAYA\nSector      : Technology & Fintech\nDescription : Raya Holding for Financial Investments — diversified group: Raya Contact Center (BPO), consumer electronics distribution, and manufacturing subsidiaries across Africa and the Middle East.\nPrice data  : as of 2025-06-22  (article date: 2025-06-23)\n\n=== PRICE STATE ===\nLast close  : 2.77 EGP\nReturn 1d   : +4.53%   5d : +3.75%   20d : +0.00%   60d : +18.38%\nvs MA-50    : +1.84%  vs MA-200 : -1.77%\nTrend       : recovering (above MA-50 but below MA-200)\nVol 20d ann : 56.66%  [normal regime]  Normal -> impact PROPORTIONAL to catalyst.\n\n=== SECTOR ===\nSector 1d   : +3.49%  5d : +2.06%\nStock vs sector 1d : +1.04%  (negative = underperforming)\n\n=== CORRELATION (90d) ===\nWith sector : 0.68\nTop peers:\n  - HRHO | Non-Bank Financials | 90d-corr: 0.49\n  - ORWE | Textiles | 90d-corr: 0.48\n  - CCAP | Non-Bank Financials | 90d-corr: 0.45\n\n=== RECENT ABNORMAL RETURNS (oldest -> newest) ===\n  2025-06-16: stock +2.62%  sector +0.05%  AR +2.57%\n  2025-06-17: stock -4.01%  sector -3.19%  AR -0.82%\n  2025-06-18: stock +3.42%  sector +2.94%  AR +0.48%\n  2025-06-19: stock -2.57%  sector -0.89%  AR -1.68%\n  2025-06-22: stock +4.53%  sector +3.77%  AR +0.76%\n\n=== TECHNICAL SIGNALS ===\nRSI-14    : 50.99  [neutral]\nMACD      : state=bearish  hist=-0.0162\nBollinger : zone=middle  %B=0.523\nDistance  : 20d_hi -8.58%  20d_lo +5.32%  60d_hi -8.58%  60d_lo +22.57%  52w_hi -27.30%  52w_lo +41.69%\nDivergence : none\nATR 14d   : 2.88%  <-- TYPICAL DAILY MOVE FOR THIS TICKER\nStreak    : +1 (up streak)\n\n=== PER-COMPANY MAGNITUDE BANDS (anchored to this ticker's ATR=2.88%) ===\n  short   (N= 1d)  neutral=+-1.44%  small <2.02%  medium 2.02%-5.76%  large >=5.76%\n  medium  (N= 2d)  neutral=+-2.04%  small <2.85%  medium 2.85%-8.15%  large >=8.15%\n  large   (N=20d)  neutral=+-6.44%  small <9.02%  medium 9.02%-25.76%  large >=25.76%\n(These bands ARE THE TRUTH for this prediction. A 3% move is 'large' for a low-vol ticker and 'medium' for a high-vol one. Use them.)\n\n=== NEWS TIMING ===\nArrived at      : 2025-06-23 09:21:15\nIn trading hours: False  (EGX hours: 10:00 - 14:30 Cairo)\nWindow start    : next trading day after event_date (news arrived outside EGX hours)\nHorizons (days) : short=1d ; medium=2d ; large=20d\n\n=== ARABIC SENTIMENT ===\nLabel : neutral\nScore : +0.0391\n\n=== NEWS ARTICLE (Arabic -- do NOT translate) ===\nSource    : مباشر\nPublished : 2025-06-23 09:21:15\nHeadline  : البورصة تعلن نهاية حق وموعد توزيع كوبون راية القابضة\n\nالقاهرة - مباشر: قالت البورصة المصرية، إن نهاية الحق في التوزيع النقدي لشركة راية القابضة للاستثمارات المالية، بإغلاق جلسة يوم الإثنين 7 يوليو المقبل.\nوأوضحت البورصة اليوم الأثنين، أنه تقرر توزيع كوبون \"راية القابضة\" رقم (18) بواقع 0.040 جنيه للسهم الواحد وذلك اعتباراً من10 يوليو 2025.\nوحققت راية القابضة للاستثمارات المالية، صافي ربح بلغ 387.89 مليون جنيه خلال الفترة من يناير حتى نهاية مارس 2025، مقابل أرباح بقيمة 377.88 مليون جنيه خلال الفترة نفسها من العام الماضي، مع الأخذ في الاعتبار حقوق الأقلية.\nوارتفعت إيرادات الشركة خلال الربع الأول من العام الجاري إلى 12.88 مليار جنيه، مقابل 10.41 مليار جنيه خلال الفترة نفسها من العام الماضي.\nوعلى صعيد القوائم غير المجمعة، تحولت الشركة المستقلة خلال الربع الأول من العام الجاري إلى الربحية لتحقق 1.05 مليار جنيه، مقابل خسائر بلغت 173.38 مليون جنيه خلال الربع نفسه من 2024.\nحمل تطبيق معلومات مباشر الآن ليصلك كل جديد من خلال\nأبل ستور\nأو\nجوجل بلاي\nللتداول والاستثمار في البورصة المصرية\nاضغط هنا\nتابعوا آخر أخبار البورصة والاقتصاد عبر قناتنا على\nتليجرام\nلمتابعة قناتنا الرسمية على يوتيوب\nاضغط هنا\nلمتابعة آخر أخبار البنوك السعودية.. تابع مباشر بنوك السعودية\n..\nاضغط هنا\nلمتابعة آخر أخبار البنوك المصرية.. تابع مباشر بنوك مصر\n..\nاضغط هنا\nترشيحات\nوزير المالية المصري: الإيرادات الضريبية ترتفع 500 مليار جنيه في 11 شهراً\n\n=== IMPACT AGENT OUTPUT (junior, Groq) ===\n{\n  \"news_type\": \"dividend\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"0.04 / 2.77 = 1.44%\",\n  \"key_drivers\": [\n    \"إعلان توزيع كوبون نقدي بواقع 0.04 جنيه للسهم\",\n    \"ارتفاع صافي ربح الشركة إلى 387.89 مليون جنيه في الربع الأول\"\n  ],\n  \"ta_signals_cited\": [\n    \"rsi_neutral\",\n    \"macd_bearish\",\n    \"bollinger_middle\",\n    \"near_20d_high\",\n    \"normal_volatility\"\n  ],\n  \"dividend_info\": {\n    \"yield_pct\": 1.44,\n    \"ex_div_date\": \"2025-07-07\",\n    \"amount_egp\": 0.04\n  },\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.55,\n      \"reasoning\": \"الكوبون يمثل 1.44% من السعر الأخير، لكن MACD السلبي يقلل من التأثير المتوقع.\"\n    },\n    \"medium\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.5,\n      \"reasoning\": \"الحركة المحتملة ضمن نطاق 2.04% (النطاق الطبيعي لـ 2 أيام)، مع تأثير محدود بسبب ترند البورصة القطاعي.\"\n    },\n    \"large\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.4,\n      \"reasoning\": \"الأثر الممتد أقل من 4.5×ATR (2.88%)، مما يشير إلى تأثير ضعيف على المدى الطويل.\"\n    }\n  },\n  \"overall_reasoning\": \"الكوبون المعلن (1.44%) يقع ضمن النطاق الطبيعي لـ RAYA (ATR=2.88%). MACD السلبي يشير إلى ضعف الزخم، بينما ترند البورصة القطاعي يدعم استقرار التأثير. لا يوجد تباين أو إشارات قوية لحركة كبيرة. الأثر المتوقع محدود بسبب طبيعة الإعلان المالي العادي.\"\n}\n\n=== HORIZONS (predict ALL OF THEM) ===\n  short   -> t+0 only (just the start day's return)    AR label: اليوم الأول (t+0): رد الفعل الفوري\n  medium  -> t+0 .. t+1  (2 trading days cumulative)   AR label: اليومان الأولان (t+0 إلى t+1): الاستجابة المبكرة\n  large   -> t+0 .. t+19  (20 trading days cumulative)  AR label: العشرون يوم تداول (t+0 إلى t+19): الأثر الممتد\n\nMagnitude = |cumulative abnormal return| = sum of (stock - sector) daily\nreturns over the window. Direction is RELATIVE TO THE SECTOR -- 'up'\nmeans OUTPERFORMING the sector benchmark.\n\n\n=== TECHNICAL CHECKLIST (walk through ALL FIVE before predicting) ===\n\nT1. OVERBOUGHT / OVERSOLD\n    rsi_overbought OR bollinger_above_upper OR near_20d_high\n       -> bullish news likely capped; bearish news amplified.\n    rsi_oversold OR bollinger_below_lower OR near_20d_low\n       -> bearish news likely capped; bullish news amplified (bounce).\n\nT2. DIVERGENCE (mean-reversion warning)\n    bearish_divergence + bullish news  -> react LESS than expected.\n    bullish_divergence + bearish news  -> react LESS than expected.\n\nT3. MOMENTUM CONFIRMATION (MACD)\n    macd_bullish_crossover + bullish news -> amplify direction & magnitude.\n    macd_bearish_crossover + bearish news -> amplify direction & magnitude.\n    MACD state contradicts the news -> lower confidence.\n\nT4. ROOM TO RUN (distance_to_extremes)\n    At/near 20d high -> upside structurally capped.\n    At/near 20d low  -> downside structurally capped.\n    Cite the % distance to support your magnitude call.\n\nT5. PER-COMPANY MAGNITUDE BANDS (most important calibration fix)\n    The \"small/medium/large\" bands above are PER-COMPANY, scaled by atr_pct_14d.\n    A high-vol ticker (BTFH, ATR ~ 4%) has 'large' = >8% at short; a low-vol\n    staple (EFIH, ATR ~ 1%) has 'large' = >2% at short. USE THE TICKER'S OWN\n    BANDS -- not a global rule of thumb.\n\n    Sanity anchor: typical noise floor over N days = ATR x sqrt(N).\n       short  (1d):  ~1.0 x ATR noise.\n       medium (5d):  ~2.2 x ATR noise.\n       large  (20d): ~4.5 x ATR noise.\n    Predicting 'large' means the news signal clearly EXCEEDS the noise floor.\n\n\n=== REASONING RULES ===\nR1. CITE WITH LOGIC. Every TA signal in ta_signals_cited must be relevant.\nR2. NEWS-TYPE CHECKLIST (quick).\n    capital_increase / m_and_a -> quantify dilution = new_shares / pre_existing\n                                  (state BOTH inputs). >5% no preemptive = bearish.\n    earnings   -> compare to consensus or recent trend.\n    dividend   -> quantify yield = div_per_share / last_close; extract ex-div date.\n    regulatory -> approval positive; probe/fine negative.\n    operational-> contract/win positive; halt/accident negative.\n    macro      -> lean on sector sensitivity.\nR3. NO HALLUCINATION. State both inputs for any ratio.\nR4. PRICED-IN. If stock_vs_sector_1d strongly aligns with news direction,\n    SHORT magnitude defaults to \"small\" (mean-reversion possible).\nR5. CONFIDENCE: 0.8-1.0 clear; 0.5-0.7 mixed; 0.3-0.5 ambiguous; 0.0-0.3 undetermined.\n    Default conf_large <= conf_medium <= conf_short.\nR6. NO LANGUAGE LEAKS. Arabic free-text fields are 100% Arabic.\nR7. DIVIDEND EX-DATE. If news_type=dividend, FILL dividend_info with the\n    yield % and (if stated) the ex-div date. Note: the mechanical price drop\n    on ex-div day is NOT a stock reaction -- the evaluator will neutralise it.\n\n\nta_signals_cited MUST be a subset of:\n  rsi_overbought, rsi_oversold, rsi_neutral, macd_bullish_crossover, macd_bearish_crossover, macd_bullish, macd_bearish, bollinger_above_upper, bollinger_near_upper, bollinger_middle, bollinger_near_lower, bollinger_below_lower, bullish_divergence, bearish_divergence, near_20d_high, near_20d_low, near_52w_high, near_52w_low, strong_uptrend, strong_downtrend, trend_mixed, high_volatility, low_volatility, normal_volatility, up_streak_3plus, down_streak_3plus, already_priced_in\n\n=== REVIEW CHECKLIST ===\nC1. NEWS_TYPE correct?\nC2. TA_SIGNALS: every cited signal must be supported by the data. Override\n    inconsistent cites silently in your final output.\nC3. MAGNITUDE vs PER-COMPANY BANDS: does the predicted bucket match the\n    horizon's per-company thresholds? Adjust if mis-scaled.\nC4. PRICED-IN: if stock_vs_sector_1d aligns with the news direction, short\n    magnitude should default to \"small\" (R4).\nC5. DIVERGENCE: if a divergence signal is present, did the junior account for it?\nC6. CONFIDENCE: lower when context contradicts the call or news is priced in.\n    Default conf_large <= conf_medium <= conf_short.\nC7. DIVIDEND_INFO: if news_type=dividend, ensure yield_pct is present. If the\n    article gives the ex-div date, extract it as YYYY-MM-DD; otherwise null.\nC8. LANGUAGE: strip any non-Arabic word from Arabic fields (R6).\n\n=== USER-FACING EXPLANATION (the most important deliverable) ===\nYou will produce TWO reasoning blocks tuned to two audiences:\n\n  news_story:       PLAIN ARABIC, ZERO JARGON. Just the news content and what\n                    it means in everyday language. A retail investor with no\n                    finance training must understand it. No RSI / MACD / ATR.\n\n  technical_view:   Includes TA signals AND explains each term in Arabic\n                    inline. Format example:\n                      \"مؤشر RSI (مقياس قوة الشراء والبيع) عند 72 وهو مرتفع...\"\n                      \"مؤشر MACD (تقاطع المتوسطات المتحركة) في حالة هبوطية...\"\n                      \"نطاقات بولينجر (مستوى التذبذب) تشير إلى تشبع...\"\n                      \"مؤشر ATR (متوسط الحركة اليومية المعتادة) لهذا السهم 1.5%...\"\n\n  sentiment_note:   ONE Arabic sentence that surfaces the CAMeLBERT sentiment\n                    result (label + score given above in 'ARABIC SENTIMENT')\n                    AND explicitly says whether it agrees with our prediction\n                    or contradicts it.\n\n  outlook_by_horizon: ONE Arabic sentence per horizon. Direction + size + a\n                    one-clause reason. Numbers stated in plain language.\n\n  what_could_change_our_view: 1-2 Arabic sentences on key uncertainties.\n\nU-rules:\n  U1. NUMBERS WITH MEANING. Every cited number gets a plain-Arabic interpretation.\n  U2. STATE THE PREDICTION FIRST in news_story (direction + timeline), THEN evidence.\n  U3. BREVITY. Each field is short -- prefer 2-3 sentences max per field.\n  U4. 100% Arabic in this entire block. The next agent (QA) will reject leaks.\n\n=== INSTRUCTIONS ===\n1. Override the junior wherever evidence demands; do not surface the override\n   to the user -- just produce the corrected final prediction.\n2. Confidence: adjust per horizon. Default conf_large <= conf_medium <= conf_short.\n3. SPELLING: \"RSI-14\" not \"RS-14\". Proper Arabic punctuation.\n4. LANGUAGE: free-text Arabic; JSON keys + tickers + enum values in English.\n5. Output ONLY the JSON below. No markdown fences. No text outside.\n\n{\n  \"primary_company\": {\n    \"ticker\":              \"RAYA\",\n    \"news_type\":           \"capital_increase\" | \"m_and_a\" | \"earnings\" | \"dividend\" | \"regulatory\" | \"operational\" | \"macro\" | \"other\",\n    \"already_priced_in\":   <true | false>,\n    \"quantified_ratio\":    \"<Arabic ratio with both inputs OR 'لا ينطبق'>\",\n    \"ta_signals_cited\":    [\"<signal from closed vocab>\", \"...\"],\n    \"dividend_info\": null | {\n      \"yield_pct\":   <float>,\n      \"ex_div_date\": \"<YYYY-MM-DD or null>\",\n      \"amount_egp\":  <float or null>\n    },\n    \"per_horizon\": {\n      \"short\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"},\n      \"medium\": {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"},\n      \"large\":  {\"direction\":\"up|down|neutral\", \"magnitude\":\"small|medium|large\", \"confidence\":<0-1>, \"reasoning\":\"<1-2 Arabic sentences citing TA>\"}\n    },\n    \"overall_reasoning\":   \"<2-3 Arabic sentences. Reference the per-company bands. State news_type. Concise.>\"\n  },\n  \"tldr\": \"<one Arabic sentence summarising the whole view: direction + dominant horizon>\",\n  \"explanation_for_user\": {\n    \"headline\":                   \"<one sentence in plain Arabic, no jargon, captures the news>\",\n    \"news_story\":                 \"<2-3 sentences PLAIN Arabic, zero technical jargon. What happened and why it matters to an everyday investor.>\",\n    \"technical_view\":             \"<2-3 sentences with TA signals, EACH technical term explained in Arabic inline as shown above (RSI / MACD / Bollinger / ATR / divergence).>\",\n    \"sentiment_note\":             \"<1 Arabic sentence: state the CAMeLBERT label and score, and whether it agrees with our prediction.>\",\n    \"outlook_by_horizon\": {\n      \"short\":  \"<one Arabic sentence: direction + size + reason for t+0>\",\n      \"medium\": \"<one Arabic sentence: direction + size + reason for t+0..t+1>\",\n      \"large\":  \"<one Arabic sentence: direction + size + reason for t+0..t+19>\"\n    },\n    \"what_could_change_our_view\": \"<1-2 Arabic sentences on key uncertainties>\"\n  }\n}"
+  },
+  "impact_agent": {
+    "output": {
+      "news_type": "dividend",
+      "already_priced_in": false,
+      "quantified_ratio": "0.04 / 2.77 = 1.44%",
+      "key_drivers": [
+        "إعلان توزيع كوبون نقدي بواقع 0.04 جنيه للسهم",
+        "ارتفاع صافي ربح الشركة إلى 387.89 مليون جنيه في الربع الأول"
+      ],
+      "ta_signals_cited": [
+        "rsi_neutral",
+        "macd_bearish",
+        "bollinger_middle",
+        "near_20d_high",
+        "normal_volatility"
+      ],
+      "dividend_info": {
+        "yield_pct": 1.44,
+        "ex_div_date": "2025-07-07",
+        "amount_egp": 0.04
+      },
+      "per_horizon": {
+        "short": {
+          "direction": "neutral",
+          "magnitude": "small",
+          "confidence": 0.55,
+          "reasoning": "الكوبون يمثل 1.44% من السعر الأخير، لكن MACD السلبي يقلل من التأثير المتوقع."
+        },
+        "medium": {
+          "direction": "neutral",
+          "magnitude": "small",
+          "confidence": 0.5,
+          "reasoning": "الحركة المحتملة ضمن نطاق 2.04% (النطاق الطبيعي لـ 2 أيام)، مع تأثير محدود بسبب ترند البورصة القطاعي."
+        },
+        "large": {
+          "direction": "neutral",
+          "magnitude": "small",
+          "confidence": 0.4,
+          "reasoning": "الأثر الممتد أقل من 4.5×ATR (2.88%)، مما يشير إلى تأثير ضعيف على المدى الطويل."
+        }
+      },
+      "overall_reasoning": "الكوبون المعلن (1.44%) يقع ضمن النطاق الطبيعي لـ RAYA (ATR=2.88%). MACD السلبي يشير إلى ضعف الزخم، بينما ترند البورصة القطاعي يدعم استقرار التأثير. لا يوجد تباين أو إشارات قوية لحركة كبيرة. الأثر المتوقع محدود بسبب طبيعة الإعلان المالي العادي."
+    },
+    "raw": "{  \"news_type\": \"dividend\",\n  \"already_priced_in\": false,\n  \"quantified_ratio\": \"0.04 / 2.77 = 1.44%\",\n  \"key_drivers\": [\n    \"إعلان توزيع كوبون نقدي بواقع 0.04 جنيه للسهم\",\n    \"ارتفاع صافي ربح الشركة إلى 387.89 مليون جنيه في الربع الأول\"\n  ],\n  \"ta_signals_cited\": [\n    \"rsi_neutral\",\n    \"macd_bearish\",\n    \"bollinger_middle\",\n    \"near_20d_high\",\n    \"normal_volatility\"\n  ],\n  \"dividend_info\": {\n    \"yield_pct\": 1.44,\n    \"ex_div_date\": \"2025-07-07\",\n    \"amount_egp\": 0.04\n  },\n  \"per_horizon\": {\n    \"short\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.55,\n      \"reasoning\": \"الكوبون يمثل 1.44% من السعر الأخير، لكن MACD السلبي يقلل من التأثير المتوقع.\"\n    },\n    \"medium\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.5,\n      \"reasoning\": \"الحركة المحتملة ضمن نطاق 2.04% (النطاق الطبيعي لـ 2 أيام)، مع تأثير محدود بسبب ترند البورصة القطاعي.\"\n    },\n    \"large\": {\n      \"direction\": \"neutral\",\n      \"magnitude\": \"small\",\n      \"confidence\": 0.4,\n      \"reasoning\": \"الأثر الممتد أقل من 4.5×ATR (2.88%)، مما يشير إلى تأثير ضعيف على المدى الطويل.\"\n    }\n  },\n  \"overall_reasoning\": \"الكوبون المعلن (1.44%) يقع ضمن النطاق الطبيعي لـ RAYA (ATR=2.88%). MACD السلبي يشير إلى ضعف الزخم، بينما ترند البورصة القطاعي يدعم استقرار التأثير. لا يوجد تباين أو إشارات قوية لحركة كبيرة. الأثر المتوقع محدود بسبب طبيعة الإعلان المالي العادي.\"\n}"
+  },
+  "critic_agent": {
+    "output": {
+      "primary_company": {
+        "ticker": "RAYA",
+        "news_type": "dividend",
+        "already_priced_in": false,
+        "quantified_ratio": "العائد = 0.04 جنيه ÷ 2.77 جنيه = 1.44%",
+        "ta_signals_cited": [
+          "rsi_neutral",
+          "macd_bearish",
+          "bollinger_middle",
+          "normal_volatility",
+          "near_20d_low"
+        ],
+        "dividend_info": {
+          "yield_pct": 1.44,
+          "ex_div_date": "2025-07-07",
+          "amount_egp": 0.04
+        },
+        "per_horizon": {
+          "short": {
+            "direction": "neutral",
+            "magnitude": "small",
+            "confidence": 0.5,
+            "reasoning": "مؤشر MACD في وضع هبوطي (-0.0162) يقلل من قوة الدفع الصاعد، بينما العائد عند 1.44% فقط يحوم حول الحد الأدنى للنطاق المحايد."
+          },
+          "medium": {
+            "direction": "neutral",
+            "magnitude": "small",
+            "confidence": 0.45,
+            "reasoning": "النطاق المحايد ليومين (±2.04%) يتسع لاستيعاب أي حركة محدودة، مع ضعف الزخم الكلي للسهم."
+          },
+          "large": {
+            "direction": "neutral",
+            "magnitude": "small",
+            "confidence": 0.4,
+            "reasoning": "بعد 20 يوماً، العائد الممتد المتوقع (أقل من 4.5×ATR=12.96%) يبقى دون مستوى الضوضاء الموسع، مما يشير إلى تأثير ضئيل."
+          }
+        },
+        "overall_reasoning": "إعلان كوبون نقدي بقيمة 0.04 جنيه يحقق عائد 1.44% فقط على السعر الحالي. هذا العائد يقع عند الحد الأدنى للنطاق المحايد قصير المدى. الزخم bearish MACD وRSS المحايد يحدان من قوة الدفع. لا توجد إشارات تشبع في الشراء أو البيع، والحركة ضمن نطاق التذبذب الطبيعي للسهم. التأثير المتوقع محدود على جميع الآفاق الزمنية."
+      },
+      "tldr": "التأثير المتوقع لأسهم راية القابضة سلبي محدود بسبب عائد الكوبون المتواضع وضعف الزخم الفني.",
+      "explanation_for_user": {
+        "headline": "البورصة تعلن توزيعَ أرباح نقدية على أسهم شركة راية القابضة بمبلغ جنيهين وأربعة مليمات.",
+        "news_story": "أعلنت البورصة المصرية أن شركة راية القابضة ستوزع أرباحاً نقدية تحت رقم 18 بقيمة 0.04 جنيه لكل سهم اعتباراً من يوم 10 يوليو 2025، على أن ينتهي حق التوزيع مع إغلاق جلسة يوم 7 يوليو. هذا يعني أن كل 1000 سهم يستحق لها 40 جنيه، وهو مبلغ صغير مقارنة بسعر السهم الحالي البالغ 2.77 جنيه.",
+        "technical_view": "مؤشر القوة النسبية (RSI) للفترة 14 يساوي 50.99 وهو في المنطقة المحايدة، مما يعني عدم وجود تشبع في الشراء أو البيع. مؤشر تقاطع المتوسطات المتحركة (MACD) في حالة هبوطية (-0.0162) مما يحدّ من أي صعود. نطاقات بولينجر للتذبذب في المنطقة الوسطى (القيمة النسبية=0.523). متوسط المدى اليومي للمضاربة (ATR) لهذا السهم 2.88% يشير إلى تذبذب طبيعي.",
+        "sentiment_note": "تحليل المشاعر من نموذج الذكاء الاصطناعي جاء محايداً بنسبة +0.0391، وهو ما يتفق مع توقعاتنا بتأثير محدود.",
+        "outlook_by_horizon": {
+          "short": "تأثير اليوم الأول محايد مع حركة محدودة في نطاق ±1.44% بسبب ضعف الزخم وتقارب العائد مع الحد الأدنى المحايد.",
+          "medium": "خلال اليومين الأولين نتوقع استقراراً ضمن النطاق المحايد (±2.04%) مع عدم وجود محفزات كافية لتجاوزه.",
+          "large": "خلال العشرين يوماً، التأثير الممتد سلبي ضعيف دون 9.02% وهو الحد الأدنى لحركة متوسطة، مع احتمال تراجع السهم يوم الاستحقاق."
+        },
+        "what_could_change_our_view": "أي أرباح إيجابية غير متوقعة في التقارير المستقبلية قد تعزز السهم، كما أن أي تغيير في أسعار الصرف أو أسعار الفائدة المصرية قد يؤثر على أداء القطاع ككل."
+      }
+    },
+    "raw": "\n\n{\"primary_company\":{\"ticker\":\"RAYA\",\"news_type\":\"dividend\",\"already_priced_in\":false,\"quantified_ratio\":\"العائد = 0.04 جنيه ÷ 2.77 جنيه = 1.44%\",\"ta_signals_cited\":[\"rsi_neutral\",\"macd_bearish\",\"bollinger_middle\",\"normal_volatility\",\"near_20d_low\"],\"dividend_info\":{\"yield_pct\":1.44,\"ex_div_date\":\"2025-07-07\",\"amount_egp\":0.04},\"per_horizon\":{\"short\":{\"direction\":\"neutral\",\"magnitude\":\"small\",\"confidence\":0.50,\"reasoning\":\"مؤشر MACD في وضع هبوطي (-0.0162) يقلل من قوة الدفع الصاعد، بينما العائد عند 1.44% فقط يحوم حول الحد الأدنى للنطاق المحايد.\"},\"medium\":{\"direction\":\"neutral\",\"magnitude\":\"small\",\"confidence\":0.45,\"reasoning\":\"النطاق المحايد ليومين (±2.04%) يتسع لاستيعاب أي حركة محدودة، مع ضعف الزخم الكلي للسهم.\"},\"large\":{\"direction\":\"neutral\",\"magnitude\":\"small\",\"confidence\":0.40,\"reasoning\":\"بعد 20 يوماً، العائد الممتد المتوقع (أقل من 4.5×ATR=12.96%) يبقى دون مستوى الضوضاء الموسع، مما يشير إلى تأثير ضئيل.\"}},\"overall_reasoning\":\"إعلان كوبون نقدي بقيمة 0.04 جنيه يحقق عائد 1.44% فقط على السعر الحالي. هذا العائد يقع عند الحد الأدنى للنطاق المحايد قصير المدى. الزخم bearish MACD وRSS المحايد يحدان من قوة الدفع. لا توجد إشارات تشبع في الشراء أو البيع، والحركة ضمن نطاق التذبذب الطبيعي للسهم. التأثير المتوقع محدود على جميع الآفاق الزمنية.\"},\"tldr\":\"التأثير المتوقع لأسهم راية القابضة سلبي محدود بسبب عائد الكوبون المتواضع وضعف الزخم الفني.\",\"explanation_for_user\":{\"headline\":\"البورصة تعلن توزيع كوبون نقدي على أسهم راية القابضة بجنيهين وأربعة مليمات فقط.\",\"news_story\":\"أعلنت البورصة المصرية أن شركة راية القابضة ستوزع كوبون نقدي رقم 18 بقيمة 0.04 جنيه لكل سهم اعتباراً من 10 يوليو 2025، على أن ينتهي الحق في التوزيع مع إغلاق جلسة 7 يوليو. هذا يعني أن كل 1000 سهم يستحق منها 40 جنيه فقط، وهو مبلغ صغير جداً مقارنة بسعر السهم الحالي البالغ 2.77 جنيه.\",\"technical_view\":\"مؤشر القوة النسبية RSI-14 (قياس قوة الشراء والبيع) يساوي 50.99 وهو في المنطقة المحايدة، مما يعني لا تشبع في الشراء أو البيع. مؤشر تقاطع المتوسطات المتحركة MACD في حالة هبوطية (-0.0162) مما يحد من أي صعود. نطاقات بولينجر للتذبذب في المنطقة الوسطى (%B=0.523). متوسط الحركة اليومية المعتادة ATR لهذا السهم 2.88% يشير إلى تذبذب طبيعي.\",\"sentiment_note\":\"تحليل المشاعر من نموذج CAMeLBERT جاء محايداً بنسبة +0.0391، وهو يتفق مع توقعاتنا بتأثير محدود.\",\n\"outlook_by_horizon\":{\"short\":\"تأثير اليوم الأول محايد مع حركة محدودة في نطاق ±1.44% بسبب ضعف الزخم وتقارب العائد مع الحد الأدنى المحايد.\",\"medium\":\"خلال اليومين الأولين نتوقع استقراراً ضمن النطاق المحايد (±2.04%) مع عدم وجود محفزات كافية لتجاوزه.\",\"large\":\"خلال العشرين يوماً، التأثير الممتد سلبي ضعيف دون 9.02% وهو الحد الأدنى لحركة متوسطة، مع احتمال تراجع السهم يوم الاستحقاق.\"},\"what_could_change_our_view\":\"أي أرباح إيجابية غير متوقعة في التقارير المستقبلية قد تعزز السهم، كما أن أي تغيير في أسعار الصرف أو أسعار الفائدة المصرية قد يؤثر على أداء القطاع ككل.\"}}",
+    "thinking": "Let me analyze this task carefully as a senior quantitative risk analyst.\n\nFirst, let me audit the junior's work:\n\n**News Analysis:**\n- News Type: DIVIDEND - correct (cash dividend distribution announced)\n- The article announces:\n  - Coupon #18: 0.04 EGP per share\n  - Ex-div date: July 7, 2025 (end of right date)\n  - Payment date: July 10, 2025\n  - Q1 2025 net profit: 387.89M EGP vs 377.88M EGP in Q1 2024\n  - Q1 2025 revenue: 12.88B EGP vs 10.41B EGP in Q1 2024\n\n**Junior's Quantification:**\n- yield_pct: 0.04 / 2.77 = 1.44% ✓ CORRECT\n- ex_div_date: 2025-07-07 ✓ CORRECT\n- amount_egp: 0.04 ✓ CORRECT\n\n**TA Signal Audit:**\nJunior cited:\n1. rsi_neutral ✓ (RSI-14 = 50.99, clearly neutral)\n2. macd_bearish ✓ (MACD state=bearish, hist=-0.0162)\n3. bollinger_middle ✓ (%B=0.523, middle zone)\n4. near_20d_high ✓ (distance to 20d_hi = -8.58%, meaning we're below 20d high by 8.58%... wait, this is a bit misleading. \"near_20d_high\" typically means within a few percent. At -8.58%, this is NOT near the 20d high. Let me recalculate. Distance: 20d_hi -8.58% means current price is 8.58% BELOW the 20d high. So this is NOT near the 20d high - it's moderately below it. The junior's \"near_20d_high\" citation is INACCURATE.\n\n\n5. normal_volatility ✓ (Vol 20d ann: 56.66% - normal regime)\n\n**Technical Checklist:**\n\nT1. OVERBOUGHT/OVERSOLD: RSI sits at 50.99 (neutral territory), Bollinger positioned in the middle band, and we're 8.58% below the 20d high—none of these conditions indicate overbought or oversold extremes that would amplify or dampen price movement.\n\nT2. DIVERGENCE: No divergence detected.\n\nT3. MOMENTUM: MACD showing bearish signal with histogram at -0.0162, which works against any positive momentum and warrants lowering confidence expectations.\n\nT4. ROOM TO RUN: The stock has moved 8.58% above the 20d low but sits 8.58% below the 20d high, suggesting modest upside potential with a fairly balanced range.\n\nT5. PER-COMPANY MAGNITUDE BANDS: ATR registers at 2.88%. On a short-term basis, the 1-day neutral band spans ±1.44%, with small movements under 2.02%, medium between 2.02%-5.76%, and large moves at 5.76% or higher. Over two days, the neutral band widens to ±2.04%, with small under 2.85%, medium from 2.85%-8.15%, and large at 8.15% or above. The 20-day bands show even wider ranges.\n\n**Impact Assessment:**\n\nThe dividend yield of 1.44% sits precisely at the short-term neutral threshold, which is fairly modest. MACD is bearish while RSI holds neutral territory. The announcement timing—arriving before market open on June 23—means the dividend information could already be reflecting in recent price movement. Notably, the stock has recovered to trade above its 50-day moving average despite remaining below the 200-day level, indicating some positive momentum even as longer-term trends remain challenged.\n\nThe 90-day correlation of 0.68 with the sector suggests the stock tends to track broader market movements fairly closely, though not perfectly. Looking at recent abnormal returns, there was a substantial +2.57% on June 16, followed by some volatility, but the June 22 session showed the stock gaining 4.53% against sector gains of 3.77%, representing a meaningful +0.76% outperformance that hints at positive sentiment ahead of the announcement.\n\nGiven that the dividend yield sits exactly at the neutral boundary at 1.44%, the magnitude should register as small across short, medium, and long timeframes. However, there's a critical timing issue here: the news broke at 09:21 Cairo time before market open, yet the article is dated June 23. The end-of-right date is July 7, and the dividend gets distributed July 10. Since the announcement came before trading hours began, this information could have already been absorbed by the market, which means the impact may already be reflected in prices.\n\nThe stock's recent recovery and positive abnormal returns in the days leading up to June 23 suggest some anticipation was already building. However, the small dividend yield relative to historical volatility and the negative MACD signal both point to a limited directional impact. Given these factors, I'm assigning neutral direction with small magnitude across all three horizons—short, medium, and long-term—with confidence levels of 0.50, 0.45, and 0.40 respectively. These are deliberately conservative because while the yield sits at the neutral threshold rather than clearly above it, the broader market dynamics and technical headwinds from the MACD reading suggest the announcement's actual impact will be muted.\n\nNow I need to verify the pricing-in status before finalizing. The stock's +1.04% outperformance versus the sector over the past day creates a complication—if the market is already anticipating bullish news, that outperformance should be even more pronounced, yet the technicals don't fully support that. The fact that we're only marginally above the 50-day moving average while sitting below the 200-day average, combined with the bearish MACD reading, suggests this outperformance is more likely noise or sector rotation rather than a coordinated response to the dividend announcement itself. This argues against the short-term being priced in, which aligns with my small magnitude assignment.\n\nI should also correct the junior's error about the 20-day high—the stock is actually 8.58% below that level, not near it, which undermines their \"near_20d_high\" signal citation.\n\nNow formatting the response in JSON with proper Arabic content."
+  },
+  "arabic_qa": {
+    "enabled": true,
+    "model": "claude-sonnet-4-6",
+    "explanation_pre": {
+      "headline": "البورصة تعلن توزيع كوبون نقدي على أسهم راية القابضة بجنيهين وأربعة مليمات فقط.",
+      "news_story": "أعلنت البورصة المصرية أن شركة راية القابضة ستوزع كوبون نقدي رقم 18 بقيمة 0.04 جنيه لكل سهم اعتباراً من 10 يوليو 2025، على أن ينتهي الحق في التوزيع مع إغلاق جلسة 7 يوليو. هذا يعني أن كل 1000 سهم يستحق منها 40 جنيه فقط، وهو مبلغ صغير جداً مقارنة بسعر السهم الحالي البالغ 2.77 جنيه.",
+      "technical_view": "مؤشر القوة النسبية RSI-14 (قياس قوة الشراء والبيع) يساوي 50.99 وهو في المنطقة المحايدة، مما يعني لا تشبع في الشراء أو البيع. مؤشر تقاطع المتوسطات المتحركة MACD في حالة هبوطية (-0.0162) مما يحد من أي صعود. نطاقات بولينجر للتذبذب في المنطقة الوسطى (%B=0.523). متوسط الحركة اليومية المعتادة ATR لهذا السهم 2.88% يشير إلى تذبذب طبيعي.",
+      "sentiment_note": "تحليل المشاعر من نموذج CAMeLBERT جاء محايداً بنسبة +0.0391، وهو يتفق مع توقعاتنا بتأثير محدود.",
+      "outlook_by_horizon": {
+        "short": "تأثير اليوم الأول محايد مع حركة محدودة في نطاق ±1.44% بسبب ضعف الزخم وتقارب العائد مع الحد الأدنى المحايد.",
+        "medium": "خلال اليومين الأولين نتوقع استقراراً ضمن النطاق المحايد (±2.04%) مع عدم وجود محفزات كافية لتجاوزه.",
+        "large": "خلال العشرين يوماً، التأثير الممتد سلبي ضعيف دون 9.02% وهو الحد الأدنى لحركة متوسطة، مع احتمال تراجع السهم يوم الاستحقاق."
+      },
+      "what_could_change_our_view": "أي أرباح إيجابية غير متوقعة في التقارير المستقبلية قد تعزز السهم، كما أن أي تغيير في أسعار الصرف أو أسعار الفائدة المصرية قد يؤثر على أداء القطاع ككل."
+    },
+    "explanation_post": {
+      "headline": "البورصة تعلن توزيعَ أرباح نقدية على أسهم شركة راية القابضة بمبلغ جنيهين وأربعة مليمات.",
+      "news_story": "أعلنت البورصة المصرية أن شركة راية القابضة ستوزع أرباحاً نقدية تحت رقم 18 بقيمة 0.04 جنيه لكل سهم اعتباراً من يوم 10 يوليو 2025، على أن ينتهي حق التوزيع مع إغلاق جلسة يوم 7 يوليو. هذا يعني أن كل 1000 سهم يستحق لها 40 جنيه، وهو مبلغ صغير مقارنة بسعر السهم الحالي البالغ 2.77 جنيه.",
+      "technical_view": "مؤشر القوة النسبية (RSI) للفترة 14 يساوي 50.99 وهو في المنطقة المحايدة، مما يعني عدم وجود تشبع في الشراء أو البيع. مؤشر تقاطع المتوسطات المتحركة (MACD) في حالة هبوطية (-0.0162) مما يحدّ من أي صعود. نطاقات بولينجر للتذبذب في المنطقة الوسطى (القيمة النسبية=0.523). متوسط المدى اليومي للمضاربة (ATR) لهذا السهم 2.88% يشير إلى تذبذب طبيعي.",
+      "sentiment_note": "تحليل المشاعر من نموذج الذكاء الاصطناعي جاء محايداً بنسبة +0.0391، وهو ما يتفق مع توقعاتنا بتأثير محدود.",
+      "outlook_by_horizon": {
+        "short": "تأثير اليوم الأول محايد مع حركة محدودة في نطاق ±1.44% بسبب ضعف الزخم وتقارب العائد مع الحد الأدنى المحايد.",
+        "medium": "خلال اليومين الأولين نتوقع استقراراً ضمن النطاق المحايد (±2.04%) مع عدم وجود محفزات كافية لتجاوزه.",
+        "large": "خلال العشرين يوماً، التأثير الممتد سلبي ضعيف دون 9.02% وهو الحد الأدنى لحركة متوسطة، مع احتمال تراجع السهم يوم الاستحقاق."
+      },
+      "what_could_change_our_view": "أي أرباح إيجابية غير متوقعة في التقارير المستقبلية قد تعزز السهم، كما أن أي تغيير في أسعار الصرف أو أسعار الفائدة المصرية قد يؤثر على أداء القطاع ككل."
+    }
+  },
+  "final": {
+    "ticker": "RAYA",
+    "news_type": "dividend",
+    "already_priced_in": false,
+    "quantified_ratio": "العائد = 0.04 جنيه ÷ 2.77 جنيه = 1.44%",
+    "ta_signals_cited": [
+      "rsi_neutral",
+      "macd_bearish",
+      "bollinger_middle",
+      "normal_volatility",
+      "near_20d_low"
+    ],
+    "dividend_info": {
+      "yield_pct": 1.44,
+      "ex_div_date": "2025-07-07",
+      "amount_egp": 0.04
+    },
+    "per_horizon": {
+      "short": {
+        "direction": "neutral",
+        "magnitude": "small",
+        "confidence": 0.5,
+        "reasoning": "مؤشر MACD في وضع هبوطي (-0.0162) يقلل من قوة الدفع الصاعد، بينما العائد عند 1.44% فقط يحوم حول الحد الأدنى للنطاق المحايد."
+      },
+      "medium": {
+        "direction": "neutral",
+        "magnitude": "small",
+        "confidence": 0.45,
+        "reasoning": "النطاق المحايد ليومين (±2.04%) يتسع لاستيعاب أي حركة محدودة، مع ضعف الزخم الكلي للسهم."
+      },
+      "large": {
+        "direction": "neutral",
+        "magnitude": "small",
+        "confidence": 0.4,
+        "reasoning": "بعد 20 يوماً، العائد الممتد المتوقع (أقل من 4.5×ATR=12.96%) يبقى دون مستوى الضوضاء الموسع، مما يشير إلى تأثير ضئيل."
+      }
+    },
+    "overall_reasoning": "إعلان كوبون نقدي بقيمة 0.04 جنيه يحقق عائد 1.44% فقط على السعر الحالي. هذا العائد يقع عند الحد الأدنى للنطاق المحايد قصير المدى. الزخم bearish MACD وRSS المحايد يحدان من قوة الدفع. لا توجد إشارات تشبع في الشراء أو البيع، والحركة ضمن نطاق التذبذب الطبيعي للسهم. التأثير المتوقع محدود على جميع الآفاق الزمنية."
+  }
+}

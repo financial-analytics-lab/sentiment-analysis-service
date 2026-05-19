@@ -1,0 +1,85 @@
+{
+  "trace_file": "BTFH_2025-01-06_432e83c3.json",
+  "ticker": "BTFH",
+  "article_date": "2025-01-06",
+  "wall_clock_s": 12.96,
+  "aggregate": {
+    "consensus_action": "SELL",
+    "action_tally": {
+      "BUY": 0,
+      "HOLD": 0,
+      "SELL": 4
+    },
+    "entry_price_median": {
+      "low": 2.53,
+      "high": 2.58
+    },
+    "mean_confidence": 0.725,
+    "n_voters": 5,
+    "n_successful": 4
+  },
+  "votes": [
+    {
+      "voter": 3,
+      "ok": false,
+      "latency_s": 6.69,
+      "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "voter": 4,
+      "ok": true,
+      "latency_s": 7.98,
+      "vote": {
+        "action": "SELL",
+        "entry_price_egp": {
+          "low": 2.54,
+          "high": 2.58
+        },
+        "confidence": 0.75,
+        "rationale": "زيادة رأسمالية بنسبة 49% لم تُسعَّر بعد ستضغط على السعر نحو مستويات أدنى"
+      }
+    },
+    {
+      "voter": 1,
+      "ok": true,
+      "latency_s": 8.36,
+      "vote": {
+        "action": "SELL",
+        "entry_price_egp": {
+          "low": 2.52,
+          "high": 2.59
+        },
+        "confidence": 0.75,
+        "rationale": "زيادة رأسمالية بنسبة 49% غير مُسعرة ستضغط على السعر"
+      }
+    },
+    {
+      "voter": 5,
+      "ok": true,
+      "latency_s": 9.47,
+      "vote": {
+        "action": "SELL",
+        "entry_price_egp": {
+          "low": 2.45,
+          "high": 2.48
+        },
+        "confidence": 0.7,
+        "rationale": "زيادة رأس المال تُخفّض السعر وال سهم قريب من الدعم"
+      }
+    },
+    {
+      "voter": 2,
+      "ok": true,
+      "latency_s": 12.96,
+      "vote": {
+        "action": "SELL",
+        "entry_price_egp": {
+          "low": 2.58,
+          "high": 2.6
+        },
+        "confidence": 0.7,
+        "rationale": "زيادة راسمالية 49% dilutive والسعر قريب من قاع 52 اسبوع"
+      }
+    }
+  ]
+}
