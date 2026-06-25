@@ -23,7 +23,7 @@ from .context import build_context
 from .critic import apply_critic, run_critic
 from .expert import run_expert
 from .gate import check_gate, gate_reason
-from .schemas import AgentResponse, AnalystOutput, HorizonOutlook
+from .schemas import AgentResponse, AnalystOutput, ExplanationBlock, HorizonOutlook
 from .sentiment import analyze as run_sentiment
 from .sentiment import article_text
 
@@ -71,7 +71,11 @@ def _build_response(
     final: AnalystOutput,
     critic_invoked: bool,
     gate_reasons: list[str],
+    sentiment_label: str | None = None,
+    article_title: str = "",
 ) -> AgentResponse:
+    expl = final.arabic_explanation
+
     outlook: dict[str, HorizonOutlook] = {}
     for h in ACTIVE_HORIZONS:
         hr = final.horizons[h]
@@ -86,9 +90,21 @@ def _build_response(
             ticker=hr.ticker.model_dump(),
             sector=hr.sector.model_dump(),
             implied_abnormal=implied,
+            explanation=expl.outlook_by_horizon.get(h, ""),
         )
 
-    expl = final.arabic_explanation
+    # headline falls back to the article title when the model omitted it
+    headline = expl.headline or article_title or ""
+
+    explanation_block = ExplanationBlock(
+        headline=headline,
+        news_story=expl.news_story,
+        technical_view=expl.technical_view,
+        sentiment_note=expl.sentiment_note,
+        outlook_by_horizon=expl.outlook_by_horizon,
+        what_could_change_our_view=expl.what_could_change_our_view,
+    )
+
     return AgentResponse(
         status="ok",
         ticker=ticker,
@@ -96,9 +112,11 @@ def _build_response(
         processed_at=datetime.now(timezone.utc).isoformat(),
         critic_invoked=critic_invoked,
         outlook=outlook,
+        explanation=explanation_block,
         summary=expl.news_story,
         technical_view=expl.technical_view,
         risks=expl.what_could_change_our_view,
+        sentiment_label=sentiment_label,
     )
 
 
@@ -160,4 +178,6 @@ async def run(article: dict) -> AgentResponse:
         final=final_output,
         critic_invoked=critic_invoked,
         gate_reasons=reasons,
+        sentiment_label=sentiment_result.label,
+        article_title=article.get("title", ""),
     )

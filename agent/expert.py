@@ -9,7 +9,7 @@ Produces: structured event interpretation (company_analysis, sector_analysis,
 from __future__ import annotations
 
 from .config import EXPERT_MAX_TOKENS, EXPERT_MODEL
-from .llm_client import _parse_json, complete
+from .llm_client import complete_json
 from .prompts import EXPERT_SYSTEM, expert_user
 from .schemas import ExpertOutput
 
@@ -20,14 +20,13 @@ async def run_expert(ctx: dict, article: dict) -> ExpertOutput:
     Returns a validated ExpertOutput; raises on LLM or parse failure.
     """
     user_msg = expert_user(ctx, article)
-    raw = await complete(
+    data = await complete_json(
         model=EXPERT_MODEL,
         messages=[{"role": "user", "content": user_msg}],
         system=EXPERT_SYSTEM,
         max_tokens=EXPERT_MAX_TOKENS,
         temperature=0.0,
     )
-    data = _parse_json(raw)
     return _coerce_expert(data)
 
 

@@ -14,7 +14,7 @@ from __future__ import annotations
 
 import json
 
-from .config import ACTIVE_HORIZONS, HORIZON_DAYS
+from .config import ACTIVE_HORIZONS, HORIZON_DAYS, HORIZON_LABEL_AR
 
 # ---------------------------------------------------------------------------
 # Shared TA vocabulary (analyst and critic must cite from this list)
@@ -122,7 +122,7 @@ def _horizons_schema_block() -> str:
             "direction": "up|down|neutral",
             "magnitude": "small|medium|large|none",
             "confidence": 0.0,
-            "reasoning": "<1-2 Arabic sentences>",
+            "reasoning": "<1-2 Arabic sentences — use only directional words (صعود/هبوط/محايد/صعود قوي/تراجع طفيف/استقرار…). FORBIDDEN: any digit, % sign, or numeric return figure>",
         },
         ensure_ascii=False,
         indent=6,
@@ -132,6 +132,36 @@ def _horizons_schema_block() -> str:
         for h in ACTIVE_HORIZONS
     )
     return horizon_entries
+
+
+def _explanation_schema_block() -> str:
+    """
+    Shared `arabic_explanation` JSON skeleton for the Analyst and Critic.
+    Produces a rich, jargon-explained, everyday-investor-friendly spec with one
+    detailed sentence per active horizon (using the Arabic horizon labels).
+    """
+    outlook_lines = ",\n      ".join(
+        f'"{h}": "<جملة عربية مفصّلة لأفق ({HORIZON_LABEL_AR.get(h, h)}): '
+        f'اذكر اتجاه السهم (صعود/هبوط/محايد) وحجم الحركة (كبير/متوسط/صغير/محدود) '
+        f'ثم السبب باختصار — لا تذكر أي رقم أو نسبة مئوية محددة في هذا الحقل>"'
+        for h in ACTIVE_HORIZONS
+    )
+    return (
+        '"arabic_explanation": {\n'
+        '    "headline": "<عنوان قصير جذّاب بالعربية يلخّص الخبر في سطر واحد>",\n'
+        '    "news_story": "<3-4 جمل بالعربية وبدون أي مصطلحات فنية — اشرح ماذا حدث ولماذا، '
+        'ثم أضف جملة تبدأ بـ \\"بالنسبة للمستثمر العادي، هذا يعني...\\" توضّح الأثر المتوقع '
+        'على السهم بلغة بسيطة جداً>",\n'
+        '    "technical_view": "<2-3 جمل بالعربية تستشهد بإشارات التحليل الفني وتشرح كل مصطلح '
+        'بين قوسين: RSI (مقياس قوة الشراء والبيع), MACD (تقاطع المتوسطات المتحركة), '
+        'Bollinger (نطاقات التذبذب), ATR (متوسط الحركة اليومية المعتادة)>",\n'
+        '    "sentiment_note": "<جملة عربية واحدة تذكر نتيجة تحليل المشاعر (إيجابي/سلبي/محايد '
+        '+ الدرجة الرقمية) وهل تتفق أم تتعارض مع توقعنا. لا تذكر اسم أي أداة أو نموذج.>",\n'
+        '    "outlook_by_horizon": {\n      ' + outlook_lines + '\n    },\n'
+        '    "what_could_change_our_view": "<1-2 جمل بالعربية عن أهم المخاطر أو العوامل '
+        'التي قد تعكس التوقع>"\n'
+        '  }'
+    )
 
 
 # ===========================================================================
@@ -249,6 +279,13 @@ TA SIGNALS (ta_signals_cited must only contain values from this list):
 LANGUAGE: ALL reasoning fields and the entire arabic_explanation block must be 100% Arabic.
 JSON keys, enum values (directions/magnitudes/etc), and ticker symbols stay in English.
 
+REASONING NUMBER BAN — ABSOLUTE RULE:
+The `reasoning` field inside EVERY horizon prediction block (ticker and sector) must contain
+ZERO numeric figures. No percentages (%), no EGP prices, no return numbers (e.g. "16.29%",
+"4.50 EGP", "ارتفع 10%"). Describe movement with words ONLY:
+  صعود قوي | صعود تدريجي | ارتفاع محدود | استقرار | تراجع طفيف | هبوط حاد | ضغط بيعي | زخم شرائي
+Any digit in a reasoning field is a violation of this rule.
+
 OUTPUT SCHEMA (JSON only, no markdown fences, no text outside):
 {{
   "event_type": "...",
@@ -256,15 +293,7 @@ OUTPUT SCHEMA (JSON only, no markdown fences, no text outside):
   "horizons": {{
     {_horizons_schema_block()}
   }},
-  "arabic_explanation": {{
-    "news_story": "<2-3 sentences plain Arabic, zero jargon — what happened and why it matters to an everyday investor>",
-    "technical_view": "<2-3 sentences Arabic — cite TA signals and explain each term inline: RSI (مقياس قوة الشراء/البيع), MACD (تقاطع المتوسطات المتحركة), Bollinger (نطاقات التذبذب)>",
-    "sentiment_note": "<1 Arabic sentence — report the تحليل المشاعر result (positive/negative/neutral + numeric score) and state whether it supports or contradicts our prediction. Never name any tool, model, or library.>",
-    "outlook_by_horizon": {{
-      {", ".join(f'"{h}": "<1 Arabic sentence: ticker direction + sector context for {HORIZON_DAYS[h]}d horizon>"' for h in ACTIVE_HORIZONS)}
-    }},
-    "what_could_change_our_view": "<1-2 Arabic sentences on key uncertainties that could reverse the prediction>"
-  }}
+  {_explanation_schema_block()}
 }}"""
 
 
@@ -317,6 +346,12 @@ C5. CONFIDENCE: lower when signals conflict. Sector confidence ≤ ticker confid
 C6. PRICED_IN: if sector_vs_stock_1d already moved with the news, short ticker magnitude = "small".
 C7. LANGUAGE: all reasoning fields must be 100% Arabic.
 
+REASONING NUMBER BAN — ABSOLUTE RULE:
+The `reasoning` field inside EVERY horizon prediction block (ticker and sector) must contain
+ZERO numeric figures. No percentages (%), no EGP prices, no return numbers. Describe movement
+with directional words only: صعود قوي | ارتفاع محدود | استقرار | تراجع طفيف | هبوط حاد | زخم شرائي
+Any digit in a reasoning field is a violation — rewrite it before outputting.
+
 OVERRIDE RULE: if you agree with both legs on all horizons, set verdict="confirm" and copy
 the analyst horizons unchanged. If you disagree with any leg on any horizon, set verdict="override"
 and provide the FULL corrected horizons block.
@@ -328,15 +363,7 @@ OUTPUT SCHEMA (JSON only, no markdown fences, no text outside):
   "horizons": {{
     {_horizons_schema_block()}
   }},
-  "arabic_explanation": {{
-    "news_story": "<2-3 sentences plain Arabic>",
-    "technical_view": "<2-3 sentences Arabic with TA terms explained inline>",
-    "sentiment_note": "<1 Arabic sentence>",
-    "outlook_by_horizon": {{
-      {", ".join(f'"{h}": "<1 Arabic sentence>"' for h in ACTIVE_HORIZONS)}
-    }},
-    "what_could_change_our_view": "<1-2 Arabic sentences>"
-  }}
+  {_explanation_schema_block()}
 }}"""
 
 

@@ -9,7 +9,7 @@ Produces: per-horizon dual-target predictions (ticker leg + sector leg)
 from __future__ import annotations
 
 from .config import ANALYST_MAX_TOKENS, ANALYST_MODEL, ACTIVE_HORIZONS
-from .llm_client import _parse_json, complete
+from .llm_client import complete_json
 from .prompts import ANALYST_SYSTEM, analyst_user
 from .schemas import (
     AnalystOutput,
@@ -33,14 +33,13 @@ async def run_analyst(
         sentiment.score,
         article,
     )
-    raw = await complete(
+    data = await complete_json(
         model=ANALYST_MODEL,
         messages=[{"role": "user", "content": user_msg}],
         system=ANALYST_SYSTEM,
         max_tokens=ANALYST_MAX_TOKENS,
         temperature=0.0,
     )
-    data = _parse_json(raw)
     return _coerce_analyst(data)
 
 
@@ -77,6 +76,7 @@ def _coerce_analyst(data: dict) -> AnalystOutput:
 
     expl = data.get("arabic_explanation") or {}
     explanation = ArabicExplanation(
+        headline=expl.get("headline", ""),
         news_story=expl.get("news_story", ""),
         technical_view=expl.get("technical_view", ""),
         sentiment_note=expl.get("sentiment_note", ""),

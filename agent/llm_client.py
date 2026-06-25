@@ -64,8 +64,9 @@ def _post_sync(
             if data.get("type") == "error":
                 raise RuntimeError(f"API error: {data}")
             content = data.get("content", [])
-            if content and content[0].get("type") == "text":
-                return content[0]["text"]
+            text_block = next((b for b in content if b.get("type") == "text"), None)
+            if text_block:
+                return text_block["text"]
             raise RuntimeError(f"Unexpected response shape: {data}")
         except Exception as exc:
             last_err = exc
@@ -84,6 +85,44 @@ async def complete(
     """Async wrapper: runs the blocking HTTP call in a thread pool."""
     return await asyncio.to_thread(
         _post_sync, model, messages, system, max_tokens, temperature
+    )
+
+
+async def complete_json(
+    model: str,
+    messages: list[dict],
+    system: str = "",
+    max_tokens: int = 1024,
+    temperature: float = 0.0,
+    parse_retries: int = 2,
+) -> dict:
+    """
+    Like `complete`, but parses the result as JSON and retries on parse failure.
+
+    The API gateway forces extended thinking, whose trace counts toward
+    max_tokens. When the trace is long the JSON answer can be truncated before
+    a single '{' is emitted. On a parse failure we retry with a 1.6x larger
+    token budget (capped) — a fresh, often shorter, thinking trace plus more
+    room for the answer usually succeeds.
+    """
+    last_err: Exception | None = None
+    budget = max_tokens
+    for attempt in range(parse_retries + 1):
+        raw = await complete(
+            model=model,
+            messages=messages,
+            system=system,
+            max_tokens=budget,
+            temperature=temperature,
+        )
+        try:
+            return _parse_json(raw)
+        except (ValueError, json.JSONDecodeError) as exc:
+            last_err = exc
+            budget = min(int(budget * 1.6), 16000)
+    raise ValueError(
+        f"JSON parse failed after {parse_retries + 1} attempts "
+        f"(last budget={budget}): {last_err}"
     )
 
 

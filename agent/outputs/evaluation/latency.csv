@@ -1,0 +1,24 @@
+ticker,event_date,article_id,file,status,latency_s,error
+FWRY,2025-06-24,4463473,FWRY_20250624_4463473.json,ok,148.034,
+MASR,2025-06-29,4464858,MASR_20250629_4464858.json,ok,68.454,
+CCAP,2025-06-24,4463558,CCAP_20250624_4463558.json,error,299.055,"ValueError: JSON parse failed after 3 attempts (last budget=16000): No JSON object found in LLM output: I'll audit the junior analyst's predictions by cross-referencing the article, quantitative context, and expert analysis."
+JUFO,2025-06-25,4464045,JUFO_20250625_4464045.json,ok,326.476,
+HRHO,2025-06-24,4463561,HRHO_20250624_4463561.json,ok,39.001,
+ABUK,2025-06-29,4464717,ABUK_20250629_4464717.json,ok,152.06,
+MCQE,2025-06-23,4462980,MCQE_20250623_4462980.json,ok,33.034,
+FWRY,2025-06-24,4463487,FWRY_20250624_4463487.json,ok,103.117,
+ETEL,2025-06-26,4464213,ETEL_20250626_4464213.json,ok,275.479,
+MFPC,2025-06-29,4464720,MFPC_20250629_4464720.json,ok,182.638,
+RAYA,2025-06-29,4464650,RAYA_20250629_4464650.json,ok,139.726,
+RAYA,2025-06-23,4462998,RAYA_20250623_4462998.json,ok,67.691,
+RMDA,2025-06-29,4464725,RMDA_20250629_4464725.json,ok,181.203,
+JUFO,2025-06-25,4463831,JUFO_20250625_4463831.json,ok,410.114,
+MASR,2025-06-25,4463862,MASR_20250625_4463862.json,error,26.35,"ValidationError: 1 validation error for ExpertOutput
+company_analysis.direction_prior
+  Input should be 'positive', 'negative' or 'neutral' [type=literal_error, input_value='mixed', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error"
+RAYA,2025-06-24,4463501,RAYA_20250624_4463501.json,ok,427.372,
+ABUK,2025-06-29,4464697,ABUK_20250629_4464697.json,ok,199.089,
+AMOC,2025-06-29,4464778,AMOC_20250629_4464778.json,ok,57.259,
+ABUK,2025-06-29,4464705,ABUK_20250629_4464705.json,ok,144.448,
+GBCO,2025-06-23,4463040,GBCO_20250623_4463040.json,ok,232.154,

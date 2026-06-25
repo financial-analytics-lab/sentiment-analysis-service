@@ -10,7 +10,7 @@ from __future__ import annotations
 
 from .analyst import _coerce_analyst
 from .config import CRITIC_MAX_TOKENS, CRITIC_MODEL
-from .llm_client import _parse_json, complete
+from .llm_client import complete_json
 from .prompts import CRITIC_SYSTEM, critic_user
 from .schemas import AnalystOutput, CriticOutput, ExpertOutput, SentimentResult
 
@@ -31,14 +31,13 @@ async def run_critic(
         analyst.model_dump(),
         article,
     )
-    raw = await complete(
+    data = await complete_json(
         model=CRITIC_MODEL,
         messages=[{"role": "user", "content": user_msg}],
         system=CRITIC_SYSTEM,
         max_tokens=CRITIC_MAX_TOKENS,
         temperature=0.0,
     )
-    data = _parse_json(raw)
     return _coerce_critic(data)
 
 

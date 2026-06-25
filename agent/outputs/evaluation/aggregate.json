@@ -1,0 +1,448 @@
+{
+  "generated_at": "2026-06-25T14:14:01.653889+00:00",
+  "run": {
+    "n_total": 20,
+    "n_ok": 18,
+    "n_skipped": 0,
+    "n_errors": 2,
+    "concurrency": 3,
+    "news_path": "agent\\news\\all_news_by_date_mubasher.json",
+    "prices_path": "agent\\stock_prices\\egyptian_stocks_2020_2025.json"
+  },
+  "latency": {
+    "n": 18,
+    "mean_s": 177.075,
+    "median_s": 150.047,
+    "min_s": 33.034,
+    "max_s": 427.372,
+    "p95_s": 427.372,
+    "p99_s": 427.372,
+    "total_wall_s": 3187.3
+  },
+  "direction_accuracy": {
+    "n_total": 54,
+    "n_scored": 54,
+    "n_no_data": 0,
+    "ticker": {
+      "overall": {
+        "n": 54,
+        "hit_rate": 0.5
+      },
+      "baseline_always_up": {
+        "n": 54,
+        "hit_rate": 0.556
+      },
+      "baseline_market": {
+        "n": 54,
+        "hit_rate": 0.685
+      },
+      "baseline_sentiment": {
+        "n": 54,
+        "hit_rate": 0.593
+      },
+      "by_horizon": {
+        "short": {
+          "n": 18,
+          "hit_rate": 0.5
+        },
+        "medium": {
+          "n": 18,
+          "hit_rate": 0.5
+        },
+        "large": {
+          "n": 18,
+          "hit_rate": 0.5
+        }
+      },
+      "by_event_type": {
+        "earnings": {
+          "n": 15,
+          "hit_rate": 0.533
+        },
+        "m_and_a": {
+          "n": 6,
+          "hit_rate": 0.167
+        },
+        "operational": {
+          "n": 21,
+          "hit_rate": 0.476
+        },
+        "capital_increase": {
+          "n": 3,
+          "hit_rate": 1.0
+        },
+        "dividend": {
+          "n": 9,
+          "hit_rate": 0.556
+        }
+      },
+      "by_sector": {
+        "Petroleum & Petrochemicals": {
+          "n": 15,
+          "hit_rate": 0.4
+        },
+        "Telecommunications": {
+          "n": 3,
+          "hit_rate": 0.333
+        },
+        "Technology & Fintech": {
+          "n": 15,
+          "hit_rate": 0.667
+        },
+        "Diversified Holding": {
+          "n": 3,
+          "hit_rate": 0.0
+        },
+        "Non-Bank Financials": {
+          "n": 3,
+          "hit_rate": 0.333
+        },
+        "Food & Beverages": {
+          "n": 6,
+          "hit_rate": 0.5
+        },
+        "Real Estate": {
+          "n": 3,
+          "hit_rate": 1.0
+        },
+        "Construction & Building Materials": {
+          "n": 3,
+          "hit_rate": 0.667
+        },
+        "Healthcare & Pharmaceuticals": {
+          "n": 3,
+          "hit_rate": 0.333
+        }
+      }
+    },
+    "sector": {
+      "overall": {
+        "n": 54,
+        "hit_rate": 0.389
+      },
+      "baseline_always_up": {
+        "n": 54,
+        "hit_rate": 0.426
+      },
+      "baseline_market": {
+        "n": 54,
+        "hit_rate": 1.0
+      },
+      "baseline_sentiment": {
+        "n": 54,
+        "hit_rate": 0.5
+      },
+      "by_horizon": {
+        "short": {
+          "n": 18,
+          "hit_rate": 0.167
+        },
+        "medium": {
+          "n": 18,
+          "hit_rate": 0.556
+        },
+        "large": {
+          "n": 18,
+          "hit_rate": 0.444
+        }
+      },
+      "by_event_type": {
+        "earnings": {
+          "n": 15,
+          "hit_rate": 0.267
+        },
+        "m_and_a": {
+          "n": 6,
+          "hit_rate": 0.167
+        },
+        "operational": {
+          "n": 21,
+          "hit_rate": 0.571
+        },
+        "capital_increase": {
+          "n": 3,
+          "hit_rate": 1.0
+        },
+        "dividend": {
+          "n": 9,
+          "hit_rate": 0.111
+        }
+      },
+      "by_sector": {
+        "Petroleum & Petrochemicals": {
+          "n": 15,
+          "hit_rate": 0.333
+        },
+        "Telecommunications": {
+          "n": 3,
+          "hit_rate": 0.333
+        },
+        "Technology & Fintech": {
+          "n": 15,
+          "hit_rate": 0.2
+        },
+        "Diversified Holding": {
+          "n": 3,
+          "hit_rate": 1.0
+        },
+        "Non-Bank Financials": {
+          "n": 3,
+          "hit_rate": 1.0
+        },
+        "Food & Beverages": {
+          "n": 6,
+          "hit_rate": 0.333
+        },
+        "Real Estate": {
+          "n": 3,
+          "hit_rate": 1.0
+        },
+        "Construction & Building Materials": {
+          "n": 3,
+          "hit_rate": 0.0
+        },
+        "Healthcare & Pharmaceuticals": {
+          "n": 3,
+          "hit_rate": 0.333
+        }
+      }
+    },
+    "implied_abnormal": {
+      "overall": {
+        "n": 0,
+        "hit_rate": null
+      },
+      "by_horizon": {
+        "short": {
+          "n": 0,
+          "hit_rate": null
+        },
+        "medium": {
+          "n": 0,
+          "hit_rate": null
+        },
+        "large": {
+          "n": 0,
+          "hit_rate": null
+        }
+      },
+      "by_event_type": {
+        "earnings": {
+          "n": 0,
+          "hit_rate": null
+        },
+        "m_and_a": {
+          "n": 0,
+          "hit_rate": null
+        },
+        "operational": {
+          "n": 0,
+          "hit_rate": null
+        },
+        "capital_increase": {
+          "n": 0,
+          "hit_rate": null
+        },
+        "dividend": {
+          "n": 0,
+          "hit_rate": null
+        }
+      }
+    }
+  },
+  "absolute_return": {
+    "n_predictions": 54,
+    "n_scored": 54,
+    "n_no_data": 0,
+    "overall": {
+      "hit_rate": 0.5,
+      "mean_abs_ret_pct": 4.579
+    },
+    "by_horizon": {
+      "short": {
+        "horizon_days": 1,
+        "n": 18,
+        "hit_rate": 0.5,
+        "baseline_always_up": 0.667,
+        "mean_abs_ret_pct": 2.377,
+        "mean_ret_correct": 2.127,
+        "mean_ret_wrong": 1.493,
+        "ret_p25": 0.358,
+        "ret_p50": 1.857,
+        "ret_p75": 3.009,
+        "ret_std": 2.557,
+        "pred_distribution": {
+          "up": 9,
+          "down": 3,
+          "neutral": 6
+        },
+        "obs_distribution": {
+          "up": 12,
+          "down": 3,
+          "neutral": 3
+        },
+        "hit_rate_by_predicted_direction": {
+          "up": {
+            "n": 9,
+            "hit_rate": 0.778,
+            "mean_ret_pct": 2.443
+          },
+          "down": {
+            "n": 3,
+            "hit_rate": 0.667,
+            "mean_ret_pct": -0.918
+          },
+          "neutral": {
+            "n": 6,
+            "hit_rate": 0.0,
+            "mean_ret_pct": 2.223
+          }
+        }
+      },
+      "medium": {
+        "horizon_days": 2,
+        "n": 18,
+        "hit_rate": 0.5,
+        "baseline_always_up": 0.611,
+        "mean_abs_ret_pct": 3.487,
+        "mean_ret_correct": 5.02,
+        "mean_ret_wrong": 0.093,
+        "ret_p25": -0.254,
+        "ret_p50": 1.997,
+        "ret_p75": 2.27,
+        "ret_std": 4.929,
+        "pred_distribution": {
+          "up": 13,
+          "down": 3,
+          "neutral": 2
+        },
+        "obs_distribution": {
+          "up": 11,
+          "down": 4,
+          "neutral": 3
+        },
+        "hit_rate_by_predicted_direction": {
+          "up": {
+            "n": 13,
+            "hit_rate": 0.615,
+            "mean_ret_pct": 3.275
+          },
+          "down": {
+            "n": 3,
+            "hit_rate": 0.333,
+            "mean_ret_pct": 0.932
+          },
+          "neutral": {
+            "n": 2,
+            "hit_rate": 0.0,
+            "mean_ret_pct": 0.322
+          }
+        }
+      },
+      "large": {
+        "horizon_days": 20,
+        "n": 18,
+        "hit_rate": 0.5,
+        "baseline_always_up": 0.389,
+        "mean_abs_ret_pct": 7.872,
+        "mean_ret_correct": 8.197,
+        "mean_ret_wrong": -2.042,
+        "ret_p25": 2.18,
+        "ret_p50": 2.746,
+        "ret_p75": 8.234,
+        "ret_std": 10.389,
+        "pred_distribution": {
+          "up": 11,
+          "down": 3,
+          "neutral": 4
+        },
+        "obs_distribution": {
+          "up": 7,
+          "down": 2,
+          "neutral": 9
+        },
+        "hit_rate_by_predicted_direction": {
+          "up": {
+            "n": 11,
+            "hit_rate": 0.545,
+            "mean_ret_pct": 5.096
+          },
+          "down": {
+            "n": 3,
+            "hit_rate": 0.0,
+            "mean_ret_pct": 6.229
+          },
+          "neutral": {
+            "n": 4,
+            "hit_rate": 0.75,
+            "mean_ret_pct": -4.836
+          }
+        }
+      }
+    },
+    "by_predicted_direction": {
+      "up": {
+        "n": 33,
+        "hit_rate": 0.636,
+        "mean_ret_pct": 3.655
+      },
+      "down": {
+        "n": 9,
+        "hit_rate": 0.333,
+        "mean_ret_pct": 2.081
+      },
+      "neutral": {
+        "n": 12,
+        "hit_rate": 0.25,
+        "mean_ret_pct": -0.447
+      }
+    },
+    "by_sector": {
+      "Construction & Building Materials": {
+        "n": 3,
+        "hit_rate": 0.667,
+        "mean_ret_pct": 14.958
+      },
+      "Diversified Holding": {
+        "n": 3,
+        "hit_rate": 0.0,
+        "mean_ret_pct": 1.163
+      },
+      "Food & Beverages": {
+        "n": 6,
+        "hit_rate": 0.5,
+        "mean_ret_pct": -0.084
+      },
+      "Healthcare & Pharmaceuticals": {
+        "n": 3,
+        "hit_rate": 0.333,
+        "mean_ret_pct": -3.188
+      },
+      "Non-Bank Financials": {
+        "n": 3,
+        "hit_rate": 0.333,
+        "mean_ret_pct": -3.03
+      },
+      "Petroleum & Petrochemicals": {
+        "n": 15,
+        "hit_rate": 0.4,
+        "mean_ret_pct": 0.007
+      },
+      "Real Estate": {
+        "n": 3,
+        "hit_rate": 1.0,
+        "mean_ret_pct": 1.79
+      },
+      "Technology & Fintech": {
+        "n": 15,
+        "hit_rate": 0.667,
+        "mean_ret_pct": 6.146
+      },
+      "Telecommunications": {
+        "n": 3,
+        "hit_rate": 0.333,
+        "mean_ret_pct": 2.373
+      }
+    }
+  }
+}

@@ -11,7 +11,7 @@ ONLY based on what is explicitly written in the supplied text.
 from __future__ import annotations
 
 from .config import SENTIMENT_MAX_TOKENS, SENTIMENT_MODEL
-from .llm_client import _parse_json, complete
+from .llm_client import complete_json
 from .schemas import SentimentResult
 
 _SENTIMENT_SYSTEM = """\
@@ -47,16 +47,14 @@ async def analyze(text: str) -> SentimentResult:
             class_probs={"positive": 0.0, "neutral": 1.0, "negative": 0.0},
         )
 
-    raw = await complete(
-        model=SENTIMENT_MODEL,
-        messages=[{"role": "user", "content": text}],
-        system=_SENTIMENT_SYSTEM,
-        max_tokens=SENTIMENT_MAX_TOKENS,
-        temperature=0.0,
-    )
-
     try:
-        data = _parse_json(raw)
+        data = await complete_json(
+            model=SENTIMENT_MODEL,
+            messages=[{"role": "user", "content": text}],
+            system=_SENTIMENT_SYSTEM,
+            max_tokens=SENTIMENT_MAX_TOKENS,
+            temperature=0.0,
+        )
         pos = float(data.get("positive", 0.0))
         neu = float(data.get("neutral",  0.0))
         neg = float(data.get("negative", 0.0))

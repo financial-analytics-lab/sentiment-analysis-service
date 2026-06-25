@@ -89,7 +89,7 @@ def _neutral_band(atr: float | None, horizon: str) -> float:
     n = HORIZON_DAYS[horizon]
     if atr and atr > 0:
         return round(0.5 * atr * math.sqrt(n), 2)
-    return {"short": 1.0, "medium": 2.5}[horizon]
+    return {"short": 1.0, "medium": 1.5, "large": 4.0}[horizon]
 
 
 def _observed_direction(ret_pct: float, band: float) -> str:

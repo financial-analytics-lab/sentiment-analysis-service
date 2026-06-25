@@ -1,0 +1,55 @@
+ticker,sector,event_date,horizon,event_type,critic_invoked,pred_ticker,pred_sector,pred_implied,conf_ticker,conf_sector,actual_ticker_ret,actual_sector_ret,actual_abnormal_ret,status,obs_ticker,obs_sector,obs_implied,hit_ticker,hit_sector,hit_implied,bl_always_up_ticker,bl_always_up_sector,bl_market_ticker,bl_market_sector,bl_sentiment_ticker,bl_sentiment_sector,file
+ABUK,Petroleum & Petrochemicals,2025-06-29,short,earnings,True,neutral,neutral,neutral,0.6,0.52,3.068,1.058,,scored,up,up,,False,False,,True,True,True,True,False,False,ABUK_20250629_4464697.json
+ABUK,Petroleum & Petrochemicals,2025-06-29,medium,earnings,True,down,neutral,down,0.65,0.52,2.27,0.721,,scored,up,neutral,,False,True,,True,False,False,True,False,True,ABUK_20250629_4464697.json
+ABUK,Petroleum & Petrochemicals,2025-06-29,large,earnings,True,down,neutral,down,0.7,0.52,2.679,-7.063,,scored,neutral,down,,False,False,,False,False,False,True,True,False,ABUK_20250629_4464697.json
+ABUK,Petroleum & Petrochemicals,2025-06-29,short,m_and_a,False,neutral,neutral,neutral,0.68,0.62,3.068,1.058,,scored,up,up,,False,False,,True,True,True,True,False,False,ABUK_20250629_4464705.json
+ABUK,Petroleum & Petrochemicals,2025-06-29,medium,m_and_a,False,neutral,neutral,neutral,0.7,0.65,2.27,0.721,,scored,up,neutral,,False,True,,True,False,False,True,False,True,ABUK_20250629_4464705.json
+ABUK,Petroleum & Petrochemicals,2025-06-29,large,m_and_a,False,neutral,neutral,neutral,0.72,0.68,2.679,-7.063,,scored,neutral,down,,True,False,,False,False,False,True,True,False,ABUK_20250629_4464705.json
+ABUK,Petroleum & Petrochemicals,2025-06-29,short,operational,True,up,neutral,up,0.72,0.6,3.068,1.058,,scored,up,up,,True,False,,True,True,True,True,True,True,ABUK_20250629_4464717.json
+ABUK,Petroleum & Petrochemicals,2025-06-29,medium,operational,True,up,neutral,up,0.7,0.58,2.27,0.721,,scored,up,neutral,,True,True,,True,False,False,True,True,False,ABUK_20250629_4464717.json
+ABUK,Petroleum & Petrochemicals,2025-06-29,large,operational,True,up,neutral,up,0.65,0.55,2.679,-7.063,,scored,neutral,down,,False,False,,False,False,False,True,False,False,ABUK_20250629_4464717.json
+AMOC,Petroleum & Petrochemicals,2025-06-29,short,earnings,True,up,neutral,up,0.75,0.6,1.459,1.058,,scored,up,up,,True,False,,True,True,True,True,True,True,AMOC_20250629_4464778.json
+AMOC,Petroleum & Petrochemicals,2025-06-29,medium,earnings,True,up,neutral,up,0.72,0.58,-1.459,0.721,,scored,down,neutral,,False,True,,False,False,False,True,False,False,AMOC_20250629_4464778.json
+AMOC,Petroleum & Petrochemicals,2025-06-29,large,earnings,True,up,neutral,up,0.7,0.55,-0.928,-7.063,,scored,neutral,down,,False,False,,False,False,False,True,False,False,AMOC_20250629_4464778.json
+ETEL,Telecommunications,2025-06-26,short,operational,True,neutral,neutral,neutral,0.58,0.55,0.975,0.975,,scored,up,up,,False,False,,True,True,True,True,True,True,ETEL_20250626_4464213.json
+ETEL,Telecommunications,2025-06-26,medium,operational,True,up,neutral,up,0.6,0.55,0.185,0.185,,scored,neutral,neutral,,False,True,,False,False,True,True,False,False,ETEL_20250626_4464213.json
+ETEL,Telecommunications,2025-06-26,large,operational,True,up,neutral,up,0.62,0.52,5.958,5.958,,scored,up,up,,True,False,,True,True,True,True,True,True,ETEL_20250626_4464213.json
+FWRY,Technology & Fintech,2025-06-24,short,earnings,True,up,neutral,up,0.65,0.58,2.831,3.7,,scored,up,up,,True,False,,True,True,True,True,True,True,FWRY_20250624_4463473.json
+FWRY,Technology & Fintech,2025-06-24,medium,earnings,True,up,neutral,up,0.68,0.55,5.329,5.739,,scored,up,up,,True,False,,True,True,True,True,True,True,FWRY_20250624_4463473.json
+FWRY,Technology & Fintech,2025-06-24,large,earnings,True,up,neutral,up,0.72,0.52,8.326,9.621,,scored,up,up,,True,False,,True,True,True,True,True,True,FWRY_20250624_4463473.json
+FWRY,Technology & Fintech,2025-06-24,short,earnings,False,neutral,neutral,neutral,0.72,0.65,2.831,3.7,,scored,up,up,,False,False,,True,True,True,True,True,True,FWRY_20250624_4463487.json
+FWRY,Technology & Fintech,2025-06-24,medium,earnings,False,up,neutral,up,0.68,0.62,5.329,5.739,,scored,up,up,,True,False,,True,True,True,True,True,True,FWRY_20250624_4463487.json
+FWRY,Technology & Fintech,2025-06-24,large,earnings,False,up,up,up,0.74,0.6,8.326,9.621,,scored,up,up,,True,True,,True,True,True,True,True,True,FWRY_20250624_4463487.json
+GBCO,Diversified Holding,2025-06-23,short,operational,False,up,neutral,up,0.68,0.6,-0.618,-0.618,,scored,neutral,neutral,,False,True,,False,False,True,True,False,False,GBCO_20250623_4463040.json
+GBCO,Diversified Holding,2025-06-23,medium,operational,False,up,neutral,up,0.72,0.65,0.707,0.707,,scored,neutral,neutral,,False,True,,False,False,True,True,False,False,GBCO_20250623_4463040.json
+GBCO,Diversified Holding,2025-06-23,large,operational,False,up,neutral,up,0.75,0.7,3.401,3.401,,scored,neutral,neutral,,False,True,,False,False,True,True,False,False,GBCO_20250623_4463040.json
+HRHO,Non-Bank Financials,2025-06-24,short,operational,False,up,neutral,up,0.68,0.7,2.182,1.46,,scored,up,neutral,,True,True,,True,False,False,True,True,False,HRHO_20250624_4463561.json
+HRHO,Non-Bank Financials,2025-06-24,medium,operational,False,up,neutral,up,0.72,0.65,-0.4,2.183,,scored,neutral,neutral,,False,True,,False,False,True,True,False,False,HRHO_20250624_4463561.json
+HRHO,Non-Bank Financials,2025-06-24,large,operational,False,up,neutral,up,0.65,0.62,-10.873,1.183,,scored,down,neutral,,False,True,,False,False,False,True,False,False,HRHO_20250624_4463561.json
+JUFO,Food & Beverages,2025-06-25,short,earnings,True,down,neutral,down,0.65,0.5,-1.373,-1.373,,scored,down,down,,True,False,,False,False,True,True,True,True,JUFO_20250625_4463831.json
+JUFO,Food & Beverages,2025-06-25,medium,earnings,True,down,neutral,down,0.7,0.5,-1.626,-1.626,,scored,down,down,,True,False,,False,False,True,True,True,True,JUFO_20250625_4463831.json
+JUFO,Food & Beverages,2025-06-25,large,earnings,True,down,neutral,down,0.7,0.5,2.746,2.746,,scored,neutral,neutral,,False,True,,False,False,True,True,False,False,JUFO_20250625_4463831.json
+JUFO,Food & Beverages,2025-06-25,short,operational,True,neutral,neutral,neutral,0.6,0.55,-1.373,-1.373,,scored,down,down,,False,False,,False,False,True,True,True,True,JUFO_20250625_4464045.json
+JUFO,Food & Beverages,2025-06-25,medium,operational,True,neutral,neutral,neutral,0.6,0.55,-1.626,-1.626,,scored,down,down,,False,False,,False,False,True,True,True,True,JUFO_20250625_4464045.json
+JUFO,Food & Beverages,2025-06-25,large,operational,True,neutral,neutral,neutral,0.65,0.55,2.746,2.746,,scored,neutral,neutral,,True,True,,False,False,True,True,False,False,JUFO_20250625_4464045.json
+MASR,Real Estate,2025-06-29,short,capital_increase,False,up,neutral,up,0.7,0.65,1.79,0.649,,scored,up,neutral,,True,True,,True,False,False,True,True,False,MASR_20250629_4464858.json
+MASR,Real Estate,2025-06-29,medium,capital_increase,False,up,neutral,up,0.7,0.65,1.566,-0.19,,scored,up,neutral,,True,True,,True,False,False,True,True,False,MASR_20250629_4464858.json
+MASR,Real Estate,2025-06-29,large,capital_increase,False,neutral,neutral,neutral,0.6,0.6,2.013,-4.269,,scored,neutral,neutral,,True,True,,False,False,True,True,False,False,MASR_20250629_4464858.json
+MCQE,Construction & Building Materials,2025-06-23,short,dividend,False,neutral,neutral,neutral,0.72,0.65,4.771,3.41,,scored,up,up,,False,False,,True,True,True,True,True,True,MCQE_20250623_4462980.json
+MCQE,Construction & Building Materials,2025-06-23,medium,dividend,False,up,neutral,up,0.7,0.62,17.594,9.876,,scored,up,up,,True,False,,True,True,True,True,True,True,MCQE_20250623_4462980.json
+MCQE,Construction & Building Materials,2025-06-23,large,dividend,False,up,neutral,up,0.75,0.6,22.508,11.366,,scored,up,up,,True,False,,True,True,True,True,True,True,MCQE_20250623_4462980.json
+MFPC,Petroleum & Petrochemicals,2025-06-29,short,operational,True,up,neutral,up,0.68,0.55,1.925,1.058,,scored,up,up,,True,False,,True,True,True,True,True,True,MFPC_20250629_4464720.json
+MFPC,Petroleum & Petrochemicals,2025-06-29,medium,operational,True,up,neutral,up,0.72,0.52,1.843,0.721,,scored,up,neutral,,True,True,,True,False,False,True,True,False,MFPC_20250629_4464720.json
+MFPC,Petroleum & Petrochemicals,2025-06-29,large,operational,True,neutral,neutral,neutral,0.58,0.5,-26.782,-7.063,,scored,down,down,,False,False,,False,False,True,True,False,False,MFPC_20250629_4464720.json
+RAYA,Technology & Fintech,2025-06-23,short,dividend,False,up,neutral,up,0.68,0.6,0.358,3.7,,scored,neutral,up,,False,False,,False,True,False,True,False,True,RAYA_20250623_4462998.json
+RAYA,Technology & Fintech,2025-06-23,medium,dividend,False,up,neutral,up,0.7,0.6,2.151,5.739,,scored,up,up,,True,False,,True,True,True,True,True,True,RAYA_20250623_4462998.json
+RAYA,Technology & Fintech,2025-06-23,large,dividend,False,up,neutral,up,0.72,0.6,13.262,9.621,,scored,up,up,,True,False,,True,True,True,True,True,True,RAYA_20250623_4462998.json
+RAYA,Technology & Fintech,2025-06-24,short,m_and_a,True,down,neutral,down,0.65,0.58,0.358,3.7,,scored,neutral,up,,False,False,,False,True,False,True,False,True,RAYA_20250624_4463501.json
+RAYA,Technology & Fintech,2025-06-24,medium,m_and_a,True,down,neutral,down,0.67,0.58,2.151,5.739,,scored,up,up,,False,False,,True,True,True,True,True,True,RAYA_20250624_4463501.json
+RAYA,Technology & Fintech,2025-06-24,large,m_and_a,True,down,neutral,down,0.68,0.55,13.262,9.621,,scored,up,up,,False,False,,True,True,True,True,True,True,RAYA_20250624_4463501.json
+RAYA,Technology & Fintech,2025-06-29,short,operational,True,up,neutral,up,0.65,0.55,8.997,1.481,,scored,up,up,,True,False,,True,True,True,True,True,True,RAYA_20250629_4464650.json
+RAYA,Technology & Fintech,2025-06-29,medium,operational,True,up,neutral,up,0.7,0.55,10.727,1.104,,scored,up,neutral,,True,True,,True,False,False,True,True,False,RAYA_20250629_4464650.json
+RAYA,Technology & Fintech,2025-06-29,large,operational,True,up,neutral,up,0.75,0.5,7.958,-0.057,,scored,up,neutral,,True,True,,True,False,False,True,True,False,RAYA_20250629_4464650.json
+RMDA,Healthcare & Pharmaceuticals,2025-06-29,short,dividend,True,down,neutral,down,0.68,0.6,-1.739,-1.24,,scored,down,down,,True,False,,False,False,True,True,False,False,RMDA_20250629_4464725.json
+RMDA,Healthcare & Pharmaceuticals,2025-06-29,medium,dividend,True,up,neutral,up,0.7,0.58,-3.261,-3.373,,scored,down,down,,False,False,,False,False,True,True,False,False,RMDA_20250629_4464725.json
+RMDA,Healthcare & Pharmaceuticals,2025-06-29,large,dividend,True,up,neutral,up,0.78,0.55,-4.565,1.882,,scored,neutral,neutral,,False,True,,False,False,True,True,False,False,RMDA_20250629_4464725.json

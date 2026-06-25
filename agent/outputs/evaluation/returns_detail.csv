@@ -1,0 +1,55 @@
+ticker,sector,event_date,horizon,horizon_days,event_type,sentiment,pred_dir,pred_mag,pred_conf,anchor_date,anchor_price,start_date,start_price,end_date,end_price,actual_ret_pct,neutral_band,obs_dir,hit,file
+ABUK,Petroleum & Petrochemicals,2025-06-29,short,1,earnings,neutral,neutral,none,0.6,2025-06-25,48.89,2025-06-29,50.39,2025-06-29,50.39,3.0681,0.88,up,False,ABUK_20250629_4464697.json
+ABUK,Petroleum & Petrochemicals,2025-06-29,medium,2,earnings,neutral,down,small,0.65,2025-06-25,48.89,2025-06-29,50.39,2025-06-30,50.0,2.2704,1.24,up,False,ABUK_20250629_4464697.json
+ABUK,Petroleum & Petrochemicals,2025-06-29,large,20,earnings,neutral,down,small,0.7,2025-06-25,48.89,2025-06-29,50.39,2025-07-29,50.2,2.6795,3.94,neutral,False,ABUK_20250629_4464697.json
+ABUK,Petroleum & Petrochemicals,2025-06-29,short,1,m_and_a,neutral,neutral,none,0.68,2025-06-25,48.89,2025-06-29,50.39,2025-06-29,50.39,3.0681,0.88,up,False,ABUK_20250629_4464705.json
+ABUK,Petroleum & Petrochemicals,2025-06-29,medium,2,m_and_a,neutral,neutral,none,0.7,2025-06-25,48.89,2025-06-29,50.39,2025-06-30,50.0,2.2704,1.24,up,False,ABUK_20250629_4464705.json
+ABUK,Petroleum & Petrochemicals,2025-06-29,large,20,m_and_a,neutral,neutral,none,0.72,2025-06-25,48.89,2025-06-29,50.39,2025-07-29,50.2,2.6795,3.94,neutral,True,ABUK_20250629_4464705.json
+ABUK,Petroleum & Petrochemicals,2025-06-29,short,1,operational,positive,up,small,0.72,2025-06-25,48.89,2025-06-29,50.39,2025-06-29,50.39,3.0681,0.88,up,True,ABUK_20250629_4464717.json
+ABUK,Petroleum & Petrochemicals,2025-06-29,medium,2,operational,positive,up,small,0.7,2025-06-25,48.89,2025-06-29,50.39,2025-06-30,50.0,2.2704,1.24,up,True,ABUK_20250629_4464717.json
+ABUK,Petroleum & Petrochemicals,2025-06-29,large,20,operational,positive,up,small,0.65,2025-06-25,48.89,2025-06-29,50.39,2025-07-29,50.2,2.6795,3.94,neutral,False,ABUK_20250629_4464717.json
+AMOC,Petroleum & Petrochemicals,2025-06-29,short,1,earnings,positive,up,small,0.75,2025-06-25,7.54,2025-06-29,7.65,2025-06-29,7.65,1.4589,0.69,up,True,AMOC_20250629_4464778.json
+AMOC,Petroleum & Petrochemicals,2025-06-29,medium,2,earnings,positive,up,medium,0.72,2025-06-25,7.54,2025-06-29,7.65,2025-06-30,7.43,-1.4589,0.98,down,False,AMOC_20250629_4464778.json
+AMOC,Petroleum & Petrochemicals,2025-06-29,large,20,earnings,positive,up,medium,0.7,2025-06-25,7.54,2025-06-29,7.65,2025-07-29,7.47,-0.9284,3.11,neutral,False,AMOC_20250629_4464778.json
+ETEL,Telecommunications,2025-06-26,short,1,operational,positive,neutral,none,0.58,2025-06-25,37.93,2025-06-29,38.3,2025-06-29,38.3,0.9755,0.49,up,False,ETEL_20250626_4464213.json
+ETEL,Telecommunications,2025-06-26,medium,2,operational,positive,up,small,0.6,2025-06-25,37.93,2025-06-29,38.3,2025-06-30,38.0,0.1845,0.7,neutral,False,ETEL_20250626_4464213.json
+ETEL,Telecommunications,2025-06-26,large,20,operational,positive,up,small,0.62,2025-06-25,37.93,2025-06-29,38.3,2025-07-29,40.19,5.9583,2.21,up,True,ETEL_20250626_4464213.json
+FWRY,Technology & Fintech,2025-06-24,short,1,earnings,positive,up,small,0.65,2025-06-23,12.01,2025-06-24,12.35,2025-06-24,12.35,2.831,1.14,up,True,FWRY_20250624_4463473.json
+FWRY,Technology & Fintech,2025-06-24,medium,2,earnings,positive,up,small,0.68,2025-06-23,12.01,2025-06-24,12.35,2025-06-25,12.65,5.3289,1.61,up,True,FWRY_20250624_4463473.json
+FWRY,Technology & Fintech,2025-06-24,large,20,earnings,positive,up,small,0.72,2025-06-23,12.01,2025-06-24,12.35,2025-07-27,13.01,8.3264,5.08,up,True,FWRY_20250624_4463473.json
+FWRY,Technology & Fintech,2025-06-24,short,1,earnings,positive,neutral,none,0.72,2025-06-23,12.01,2025-06-24,12.35,2025-06-24,12.35,2.831,1.14,up,False,FWRY_20250624_4463487.json
+FWRY,Technology & Fintech,2025-06-24,medium,2,earnings,positive,up,small,0.68,2025-06-23,12.01,2025-06-24,12.35,2025-06-25,12.65,5.3289,1.61,up,True,FWRY_20250624_4463487.json
+FWRY,Technology & Fintech,2025-06-24,large,20,earnings,positive,up,medium,0.74,2025-06-23,12.01,2025-06-24,12.35,2025-07-27,13.01,8.3264,5.08,up,True,FWRY_20250624_4463487.json
+GBCO,Diversified Holding,2025-06-23,short,1,operational,positive,up,small,0.68,2025-06-22,22.64,2025-06-23,22.5,2025-06-23,22.5,-0.6184,1.5,neutral,False,GBCO_20250623_4463040.json
+GBCO,Diversified Holding,2025-06-23,medium,2,operational,positive,up,small,0.72,2025-06-22,22.64,2025-06-23,22.5,2025-06-24,22.8,0.7067,2.12,neutral,False,GBCO_20250623_4463040.json
+GBCO,Diversified Holding,2025-06-23,large,20,operational,positive,up,medium,0.75,2025-06-22,22.64,2025-06-23,22.5,2025-07-23,23.41,3.4011,6.71,neutral,False,GBCO_20250623_4463040.json
+HRHO,Non-Bank Financials,2025-06-24,short,1,operational,positive,up,small,0.68,2025-06-23,27.5,2025-06-24,28.1,2025-06-24,28.1,2.1818,1.61,up,True,HRHO_20250624_4463561.json
+HRHO,Non-Bank Financials,2025-06-24,medium,2,operational,positive,up,medium,0.72,2025-06-23,27.5,2025-06-24,28.1,2025-06-25,27.39,-0.4,2.28,neutral,False,HRHO_20250624_4463561.json
+HRHO,Non-Bank Financials,2025-06-24,large,20,operational,positive,up,medium,0.65,2025-06-23,27.5,2025-06-24,28.1,2025-07-27,24.51,-10.8727,7.2,down,False,HRHO_20250624_4463561.json
+JUFO,Food & Beverages,2025-06-25,short,1,earnings,negative,down,small,0.65,2025-06-25,27.68,2025-06-29,27.3,2025-06-29,27.3,-1.3728,0.99,down,True,JUFO_20250625_4463831.json
+JUFO,Food & Beverages,2025-06-25,medium,2,earnings,negative,down,small,0.7,2025-06-25,27.68,2025-06-29,27.3,2025-06-30,27.23,-1.6257,1.41,down,True,JUFO_20250625_4463831.json
+JUFO,Food & Beverages,2025-06-25,large,20,earnings,negative,down,small,0.7,2025-06-25,27.68,2025-06-29,27.3,2025-07-29,28.44,2.7457,4.45,neutral,False,JUFO_20250625_4463831.json
+JUFO,Food & Beverages,2025-06-25,short,1,operational,negative,neutral,none,0.6,2025-06-25,27.68,2025-06-29,27.3,2025-06-29,27.3,-1.3728,0.99,down,False,JUFO_20250625_4464045.json
+JUFO,Food & Beverages,2025-06-25,medium,2,operational,negative,neutral,none,0.6,2025-06-25,27.68,2025-06-29,27.3,2025-06-30,27.23,-1.6257,1.41,down,False,JUFO_20250625_4464045.json
+JUFO,Food & Beverages,2025-06-25,large,20,operational,negative,neutral,none,0.65,2025-06-25,27.68,2025-06-29,27.3,2025-07-29,28.44,2.7457,4.45,neutral,True,JUFO_20250625_4464045.json
+MASR,Real Estate,2025-06-29,short,1,capital_increase,positive,up,small,0.7,2025-06-25,4.47,2025-06-29,4.55,2025-06-29,4.55,1.7897,0.99,up,True,MASR_20250629_4464858.json
+MASR,Real Estate,2025-06-29,medium,2,capital_increase,positive,up,small,0.7,2025-06-25,4.47,2025-06-29,4.55,2025-06-30,4.54,1.566,1.41,up,True,MASR_20250629_4464858.json
+MASR,Real Estate,2025-06-29,large,20,capital_increase,positive,neutral,none,0.6,2025-06-25,4.47,2025-06-29,4.55,2025-07-29,4.56,2.0134,4.45,neutral,True,MASR_20250629_4464858.json
+MCQE,Construction & Building Materials,2025-06-23,short,1,dividend,positive,neutral,none,0.72,2025-06-23,49.05,2025-06-24,51.39,2025-06-24,51.39,4.7706,1.94,up,False,MCQE_20250623_4462980.json
+MCQE,Construction & Building Materials,2025-06-23,medium,2,dividend,positive,up,small,0.7,2025-06-23,49.05,2025-06-24,51.39,2025-06-25,57.68,17.5943,2.74,up,True,MCQE_20250623_4462980.json
+MCQE,Construction & Building Materials,2025-06-23,large,20,dividend,positive,up,medium,0.75,2025-06-23,49.05,2025-06-24,51.39,2025-07-27,60.09,22.5076,8.65,up,True,MCQE_20250623_4462980.json
+MFPC,Petroleum & Petrochemicals,2025-06-29,short,1,operational,positive,up,small,0.68,2025-06-25,36.89,2025-06-29,37.6,2025-06-29,37.6,1.9246,0.87,up,True,MFPC_20250629_4464720.json
+MFPC,Petroleum & Petrochemicals,2025-06-29,medium,2,operational,positive,up,medium,0.72,2025-06-25,36.89,2025-06-29,37.6,2025-06-30,37.57,1.8433,1.23,up,True,MFPC_20250629_4464720.json
+MFPC,Petroleum & Petrochemicals,2025-06-29,large,20,operational,positive,neutral,none,0.58,2025-06-25,36.89,2025-06-29,37.6,2025-07-29,27.01,-26.7823,3.89,down,False,MFPC_20250629_4464720.json
+RAYA,Technology & Fintech,2025-06-23,short,1,dividend,positive,up,small,0.68,2025-06-23,2.79,2025-06-24,2.8,2025-06-24,2.8,0.3584,1.47,neutral,False,RAYA_20250623_4462998.json
+RAYA,Technology & Fintech,2025-06-23,medium,2,dividend,positive,up,small,0.7,2025-06-23,2.79,2025-06-24,2.8,2025-06-25,2.85,2.1505,2.07,up,True,RAYA_20250623_4462998.json
+RAYA,Technology & Fintech,2025-06-23,large,20,dividend,positive,up,medium,0.72,2025-06-23,2.79,2025-06-24,2.8,2025-07-27,3.16,13.2617,6.55,up,True,RAYA_20250623_4462998.json
+RAYA,Technology & Fintech,2025-06-24,short,1,m_and_a,positive,down,small,0.65,2025-06-23,2.79,2025-06-24,2.8,2025-06-24,2.8,0.3584,1.47,neutral,False,RAYA_20250624_4463501.json
+RAYA,Technology & Fintech,2025-06-24,medium,2,m_and_a,positive,down,small,0.67,2025-06-23,2.79,2025-06-24,2.8,2025-06-25,2.85,2.1505,2.07,up,False,RAYA_20250624_4463501.json
+RAYA,Technology & Fintech,2025-06-24,large,20,m_and_a,positive,down,small,0.68,2025-06-23,2.79,2025-06-24,2.8,2025-07-27,3.16,13.2617,6.55,up,False,RAYA_20250624_4463501.json
+RAYA,Technology & Fintech,2025-06-29,short,1,operational,positive,up,small,0.65,2025-06-29,2.89,2025-06-30,3.15,2025-06-30,3.15,8.9965,1.49,up,True,RAYA_20250629_4464650.json
+RAYA,Technology & Fintech,2025-06-29,medium,2,operational,positive,up,medium,0.7,2025-06-29,2.89,2025-06-30,3.15,2025-07-01,3.2,10.7266,2.11,up,True,RAYA_20250629_4464650.json
+RAYA,Technology & Fintech,2025-06-29,large,20,operational,positive,up,medium,0.75,2025-06-29,2.89,2025-06-30,3.15,2025-07-30,3.12,7.9585,6.66,up,True,RAYA_20250629_4464650.json
+RMDA,Healthcare & Pharmaceuticals,2025-06-29,short,1,dividend,positive,down,small,0.68,2025-06-25,4.6,2025-06-29,4.52,2025-06-29,4.52,-1.7391,1.03,down,True,RMDA_20250629_4464725.json
+RMDA,Healthcare & Pharmaceuticals,2025-06-29,medium,2,dividend,positive,up,small,0.7,2025-06-25,4.6,2025-06-29,4.52,2025-06-30,4.45,-3.2609,1.46,down,False,RMDA_20250629_4464725.json
+RMDA,Healthcare & Pharmaceuticals,2025-06-29,large,20,dividend,positive,up,medium,0.78,2025-06-25,4.6,2025-06-29,4.52,2025-07-29,4.39,-4.5652,4.61,neutral,False,RMDA_20250629_4464725.json

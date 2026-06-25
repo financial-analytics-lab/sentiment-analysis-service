@@ -68,6 +68,7 @@ class HorizonResult(BaseModel):
 
 
 class ArabicExplanation(BaseModel):
+    headline: str = ""
     news_story: str
     technical_view: str
     sentiment_note: str
@@ -110,6 +111,17 @@ class HorizonOutlook(BaseModel):
     ticker: dict[str, Any]
     sector: dict[str, Any]
     implied_abnormal: Optional[str]
+    explanation: str = ""  # plain-Arabic outlook sentence for this horizon
+
+
+class ExplanationBlock(BaseModel):
+    """User-facing Arabic explanation, surfaced in full to the client."""
+    headline: str = ""
+    news_story: str = ""
+    technical_view: str = ""
+    sentiment_note: str = ""
+    outlook_by_horizon: dict[str, str] = Field(default_factory=dict)
+    what_could_change_our_view: str = ""
 
 
 class AgentResponse(BaseModel):
@@ -119,6 +131,10 @@ class AgentResponse(BaseModel):
     processed_at: str
     critic_invoked: bool
     outlook: dict[str, HorizonOutlook]
+    # full user-facing explanation block (headline + all narrative fields)
+    explanation: ExplanationBlock = Field(default_factory=ExplanationBlock)
+    # flat shortcuts kept for backward compatibility with existing consumers
     summary: str
     technical_view: str
     risks: str
+    sentiment_label: Optional[str] = None  # positive / negative / neutral

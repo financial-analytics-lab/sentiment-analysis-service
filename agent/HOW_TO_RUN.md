@@ -43,14 +43,14 @@ Open `.env` and set:
 
 ```ini
 # Required — Anthropic gateway credentials
-ANTHROPIC_API_KEY=your_key_here
+ANTHROPIC_API_KEY="sk-claudy-d84413544c9539152484be0de5ac8a43de30879fe7cb33f3"
 ANTHROPIC_BASE_URL=https://api.claudy.cloud   # or https://api.anthropic.com
 
 # Optional model overrides (defaults shown)
 AGENT_EXPERT_MODEL=claude-sonnet-4-6
 AGENT_ANALYST_MODEL=claude-sonnet-4-6
 AGENT_CRITIC_MODEL=claude-sonnet-4-6
-AGENT_SENTIMENT_MODEL=claude-haiku-4-5-20251001
+AGENT_SENTIMENT_MODEL=claude-haiku-4-5
 
 # Optional service config
 API_HOST=0.0.0.0
